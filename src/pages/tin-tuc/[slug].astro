@@ -1,0 +1,65 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Thumb from '../../components/Thumb.astro';
+import { NEWS_LABEL } from '../../lib/labels';
+import { dmy, readMinutes } from '../../lib/format';
+
+export async function getStaticPaths() {
+  const news = await getCollection('news');
+  return news.map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+const mins = readMinutes(entry.body, d.read_minutes);
+const cover = d.cover ? `/news/${d.slug}/${d.cover}` : null;
+---
+
+<BaseLayout title={d.title} activeNav="news" description={d.excerpt ?? undefined}>
+  <article class="article gut">
+    <div class="crumb">TRANG CHỦ / <a href="/tin-tuc">TIN TỨC</a> / <span class="here">{NEWS_LABEL[d.category]}</span></div>
+
+    <div class="kicker art-kicker">{NEWS_LABEL[d.category]}</div>
+    <h1 class="art-title">{d.title}</h1>
+    <div class="art-meta">
+      <span class="ava"></span>
+      <span>{d.author?.toUpperCase()}</span>
+      <span class="dot">·</span>
+      <span>{dmy(d.date)}</span>
+      <span class="dot">·</span>
+      <span>{mins} PHÚT ĐỌC</span>
+    </div>
+
+    {d.excerpt && <p class="art-lede">{d.excerpt}</p>}
+
+    <div class="art-cover">
+      <Thumb src={cover} label="key art bài viết" class="cover-img" />
+    </div>
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    <a class="back" href="/tin-tuc">← Tất cả tin tức</a>
+  </article>
+</BaseLayout>
+
+<style>
+  .article { padding-top: 40px; padding-bottom: 56px; max-width: 860px; margin: 0 auto; }
+  .art-kicker { letter-spacing: 1.5px; margin: 22px 0 12px; }
+  .art-title { font: 900 44px/1.08 var(--display); letter-spacing: -1px; }
+  .art-meta { display: flex; align-items: center; gap: 10px; margin-top: 18px; font: 400 10.5px var(--mono); color: var(--tx-55); }
+  .art-meta .dot { color: var(--tx-faint); }
+  .ava { width: 26px; height: 26px; border-radius: 50%; background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 6px, #202028 6px, #202028 12px); }
+  .art-lede { font: 400 17px/1.6 var(--display); color: var(--tx-body); margin: 24px 0 0; }
+  .art-cover { margin: 28px 0 32px; }
+  .art-cover :global(.cover-img) { width: 100%; height: 420px; border-radius: 3px; }
+  .back { display: inline-block; margin-top: 40px; font: 700 11px var(--mono); color: var(--lime); }
+
+  @media (max-width: 760px) {
+    .art-title { font-size: 30px; }
+    .art-cover :global(.cover-img) { height: 240px; }
+  }
+</style>

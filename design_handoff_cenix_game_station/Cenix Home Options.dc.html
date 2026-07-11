@@ -1,0 +1,1748 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;900&family=Space+Mono:wght@400;700&family=Baloo+2:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#101012;font-family:Archivo,system-ui,sans-serif}
+a{color:#c8f03c;text-decoration:none}a:hover{color:#e2ff70}
+.dv-turn{padding:40px 44px 32px;border-bottom:1px solid rgba(255,255,255,.08);scroll-margin-top:16px}
+.dv-thd{display:flex;align-items:baseline;gap:10px;margin:0 0 20px}
+.dv-tid{font:600 10px 'Space Mono',monospace;padding:3px 7px;background:#c8f03c;color:#101012;border-radius:4px;text-decoration:none}
+.dv-tname{font:600 13px/1.2 Archivo,sans-serif;color:#fff}
+.dv-opts{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start}
+.dv-opt{flex:none;display:flex;flex-direction:column;gap:9px;scroll-margin-top:16px}
+.dv-oid{font:600 10.5px 'Space Mono',monospace;padding:3px 7px;background:rgba(255,255,255,.12);color:#fff;border-radius:5px;text-decoration:none}
+.dv-olabel{display:flex;align-items:baseline;gap:8px;font:400 11px/1.3 Archivo,sans-serif;color:rgba(255,255,255,.55)}
+.dv-card{max-width:100%;border:1px solid rgba(255,255,255,.1);border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.4);overflow:hidden}
+.dv-opt:target .dv-oid{background:#c8f03c;color:#101012}
+.dv-next{margin:22px 0 0;font:12px/1.5 Archivo,sans-serif;color:rgba(255,255,255,.5)}
+.ph{background:repeating-linear-gradient(45deg,#1c1c22 0,#1c1c22 10px,#202028 10px,#202028 20px);display:flex;align-items:center;justify-content:center}
+.ph span{font:11px 'Space Mono',monospace;color:rgba(255,255,255,.4);text-align:center;padding:8px}
+.phl{background:repeating-linear-gradient(45deg,#e6e4dc 0,#e6e4dc 10px,#dddbd2 10px,#dddbd2 20px)}
+.phl span{color:rgba(0,0,0,.4)}
+</style>
+</helmet>
+
+<section class="dv-turn" id="t4">
+<div class="dv-thd"><a class="dv-tid" href="#t4">4</a><span class="dv-tname">Các trang con theo hệ <a class="dv-oid" href="#3a">3a</a> Dark Magazine</span></div>
+<div class="dv-opts">
+
+<!-- ============ 4a: TIN TỨC ============ -->
+<div class="dv-opt" id="4a">
+<div class="dv-olabel"><a class="dv-oid" href="#4a">4a</a>Trang Tin tức — filter chuyên mục + list editorial</div>
+<div class="dv-card" style="width:1280px;background:#0a0a0b;color:#fff">
+
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:20px 48px;border-bottom:1px solid rgba(255,255,255,.09)">
+    <div style="display:flex;align-items:center;gap:11px">
+      <div style="width:32px;height:32px;background:#c8f03c;border-radius:4px;display:flex;align-items:center;justify-content:center;font:900 17px Archivo;color:#0a0a0b">C</div>
+      <div style="font:900 16px Archivo;letter-spacing:1px">CENIX <span style="color:rgba(255,255,255,.45);font-weight:400">/</span> GAME STATION</div>
+    </div>
+    <div style="display:flex;gap:32px;font:700 11.5px 'Space Mono',monospace;letter-spacing:1px">
+      <span style="color:rgba(255,255,255,.55)">TRANG CHỦ</span>
+      <span style="border-bottom:2px solid #c8f03c;padding-bottom:5px">TIN TỨC</span>
+      <span style="color:rgba(255,255,255,.55)">VIDEO</span>
+      <span style="color:rgba(255,255,255,.55)">TIER-LIST</span>
+      <span style="color:rgba(255,255,255,.55)">HƯỚNG DẪN</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px">
+      <div style="display:flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.18);border-radius:3px;padding:8px 14px;font:400 11px 'Space Mono',monospace;color:rgba(255,255,255,.4);width:150px">⌕ Tìm kiếm…</div>
+      <div style="background:#c8f03c;color:#0a0a0b;font:700 11px 'Space Mono',monospace;padding:9px 16px;border-radius:3px">THEO DÕI</div>
+    </div>
+  </div>
+
+  <!-- page head -->
+  <div style="padding:44px 48px 28px;border-bottom:1px solid rgba(255,255,255,.09)">
+    <div style="font:400 10.5px 'Space Mono',monospace;color:rgba(255,255,255,.4);margin-bottom:10px">TRANG CHỦ / <span style="color:#c8f03c">TIN TỨC</span></div>
+    <div style="display:flex;align-items:flex-end;justify-content:space-between">
+      <div style="font:900 56px/1 Archivo;letter-spacing:-1.5px">TIN TỨC</div>
+      <div style="font:400 11px 'Space Mono',monospace;color:rgba(255,255,255,.45)">84 BÀI VIẾT · CẬP NHẬT MỖI NGÀY</div>
+    </div>
+    <div style="display:flex;gap:8px;margin-top:24px">
+      <span style="background:#c8f03c;color:#0a0a0b;font:700 11px 'Space Mono',monospace;padding:8px 18px;border-radius:20px">TẤT CẢ</span>
+      <span style="border:1px solid rgba(255,255,255,.2);font:400 11px 'Space Mono',monospace;padding:8px 18px;border-radius:20px;color:rgba(255,255,255,.65)">TIN TỨC</span>
+      <span style="border:1px solid rgba(255,255,255,.2);font:400 11px 'Space Mono',monospace;padding:8px 18px;border-radius:20px;color:rgba(255,255,255,.65)">SỰ KIỆN</span>
+      <span style="border:1px solid rgba(255,255,255,.2);font:400 11px 'Space Mono',monospace;padding:8px 18px;border-radius:20px;color:rgba(255,255,255,.65)">GIỚI THIỆU GAME</span>
+      <span style="border:1px solid rgba(255,255,255,.2);font:400 11px 'Space Mono',monospace;padding:8px 18px;border-radius:20px;color:rgba(255,255,255,.65)">PHÂN TÍCH</span>
+      <div style="margin-left:auto;display:flex;align-items:center;gap:8px;font:400 11px 'Space Mono',monospace;color:rgba(255,255,255,.45)">SẮP XẾP: <span style="color:#fff;border-bottom:1px solid rgba(255,255,255,.4)">MỚI NHẤT ▾</span></div>
+    </div>
+  </div>
+
+  <!-- featured -->
+  <div style="padding:36px 48px 0">
+    <div style="display:grid;grid-template-columns:1.15fr .85fr;gap:0;border:1px solid rgba(255,255,255,.12);border-radius:3px;overflow:hidden">
+      <div class="ph" style="height:340px"><span>key art — bài nổi bật chuyên mục</span></div>
+      <div style="padding:34px 36px;display:flex;flex-direction:column;gap:14px;justify-content:center;background:rgba(255,255,255,.02)">
+        <div style="display:flex;gap:8px;align-items:center">
+          <span style="background:#c8f03c;color:#0a0a0b;font:700 10px 'Space Mono',monospace;padding:3px 9px;border-radius:2px">NỔI BẬT</span>
+          <span style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.5)">11.07.2026 · 8 PHÚT ĐỌC</span>
+        </div>
+        <div style="font:900 30px/1.12 Archivo;letter-spacing:-.5px">Phiên bản 2.5: toàn bộ banner, sự kiện &amp; nhân vật đáng quay nhất</div>
+        <div style="font:400 13.5px/1.6 Archivo;color:rgba(255,255,255,.6)">Phân tích từng banner theo giá trị dài hạn — kèm nhận định nên để dành hay quay ngay từ đội ngũ Cenix.</div>
+        <div style="display:flex;align-items:center;gap:10px">
+          <div class="ph" style="width:28px;height:28px;border-radius:50%"><span></span></div>
+          <span style="font:400 10.5px 'Space Mono',monospace;color:rgba(255,255,255,.55)">CENIX TEAM</span>
+          <span style="margin-left:auto;font:700 11px 'Space Mono',monospace;color:#c8f03c">ĐỌC BÀI →</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- list -->
+  <div style="padding:20px 48px 0;display:flex;flex-direction:column">
+    <div style="display:flex;gap:22px;padding:24px 0;border-bottom:1px solid rgba(255,255,255,.09)">
+      <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.3);width:70px;flex:none;padding-top:4px">10.07<br>2026</div>
+      <div class="ph" style="width:200px;height:120px;border-radius:3px;flex:none"><span>thumb</span></div>
+      <div style="display:flex;flex-direction:column;gap:8px;justify-content:center;flex:1">
+        <div style="font:700 9.5px 'Space Mono',monospace;color:#c8f03c;letter-spacing:1.5px">GIỚI THIỆU GAME</div>
+        <div style="font:800 20px/1.25 Archivo">5 game gacha đáng chơi nhất nửa cuối 2026 — có gì mới ngoài các ông lớn?</div>
+        <div style="font:400 12.5px/1.55 Archivo;color:rgba(255,255,255,.5);max-width:640px">Từ tân binh mới ra mắt đến những cái tên đã chứng minh độ bền — lọc theo tiêu chí F2P-friendly, có so sánh rate và pity.</div>
+        <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.35)">5 PHÚT ĐỌC · CENIX TEAM</div>
+      </div>
+    </div>
+    <div style="display:flex;gap:22px;padding:24px 0;border-bottom:1px solid rgba(255,255,255,.09)">
+      <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.3);width:70px;flex:none;padding-top:4px">09.07<br>2026</div>
+      <div class="ph" style="width:200px;height:120px;border-radius:3px;flex:none"><span>thumb</span></div>
+      <div style="display:flex;flex-direction:column;gap:8px;justify-content:center;flex:1">
+        <div style="font:700 9.5px 'Space Mono',monospace;color:#c8f03c;letter-spacing:1.5px">TIN TỨC</div>
+        <div style="font:800 20px/1.25 Archivo">Sự kiện hè công bố: skin miễn phí và mini-game mới</div>
+        <div style="font:400 12.5px/1.55 Archivo;color:rgba(255,255,255,.5);max-width:640px">Tất cả phần thưởng miễn phí trong sự kiện hè năm nay và cách nhận nhanh nhất trong 3 ngày đầu.</div>
+        <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.35)">4 PHÚT ĐỌC · CENIX TEAM</div>
+      </div>
+    </div>
+    <div style="display:flex;gap:22px;padding:24px 0;border-bottom:1px solid rgba(255,255,255,.09)">
+      <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.3);width:70px;flex:none;padding-top:4px">08.07<br>2026</div>
+      <div class="ph" style="width:200px;height:120px;border-radius:3px;flex:none"><span>thumb</span></div>
+      <div style="display:flex;flex-direction:column;gap:8px;justify-content:center;flex:1">
+        <div style="font:700 9.5px 'Space Mono',monospace;color:#c8f03c;letter-spacing:1.5px">PHÂN TÍCH</div>
+        <div style="font:800 20px/1.25 Archivo">Meta PvE thay đổi thế nào sau bản cập nhật lớn?</div>
+        <div style="font:400 12.5px/1.55 Archivo;color:rgba(255,255,255,.5);max-width:640px">Nhân vật cũ nào quay lại meta, đội hình nào rớt hạng — số liệu từ clear rate cộng đồng tuần đầu.</div>
+        <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.35)">8 PHÚT ĐỌC · CENIX TEAM</div>
+      </div>
+    </div>
+    <div style="display:flex;gap:22px;padding:24px 0;border-bottom:1px solid rgba(255,255,255,.09)">
+      <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.3);width:70px;flex:none;padding-top:4px">07.07<br>2026</div>
+      <div class="ph" style="width:200px;height:120px;border-radius:3px;flex:none"><span>thumb</span></div>
+      <div style="display:flex;flex-direction:column;gap:8px;justify-content:center;flex:1">
+        <div style="font:700 9.5px 'Space Mono',monospace;color:#c8f03c;letter-spacing:1.5px">SỰ KIỆN</div>
+        <div style="font:800 20px/1.25 Archivo">Lịch banner tháng 7: nên để dành hay quay ngay?</div>
+        <div style="font:400 12.5px/1.55 Archivo;color:rgba(255,255,255,.5);max-width:640px">Timeline đầy đủ các banner đã xác nhận + leak đáng tin — lên kế hoạch ngọc từ bây giờ.</div>
+        <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.35)">4 PHÚT ĐỌC · CENIX TEAM</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- pagination -->
+  <div style="display:flex;justify-content:center;gap:8px;padding:34px 0 48px">
+    <span style="width:36px;height:36px;background:#c8f03c;color:#0a0a0b;font:700 12px 'Space Mono',monospace;border-radius:3px;display:flex;align-items:center;justify-content:center">1</span>
+    <span style="width:36px;height:36px;border:1px solid rgba(255,255,255,.2);font:400 12px 'Space Mono',monospace;border-radius:3px;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.6)">2</span>
+    <span style="width:36px;height:36px;border:1px solid rgba(255,255,255,.2);font:400 12px 'Space Mono',monospace;border-radius:3px;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.6)">3</span>
+    <span style="width:36px;height:36px;border:1px solid rgba(255,255,255,.2);font:400 12px 'Space Mono',monospace;border-radius:3px;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.6)">…</span>
+    <span style="height:36px;border:1px solid rgba(255,255,255,.2);font:400 12px 'Space Mono',monospace;border-radius:3px;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.6);padding:0 14px">SAU →</span>
+  </div>
+
+  <div style="padding:16px 48px;border-top:1px solid rgba(255,255,255,.07);display:flex;justify-content:space-between;font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.3)">
+    <span>© 2026 CENIX GAME STATION</span><span>MADE BY GAMERS, FOR GAMERS</span>
+  </div>
+</div>
+</div>
+
+<!-- ============ 4b: VIDEO ============ -->
+<div class="dv-opt" id="4b">
+<div class="dv-olabel"><a class="dv-oid" href="#4b">4b</a>Trang Video — player nổi bật + grid embed YouTube</div>
+<div class="dv-card" style="width:1280px;background:#0a0a0b;color:#fff">
+
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:20px 48px;border-bottom:1px solid rgba(255,255,255,.09)">
+    <div style="display:flex;align-items:center;gap:11px">
+      <div style="width:32px;height:32px;background:#c8f03c;border-radius:4px;display:flex;align-items:center;justify-content:center;font:900 17px Archivo;color:#0a0a0b">C</div>
+      <div style="font:900 16px Archivo;letter-spacing:1px">CENIX <span style="color:rgba(255,255,255,.45);font-weight:400">/</span> GAME STATION</div>
+    </div>
+    <div style="display:flex;gap:32px;font:700 11.5px 'Space Mono',monospace;letter-spacing:1px">
+      <span style="color:rgba(255,255,255,.55)">TRANG CHỦ</span>
+      <span style="color:rgba(255,255,255,.55)">TIN TỨC</span>
+      <span style="border-bottom:2px solid #c8f03c;padding-bottom:5px">VIDEO</span>
+      <span style="color:rgba(255,255,255,.55)">TIER-LIST</span>
+      <span style="color:rgba(255,255,255,.55)">HƯỚNG DẪN</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px">
+      <div style="display:flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.18);border-radius:3px;padding:8px 14px;font:400 11px 'Space Mono',monospace;color:rgba(255,255,255,.4);width:150px">⌕ Tìm kiếm…</div>
+      <div style="background:#c8f03c;color:#0a0a0b;font:700 11px 'Space Mono',monospace;padding:9px 16px;border-radius:3px">THEO DÕI</div>
+    </div>
+  </div>
+
+  <div style="padding:44px 48px 28px;border-bottom:1px solid rgba(255,255,255,.09)">
+    <div style="font:400 10.5px 'Space Mono',monospace;color:rgba(255,255,255,.4);margin-bottom:10px">TRANG CHỦ / <span style="color:#c8f03c">VIDEO</span></div>
+    <div style="display:flex;align-items:flex-end;justify-content:space-between">
+      <div style="font:900 56px/1 Archivo;letter-spacing:-1.5px">VIDEO</div>
+      <div style="font:400 11px 'Space Mono',monospace;color:rgba(255,255,255,.45)">EMBED TỪ YOUTUBE · 46 VIDEO</div>
+    </div>
+    <div style="display:flex;gap:8px;margin-top:24px">
+      <span style="background:#c8f03c;color:#0a0a0b;font:700 11px 'Space Mono',monospace;padding:8px 18px;border-radius:20px">TẤT CẢ</span>
+      <span style="border:1px solid rgba(255,255,255,.2);font:400 11px 'Space Mono',monospace;padding:8px 18px;border-radius:20px;color:rgba(255,255,255,.65)">GAMEPLAY</span>
+      <span style="border:1px solid rgba(255,255,255,.2);font:400 11px 'Space Mono',monospace;padding:8px 18px;border-radius:20px;color:rgba(255,255,255,.65)">REVIEW</span>
+      <span style="border:1px solid rgba(255,255,255,.2);font:400 11px 'Space Mono',monospace;padding:8px 18px;border-radius:20px;color:rgba(255,255,255,.65)">CỐT TRUYỆN</span>
+      <span style="border:1px solid rgba(255,255,255,.2);font:400 11px 'Space Mono',monospace;padding:8px 18px;border-radius:20px;color:rgba(255,255,255,.65)">HƯỚNG DẪN</span>
+    </div>
+  </div>
+
+  <!-- featured player -->
+  <div style="padding:36px 48px 0;display:grid;grid-template-columns:1fr 340px;gap:20px">
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div class="ph" style="height:460px;border-radius:3px;position:relative"><span>YouTube embed 16:9 — video đang chọn</span>
+        <div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:70px;height:70px;border:2px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font:900 22px Archivo;background:rgba(10,10,11,.5)">▶</div>
+        <div style="position:absolute;right:14px;bottom:14px;background:rgba(10,10,11,.85);font:400 10px 'Space Mono',monospace;padding:4px 9px;border-radius:2px">18:22</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <div style="display:flex;gap:8px;align-items:center">
+          <span style="background:#c8f03c;color:#0a0a0b;font:700 10px 'Space Mono',monospace;padding:3px 9px;border-radius:2px">GAMEPLAY</span>
+          <span style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.5)">11.07.2026 · YOUTUBE</span>
+        </div>
+        <div style="font:900 26px/1.15 Archivo">Gameplay nhân vật mới — có đáng quay không? Verdict sau 3 ngày trải nghiệm</div>
+        <div style="font:400 13px/1.6 Archivo;color:rgba(255,255,255,.55);max-width:700px">Test full rotation, so sánh DPS với các lựa chọn cũ cùng vai trò, kèm build đề xuất cho cả F2P lẫn nạp nhẹ.</div>
+      </div>
+    </div>
+    <!-- up next -->
+    <div style="display:flex;flex-direction:column;gap:4px">
+      <div style="font:900 13px 'Space Mono',monospace;letter-spacing:2px;color:#c8f03c;border-bottom:1px solid rgba(255,255,255,.12);padding-bottom:10px;margin-bottom:10px">◆ TIẾP THEO</div>
+      <div style="display:flex;gap:12px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.07)">
+        <div class="ph" style="width:120px;height:68px;border-radius:3px;flex:none;position:relative"><span></span><div style="position:absolute;right:5px;bottom:5px;background:rgba(10,10,11,.85);font:400 8.5px 'Space Mono',monospace;padding:2px 5px;border-radius:2px">09:47</div></div>
+        <div style="display:flex;flex-direction:column;gap:4px;justify-content:center"><div style="font:700 12.5px/1.3 Archivo">Build đội hình F2P mạnh nhất bản hiện tại</div><div style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.4)">REVIEW</div></div>
+      </div>
+      <div style="display:flex;gap:12px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.07)">
+        <div class="ph" style="width:120px;height:68px;border-radius:3px;flex:none;position:relative"><span></span><div style="position:absolute;right:5px;bottom:5px;background:rgba(10,10,11,.85);font:400 8.5px 'Space Mono',monospace;padding:2px 5px;border-radius:2px">10:05</div></div>
+        <div style="display:flex;flex-direction:column;gap:4px;justify-content:center"><div style="font:700 12.5px/1.3 Archivo">Tóm tắt cốt truyện chương mới trong 10 phút</div><div style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.4)">CỐT TRUYỆN</div></div>
+      </div>
+      <div style="display:flex;gap:12px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.07)">
+        <div class="ph" style="width:120px;height:68px;border-radius:3px;flex:none;position:relative"><span></span><div style="position:absolute;right:5px;bottom:5px;background:rgba(10,10,11,.85);font:400 8.5px 'Space Mono',monospace;padding:2px 5px;border-radius:2px">22:14</div></div>
+        <div style="display:flex;flex-direction:column;gap:4px;justify-content:center"><div style="font:700 12.5px/1.3 Archivo">Clear endgame full sao với đội hình rẻ nhất</div><div style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.4)">HƯỚNG DẪN</div></div>
+      </div>
+      <div style="display:flex;gap:12px;padding:10px 0">
+        <div class="ph" style="width:120px;height:68px;border-radius:3px;flex:none;position:relative"><span></span><div style="position:absolute;right:5px;bottom:5px;background:rgba(10,10,11,.85);font:400 8.5px 'Space Mono',monospace;padding:2px 5px;border-radius:2px">14:31</div></div>
+        <div style="display:flex;flex-direction:column;gap:4px;justify-content:center"><div style="font:700 12.5px/1.3 Archivo">Top 10 khoảnh khắc gacha "xanh chín" nhất tuần</div><div style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.4)">GIẢI TRÍ</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- grid all videos -->
+  <div style="padding:48px 48px 52px">
+    <div style="display:flex;align-items:baseline;gap:16px;margin-bottom:20px">
+      <div style="font:900 22px Archivo">TẤT CẢ VIDEO</div>
+      <div style="flex:1;height:1px;background:rgba(255,255,255,.12)"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
+      <div style="display:flex;flex-direction:column;gap:9px">
+        <div class="ph" style="height:124px;border-radius:3px;position:relative"><span>YouTube 16:9</span><div style="position:absolute;right:7px;bottom:7px;background:rgba(10,10,11,.85);font:400 9px 'Space Mono',monospace;padding:2px 6px;border-radius:2px">11:08</div></div>
+        <div style="font:700 13px/1.3 Archivo">So sánh 2 DPS hot nhất meta — nên chọn ai?</div>
+        <div style="font:400 9.5px 'Space Mono',monospace;color:rgba(255,255,255,.4)">REVIEW · 05.07</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:9px">
+        <div class="ph" style="height:124px;border-radius:3px;position:relative"><span>YouTube 16:9</span><div style="position:absolute;right:7px;bottom:7px;background:rgba(10,10,11,.85);font:400 9px 'Space Mono',monospace;padding:2px 6px;border-radius:2px">16:44</div></div>
+        <div style="font:700 13px/1.3 Archivo">Thử thách: clear boss tuần chỉ với nhân vật 4★</div>
+        <div style="font:400 9.5px 'Space Mono',monospace;color:rgba(255,255,255,.4)">GAMEPLAY · 04.07</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:9px">
+        <div class="ph" style="height:124px;border-radius:3px;position:relative"><span>YouTube 16:9</span><div style="position:absolute;right:7px;bottom:7px;background:rgba(10,10,11,.85);font:400 9px 'Space Mono',monospace;padding:2px 6px;border-radius:2px">08:19</div></div>
+        <div style="font:700 13px/1.3 Archivo">5 mẹo tiết kiệm ngọc mà 90% người chơi bỏ qua</div>
+        <div style="font:400 9.5px 'Space Mono',monospace;color:rgba(255,255,255,.4)">HƯỚNG DẪN · 03.07</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:9px">
+        <div class="ph" style="height:124px;border-radius:3px;position:relative"><span>YouTube 16:9</span><div style="position:absolute;right:7px;bottom:7px;background:rgba(10,10,11,.85);font:400 9px 'Space Mono',monospace;padding:2px 6px;border-radius:2px">25:02</div></div>
+        <div style="font:700 13px/1.3 Archivo">Phân tích trailer bản 2.6 — mọi chi tiết ẩn</div>
+        <div style="font:400 9.5px 'Space Mono',monospace;color:rgba(255,255,255,.4)">CỐT TRUYỆN · 02.07</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:9px">
+        <div class="ph" style="height:124px;border-radius:3px;position:relative"><span>YouTube 16:9</span><div style="position:absolute;right:7px;bottom:7px;background:rgba(10,10,11,.85);font:400 9px 'Space Mono',monospace;padding:2px 6px;border-radius:2px">13:56</div></div>
+        <div style="font:700 13px/1.3 Archivo">Lộ trình tân thủ 2026 — bắt đầu từ con số 0</div>
+        <div style="font:400 9.5px 'Space Mono',monospace;color:rgba(255,255,255,.4)">HƯỚNG DẪN · 01.07</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:9px">
+        <div class="ph" style="height:124px;border-radius:3px;position:relative"><span>YouTube 16:9</span><div style="position:absolute;right:7px;bottom:7px;background:rgba(10,10,11,.85);font:400 9px 'Space Mono',monospace;padding:2px 6px;border-radius:2px">19:33</div></div>
+        <div style="font:700 13px/1.3 Archivo">Review sự kiện hè: có đáng cày full shop?</div>
+        <div style="font:400 9.5px 'Space Mono',monospace;color:rgba(255,255,255,.4)">REVIEW · 30.06</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:9px">
+        <div class="ph" style="height:124px;border-radius:3px;position:relative"><span>YouTube 16:9</span><div style="position:absolute;right:7px;bottom:7px;background:rgba(10,10,11,.85);font:400 9px 'Space Mono',monospace;padding:2px 6px;border-radius:2px">07:41</div></div>
+        <div style="font:700 13px/1.3 Archivo">Tổng hợp code tháng 7 kèm demo nhận quà</div>
+        <div style="font:400 9.5px 'Space Mono',monospace;color:rgba(255,255,255,.4)">TIN TỨC · 29.06</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:9px">
+        <div class="ph" style="height:124px;border-radius:3px;position:relative"><span>YouTube 16:9</span><div style="position:absolute;right:7px;bottom:7px;background:rgba(10,10,11,.85);font:400 9px 'Space Mono',monospace;padding:2px 6px;border-radius:2px">12:15</div></div>
+        <div style="font:700 13px/1.3 Archivo">Xếp hạng waifu/husbando bản 2.5 — theo cộng đồng</div>
+        <div style="font:400 9.5px 'Space Mono',monospace;color:rgba(255,255,255,.4)">GIẢI TRÍ · 28.06</div>
+      </div>
+    </div>
+    <div style="display:flex;justify-content:center;margin-top:34px">
+      <div style="border:1px solid rgba(255,255,255,.25);font:700 11px 'Space Mono',monospace;padding:12px 30px;border-radius:3px;color:rgba(255,255,255,.75)">TẢI THÊM VIDEO ↓</div>
+    </div>
+  </div>
+
+  <div style="padding:16px 48px;border-top:1px solid rgba(255,255,255,.07);display:flex;justify-content:space-between;font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.3)">
+    <span>© 2026 CENIX GAME STATION</span><span>MADE BY GAMERS, FOR GAMERS</span>
+  </div>
+</div>
+</div>
+
+<!-- ============ 4c: TIER-LIST ============ -->
+<div class="dv-opt" id="4c">
+<div class="dv-olabel"><a class="dv-oid" href="#4c">4c</a>Trang Tier-List — bảng S/A/B/C đầy đủ + hover card chi tiết nhân vật</div>
+<div class="dv-card" style="width:1280px;background:#0a0a0b;color:#fff">
+
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:20px 48px;border-bottom:1px solid rgba(255,255,255,.09)">
+    <div style="display:flex;align-items:center;gap:11px">
+      <div style="width:32px;height:32px;background:#c8f03c;border-radius:4px;display:flex;align-items:center;justify-content:center;font:900 17px Archivo;color:#0a0a0b">C</div>
+      <div style="font:900 16px Archivo;letter-spacing:1px">CENIX <span style="color:rgba(255,255,255,.45);font-weight:400">/</span> GAME STATION</div>
+    </div>
+    <div style="display:flex;gap:32px;font:700 11.5px 'Space Mono',monospace;letter-spacing:1px">
+      <span style="color:rgba(255,255,255,.55)">TRANG CHỦ</span>
+      <span style="color:rgba(255,255,255,.55)">TIN TỨC</span>
+      <span style="color:rgba(255,255,255,.55)">VIDEO</span>
+      <span style="border-bottom:2px solid #c8f03c;padding-bottom:5px">TIER-LIST</span>
+      <span style="color:rgba(255,255,255,.55)">HƯỚNG DẪN</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px">
+      <div style="display:flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.18);border-radius:3px;padding:8px 14px;font:400 11px 'Space Mono',monospace;color:rgba(255,255,255,.4);width:150px">⌕ Tìm kiếm…</div>
+      <div style="background:#c8f03c;color:#0a0a0b;font:700 11px 'Space Mono',monospace;padding:9px 16px;border-radius:3px">THEO DÕI</div>
+    </div>
+  </div>
+
+  <div style="padding:44px 48px 28px;border-bottom:1px solid rgba(255,255,255,.09)">
+    <div style="font:400 10.5px 'Space Mono',monospace;color:rgba(255,255,255,.4);margin-bottom:10px">TRANG CHỦ / <span style="color:#c8f03c">TIER-LIST</span></div>
+    <div style="display:flex;align-items:flex-end;justify-content:space-between">
+      <div style="font:900 56px/1 Archivo;letter-spacing:-1.5px">TIER-LIST</div>
+      <div style="font:400 11px 'Space Mono',monospace;color:rgba(255,255,255,.45)">HOVER NHÂN VẬT ĐỂ XEM CHI TIẾT</div>
+    </div>
+    <div style="display:flex;gap:8px;margin-top:24px;align-items:center">
+      <span style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.4);margin-right:6px">GAME:</span>
+      <span style="background:#c8f03c;color:#0a0a0b;font:700 11px 'Space Mono',monospace;padding:8px 18px;border-radius:20px">GAME A</span>
+      <span style="border:1px solid rgba(255,255,255,.2);font:400 11px 'Space Mono',monospace;padding:8px 18px;border-radius:20px;color:rgba(255,255,255,.65)">GAME B</span>
+      <span style="border:1px solid rgba(255,255,255,.2);font:400 11px 'Space Mono',monospace;padding:8px 18px;border-radius:20px;color:rgba(255,255,255,.65)">GAME C</span>
+      <span style="margin-left:20px;font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.4);margin-right:6px">VAI TRÒ:</span>
+      <span style="background:rgba(255,255,255,.12);font:700 11px 'Space Mono',monospace;padding:8px 18px;border-radius:20px">DPS</span>
+      <span style="border:1px solid rgba(255,255,255,.2);font:400 11px 'Space Mono',monospace;padding:8px 18px;border-radius:20px;color:rgba(255,255,255,.65)">SUPPORT</span>
+      <span style="border:1px solid rgba(255,255,255,.2);font:400 11px 'Space Mono',monospace;padding:8px 18px;border-radius:20px;color:rgba(255,255,255,.65)">HEALER</span>
+    </div>
+  </div>
+
+  <div style="padding:36px 48px 0;display:grid;grid-template-columns:1fr 320px;gap:28px">
+    <!-- tier table -->
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;justify-content:space-between;align-items:baseline">
+        <div style="font:900 20px Archivo">TIER-LIST DPS — BẢN 2.5</div>
+        <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.4)">CẬP NHẬT 10.07.2026</div>
+      </div>
+      <!-- S row with hover demo -->
+      <div style="display:flex;gap:12px;align-items:stretch;position:relative">
+        <div style="width:64px;background:#ff5c5c;color:#0a0a0b;font:900 26px Archivo;border-radius:3px;display:flex;align-items:center;justify-content:center;flex:none">S</div>
+        <div style="flex:1;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:3px;padding:12px;display:flex;gap:10px;flex-wrap:wrap">
+          <!-- hovered char -->
+          <div style="position:relative">
+            <div class="ph" style="width:72px;height:72px;border-radius:3px;outline:2px solid #c8f03c;outline-offset:2px"><span>ava</span></div>
+            <!-- hover card -->
+            <div style="position:absolute;left:86px;top:-8px;width:290px;background:#141416;border:1px solid rgba(200,240,60,.5);border-radius:4px;padding:16px;z-index:5;box-shadow:0 12px 40px rgba(0,0,0,.7)">
+              <div style="display:flex;gap:12px;margin-bottom:10px">
+                <div class="ph" style="width:52px;height:52px;border-radius:3px;flex:none"><span></span></div>
+                <div style="display:flex;flex-direction:column;gap:3px;justify-content:center">
+                  <div style="font:800 15px Archivo">Tên Nhân Vật</div>
+                  <div style="font:400 9.5px 'Space Mono',monospace;color:#c8f03c">5★ · DPS · HỎA</div>
+                </div>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:6px;font:400 10.5px/1.5 'Space Mono',monospace;color:rgba(255,255,255,.6)">
+                <div><span style="color:#fff">Vũ khí:</span> Signature &gt; lựa chọn 4★ tốt</div>
+                <div><span style="color:#fff">Đội hình:</span> Hỏa dual-core + healer</div>
+                <div><span style="color:#fff">Vì sao tier S:</span> DPS trần cao nhất meta, dễ build</div>
+              </div>
+              <div style="margin-top:12px;background:#c8f03c;color:#0a0a0b;font:700 10px 'Space Mono',monospace;padding:8px;border-radius:2px;text-align:center">XEM BUILD ĐẦY ĐỦ →</div>
+            </div>
+          </div>
+          <div class="ph" style="width:72px;height:72px;border-radius:3px"><span>ava</span></div>
+          <div class="ph" style="width:72px;height:72px;border-radius:3px"><span>ava</span></div>
+        </div>
+      </div>
+      <!-- A -->
+      <div style="display:flex;gap:12px;align-items:stretch">
+        <div style="width:64px;background:#ffb347;color:#0a0a0b;font:900 26px Archivo;border-radius:3px;display:flex;align-items:center;justify-content:center;flex:none">A</div>
+        <div style="flex:1;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:3px;padding:12px;display:flex;gap:10px;flex-wrap:wrap">
+          <div class="ph" style="width:72px;height:72px;border-radius:3px"><span>ava</span></div>
+          <div class="ph" style="width:72px;height:72px;border-radius:3px"><span>ava</span></div>
+          <div class="ph" style="width:72px;height:72px;border-radius:3px"><span>ava</span></div>
+          <div class="ph" style="width:72px;height:72px;border-radius:3px"><span>ava</span></div>
+          <div class="ph" style="width:72px;height:72px;border-radius:3px"><span>ava</span></div>
+        </div>
+      </div>
+      <!-- B -->
+      <div style="display:flex;gap:12px;align-items:stretch">
+        <div style="width:64px;background:#c8f03c;color:#0a0a0b;font:900 26px Archivo;border-radius:3px;display:flex;align-items:center;justify-content:center;flex:none">B</div>
+        <div style="flex:1;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:3px;padding:12px;display:flex;gap:10px;flex-wrap:wrap">
+          <div class="ph" style="width:72px;height:72px;border-radius:3px"><span>ava</span></div>
+          <div class="ph" style="width:72px;height:72px;border-radius:3px"><span>ava</span></div>
+          <div class="ph" style="width:72px;height:72px;border-radius:3px"><span>ava</span></div>
+          <div class="ph" style="width:72px;height:72px;border-radius:3px"><span>ava</span></div>
+        </div>
+      </div>
+      <!-- C -->
+      <div style="display:flex;gap:12px;align-items:stretch">
+        <div style="width:64px;background:#7fb4ff;color:#0a0a0b;font:900 26px Archivo;border-radius:3px;display:flex;align-items:center;justify-content:center;flex:none">C</div>
+        <div style="flex:1;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:3px;padding:12px;display:flex;gap:10px;flex-wrap:wrap">
+          <div class="ph" style="width:72px;height:72px;border-radius:3px"><span>ava</span></div>
+          <div class="ph" style="width:72px;height:72px;border-radius:3px"><span>ava</span></div>
+        </div>
+      </div>
+      <!-- legend -->
+      <div style="display:flex;gap:22px;padding:14px 0;font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.45)">
+        <span><b style="color:#ff5c5c">S</b> — định hình meta</span>
+        <span><b style="color:#ffb347">A</b> — rất mạnh, đáng đầu tư</span>
+        <span><b style="color:#c8f03c">B</b> — ổn nếu đã có sẵn</span>
+        <span><b style="color:#7fb4ff">C</b> — chỉ dùng tình huống</span>
+      </div>
+    </div>
+
+    <!-- sidebar: changelog + other tierlists -->
+    <div style="display:flex;flex-direction:column;gap:26px">
+      <div style="border:1px solid rgba(255,255,255,.12);border-radius:3px;padding:20px;background:rgba(255,255,255,.02)">
+        <div style="font:900 12px 'Space Mono',monospace;letter-spacing:2px;color:#c8f03c;margin-bottom:14px">◆ THAY ĐỔI BẢN 2.5</div>
+        <div style="display:flex;flex-direction:column;gap:11px;font:400 11px/1.5 'Space Mono',monospace">
+          <div style="display:flex;gap:10px;align-items:center"><span style="background:rgba(200,240,60,.15);color:#c8f03c;font-weight:700;padding:2px 8px;border-radius:2px">▲ LÊN</span><span style="color:rgba(255,255,255,.7)">Nhân vật X: A → S</span></div>
+          <div style="display:flex;gap:10px;align-items:center"><span style="background:rgba(200,240,60,.15);color:#c8f03c;font-weight:700;padding:2px 8px;border-radius:2px">▲ LÊN</span><span style="color:rgba(255,255,255,.7)">Nhân vật Y: B → A</span></div>
+          <div style="display:flex;gap:10px;align-items:center"><span style="background:rgba(255,92,92,.15);color:#ff5c5c;font-weight:700;padding:2px 8px;border-radius:2px">▼ XUỐNG</span><span style="color:rgba(255,255,255,.7)">Nhân vật Z: S → A</span></div>
+          <div style="display:flex;gap:10px;align-items:center"><span style="background:rgba(255,255,255,.1);color:rgba(255,255,255,.6);font-weight:700;padding:2px 8px;border-radius:2px">＋ MỚI</span><span style="color:rgba(255,255,255,.7)">Nhân vật mới vào thẳng S</span></div>
+        </div>
+      </div>
+      <div>
+        <div style="font:900 12px 'Space Mono',monospace;letter-spacing:2px;color:#c8f03c;border-bottom:1px solid rgba(255,255,255,.12);padding-bottom:10px;margin-bottom:4px">◆ TIER-LIST KHÁC</div>
+        <div style="display:flex;flex-direction:column">
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.07)"><div style="font:700 13px Archivo">Support Tier-List</div><span style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.35)">08.07</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.07)"><div style="font:700 13px Archivo">Healer Tier-List</div><span style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.35)">08.07</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.07)"><div style="font:700 13px Archivo">Tân thủ nên quay banner nào</div><span style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.35)">05.07</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:13px 0"><div style="font:700 13px Archivo">Vũ khí 5★ Tier-List</div><span style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.35)">01.07</span></div>
+        </div>
+      </div>
+      <div style="border:1px solid rgba(200,240,60,.4);border-radius:3px;padding:20px;background:linear-gradient(160deg,rgba(200,240,60,.07),transparent 65%)">
+        <div style="font:800 15px/1.3 Archivo;margin-bottom:6px">Không đồng ý với xếp hạng?</div>
+        <div style="font:400 10.5px/1.55 'Space Mono',monospace;color:rgba(255,255,255,.55);margin-bottom:14px">Vào Discord tranh luận cùng cộng đồng Cenix.</div>
+        <div style="background:#c8f03c;color:#0a0a0b;font:700 10.5px 'Space Mono',monospace;padding:9px;border-radius:2px;text-align:center">JOIN DISCORD →</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-top:44px;padding:16px 48px;border-top:1px solid rgba(255,255,255,.07);display:flex;justify-content:space-between;font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.3)">
+    <span>© 2026 CENIX GAME STATION</span><span>MADE BY GAMERS, FOR GAMERS</span>
+  </div>
+</div>
+</div>
+
+<!-- ============ 4d: HƯỚNG DẪN ============ -->
+<div class="dv-opt" id="4d">
+<div class="dv-olabel"><a class="dv-oid" href="#4d">4d</a>Trang Hướng dẫn — lộ trình theo cấp độ + danh sách guide</div>
+<div class="dv-card" style="width:1280px;background:#0a0a0b;color:#fff">
+
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:20px 48px;border-bottom:1px solid rgba(255,255,255,.09)">
+    <div style="display:flex;align-items:center;gap:11px">
+      <div style="width:32px;height:32px;background:#c8f03c;border-radius:4px;display:flex;align-items:center;justify-content:center;font:900 17px Archivo;color:#0a0a0b">C</div>
+      <div style="font:900 16px Archivo;letter-spacing:1px">CENIX <span style="color:rgba(255,255,255,.45);font-weight:400">/</span> GAME STATION</div>
+    </div>
+    <div style="display:flex;gap:32px;font:700 11.5px 'Space Mono',monospace;letter-spacing:1px">
+      <span style="color:rgba(255,255,255,.55)">TRANG CHỦ</span>
+      <span style="color:rgba(255,255,255,.55)">TIN TỨC</span>
+      <span style="color:rgba(255,255,255,.55)">VIDEO</span>
+      <span style="color:rgba(255,255,255,.55)">TIER-LIST</span>
+      <span style="border-bottom:2px solid #c8f03c;padding-bottom:5px">HƯỚNG DẪN</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px">
+      <div style="display:flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.18);border-radius:3px;padding:8px 14px;font:400 11px 'Space Mono',monospace;color:rgba(255,255,255,.4);width:150px">⌕ Tìm kiếm…</div>
+      <div style="background:#c8f03c;color:#0a0a0b;font:700 11px 'Space Mono',monospace;padding:9px 16px;border-radius:3px">THEO DÕI</div>
+    </div>
+  </div>
+
+  <div style="padding:44px 48px 28px;border-bottom:1px solid rgba(255,255,255,.09)">
+    <div style="font:400 10.5px 'Space Mono',monospace;color:rgba(255,255,255,.4);margin-bottom:10px">TRANG CHỦ / <span style="color:#c8f03c">HƯỚNG DẪN</span></div>
+    <div style="display:flex;align-items:flex-end;justify-content:space-between">
+      <div style="font:900 56px/1 Archivo;letter-spacing:-1.5px">HƯỚNG DẪN</div>
+      <div style="font:400 11px 'Space Mono',monospace;color:rgba(255,255,255,.45)">TỪ TÂN THỦ ĐẾN ENDGAME · 38 BÀI</div>
+    </div>
+  </div>
+
+  <!-- lộ trình -->
+  <div style="padding:36px 48px 0">
+    <div style="display:flex;align-items:baseline;gap:16px;margin-bottom:18px">
+      <div style="font:900 13px 'Space Mono',monospace;letter-spacing:2px;color:#c8f03c">◆ LỘ TRÌNH ĐỀ XUẤT</div>
+      <div style="flex:1;height:1px;background:rgba(255,255,255,.12)"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid rgba(255,255,255,.12);border-radius:3px;overflow:hidden">
+      <div style="padding:24px;border-right:1px solid rgba(255,255,255,.1);background:linear-gradient(160deg,rgba(200,240,60,.08),transparent 60%);display:flex;flex-direction:column;gap:10px">
+        <div style="font:900 30px Archivo;color:#c8f03c">01</div>
+        <div style="font:800 16px Archivo">Tân thủ</div>
+        <div style="font:400 10.5px/1.55 'Space Mono',monospace;color:rgba(255,255,255,.5)">7 ngày đầu, reroll, quay banner nào trước</div>
+        <div style="font:700 10px 'Space Mono',monospace;color:#c8f03c;margin-top:auto">8 BÀI →</div>
+      </div>
+      <div style="padding:24px;border-right:1px solid rgba(255,255,255,.1);display:flex;flex-direction:column;gap:10px">
+        <div style="font:900 30px Archivo;color:rgba(255,255,255,.25)">02</div>
+        <div style="font:800 16px Archivo">Build nhân vật</div>
+        <div style="font:400 10.5px/1.55 'Space Mono',monospace;color:rgba(255,255,255,.5)">Vũ khí, di vật, chỉ số ưu tiên từng nhân vật</div>
+        <div style="font:700 10px 'Space Mono',monospace;color:#c8f03c;margin-top:auto">14 BÀI →</div>
+      </div>
+      <div style="padding:24px;border-right:1px solid rgba(255,255,255,.1);display:flex;flex-direction:column;gap:10px">
+        <div style="font:900 30px Archivo;color:rgba(255,255,255,.25)">03</div>
+        <div style="font:800 16px Archivo">Farm &amp; tài nguyên</div>
+        <div style="font:400 10.5px/1.55 'Space Mono',monospace;color:rgba(255,255,255,.5)">Lịch farm theo tuần, tối ưu thể lực, event shop</div>
+        <div style="font:700 10px 'Space Mono',monospace;color:#c8f03c;margin-top:auto">9 BÀI →</div>
+      </div>
+      <div style="padding:24px;display:flex;flex-direction:column;gap:10px">
+        <div style="font:900 30px Archivo;color:rgba(255,255,255,.25)">04</div>
+        <div style="font:800 16px Archivo">Endgame</div>
+        <div style="font:400 10.5px/1.55 'Space Mono',monospace;color:rgba(255,255,255,.5)">Clear full sao, đội hình rẻ, boss tuần</div>
+        <div style="font:700 10px 'Space Mono',monospace;color:#c8f03c;margin-top:auto">7 BÀI →</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- guide list -->
+  <div style="padding:44px 48px 0">
+    <div style="display:flex;align-items:baseline;gap:16px;margin-bottom:8px">
+      <div style="font:900 22px Archivo">GUIDE MỚI NHẤT</div>
+      <div style="display:flex;gap:8px;margin-left:auto">
+        <span style="background:#c8f03c;color:#0a0a0b;font:700 10px 'Space Mono',monospace;padding:6px 14px;border-radius:16px">TẤT CẢ</span>
+        <span style="border:1px solid rgba(255,255,255,.2);font:400 10px 'Space Mono',monospace;padding:6px 14px;border-radius:16px;color:rgba(255,255,255,.6)">TÂN THỦ</span>
+        <span style="border:1px solid rgba(255,255,255,.2);font:400 10px 'Space Mono',monospace;padding:6px 14px;border-radius:16px;color:rgba(255,255,255,.6)">BUILD</span>
+        <span style="border:1px solid rgba(255,255,255,.2);font:400 10px 'Space Mono',monospace;padding:6px 14px;border-radius:16px;color:rgba(255,255,255,.6)">FARM</span>
+        <span style="border:1px solid rgba(255,255,255,.2);font:400 10px 'Space Mono',monospace;padding:6px 14px;border-radius:16px;color:rgba(255,255,255,.6)">ENDGAME</span>
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:16px">
+      <div style="border:1px solid rgba(255,255,255,.1);border-radius:3px;overflow:hidden;background:rgba(255,255,255,.02)">
+        <div class="ph" style="height:140px"><span>thumb guide</span></div>
+        <div style="padding:18px;display:flex;flex-direction:column;gap:9px">
+          <div style="display:flex;gap:8px;align-items:center">
+            <span style="font:700 9px 'Space Mono',monospace;color:#c8f03c;letter-spacing:1.5px">BUILD</span>
+            <span style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.35)">·</span>
+            <span style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.45)">CẬP NHẬT 10.07</span>
+          </div>
+          <div style="font:800 16px/1.3 Archivo">Build chi tiết nhân vật mới: vũ khí, di vật, đội hình</div>
+          <div style="display:flex;gap:6px;margin-top:2px">
+            <span style="background:rgba(255,255,255,.07);font:400 9px 'Space Mono',monospace;padding:3px 8px;border-radius:2px;color:rgba(255,255,255,.55)">BẢN 2.5</span>
+            <span style="background:rgba(255,255,255,.07);font:400 9px 'Space Mono',monospace;padding:3px 8px;border-radius:2px;color:rgba(255,255,255,.55)">CÓ VIDEO</span>
+          </div>
+        </div>
+      </div>
+      <div style="border:1px solid rgba(255,255,255,.1);border-radius:3px;overflow:hidden;background:rgba(255,255,255,.02)">
+        <div class="ph" style="height:140px"><span>thumb guide</span></div>
+        <div style="padding:18px;display:flex;flex-direction:column;gap:9px">
+          <div style="display:flex;gap:8px;align-items:center">
+            <span style="font:700 9px 'Space Mono',monospace;color:#c8f03c;letter-spacing:1.5px">TÂN THỦ</span>
+            <span style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.35)">·</span>
+            <span style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.45)">CẬP NHẬT 09.07</span>
+          </div>
+          <div style="font:800 16px/1.3 Archivo">Hướng dẫn tân thủ: 7 ngày đầu nên làm gì?</div>
+          <div style="display:flex;gap:6px;margin-top:2px">
+            <span style="background:rgba(255,255,255,.07);font:400 9px 'Space Mono',monospace;padding:3px 8px;border-radius:2px;color:rgba(255,255,255,.55)">12 BƯỚC</span>
+            <span style="background:rgba(255,255,255,.07);font:400 9px 'Space Mono',monospace;padding:3px 8px;border-radius:2px;color:rgba(255,255,255,.55)">CHECKLIST</span>
+          </div>
+        </div>
+      </div>
+      <div style="border:1px solid rgba(255,255,255,.1);border-radius:3px;overflow:hidden;background:rgba(255,255,255,.02)">
+        <div class="ph" style="height:140px"><span>thumb guide</span></div>
+        <div style="padding:18px;display:flex;flex-direction:column;gap:9px">
+          <div style="display:flex;gap:8px;align-items:center">
+            <span style="font:700 9px 'Space Mono',monospace;color:#c8f03c;letter-spacing:1.5px">FARM</span>
+            <span style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.35)">·</span>
+            <span style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.45)">CẬP NHẬT 08.07</span>
+          </div>
+          <div style="font:800 16px/1.3 Archivo">Lộ trình farm nguyên liệu tối ưu theo tuần</div>
+          <div style="display:flex;gap:6px;margin-top:2px">
+            <span style="background:rgba(255,255,255,.07);font:400 9px 'Space Mono',monospace;padding:3px 8px;border-radius:2px;color:rgba(255,255,255,.55)">LỊCH NGÀY</span>
+            <span style="background:rgba(255,255,255,.07);font:400 9px 'Space Mono',monospace;padding:3px 8px;border-radius:2px;color:rgba(255,255,255,.55)">F2P</span>
+          </div>
+        </div>
+      </div>
+      <div style="border:1px solid rgba(255,255,255,.1);border-radius:3px;overflow:hidden;background:rgba(255,255,255,.02)">
+        <div class="ph" style="height:140px"><span>thumb guide</span></div>
+        <div style="padding:18px;display:flex;flex-direction:column;gap:9px">
+          <div style="display:flex;gap:8px;align-items:center">
+            <span style="font:700 9px 'Space Mono',monospace;color:#c8f03c;letter-spacing:1.5px">ENDGAME</span>
+            <span style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.35)">·</span>
+            <span style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.45)">CẬP NHẬT 07.07</span>
+          </div>
+          <div style="font:800 16px/1.3 Archivo">Clear nội dung endgame với đội hình rẻ nhất</div>
+          <div style="display:flex;gap:6px;margin-top:2px">
+            <span style="background:rgba(255,255,255,.07);font:400 9px 'Space Mono',monospace;padding:3px 8px;border-radius:2px;color:rgba(255,255,255,.55)">3 ĐỘI MẪU</span>
+            <span style="background:rgba(255,255,255,.07);font:400 9px 'Space Mono',monospace;padding:3px 8px;border-radius:2px;color:rgba(255,255,255,.55)">CÓ VIDEO</span>
+          </div>
+        </div>
+      </div>
+      <div style="border:1px solid rgba(255,255,255,.1);border-radius:3px;overflow:hidden;background:rgba(255,255,255,.02)">
+        <div class="ph" style="height:140px"><span>thumb guide</span></div>
+        <div style="padding:18px;display:flex;flex-direction:column;gap:9px">
+          <div style="display:flex;gap:8px;align-items:center">
+            <span style="font:700 9px 'Space Mono',monospace;color:#c8f03c;letter-spacing:1.5px">TÂN THỦ</span>
+            <span style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.35)">·</span>
+            <span style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.45)">CẬP NHẬT 05.07</span>
+          </div>
+          <div style="font:800 16px/1.3 Archivo">Reroll nhanh: có đáng không và làm thế nào?</div>
+          <div style="display:flex;gap:6px;margin-top:2px">
+            <span style="background:rgba(255,255,255,.07);font:400 9px 'Space Mono',monospace;padding:3px 8px;border-radius:2px;color:rgba(255,255,255,.55)">15 PHÚT</span>
+          </div>
+        </div>
+      </div>
+      <div style="border:1px solid rgba(255,255,255,.1);border-radius:3px;overflow:hidden;background:rgba(255,255,255,.02)">
+        <div class="ph" style="height:140px"><span>thumb guide</span></div>
+        <div style="padding:18px;display:flex;flex-direction:column;gap:9px">
+          <div style="display:flex;gap:8px;align-items:center">
+            <span style="font:700 9px 'Space Mono',monospace;color:#c8f03c;letter-spacing:1.5px">FARM</span>
+            <span style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.35)">·</span>
+            <span style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.45)">CẬP NHẬT 03.07</span>
+          </div>
+          <div style="font:800 16px/1.3 Archivo">Tối ưu thể lực: đừng để tràn dù chỉ một lần</div>
+          <div style="display:flex;gap:6px;margin-top:2px">
+            <span style="background:rgba(255,255,255,.07);font:400 9px 'Space Mono',monospace;padding:3px 8px;border-radius:2px;color:rgba(255,255,255,.55)">F2P</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;justify-content:center;margin:34px 0 48px">
+      <div style="border:1px solid rgba(255,255,255,.25);font:700 11px 'Space Mono',monospace;padding:12px 30px;border-radius:3px;color:rgba(255,255,255,.75)">XEM THÊM GUIDE ↓</div>
+    </div>
+  </div>
+
+  <div style="padding:16px 48px;border-top:1px solid rgba(255,255,255,.07);display:flex;justify-content:space-between;font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.3)">
+    <span>© 2026 CENIX GAME STATION</span><span>MADE BY GAMERS, FOR GAMERS</span>
+  </div>
+</div>
+</div>
+
+</div>
+<p class="dv-next">Tiếp theo có thể làm: trang bài viết chi tiết, hover tier-list chạy thật (prototype), hoặc chỉnh bất kỳ trang nào — cứ gọi id (<a class="dv-oid" href="#4a">4a</a>–<a class="dv-oid" href="#4d">4d</a>).</p>
+</section>
+
+<section class="dv-turn" id="t3">
+<div class="dv-thd"><a class="dv-tid" href="#t3">3</a><span class="dv-tname">Dark Magazine — bản làm kỹ, chi tiết từ <a class="dv-oid" href="#1b">1b</a></span></div>
+<div class="dv-opts">
+
+<!-- ============ 3a: DARK MAGAZINE — refined ============ -->
+<div class="dv-opt" id="3a">
+<div class="dv-olabel"><a class="dv-oid" href="#3a">3a</a>Dark Magazine refined — masthead lớn, grid editorial đầy đủ 4 chuyên mục + newsletter</div>
+<div class="dv-card" style="width:1280px;background:#0a0a0b;color:#fff">
+
+  <!-- topbar ticker -->
+  <div style="display:flex;align-items:center;gap:14px;padding:9px 48px;border-bottom:1px solid rgba(255,255,255,.09);font:400 10.5px 'Space Mono',monospace;color:rgba(255,255,255,.5)">
+    <span style="background:#c8f03c;color:#0a0a0b;font-weight:700;padding:2px 8px;border-radius:2px">MỚI</span>
+    <span style="color:rgba(255,255,255,.75)">Bản 2.5 ra mắt — tổng hợp banner &amp; code mới nhất</span>
+    <span style="margin-left:auto">THỨ SÁU, 11.07.2026</span>
+    <span style="color:#c8f03c">VN · 21:00</span>
+  </div>
+
+  <!-- nav -->
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:20px 48px;border-bottom:1px solid rgba(255,255,255,.09)">
+    <div style="display:flex;align-items:center;gap:11px">
+      <div style="width:32px;height:32px;background:#c8f03c;border-radius:4px;display:flex;align-items:center;justify-content:center;font:900 17px Archivo;color:#0a0a0b">C</div>
+      <div style="font:900 16px Archivo;letter-spacing:1px">CENIX <span style="color:rgba(255,255,255,.45);font-weight:400">/</span> GAME STATION</div>
+    </div>
+    <div style="display:flex;gap:32px;font:700 11.5px 'Space Mono',monospace;letter-spacing:1px">
+      <span style="border-bottom:2px solid #c8f03c;padding-bottom:5px">TRANG CHỦ</span>
+      <span style="color:rgba(255,255,255,.55)">TIN TỨC</span>
+      <span style="color:rgba(255,255,255,.55)">VIDEO</span>
+      <span style="color:rgba(255,255,255,.55)">TIER-LIST</span>
+      <span style="color:rgba(255,255,255,.55)">HƯỚNG DẪN</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px">
+      <div style="display:flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.18);border-radius:3px;padding:8px 14px;font:400 11px 'Space Mono',monospace;color:rgba(255,255,255,.4);width:150px">⌕ Tìm kiếm…</div>
+      <div style="background:#c8f03c;color:#0a0a0b;font:700 11px 'Space Mono',monospace;padding:9px 16px;border-radius:3px">THEO DÕI</div>
+    </div>
+  </div>
+
+  <!-- masthead -->
+  <div style="text-align:center;padding:58px 0 50px;border-bottom:1px solid rgba(255,255,255,.09);position:relative;overflow:hidden">
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse 60% 80% at 50% 100%,rgba(200,240,60,.07),transparent)"></div>
+    <div style="position:relative;font:400 11px 'Space Mono',monospace;color:#c8f03c;letter-spacing:4px;margin-bottom:16px">EST. 2026 — BLOG GAME · TIER-LIST · HƯỚNG DẪN</div>
+    <div style="position:relative;font:900 104px/0.92 Archivo;letter-spacing:-3px">CENIX GAME<br><span style="-webkit-text-stroke:2px #c8f03c;color:transparent">STATION</span></div>
+    <div style="position:relative;display:flex;justify-content:center;gap:36px;margin-top:30px;font:400 10.5px 'Space Mono',monospace;color:rgba(255,255,255,.45)">
+      <span><b style="color:#fff;font:900 15px Archivo">120+</b>&nbsp; BÀI VIẾT</span>
+      <span style="border-left:1px solid rgba(255,255,255,.15);padding-left:36px"><b style="color:#fff;font:900 15px Archivo">15</b>&nbsp; TIER-LIST</span>
+      <span style="border-left:1px solid rgba(255,255,255,.15);padding-left:36px"><b style="color:#fff;font:900 15px Archivo">8</b>&nbsp; GAME COVER</span>
+    </div>
+  </div>
+
+  <!-- feature grid -->
+  <div style="padding:40px 48px 0">
+    <div style="display:flex;align-items:baseline;gap:16px;margin-bottom:20px">
+      <div style="font:900 13px 'Space Mono',monospace;letter-spacing:2px;color:#c8f03c">◆ NỔI BẬT HÔM NAY</div>
+      <div style="flex:1;height:1px;background:rgba(255,255,255,.12)"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:104px;gap:14px">
+      <!-- lead story -->
+      <div style="grid-column:span 7;grid-row:span 4;position:relative;border-radius:3px;overflow:hidden">
+        <div class="ph" style="position:absolute;inset:0"><span>key art — banner phiên bản 2.5</span></div>
+        <div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,10,11,.96) 0%,rgba(10,10,11,.4) 45%,transparent 70%)"></div>
+        <div style="position:absolute;left:28px;right:28px;bottom:26px;display:flex;flex-direction:column;gap:11px">
+          <div style="display:flex;gap:8px;align-items:center">
+            <span style="background:#c8f03c;color:#0a0a0b;font:700 10px 'Space Mono',monospace;padding:3px 9px;border-radius:2px">TIN NÓNG</span>
+            <span style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.6)">11.07.2026 · 8 PHÚT ĐỌC</span>
+          </div>
+          <div style="font:900 34px/1.08 Archivo;letter-spacing:-.5px">PHIÊN BẢN 2.5: TOÀN BỘ BANNER, SỰ KIỆN &amp; NHÂN VẬT ĐÁNG QUAY NHẤT</div>
+          <div style="font:400 13px/1.55 Archivo;color:rgba(255,255,255,.65);max-width:520px">Phân tích từng banner theo giá trị dài hạn — kèm nhận định nên để dành hay quay ngay từ đội ngũ Cenix.</div>
+          <div style="display:flex;align-items:center;gap:10px;margin-top:4px">
+            <div class="ph" style="width:26px;height:26px;border-radius:50%"><span></span></div>
+            <span style="font:400 10.5px 'Space Mono',monospace;color:rgba(255,255,255,.55)">CENIX TEAM</span>
+          </div>
+        </div>
+      </div>
+      <!-- tierlist interactive card -->
+      <div style="grid-column:span 5;grid-row:span 2;border:1px solid rgba(200,240,60,.4);border-radius:3px;padding:20px 22px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(135deg,rgba(200,240,60,.06),transparent 60%)">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start">
+          <div style="font:700 10px 'Space Mono',monospace;color:#c8f03c;letter-spacing:2px">TIER-LIST TƯƠNG TÁC</div>
+          <div style="font:400 9.5px 'Space Mono',monospace;color:rgba(255,255,255,.4)">CẬP NHẬT 10.07</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:14px">
+          <div style="display:flex;flex-direction:column;gap:5px">
+            <div style="display:flex;gap:5px;align-items:center"><span style="width:22px;height:22px;background:#ff5c5c;color:#0a0a0b;font:900 11px Archivo;border-radius:2px;display:flex;align-items:center;justify-content:center">S</span><div class="ph" style="width:22px;height:22px;border-radius:2px"><span></span></div><div class="ph" style="width:22px;height:22px;border-radius:2px"><span></span></div><div class="ph" style="width:22px;height:22px;border-radius:2px"><span></span></div></div>
+            <div style="display:flex;gap:5px;align-items:center"><span style="width:22px;height:22px;background:#ffb347;color:#0a0a0b;font:900 11px Archivo;border-radius:2px;display:flex;align-items:center;justify-content:center">A</span><div class="ph" style="width:22px;height:22px;border-radius:2px"><span></span></div><div class="ph" style="width:22px;height:22px;border-radius:2px"><span></span></div><div class="ph" style="width:22px;height:22px;border-radius:2px"><span></span></div><div class="ph" style="width:22px;height:22px;border-radius:2px"><span></span></div></div>
+            <div style="display:flex;gap:5px;align-items:center"><span style="width:22px;height:22px;background:#c8f03c;color:#0a0a0b;font:900 11px Archivo;border-radius:2px;display:flex;align-items:center;justify-content:center">B</span><div class="ph" style="width:22px;height:22px;border-radius:2px"><span></span></div><div class="ph" style="width:22px;height:22px;border-radius:2px"><span></span></div></div>
+          </div>
+          <div style="flex:1;display:flex;flex-direction:column;gap:6px">
+            <div style="font:800 17px/1.25 Archivo">Tier-list DPS bản 2.5 — ai đứng đỉnh meta?</div>
+            <div style="font:400 10.5px/1.5 'Space Mono',monospace;color:rgba(255,255,255,.45)">Hover từng nhân vật để xem build tóm tắt</div>
+          </div>
+        </div>
+        <div style="font:700 11px 'Space Mono',monospace;color:#c8f03c">XEM TIER-LIST →</div>
+      </div>
+      <!-- video card -->
+      <div style="grid-column:span 3;grid-row:span 2;position:relative;border-radius:3px;overflow:hidden">
+        <div class="ph" style="position:absolute;inset:0"><span>video thumb</span></div>
+        <div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,10,11,.92),transparent 55%)"></div>
+        <div style="position:absolute;top:14px;left:14px;width:38px;height:38px;border:2px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font:900 12px Archivo;background:rgba(10,10,11,.4)">▶</div>
+        <div style="position:absolute;top:16px;right:14px;background:rgba(10,10,11,.75);font:400 9px 'Space Mono',monospace;padding:3px 7px;border-radius:2px">12:40</div>
+        <div style="position:absolute;left:16px;right:16px;bottom:14px;display:flex;flex-direction:column;gap:5px">
+          <div style="font:700 13.5px/1.3 Archivo">Trải nghiệm nhân vật mới — gameplay 4K</div>
+          <div style="font:400 9.5px 'Space Mono',monospace;color:#c8f03c">VIDEO · YOUTUBE</div>
+        </div>
+      </div>
+      <!-- codes card -->
+      <div style="grid-column:span 2;grid-row:span 2;border:1px solid rgba(255,255,255,.15);border-radius:3px;padding:18px;display:flex;flex-direction:column;justify-content:space-between">
+        <div style="font:900 26px Archivo;color:#c8f03c">🎁</div>
+        <div style="display:flex;flex-direction:column;gap:6px">
+          <div style="font:700 14px/1.3 Archivo">Code mới tuần này</div>
+          <div style="font:400 9.5px/1.5 'Space Mono',monospace;color:rgba(255,255,255,.45)">3 code sắp hết hạn — nhận ngay</div>
+        </div>
+        <div style="font:700 10px 'Space Mono',monospace;color:#c8f03c">NHẬN CODE →</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- tin tức list -->
+  <div style="padding:52px 48px 0;display:grid;grid-template-columns:1fr 340px;gap:40px">
+    <div>
+      <div style="display:flex;align-items:baseline;gap:16px;margin-bottom:6px">
+        <div style="font:900 26px Archivo">TIN TỨC</div>
+        <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.4)">CẬP NHẬT MỖI NGÀY</div>
+        <div style="margin-left:auto;font:700 10.5px 'Space Mono',monospace;color:#c8f03c">TẤT CẢ →</div>
+      </div>
+      <div style="display:flex;flex-direction:column">
+        <div style="display:flex;gap:20px;padding:20px 0;border-bottom:1px solid rgba(255,255,255,.09)">
+          <div class="ph" style="width:180px;height:110px;border-radius:3px;flex:none"><span>thumb</span></div>
+          <div style="display:flex;flex-direction:column;gap:8px;justify-content:center">
+            <div style="font:700 9.5px 'Space Mono',monospace;color:#c8f03c;letter-spacing:1.5px">GIỚI THIỆU GAME</div>
+            <div style="font:800 19px/1.25 Archivo">5 game gacha đáng chơi nhất nửa cuối 2026 — có gì mới ngoài các ông lớn?</div>
+            <div style="font:400 12.5px/1.5 Archivo;color:rgba(255,255,255,.5)">Từ tân binh mới ra mắt đến những cái tên đã chứng minh độ bền — lọc theo tiêu chí F2P-friendly.</div>
+            <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.35)">10.07.2026 · 5 PHÚT ĐỌC</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:20px;padding:20px 0;border-bottom:1px solid rgba(255,255,255,.09)">
+          <div class="ph" style="width:180px;height:110px;border-radius:3px;flex:none"><span>thumb</span></div>
+          <div style="display:flex;flex-direction:column;gap:8px;justify-content:center">
+            <div style="font:700 9.5px 'Space Mono',monospace;color:#c8f03c;letter-spacing:1.5px">PHÂN TÍCH</div>
+            <div style="font:800 19px/1.25 Archivo">Meta PvE thay đổi thế nào sau bản cập nhật lớn?</div>
+            <div style="font:400 12.5px/1.5 Archivo;color:rgba(255,255,255,.5)">Nhân vật cũ nào quay lại meta, đội hình nào rớt hạng — số liệu từ clear rate cộng đồng.</div>
+            <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.35)">08.07.2026 · 8 PHÚT ĐỌC</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:20px;padding:20px 0;border-bottom:1px solid rgba(255,255,255,.09)">
+          <div class="ph" style="width:180px;height:110px;border-radius:3px;flex:none"><span>thumb</span></div>
+          <div style="display:flex;flex-direction:column;gap:8px;justify-content:center">
+            <div style="font:700 9.5px 'Space Mono',monospace;color:#c8f03c;letter-spacing:1.5px">SỰ KIỆN</div>
+            <div style="font:800 19px/1.25 Archivo">Lịch banner tháng 7: nên để dành hay quay ngay?</div>
+            <div style="font:400 12.5px/1.5 Archivo;color:rgba(255,255,255,.5)">Timeline đầy đủ các banner đã xác nhận + leak đáng tin — lên kế hoạch ngọc từ bây giờ.</div>
+            <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.35)">07.07.2026 · 4 PHÚT ĐỌC</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sidebar -->
+    <div style="display:flex;flex-direction:column;gap:28px">
+      <div>
+        <div style="font:900 13px 'Space Mono',monospace;letter-spacing:2px;color:#c8f03c;border-bottom:1px solid rgba(255,255,255,.12);padding-bottom:10px;margin-bottom:6px">◆ ĐỌC NHIỀU NHẤT</div>
+        <div style="display:flex;flex-direction:column">
+          <div style="display:flex;gap:14px;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.07);align-items:baseline"><span style="font:900 20px Archivo;color:rgba(200,240,60,.9)">01</span><div style="font:700 13.5px/1.35 Archivo">Hướng dẫn tân thủ: 7 ngày đầu nên làm gì?</div></div>
+          <div style="display:flex;gap:14px;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.07);align-items:baseline"><span style="font:900 20px Archivo;color:rgba(255,255,255,.25)">02</span><div style="font:700 13.5px/1.35 Archivo">Tier-list DPS bản 2.5 — bảng xếp hạng đầy đủ</div></div>
+          <div style="display:flex;gap:14px;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.07);align-items:baseline"><span style="font:900 20px Archivo;color:rgba(255,255,255,.25)">03</span><div style="font:700 13.5px/1.35 Archivo">Build chi tiết nhân vật mới: vũ khí, di vật, đội hình</div></div>
+          <div style="display:flex;gap:14px;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.07);align-items:baseline"><span style="font:900 20px Archivo;color:rgba(255,255,255,.25)">04</span><div style="font:700 13.5px/1.35 Archivo">Tổng hợp code mới nhất — cập nhật liên tục</div></div>
+          <div style="display:flex;gap:14px;padding:13px 0;align-items:baseline"><span style="font:900 20px Archivo;color:rgba(255,255,255,.25)">05</span><div style="font:700 13.5px/1.35 Archivo">Lộ trình farm nguyên liệu tối ưu theo tuần</div></div>
+        </div>
+      </div>
+      <!-- newsletter -->
+      <div style="border:1px solid rgba(200,240,60,.4);border-radius:3px;padding:24px;background:linear-gradient(160deg,rgba(200,240,60,.07),transparent 65%)">
+        <div style="font:900 19px/1.2 Archivo;margin-bottom:8px">Đừng lỡ meta.</div>
+        <div style="font:400 11.5px/1.55 'Space Mono',monospace;color:rgba(255,255,255,.55);margin-bottom:16px">Bản tin mỗi thứ Sáu: banner mới, code, tier-list thay đổi.</div>
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <div style="border:1px solid rgba(255,255,255,.2);border-radius:3px;padding:11px 14px;font:400 11px 'Space Mono',monospace;color:rgba(255,255,255,.35)">email@cua-ban.com</div>
+          <div style="background:#c8f03c;color:#0a0a0b;font:700 11.5px 'Space Mono',monospace;padding:11px;border-radius:3px;text-align:center">ĐĂNG KÝ MIỄN PHÍ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- video section -->
+  <div style="padding:52px 48px 0">
+    <div style="display:flex;align-items:baseline;gap:16px;margin-bottom:20px">
+      <div style="font:900 26px Archivo">VIDEO</div>
+      <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.4)">EMBED TỪ YOUTUBE</div>
+      <div style="margin-left:auto;font:700 10.5px 'Space Mono',monospace;color:#c8f03c">KÊNH YOUTUBE →</div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px">
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <div class="ph" style="height:126px;border-radius:3px;position:relative"><span>YouTube 16:9</span>
+          <div style="position:absolute;left:10px;top:10px;width:32px;height:32px;border:2px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font:900 10px Archivo;background:rgba(10,10,11,.4)">▶</div>
+          <div style="position:absolute;right:8px;bottom:8px;background:rgba(10,10,11,.8);font:400 9px 'Space Mono',monospace;padding:2px 6px;border-radius:2px">18:22</div>
+        </div>
+        <div style="font:700 13.5px/1.3 Archivo">Gameplay nhân vật mới — có đáng quay không?</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <div class="ph" style="height:126px;border-radius:3px;position:relative"><span>YouTube 16:9</span>
+          <div style="position:absolute;left:10px;top:10px;width:32px;height:32px;border:2px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font:900 10px Archivo;background:rgba(10,10,11,.4)">▶</div>
+          <div style="position:absolute;right:8px;bottom:8px;background:rgba(10,10,11,.8);font:400 9px 'Space Mono',monospace;padding:2px 6px;border-radius:2px">09:47</div>
+        </div>
+        <div style="font:700 13.5px/1.3 Archivo">Build đội hình F2P mạnh nhất bản hiện tại</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <div class="ph" style="height:126px;border-radius:3px;position:relative"><span>YouTube 16:9</span>
+          <div style="position:absolute;left:10px;top:10px;width:32px;height:32px;border:2px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font:900 10px Archivo;background:rgba(10,10,11,.4)">▶</div>
+          <div style="position:absolute;right:8px;bottom:8px;background:rgba(10,10,11,.8);font:400 9px 'Space Mono',monospace;padding:2px 6px;border-radius:2px">10:05</div>
+        </div>
+        <div style="font:700 13.5px/1.3 Archivo">Tóm tắt cốt truyện chương mới trong 10 phút</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <div class="ph" style="height:126px;border-radius:3px;position:relative"><span>YouTube 16:9</span>
+          <div style="position:absolute;left:10px;top:10px;width:32px;height:32px;border:2px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font:900 10px Archivo;background:rgba(10,10,11,.4)">▶</div>
+          <div style="position:absolute;right:8px;bottom:8px;background:rgba(10,10,11,.8);font:400 9px 'Space Mono',monospace;padding:2px 6px;border-radius:2px">22:14</div>
+        </div>
+        <div style="font:700 13.5px/1.3 Archivo">Clear endgame full sao với đội hình rẻ nhất</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- hướng dẫn -->
+  <div style="padding:52px 48px 56px">
+    <div style="display:flex;align-items:baseline;gap:16px;margin-bottom:20px">
+      <div style="font:900 26px Archivo">HƯỚNG DẪN</div>
+      <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.4)">TỪ TÂN THỦ ĐẾN ENDGAME</div>
+      <div style="margin-left:auto;font:700 10.5px 'Space Mono',monospace;color:#c8f03c">TẤT CẢ →</div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px">
+      <div style="border:1px solid rgba(255,255,255,.12);border-radius:3px;padding:22px;display:flex;flex-direction:column;gap:12px;background:rgba(255,255,255,.02)">
+        <div style="font:700 9.5px 'Space Mono',monospace;color:#c8f03c;letter-spacing:2px">NGƯỜI MỚI</div>
+        <div style="font:800 16px/1.3 Archivo">Tân thủ: 7 ngày đầu nên làm gì?</div>
+        <div style="font:400 11px/1.5 'Space Mono',monospace;color:rgba(255,255,255,.4);margin-top:auto">12 BƯỚC · CÓ CHECKLIST</div>
+      </div>
+      <div style="border:1px solid rgba(255,255,255,.12);border-radius:3px;padding:22px;display:flex;flex-direction:column;gap:12px;background:rgba(255,255,255,.02)">
+        <div style="font:700 9.5px 'Space Mono',monospace;color:#c8f03c;letter-spacing:2px">BUILD</div>
+        <div style="font:800 16px/1.3 Archivo">Build nhân vật mới: vũ khí, di vật, đội hình</div>
+        <div style="font:400 11px/1.5 'Space Mono',monospace;color:rgba(255,255,255,.4);margin-top:auto">CẬP NHẬT BẢN 2.5</div>
+      </div>
+      <div style="border:1px solid rgba(255,255,255,.12);border-radius:3px;padding:22px;display:flex;flex-direction:column;gap:12px;background:rgba(255,255,255,.02)">
+        <div style="font:700 9.5px 'Space Mono',monospace;color:#c8f03c;letter-spacing:2px">FARM</div>
+        <div style="font:800 16px/1.3 Archivo">Lộ trình farm nguyên liệu tối ưu theo tuần</div>
+        <div style="font:400 11px/1.5 'Space Mono',monospace;color:rgba(255,255,255,.4);margin-top:auto">KÈM LỊCH THEO NGÀY</div>
+      </div>
+      <div style="border:1px solid rgba(255,255,255,.12);border-radius:3px;padding:22px;display:flex;flex-direction:column;gap:12px;background:rgba(255,255,255,.02)">
+        <div style="font:700 9.5px 'Space Mono',monospace;color:#c8f03c;letter-spacing:2px">ENDGAME</div>
+        <div style="font:800 16px/1.3 Archivo">Clear nội dung endgame với đội hình rẻ nhất</div>
+        <div style="font:400 11px/1.5 'Space Mono',monospace;color:rgba(255,255,255,.4);margin-top:auto">3 ĐỘI HÌNH MẪU</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div style="border-top:1px solid rgba(255,255,255,.09)">
+    <div style="padding:40px 48px;display:grid;grid-template-columns:1.2fr repeat(3,.6fr);gap:32px">
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <div style="display:flex;align-items:center;gap:10px">
+          <div style="width:28px;height:28px;background:#c8f03c;border-radius:4px;display:flex;align-items:center;justify-content:center;font:900 15px Archivo;color:#0a0a0b">C</div>
+          <div style="font:900 14px Archivo;letter-spacing:1px">CENIX GAME STATION</div>
+        </div>
+        <div style="font:400 11px/1.6 'Space Mono',monospace;color:rgba(255,255,255,.4);max-width:280px">Blog game, tier-list &amp; hướng dẫn — viết bởi người chơi thật, không clickbait.</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;font:400 11.5px 'Space Mono',monospace;color:rgba(255,255,255,.55)">
+        <div style="font:700 10px 'Space Mono',monospace;color:#fff;letter-spacing:2px;margin-bottom:4px">CHUYÊN MỤC</div>
+        <span>Tin tức</span><span>Video</span><span>Tier-List</span><span>Hướng dẫn</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;font:400 11.5px 'Space Mono',monospace;color:rgba(255,255,255,.55)">
+        <div style="font:700 10px 'Space Mono',monospace;color:#fff;letter-spacing:2px;margin-bottom:4px">KẾT NỐI</div>
+        <span>YouTube</span><span>Facebook</span><span>Discord</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;font:400 11.5px 'Space Mono',monospace;color:rgba(255,255,255,.55)">
+        <div style="font:700 10px 'Space Mono',monospace;color:#fff;letter-spacing:2px;margin-bottom:4px">KHÁC</div>
+        <span>Về Cenix</span><span>Liên hệ</span><span>RSS</span>
+      </div>
+    </div>
+    <div style="padding:16px 48px;border-top:1px solid rgba(255,255,255,.07);display:flex;justify-content:space-between;font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.3)">
+      <span>© 2026 CENIX GAME STATION</span>
+      <span>MADE BY GAMERS, FOR GAMERS</span>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+<p class="dv-next">Chốt <a class="dv-oid" href="#3a">3a</a> thì em làm tiếp các trang: Tin tức, Video, Tier-List (tương tác), Hướng dẫn.</p>
+</section>
+
+<section class="dv-turn" id="t2">
+<div class="dv-thd"><a class="dv-tid" href="#t2">2</a><span class="dv-tname">3 hướng mới: Cute · Gen Z · Mario Style</span></div>
+<div class="dv-opts">
+
+<!-- ============ 2a: CUTE — pastel xanh lá, mascot, viền tay vẽ ============ -->
+<div class="dv-opt" id="2a">
+<div class="dv-olabel"><a class="dv-oid" href="#2a">2a</a>Cute — pastel xanh mint, bo tròn, mascot, viền doodle (kiểu Future World of Gaming)</div>
+<div class="dv-card" style="width:1280px;background:#7cc576;color:#2b3a2b;font-family:'Baloo 2',sans-serif">
+  <div style="background:#e8f5e0;margin:14px;border-radius:24px;border:3px solid #2b3a2b;overflow:hidden">
+
+    <!-- nav -->
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 32px;border-bottom:3px solid #2b3a2b;background:#fdf8e8">
+      <div style="display:flex;align-items:center;gap:10px">
+        <div style="width:38px;height:38px;background:#ffd94a;border:3px solid #2b3a2b;border-radius:50%;display:flex;align-items:center;justify-content:center;font:800 18px 'Baloo 2'">C</div>
+        <div style="font:800 19px 'Baloo 2'">Cenix Game Station</div>
+      </div>
+      <div style="display:flex;gap:8px">
+        <span style="background:#fff;border:2.5px solid #2b3a2b;border-radius:20px;padding:7px 16px;font:700 13px 'Baloo 2';box-shadow:2px 2px 0 #2b3a2b">Trang chủ</span>
+        <span style="padding:7px 16px;font:600 13px 'Baloo 2'">Tin tức</span>
+        <span style="padding:7px 16px;font:600 13px 'Baloo 2'">Video</span>
+        <span style="padding:7px 16px;font:600 13px 'Baloo 2'">Tier-List</span>
+        <span style="padding:7px 16px;font:600 13px 'Baloo 2'">Hướng dẫn</span>
+      </div>
+      <div style="background:#ff9db5;border:3px solid #2b3a2b;border-radius:20px;padding:8px 18px;font:800 13px 'Baloo 2';box-shadow:3px 3px 0 #2b3a2b">Theo dõi ♥</div>
+    </div>
+
+    <!-- hero -->
+    <div style="position:relative;background:#bfe6ff;padding:52px 40px 0;text-align:center;overflow:hidden">
+      <div style="position:absolute;left:60px;top:36px;width:70px;height:34px;background:#fff;border-radius:20px;opacity:.85"></div>
+      <div style="position:absolute;right:110px;top:60px;width:96px;height:40px;background:#fff;border-radius:24px;opacity:.85"></div>
+      <div style="position:relative;display:inline-block;background:#7cc576;color:#fff;border:4px solid #2b3a2b;border-radius:26px;padding:26px 46px;box-shadow:6px 6px 0 #2b3a2b;transform:rotate(-2deg)">
+        <div style="font:800 52px/1.05 'Baloo 2';text-shadow:3px 3px 0 #2b3a2b">Trạm Game<br>Của Bạn!</div>
+      </div>
+      <div style="font:600 16px 'Baloo 2';margin:22px auto 0;max-width:460px;color:#3d523d">Tin tức, tier-list và hướng dẫn game gacha — dễ thương nhưng nghiêm túc về meta ✿</div>
+      <div style="display:flex;justify-content:center;gap:14px;margin:20px 0 34px">
+        <div style="background:#ffd94a;border:3px solid #2b3a2b;border-radius:22px;padding:11px 26px;font:800 14px 'Baloo 2';box-shadow:3px 3px 0 #2b3a2b">Đọc bài mới →</div>
+        <div style="background:#fff;border:3px solid #2b3a2b;border-radius:22px;padding:11px 26px;font:800 14px 'Baloo 2';box-shadow:3px 3px 0 #2b3a2b">Xem Tier-List</div>
+      </div>
+      <div class="ph" style="height:190px;border:4px solid #2b3a2b;border-bottom:none;border-radius:22px 22px 0 0;background:repeating-linear-gradient(45deg,#d8eecb 0,#d8eecb 10px,#cfe8c0 10px,#cfe8c0 20px)"><span style="color:#3d523d">dàn mascot / chibi nhân vật game — key art thật thay vào đây</span></div>
+    </div>
+
+    <!-- ticker -->
+    <div style="background:#2b3a2b;color:#e8f5e0;display:flex;gap:34px;padding:10px 0;font:700 12px 'Baloo 2';overflow:hidden;white-space:nowrap;justify-content:center">
+      <span>✿ Tin mới mỗi ngày</span><span>✦ Tier-list cập nhật theo bản</span><span>✿ Code game miễn phí</span><span>✦ Hướng dẫn tân thủ</span><span>✿ Video từ YouTube</span>
+    </div>
+
+    <!-- news cards -->
+    <div style="padding:40px 32px 8px">
+      <div style="text-align:center;margin-bottom:24px"><span style="background:#ffd94a;border:3px solid #2b3a2b;border-radius:18px;padding:8px 26px;font:800 20px 'Baloo 2';box-shadow:3px 3px 0 #2b3a2b;display:inline-block;transform:rotate(-1deg)">Tin Tức Mới ✦</span></div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px">
+        <div style="background:#fff;border:3px solid #2b3a2b;border-radius:18px;overflow:hidden;box-shadow:4px 4px 0 #2b3a2b">
+          <div class="ph" style="height:130px;background:repeating-linear-gradient(45deg,#ffe9ef 0,#ffe9ef 10px,#ffdfe8 10px,#ffdfe8 20px)"><span style="color:#a06070">thumbnail</span></div>
+          <div style="padding:16px;display:flex;flex-direction:column;gap:6px">
+            <span style="align-self:flex-start;background:#ff9db5;border:2px solid #2b3a2b;border-radius:12px;padding:2px 10px;font:800 10px 'Baloo 2'">TIN TỨC</span>
+            <div style="font:800 15px/1.3 'Baloo 2'">Banner mới tháng 7: nên quay ai đây? 🎯</div>
+            <div style="font:600 11px 'Baloo 2';color:#8aa08a">10.07 · 4 phút</div>
+          </div>
+        </div>
+        <div style="background:#fff;border:3px solid #2b3a2b;border-radius:18px;overflow:hidden;box-shadow:4px 4px 0 #2b3a2b">
+          <div class="ph" style="height:130px;background:repeating-linear-gradient(45deg,#e4f0ff 0,#e4f0ff 10px,#d8e9ff 10px,#d8e9ff 20px)"><span style="color:#5a7aa0">thumbnail</span></div>
+          <div style="padding:16px;display:flex;flex-direction:column;gap:6px">
+            <span style="align-self:flex-start;background:#8fd0ff;border:2px solid #2b3a2b;border-radius:12px;padding:2px 10px;font:800 10px 'Baloo 2'">SỰ KIỆN</span>
+            <div style="font:800 15px/1.3 'Baloo 2'">Tổng hợp code mới — nhận quà kẻo hết hạn!</div>
+            <div style="font:600 11px 'Baloo 2';color:#8aa08a">08.07 · 3 phút</div>
+          </div>
+        </div>
+        <div style="background:#fff;border:3px solid #2b3a2b;border-radius:18px;overflow:hidden;box-shadow:4px 4px 0 #2b3a2b">
+          <div class="ph" style="height:130px;background:repeating-linear-gradient(45deg,#fff3dd 0,#fff3dd 10px,#ffedd0 10px,#ffedd0 20px)"><span style="color:#a08a5a">thumbnail</span></div>
+          <div style="padding:16px;display:flex;flex-direction:column;gap:6px">
+            <span style="align-self:flex-start;background:#ffd94a;border:2px solid #2b3a2b;border-radius:12px;padding:2px 10px;font:800 10px 'Baloo 2'">GIỚI THIỆU</span>
+            <div style="font:800 15px/1.3 'Baloo 2'">5 game gacha dễ thương đáng chơi nhất 2026</div>
+            <div style="font:600 11px 'Baloo 2';color:#8aa08a">06.07 · 5 phút</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- tierlist + video split -->
+    <div style="padding:40px 32px;display:grid;grid-template-columns:1.1fr .9fr;gap:20px">
+      <div style="background:#fdf8e8;border:3px solid #2b3a2b;border-radius:20px;padding:22px;box-shadow:4px 4px 0 #2b3a2b">
+        <div style="font:800 20px 'Baloo 2';margin-bottom:14px">Tier-List Gacha <span style="font:600 12px 'Baloo 2';color:#8aa08a">hover xem chi tiết ✦</span></div>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <div style="display:flex;gap:10px;align-items:center">
+            <div style="width:46px;height:46px;background:#ff9db5;border:3px solid #2b3a2b;border-radius:14px;display:flex;align-items:center;justify-content:center;font:800 18px 'Baloo 2'">S</div>
+            <div style="flex:1;display:flex;gap:8px"><div class="ph" style="width:46px;height:46px;border:2.5px solid #2b3a2b;border-radius:12px"><span>ava</span></div><div class="ph" style="width:46px;height:46px;border:2.5px solid #2b3a2b;border-radius:12px"><span>ava</span></div><div class="ph" style="width:46px;height:46px;border:2.5px solid #2b3a2b;border-radius:12px"><span>ava</span></div></div>
+          </div>
+          <div style="display:flex;gap:10px;align-items:center">
+            <div style="width:46px;height:46px;background:#ffd94a;border:3px solid #2b3a2b;border-radius:14px;display:flex;align-items:center;justify-content:center;font:800 18px 'Baloo 2'">A</div>
+            <div style="flex:1;display:flex;gap:8px"><div class="ph" style="width:46px;height:46px;border:2.5px solid #2b3a2b;border-radius:12px"><span>ava</span></div><div class="ph" style="width:46px;height:46px;border:2.5px solid #2b3a2b;border-radius:12px"><span>ava</span></div><div class="ph" style="width:46px;height:46px;border:2.5px solid #2b3a2b;border-radius:12px"><span>ava</span></div><div class="ph" style="width:46px;height:46px;border:2.5px solid #2b3a2b;border-radius:12px"><span>ava</span></div></div>
+          </div>
+          <div style="display:flex;gap:10px;align-items:center">
+            <div style="width:46px;height:46px;background:#8fd0ff;border:3px solid #2b3a2b;border-radius:14px;display:flex;align-items:center;justify-content:center;font:800 18px 'Baloo 2'">B</div>
+            <div style="flex:1;display:flex;gap:8px"><div class="ph" style="width:46px;height:46px;border:2.5px solid #2b3a2b;border-radius:12px"><span>ava</span></div><div class="ph" style="width:46px;height:46px;border:2.5px solid #2b3a2b;border-radius:12px"><span>ava</span></div></div>
+          </div>
+        </div>
+      </div>
+      <div style="background:#fff;border:3px solid #2b3a2b;border-radius:20px;padding:22px;box-shadow:4px 4px 0 #2b3a2b;display:flex;flex-direction:column;gap:12px">
+        <div style="font:800 20px 'Baloo 2'">Video Mới ▶</div>
+        <div class="ph" style="height:150px;border:3px solid #2b3a2b;border-radius:14px;position:relative;background:repeating-linear-gradient(45deg,#e4f0ff 0,#e4f0ff 10px,#d8e9ff 10px,#d8e9ff 20px)"><span style="color:#5a7aa0">YouTube embed 16:9</span>
+          <div style="position:absolute;width:48px;height:48px;background:#ffd94a;border:3px solid #2b3a2b;border-radius:50%;display:flex;align-items:center;justify-content:center;font:800 16px 'Baloo 2'">▶</div>
+        </div>
+        <div style="font:800 14px/1.3 'Baloo 2'">Gameplay nhân vật mới — có đáng quay không?</div>
+        <div style="display:flex;gap:10px"><div class="ph" style="flex:1;height:52px;border:2.5px solid #2b3a2b;border-radius:10px"><span>video 2</span></div><div class="ph" style="flex:1;height:52px;border:2.5px solid #2b3a2b;border-radius:10px"><span>video 3</span></div></div>
+      </div>
+    </div>
+
+    <!-- guides -->
+    <div style="padding:0 32px 40px">
+      <div style="background:#7cc576;border:3px solid #2b3a2b;border-radius:20px;padding:24px;box-shadow:4px 4px 0 #2b3a2b;color:#fff">
+        <div style="font:800 20px 'Baloo 2';margin-bottom:14px;text-shadow:2px 2px 0 #2b3a2b">Hướng Dẫn Cho Bạn ✿</div>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px">
+          <div style="background:#fdf8e8;color:#2b3a2b;border:3px solid #2b3a2b;border-radius:14px;padding:14px;font:800 13px/1.35 'Baloo 2'">Tân thủ: 7 ngày đầu nên làm gì?</div>
+          <div style="background:#fdf8e8;color:#2b3a2b;border:3px solid #2b3a2b;border-radius:14px;padding:14px;font:800 13px/1.35 'Baloo 2'">Build nhân vật mới: vũ khí &amp; di vật</div>
+          <div style="background:#fdf8e8;color:#2b3a2b;border:3px solid #2b3a2b;border-radius:14px;padding:14px;font:800 13px/1.35 'Baloo 2'">Lộ trình farm nguyên liệu theo tuần</div>
+          <div style="background:#fdf8e8;color:#2b3a2b;border:3px solid #2b3a2b;border-radius:14px;padding:14px;font:800 13px/1.35 'Baloo 2'">Clear endgame với đội hình rẻ nhất</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div style="background:#fdf8e8;border-top:3px solid #2b3a2b;padding:20px 32px;display:flex;align-items:center;gap:16px">
+      <div style="font:800 15px 'Baloo 2'">Cenix Game Station ✿</div>
+      <div style="font:600 11px 'Baloo 2';color:#8aa08a">© 2026 — chơi vui, quay có não</div>
+      <div style="margin-left:auto;display:flex;gap:16px;font:700 12px 'Baloo 2';color:#3d523d"><span>YouTube</span><span>Facebook</span><span>Discord</span></div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ============ 2b: GEN Z — colorful neo-brutalist, pastel blocks ============ -->
+<div class="dv-opt" id="2b">
+<div class="dv-olabel"><a class="dv-oid" href="#2b">2b</a>Gen Z — colorful neo-brutalist, block pastel + viền đen, sticker vibe (kiểu NFT Finance)</div>
+<div class="dv-card" style="width:1280px;background:#f5f1ff;color:#151515">
+
+  <!-- nav -->
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 36px;background:#a8f0c6;border-bottom:3px solid #151515">
+    <div style="display:flex;align-items:center;gap:10px">
+      <div style="width:36px;height:36px;background:#151515;color:#a8f0c6;border-radius:8px;display:flex;align-items:center;justify-content:center;font:900 18px Archivo">C</div>
+      <div style="font:900 17px Archivo;letter-spacing:.3px">CENIX GAME STATION</div>
+    </div>
+    <div style="display:flex;gap:6px">
+      <span style="background:#151515;color:#fff;border-radius:8px;padding:7px 15px;font:700 12px Archivo">Trang chủ</span>
+      <span style="background:#fff;border:2px solid #151515;border-radius:8px;padding:7px 15px;font:700 12px Archivo">Tin tức</span>
+      <span style="background:#fff;border:2px solid #151515;border-radius:8px;padding:7px 15px;font:700 12px Archivo">Video</span>
+      <span style="background:#fff;border:2px solid #151515;border-radius:8px;padding:7px 15px;font:700 12px Archivo">Tier-List</span>
+      <span style="background:#fff;border:2px solid #151515;border-radius:8px;padding:7px 15px;font:700 12px Archivo">Hướng dẫn</span>
+    </div>
+    <div style="background:#ffd23f;border:2px solid #151515;border-radius:8px;padding:8px 16px;font:900 12px Archivo;box-shadow:3px 3px 0 #151515">SUB NGAY ⚡</div>
+  </div>
+
+  <!-- hero -->
+  <div style="background:#c9b8ff;border-bottom:3px solid #151515;padding:46px 36px;text-align:center">
+    <div style="display:inline-block;background:#ffd23f;border:2.5px solid #151515;border-radius:24px;padding:5px 16px;font:700 11px 'Space Mono',monospace;box-shadow:3px 3px 0 #151515;transform:rotate(-2deg)">🎮 no clickbait, only meta</div>
+    <div style="font:900 68px/1 Archivo;letter-spacing:-1.5px;margin:20px 0 6px">GAME NEWS<br><span style="background:#ff90c2;padding:0 14px;border:3px solid #151515;border-radius:14px;display:inline-block;transform:rotate(-1.5deg);box-shadow:5px 5px 0 #151515">KHÔNG NHẠT</span></div>
+    <div style="font:500 15px/1.6 Archivo;color:#3a3a3a;max-width:440px;margin:18px auto 0">Tin gacha, tier-list và guide — viết kiểu bạn bè kể nhau nghe, số liệu thì nghiêm túc.</div>
+    <div style="display:flex;justify-content:center;gap:12px;margin-top:24px">
+      <div style="background:#151515;color:#a8f0c6;font:800 13px Archivo;padding:13px 26px;border-radius:12px;box-shadow:4px 4px 0 rgba(21,21,21,.35)">ĐỌC LIỀN →</div>
+      <div style="background:#fff;border:2.5px solid #151515;font:800 13px Archivo;padding:11px 26px;border-radius:12px;box-shadow:4px 4px 0 #151515">TIER-LIST 🔥</div>
+    </div>
+  </div>
+
+  <!-- category strip -->
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);border-bottom:3px solid #151515">
+    <div style="background:#ffd23f;padding:18px 22px;border-right:3px solid #151515"><div style="font:900 16px Archivo">TIN TỨC 📰</div><div style="font:500 11px Archivo;color:#3a3a3a;margin-top:3px">update, banner, sự kiện</div></div>
+    <div style="background:#ff90c2;padding:18px 22px;border-right:3px solid #151515"><div style="font:900 16px Archivo">VIDEO 📺</div><div style="font:500 11px Archivo;color:#3a3a3a;margin-top:3px">gameplay, review, lore</div></div>
+    <div style="background:#a8f0c6;padding:18px 22px;border-right:3px solid #151515"><div style="font:900 16px Archivo">TIER-LIST 📊</div><div style="font:500 11px Archivo;color:#3a3a3a;margin-top:3px">meta từng bản, hover xem</div></div>
+    <div style="background:#8fd8ff;padding:18px 22px"><div style="font:900 16px Archivo">HƯỚNG DẪN 🧭</div><div style="font:500 11px Archivo;color:#3a3a3a;margin-top:3px">build, farm, tân thủ</div></div>
+  </div>
+
+  <!-- news grid -->
+  <div style="padding:40px 36px 8px">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px">
+      <div style="font:900 26px Archivo">HOT TUẦN NÀY</div>
+      <span style="background:#ff90c2;border:2px solid #151515;border-radius:16px;padding:3px 12px;font:700 10px 'Space Mono',monospace;transform:rotate(2deg)">fresh ✦</span>
+      <div style="margin-left:auto;font:800 12px Archivo;border-bottom:3px solid #151515">XEM HẾT →</div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px">
+      <div style="background:#fff;border:2.5px solid #151515;border-radius:16px;overflow:hidden;box-shadow:5px 5px 0 #151515">
+        <div class="ph phl" style="height:150px;border-bottom:2.5px solid #151515"><span>thumbnail</span></div>
+        <div style="padding:16px;display:flex;flex-direction:column;gap:7px">
+          <span style="align-self:flex-start;background:#ffd23f;border:2px solid #151515;border-radius:10px;padding:2px 10px;font:800 10px Archivo">TIN TỨC</span>
+          <div style="font:800 16px/1.3 Archivo">Banner mới drop: quay hay skip? Phân tích thẳng thắn</div>
+          <div style="font:400 10px 'Space Mono',monospace;color:#888">10.07 · 4 min</div>
+        </div>
+      </div>
+      <div style="background:#fff;border:2.5px solid #151515;border-radius:16px;overflow:hidden;box-shadow:5px 5px 0 #151515">
+        <div class="ph phl" style="height:150px;border-bottom:2.5px solid #151515"><span>thumbnail</span></div>
+        <div style="padding:16px;display:flex;flex-direction:column;gap:7px">
+          <span style="align-self:flex-start;background:#8fd8ff;border:2px solid #151515;border-radius:10px;padding:2px 10px;font:800 10px Archivo">HƯỚNG DẪN</span>
+          <div style="font:800 16px/1.3 Archivo">Build F2P mạnh nhất bản này — không cần nạp</div>
+          <div style="font:400 10px 'Space Mono',monospace;color:#888">09.07 · 6 min</div>
+        </div>
+      </div>
+      <div style="background:#fff;border:2.5px solid #151515;border-radius:16px;overflow:hidden;box-shadow:5px 5px 0 #151515">
+        <div class="ph phl" style="height:150px;border-bottom:2.5px solid #151515"><span>thumbnail</span></div>
+        <div style="padding:16px;display:flex;flex-direction:column;gap:7px">
+          <span style="align-self:flex-start;background:#a8f0c6;border:2px solid #151515;border-radius:10px;padding:2px 10px;font:800 10px Archivo">SỰ KIỆN</span>
+          <div style="font:800 16px/1.3 Archivo">Code mới tuần này — copy nhanh còn kịp</div>
+          <div style="font:400 10px 'Space Mono',monospace;color:#888">08.07 · 2 min</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- tier list band -->
+  <div style="margin:40px 36px 0;background:#151515;border-radius:20px;padding:26px;color:#fff">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px">
+      <div style="font:900 22px Archivo;color:#a8f0c6">TIER-LIST DPS — BẢN 2.5</div>
+      <span style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.5)">hover để xem chi tiết nhân vật</span>
+      <div style="margin-left:auto;background:#a8f0c6;color:#151515;font:800 11px Archivo;padding:7px 14px;border-radius:10px">FULL TIER-LIST →</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:8px">
+      <div style="display:flex;gap:8px;align-items:center">
+        <div style="width:44px;height:44px;background:#ff90c2;color:#151515;font:900 17px Archivo;border-radius:10px;display:flex;align-items:center;justify-content:center">S</div>
+        <div class="ph" style="width:44px;height:44px;border-radius:10px"><span>ava</span></div><div class="ph" style="width:44px;height:44px;border-radius:10px"><span>ava</span></div><div class="ph" style="width:44px;height:44px;border-radius:10px"><span>ava</span></div>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center">
+        <div style="width:44px;height:44px;background:#ffd23f;color:#151515;font:900 17px Archivo;border-radius:10px;display:flex;align-items:center;justify-content:center">A</div>
+        <div class="ph" style="width:44px;height:44px;border-radius:10px"><span>ava</span></div><div class="ph" style="width:44px;height:44px;border-radius:10px"><span>ava</span></div><div class="ph" style="width:44px;height:44px;border-radius:10px"><span>ava</span></div><div class="ph" style="width:44px;height:44px;border-radius:10px"><span>ava</span></div>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center">
+        <div style="width:44px;height:44px;background:#8fd8ff;color:#151515;font:900 17px Archivo;border-radius:10px;display:flex;align-items:center;justify-content:center">B</div>
+        <div class="ph" style="width:44px;height:44px;border-radius:10px"><span>ava</span></div><div class="ph" style="width:44px;height:44px;border-radius:10px"><span>ava</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- video row -->
+  <div style="padding:40px 36px 44px">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px">
+      <div style="font:900 26px Archivo">VIDEO MỚI</div>
+      <span style="background:#ffd23f;border:2px solid #151515;border-radius:16px;padding:3px 12px;font:700 10px 'Space Mono',monospace;transform:rotate(-2deg)">youtube ▶</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px">
+      <div style="border:2.5px solid #151515;border-radius:16px;overflow:hidden;box-shadow:5px 5px 0 #151515;background:#fff">
+        <div class="ph phl" style="height:160px;position:relative;border-bottom:2.5px solid #151515"><span>YouTube 16:9</span>
+          <div style="position:absolute;width:48px;height:48px;background:#ff90c2;border:2.5px solid #151515;border-radius:50%;display:flex;align-items:center;justify-content:center;font:900 16px Archivo">▶</div>
+        </div>
+        <div style="padding:14px 16px;font:800 14px/1.3 Archivo">Nhân vật mới: gameplay + verdict sau 3 ngày</div>
+      </div>
+      <div style="border:2.5px solid #151515;border-radius:16px;overflow:hidden;box-shadow:5px 5px 0 #151515;background:#fff">
+        <div class="ph phl" style="height:160px;position:relative;border-bottom:2.5px solid #151515"><span>YouTube 16:9</span>
+          <div style="position:absolute;width:48px;height:48px;background:#a8f0c6;border:2.5px solid #151515;border-radius:50%;display:flex;align-items:center;justify-content:center;font:900 16px Archivo">▶</div>
+        </div>
+        <div style="padding:14px 16px;font:800 14px/1.3 Archivo">Đội hình F2P clear endgame — proof kèm build</div>
+      </div>
+      <div style="border:2.5px solid #151515;border-radius:16px;overflow:hidden;box-shadow:5px 5px 0 #151515;background:#fff">
+        <div class="ph phl" style="height:160px;position:relative;border-bottom:2.5px solid #151515"><span>YouTube 16:9</span>
+          <div style="position:absolute;width:48px;height:48px;background:#8fd8ff;border:2.5px solid #151515;border-radius:50%;display:flex;align-items:center;justify-content:center;font:900 16px Archivo">▶</div>
+        </div>
+        <div style="padding:14px 16px;font:800 14px/1.3 Archivo">Lore chương mới tóm tắt trong 10 phút</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div style="background:#151515;color:#fff;padding:26px 36px;display:flex;align-items:center;gap:20px">
+    <div style="font:900 16px Archivo;color:#a8f0c6">CENIX GAME STATION</div>
+    <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.4)">© 2026 · made by gamers, for gamers</div>
+    <div style="margin-left:auto;display:flex;gap:10px">
+      <span style="background:#ffd23f;color:#151515;border-radius:8px;padding:6px 12px;font:800 11px Archivo">YouTube</span>
+      <span style="background:#ff90c2;color:#151515;border-radius:8px;padding:6px 12px;font:800 11px Archivo">TikTok</span>
+      <span style="background:#8fd8ff;color:#151515;border-radius:8px;padding:6px 12px;font:800 11px Archivo">Discord</span>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ============ 2c: MARIO STYLE — platformer retro, checkered, pipe/brick ============ -->
+<div class="dv-opt" id="2c">
+<div class="dv-olabel"><a class="dv-oid" href="#2c">2c</a>Mario Style — platformer retro: trời xanh, đất gạch, ống xanh, khối "?" (lấy cảm hứng, không dùng asset Nintendo)</div>
+<div class="dv-card" style="width:1280px;background:#fbd000;color:#221b10;font-family:'Baloo 2',sans-serif">
+
+  <!-- nav -->
+  <div style="background:#e52521;color:#fff;display:flex;align-items:center;justify-content:space-between;padding:12px 34px;border-bottom:4px solid #a01513">
+    <div style="display:flex;align-items:center;gap:10px">
+      <div style="width:36px;height:36px;background:#fff;color:#e52521;border-radius:50%;display:flex;align-items:center;justify-content:center;font:800 18px 'Baloo 2';border:3px solid #a01513">C</div>
+      <div style="font:800 18px 'Baloo 2';text-shadow:2px 2px 0 #a01513">CENIX GAME STATION</div>
+    </div>
+    <div style="display:flex;gap:8px">
+      <span style="background:#fff;color:#221b10;border:2.5px solid #a01513;border-radius:6px;padding:6px 14px;font:800 12px 'Baloo 2';box-shadow:0 3px 0 #a01513">TRANG CHỦ</span>
+      <span style="background:rgba(255,255,255,.15);border:2.5px solid rgba(255,255,255,.3);border-radius:6px;padding:6px 14px;font:800 12px 'Baloo 2'">TIN TỨC</span>
+      <span style="background:rgba(255,255,255,.15);border:2.5px solid rgba(255,255,255,.3);border-radius:6px;padding:6px 14px;font:800 12px 'Baloo 2'">VIDEO</span>
+      <span style="background:rgba(255,255,255,.15);border:2.5px solid rgba(255,255,255,.3);border-radius:6px;padding:6px 14px;font:800 12px 'Baloo 2'">TIER-LIST</span>
+      <span style="background:rgba(255,255,255,.15);border:2.5px solid rgba(255,255,255,.3);border-radius:6px;padding:6px 14px;font:800 12px 'Baloo 2'">HƯỚNG DẪN</span>
+    </div>
+  </div>
+
+  <!-- hero: sky scene -->
+  <div style="position:relative;background:linear-gradient(180deg,#6fb8f9 0%,#8ecbff 70%);padding:48px 40px 0;overflow:hidden">
+    <!-- clouds -->
+    <div style="position:absolute;left:70px;top:34px;width:90px;height:36px;background:#fff;border-radius:22px"></div>
+    <div style="position:absolute;left:96px;top:20px;width:52px;height:32px;background:#fff;border-radius:20px"></div>
+    <div style="position:absolute;right:150px;top:56px;width:110px;height:40px;background:#fff;border-radius:24px"></div>
+    <!-- floating ? blocks -->
+    <div style="position:absolute;right:80px;top:130px;display:flex;gap:8px">
+      <div style="width:52px;height:52px;background:#fbd000;border:4px solid #a06a00;border-radius:6px;display:flex;align-items:center;justify-content:center;font:800 26px 'Baloo 2';color:#a06a00;box-shadow:inset -4px -4px 0 rgba(0,0,0,.15)">?</div>
+      <div style="width:52px;height:52px;background:#c9702a;border:4px solid #8a4a15;border-radius:6px;box-shadow:inset -4px -4px 0 rgba(0,0,0,.2)"></div>
+      <div style="width:52px;height:52px;background:#fbd000;border:4px solid #a06a00;border-radius:6px;display:flex;align-items:center;justify-content:center;font:800 26px 'Baloo 2';color:#a06a00;box-shadow:inset -4px -4px 0 rgba(0,0,0,.15)">?</div>
+    </div>
+    <!-- coins -->
+    <div style="position:absolute;left:44%;top:44px;display:flex;gap:10px">
+      <div style="width:26px;height:26px;background:#ffdf4f;border:3px solid #c99a00;border-radius:50%"></div>
+      <div style="width:26px;height:26px;background:#ffdf4f;border:3px solid #c99a00;border-radius:50%"></div>
+      <div style="width:26px;height:26px;background:#ffdf4f;border:3px solid #c99a00;border-radius:50%"></div>
+    </div>
+    <div style="position:relative;text-align:center;max-width:640px;margin:0 auto">
+      <div style="display:inline-block;background:#fff;border:4px solid #221b10;border-radius:10px;padding:6px 18px;font:800 12px 'Baloo 2';box-shadow:0 4px 0 #221b10;transform:rotate(-2deg)">🍄 WORLD 1-1 · TRẠM GAME CỦA BẠN</div>
+      <div style="font:800 62px/1 'Baloo 2';color:#fff;margin:18px 0 4px;text-shadow:4px 4px 0 #e52521, 7px 7px 0 rgba(0,0,0,.2)">CENIX GAME<br>STATION</div>
+      <div style="font:700 15px/1.5 'Baloo 2';color:#123a63;max-width:420px;margin:14px auto 0">Tin tức, tier-list &amp; hướng dẫn game — nhảy vào là có ngay 1-UP kiến thức!</div>
+      <div style="display:flex;justify-content:center;gap:14px;margin:22px 0 30px">
+        <div style="background:#e52521;color:#fff;border:3px solid #a01513;border-radius:8px;padding:12px 26px;font:800 14px 'Baloo 2';box-shadow:0 5px 0 #a01513">START ▶</div>
+        <div style="background:#43b047;color:#fff;border:3px solid #2a7a2e;border-radius:8px;padding:12px 26px;font:800 14px 'Baloo 2';box-shadow:0 5px 0 #2a7a2e">TIER-LIST</div>
+      </div>
+    </div>
+    <!-- hero art on ground -->
+    <div style="position:relative;max-width:860px;margin:0 auto">
+      <div class="ph" style="height:170px;border:4px solid #221b10;border-bottom:none;border-radius:14px 14px 0 0;background:repeating-linear-gradient(45deg,#bfe3ff 0,#bfe3ff 10px,#b0dcff 10px,#b0dcff 20px)"><span style="color:#123a63">key art nhân vật game — banner nổi bật</span></div>
+    </div>
+    <!-- brick ground -->
+    <div style="height:44px;background:repeating-linear-gradient(90deg,#c9702a 0,#c9702a 42px,#8a4a15 42px,#8a4a15 46px),repeating-linear-gradient(0deg,#c9702a 0,#c9702a 20px,#8a4a15 20px,#8a4a15 22px);border-top:4px solid #221b10"></div>
+  </div>
+
+  <!-- news: item blocks -->
+  <div style="background:#fbd000;padding:38px 40px 8px">
+    <div style="text-align:center;margin-bottom:22px">
+      <span style="display:inline-block;background:#221b10;color:#fbd000;border-radius:8px;padding:8px 26px;font:800 22px 'Baloo 2';box-shadow:0 4px 0 rgba(0,0,0,.3)">📰 TIN TỨC MỚI</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px">
+      <div style="background:#fff;border:4px solid #221b10;border-radius:10px;overflow:hidden;box-shadow:0 5px 0 rgba(0,0,0,.25)">
+        <div class="ph phl" style="height:140px;border-bottom:4px solid #221b10"><span>thumbnail</span></div>
+        <div style="padding:14px 16px;display:flex;flex-direction:column;gap:6px">
+          <span style="align-self:flex-start;background:#e52521;color:#fff;border-radius:6px;padding:2px 10px;font:800 10px 'Baloo 2'">TIN TỨC</span>
+          <div style="font:800 15px/1.3 'Baloo 2'">Banner mới tháng 7: quay ai để không tốn ngọc?</div>
+          <div style="font:700 10px 'Baloo 2';color:#a08a5a">10.07 · ⭐ 4 phút</div>
+        </div>
+      </div>
+      <div style="background:#fff;border:4px solid #221b10;border-radius:10px;overflow:hidden;box-shadow:0 5px 0 rgba(0,0,0,.25)">
+        <div class="ph phl" style="height:140px;border-bottom:4px solid #221b10"><span>thumbnail</span></div>
+        <div style="padding:14px 16px;display:flex;flex-direction:column;gap:6px">
+          <span style="align-self:flex-start;background:#43b047;color:#fff;border-radius:6px;padding:2px 10px;font:800 10px 'Baloo 2'">SỰ KIỆN</span>
+          <div style="font:800 15px/1.3 'Baloo 2'">Code mới tuần này — vào ống nhận quà liền!</div>
+          <div style="font:700 10px 'Baloo 2';color:#a08a5a">08.07 · ⭐ 3 phút</div>
+        </div>
+      </div>
+      <div style="background:#fff;border:4px solid #221b10;border-radius:10px;overflow:hidden;box-shadow:0 5px 0 rgba(0,0,0,.25)">
+        <div class="ph phl" style="height:140px;border-bottom:4px solid #221b10"><span>thumbnail</span></div>
+        <div style="padding:14px 16px;display:flex;flex-direction:column;gap:6px">
+          <span style="align-self:flex-start;background:#049cd8;color:#fff;border-radius:6px;padding:2px 10px;font:800 10px 'Baloo 2'">GIỚI THIỆU</span>
+          <div style="font:800 15px/1.3 'Baloo 2'">5 game gacha đáng chơi nhất nửa cuối 2026</div>
+          <div style="font:700 10px 'Baloo 2';color:#a08a5a">06.07 · ⭐ 5 phút</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- tier list: castle band -->
+  <div style="margin-top:38px;background:#049cd8;border-top:4px solid #221b10;border-bottom:4px solid #221b10;padding:32px 40px">
+    <div style="display:flex;align-items:center;gap:14px;margin-bottom:18px">
+      <div style="font:800 24px 'Baloo 2';color:#fff;text-shadow:2px 2px 0 #036a94">🏰 TIER-LIST GACHA</div>
+      <span style="font:700 11px 'Baloo 2';color:rgba(255,255,255,.8)">hover xem chi tiết nhân vật</span>
+      <div style="margin-left:auto;background:#fbd000;border:3px solid #a06a00;border-radius:8px;padding:8px 16px;font:800 12px 'Baloo 2';box-shadow:0 4px 0 #a06a00">TẤT CẢ →</div>
+    </div>
+    <div style="background:#fff;border:4px solid #221b10;border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:10px;box-shadow:0 5px 0 rgba(0,0,0,.25)">
+      <div style="display:flex;gap:10px;align-items:center">
+        <div style="width:48px;height:48px;background:#e52521;color:#fff;border:3px solid #a01513;border-radius:8px;display:flex;align-items:center;justify-content:center;font:800 20px 'Baloo 2';box-shadow:inset -3px -3px 0 rgba(0,0,0,.2)">S</div>
+        <div class="ph" style="width:48px;height:48px;border:3px solid #221b10;border-radius:8px"><span>ava</span></div><div class="ph" style="width:48px;height:48px;border:3px solid #221b10;border-radius:8px"><span>ava</span></div><div class="ph" style="width:48px;height:48px;border:3px solid #221b10;border-radius:8px"><span>ava</span></div>
+        <div style="width:26px;height:26px;background:#ffdf4f;border:3px solid #c99a00;border-radius:50%;margin-left:auto"></div>
+        <div style="width:26px;height:26px;background:#ffdf4f;border:3px solid #c99a00;border-radius:50%"></div>
+        <div style="width:26px;height:26px;background:#ffdf4f;border:3px solid #c99a00;border-radius:50%"></div>
+      </div>
+      <div style="display:flex;gap:10px;align-items:center">
+        <div style="width:48px;height:48px;background:#fbd000;color:#221b10;border:3px solid #a06a00;border-radius:8px;display:flex;align-items:center;justify-content:center;font:800 20px 'Baloo 2';box-shadow:inset -3px -3px 0 rgba(0,0,0,.15)">A</div>
+        <div class="ph" style="width:48px;height:48px;border:3px solid #221b10;border-radius:8px"><span>ava</span></div><div class="ph" style="width:48px;height:48px;border:3px solid #221b10;border-radius:8px"><span>ava</span></div><div class="ph" style="width:48px;height:48px;border:3px solid #221b10;border-radius:8px"><span>ava</span></div><div class="ph" style="width:48px;height:48px;border:3px solid #221b10;border-radius:8px"><span>ava</span></div>
+      </div>
+      <div style="display:flex;gap:10px;align-items:center">
+        <div style="width:48px;height:48px;background:#43b047;color:#fff;border:3px solid #2a7a2e;border-radius:8px;display:flex;align-items:center;justify-content:center;font:800 20px 'Baloo 2';box-shadow:inset -3px -3px 0 rgba(0,0,0,.2)">B</div>
+        <div class="ph" style="width:48px;height:48px;border:3px solid #221b10;border-radius:8px"><span>ava</span></div><div class="ph" style="width:48px;height:48px;border:3px solid #221b10;border-radius:8px"><span>ava</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- video + guides: underground -->
+  <div style="background:#221b10;padding:38px 40px;display:grid;grid-template-columns:1.1fr .9fr;gap:22px">
+    <div>
+      <div style="font:800 22px 'Baloo 2';color:#fbd000;margin-bottom:14px;text-shadow:2px 2px 0 rgba(0,0,0,.5)">📺 VIDEO MỚI</div>
+      <div style="position:relative;border:4px solid #43b047;border-radius:12px;overflow:hidden;box-shadow:0 5px 0 #2a7a2e">
+        <div class="ph" style="height:250px"><span>YouTube embed 16:9 — video nổi bật</span></div>
+        <div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:60px;height:60px;background:#e52521;border:4px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font:800 20px 'Baloo 2';color:#fff">▶</div>
+      </div>
+      <div style="display:flex;gap:12px;margin-top:12px">
+        <div class="ph" style="flex:1;height:64px;border:3px solid #43b047;border-radius:8px"><span>video 2</span></div>
+        <div class="ph" style="flex:1;height:64px;border:3px solid #43b047;border-radius:8px"><span>video 3</span></div>
+        <div class="ph" style="flex:1;height:64px;border:3px solid #43b047;border-radius:8px"><span>video 4</span></div>
+      </div>
+    </div>
+    <div>
+      <div style="font:800 22px 'Baloo 2';color:#fbd000;margin-bottom:14px;text-shadow:2px 2px 0 rgba(0,0,0,.5)">🧭 HƯỚNG DẪN</div>
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <div style="background:#fbd000;border:3px solid #a06a00;border-radius:8px;padding:13px 16px;font:800 14px 'Baloo 2';box-shadow:0 4px 0 #a06a00;display:flex;gap:10px;align-items:center"><span style="background:#221b10;color:#fbd000;border-radius:6px;padding:1px 8px;font:800 12px 'Baloo 2'">1-1</span>Tân thủ: 7 ngày đầu nên làm gì?</div>
+        <div style="background:#fbd000;border:3px solid #a06a00;border-radius:8px;padding:13px 16px;font:800 14px 'Baloo 2';box-shadow:0 4px 0 #a06a00;display:flex;gap:10px;align-items:center"><span style="background:#221b10;color:#fbd000;border-radius:6px;padding:1px 8px;font:800 12px 'Baloo 2'">1-2</span>Build nhân vật mới: vũ khí &amp; di vật</div>
+        <div style="background:#fbd000;border:3px solid #a06a00;border-radius:8px;padding:13px 16px;font:800 14px 'Baloo 2';box-shadow:0 4px 0 #a06a00;display:flex;gap:10px;align-items:center"><span style="background:#221b10;color:#fbd000;border-radius:6px;padding:1px 8px;font:800 12px 'Baloo 2'">1-3</span>Lộ trình farm nguyên liệu theo tuần</div>
+        <div style="background:#fbd000;border:3px solid #a06a00;border-radius:8px;padding:13px 16px;font:800 14px 'Baloo 2';box-shadow:0 4px 0 #a06a00;display:flex;gap:10px;align-items:center"><span style="background:#221b10;color:#fbd000;border-radius:6px;padding:1px 8px;font:800 12px 'Baloo 2'">1-4</span>Boss endgame: clear với đội rẻ nhất</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer: flag -->
+  <div style="background:#43b047;border-top:4px solid #221b10;padding:22px 40px;display:flex;align-items:center;gap:18px;color:#fff">
+    <div style="font:800 16px 'Baloo 2';text-shadow:2px 2px 0 #2a7a2e">🚩 CENIX GAME STATION</div>
+    <div style="font:700 11px 'Baloo 2';color:rgba(255,255,255,.8)">© 2026 — thanks for playing!</div>
+    <div style="margin-left:auto;display:flex;gap:14px;font:800 12px 'Baloo 2'"><span>YouTube</span><span>Facebook</span><span>Discord</span></div>
+  </div>
+</div>
+</div>
+
+</div>
+<p class="dv-next">Thử tiếp: "làm kỹ <a class="dv-oid" href="#2c">2c</a> nhưng màu của <a class="dv-oid" href="#2a">2a</a>" · "mix <a class="dv-oid" href="#2b">2b</a> với dark của <a class="dv-oid" href="#1a">1a</a>" · "thêm hướng khác"</p>
+</section>
+
+<section class="dv-turn" id="t1">
+<div class="dv-thd"><a class="dv-tid" href="#t1">1</a><span class="dv-tname">Trang chủ Cenix Game Station — 3 hướng visual</span></div>
+<div class="dv-opts">
+
+<!-- ============ 1a: NEON STATION — dark gaming, lime, hero lớn ============ -->
+<div class="dv-opt" id="1a">
+<div class="dv-olabel"><a class="dv-oid" href="#1a">1a</a>Neon Station — dark gaming, hero full-bleed, layout kiểu portal (GameVerse)</div>
+<div class="dv-card" style="width:1280px;background:#0c0d10;color:#fff">
+
+  <!-- nav -->
+  <div style="display:flex;align-items:center;gap:32px;padding:0 40px;height:68px;border-bottom:1px solid rgba(255,255,255,.08)">
+    <div style="display:flex;align-items:center;gap:10px">
+      <div style="width:30px;height:30px;background:#c8f03c;border-radius:6px;display:flex;align-items:center;justify-content:center;font:900 16px Archivo;color:#0c0d10">C</div>
+      <div style="font:900 17px Archivo;letter-spacing:.5px">CENIX <span style="color:#c8f03c">GAME STATION</span></div>
+    </div>
+    <div style="display:flex;gap:26px;font:600 13px Archivo;color:rgba(255,255,255,.75);margin-left:24px">
+      <span style="color:#c8f03c">TRANG CHỦ</span><span>TIN TỨC</span><span>VIDEO</span><span>TIER-LIST</span><span>HƯỚNG DẪN</span>
+    </div>
+    <div style="margin-left:auto;display:flex;align-items:center;gap:14px">
+      <div style="display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:8px 16px;font:400 12px Archivo;color:rgba(255,255,255,.5);width:180px">Tìm kiếm game, bài viết…</div>
+      <div style="background:#c8f03c;color:#0c0d10;font:700 12px Archivo;padding:9px 18px;border-radius:20px">ĐĂNG KÝ</div>
+    </div>
+  </div>
+
+  <!-- hero -->
+  <div style="position:relative;height:480px;overflow:hidden">
+    <div class="ph" style="position:absolute;inset:0"><span>KEY ART — game nổi bật (VD: banner Wuthering Waves 2.5)</span></div>
+    <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,13,16,.95) 0%,rgba(12,13,16,.6) 45%,rgba(12,13,16,0) 75%)"></div>
+    <div style="position:relative;padding:70px 40px;max-width:560px;display:flex;flex-direction:column;gap:18px">
+      <div style="display:flex;gap:8px">
+        <span style="background:#c8f03c;color:#0c0d10;font:700 11px 'Space Mono',monospace;padding:4px 10px;border-radius:4px">TIN NÓNG</span>
+        <span style="border:1px solid rgba(255,255,255,.3);font:400 11px 'Space Mono',monospace;padding:4px 10px;border-radius:4px;color:rgba(255,255,255,.7)">GACHA</span>
+      </div>
+      <div style="font:900 44px/1.05 Archivo;letter-spacing:-.5px">PHIÊN BẢN MỚI RA MẮT: TẤT CẢ NHÂN VẬT &amp; BANNER ĐÁNG QUAY NHẤT</div>
+      <div style="font:400 15px/1.6 Archivo;color:rgba(255,255,255,.7)">Tổng hợp banner, sự kiện và code mới nhất trong bản cập nhật — kèm nhận định nên quay ai từ đội ngũ Cenix.</div>
+      <div style="display:flex;gap:12px;margin-top:6px">
+        <div style="background:#c8f03c;color:#0c0d10;font:700 13px Archivo;padding:12px 24px;border-radius:24px">ĐỌC NGAY →</div>
+        <div style="border:1px solid rgba(255,255,255,.3);font:600 13px Archivo;padding:12px 24px;border-radius:24px">XEM TIER-LIST</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- news grid -->
+  <div style="padding:44px 40px 8px">
+    <div style="display:flex;align-items:baseline;gap:14px;margin-bottom:22px">
+      <div style="font:900 24px Archivo">TIN TỨC MỚI</div>
+      <div style="height:2px;flex:1;background:linear-gradient(90deg,#c8f03c,transparent)"></div>
+      <div style="font:700 12px 'Space Mono',monospace;color:#c8f03c">XEM TẤT CẢ →</div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:18px">
+      <div style="background:#14151a;border:1px solid rgba(255,255,255,.07);border-radius:12px;overflow:hidden">
+        <div class="ph" style="height:130px"><span>thumbnail bài viết</span></div>
+        <div style="padding:16px;display:flex;flex-direction:column;gap:8px">
+          <span style="font:700 10px 'Space Mono',monospace;color:#c8f03c">GIỚI THIỆU GAME</span>
+          <div style="font:700 15px/1.3 Archivo">5 game gacha đáng chơi nhất nửa cuối 2026</div>
+          <div style="font:400 11px 'Space Mono',monospace;color:rgba(255,255,255,.4)">10.07.2026 · 5 phút đọc</div>
+        </div>
+      </div>
+      <div style="background:#14151a;border:1px solid rgba(255,255,255,.07);border-radius:12px;overflow:hidden">
+        <div class="ph" style="height:130px"><span>thumbnail bài viết</span></div>
+        <div style="padding:16px;display:flex;flex-direction:column;gap:8px">
+          <span style="font:700 10px 'Space Mono',monospace;color:#c8f03c">TIN TỨC</span>
+          <div style="font:700 15px/1.3 Archivo">Lịch banner tháng 7: nên để dành hay quay?</div>
+          <div style="font:400 11px 'Space Mono',monospace;color:rgba(255,255,255,.4)">09.07.2026 · 4 phút đọc</div>
+        </div>
+      </div>
+      <div style="background:#14151a;border:1px solid rgba(255,255,255,.07);border-radius:12px;overflow:hidden">
+        <div class="ph" style="height:130px"><span>thumbnail bài viết</span></div>
+        <div style="padding:16px;display:flex;flex-direction:column;gap:8px">
+          <span style="font:700 10px 'Space Mono',monospace;color:#c8f03c">SỰ KIỆN</span>
+          <div style="font:700 15px/1.3 Archivo">Tổng hợp code mới nhất tuần này — nhận ngay kẻo hết hạn</div>
+          <div style="font:400 11px 'Space Mono',monospace;color:rgba(255,255,255,.4)">08.07.2026 · 3 phút đọc</div>
+        </div>
+      </div>
+      <div style="background:#14151a;border:1px solid rgba(255,255,255,.07);border-radius:12px;overflow:hidden">
+        <div class="ph" style="height:130px"><span>thumbnail bài viết</span></div>
+        <div style="padding:16px;display:flex;flex-direction:column;gap:8px">
+          <span style="font:700 10px 'Space Mono',monospace;color:#c8f03c">PHÂN TÍCH</span>
+          <div style="font:700 15px/1.3 Archivo">Meta PvE thay đổi thế nào sau bản cập nhật lớn?</div>
+          <div style="font:400 11px 'Space Mono',monospace;color:rgba(255,255,255,.4)">06.07.2026 · 8 phút đọc</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- tier list teaser -->
+  <div style="padding:44px 40px 8px">
+    <div style="display:flex;align-items:baseline;gap:14px;margin-bottom:22px">
+      <div style="font:900 24px Archivo">TIER-LIST <span style="color:#c8f03c">GACHA</span></div>
+      <div style="height:2px;flex:1;background:linear-gradient(90deg,#c8f03c,transparent)"></div>
+      <div style="font:700 12px 'Space Mono',monospace;color:#c8f03c">TẤT CẢ TIER-LIST →</div>
+    </div>
+    <div style="background:#14151a;border:1px solid rgba(255,255,255,.07);border-radius:14px;padding:22px;display:flex;flex-direction:column;gap:10px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px">
+        <div style="font:700 14px Archivo">Tier-list DPS — cập nhật bản 2.5</div>
+        <span style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.4)">cập nhật 10.07.2026 · hover để xem chi tiết nhân vật</span>
+      </div>
+      <div style="display:flex;gap:10px;align-items:stretch">
+        <div style="width:52px;background:#ff5c5c;color:#0c0d10;font:900 20px Archivo;border-radius:8px;display:flex;align-items:center;justify-content:center">S</div>
+        <div style="flex:1;background:rgba(255,255,255,.04);border-radius:8px;padding:8px;display:flex;gap:8px">
+          <div class="ph" style="width:56px;height:56px;border-radius:8px"><span>ava</span></div>
+          <div class="ph" style="width:56px;height:56px;border-radius:8px"><span>ava</span></div>
+          <div class="ph" style="width:56px;height:56px;border-radius:8px"><span>ava</span></div>
+        </div>
+      </div>
+      <div style="display:flex;gap:10px;align-items:stretch">
+        <div style="width:52px;background:#ffb347;color:#0c0d10;font:900 20px Archivo;border-radius:8px;display:flex;align-items:center;justify-content:center">A</div>
+        <div style="flex:1;background:rgba(255,255,255,.04);border-radius:8px;padding:8px;display:flex;gap:8px">
+          <div class="ph" style="width:56px;height:56px;border-radius:8px"><span>ava</span></div>
+          <div class="ph" style="width:56px;height:56px;border-radius:8px"><span>ava</span></div>
+          <div class="ph" style="width:56px;height:56px;border-radius:8px"><span>ava</span></div>
+          <div class="ph" style="width:56px;height:56px;border-radius:8px"><span>ava</span></div>
+        </div>
+      </div>
+      <div style="display:flex;gap:10px;align-items:stretch">
+        <div style="width:52px;background:#c8f03c;color:#0c0d10;font:900 20px Archivo;border-radius:8px;display:flex;align-items:center;justify-content:center">B</div>
+        <div style="flex:1;background:rgba(255,255,255,.04);border-radius:8px;padding:8px;display:flex;gap:8px">
+          <div class="ph" style="width:56px;height:56px;border-radius:8px"><span>ava</span></div>
+          <div class="ph" style="width:56px;height:56px;border-radius:8px"><span>ava</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- video row -->
+  <div style="padding:44px 40px 8px">
+    <div style="display:flex;align-items:baseline;gap:14px;margin-bottom:22px">
+      <div style="font:900 24px Archivo">VIDEO</div>
+      <div style="height:2px;flex:1;background:linear-gradient(90deg,#c8f03c,transparent)"></div>
+      <div style="font:700 12px 'Space Mono',monospace;color:#c8f03c">KÊNH YOUTUBE →</div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px">
+      <div style="border-radius:12px;overflow:hidden;background:#14151a;border:1px solid rgba(255,255,255,.07)">
+        <div class="ph" style="height:170px;position:relative"><span>YouTube embed 16:9</span>
+          <div style="position:absolute;width:52px;height:52px;border-radius:50%;background:#c8f03c;display:flex;align-items:center;justify-content:center;color:#0c0d10;font:900 18px Archivo">▶</div>
+        </div>
+        <div style="padding:14px 16px;font:700 14px/1.35 Archivo">Gameplay trải nghiệm nhân vật mới — có đáng quay không?</div>
+      </div>
+      <div style="border-radius:12px;overflow:hidden;background:#14151a;border:1px solid rgba(255,255,255,.07)">
+        <div class="ph" style="height:170px;position:relative"><span>YouTube embed 16:9</span>
+          <div style="position:absolute;width:52px;height:52px;border-radius:50%;background:#c8f03c;display:flex;align-items:center;justify-content:center;color:#0c0d10;font:900 18px Archivo">▶</div>
+        </div>
+        <div style="padding:14px 16px;font:700 14px/1.35 Archivo">Build đội hình F2P mạnh nhất bản hiện tại</div>
+      </div>
+      <div style="border-radius:12px;overflow:hidden;background:#14151a;border:1px solid rgba(255,255,255,.07)">
+        <div class="ph" style="height:170px;position:relative"><span>YouTube embed 16:9</span>
+          <div style="position:absolute;width:52px;height:52px;border-radius:50%;background:#c8f03c;display:flex;align-items:center;justify-content:center;color:#0c0d10;font:900 18px Archivo">▶</div>
+        </div>
+        <div style="padding:14px 16px;font:700 14px/1.35 Archivo">Tóm tắt cốt truyện chương mới trong 10 phút</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- guides -->
+  <div style="padding:44px 40px 48px">
+    <div style="display:flex;align-items:baseline;gap:14px;margin-bottom:22px">
+      <div style="font:900 24px Archivo">HƯỚNG DẪN</div>
+      <div style="height:2px;flex:1;background:linear-gradient(90deg,#c8f03c,transparent)"></div>
+      <div style="font:700 12px 'Space Mono',monospace;color:#c8f03c">TẤT CẢ HƯỚNG DẪN →</div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+      <div style="display:flex;gap:14px;background:#14151a;border:1px solid rgba(255,255,255,.07);border-radius:12px;padding:14px">
+        <div class="ph" style="width:110px;height:76px;border-radius:8px;flex:none"><span>thumb</span></div>
+        <div style="display:flex;flex-direction:column;gap:6px;justify-content:center">
+          <span style="font:700 10px 'Space Mono',monospace;color:#c8f03c">NGƯỜI MỚI</span>
+          <div style="font:700 15px/1.3 Archivo">Hướng dẫn tân thủ: 7 ngày đầu nên làm gì?</div>
+        </div>
+      </div>
+      <div style="display:flex;gap:14px;background:#14151a;border:1px solid rgba(255,255,255,.07);border-radius:12px;padding:14px">
+        <div class="ph" style="width:110px;height:76px;border-radius:8px;flex:none"><span>thumb</span></div>
+        <div style="display:flex;flex-direction:column;gap:6px;justify-content:center">
+          <span style="font:700 10px 'Space Mono',monospace;color:#c8f03c">BUILD</span>
+          <div style="font:700 15px/1.3 Archivo">Build chi tiết nhân vật mới: vũ khí, di vật, đội hình</div>
+        </div>
+      </div>
+      <div style="display:flex;gap:14px;background:#14151a;border:1px solid rgba(255,255,255,.07);border-radius:12px;padding:14px">
+        <div class="ph" style="width:110px;height:76px;border-radius:8px;flex:none"><span>thumb</span></div>
+        <div style="display:flex;flex-direction:column;gap:6px;justify-content:center">
+          <span style="font:700 10px 'Space Mono',monospace;color:#c8f03c">FARM</span>
+          <div style="font:700 15px/1.3 Archivo">Lộ trình farm nguyên liệu tối ưu theo tuần</div>
+        </div>
+      </div>
+      <div style="display:flex;gap:14px;background:#14151a;border:1px solid rgba(255,255,255,.07);border-radius:12px;padding:14px">
+        <div class="ph" style="width:110px;height:76px;border-radius:8px;flex:none"><span>thumb</span></div>
+        <div style="display:flex;flex-direction:column;gap:6px;justify-content:center">
+          <span style="font:700 10px 'Space Mono',monospace;color:#c8f03c">ENDGAME</span>
+          <div style="font:700 15px/1.3 Archivo">Clear nội dung endgame với đội hình rẻ nhất</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div style="border-top:1px solid rgba(255,255,255,.08);padding:28px 40px;display:flex;align-items:center;gap:20px">
+    <div style="font:900 15px Archivo">CENIX <span style="color:#c8f03c">GAME STATION</span></div>
+    <div style="font:400 11px 'Space Mono',monospace;color:rgba(255,255,255,.4)">© 2026 — Blog game, tier-list &amp; hướng dẫn</div>
+    <div style="margin-left:auto;display:flex;gap:18px;font:600 12px Archivo;color:rgba(255,255,255,.6)"><span>YouTube</span><span>Facebook</span><span>Discord</span></div>
+  </div>
+</div>
+</div>
+
+<!-- ============ 1b: DARK MAGAZINE — grid editorial ============ -->
+<div class="dv-opt" id="1b">
+<div class="dv-olabel"><a class="dv-oid" href="#1b">1b</a>Dark Magazine — grid bài viết dày, typo lớn, tối giản (Gaming Magazine)</div>
+<div class="dv-card" style="width:1280px;background:#0a0a0a;color:#fff">
+
+  <!-- nav -->
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:22px 48px">
+    <div style="font:400 12px 'Space Mono',monospace;color:rgba(255,255,255,.5)">BLOG GAME · TIER-LIST · HƯỚNG DẪN</div>
+    <div style="display:flex;gap:34px;font:700 12px 'Space Mono',monospace;letter-spacing:1px">
+      <span style="border-bottom:2px solid #c8f03c;padding-bottom:4px">TRANG CHỦ</span><span style="color:rgba(255,255,255,.6)">TIN TỨC</span><span style="color:rgba(255,255,255,.6)">VIDEO</span><span style="color:rgba(255,255,255,.6)">TIER-LIST</span><span style="color:rgba(255,255,255,.6)">HƯỚNG DẪN</span>
+    </div>
+    <div style="width:34px;height:34px;border:1px solid rgba(255,255,255,.25);border-radius:50%;display:flex;align-items:center;justify-content:center;font:400 13px 'Space Mono',monospace;color:rgba(255,255,255,.6)">⌕</div>
+  </div>
+
+  <!-- masthead -->
+  <div style="text-align:center;padding:54px 0 60px">
+    <div style="font:400 12px 'Space Mono',monospace;color:#c8f03c;letter-spacing:3px;margin-bottom:14px">EST. 2026 — TRẠM GAME CỦA BẠN</div>
+    <div style="font:900 96px/0.95 Archivo;letter-spacing:-2px">CENIX GAME<br><span style="-webkit-text-stroke:2px #c8f03c;color:transparent">STATION</span></div>
+  </div>
+
+  <!-- mixed grid -->
+  <div style="padding:0 48px;display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:150px;gap:16px">
+    <!-- big feature -->
+    <div style="grid-column:span 2;grid-row:span 2;position:relative;border-radius:4px;overflow:hidden">
+      <div class="ph" style="position:absolute;inset:0"><span>ảnh feature — key art game</span></div>
+      <div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.9),transparent 55%)"></div>
+      <div style="position:absolute;left:22px;right:22px;bottom:20px;display:flex;flex-direction:column;gap:8px">
+        <div style="font:900 24px/1.15 Archivo">PHIÊN BẢN MỚI: TOÀN BỘ BANNER &amp; NHÂN VẬT ĐÁNG QUAY</div>
+        <div style="font:400 11px 'Space Mono',monospace;color:#c8f03c">10.07.2026 / TIN TỨC</div>
+      </div>
+    </div>
+    <!-- quote-style tierlist card -->
+    <div style="grid-row:span 2;border:1px solid rgba(255,255,255,.2);border-radius:4px;padding:22px;display:flex;flex-direction:column;justify-content:space-between">
+      <div style="font:900 40px Archivo;color:#c8f03c">S→C</div>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <div style="font:700 17px/1.3 Archivo">Tier-list DPS bản 2.5 — ai đứng đỉnh meta?</div>
+        <div style="font:400 11px 'Space Mono',monospace;color:rgba(255,255,255,.45)">TIER-LIST TƯƠNG TÁC</div>
+      </div>
+    </div>
+    <!-- video card -->
+    <div style="grid-row:span 2;position:relative;border-radius:4px;overflow:hidden">
+      <div class="ph" style="position:absolute;inset:0"><span>video thumb dọc</span></div>
+      <div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.85),transparent 50%)"></div>
+      <div style="position:absolute;top:14px;left:14px;width:44px;height:44px;border:2px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font:900 14px Archivo">▶</div>
+      <div style="position:absolute;left:18px;right:18px;bottom:16px;display:flex;flex-direction:column;gap:6px">
+        <div style="font:700 15px/1.3 Archivo">Trải nghiệm nhân vật mới — gameplay 4K</div>
+        <div style="font:400 10px 'Space Mono',monospace;color:#c8f03c">VIDEO / YOUTUBE</div>
+      </div>
+    </div>
+    <!-- small cards -->
+    <div style="position:relative;border-radius:4px;overflow:hidden">
+      <div class="ph" style="position:absolute;inset:0"><span>thumb</span></div>
+      <div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.85),transparent 60%)"></div>
+      <div style="position:absolute;left:14px;right:14px;bottom:12px;font:700 13px/1.3 Archivo">Code mới tuần này — nhận kẻo hết hạn<div style="font:400 9px 'Space Mono',monospace;color:#c8f03c;margin-top:4px">08.07 / SỰ KIỆN</div></div>
+    </div>
+    <div style="border:1px solid rgba(255,255,255,.2);border-radius:4px;padding:16px;display:flex;flex-direction:column;justify-content:space-between">
+      <div style="font:900 20px Archivo;color:#c8f03c">❝</div>
+      <div style="font:700 12px/1.4 'Space Mono',monospace">"Đừng quay banner vì FOMO — quay vì đội hình cần."</div>
+      <div style="font:400 9px 'Space Mono',monospace;color:rgba(255,255,255,.4)">CENIX TEAM</div>
+    </div>
+    <div style="position:relative;border-radius:4px;overflow:hidden">
+      <div class="ph" style="position:absolute;inset:0"><span>thumb</span></div>
+      <div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.85),transparent 60%)"></div>
+      <div style="position:absolute;left:14px;right:14px;bottom:12px;font:700 13px/1.3 Archivo">Hướng dẫn tân thủ 7 ngày đầu<div style="font:400 9px 'Space Mono',monospace;color:#c8f03c;margin-top:4px">07.07 / HƯỚNG DẪN</div></div>
+    </div>
+    <div style="position:relative;border-radius:4px;overflow:hidden">
+      <div class="ph" style="position:absolute;inset:0"><span>thumb</span></div>
+      <div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.85),transparent 60%)"></div>
+      <div style="position:absolute;left:14px;right:14px;bottom:12px;font:700 13px/1.3 Archivo">5 game gacha đáng chơi nhất 2026<div style="font:400 9px 'Space Mono',monospace;color:#c8f03c;margin-top:4px">06.07 / GIỚI THIỆU</div></div>
+    </div>
+  </div>
+
+  <!-- section: chuyên mục -->
+  <div style="padding:54px 48px 0;display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
+    <div style="border-top:2px solid #c8f03c;padding-top:14px"><div style="font:900 18px Archivo">TIN TỨC</div><div style="font:400 11px/1.5 'Space Mono',monospace;color:rgba(255,255,255,.45);margin-top:6px">Cập nhật, sự kiện, banner mới của các game hot</div></div>
+    <div style="border-top:2px solid rgba(255,255,255,.2);padding-top:14px"><div style="font:900 18px Archivo">VIDEO</div><div style="font:400 11px/1.5 'Space Mono',monospace;color:rgba(255,255,255,.45);margin-top:6px">Gameplay, review, tóm tắt cốt truyện từ YouTube</div></div>
+    <div style="border-top:2px solid rgba(255,255,255,.2);padding-top:14px"><div style="font:900 18px Archivo">TIER-LIST</div><div style="font:400 11px/1.5 'Space Mono',monospace;color:rgba(255,255,255,.45);margin-top:6px">Xếp hạng nhân vật gacha, hover xem chi tiết</div></div>
+    <div style="border-top:2px solid rgba(255,255,255,.2);padding-top:14px"><div style="font:900 18px Archivo">HƯỚNG DẪN</div><div style="font:400 11px/1.5 'Space Mono',monospace;color:rgba(255,255,255,.45);margin-top:6px">Build, farm, lộ trình cho tân thủ đến endgame</div></div>
+  </div>
+
+  <!-- footer -->
+  <div style="margin:54px 48px 0;border:1px solid rgba(255,255,255,.15);border-radius:4px;padding:40px;text-align:center">
+    <div style="width:44px;height:44px;background:#c8f03c;border-radius:10px;margin:0 auto 14px;display:flex;align-items:center;justify-content:center;font:900 22px Archivo;color:#0a0a0a">C</div>
+    <div style="font:900 16px Archivo;letter-spacing:2px">CENIX GAME STATION</div>
+    <div style="display:flex;justify-content:center;gap:28px;font:700 11px 'Space Mono',monospace;color:rgba(255,255,255,.55);margin-top:18px"><span>TRANG CHỦ</span><span>TIN TỨC</span><span>VIDEO</span><span>TIER-LIST</span><span>HƯỚNG DẪN</span></div>
+  </div>
+  <div style="text-align:center;font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.3);padding:20px">© 2026 CENIX GAME STATION</div>
+</div>
+</div>
+
+<!-- ============ 1c: BOLD EDITORIAL — nền sáng + lime chói ============ -->
+<div class="dv-opt" id="1c">
+<div class="dv-olabel"><a class="dv-oid" href="#1c">1c</a>Bold Editorial — nền sáng, typo cực lớn, block lime chói (BRVND/FUTURA)</div>
+<div class="dv-card" style="width:1280px;background:#f2f0ea;color:#111">
+
+  <!-- nav -->
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:0 44px;height:64px;border-bottom:2px solid #111">
+    <div style="font:900 18px Archivo;letter-spacing:.5px">CENIX<span style="background:#c8f03c;padding:2px 6px;margin-left:6px">GAME STATION</span></div>
+    <div style="display:flex;gap:30px;font:700 13px Archivo">
+      <span style="border-bottom:3px solid #c8f03c">TRANG CHỦ</span><span>TIN TỨC</span><span>VIDEO</span><span>TIER-LIST</span><span>HƯỚNG DẪN</span>
+    </div>
+    <div style="background:#111;color:#c8f03c;font:700 12px Archivo;padding:9px 18px;border-radius:22px">THEO DÕI ↗</div>
+  </div>
+
+  <!-- hero -->
+  <div style="padding:56px 44px 40px;display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center">
+    <div style="display:flex;flex-direction:column;gap:20px">
+      <div style="display:inline-flex"><span style="background:#c8f03c;font:700 11px 'Space Mono',monospace;padding:5px 12px">TRẠM GAME · BLOG · TIER-LIST</span></div>
+      <div style="font:900 72px/0.95 Archivo;letter-spacing:-2px">CHƠI<br>THÔNG<br>MINH H<span style="display:inline-block;width:.85em;height:.85em;border:4px solid #111;border-radius:50%;vertical-align:-8%;text-align:center;font:900 .55em/1.5 Archivo">↗</span>N.</div>
+      <div style="font:400 16px/1.6 Archivo;color:rgba(0,0,0,.65);max-width:420px">Tin tức, tier-list và hướng dẫn game gacha — viết bởi người chơi thật, không clickbait.</div>
+      <div style="display:flex;gap:12px">
+        <div style="background:#111;color:#fff;font:700 13px Archivo;padding:13px 26px;border-radius:26px">ĐỌC BÀI MỚI →</div>
+        <div style="border:2px solid #111;font:700 13px Archivo;padding:11px 26px;border-radius:26px">TIER-LIST</div>
+      </div>
+      <div style="display:flex;gap:0;margin-top:10px">
+        <div style="padding-right:24px;border-right:1px solid rgba(0,0,0,.2)"><div style="font:900 26px Archivo">120+</div><div style="font:400 10px 'Space Mono',monospace;color:rgba(0,0,0,.5)">BÀI VIẾT</div></div>
+        <div style="padding:0 24px;border-right:1px solid rgba(0,0,0,.2)"><div style="font:900 26px Archivo">15</div><div style="font:400 10px 'Space Mono',monospace;color:rgba(0,0,0,.5)">TIER-LIST</div></div>
+        <div style="padding-left:24px"><div style="font:900 26px Archivo">8</div><div style="font:400 10px 'Space Mono',monospace;color:rgba(0,0,0,.5)">GAME COVER</div></div>
+      </div>
+    </div>
+    <div style="position:relative;height:420px">
+      <div class="ph phl" style="position:absolute;inset:0;border-radius:6px"><span>key art / render nhân vật nổi bật</span></div>
+      <div style="position:absolute;right:-10px;top:-10px;width:86px;height:86px;background:#c8f03c;border-radius:50%;display:flex;align-items:center;justify-content:center;font:700 10px 'Space Mono',monospace;text-align:center;transform:rotate(12deg)">BẢN 2.5<br>MỚI RA</div>
+    </div>
+  </div>
+
+  <!-- lime band: tier list -->
+  <div style="background:#c8f03c;padding:40px 44px;border-top:2px solid #111;border-bottom:2px solid #111">
+    <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:22px">
+      <div style="font:900 30px Archivo">TIER-LIST GACHA<span style="font:400 13px 'Space Mono',monospace;margin-left:14px">hover xem chi tiết</span></div>
+      <div style="font:700 12px 'Space Mono',monospace;border-bottom:2px solid #111">XEM TẤT CẢ →</div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
+      <div style="background:#111;color:#fff;border-radius:6px;padding:20px;display:flex;flex-direction:column;gap:12px">
+        <div style="display:flex;justify-content:space-between;align-items:center"><span style="font:900 16px Archivo">DPS TIER-LIST</span><span style="background:#c8f03c;color:#111;font:900 13px Archivo;padding:3px 8px">S</span></div>
+        <div style="display:flex;gap:8px"><div class="ph" style="width:48px;height:48px;border-radius:6px"><span>ava</span></div><div class="ph" style="width:48px;height:48px;border-radius:6px"><span>ava</span></div><div class="ph" style="width:48px;height:48px;border-radius:6px"><span>ava</span></div></div>
+        <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.5)">CẬP NHẬT 10.07.2026</div>
+      </div>
+      <div style="background:#111;color:#fff;border-radius:6px;padding:20px;display:flex;flex-direction:column;gap:12px">
+        <div style="display:flex;justify-content:space-between;align-items:center"><span style="font:900 16px Archivo">SUPPORT TIER-LIST</span><span style="background:#c8f03c;color:#111;font:900 13px Archivo;padding:3px 8px">S</span></div>
+        <div style="display:flex;gap:8px"><div class="ph" style="width:48px;height:48px;border-radius:6px"><span>ava</span></div><div class="ph" style="width:48px;height:48px;border-radius:6px"><span>ava</span></div><div class="ph" style="width:48px;height:48px;border-radius:6px"><span>ava</span></div></div>
+        <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.5)">CẬP NHẬT 08.07.2026</div>
+      </div>
+      <div style="background:#111;color:#fff;border-radius:6px;padding:20px;display:flex;flex-direction:column;gap:12px">
+        <div style="display:flex;justify-content:space-between;align-items:center"><span style="font:900 16px Archivo">TÂN THỦ NÊN QUAY</span><span style="background:#c8f03c;color:#111;font:900 13px Archivo;padding:3px 8px">S</span></div>
+        <div style="display:flex;gap:8px"><div class="ph" style="width:48px;height:48px;border-radius:6px"><span>ava</span></div><div class="ph" style="width:48px;height:48px;border-radius:6px"><span>ava</span></div><div class="ph" style="width:48px;height:48px;border-radius:6px"><span>ava</span></div></div>
+        <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.5)">CẬP NHẬT 05.07.2026</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- news -->
+  <div style="padding:48px 44px 8px">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:24px">
+      <div style="font:900 30px Archivo">BÀI VIẾT MỚI</div>
+      <div style="width:12px;height:12px;background:#c8f03c;border-radius:50%"></div>
+      <div style="margin-left:auto;font:700 12px 'Space Mono',monospace;border-bottom:2px solid #111">TẤT CẢ BÀI VIẾT →</div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:18px">
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <div class="ph phl" style="height:150px;border-radius:4px"><span>thumb</span></div>
+        <div style="font:700 10px 'Space Mono',monospace">TIN TỨC / 10.07</div>
+        <div style="font:800 16px/1.25 Archivo">Phiên bản mới ra mắt: banner nào đáng quay nhất?</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <div class="ph phl" style="height:150px;border-radius:4px"><span>thumb</span></div>
+        <div style="font:700 10px 'Space Mono',monospace">GIỚI THIỆU / 09.07</div>
+        <div style="font:800 16px/1.25 Archivo">5 game gacha đáng chơi nhất nửa cuối 2026</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <div class="ph phl" style="height:150px;border-radius:4px"><span>thumb</span></div>
+        <div style="font:700 10px 'Space Mono',monospace">SỰ KIỆN / 08.07</div>
+        <div style="font:800 16px/1.25 Archivo">Tổng hợp code mới — nhận ngay kẻo hết hạn</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <div class="ph phl" style="height:150px;border-radius:4px"><span>thumb</span></div>
+        <div style="font:700 10px 'Space Mono',monospace">PHÂN TÍCH / 06.07</div>
+        <div style="font:800 16px/1.25 Archivo">Meta PvE thay đổi thế nào sau update lớn?</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- video + guides split -->
+  <div style="padding:48px 44px;display:grid;grid-template-columns:1.2fr .8fr;gap:36px">
+    <div>
+      <div style="font:900 24px Archivo;margin-bottom:18px">VIDEO MỚI <span style="font:400 12px 'Space Mono',monospace">từ YouTube</span></div>
+      <div style="position:relative;border-radius:6px;overflow:hidden;border:2px solid #111">
+        <div class="ph phl" style="height:300px"><span>YouTube embed 16:9 — video nổi bật</span></div>
+        <div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:64px;height:64px;background:#c8f03c;border:2px solid #111;border-radius:50%;display:flex;align-items:center;justify-content:center;font:900 20px Archivo">▶</div>
+      </div>
+      <div style="display:flex;gap:12px;margin-top:12px">
+        <div class="ph phl" style="flex:1;height:70px;border-radius:4px"><span>video 2</span></div>
+        <div class="ph phl" style="flex:1;height:70px;border-radius:4px"><span>video 3</span></div>
+        <div class="ph phl" style="flex:1;height:70px;border-radius:4px"><span>video 4</span></div>
+      </div>
+    </div>
+    <div>
+      <div style="font:900 24px Archivo;margin-bottom:18px">HƯỚNG DẪN</div>
+      <div style="display:flex;flex-direction:column">
+        <div style="display:flex;gap:14px;align-items:baseline;padding:14px 0;border-top:2px solid #111"><span style="font:900 15px 'Space Mono',monospace;color:rgba(0,0,0,.35)">01</span><div style="font:800 16px Archivo">Tân thủ: 7 ngày đầu nên làm gì?</div></div>
+        <div style="display:flex;gap:14px;align-items:baseline;padding:14px 0;border-top:1px solid rgba(0,0,0,.2)"><span style="font:900 15px 'Space Mono',monospace;color:rgba(0,0,0,.35)">02</span><div style="font:800 16px Archivo">Build nhân vật mới: vũ khí &amp; di vật</div></div>
+        <div style="display:flex;gap:14px;align-items:baseline;padding:14px 0;border-top:1px solid rgba(0,0,0,.2)"><span style="font:900 15px 'Space Mono',monospace;color:rgba(0,0,0,.35)">03</span><div style="font:800 16px Archivo">Lộ trình farm nguyên liệu theo tuần</div></div>
+        <div style="display:flex;gap:14px;align-items:baseline;padding:14px 0;border-top:1px solid rgba(0,0,0,.2);border-bottom:2px solid #111"><span style="font:900 15px 'Space Mono',monospace;color:rgba(0,0,0,.35)">04</span><div style="font:800 16px Archivo">Clear endgame với đội hình rẻ nhất</div></div>
+      </div>
+      <div style="margin-top:16px;background:#111;color:#c8f03c;font:700 12px Archivo;padding:12px 20px;border-radius:24px;display:inline-flex">TẤT CẢ HƯỚNG DẪN →</div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div style="background:#111;color:#fff;padding:36px 44px;display:flex;align-items:center;gap:24px">
+    <div style="font:900 26px Archivo;color:#c8f03c">LÊN TRẠM. CHƠI THÔI.</div>
+    <div style="margin-left:auto;display:flex;gap:22px;font:700 12px 'Space Mono',monospace;color:rgba(255,255,255,.65)"><span>YOUTUBE</span><span>FACEBOOK</span><span>DISCORD</span></div>
+    <div style="font:400 10px 'Space Mono',monospace;color:rgba(255,255,255,.35)">© 2026 CENIX</div>
+  </div>
+</div>
+</div>
+
+</div>
+<p class="dv-next">Thử tiếp: "làm kỹ 1a nhưng lấy masthead chữ to của 1b" · "1c nhưng nền tối" · "thêm hướng khác"</p>
+</section>
+
+</x-dc>
+</body>
+</html>

@@ -1,0 +1,62 @@
+---
+import '../styles/global.css';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import TickerBar from '../components/TickerBar.astro';
+import { SITE } from '../config/site';
+import type { NavKey } from '../config/site';
+
+interface Props {
+  title: string;
+  description?: string;
+  activeNav?: NavKey;
+  ticker?: boolean;
+}
+
+const { title, description = SITE.tagline, activeNav = 'home', ticker = false } = Astro.props;
+
+const site = Astro.site ?? new URL(SITE.url);
+const canonicalUrl = new URL(Astro.url.pathname, site).toString();
+const socialImage = new URL('/images/og-cover.png', site).toString();
+const fullTitle = title.includes(SITE.name) ? title : `${title} · ${SITE.name}`;
+---
+
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={socialImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImage} />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body data-page={activeNav} id="top">
+    <div class="wrap">
+      {ticker && <TickerBar />}
+      <Nav activeNav={activeNav} />
+      <main class="app-main">
+        <slot />
+      </main>
+      <Footer />
+    </div>
+  </body>
+</html>

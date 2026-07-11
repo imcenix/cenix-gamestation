@@ -1,0 +1,129 @@
+name: Deploy Game Station
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: gamestation-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Build and deploy game.imcenix.com
+    runs-on: ubuntu-latest
+    env:
+      PROJECT_SLUG: game
+      SITE_DOMAIN: game.imcenix.com
+      SFTP_HOST: ${{ secrets.SFTP_HOST || '45.32.110.164' }}
+      SFTP_PORT: ${{ secrets.SFTP_PORT || '22' }}
+      SFTP_USER: ${{ secrets.SFTP_USER || 'cenix' }}
+      SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
+      SFTP_REMOTE_PATH: ${{ secrets.SFTP_REMOTE_PATH || 'web/imcenix.com/public_html' }}
+      CENIX_HOSTING: ${{ secrets.CENIX_HOSTING }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Build
+        run: npm run build
+
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
+      - name: Load Cenix hosting secret bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          trim() {
+            local value="$1"
+            value="${value#"${value%%[![:space:]]*}"}"
+            value="${value%"${value##*[![:space:]]}"}"
+            printf '%s' "$value"
+          }
+          strip_quotes() {
+            local value="$1"
+            if [[ "$value" == \"*\" && "$value" == *\" ]]; then
+              value="${value:1:${#value}-2}"
+            elif [[ "$value" == \'*\' && "$value" == *\' ]]; then
+              value="${value:1:${#value}-2}"
+            fi
+            printf '%s' "$value"
+          }
+
+          if [[ -z "${CENIX_HOSTING:-}" ]]; then
+            exit 0
+          fi
+
+          bundle_has_pairs=0
+          while IFS= read -r raw_line || [[ -n "$raw_line" ]]; do
+            line="${raw_line%$'\r'}"
+            [[ -z "$line" || "$line" == \#* || "$line" != *=* ]] && continue
+
+            key="$(trim "${line%%=*}")"
+            value="$(strip_quotes "$(trim "${line#*=}")")"
+            case "$key" in
+              SFTP_HOST|SFTP_PORT|SFTP_USER|SFTP_PASSWORD|SFTP_REMOTE_PATH)
+                if [[ -n "${!key:-}" ]]; then
+                  continue
+                fi
+                {
+                  echo "$key<<__CENIX_SECRET__"
+                  echo "$value"
+                  echo "__CENIX_SECRET__"
+                } >> "$GITHUB_ENV"
+                bundle_has_pairs=1
+                ;;
+            esac
+          done <<< "$CENIX_HOSTING"
+
+          if [[ "$bundle_has_pairs" -eq 0 && -z "${SFTP_PASSWORD:-}" ]]; then
+            {
+              echo "SFTP_PASSWORD<<__CENIX_SECRET__"
+              echo "$CENIX_HOSTING"
+              echo "__CENIX_SECRET__"
+            } >> "$GITHUB_ENV"
+          fi
+
+      - name: Validate SFTP host
+        run: |
+          set -euo pipefail
+          test -n "$SFTP_HOST" || (echo "Missing SFTP_HOST secret" && exit 1)
+          test -n "$SFTP_PORT" || (echo "Missing SFTP_PORT secret" && exit 1)
+
+      - name: Validate SFTP user
+        run: |
+          set -euo pipefail
+          test -n "$SFTP_USER" || (echo "Missing SFTP_USER secret" && exit 1)
+
+      - name: Validate SFTP password
+        run: |
+          set -euo pipefail
+          test -n "$SFTP_PASSWORD" || (echo "Missing SFTP_PASSWORD secret" && exit 1)
+
+      - name: Deploy to /game
+        run: |
+          set -euo pipefail
+          ROOT_DIR="${SFTP_REMOTE_PATH%/}"
+          GAME_DIR="$ROOT_DIR/$PROJECT_SLUG"
+          lftp -c "
+            set cmd:fail-exit yes;
+            set sftp:auto-confirm yes;
+            set net:max-retries 2;
+            set net:timeout 20;
+            open -u \"$SFTP_USER\",\"$SFTP_PASSWORD\" -p \"$SFTP_PORT\" \"sftp://$SFTP_HOST\";
+            mirror --reverse --verbose --delete --parallel=4 \
+              --exclude-glob .DS_Store \
+              --exclude-glob '*.log' \
+              dist/ '$GAME_DIR';
+          "

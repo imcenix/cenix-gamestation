@@ -1,0 +1,25 @@
+# build output
+dist/
+
+# generated / linked (recreated from assets/ by scripts/link-assets.mjs)
+public/news/
+public/videos/
+public/characters/
+public/guides/
+public/tierlists/
+public/images/
+
+# deps
+node_modules/
+
+# astro
+.astro/
+
+# env
+.env
+.env.production
+
+# os
+.DS_Store
+Thumbs.db
+*.log

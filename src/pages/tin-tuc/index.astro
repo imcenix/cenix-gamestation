@@ -1,0 +1,149 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Thumb from '../../components/Thumb.astro';
+import { NEWS_CATEGORIES, NEWS_LABEL } from '../../lib/labels';
+import { dmy, dmSplit, byOrderThenDate } from '../../lib/format';
+
+const news = (await getCollection('news')).sort(byOrderThenDate);
+const featured = news.find((n) => n.data.featured) ?? news[0];
+const rest = news.filter((n) => n.id !== featured?.id);
+
+const cover = (slug: string, file?: string | null) => (file ? `/news/${slug}/${file}` : null);
+---
+
+<BaseLayout title="Tin tức" activeNav="news" description="Tin tức, sự kiện, phân tích và giới thiệu game gacha — cập nhật mỗi ngày.">
+  <div class="page-head">
+    <div class="crumb">TRANG CHỦ / <span class="here">TIN TỨC</span></div>
+    <div class="page-head-row">
+      <div class="page-title">TIN TỨC</div>
+      <div class="page-meta">{news.length} BÀI VIẾT · CẬP NHẬT MỖI NGÀY</div>
+    </div>
+    <div class="filters">
+      <button class="chip active" data-filter="all">TẤT CẢ</button>
+      {NEWS_CATEGORIES.map((c) => <button class="chip" data-filter={c.key}>{c.label}</button>)}
+      <div class="sort">SẮP XẾP: <b>MỚI NHẤT ▾</b></div>
+    </div>
+  </div>
+
+  <!-- Featured -->
+  <div class="gut feat-wrap" data-category={featured.data.category}>
+    <a class="feat" href={`/tin-tuc/${featured.data.slug}`}>
+      <Thumb src={cover(featured.data.slug, featured.data.cover)} label="key art — bài nổi bật chuyên mục" class="feat-img" />
+      <div class="feat-body">
+        <div class="row-meta">
+          <span class="badge">NỔI BẬT</span>
+          <span class="meta">{dmy(featured.data.date)} · {featured.data.read_minutes ?? 5} PHÚT ĐỌC</span>
+        </div>
+        <h2 class="feat-title">{featured.data.title}</h2>
+        {featured.data.excerpt && <p class="feat-dek">{featured.data.excerpt}</p>}
+        <div class="feat-foot">
+          <span class="ava"></span>
+          <span class="author">{featured.data.author?.toUpperCase()}</span>
+          <span class="read">ĐỌC BÀI →</span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <!-- List -->
+  <div class="gut list" id="news-list">
+    {rest.map((n) => {
+      const d = dmSplit(n.data.date);
+      return (
+        <a class="row" href={`/tin-tuc/${n.data.slug}`} data-category={n.data.category}>
+          <div class="row-date">{d.dm}<br />{d.y}</div>
+          <Thumb src={cover(n.data.slug, n.data.cover)} label="thumb" class="row-thumb" />
+          <div class="row-body">
+            <div class="kicker">{NEWS_LABEL[n.data.category]}</div>
+            <div class="row-title">{n.data.title}</div>
+            {n.data.excerpt && <div class="row-dek">{n.data.excerpt}</div>}
+            <div class="row-meta-line">{n.data.read_minutes ?? 5} PHÚT ĐỌC · {n.data.author?.toUpperCase()}</div>
+          </div>
+        </a>
+      );
+    })}
+    <p class="empty" id="news-empty" hidden>Chưa có bài viết trong chuyên mục này.</p>
+  </div>
+
+  <!-- Pagination (decorative — sample có 1 trang) -->
+  <div class="pagination">
+    <span class="pg active">1</span>
+    <span class="pg">2</span>
+    <span class="pg">3</span>
+    <span class="pg">…</span>
+    <span class="pg wide">SAU →</span>
+  </div>
+</BaseLayout>
+
+<style>
+  .badge { background: var(--lime); color: var(--on-lime); font: 700 10px var(--mono); padding: 3px 9px; border-radius: 2px; }
+  .meta { font: 400 10px var(--mono); color: var(--tx-dim); }
+  .row-meta { display: flex; gap: 8px; align-items: center; }
+
+  /* Featured */
+  .feat-wrap { padding-top: 36px; }
+  .feat { display: grid; grid-template-columns: 1.15fr 0.85fr; border: 1px solid var(--bd-card); border-radius: 3px; overflow: hidden; color: #fff; }
+  .feat :global(.feat-img) { width: 100%; height: 340px; }
+  .feat-body { padding: 34px 36px; display: flex; flex-direction: column; gap: 14px; justify-content: center; background: var(--surface); }
+  .feat-title { font: 900 30px/1.12 var(--display); letter-spacing: -0.5px; }
+  .feat:hover .feat-title { color: var(--lime); }
+  .feat-dek { font: 400 13.5px/1.6 var(--display); color: var(--tx-body); margin: 0; }
+  .feat-foot { display: flex; align-items: center; gap: 10px; }
+  .ava { width: 28px; height: 28px; border-radius: 50%; background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 6px, #202028 6px, #202028 12px); flex: none; }
+  .author { font: 400 10.5px var(--mono); color: var(--tx-55); }
+  .read { margin-left: auto; font: 700 11px var(--mono); color: var(--lime); }
+
+  /* List */
+  .list { padding-top: 20px; display: flex; flex-direction: column; }
+  .row { display: flex; gap: 22px; padding: 24px 0; border-bottom: 1px solid var(--bd-divider); color: #fff; }
+  .row-date { font: 400 10px var(--mono); color: var(--tx-faint); width: 70px; flex: none; padding-top: 4px; }
+  .row :global(.row-thumb) { width: 200px; height: 120px; border-radius: 3px; flex: none; }
+  .row-body { display: flex; flex-direction: column; gap: 8px; justify-content: center; flex: 1; }
+  .row-title { font: 800 20px/1.25 var(--display); }
+  .row:hover .row-title { color: var(--lime); }
+  .row-dek { font: 400 12.5px/1.55 var(--display); color: var(--tx-dim); max-width: 640px; }
+  .row-meta-line { font: 400 10px var(--mono); color: var(--tx-faint); }
+  .empty { padding: 40px 0; text-align: center; font: 400 12px var(--mono); color: var(--tx-meta); }
+
+  /* Pagination */
+  .pagination { display: flex; justify-content: center; gap: 8px; padding: 34px 0 48px; }
+  .pg {
+    min-width: 36px; height: 36px; padding: 0 10px;
+    border: 1px solid var(--bd-chip); border-radius: 3px;
+    display: flex; align-items: center; justify-content: center;
+    font: 400 12px var(--mono); color: var(--tx-body); cursor: pointer;
+  }
+  .pg.active { background: var(--lime); color: var(--on-lime); border-color: var(--lime); font-weight: 700; }
+  .pg.wide { padding: 0 14px; }
+
+  @media (max-width: 760px) {
+    .feat { grid-template-columns: 1fr; }
+    .feat :global(.feat-img) { height: 220px; }
+    .row { flex-wrap: wrap; gap: 14px; }
+    .row-date { width: auto; }
+    .row :global(.row-thumb) { width: 140px; height: 90px; }
+    .row-title { font-size: 17px; }
+  }
+</style>
+
+<script>
+  const chips = document.querySelectorAll<HTMLButtonElement>('.filters .chip');
+  const items = document.querySelectorAll<HTMLElement>('[data-category]');
+  const empty = document.getElementById('news-empty');
+
+  chips.forEach((chip) => {
+    chip.addEventListener('click', () => {
+      chips.forEach((c) => c.classList.remove('active'));
+      chip.classList.add('active');
+      const f = chip.dataset.filter;
+      let shown = 0;
+      items.forEach((el) => {
+        const match = f === 'all' || el.dataset.category === f;
+        el.style.display = match ? '' : 'none';
+        if (match) shown++;
+      });
+      if (empty) empty.hidden = shown > 0;
+    });
+  });
+</script>

@@ -1,0 +1,377 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Thumb from '../components/Thumb.astro';
+import VideoThumb from '../components/VideoThumb.astro';
+import { SITE } from '../config/site';
+import { NEWS_LABEL, GUIDE_LEVELS, TIER_COLOR } from '../lib/labels';
+import { dmy, byOrderThenDate } from '../lib/format';
+
+const news = (await getCollection('news')).sort(byOrderThenDate);
+const guides = (await getCollection('guides')).sort(byOrderThenDate);
+const videos = (await getCollection('videos')).sort(byOrderThenDate);
+const characters = await getCollection('characters');
+const tierlists = (await getCollection('tierlists')).sort(byOrderThenDate);
+
+const cover = (col: string, slug: string, file?: string | null) =>
+  file ? `/${col}/${slug}/${file}` : null;
+
+// Lead story = featured news (fallback first)
+const lead = news.find((n) => n.data.featured) ?? news[0];
+const newsList = news.filter((n) => n.id !== lead?.id).slice(0, 3);
+
+// "Đọc nhiều nhất" — curated top titles from guides + news
+const popular = [...guides, ...news].slice(0, 5);
+
+// Home video row (4)
+const homeVideos = videos.slice(0, 4);
+
+// Home guides — one per level in fixed order
+const homeGuides = GUIDE_LEVELS.map(
+  (lvl) => guides.find((g) => g.data.level === lvl.key)
+).filter(Boolean).slice(0, 4);
+
+// Tier-list mini preview from first game DPS
+const previewGame = tierlists[0]?.data.game;
+const previewChars = characters.filter(
+  (c) => c.data.game === previewGame && c.data.role === 'dps'
+);
+const previewRows = (['S', 'A', 'B'] as const).map((t) => ({
+  tier: t,
+  chars: previewChars.filter((c) => c.data.tier === t).slice(0, 4),
+}));
+const previewMeta = tierlists[0]?.data;
+
+// Masthead stats
+const stats = {
+  posts: news.length + guides.length,
+  tiers: tierlists.length * 3,
+  games: new Set(characters.map((c) => c.data.game)).size,
+};
+---
+
+<BaseLayout title={SITE.name} activeNav="home" ticker>
+  <!-- Masthead -->
+  <section class="masthead">
+    <div class="glow"></div>
+    <div class="est">{SITE.est}</div>
+    <h1 class="wordmark">CENIX GAME<br /><span class="outline">STATION</span></h1>
+    <div class="stats">
+      <span><b>{stats.posts}+</b>&nbsp; BÀI VIẾT</span>
+      <span class="sep"><b>{stats.tiers}</b>&nbsp; TIER-LIST</span>
+      <span class="sep"><b>{stats.games}</b>&nbsp; GAME COVER</span>
+    </div>
+  </section>
+
+  <!-- Feature grid -->
+  <section class="gut block">
+    <div class="sec-head">
+      <div class="eyebrow">◆ NỔI BẬT HÔM NAY</div>
+      <div class="rule"></div>
+    </div>
+
+    <div class="feature-grid">
+      <!-- Lead -->
+      <a class="lead" href={lead ? `/tin-tuc/${lead.data.slug}` : '#'}>
+        <Thumb src={cover('news', lead.data.slug, lead.data.cover)} label="key art — bài nổi bật" class="fill" />
+        <div class="lead-shade"></div>
+        <div class="lead-body">
+          <div class="row-meta">
+            <span class="badge">TIN NÓNG</span>
+            <span class="meta">{dmy(lead.data.date)} · {lead.data.read_minutes ?? 5} PHÚT ĐỌC</span>
+          </div>
+          <h2 class="lead-title">{lead.data.title}</h2>
+          {lead.data.excerpt && <p class="lead-dek">{lead.data.excerpt}</p>}
+          <div class="author"><span class="ava"></span><span>{lead.data.author?.toUpperCase()}</span></div>
+        </div>
+      </a>
+
+      <!-- Tier-list interactive -->
+      <a class="tl-card" href="/tier-list">
+        <div class="tl-top">
+          <span class="kicker">TIER-LIST TƯƠNG TÁC</span>
+          <span class="meta">CẬP NHẬT {previewMeta ? dmy(previewMeta.updated) : ''}</span>
+        </div>
+        <div class="tl-mid">
+          <div class="tl-rows">
+            {previewRows.map((r) => (
+              <div class="tl-row">
+                <span class="tl-badge" style={`background:${TIER_COLOR[r.tier]}`}>{r.tier}</span>
+                {r.chars.map(() => <span class="tl-ava"></span>)}
+              </div>
+            ))}
+          </div>
+          <div class="tl-txt">
+            <div class="tl-title">Tier-list DPS bản {previewMeta?.version} — ai đứng đỉnh meta?</div>
+            <div class="tl-sub">Hover từng nhân vật để xem build tóm tắt</div>
+          </div>
+        </div>
+        <div class="tl-cta">XEM TIER-LIST →</div>
+      </a>
+
+      <!-- Video -->
+      <a class="vid-card" href="/video">
+        {homeVideos[0] && <VideoThumb url={homeVideos[0].data.youtube_url} duration={homeVideos[0].data.duration} height={0} playSize={38} />}
+        <div class="vid-shade"></div>
+        <div class="vid-body">
+          <div class="vid-title">{homeVideos[0]?.data.title}</div>
+          <div class="kicker">VIDEO · YOUTUBE</div>
+        </div>
+      </a>
+
+      <!-- Codes -->
+      <a class="code-card" href="/tin-tuc/tong-hop-code-thang-7">
+        <div class="code-emoji">🎁</div>
+        <div>
+          <div class="code-title">Code mới tuần này</div>
+          <div class="code-sub">3 code sắp hết hạn — nhận ngay</div>
+        </div>
+        <div class="kicker">NHẬN CODE →</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Tin tức + sidebar -->
+  <section class="gut block news-split">
+    <div>
+      <div class="sec-head">
+        <div class="sec-title" style="font-size:26px">TIN TỨC</div>
+        <div class="sec-note">CẬP NHẬT MỖI NGÀY</div>
+        <a class="sec-more" href="/tin-tuc">TẤT CẢ →</a>
+      </div>
+      <div class="news-rows">
+        {newsList.map((n) => (
+          <a class="news-row" href={`/tin-tuc/${n.data.slug}`}>
+            <Thumb src={cover('news', n.data.slug, n.data.cover)} label="thumb" class="nr-thumb" />
+            <div class="nr-body">
+              <div class="kicker">{NEWS_LABEL[n.data.category]}</div>
+              <div class="nr-title">{n.data.title}</div>
+              {n.data.excerpt && <div class="nr-dek">{n.data.excerpt}</div>}
+              <div class="nr-meta">{dmy(n.data.date)} · {n.data.read_minutes ?? 5} PHÚT ĐỌC</div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <aside class="sidebar">
+      <div>
+        <div class="side-head">◆ ĐỌC NHIỀU NHẤT</div>
+        <div class="pop-list">
+          {popular.map((p, i) => {
+            const href = 'level' in p.data ? `/huong-dan/${p.data.slug}` : `/tin-tuc/${p.data.slug}`;
+            return (
+              <a class="pop-item" href={href}>
+                <span class:list={['pop-no', { first: i === 0 }]}>{String(i + 1).padStart(2, '0')}</span>
+                <span class="pop-title">{p.data.title}</span>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+
+      <div class="newsletter">
+        <div class="nl-title">Đừng lỡ meta.</div>
+        <div class="nl-sub">Bản tin mỗi thứ Sáu: banner mới, code, tier-list thay đổi.</div>
+        <form class="nl-form" onsubmit="return false">
+          <input type="email" placeholder="email@cua-ban.com" aria-label="Email" />
+          <button class="btn-lime" type="submit">ĐĂNG KÝ MIỄN PHÍ</button>
+        </form>
+      </div>
+    </aside>
+  </section>
+
+  <!-- Video -->
+  <section class="gut block">
+    <div class="sec-head">
+      <div class="sec-title">VIDEO</div>
+      <div class="sec-note">EMBED TỪ YOUTUBE</div>
+      <a class="sec-more" href={SITE.socials.youtube} target="_blank" rel="noopener">KÊNH YOUTUBE →</a>
+    </div>
+    <div class="v-grid">
+      {homeVideos.map((v) => (
+        <a class="v-item" href="/video">
+          <VideoThumb url={v.data.youtube_url} duration={v.data.duration} height={126} playSize={32} />
+          <div class="v-title">{v.data.title}</div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Hướng dẫn -->
+  <section class="gut block last">
+    <div class="sec-head">
+      <div class="sec-title">HƯỚNG DẪN</div>
+      <div class="sec-note">TỪ TÂN THỦ ĐẾN ENDGAME</div>
+      <a class="sec-more" href="/huong-dan">TẤT CẢ →</a>
+    </div>
+    <div class="hd-grid">
+      {homeGuides.map((g) => {
+        const lvl = GUIDE_LEVELS.find((l) => l.key === g!.data.level);
+        return (
+          <a class="hd-card" href={`/huong-dan/${g!.data.slug}`}>
+            <div class="kicker" style="letter-spacing:2px">{lvl?.label}</div>
+            <div class="hd-title">{g!.data.title}</div>
+            <div class="hd-meta">{(g!.data.tags[0] ?? 'HƯỚNG DẪN')}{g!.data.tags[1] ? ` · ${g!.data.tags[1]}` : ''}</div>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .block { padding-top: 44px; }
+  .news-split { padding-top: 52px; }
+  .last { padding-bottom: 56px; }
+
+  /* Masthead */
+  .masthead {
+    text-align: center;
+    padding: 58px 0 50px;
+    border-bottom: 1px solid var(--bd-divider);
+    position: relative;
+    overflow: hidden;
+  }
+  .glow {
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse 60% 80% at 50% 100%, rgba(200, 240, 60, 0.07), transparent);
+    pointer-events: none;
+  }
+  .est { position: relative; font: 400 11px var(--mono); color: var(--lime); letter-spacing: 4px; margin-bottom: 16px; }
+  .wordmark { position: relative; font: 900 104px/0.92 var(--display); letter-spacing: -3px; }
+  .outline { -webkit-text-stroke: 2px var(--lime); color: transparent; }
+  .stats {
+    position: relative;
+    display: flex; justify-content: center; gap: 36px;
+    margin-top: 30px;
+    font: 400 10.5px var(--mono); color: var(--tx-meta);
+  }
+  .stats b { color: #fff; font: 900 15px var(--display); }
+  .stats .sep { border-left: 1px solid rgba(255, 255, 255, 0.15); padding-left: 36px; }
+
+  /* Feature grid */
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 104px;
+    gap: 14px;
+  }
+  .row-meta { display: flex; gap: 8px; align-items: center; }
+  .badge { background: var(--lime); color: var(--on-lime); font: 700 10px var(--mono); padding: 3px 9px; border-radius: 2px; }
+  .meta { font: 400 10px var(--mono); color: var(--tx-dim); }
+
+  .lead {
+    grid-column: span 7; grid-row: span 4;
+    position: relative; border-radius: 3px; overflow: hidden; color: #fff;
+  }
+  .lead :global(.fill) { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .lead-shade {
+    position: absolute; inset: 0;
+    background: linear-gradient(0deg, rgba(10, 10, 11, 0.96) 0%, rgba(10, 10, 11, 0.4) 45%, transparent 70%);
+  }
+  .lead-body { position: absolute; left: 28px; right: 28px; bottom: 26px; display: flex; flex-direction: column; gap: 11px; }
+  .lead-title { font: 900 34px/1.08 var(--display); letter-spacing: -0.5px; }
+  .lead-dek { font: 400 13px/1.55 var(--display); color: var(--tx-65); max-width: 520px; margin: 0; }
+  .author { display: flex; align-items: center; gap: 10px; margin-top: 4px; font: 400 10.5px var(--mono); color: var(--tx-55); }
+  .author .ava { width: 26px; height: 26px; border-radius: 50%; background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 6px, #202028 6px, #202028 12px); }
+  .lead:hover .lead-title { color: var(--lime); }
+
+  .tl-card {
+    grid-column: span 5; grid-row: span 2;
+    border: 1px solid var(--lime-40); border-radius: 3px;
+    padding: 20px 22px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    background: linear-gradient(135deg, rgba(200, 240, 60, 0.06), transparent 60%);
+    color: #fff;
+  }
+  .tl-top { display: flex; justify-content: space-between; align-items: flex-start; }
+  .tl-top .kicker { letter-spacing: 2px; }
+  .tl-mid { display: flex; align-items: center; gap: 14px; }
+  .tl-rows { display: flex; flex-direction: column; gap: 5px; }
+  .tl-row { display: flex; gap: 5px; align-items: center; }
+  .tl-badge { width: 22px; height: 22px; border-radius: 2px; color: var(--on-lime); font: 900 11px var(--display); display: flex; align-items: center; justify-content: center; }
+  .tl-ava { width: 22px; height: 22px; border-radius: 2px; background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 6px, #202028 6px, #202028 12px); }
+  .tl-txt { flex: 1; display: flex; flex-direction: column; gap: 6px; }
+  .tl-title { font: 800 17px/1.25 var(--display); }
+  .tl-sub { font: 400 10.5px/1.5 var(--mono); color: var(--tx-meta); }
+  .tl-cta { font: 700 11px var(--mono); color: var(--lime); }
+
+  .vid-card { grid-column: span 3; grid-row: span 2; position: relative; border-radius: 3px; overflow: hidden; color: #fff; }
+  .vid-card :global(.vthumb) { position: absolute; inset: 0; height: 100% !important; }
+  .vid-shade { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(10, 10, 11, 0.92), transparent 55%); }
+  .vid-body { position: absolute; left: 16px; right: 16px; bottom: 14px; display: flex; flex-direction: column; gap: 5px; }
+  .vid-title { font: 700 13.5px/1.3 var(--display); }
+
+  .code-card {
+    grid-column: span 2; grid-row: span 2;
+    border: 1px solid var(--bd-input); border-radius: 3px; padding: 18px;
+    display: flex; flex-direction: column; justify-content: space-between; color: #fff;
+  }
+  .code-emoji { font: 900 26px var(--display); color: var(--lime); }
+  .code-title { font: 700 14px/1.3 var(--display); }
+  .code-sub { font: 400 9.5px/1.5 var(--mono); color: var(--tx-meta); margin-top: 6px; }
+
+  /* News split */
+  .news-split { display: grid; grid-template-columns: 1fr 340px; gap: 40px; }
+  .news-rows { display: flex; flex-direction: column; }
+  .news-row { display: flex; gap: 20px; padding: 20px 0; border-bottom: 1px solid var(--bd-divider); color: #fff; }
+  .news-row :global(.nr-thumb) { width: 180px; height: 110px; border-radius: 3px; flex: none; }
+  .nr-body { display: flex; flex-direction: column; gap: 8px; justify-content: center; }
+  .nr-title { font: 800 19px/1.25 var(--display); }
+  .news-row:hover .nr-title { color: var(--lime); }
+  .nr-dek { font: 400 12.5px/1.5 var(--display); color: var(--tx-dim); }
+  .nr-meta { font: 400 10px var(--mono); color: var(--tx-faint); }
+
+  .sidebar { display: flex; flex-direction: column; gap: 28px; }
+  .side-head { font: 900 13px var(--mono); letter-spacing: 2px; color: var(--lime); border-bottom: 1px solid var(--bd-card); padding-bottom: 10px; margin-bottom: 6px; }
+  .pop-list { display: flex; flex-direction: column; }
+  .pop-item { display: flex; gap: 14px; padding: 13px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.07); align-items: baseline; color: #fff; }
+  .pop-item:last-child { border-bottom: none; }
+  .pop-no { font: 900 20px var(--display); color: rgba(255, 255, 255, 0.25); }
+  .pop-no.first { color: rgba(200, 240, 60, 0.9); }
+  .pop-title { font: 700 13.5px/1.35 var(--display); }
+  .pop-item:hover .pop-title { color: var(--lime); }
+
+  .newsletter { border: 1px solid var(--lime-40); border-radius: 3px; padding: 24px; background: linear-gradient(160deg, rgba(200, 240, 60, 0.07), transparent 65%); }
+  .nl-title { font: 900 19px/1.2 var(--display); margin-bottom: 8px; }
+  .nl-sub { font: 400 11.5px/1.55 var(--mono); color: var(--tx-55); margin-bottom: 16px; }
+  .nl-form { display: flex; flex-direction: column; gap: 8px; }
+  .nl-form input { border: 1px solid var(--bd-chip); background: transparent; border-radius: 3px; padding: 11px 14px; font: 400 11px var(--mono); color: #fff; }
+  .nl-form input::placeholder { color: var(--tx-faint); }
+  .nl-form .btn-lime { padding: 11px; }
+
+  /* Video grid */
+  .v-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .v-item { color: #fff; display: flex; flex-direction: column; gap: 10px; }
+  .v-title { font: 700 13.5px/1.3 var(--display); }
+  .v-item:hover .v-title { color: var(--lime); }
+
+  /* Hướng dẫn */
+  .hd-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .hd-card { border: 1px solid var(--bd-card); border-radius: 3px; padding: 22px; display: flex; flex-direction: column; gap: 12px; background: var(--surface); color: #fff; }
+  .hd-title { font: 800 16px/1.3 var(--display); }
+  .hd-card:hover .hd-title { color: var(--lime); }
+  .hd-meta { font: 400 11px/1.5 var(--mono); color: var(--tx-meta); margin-top: auto; }
+
+  @media (max-width: 1100px) {
+    .wordmark { font-size: 72px; }
+  }
+  @media (max-width: 900px) {
+    .wordmark { font-size: 48px; letter-spacing: -2px; }
+    .stats { gap: 20px; flex-wrap: wrap; }
+    .stats .sep { padding-left: 20px; }
+    .feature-grid { grid-template-columns: 1fr; grid-auto-rows: auto; }
+    .lead { grid-column: auto; grid-row: auto; min-height: 380px; }
+    .tl-card, .vid-card, .code-card { grid-column: auto; grid-row: auto; }
+    .vid-card { min-height: 200px; }
+    .news-split { grid-template-columns: 1fr; }
+    .v-grid { grid-template-columns: repeat(2, 1fr); }
+    .hd-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 560px) {
+    .v-grid, .hd-grid { grid-template-columns: 1fr; }
+    .news-row :global(.nr-thumb) { width: 120px; height: 80px; }
+    .nr-title { font-size: 16px; }
+  }
+</style>

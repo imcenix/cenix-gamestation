@@ -1,0 +1,14 @@
+---
+/** Cover image with striped placeholder fallback when no image is set. */
+interface Props {
+  src?: string | null;
+  label?: string;
+  alt?: string;
+  class?: string;
+}
+const { src, label = '', alt = '', class: cls = '' } = Astro.props;
+---
+
+{src
+  ? <img class:list={['cover', cls]} src={src} alt={alt} loading="lazy" decoding="async" />
+  : <div class:list={['ph', cls]}><span>{label}</span></div>}

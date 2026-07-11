@@ -1,0 +1,24 @@
+{
+  "name": "cenix-gamestation",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Cenix Game Station — dark magazine game blog at game.imcenix.com",
+  "scripts": {
+    "predev": "node ./scripts/link-assets.mjs",
+    "dev": "astro dev",
+    "prebuild": "node ./scripts/link-assets.mjs",
+    "build": "astro build",
+    "deploy": "./Publish.command",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.1.0"
+  },
+  "devDependencies": {
+    "unist-util-visit": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}

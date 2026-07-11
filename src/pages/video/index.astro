@@ -1,0 +1,178 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import VideoThumb from '../../components/VideoThumb.astro';
+import { VIDEO_CATEGORIES, VIDEO_LABEL } from '../../lib/labels';
+import { dmy, dm, byOrderThenDate } from '../../lib/format';
+import { youtubeEmbed, youtubeThumb } from '../../lib/youtube';
+
+const videos = (await getCollection('videos')).sort(byOrderThenDate);
+const featured = videos.find((v) => v.data.featured) ?? videos[0];
+const upNext = videos.filter((v) => v.id !== featured?.id).slice(0, 4);
+---
+
+<BaseLayout title="Video" activeNav="video" description="Video game embed từ YouTube — gameplay, review, cốt truyện và hướng dẫn.">
+  <div class="page-head">
+    <div class="crumb">TRANG CHỦ / <span class="here">VIDEO</span></div>
+    <div class="page-head-row">
+      <div class="page-title">VIDEO</div>
+      <div class="page-meta">EMBED TỪ YOUTUBE · {videos.length} VIDEO</div>
+    </div>
+    <div class="filters">
+      <button class="chip active" data-filter="all">TẤT CẢ</button>
+      {VIDEO_CATEGORIES.map((c) => <button class="chip" data-filter={c.key}>{c.label}</button>)}
+    </div>
+  </div>
+
+  <!-- Featured player -->
+  <section class="gut player-wrap">
+    <div class="player-main">
+      <div class="frame">
+        <iframe
+          id="player"
+          src={youtubeEmbed(featured.data.youtube_url)}
+          title={featured.data.title}
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="player-info">
+        <div class="row-meta">
+          <span class="badge" id="pl-cat">{VIDEO_LABEL[featured.data.category]}</span>
+          <span class="meta" id="pl-date">{dmy(featured.data.date)} · YOUTUBE</span>
+        </div>
+        <h2 class="player-title" id="pl-title">{featured.data.title}</h2>
+        <p class="player-desc" id="pl-desc">{featured.data.description}</p>
+      </div>
+    </div>
+
+    <aside class="upnext">
+      <div class="up-head">◆ TIẾP THEO</div>
+      {upNext.map((v) => (
+        <button
+          class="up-item vjs"
+          data-embed={youtubeEmbed(v.data.youtube_url)}
+          data-title={v.data.title}
+          data-desc={v.data.description ?? ''}
+          data-cat={VIDEO_LABEL[v.data.category]}
+          data-date={`${dmy(v.data.date)} · YOUTUBE`}
+        >
+          <div class="up-thumb">
+            <img src={youtubeThumb(v.data.youtube_url)} alt="" loading="lazy" />
+            {v.data.duration && <span class="up-dur">{v.data.duration}</span>}
+          </div>
+          <div class="up-body">
+            <div class="up-title">{v.data.title}</div>
+            <div class="up-cat">{VIDEO_LABEL[v.data.category]}</div>
+          </div>
+        </button>
+      ))}
+    </aside>
+  </section>
+
+  <!-- All videos -->
+  <section class="gut all">
+    <div class="sec-head">
+      <div class="sec-title" style="font-size:22px">TẤT CẢ VIDEO</div>
+      <div class="rule"></div>
+    </div>
+    <div class="grid" id="video-grid">
+      {videos.map((v) => (
+        <button
+          class="v-cell vjs"
+          data-category={v.data.category}
+          data-embed={youtubeEmbed(v.data.youtube_url)}
+          data-title={v.data.title}
+          data-desc={v.data.description ?? ''}
+          data-cat={VIDEO_LABEL[v.data.category]}
+          data-date={`${dmy(v.data.date)} · YOUTUBE`}
+        >
+          <VideoThumb url={v.data.youtube_url} duration={v.data.duration} height={124} showPlay={false} />
+          <div class="v-cell-title">{v.data.title}</div>
+          <div class="v-cell-meta">{VIDEO_LABEL[v.data.category]} · {dm(v.data.date)}</div>
+        </button>
+      ))}
+    </div>
+    <p class="empty" id="v-empty" hidden>Chưa có video trong mục này.</p>
+    <div class="more"><button class="btn-outline" id="load-more">TẢI THÊM VIDEO ↓</button></div>
+  </section>
+</BaseLayout>
+
+<style>
+  .badge { background: var(--lime); color: var(--on-lime); font: 700 10px var(--mono); padding: 3px 9px; border-radius: 2px; }
+  .meta { font: 400 10px var(--mono); color: var(--tx-dim); }
+  .row-meta { display: flex; gap: 8px; align-items: center; }
+
+  .player-wrap { padding-top: 36px; display: grid; grid-template-columns: 1fr 340px; gap: 20px; }
+  .player-main { display: flex; flex-direction: column; gap: 16px; }
+  .frame { position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 3px; overflow: hidden; background: #000; }
+  .frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .player-info { display: flex; flex-direction: column; gap: 8px; }
+  .player-title { font: 900 26px/1.15 var(--display); }
+  .player-desc { font: 400 13px/1.6 var(--display); color: var(--tx-55); max-width: 700px; margin: 0; }
+
+  .upnext { display: flex; flex-direction: column; gap: 2px; }
+  .up-head { font: 900 13px var(--mono); letter-spacing: 2px; color: var(--lime); border-bottom: 1px solid var(--bd-card); padding-bottom: 10px; margin-bottom: 10px; }
+  .up-item { display: flex; gap: 12px; padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.07); background: none; border-left: 0; border-right: 0; border-top: 0; cursor: pointer; text-align: left; color: #fff; }
+  .up-item:last-of-type { border-bottom: none; }
+  .up-thumb { position: relative; width: 120px; height: 68px; flex: none; border-radius: 3px; overflow: hidden; background: #111; }
+  .up-thumb img { width: 100%; height: 100%; object-fit: cover; }
+  .up-dur { position: absolute; right: 5px; bottom: 5px; background: rgba(10, 10, 11, 0.85); font: 400 8.5px var(--mono); padding: 2px 5px; border-radius: 2px; }
+  .up-body { display: flex; flex-direction: column; gap: 4px; justify-content: center; }
+  .up-title { font: 700 12.5px/1.3 var(--display); }
+  .up-item:hover .up-title { color: var(--lime); }
+  .up-cat { font: 400 9px var(--mono); color: var(--tx-meta); }
+
+  .all { padding-top: 48px; padding-bottom: 52px; }
+  .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  .v-cell { background: none; border: 0; padding: 0; cursor: pointer; text-align: left; color: #fff; display: flex; flex-direction: column; gap: 9px; }
+  .v-cell-title { font: 700 13px/1.3 var(--display); }
+  .v-cell:hover .v-cell-title { color: var(--lime); }
+  .v-cell-meta { font: 400 9.5px var(--mono); color: var(--tx-meta); }
+  .empty { padding: 30px 0; text-align: center; font: 400 12px var(--mono); color: var(--tx-meta); }
+  .more { display: flex; justify-content: center; margin-top: 34px; }
+
+  @media (max-width: 900px) {
+    .player-wrap { grid-template-columns: 1fr; }
+    .grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 560px) { .grid { grid-template-columns: 1fr; } }
+</style>
+
+<script>
+  const player = document.getElementById('player') as HTMLIFrameElement | null;
+  const set = (id: string, txt: string) => { const el = document.getElementById(id); if (el) el.textContent = txt; };
+
+  document.querySelectorAll<HTMLElement>('.vjs').forEach((el) => {
+    el.addEventListener('click', () => {
+      const embed = el.dataset.embed;
+      if (!embed || !player) return;
+      player.src = embed;
+      set('pl-title', el.dataset.title ?? '');
+      set('pl-desc', el.dataset.desc ?? '');
+      set('pl-cat', el.dataset.cat ?? '');
+      set('pl-date', el.dataset.date ?? '');
+      document.querySelector('.player-wrap')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  // Filter grid
+  const chips = document.querySelectorAll<HTMLButtonElement>('.filters .chip');
+  const cells = document.querySelectorAll<HTMLElement>('#video-grid .v-cell');
+  const empty = document.getElementById('v-empty');
+  chips.forEach((chip) => {
+    chip.addEventListener('click', () => {
+      chips.forEach((c) => c.classList.remove('active'));
+      chip.classList.add('active');
+      const f = chip.dataset.filter;
+      let shown = 0;
+      cells.forEach((el) => {
+        const match = f === 'all' || el.dataset.category === f;
+        el.style.display = match ? '' : 'none';
+        if (match) shown++;
+      });
+      if (empty) empty.hidden = shown > 0;
+    });
+  });
+</script>

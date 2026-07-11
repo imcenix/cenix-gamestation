@@ -1,0 +1,48 @@
+---
+import { youtubeThumb } from '../lib/youtube';
+
+interface Props {
+  url: string;
+  duration?: string | null;
+  height?: number;
+  playSize?: number;
+  playCorner?: boolean; // play button in top-left corner (home) vs centered
+  showPlay?: boolean;
+}
+const { url, duration, height = 126, playSize = 32, playCorner = true, showPlay = true } = Astro.props;
+const thumb = youtubeThumb(url);
+---
+
+<div class="vthumb" style={`height:${height}px`}>
+  {thumb
+    ? <img class="cover" src={thumb} alt="" loading="lazy" decoding="async" />
+    : <div class="ph fill"><span>YouTube 16:9</span></div>}
+  {showPlay && <span class:list={['play', { corner: playCorner }]} style={`width:${playSize}px;height:${playSize}px`} aria-hidden="true">▶</span>}
+  {duration && <span class="dur">{duration}</span>}
+</div>
+
+<style>
+  .vthumb { position: relative; border-radius: 3px; overflow: hidden; background: #111; }
+  .fill { position: absolute; inset: 0; }
+  .play {
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(10, 10, 11, 0.4);
+    font: 900 12px var(--display);
+    color: #fff;
+    padding-left: 2px;
+  }
+  .play.corner { left: 10px; top: 10px; transform: none; }
+  .dur {
+    position: absolute; right: 8px; bottom: 8px;
+    background: rgba(10, 10, 11, 0.85);
+    font: 400 9px var(--mono);
+    padding: 2px 6px;
+    border-radius: 2px;
+    color: #fff;
+  }
+</style>

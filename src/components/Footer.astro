@@ -1,0 +1,72 @@
+---
+import { SITE } from '../config/site';
+---
+
+<footer class="footer">
+  <div class="footer-grid gut">
+    <div class="brand-col">
+      <div class="brand">
+        <span class="brand-mark">C</span>
+        <span class="brand-name">CENIX GAME STATION</span>
+      </div>
+      <p class="tagline">{SITE.tagline}</p>
+    </div>
+
+    <div class="col">
+      <div class="col-head">CHUYÊN MỤC</div>
+      <a href="/tin-tuc">Tin tức</a>
+      <a href="/video">Video</a>
+      <a href="/tier-list">Tier-List</a>
+      <a href="/huong-dan">Hướng dẫn</a>
+    </div>
+
+    <div class="col">
+      <div class="col-head">KẾT NỐI</div>
+      <a href={SITE.socials.youtube} target="_blank" rel="noopener">YouTube</a>
+      <a href={SITE.socials.facebook} target="_blank" rel="noopener">Facebook</a>
+      <a href={SITE.socials.discord} target="_blank" rel="noopener">Discord</a>
+    </div>
+
+    <div class="col">
+      <div class="col-head">KHÁC</div>
+      <a href="/tin-tuc">Về Cenix</a>
+      <a href={`mailto:hello@${SITE.domain}`}>Liên hệ</a>
+      <a href="/rss.xml">RSS</a>
+    </div>
+  </div>
+
+  <div class="copybar">
+    <span>© 2026 CENIX GAME STATION</span>
+    <span>{SITE.footerNote}</span>
+  </div>
+</footer>
+
+<style>
+  .footer { border-top: 1px solid var(--bd-divider); margin-top: 8px; }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1.2fr repeat(3, 0.6fr);
+    gap: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+  .brand-mark {
+    width: 28px; height: 28px;
+    background: var(--lime); color: var(--on-lime);
+    border-radius: 4px;
+    display: flex; align-items: center; justify-content: center;
+    font: 900 15px var(--display);
+  }
+  .brand-name { font: 900 14px var(--display); letter-spacing: 1px; }
+  .tagline { font: 400 11px/1.6 var(--mono); color: var(--tx-meta); max-width: 280px; margin: 0; }
+
+  .col { display: flex; flex-direction: column; gap: 10px; }
+  .col-head { font: 700 10px var(--mono); color: #fff; letter-spacing: 2px; margin-bottom: 4px; }
+  .col a { font: 400 11.5px var(--mono); color: var(--tx-55); }
+  .col a:hover { color: var(--lime); }
+
+  @media (max-width: 900px) {
+    .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px 20px; }
+  }
+</style>

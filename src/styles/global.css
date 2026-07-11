@@ -1,0 +1,220 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   Cenix Game Station — Dark Magazine
+   Tokens + resets + shared primitives. Page layout lives in each page's <style>.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+:root {
+  /* Surfaces */
+  --bg: #0a0a0b;
+  --surface: rgba(255, 255, 255, 0.02);
+  --surface-2: rgba(255, 255, 255, 0.03);
+  --popup: #141416;
+
+  /* Borders */
+  --bd-divider: rgba(255, 255, 255, 0.09);
+  --bd-card: rgba(255, 255, 255, 0.12);
+  --bd-input: rgba(255, 255, 255, 0.18);
+  --bd-chip: rgba(255, 255, 255, 0.2);
+  --bd-btn: rgba(255, 255, 255, 0.25);
+  --bd-soft: rgba(255, 255, 255, 0.08);
+
+  /* Text */
+  --tx: #fff;
+  --tx-body: rgba(255, 255, 255, 0.6);
+  --tx-dim: rgba(255, 255, 255, 0.5);
+  --tx-meta: rgba(255, 255, 255, 0.4);
+  --tx-faint: rgba(255, 255, 255, 0.3);
+  --tx-55: rgba(255, 255, 255, 0.55);
+  --tx-65: rgba(255, 255, 255, 0.65);
+
+  /* Accent lime */
+  --lime: #c8f03c;
+  --lime-hi: #e2ff70;
+  --lime-40: rgba(200, 240, 60, 0.4);
+  --lime-15: rgba(200, 240, 60, 0.15);
+  --on-lime: #0a0a0b;
+
+  /* Tiers */
+  --tier-s: #ff5c5c;
+  --tier-a: #ffb347;
+  --tier-b: #c8f03c;
+  --tier-c: #7fb4ff;
+
+  /* Layout */
+  --gutter: 48px;
+  --maxw: 1280px;
+
+  /* Fonts */
+  --display: 'Archivo', system-ui, sans-serif;
+  --mono: 'Space Mono', ui-monospace, monospace;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--tx);
+  font-family: var(--display);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a { color: var(--lime); text-decoration: none; }
+a:hover { color: var(--lime-hi); }
+
+img { display: block; max-width: 100%; }
+
+h1, h2, h3, h4 { margin: 0; font-weight: 900; letter-spacing: -0.5px; }
+p { margin: 0 0 1em; }
+
+/* ── Page shell ────────────────────────────────────────────────────────── */
+.wrap { max-width: var(--maxw); margin: 0 auto; }
+.gut { padding-left: var(--gutter); padding-right: var(--gutter); }
+
+.app-main { min-height: 60vh; }
+
+/* ── Mono label / kicker helpers ──────────────────────────────────────── */
+.mono { font-family: var(--mono); }
+.kicker {
+  font: 700 9.5px var(--mono);
+  letter-spacing: 1.5px;
+  color: var(--lime);
+  text-transform: uppercase;
+}
+.eyebrow {
+  font: 900 13px var(--mono);
+  letter-spacing: 2px;
+  color: var(--lime);
+}
+
+/* ── Section header: "◆ TITLE ───────────" ───────────────────────────── */
+.sec-head {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.sec-head .rule { flex: 1; height: 1px; background: var(--bd-card); }
+.sec-title { font: 900 26px var(--display); }
+.sec-note { font: 400 10px var(--mono); color: var(--tx-meta); }
+.sec-more { margin-left: auto; font: 700 10.5px var(--mono); color: var(--lime); }
+
+/* ── Buttons / chips ──────────────────────────────────────────────────── */
+.btn-lime {
+  display: inline-block;
+  background: var(--lime);
+  color: var(--on-lime);
+  font: 700 11px var(--mono);
+  padding: 9px 16px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+.btn-lime:hover { background: var(--lime-hi); color: var(--on-lime); }
+
+.btn-outline {
+  display: inline-block;
+  border: 1px solid var(--bd-btn);
+  color: var(--tx-65);
+  font: 700 11px var(--mono);
+  padding: 12px 30px;
+  border-radius: 3px;
+  background: transparent;
+  cursor: pointer;
+}
+.btn-outline:hover { border-color: var(--lime-40); color: #fff; }
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--bd-chip);
+  font: 400 11px var(--mono);
+  padding: 8px 18px;
+  border-radius: 20px;
+  color: var(--tx-65);
+  background: transparent;
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+.chip:hover { color: #fff; border-color: var(--lime-40); }
+.chip.active { background: var(--lime); color: var(--on-lime); border-color: var(--lime); font-weight: 700; }
+.chip.active-soft { background: rgba(255, 255, 255, 0.12); color: #fff; border-color: transparent; font-weight: 700; }
+
+/* ── Placeholder (striped) — dùng khi thiếu ảnh thật ──────────────────── */
+.ph {
+  background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 10px, #202028 10px, #202028 20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--tx-meta);
+  font: 11px var(--mono);
+  overflow: hidden;
+}
+.cover { width: 100%; height: 100%; object-fit: cover; }
+
+/* ── Breadcrumb + page header (shared across list pages) ──────────────── */
+.crumb { font: 400 10.5px var(--mono); color: var(--tx-meta); margin-bottom: 10px; }
+.crumb .here { color: var(--lime); }
+
+.page-head {
+  padding: 44px var(--gutter) 28px;
+  border-bottom: 1px solid var(--bd-divider);
+}
+.page-head-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+}
+.page-title { font: 900 56px/1 var(--display); letter-spacing: -1.5px; }
+.page-meta { font: 400 11px var(--mono); color: var(--tx-meta); }
+
+.filters { display: flex; gap: 8px; margin-top: 24px; flex-wrap: wrap; align-items: center; }
+.filters .sort {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font: 400 11px var(--mono);
+  color: var(--tx-meta);
+}
+.filters .sort b { color: #fff; font-weight: 400; border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+
+/* ── Footer copyright bar (per-page) ──────────────────────────────────── */
+.copybar {
+  padding: 16px var(--gutter);
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  display: flex;
+  justify-content: space-between;
+  font: 400 10px var(--mono);
+  color: var(--tx-faint);
+}
+
+/* ── Prose (markdown body on detail pages) ────────────────────────────── */
+.prose { font: 400 15px/1.7 var(--display); color: var(--tx-65); max-width: 720px; }
+.prose h2 { font: 900 24px var(--display); color: #fff; margin: 1.6em 0 0.5em; letter-spacing: -0.5px; }
+.prose h3 { font: 800 18px var(--display); color: #fff; margin: 1.4em 0 0.4em; }
+.prose strong { color: #fff; }
+.prose a { border-bottom: 1px solid var(--lime-40); }
+.prose img { border-radius: 3px; margin: 1.2em 0; }
+.prose ul, .prose ol { padding-left: 1.2em; }
+.prose li { margin: 0.35em 0; }
+.prose code {
+  font-family: var(--mono);
+  font-size: 0.88em;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+/* ── Responsive gutter ────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  :root { --gutter: 20px; }
+  .page-title { font-size: 40px; }
+}

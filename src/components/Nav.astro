@@ -1,0 +1,117 @@
+---
+import { NAV, SITE } from '../config/site';
+import type { NavKey } from '../config/site';
+
+interface Props { activeNav?: NavKey }
+const { activeNav = 'home' } = Astro.props;
+---
+
+<div class="nav gut">
+  <a href="/" class="brand" aria-label={SITE.name}>
+    <span class="brand-mark">C</span>
+    <span class="brand-name">CENIX <span class="slash">/</span> GAME STATION</span>
+  </a>
+
+  <nav class="nav-menu" aria-label="Điều hướng chính">
+    {NAV.map((item) => (
+      <a href={item.href} class:list={['nav-link', { active: item.key === activeNav }]}>{item.label}</a>
+    ))}
+  </nav>
+
+  <div class="nav-actions">
+    <div class="search" role="search"><span aria-hidden="true">⌕</span> Tìm kiếm…</div>
+    <a class="btn-lime follow" href={SITE.socials.youtube} target="_blank" rel="noopener">THEO DÕI</a>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="Mở menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</div>
+
+<style>
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--bd-divider);
+  }
+  .brand { display: flex; align-items: center; gap: 11px; color: #fff; }
+  .brand-mark {
+    width: 32px; height: 32px; flex: none;
+    background: var(--lime); color: var(--on-lime);
+    border-radius: 4px;
+    display: flex; align-items: center; justify-content: center;
+    font: 900 17px var(--display);
+  }
+  .brand-name { font: 900 16px var(--display); letter-spacing: 1px; white-space: nowrap; }
+  .brand-name .slash { color: rgba(255, 255, 255, 0.45); font-weight: 400; }
+
+  .nav-menu { display: flex; gap: 32px; }
+  .nav-link {
+    font: 700 11.5px var(--mono);
+    letter-spacing: 1px;
+    color: var(--tx-55);
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+  }
+  .nav-link:hover { color: #fff; }
+  .nav-link.active { color: #fff; border-bottom-color: var(--lime); }
+
+  .nav-actions { display: flex; align-items: center; gap: 12px; }
+  .search {
+    display: flex; align-items: center; gap: 8px;
+    border: 1px solid var(--bd-input);
+    border-radius: 3px;
+    padding: 8px 14px;
+    font: 400 11px var(--mono);
+    color: var(--tx-meta);
+    width: 150px;
+  }
+  .follow { white-space: nowrap; }
+
+  .nav-hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    background: none; border: none; cursor: pointer;
+    padding: 6px;
+  }
+  .nav-hamburger span { display: block; width: 20px; height: 2px; background: #fff; transition: 0.2s; }
+  .nav-hamburger[aria-expanded='true'] span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+  .nav-hamburger[aria-expanded='true'] span:nth-child(2) { opacity: 0; }
+  .nav-hamburger[aria-expanded='true'] span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+  @media (max-width: 900px) {
+    .search { display: none; }
+    .nav-hamburger { display: flex; }
+    .nav-menu {
+      position: absolute;
+      left: 0; right: 0;
+      top: 100%;
+      flex-direction: column;
+      gap: 0;
+      background: var(--popup);
+      border-bottom: 1px solid var(--bd-divider);
+      padding: 8px var(--gutter);
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.25s ease;
+      z-index: 40;
+    }
+    .nav { position: relative; flex-wrap: wrap; }
+    .nav-menu.is-open { max-height: 320px; }
+    .nav-link { padding: 14px 0; border-bottom: 1px solid var(--bd-soft); }
+    .nav-link.active { border-bottom-color: var(--bd-soft); color: var(--lime); }
+  }
+</style>
+
+<script>
+  const btn = document.getElementById('nav-hamburger');
+  const menu = document.querySelector('.nav-menu');
+  btn?.addEventListener('click', () => {
+    const open = menu?.classList.toggle('is-open') ?? false;
+    btn.setAttribute('aria-expanded', String(open));
+  });
+</script>
