@@ -56,10 +56,11 @@ order: 100
     "color": "#ffd23f",
     "chars": [
       {
-        "name": "Đô Sĩ",
+        "name": "Anubis",
         "image": "",
-        "element": "Vật lý",
-        "desc": "4★ ổn cho tân thủ"
+        "element": "Clubs",
+        "desc": "Anubis có chỉ số trung bình, và anh ta thể hiện tốt ở hầu hết mọi nơi, nhưng mạnh nhất ở PVP và trong tháp, còn yếu nhất ở Grim Surge.",
+        "role": "assassin"
       }
     ]
   },
