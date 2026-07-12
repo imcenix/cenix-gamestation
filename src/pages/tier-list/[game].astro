@@ -64,7 +64,7 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
               ? <span class="tier-empty">—</span>
               : tier.chars.map((c) => (
                   <div class="avatar" tabindex="0" role="button"
-                    data-name={c.name} data-img={img(c.image) ?? ''} data-el={c.element ?? ''} data-desc={c.desc ?? ''} data-class={c.role && HERO_CLASS_MAP[c.role] ? `${HERO_CLASS_MAP[c.role].icon} ${HERO_CLASS_MAP[c.role].label}` : ''}>
+                    data-name={c.name} data-img={img(c.image) ?? ''} data-el={c.element ?? ''} data-desc={c.desc ?? ''} data-class={c.role && HERO_CLASS_MAP[c.role] ? HERO_CLASS_MAP[c.role].icon : ''}>
                     {img(c.image)
                       ? <img src={img(c.image)} alt={c.name} loading="lazy" />
                       : <span class="abbr">{initials(c.name)}</span>}
@@ -100,11 +100,11 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
   </section>
 
   <div class="tl-popup" id="tl-popup" hidden>
+    <div class="pop-class" id="pop-class"></div>
     <div class="pop-top">
       <div class="pop-ava" id="pop-ava"></div>
       <div class="pop-id">
         <div class="pop-name" id="pop-name"></div>
-        <div class="pop-class" id="pop-class"></div>
         <div class="pop-el" id="pop-el"></div>
       </div>
     </div>
@@ -147,11 +147,11 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
   .dc-cta { background: var(--lime); color: var(--on-lime); font: 700 10.5px var(--mono); padding: 9px; border-radius: 2px; text-align: center; }
 
   .tl-popup { position: absolute; z-index: 50; width: 260px; background: var(--popup); border: 1px solid rgba(200, 240, 60, 0.5); border-radius: 4px; padding: 14px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7); }
-  .pop-top { display: flex; gap: 12px; margin-bottom: 8px; align-items: center; }
+  .pop-top { display: flex; gap: 12px; margin-bottom: 8px; align-items: center; padding-right: 26px; }
   .pop-ava { width: 48px; height: 48px; flex: none; border-radius: 3px; overflow: hidden; background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 6px, #202028 6px, #202028 12px); }
   .pop-ava img { width: 100%; height: 100%; object-fit: cover; }
   .pop-name { font: 800 15px var(--display); color: #fff; }
-  .pop-class { font: 700 10px var(--mono); color: #fff; margin-top: 3px; }
+  .pop-class { position: absolute; top: 9px; right: 11px; font-size: 22px; line-height: 1; }
   .pop-el { font: 400 9.5px var(--mono); color: var(--lime); margin-top: 2px; }
   .pop-desc { font: 400 11px/1.55 var(--mono); color: var(--tx-body); }
 
