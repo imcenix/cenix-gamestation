@@ -1,11 +1,11 @@
 ---
-title: "5 mẹo tiết kiệm ngọc mà 90% người chơi bỏ qua"
-slug: 5-meo-tiet-kiem-ngoc
-youtube_url: https://youtu.be/OPf0YbXqDm0
-category: huong-dan
-date: 2026-07-03
-duration: "08:19"
+title:  Frontier Village Ambience | Age Of Empires 2
+slug:  Frontier-Village-Ambience
+youtube_url: "https://www.youtube.com/watch?v=CllJGOG8avU&list=RDCllJGOG8avU&start_radio=1"
+category: giai-tri
+date: 2026-07-12
+duration: "30:00"
 featured: false
 order: 7
-description: ""
+description:
 ---
