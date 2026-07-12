@@ -1,6 +1,6 @@
 ---
 name: SP Innana
-slug: a-dps-am-cung
+slug: SP Innana
 game: Sword of Convallaria
 rarity: 6
 element: Light
