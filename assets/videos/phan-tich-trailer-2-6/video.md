@@ -1,11 +1,11 @@
 ---
-title: "Phân tích trailer bản 2.6 — mọi chi tiết ẩn"
-slug: phan-tich-trailer-2-6
-youtube_url: https://youtu.be/CevxZvSJLk8
-category: cot-truyen
-date: 2026-07-02
-duration: "25:02"
+title: HEROES OF JIN YONG New 4K Gameplay Reveal 
+slug: HEROES-OF-JIN-YONG
+youtube_url: "https://www.youtube.com/watch?v=fHACFo0s82c&t=301s"
+category: review
+date: 2026-07-12
+duration: "8:20"
 featured: false
-order: 8
-description: ""
+order:
+description:
 ---
