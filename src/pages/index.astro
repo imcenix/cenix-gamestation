@@ -24,7 +24,7 @@ const reviews = (await getCollection('reviews')).sort(byOrderThenDate).slice(0, 
 const cover = (col, slug, file) => (file ? `/${col}/${slug}/${file}` : null);
 
 const lead = news.find((n) => n.data.featured) ?? news[0];
-const newsList = news.filter((n) => n.id !== lead?.id).slice(0, 3);
+const newsList = news.filter((n) => n.id !== lead?.id).slice(0, 5);
 const popular = [...news, ...guides].sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()).slice(0, 10);
 const homeVideos = videos.slice(0, 4);
 
