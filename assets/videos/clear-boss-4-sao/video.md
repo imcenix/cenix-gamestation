@@ -1,11 +1,11 @@
 ---
-title: "Thử thách: clear boss tuần chỉ với nhân vật 4★"
-slug: clear-boss-4-sao
-youtube_url: https://youtu.be/RgKAFK5djSk
-category: gameplay
-date: 2026-07-04
-duration: "16:44"
+title: " Kena: Scars of Kosmora - Announce Trailer | PS5 Games"
+slug:  Kena-Scars-of-Kosmora
+youtube_url: "https://www.youtube.com/watch?v=12EQpTwn4lY"
+category: review
+date: 2026-07-12
+duration: "2:30"
 featured: false
 order: 6
-description: ""
+description:
 ---
