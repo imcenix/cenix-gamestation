@@ -28,10 +28,11 @@ order: 100
     "color": "#ff8c42",
     "chars": [
       {
-        "name": "Kiếm Sĩ",
-        "image": "",
-        "element": "Vật lý",
-        "desc": "Ổn định, mới buff ở bản 1.3"
+        "name": "Dionysus",
+        "image": "kim-s-1783866251609.jpg",
+        "element": "Starglint",
+        "desc": "Dionysus, nữ thần rượu vang và những cuộc vui chơi, hiện thân cho niềm đam mê và sự hân hoan vô bờ bến của cuộc sống. Đẹp trai và rạng rỡ, bà khoác áo choàng dệt từ dây nho, tay cầm chén rượu và cây trượng Thyrsus.",
+        "role": "support"
       }
     ]
   },
