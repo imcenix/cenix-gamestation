@@ -1,25 +1,24 @@
 ---
-game: game-b
 game_label: "Game B"
-blurb: "Game hành động đối kháng — tier dựa trên sức mạnh PvP và clear sao."
+genre: "Hành động đối kháng"
+blurb: "Tier dựa trên sức mạnh PvP và clear sao."
 version: "1.3"
 updated: 2026-07-06
 order: 2
-dps_s: [b-dps-xa-thu]
-dps_a: [b-dps-kiem-si, b-dps-phap-su-bang]
-dps_b: [b-dps-do-si]
-dps_c: []
-support_s: []
-support_a: []
-support_b: []
-support_c: []
-healer_s: []
-healer_a: []
-healer_b: []
-healer_c: []
-changes_up:
-  - "Kiếm Sĩ: B → A"
-changes_down: []
-changes_new:
-  - "Pháp Sư Băng ra mắt tại A"
 ---
+[
+  { "label": "SSS", "sublabel": "Top Tier", "color": "#ff4d4d", "chars": [
+    { "name": "Xạ Thủ", "image": "", "element": "Vật lý", "desc": "DPS tầm xa mạnh nhất Game B" }
+  ]},
+  { "label": "SS", "sublabel": "Tier 1", "color": "#ff8c42", "chars": [
+    { "name": "Kiếm Sĩ", "image": "", "element": "Vật lý", "desc": "Ổn định, mới buff ở bản 1.3" }
+  ]},
+  { "label": "S", "sublabel": "Tier 2", "color": "#ffa62b", "chars": [
+    { "name": "Pháp Sư Băng", "image": "", "element": "Băng", "desc": "Tân binh tiềm năng cao" }
+  ]},
+  { "label": "A", "sublabel": "Tier 3", "color": "#ffd23f", "chars": [
+    { "name": "Đô Sĩ", "image": "", "element": "Vật lý", "desc": "4★ ổn cho tân thủ" }
+  ]},
+  { "label": "B", "sublabel": "Tier 4", "color": "#ffc9a0", "chars": [] },
+  { "label": "C", "sublabel": "Tier 5", "color": "#8a8a8a", "chars": [] }
+]

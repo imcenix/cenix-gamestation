@@ -2,124 +2,81 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { SITE } from '../../config/site';
-import { TIERS, TIER_COLOR } from '../../lib/labels';
 import { dmy } from '../../lib/format';
 
+type Char = { name: string; image?: string; element?: string; desc?: string };
+type Tier = { label: string; sublabel?: string; color?: string; chars: Char[] };
+
 export async function getStaticPaths() {
+  function parseTiers(body: string): Tier[] {
+    try {
+      const arr = JSON.parse((body || '').trim() || '[]');
+      return Array.isArray(arr) ? arr : [];
+    } catch {
+      return [];
+    }
+  }
   const tierlists = await getCollection('tierlists');
-  const characters = await getCollection('characters');
-  return tierlists.map((t) => {
-    const roster = {};
-    characters
-      .filter((c) => c.data.game === t.data.game)
-      .forEach((c) => {
-        roster[c.data.slug] = {
-          name: c.data.name,
-          avatar: c.data.avatar ? `/characters/${c.id}/${c.data.avatar}` : null,
-          rarity: c.data.rarity,
-          element: c.data.element ?? '',
-          weapon: c.data.weapon ?? '',
-          team: c.data.team ?? '',
-          reason: c.data.reason ?? '',
-          build_url: c.data.build_url ?? '#',
-        };
-      });
-    return {
-      params: { game: t.data.game },
-      props: {
-        meta: t.data,
-        roster,
-        others: tierlists
-          .filter((o) => o.data.game !== t.data.game)
-          .sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999))
-          .map((o) => ({ slug: o.data.game, label: o.data.game_label, updated: dmy(o.data.updated) })),
-      },
-    };
-  });
+  return tierlists.map((t) => ({
+    params: { game: t.id },
+    props: {
+      meta: t.data,
+      tiers: parseTiers(t.body ?? ''),
+      gameId: t.id,
+      others: tierlists
+        .filter((o) => o.id !== t.id)
+        .sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999))
+        .map((o) => ({ slug: o.id, label: o.data.game_label, updated: o.data.updated ? dmy(o.data.updated) : '' })),
+    },
+  }));
 }
 
-const { meta, roster, others } = Astro.props;
-const m = meta as any;
-
-const ROLE_DEFS = [
-  { key: 'dps', label: 'DPS' },
-  { key: 'support', label: 'SUPPORT' },
-  { key: 'healer', label: 'HEALER' },
-];
-const TIER_KEYS = ['s', 'a', 'b', 'c'];
-
-function tierRow(role: string, i: number) {
-  const slugs: string[] = m[`${role}_${TIER_KEYS[i]}`] ?? [];
-  return slugs.map((s) => (roster as any)[s]).filter(Boolean);
-}
-const tiersByRole: Record<string, { tier: string; chars: any[] }[]> = {};
-for (const r of ROLE_DEFS) {
-  tiersByRole[r.key] = TIERS.map((T, i) => ({ tier: T, chars: tierRow(r.key, i) }));
-}
-let availableRoles = ROLE_DEFS.filter((r) => tiersByRole[r.key].some((row) => row.chars.length > 0));
-if (availableRoles.length === 0) availableRoles = [ROLE_DEFS[0]];
-
-const data = {
-  roles: availableRoles,
-  tiersByRole,
-  tierColor: TIER_COLOR,
-  roleLabel: { dps: 'DPS', support: 'SUPPORT', healer: 'HEALER' } as Record<string, string>,
-};
-
-const changelog = [
-  ...meta.changes_up.map((t) => ({ cls: 'up', tag: '▲ LÊN', txt: t })),
-  ...meta.changes_down.map((t) => ({ cls: 'down', tag: '▼ XUỐNG', txt: t })),
-  ...meta.changes_new.map((t) => ({ cls: 'new', tag: '＋ MỚI', txt: t })),
-];
+const { meta, tiers, gameId, others } = Astro.props;
+const img = (file?: string) => (file ? `/tierlists/${gameId}/images/${file}` : null);
+const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
 ---
 
-<BaseLayout title={`Tier-List ${meta.game_label}`} activeNav="tier" description={`Tier-list ${meta.game_label} — bảng xếp hạng S/A/B/C, hover nhân vật để xem build.`}>
+<BaseLayout title={`Tier-List ${meta.game_label}`} activeNav="tier" description={`Tier-list ${meta.game_label} — hover nhân vật để xem chi tiết.`}>
   <div class="page-head">
     <div class="crumb">TRANG CHỦ / <a href="/tier-list">TIER-LIST</a> / <span class="here">{meta.game_label.toUpperCase()}</span></div>
     <div class="page-head-row">
-      <div class="page-title">{meta.game_label}</div>
-      <div class="page-meta">{meta.version ? `BẢN ${meta.version} · ` : ''}CẬP NHẬT {dmy(meta.updated)}</div>
-    </div>
-    <div class="filters">
-      <span class="flabel">VAI TRÒ:</span>
-      <div class="chip-row" id="role-chips">
-        {availableRoles.map((r, i) => (
-          <button class:list={['chip', { 'active-soft': i === 0 }]} data-role={r.key}>{r.label}</button>
-        ))}
+      <div>
+        <div class="page-title">{meta.game_label}</div>
+        {meta.genre && <div class="genre">{meta.genre}</div>}
       </div>
+      <div class="page-meta">{meta.version ? `BẢN ${meta.version} · ` : ''}{meta.updated ? `CẬP NHẬT ${dmy(meta.updated)}` : ''}</div>
     </div>
+    {meta.blurb && <p class="blurb">{meta.blurb}</p>}
   </div>
 
   <section class="gut tl-layout">
     <div class="tl-table">
-      <div class="tl-table-head">
-        <div class="tl-h-title" id="tl-title">TIER-LIST DPS</div>
-        <div class="tl-h-updated">HOVER NHÂN VẬT ĐỂ XEM CHI TIẾT</div>
-      </div>
-      <div id="tier-rows"></div>
-      <div class="legend">
-        <span><b style={`color:${TIER_COLOR.S}`}>S</b> — định hình meta</span>
-        <span><b style={`color:${TIER_COLOR.A}`}>A</b> — rất mạnh, đáng đầu tư</span>
-        <span><b style={`color:${TIER_COLOR.B}`}>B</b> — ổn nếu đã có sẵn</span>
-        <span><b style={`color:${TIER_COLOR.C}`}>C</b> — chỉ dùng tình huống</span>
-      </div>
+      <div class="tl-hint">HOVER NHÂN VẬT ĐỂ XEM HỆ & GIỚI THIỆU</div>
+      {tiers.map((tier) => (
+        <div class="tier-row">
+          <div class="tier-badge" style={`background:${tier.color || '#888'}`}>
+            <span class="tb-label">{tier.label}</span>
+            {tier.sublabel && <span class="tb-sub">{tier.sublabel}</span>}
+          </div>
+          <div class="tier-track">
+            {tier.chars.length === 0
+              ? <span class="tier-empty">—</span>
+              : tier.chars.map((c) => (
+                  <div class="avatar" tabindex="0" role="button"
+                    data-name={c.name} data-img={img(c.image) ?? ''} data-el={c.element ?? ''} data-desc={c.desc ?? ''}>
+                    {img(c.image)
+                      ? <img src={img(c.image)} alt={c.name} loading="lazy" />
+                      : <span class="abbr">{initials(c.name)}</span>}
+                    <span class="cap">{c.name}</span>
+                  </div>
+                ))}
+          </div>
+        </div>
+      ))}
+      {tiers.length === 0 && <p class="tier-empty" style="padding:30px 0">Chưa có dữ liệu tier. Thêm trong CMS.</p>}
     </div>
 
     <aside class="tl-side">
-      <div class="changelog">
-        <div class="cl-head">◆ THAY ĐỔI{meta.version ? ` BẢN ${meta.version}` : ''}</div>
-        <div class="cl-list">
-          {changelog.length === 0
-            ? <div class="cl-txt">Chưa có thay đổi ghi nhận.</div>
-            : changelog.map((c) => (
-                <div class="cl-item">
-                  <span class:list={['cl-tag', c.cls]}>{c.tag}</span>
-                  <span class="cl-txt">{c.txt}</span>
-                </div>
-              ))}
-        </div>
-      </div>
-
       {others.length > 0 && (
         <div class="others">
           <div class="side-head">◆ TIER-LIST GAME KHÁC</div>
@@ -133,7 +90,6 @@ const changelog = [
           </div>
         </div>
       )}
-
       <a class="discord" href={SITE.socials.discord} target="_blank" rel="noopener">
         <div class="dc-title">Không đồng ý với xếp hạng?</div>
         <div class="dc-sub">Vào Discord tranh luận cùng cộng đồng Cenix.</div>
@@ -147,42 +103,35 @@ const changelog = [
       <div class="pop-ava" id="pop-ava"></div>
       <div class="pop-id">
         <div class="pop-name" id="pop-name"></div>
-        <div class="pop-tags" id="pop-tags"></div>
+        <div class="pop-el" id="pop-el"></div>
       </div>
     </div>
-    <div class="pop-rows" id="pop-rows"></div>
-    <a class="pop-cta" id="pop-cta" href="#">XEM BUILD ĐẦY ĐỦ →</a>
+    <div class="pop-desc" id="pop-desc"></div>
   </div>
-
-  <script type="application/json" id="tl-data" set:html={JSON.stringify(data)}></script>
 </BaseLayout>
 
 <style>
-  .flabel { font: 400 10px var(--mono); color: var(--tx-meta); margin-right: 6px; }
-  .chip-row { display: flex; gap: 8px; flex-wrap: wrap; }
-  .tl-layout { padding-top: 36px; padding-bottom: 44px; display: grid; grid-template-columns: 1fr 320px; gap: 28px; }
-  .tl-table-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px; }
-  .tl-h-title { font: 900 20px var(--display); }
-  .tl-h-updated { font: 400 10px var(--mono); color: var(--tx-meta); }
-  .tier-row { display: flex; gap: 12px; align-items: stretch; margin-bottom: 12px; }
-  .tier-badge { width: 64px; flex: none; color: var(--on-lime); font: 900 26px var(--display); border-radius: 3px; display: flex; align-items: center; justify-content: center; }
-  .tier-track { flex: 1; background: var(--surface-2); border: 1px solid var(--bd-soft); border-radius: 3px; padding: 12px; display: flex; gap: 10px; flex-wrap: wrap; min-height: 96px; }
-  .tier-empty { font: 400 10px var(--mono); color: var(--tx-faint); align-self: center; }
-  .avatar { position: relative; width: 72px; height: 72px; flex: none; border-radius: 3px; overflow: hidden; background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 8px, #202028 8px, #202028 16px); cursor: pointer; outline: 2px solid transparent; outline-offset: 2px; transition: outline-color 0.15s; }
-  .avatar img { width: 100%; height: 100%; object-fit: cover; }
-  .avatar .abbr { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font: 700 10px var(--mono); color: var(--tx-55); padding: 4px; text-align: center; }
-  .avatar:hover, .avatar.on { outline-color: var(--lime); }
-  .legend { display: flex; gap: 22px; flex-wrap: wrap; padding: 14px 0; font: 400 10px var(--mono); color: var(--tx-dim); }
+  .genre { font: 400 11px var(--mono); color: var(--lime); margin-top: 8px; letter-spacing: 1px; }
+  .blurb { font: 400 12.5px/1.6 var(--display); color: var(--tx-dim); margin: 16px 0 0; max-width: 640px; }
+  .tl-layout { padding-top: 36px; padding-bottom: 44px; display: grid; grid-template-columns: 1fr 300px; gap: 28px; }
+  .tl-hint { font: 400 10px var(--mono); color: var(--tx-meta); margin-bottom: 12px; letter-spacing: 1px; }
+
+  .tier-row { display: flex; gap: 0; align-items: stretch; border: 1px solid var(--bd-soft); border-bottom: none; }
+  .tier-row:last-child { border-bottom: 1px solid var(--bd-soft); }
+  .tier-badge { width: 92px; flex: none; color: #0a0a0b; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; padding: 14px 6px; }
+  .tb-label { font: 900 30px/1 var(--display); }
+  .tb-sub { font: 700 9px var(--mono); letter-spacing: 0.5px; }
+  .tier-track { flex: 1; background: var(--surface-2); padding: 12px; display: flex; gap: 12px; flex-wrap: wrap; min-height: 96px; align-content: flex-start; }
+  .tier-empty { font: 400 11px var(--mono); color: var(--tx-faint); align-self: center; }
+
+  .avatar { position: relative; width: 72px; flex: none; cursor: pointer; text-align: center; }
+  .avatar > img, .avatar .abbr { width: 72px; height: 72px; border-radius: 4px; overflow: hidden; display: flex; align-items: center; justify-content: center; object-fit: cover; background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 8px, #202028 8px, #202028 16px); outline: 2px solid transparent; outline-offset: 2px; transition: outline-color 0.15s; }
+  .avatar .abbr { font: 700 12px var(--mono); color: var(--tx-55); }
+  .avatar:hover > img, .avatar:hover .abbr, .avatar.on > img, .avatar.on .abbr { outline-color: var(--lime); }
+  .avatar .cap { display: block; margin-top: 6px; font: 700 10px/1.2 var(--display); color: var(--tx-65); }
+  .avatar:hover .cap { color: #fff; }
+
   .tl-side { display: flex; flex-direction: column; gap: 26px; }
-  .changelog { border: 1px solid var(--bd-card); border-radius: 3px; padding: 20px; background: var(--surface); }
-  .cl-head { font: 900 12px var(--mono); letter-spacing: 2px; color: var(--lime); margin-bottom: 14px; }
-  .cl-list { display: flex; flex-direction: column; gap: 11px; font: 400 11px/1.5 var(--mono); }
-  .cl-item { display: flex; gap: 10px; align-items: center; }
-  .cl-tag { font-weight: 700; padding: 2px 8px; border-radius: 2px; white-space: nowrap; }
-  .cl-tag.up { background: var(--lime-15); color: var(--lime); }
-  .cl-tag.down { background: rgba(255, 92, 92, 0.15); color: var(--tier-s); }
-  .cl-tag.new { background: rgba(255, 255, 255, 0.1); color: var(--tx-body); }
-  .cl-txt { color: var(--tx-65); }
   .side-head { font: 900 12px var(--mono); letter-spacing: 2px; color: var(--lime); border-bottom: 1px solid var(--bd-card); padding-bottom: 10px; margin-bottom: 4px; }
   .other-list { display: flex; flex-direction: column; }
   .other-item { display: flex; justify-content: space-between; align-items: center; padding: 13px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.07); color: #fff; }
@@ -194,105 +143,55 @@ const changelog = [
   .dc-title { font: 800 15px/1.3 var(--display); margin-bottom: 6px; }
   .dc-sub { font: 400 10.5px/1.55 var(--mono); color: var(--tx-55); margin-bottom: 14px; }
   .dc-cta { background: var(--lime); color: var(--on-lime); font: 700 10.5px var(--mono); padding: 9px; border-radius: 2px; text-align: center; }
-  .tl-popup { position: absolute; z-index: 50; width: 290px; background: var(--popup); border: 1px solid rgba(200, 240, 60, 0.5); border-radius: 4px; padding: 16px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7); }
-  .pop-top { display: flex; gap: 12px; margin-bottom: 10px; }
-  .pop-ava { width: 52px; height: 52px; flex: none; border-radius: 3px; overflow: hidden; background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 6px, #202028 6px, #202028 12px); }
+
+  .tl-popup { position: absolute; z-index: 50; width: 260px; background: var(--popup); border: 1px solid rgba(200, 240, 60, 0.5); border-radius: 4px; padding: 14px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7); }
+  .pop-top { display: flex; gap: 12px; margin-bottom: 8px; align-items: center; }
+  .pop-ava { width: 48px; height: 48px; flex: none; border-radius: 3px; overflow: hidden; background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 6px, #202028 6px, #202028 12px); }
   .pop-ava img { width: 100%; height: 100%; object-fit: cover; }
-  .pop-id { display: flex; flex-direction: column; gap: 3px; justify-content: center; }
-  .pop-name { font: 800 15px var(--display); }
-  .pop-tags { font: 400 9.5px var(--mono); color: var(--lime); }
-  .pop-rows { display: flex; flex-direction: column; gap: 6px; font: 400 10.5px/1.5 var(--mono); color: var(--tx-body); }
-  .pop-rows b { color: #fff; font-weight: 400; }
-  .pop-cta { margin-top: 12px; display: block; background: var(--lime); color: var(--on-lime); font: 700 10px var(--mono); padding: 8px; border-radius: 2px; text-align: center; }
+  .pop-name { font: 800 15px var(--display); color: #fff; }
+  .pop-el { font: 400 9.5px var(--mono); color: var(--lime); margin-top: 2px; }
+  .pop-desc { font: 400 11px/1.55 var(--mono); color: var(--tx-body); }
+
   @media (max-width: 900px) {
     .tl-layout { grid-template-columns: 1fr; }
-    .tl-popup { position: fixed; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%); width: min(320px, 90vw); }
+    .tier-badge { width: 68px; }
+    .tb-label { font-size: 22px; }
+    .tl-popup { position: fixed; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%); width: min(300px, 90vw); }
   }
 </style>
 
 <script>
-  const D = JSON.parse(document.getElementById('tl-data')?.textContent ?? '{}');
-  let role = D.roles?.[0]?.key ?? 'dps';
-
+  const popup = document.getElementById('tl-popup');
   const el = (id) => document.getElementById(id);
-  const rowsBox = el('tier-rows');
-  const popup = el('tl-popup');
   let hideTimer;
-
-  const initials = (name) => name.split(/\s+/).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
-
-  function showPopup(anchor, c) {
-    el('pop-name').textContent = c.name;
-    el('pop-tags').textContent = `${c.rarity}★ · ${D.roleLabel[role]}${c.element ? ' · ' + c.element.toUpperCase() : ''}`;
-    el('pop-ava').innerHTML = c.avatar ? `<img src="${c.avatar}" alt="">` : '';
-    const rows = el('pop-rows');
-    rows.innerHTML = '';
-    const line = (label, val) => { if (!val) return; const d = document.createElement('div'); d.innerHTML = `<b>${label}:</b> ${val}`; rows.appendChild(d); };
-    line('Vũ khí', c.weapon);
-    line('Đội hình', c.team);
-    line('Vì sao hạng này', c.reason);
-    el('pop-cta').href = c.build_url;
+  function show(a) {
+    el('pop-name').textContent = a.dataset.name || '';
+    const elm = a.dataset.el || '';
+    el('pop-el').textContent = elm ? elm.toUpperCase() : '';
+    el('pop-el').style.display = elm ? '' : 'none';
+    el('pop-ava').innerHTML = a.dataset.img ? `<img src="${a.dataset.img}" alt="">` : '';
+    const d = a.dataset.desc || '';
+    el('pop-desc').textContent = d;
+    el('pop-desc').style.display = d ? '' : 'none';
     popup.hidden = false;
     if (window.matchMedia('(min-width: 901px)').matches) {
-      const r = anchor.getBoundingClientRect();
-      let left = r.right + window.scrollX + 14;
-      if (left + 290 > window.scrollX + document.documentElement.clientWidth - 8) left = r.left + window.scrollX - 290 - 14;
+      const r = a.getBoundingClientRect();
+      let left = r.right + window.scrollX + 12;
+      if (left + 260 > window.scrollX + document.documentElement.clientWidth - 8) left = r.left + window.scrollX - 260 - 12;
       popup.style.left = `${left}px`;
-      popup.style.top = `${r.top + window.scrollY - 8}px`;
+      popup.style.top = `${r.top + window.scrollY - 6}px`;
     }
   }
-  const hidePopup = () => { popup.hidden = true; };
+  const hide = () => { popup.hidden = true; };
   popup.addEventListener('mouseenter', () => clearTimeout(hideTimer));
-  popup.addEventListener('mouseleave', hidePopup);
-  document.addEventListener('click', (e) => { if (!popup.contains(e.target) && !e.target.closest('.avatar')) hidePopup(); });
-  window.addEventListener('scroll', hidePopup, { passive: true });
-
-  function render() {
-    const rows = D.tiersByRole[role] ?? [];
-    rowsBox.innerHTML = '';
-    for (const row of rows) {
-      const rEl = document.createElement('div');
-      rEl.className = 'tier-row';
-      const badge = document.createElement('div');
-      badge.className = 'tier-badge';
-      badge.style.background = D.tierColor[row.tier];
-      badge.textContent = row.tier;
-      rEl.appendChild(badge);
-      const track = document.createElement('div');
-      track.className = 'tier-track';
-      if (!row.chars.length) {
-        const em = document.createElement('span');
-        em.className = 'tier-empty';
-        em.textContent = 'Chưa có nhân vật';
-        track.appendChild(em);
-      }
-      for (const c of row.chars) {
-        const a = document.createElement('div');
-        a.className = 'avatar';
-        a.setAttribute('role', 'button');
-        a.setAttribute('tabindex', '0');
-        a.setAttribute('aria-label', c.name);
-        a.innerHTML = c.avatar ? `<img src="${c.avatar}" alt="${c.name}">` : `<span class="abbr">${initials(c.name)}</span>`;
-        const open = () => { clearTimeout(hideTimer); document.querySelectorAll('.avatar.on').forEach((x) => x.classList.remove('on')); a.classList.add('on'); showPopup(a, c); };
-        a.addEventListener('mouseenter', () => { hideTimer = window.setTimeout(open, 120); });
-        a.addEventListener('mouseleave', () => { clearTimeout(hideTimer); hideTimer = window.setTimeout(hidePopup, 150); });
-        a.addEventListener('click', open);
-        a.addEventListener('keydown', (e) => { if (e.key === 'Enter') open(); });
-        track.appendChild(a);
-      }
-      rEl.appendChild(track);
-      rowsBox.appendChild(rEl);
-    }
-    el('tl-title').textContent = `TIER-LIST ${D.roleLabel[role]}`;
-    hidePopup();
-  }
-
-  document.querySelectorAll('#role-chips .chip').forEach((c) => {
-    c.addEventListener('click', () => {
-      role = c.dataset.role;
-      document.querySelectorAll('#role-chips .chip').forEach((x) => x.classList.toggle('active-soft', x === c));
-      render();
-    });
+  popup.addEventListener('mouseleave', hide);
+  window.addEventListener('scroll', hide, { passive: true });
+  document.addEventListener('click', (e) => { if (!popup.contains(e.target) && !e.target.closest('.avatar')) hide(); });
+  document.querySelectorAll('.avatar').forEach((a) => {
+    const open = () => { clearTimeout(hideTimer); document.querySelectorAll('.avatar.on').forEach((x) => x.classList.remove('on')); a.classList.add('on'); show(a); };
+    a.addEventListener('mouseenter', () => { hideTimer = window.setTimeout(open, 100); });
+    a.addEventListener('mouseleave', () => { clearTimeout(hideTimer); hideTimer = window.setTimeout(hide, 150); });
+    a.addEventListener('click', open);
+    a.addEventListener('keydown', (e) => { if (e.key === 'Enter') open(); });
   });
-  render();
 </script>

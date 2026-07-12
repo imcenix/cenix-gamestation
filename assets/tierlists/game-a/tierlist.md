@@ -1,27 +1,29 @@
 ---
-game: game-a
 game_label: "Game A"
-blurb: "Gacha nhập vai thế giới mở — meta xoay quanh phản ứng nguyên tố."
+genre: "Gacha nhập vai thế giới mở"
+blurb: "Meta xoay quanh phản ứng nguyên tố — F2P-friendly."
 version: "2.5"
 updated: 2026-07-10
 order: 1
-dps_s: [a-dps-hoa-vuong, a-dps-loi-kiem]
-dps_a: [a-dps-bang-cung, a-dps-nham-thuong, a-dps-phong-dao]
-dps_b: [a-dps-thuy-thuong, a-dps-quang-kiem]
-dps_c: [a-dps-am-cung]
-support_s: [a-sup-phong-ho]
-support_a: [a-sup-loi-co]
-support_b: []
-support_c: []
-healer_s: [a-heal-thuy-tien]
-healer_a: [a-heal-thao-y]
-healer_b: []
-healer_c: []
-changes_up:
-  - "Hỏa Vương: A → S"
-  - "Nham Thương: B → A"
-changes_down:
-  - "Thủy Thương: A → B"
-changes_new:
-  - "Lôi Kiếm ra mắt tại S"
 ---
+[
+  { "label": "SSS", "sublabel": "Top Tier", "color": "#ff4d4d", "chars": [
+    { "name": "Hỏa Vương", "image": "", "element": "Hỏa", "desc": "DPS trần cao nhất meta, dễ build" }
+  ]},
+  { "label": "SS", "sublabel": "Tier 1", "color": "#ff8c42", "chars": [
+    { "name": "Lôi Kiếm", "image": "", "element": "Lôi", "desc": "Combo bùng nổ, phá khiên tốt" },
+    { "name": "Phong Hộ", "image": "", "element": "Phong", "desc": "Buff sát thương mạnh nhất" }
+  ]},
+  { "label": "S", "sublabel": "Tier 2", "color": "#ffa62b", "chars": [
+    { "name": "Băng Cung", "image": "", "element": "Băng", "desc": "Ổn định, an toàn, dễ chơi" },
+    { "name": "Thủy Tiên", "image": "", "element": "Thủy", "desc": "Vừa hồi vừa khiên, gánh mọi đội" }
+  ]},
+  { "label": "A", "sublabel": "Tier 3", "color": "#ffd23f", "chars": [
+    { "name": "Nham Thương", "image": "", "element": "Nham", "desc": "4★ gánh meta, cực đáng đầu tư" }
+  ]},
+  { "label": "B", "sublabel": "Tier 4", "color": "#ffc9a0", "chars": [
+    { "name": "Thủy Thương", "image": "", "element": "Thủy", "desc": "Ổn nếu đã có sẵn" }
+  ]},
+  { "label": "C", "sublabel": "Tier 5", "color": "#8a8a8a", "chars": [] },
+  { "label": "D", "sublabel": "Tier 6", "color": "#4a4a4a", "chars": [] }
+]

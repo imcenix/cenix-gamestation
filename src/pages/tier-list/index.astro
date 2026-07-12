@@ -2,46 +2,39 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Thumb from '../../components/Thumb.astro';
-import { TIERS, TIER_COLOR } from '../../lib/labels';
 import { dmy, byOrderThenDate } from '../../lib/format';
 
-const tierlists = (await getCollection('tierlists')).sort(byOrderThenDate);
-const characters = await getCollection('characters');
-const TIER_KEYS = ['s', 'a', 'b', 'c'];
+type Char = { name: string; image?: string };
+type Tier = { label: string; color?: string; chars: Char[] };
+function parseTiers(body: string): Tier[] {
+  try { const a = JSON.parse((body || '').trim() || '[]'); return Array.isArray(a) ? a : []; } catch { return []; }
+}
 
+const tierlists = (await getCollection('tierlists')).sort(byOrderThenDate);
 const games = tierlists.map((t) => {
-  const m = t.data as any;
-  const roster: Record<string, any> = {};
-  characters
-    .filter((c) => c.data.game === t.data.game)
-    .forEach((c) => {
-      roster[c.data.slug] = {
-        name: c.data.name,
-        avatar: c.data.avatar ? `/characters/${c.id}/${c.data.avatar}` : null,
-      };
-    });
-  // Preview = bảng DPS
-  const rows = TIERS.map((T, i) => ({
-    tier: T,
-    chars: ((m[`dps_${TIER_KEYS[i]}`] ?? []) as string[]).map((s) => roster[s]).filter(Boolean),
-  }));
+  const tiers = parseTiers(t.body ?? '');
+  const count = tiers.reduce((s, r) => s + (r.chars?.length || 0), 0);
   return {
-    slug: t.data.game,
+    slug: t.id,
     label: t.data.game_label,
+    genre: t.data.genre,
     blurb: t.data.blurb,
     version: t.data.version,
-    updated: dmy(t.data.updated),
+    updated: t.data.updated ? dmy(t.data.updated) : '',
     cover: t.data.cover ? `/tierlists/${t.id}/${t.data.cover}` : null,
-    count: characters.filter((c) => c.data.game === t.data.game).length,
-    rows,
+    count,
+    rows: tiers.slice(0, 4).map((r) => ({
+      label: r.label,
+      color: r.color || '#888',
+      chars: (r.chars || []).map((c) => ({ name: c.name, avatar: c.image ? `/tierlists/${t.id}/images/${c.image}` : null })),
+    })),
   };
 });
-
 const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
-const PREVIEW_MAX = 7;
+const PREVIEW_MAX = 8;
 ---
 
-<BaseLayout title="Tier-List" activeNav="tier" description="Tier-list game gacha do Cenix tổng hợp — chọn game để xem bảng xếp hạng S/A/B/C đầy đủ.">
+<BaseLayout title="Tier-List" activeNav="tier" description="Tier-list game gacha do Cenix tổng hợp — chọn game để xem bảng xếp hạng đầy đủ.">
   <div class="page-head">
     <div class="crumb">TRANG CHỦ / <span class="here">TIER-LIST</span></div>
     <div class="page-head-row">
@@ -61,24 +54,23 @@ const PREVIEW_MAX = 7;
           <div class="game-top">
             <div>
               <div class="game-name">{g.label}</div>
+              {g.genre && <div class="game-genre">{g.genre}</div>}
               {g.blurb && <div class="game-blurb">{g.blurb}</div>}
             </div>
             <div class="game-meta">
               {g.version && <span class="ver">BẢN {g.version}</span>}
-              <span class="upd">CẬP NHẬT {g.updated}</span>
+              {g.updated && <span class="upd">CẬP NHẬT {g.updated}</span>}
             </div>
           </div>
           <div class="preview">
             {g.rows.map((r) => (
               <div class="prow">
-                <span class="pbadge" style={`background:${TIER_COLOR[r.tier]}`}>{r.tier}</span>
+                <span class="pbadge" style={`background:${r.color}`}>{r.label}</span>
                 <div class="ptrack">
                   {r.chars.length === 0
                     ? <span class="pempty">—</span>
                     : r.chars.slice(0, PREVIEW_MAX).map((c) => (
-                        <span class="pava">
-                          {c.avatar ? <img src={c.avatar} alt={c.name} loading="lazy" /> : <span class="pabbr">{initials(c.name)}</span>}
-                        </span>
+                        <span class="pava">{c.avatar ? <img src={c.avatar} alt={c.name} loading="lazy" /> : <span class="pabbr">{initials(c.name)}</span>}</span>
                       ))}
                   {r.chars.length > PREVIEW_MAX && <span class="pmore">+{r.chars.length - PREVIEW_MAX}</span>}
                 </div>
@@ -92,40 +84,38 @@ const PREVIEW_MAX = 7;
         </div>
       </a>
     ))}
-    {games.length === 0 && <p class="empty">Chưa có tier-list nào. Thêm game trong <code>assets/tierlists/</code>.</p>}
+    {games.length === 0 && <p class="empty">Chưa có tier-list nào. Thêm trong CMS.</p>}
   </section>
 </BaseLayout>
 
 <style>
   .games { padding-top: 36px; padding-bottom: 52px; display: flex; flex-direction: column; gap: 22px; }
-  .game-card { display: grid; grid-template-columns: 42% 1fr; border: 1px solid var(--bd-card); border-radius: 4px; overflow: hidden; background: var(--surface); color: #fff; transition: border-color 0.15s; }
+  .game-card { display: grid; grid-template-columns: 40% 1fr; border: 1px solid var(--bd-card); border-radius: 4px; overflow: hidden; background: var(--surface); color: #fff; transition: border-color 0.15s; }
   .game-card:hover { border-color: var(--lime-40); }
-  .game-art { position: relative; min-height: 300px; }
+  .game-art { position: relative; min-height: 320px; }
   .game-art :global(.art-img) { position: absolute; inset: 0; width: 100%; height: 100%; }
   .art-badge { position: absolute; top: 16px; left: 16px; background: var(--lime); color: var(--on-lime); font: 700 10px var(--mono); letter-spacing: 1px; padding: 4px 10px; border-radius: 2px; }
-  .game-body { padding: 26px 28px; display: flex; flex-direction: column; gap: 18px; }
+  .game-body { padding: 26px 28px; display: flex; flex-direction: column; gap: 16px; }
   .game-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
   .game-name { font: 900 30px/1 var(--display); letter-spacing: -1px; }
   .game-card:hover .game-name { color: var(--lime); }
+  .game-genre { font: 400 10px var(--mono); color: var(--lime); margin-top: 6px; letter-spacing: 1px; }
   .game-blurb { font: 400 12px/1.55 var(--mono); color: var(--tx-dim); margin-top: 8px; max-width: 420px; }
   .game-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; flex: none; }
   .ver { font: 700 10px var(--mono); color: var(--lime); }
   .upd { font: 400 9.5px var(--mono); color: var(--tx-meta); white-space: nowrap; }
-  .preview { display: flex; flex-direction: column; gap: 6px; }
+  .preview { display: flex; flex-direction: column; gap: 5px; }
   .prow { display: flex; gap: 8px; align-items: stretch; }
-  .pbadge { width: 34px; flex: none; color: var(--on-lime); font: 900 15px var(--display); border-radius: 2px; display: flex; align-items: center; justify-content: center; }
-  .ptrack { flex: 1; background: var(--surface-2); border: 1px solid var(--bd-soft); border-radius: 2px; padding: 6px 8px; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; min-height: 46px; }
-  .pava { width: 34px; height: 34px; flex: none; border-radius: 2px; overflow: hidden; background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 6px, #202028 6px, #202028 12px); display: flex; align-items: center; justify-content: center; }
+  .pbadge { width: 42px; flex: none; color: #0a0a0b; font: 900 14px var(--display); border-radius: 2px; display: flex; align-items: center; justify-content: center; }
+  .ptrack { flex: 1; background: var(--surface-2); border: 1px solid var(--bd-soft); border-radius: 2px; padding: 5px 7px; display: flex; gap: 5px; flex-wrap: wrap; align-items: center; min-height: 40px; }
+  .pava { width: 30px; height: 30px; flex: none; border-radius: 2px; overflow: hidden; background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 6px, #202028 6px, #202028 12px); display: flex; align-items: center; justify-content: center; }
   .pava img { width: 100%; height: 100%; object-fit: cover; }
-  .pabbr { font: 700 8px var(--mono); color: var(--tx-55); }
+  .pabbr { font: 700 7px var(--mono); color: var(--tx-55); }
   .pempty { font: 400 10px var(--mono); color: var(--tx-faint); }
-  .pmore { font: 700 10px var(--mono); color: var(--tx-meta); align-self: center; padding-left: 2px; }
+  .pmore { font: 700 9px var(--mono); color: var(--tx-meta); align-self: center; }
   .game-foot { display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: 4px; }
   .count { font: 400 10.5px var(--mono); color: var(--tx-meta); }
   .cta { font: 700 11px var(--mono); color: var(--lime); }
   .empty { padding: 40px 0; text-align: center; font: 400 12px var(--mono); color: var(--tx-meta); }
-  @media (max-width: 820px) {
-    .game-card { grid-template-columns: 1fr; }
-    .game-art { min-height: 200px; }
-  }
+  @media (max-width: 820px) { .game-card { grid-template-columns: 1fr; } .game-art { min-height: 200px; } }
 </style>

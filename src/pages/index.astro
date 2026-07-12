@@ -4,13 +4,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Thumb from '../components/Thumb.astro';
 import VideoThumb from '../components/VideoThumb.astro';
 import { SITE } from '../config/site';
-import { NEWS_LABEL, GUIDE_LEVELS, TIER_COLOR } from '../lib/labels';
+import { NEWS_LABEL, GUIDE_LEVELS } from '../lib/labels';
 import { dmy, byOrderThenDate } from '../lib/format';
 
 const news = (await getCollection('news')).sort(byOrderThenDate);
 const guides = (await getCollection('guides')).sort(byOrderThenDate);
 const videos = (await getCollection('videos')).sort(byOrderThenDate);
-const characters = await getCollection('characters');
 const tierlists = (await getCollection('tierlists')).sort(byOrderThenDate);
 
 const cover = (col, slug, file) => (file ? `/${col}/${slug}/${file}` : null);
@@ -27,17 +26,19 @@ const homeGuides = GUIDE_LEVELS.map(
 // Newest "code" post for the home Code card
 const latestCode = guides.find((g) => g.data.level === 'code');
 
-const previewMeta = tierlists[0]?.data;
-const pm = previewMeta as any;
-const previewRows = (['S', 'A', 'B']).map((t) => ({
-  tier: t,
-  n: Math.min(((pm?.[`dps_${t.toLowerCase()}`] ?? []) as string[]).length, 4),
+const previewEntry = tierlists[0];
+const previewMeta = previewEntry?.data;
+function parseTiers(body: string) {
+  try { const a = JSON.parse((body || '').trim() || '[]'); return Array.isArray(a) ? a : []; } catch { return []; }
+}
+const previewRows = parseTiers(previewEntry?.body ?? '').slice(0, 3).map((r: any) => ({
+  label: r.label, color: r.color || '#888', n: Math.min((r.chars || []).length, 4),
 }));
 
 const stats = {
   posts: news.length + guides.length,
   tiers: tierlists.length * 3,
-  games: new Set(characters.map((c) => c.data.game)).size,
+  games: tierlists.length,
 };
 ---
 
@@ -83,7 +84,7 @@ const stats = {
           <div class="tl-rows">
             {previewRows.map((r) => (
               <div class="tl-row">
-                <span class="tl-badge" style={`background:${TIER_COLOR[r.tier]}`}>{r.tier}</span>
+                <span class="tl-badge" style={`background:${r.color}`}>{r.label}</span>
                 {Array.from({ length: r.n }).map(() => <span class="tl-ava"></span>)}
               </div>
             ))}
