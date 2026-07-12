@@ -73,7 +73,7 @@ order: 100
     "chars": [
       {
         "name": "Nephtys",
-        "image": "char-1783864213046.jpg",
+        "image": "nephtys-1783865391588.jpg",
         "element": "Spades",
         "desc": "",
         "role": "warrior"
