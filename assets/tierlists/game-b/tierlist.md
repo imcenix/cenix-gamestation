@@ -42,10 +42,11 @@ order: 100
     "color": "#ffa62b",
     "chars": [
       {
-        "name": "Pháp Sư Băng",
-        "image": "",
-        "element": "Băng",
-        "desc": "Tân binh tiềm năng cao"
+        "name": "Bastet",
+        "image": "php-s-bng-1783866322109.jpg",
+        "element": "Diamond",
+        "desc": "Bastet, chú mèo đen bảo vệ các ngôi nhà, là hiện thân của sự thanh lịch và bí ẩn.",
+        "role": "assassin"
       }
     ]
   },
