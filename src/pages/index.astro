@@ -188,8 +188,11 @@ const tier3 = tierlists.slice(0, 3).map((t) => {
         <div class="fv-side">
           {featVideoSmall.map((v) => (
             <a class="fv-small" href="/video">
-              <VideoThumb url={v.data.youtube_url} height={68} showPlay={false} />
-              <div class="fv-small-title clamp2">{v.data.title}</div>
+              <VideoThumb url={v.data.youtube_url} height={106} playSize={24} />
+              <div class="fv-small-body">
+                <div class="fv-small-title clamp3">{v.data.title}</div>
+                <div class="fv-small-meta">VIDEO · YOUTUBE</div>
+              </div>
             </a>
           ))}
         </div>
@@ -304,10 +307,13 @@ const tier3 = tierlists.slice(0, 3).map((t) => {
   .fv-body { position: absolute; left: 18px; right: 18px; bottom: 16px; display: flex; flex-direction: column; gap: 5px; }
   .fv-title { font: 800 17px/1.3 var(--display); }
   .fv-side { display: flex; flex-direction: column; gap: 12px; }
-  .fv-small { display: flex; gap: 11px; color: #fff; align-items: center; }
-  .fv-small :global(.vthumb) { width: 120px; flex: none; }
-  .fv-small-title { font: 700 12.5px/1.3 var(--display); }
+  .fv-side { justify-content: space-between; }
+  .fv-small { display: flex; gap: 14px; color: #fff; align-items: flex-start; }
+  .fv-small :global(.vthumb) { width: 188px; flex: none; }
+  .fv-small-body { display: flex; flex-direction: column; gap: 6px; padding-top: 1px; min-width: 0; }
+  .fv-small-title { font: 800 14px/1.35 var(--display); }
   .fv-small:hover .fv-small-title { color: var(--lime); }
+  .fv-small-meta { font: 400 9px var(--mono); color: var(--tx-faint); letter-spacing: 0.5px; }
 
   /* Video row (10, scroll ngang) */
   .vrow { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; margin-top: 24px; }
@@ -332,6 +338,7 @@ const tier3 = tierlists.slice(0, 3).map((t) => {
   @media (max-width: 560px) {
     .fn-side { gap: 10px; }
     .fn-small :global(.fn-small-thumb) { width: 100px; }
+    .fv-small :global(.vthumb) { width: 150px; }
     .li-row :global(.li-thumb) { width: 108px; height: 70px; }
   }
 </style>
