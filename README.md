@@ -31,7 +31,12 @@ Xem `assets/*/_template/` để biết đầy đủ các field.
 
 ### Tier-list hoạt động thế nào
 
-Không có "bảng tier" cứng. Mỗi **nhân vật** là 1 entry mang `game`, `role` (dps/support/healer) và `tier` (S/A/B/C). Trang `/tier-list` gom tất cả nhân vật, lọc theo chip **GAME + VAI TRÒ** và dựng bảng ngay trên trình duyệt; hover/tap avatar hiện popup build tóm tắt. Đổi tier một nhân vật = sửa `tier:` trong file của nhân vật đó. `assets/tierlists/<game>/tierlist.md` chỉ giữ version + changelog + tên game.
+Tách 2 phần cho dễ quản lý + đúng layout:
+
+- **Nhân vật** (`assets/characters/<slug>/character.md`) = hồ sơ thuần: tên, avatar, sao, nguyên tố, vũ khí, đội hình, lý do, link build. KHÔNG có tier/vai trò. Tạo 1 lần, tái dùng.
+- **Bảng tier** (`assets/tierlists/<game>/tierlist.md`) = 1 entry / game. Mỗi ô `dps_s`, `dps_a`, ... `healer_c` là **danh sách slug nhân vật**. Nhìn vào entry là thấy nguyên bảng S/A/B/C cho từng vai trò.
+
+Trang `/tier-list` liệt kê các game; bấm vào `/tier-list/<game>` xem bảng đầy đủ, lọc DPS/Support/Healer, hover nhân vật hiện popup build (web tra chi tiết từ hồ sơ nhân vật theo slug). Vai trò nào để trống toàn bộ thì tự ẩn.
 
 ## Deploy → game.imcenix.com
 

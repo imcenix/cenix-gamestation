@@ -2,8 +2,6 @@
 name: "Thủy Thương"
 slug: a-dps-thuy-thuong
 game: game-a
-role: dps
-tier: B
 rarity: 5
 element: "Thủy"
 weapon: "Thương phổ thông"

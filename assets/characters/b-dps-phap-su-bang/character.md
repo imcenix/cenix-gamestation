@@ -2,8 +2,6 @@
 name: "Pháp Sư Băng"
 slug: b-dps-phap-su-bang
 game: game-b
-role: dps
-tier: A
 rarity: 5
 element: "Băng"
 weapon: "Quyền trượng"

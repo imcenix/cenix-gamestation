@@ -2,8 +2,6 @@
 name: "Kiếm Sĩ"
 slug: b-dps-kiem-si
 game: game-b
-role: dps
-tier: A
 rarity: 5
 element: "Vật lý"
 weapon: "Đại kiếm"

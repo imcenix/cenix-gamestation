@@ -2,8 +2,6 @@
 name: "Nham Thương"
 slug: a-dps-nham-thuong
 game: game-a
-role: dps
-tier: A
 rarity: 4
 element: "Nham"
 weapon: "Thương 4★ phòng thủ"

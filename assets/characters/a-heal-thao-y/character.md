@@ -2,8 +2,6 @@
 name: "Thảo Y"
 slug: a-heal-thao-y
 game: game-a
-role: healer
-tier: A
 rarity: 4
 element: "Thảo"
 weapon: "Trượng 4★"

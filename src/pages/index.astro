@@ -27,15 +27,12 @@ const homeGuides = GUIDE_LEVELS.map(
 // Newest "code" post for the home Code card
 const latestCode = guides.find((g) => g.data.level === 'code');
 
-const previewGame = tierlists[0]?.data.game;
-const previewChars = characters.filter(
-  (c) => c.data.game === previewGame && c.data.role === 'dps'
-);
+const previewMeta = tierlists[0]?.data;
+const pm = previewMeta as any;
 const previewRows = (['S', 'A', 'B']).map((t) => ({
   tier: t,
-  chars: previewChars.filter((c) => c.data.tier === t).slice(0, 4),
+  n: Math.min(((pm?.[`dps_${t.toLowerCase()}`] ?? []) as string[]).length, 4),
 }));
-const previewMeta = tierlists[0]?.data;
 
 const stats = {
   posts: news.length + guides.length,
@@ -87,7 +84,7 @@ const stats = {
             {previewRows.map((r) => (
               <div class="tl-row">
                 <span class="tl-badge" style={`background:${TIER_COLOR[r.tier]}`}>{r.tier}</span>
-                {r.chars.map(() => <span class="tl-ava"></span>)}
+                {Array.from({ length: r.n }).map(() => <span class="tl-ava"></span>)}
               </div>
             ))}
           </div>

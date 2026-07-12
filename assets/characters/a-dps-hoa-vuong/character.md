@@ -2,8 +2,6 @@
 name: "Hỏa Vương"
 slug: a-dps-hoa-vuong
 game: game-a
-role: dps
-tier: S
 rarity: 5
 element: "Hỏa"
 weapon: "Signature > 4★ tốt"

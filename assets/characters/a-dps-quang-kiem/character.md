@@ -2,8 +2,6 @@
 name: "Quang Kiếm"
 slug: a-dps-quang-kiem
 game: game-a
-role: dps
-tier: B
 rarity: 4
 element: "Quang"
 weapon: "Kiếm 4★"

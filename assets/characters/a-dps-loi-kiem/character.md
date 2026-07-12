@@ -2,8 +2,6 @@
 name: "Lôi Kiếm"
 slug: a-dps-loi-kiem
 game: game-a
-role: dps
-tier: S
 rarity: 5
 element: "Lôi"
 weapon: "Kiếm 5★ bạo kích"

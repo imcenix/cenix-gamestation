@@ -2,8 +2,6 @@
 name: "Băng Cung"
 slug: a-dps-bang-cung
 game: game-a
-role: dps
-tier: A
 rarity: 5
 element: "Băng"
 weapon: "Cung tốc đánh"

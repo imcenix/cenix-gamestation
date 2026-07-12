@@ -2,8 +2,6 @@
 name: "Ám Cung"
 slug: a-dps-am-cung
 game: game-a
-role: dps
-tier: C
 rarity: 4
 element: "Ám"
 weapon: "Cung 3★"

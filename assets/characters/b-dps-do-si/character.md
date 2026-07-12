@@ -2,8 +2,6 @@
 name: "Đô Sĩ"
 slug: b-dps-do-si
 game: game-b
-role: dps
-tier: B
 rarity: 4
 element: "Vật lý"
 weapon: "Song quyền"

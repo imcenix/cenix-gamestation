@@ -5,7 +5,6 @@ import { glob } from 'astro/loaders';
  * ─── Cenix Game Station — content model ──────────────────────────────────────
  * Nội dung do CMS (imcenix.com/cms) commit vào repo dưới dạng markdown +
  * frontmatter YAML. Mỗi bài là 1 folder trong assets/<collection>/<slug>/.
- * Ảnh đi kèm để cạnh file .md và được symlink ra public/ (link-assets.mjs).
  */
 
 const orderSchema = z
@@ -22,14 +21,9 @@ const dateSchema = z.union([z.string(), z.date()]).transform((v) =>
   typeof v === 'string' ? v : v.toISOString().slice(0, 10)
 );
 
-/* ── Tin tức (blog / news) ──────────────────────────────────────────────────
- * assets/news/<slug>/post.md  (+ cover.jpg, photos/…)                        */
+/* ── Tin tức ─────────────────────────────────────────────────────────────── */
 const news = defineCollection({
-  loader: glob({
-    pattern: ['*/post.md', '!_*/post.md'],
-    base: './assets/news',
-    generateId: ({ entry }) => entry.split('/')[0],
-  }),
+  loader: glob({ pattern: ['*/post.md', '!_*/post.md'], base: './assets/news', generateId: ({ entry }) => entry.split('/')[0] }),
   schema: z.object({
     title:    z.string(),
     slug:     z.string(),
@@ -44,14 +38,9 @@ const news = defineCollection({
   }),
 });
 
-/* ── Video (embed YouTube) ──────────────────────────────────────────────────
- * assets/videos/<slug>/video.md                                             */
+/* ── Video ───────────────────────────────────────────────────────────────── */
 const videos = defineCollection({
-  loader: glob({
-    pattern: ['*/video.md', '!_*/video.md'],
-    base: './assets/videos',
-    generateId: ({ entry }) => entry.split('/')[0],
-  }),
+  loader: glob({ pattern: ['*/video.md', '!_*/video.md'], base: './assets/videos', generateId: ({ entry }) => entry.split('/')[0] }),
   schema: z.object({
     title:    z.string(),
     slug:     z.string(),
@@ -65,21 +54,15 @@ const videos = defineCollection({
   }),
 });
 
-/* ── Nhân vật tier-list ─────────────────────────────────────────────────────
+/* ── Nhân vật (roster — chỉ hồ sơ, KHÔNG có tier/role xếp hạng) ────────────────
  * assets/characters/<slug>/character.md  (+ avatar.png)
- * Mỗi nhân vật là 1 entry; trang Tier-List tự gom theo game + vai trò + hạng. */
+ * Tier-list tra cứu nhân vật theo slug để dựng bảng + popup.                   */
 const characters = defineCollection({
-  loader: glob({
-    pattern: ['*/character.md', '!_*/character.md'],
-    base: './assets/characters',
-    generateId: ({ entry }) => entry.split('/')[0],
-  }),
+  loader: glob({ pattern: ['*/character.md', '!_*/character.md'], base: './assets/characters', generateId: ({ entry }) => entry.split('/')[0] }),
   schema: z.object({
     name:       z.string(),
     slug:       z.string(),
-    game:       z.string(),
-    role:       z.enum(['dps', 'support', 'healer']),
-    tier:       z.enum(['S', 'A', 'B', 'C']),
+    game:       z.string(),   // slug game, khớp tierlists.game
     rarity:     z.number().default(5),
     element:    z.string().nullable().optional(),
     weapon:     z.string().nullable().optional(),
@@ -91,40 +74,37 @@ const characters = defineCollection({
   }),
 });
 
-/* ── Meta tier-list theo game (version + changelog + sidebar) ───────────────
- * assets/tierlists/<game-slug>/tierlist.md                                   */
+/* ── Bảng tier (1 entry / game) ───────────────────────────────────────────────
+ * assets/tierlists/<game-slug>/tierlist.md
+ * Mỗi ô S/A/B/C theo vai trò là 1 danh sách SLUG nhân vật (roster).            */
+const tierRow = z.array(z.string()).default([]);
 const tierlists = defineCollection({
-  loader: glob({
-    pattern: ['*/tierlist.md', '!_*/tierlist.md'],
-    base: './assets/tierlists',
-    generateId: ({ entry }) => entry.split('/')[0],
-  }),
+  loader: glob({ pattern: ['*/tierlist.md', '!_*/tierlist.md'], base: './assets/tierlists', generateId: ({ entry }) => entry.split('/')[0] }),
   schema: z.object({
     game:       z.string(),
     game_label: z.string(),
-    cover:      z.string().nullable().optional(), // ảnh key-art game (trang listing)
-    blurb:      z.string().nullable().optional(), // mô tả ngắn dưới tên game
+    cover:      z.string().nullable().optional(),
+    blurb:      z.string().nullable().optional(),
     version:    z.string().nullable().optional(),
     updated:    dateSchema,
+    order:      orderSchema,
+    // Xếp hạng theo vai trò — mỗi ô là danh sách slug nhân vật
+    dps_s: tierRow, dps_a: tierRow, dps_b: tierRow, dps_c: tierRow,
+    support_s: tierRow, support_a: tierRow, support_b: tierRow, support_c: tierRow,
+    healer_s: tierRow, healer_a: tierRow, healer_b: tierRow, healer_c: tierRow,
+    // Changelog
     changes_up:   z.array(z.string()).default([]),
     changes_down: z.array(z.string()).default([]),
     changes_new:  z.array(z.string()).default([]),
-    order:      orderSchema,
   }),
 });
 
-/* ── Hướng dẫn (guides / tutorials) ─────────────────────────────────────────
- * assets/guides/<slug>/guide.md  (+ cover.jpg)                              */
+/* ── Hướng dẫn ───────────────────────────────────────────────────────────── */
 const guides = defineCollection({
-  loader: glob({
-    pattern: ['*/guide.md', '!_*/guide.md'],
-    base: './assets/guides',
-    generateId: ({ entry }) => entry.split('/')[0],
-  }),
+  loader: glob({ pattern: ['*/guide.md', '!_*/guide.md'], base: './assets/guides', generateId: ({ entry }) => entry.split('/')[0] }),
   schema: z.object({
     title:    z.string(),
     slug:     z.string(),
-    // tan-thu/build/farm/endgame = lộ trình; code = mục chia sẻ code game
     level:    z.enum(['tan-thu', 'build', 'farm', 'endgame', 'code']).default('tan-thu'),
     date:     dateSchema,
     excerpt:  z.string().nullable().optional(),

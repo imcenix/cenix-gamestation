@@ -2,8 +2,6 @@
 name: "Phong Hộ"
 slug: a-sup-phong-ho
 game: game-a
-role: support
-tier: S
 rarity: 5
 element: "Phong"
 weapon: "Sách hỗ trợ"

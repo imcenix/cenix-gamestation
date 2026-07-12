@@ -2,8 +2,6 @@
 name: "Lôi Cổ"
 slug: a-sup-loi-co
 game: game-a
-role: support
-tier: A
 rarity: 4
 element: "Lôi"
 weapon: "Sách 4★"
