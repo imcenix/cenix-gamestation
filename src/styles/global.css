@@ -218,3 +218,12 @@ p { margin: 0 0 1em; }
   :root { --gutter: 20px; }
   .page-title { font-size: 40px; }
 }
+
+/* ── Prose tables (soạn từ CMS) ───────────────────────────────────────── */
+.prose table { width: 100%; border-collapse: collapse; margin: 1.4em 0; font-size: 13.5px; }
+.prose table th, .prose table td { border: 1px solid var(--bd-card); padding: 8px 12px; text-align: left; vertical-align: top; }
+.prose table th { background: var(--surface-2); color: #fff; font: 700 11px var(--mono); letter-spacing: 0.5px; text-transform: uppercase; }
+.prose table td { color: var(--tx-65); }
+.prose table p { margin: 0; }
+.prose table.no-line th, .prose table.no-line td { border: none; padding: 4px 14px 4px 0; }
+.prose table.no-line th { background: transparent; text-transform: none; color: var(--tx-65); font: 700 13.5px var(--display); letter-spacing: 0; }
