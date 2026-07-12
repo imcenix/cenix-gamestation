@@ -1,11 +1,14 @@
 ---
-title: "So sánh 2 DPS hot nhất meta — nên chọn ai?"
-slug: so-sanh-2-dps-hot
-youtube_url: https://youtu.be/kJQP7kiw5Fk
+title: " Stellar Blade: Blood Rain - Official Reveal Trailer"
+slug:  StellarBlade-BloodRain
+youtube_url: "https://www.youtube.com/watch?v=4aVoaSixc0E"
 category: review
-date: 2026-07-05
-duration: "11:08"
+date: 2026-07-12
+duration: "3:30"
 featured: false
 order: 5
-description: ""
+description:
 ---
+Stellar Blade: Blood Rain is officially the next chapter of the action-adventure franchise from SHIFT UP. Not only will this game continue the story from the original Stellar Blade, but it will star a new protagonist named Eve.  
+  
+Earth has been abandoned, and what is left of humanity has fled to a Colony in outer space.
