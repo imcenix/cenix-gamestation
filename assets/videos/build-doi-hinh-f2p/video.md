@@ -1,11 +1,11 @@
 ---
-title: "Build đội hình F2P mạnh nhất bản hiện tại"
-slug: build-doi-hinh-f2p
-youtube_url: https://youtu.be/9bZkp7q19f0
-category: review
+title: Marvel’s Wolverine - Gameplay Trailer | PS5 Games
+slug: Marvel-Wolverine
+youtube_url: "https://www.youtube.com/watch?v=s3pDMUWlA6I"
+category: gameplay
 date: 2026-07-10
-duration: "09:47"
+duration: "1:50"
 featured: false
 order: 2
-description: ""
+description:
 ---
