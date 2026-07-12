@@ -71,4 +71,17 @@ const guides = defineCollection({
   }),
 });
 
-export const collections = { news, videos, tierlists, guides };
+/* Review "Cú Lẹ" — mỗi game 1 entry. */
+const reviews = defineCollection({
+  loader: glob({ pattern: ['*/review.md', '!_*/review.md'], base: './assets/reviews', generateId: ({ entry }) => entry.split('/')[0] }),
+  schema: z.object({
+    title:  z.string(),                       // tên game
+    cover:  z.string().nullable().optional(), // ảnh (dọc/vuông)
+    score:  z.union([z.number(), z.string()]).nullable().optional(), // điểm (vd 8)
+    review: z.string().nullable().optional(), // đánh giá sơ (hiện trong popup)
+    date:   dateSchema,
+    order:  orderSchema,
+  }),
+});
+
+export const collections = { news, videos, tierlists, guides, reviews };

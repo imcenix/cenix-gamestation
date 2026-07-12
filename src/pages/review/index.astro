@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Reviews from '../../components/Reviews.astro';
+import { byOrderThenDate } from '../../lib/format';
+
+const reviews = (await getCollection('reviews')).sort(byOrderThenDate).map((r) => ({
+  slug: r.id, title: r.data.title, cover: r.data.cover, score: r.data.score, review: r.data.review,
+}));
+---
+<BaseLayout title="Review" activeNav="review" description="Review nhanh các game gacha — Cenix chấm tạm.">
+  <div class="page-head">
+    <div class="crumb">TRANG CHỦ / <span class="here">REVIEW</span></div>
+    <div class="page-head-row">
+      <div class="page-title">REVIEW</div>
+      <div class="page-meta">{reviews.length} GAME · CENIX CHẤM TẠM</div>
+    </div>
+  </div>
+  <Reviews items={reviews} compact />
+  <div style="height:52px"></div>
+</BaseLayout>

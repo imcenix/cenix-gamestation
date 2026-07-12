@@ -21,6 +21,7 @@ export const NAV = [
   { label: 'TIN TỨC',    href: '/tin-tuc',   key: 'news' },
   { label: 'VIDEO',      href: '/video',     key: 'video' },
   { label: 'TIER-LIST',  href: '/tier-list', key: 'tier' },
+  { label: 'REVIEW',     href: '/review',    key: 'review' },
   { label: 'HƯỚNG DẪN',  href: '/huong-dan', key: 'guide' },
 ] as const;
 
