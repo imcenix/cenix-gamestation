@@ -12,14 +12,7 @@ order: 100
     "label": "SSS",
     "sublabel": "Top Tier",
     "color": "#ff4d4d",
-    "chars": [
-      {
-        "name": "Asteros",
-        "image": "ha-vng-1783861783932.jpg",
-        "element": "Warrior",
-        "desc": ""
-      }
-    ]
+    "chars": []
   },
   {
     "label": "SS",
@@ -89,7 +82,14 @@ order: 100
     "label": "C",
     "sublabel": "Tier 5",
     "color": "#8a8a8a",
-    "chars": []
+    "chars": [
+      {
+        "name": "Asteros",
+        "image": "ha-vng-1783861783932.jpg",
+        "element": "Warrior",
+        "desc": ""
+      }
+    ]
   },
   {
     "label": "D",
