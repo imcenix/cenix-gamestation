@@ -1,12 +1,12 @@
 ---
 title: " Stellar Blade: Blood Rain - Official Reveal Trailer"
-slug:  StellarBlade-BloodRain
+slug: StellarBlade-BloodRain
 youtube_url: "https://www.youtube.com/watch?v=4aVoaSixc0E"
 category: review
 date: 2026-07-12
 duration: "3:30"
 featured: false
-order: 5
+order:
 description:
 ---
 Stellar Blade: Blood Rain is officially the next chapter of the action-adventure franchise from SHIFT UP. Not only will this game continue the story from the original Stellar Blade, but it will star a new protagonist named Eve.  
