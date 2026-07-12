@@ -8,7 +8,7 @@ featured: true
 order: 1
 author: sundayguardianlive
 excerpt: "Tin tức về GTA 6 trên PC: Các trình giả lập PS5 như SharpEmu, RPCSX và Kyty đang có những tiến bộ đáng kể trước khi GTA 6 ra mắt. "
-cover: gta-6-to-run-on-pc-before-rockstars-official-release-heres-what-we-know-so-far-as-sharpemu-rpcsx-and-kyty-make-early-progress.jpg
+cover: gta-6-khi-nao-ra-mat.jpeg
 ---
 Tin tức về GTA 6 trên PC: Các trình giả lập PS5 như SharpEmu, RPCSX và Kyty đang có những tiến bộ đáng kể trước khi GTA 6 ra mắt. Dưới đây là những tựa game mà chúng có thể chạy và liệu các game PS5 có chơi được trên PC hay không.
 
