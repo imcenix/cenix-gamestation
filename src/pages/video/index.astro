@@ -3,10 +3,17 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import VideoThumb from '../../components/VideoThumb.astro';
 import { VIDEO_CATEGORIES, VIDEO_LABEL } from '../../lib/labels';
-import { dmy, dm, byOrderThenDate } from '../../lib/format';
+import { dmy, dm } from '../../lib/format';
+import { readFileSync } from 'node:fs';
 import { youtubeEmbed, youtubeThumb } from '../../lib/youtube';
 
-const videos = (await getCollection('videos')).sort(byOrderThenDate);
+let vorder: string[] = [];
+try { vorder = JSON.parse(readFileSync('./assets/videos/_order_videos.json', 'utf-8')); } catch {}
+const oi = (id: string) => { const i = vorder.indexOf(id); return i === -1 ? 9999 : i; };
+const videos = (await getCollection('videos')).sort((a, b) => {
+  const d = oi(a.id) - oi(b.id);
+  return d !== 0 ? d : new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
+});
 const featured = videos.find((v) => v.data.featured) ?? videos[0];
 const upNext = videos.filter((v) => v.id !== featured?.id).slice(0, 4);
 ---
@@ -60,7 +67,6 @@ const upNext = videos.filter((v) => v.id !== featured?.id).slice(0, 4);
         >
           <div class="up-thumb">
             <img src={youtubeThumb(v.data.youtube_url)} alt="" loading="lazy" />
-            {v.data.duration && <span class="up-dur">{v.data.duration}</span>}
           </div>
           <div class="up-body">
             <div class="up-title">{v.data.title}</div>
@@ -88,7 +94,7 @@ const upNext = videos.filter((v) => v.id !== featured?.id).slice(0, 4);
           data-cat={VIDEO_LABEL[v.data.category]}
           data-date={`${dmy(v.data.date)} · YOUTUBE`}
         >
-          <VideoThumb url={v.data.youtube_url} duration={v.data.duration} height={124} showPlay={false} />
+          <VideoThumb url={v.data.youtube_url} height={124} showPlay={false} />
           <div class="v-cell-title">{v.data.title}</div>
           <div class="v-cell-meta">{VIDEO_LABEL[v.data.category]} · {dm(v.data.date)}</div>
         </button>

@@ -9,6 +9,7 @@ export const NEWS_CATEGORIES = [
 
 export const VIDEO_CATEGORIES = [
   { key: 'gameplay',   label: 'GAMEPLAY' },
+  { key: 'trailer',    label: 'TRAILER' },
   { key: 'review',     label: 'REVIEW' },
   { key: 'cot-truyen', label: 'CỐT TRUYỆN' },
   { key: 'huong-dan',  label: 'HƯỚNG DẪN' },
@@ -51,3 +52,19 @@ export const NEWS_LABEL = map(NEWS_CATEGORIES);
 export const VIDEO_LABEL = map(VIDEO_CATEGORIES);
 export const GUIDE_LABEL = map(GUIDE_FILTERS);
 export const ROLE_LABEL = map(ROLES);
+
+/** Loại tướng (class) — dùng chung CMS editor + tooltip website. */
+export const HERO_CLASSES = [
+  { key: 'warrior',  label: 'Warrior',  icon: '⚔️' },
+  { key: 'knight',   label: 'Knight',   icon: '🛡️' },
+  { key: 'tank',     label: 'Tank',     icon: '🧱' },
+  { key: 'wizard',   label: 'Wizard',   icon: '🔮' },
+  { key: 'mage',     label: 'Mage',     icon: '✨' },
+  { key: 'archer',   label: 'Archer',   icon: '🏹' },
+  { key: 'assassin', label: 'Assassin', icon: '🗡️' },
+  { key: 'rogue',    label: 'Rogue',    icon: '🥷' },
+  { key: 'healer',   label: 'Healer',   icon: '💚' },
+  { key: 'support',  label: 'Support',  icon: '🤝' },
+] as const;
+export const HERO_CLASS_MAP: Record<string, { key: string; label: string; icon: string }> =
+  Object.fromEntries(HERO_CLASSES.map((c) => [c.key, c]));

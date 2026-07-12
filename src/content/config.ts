@@ -34,9 +34,8 @@ const videos = defineCollection({
   loader: glob({ pattern: ['*/video.md', '!_*/video.md'], base: './assets/videos', generateId: ({ entry }) => entry.split('/')[0] }),
   schema: z.object({
     title: z.string(), slug: z.string(), youtube_url: z.string(),
-    category: z.enum(['gameplay', 'review', 'cot-truyen', 'huong-dan', 'giai-tri', 'tin-tuc']).default('gameplay'),
+    category: z.enum(['trailer', 'gameplay', 'review', 'cot-truyen', 'huong-dan', 'giai-tri', 'tin-tuc']).default('gameplay'),
     date: dateSchema,
-    duration: z.string().nullable().optional(),
     description: z.string().nullable().optional(),
     featured: z.boolean().default(false),
     order: orderSchema,

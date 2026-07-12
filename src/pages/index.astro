@@ -6,10 +6,17 @@ import VideoThumb from '../components/VideoThumb.astro';
 import { SITE } from '../config/site';
 import { NEWS_LABEL, GUIDE_LEVELS } from '../lib/labels';
 import { dmy, byOrderThenDate } from '../lib/format';
+import { readFileSync } from 'node:fs';
 
 const news = (await getCollection('news')).sort(byOrderThenDate);
 const guides = (await getCollection('guides')).sort(byOrderThenDate);
-const videos = (await getCollection('videos')).sort(byOrderThenDate);
+let vorder: string[] = [];
+try { vorder = JSON.parse(readFileSync('./assets/videos/_order_videos.json', 'utf-8')); } catch {}
+const voi = (id: string) => { const i = vorder.indexOf(id); return i === -1 ? 9999 : i; };
+const videos = (await getCollection('videos')).sort((a, b) => {
+  const d = voi(a.id) - voi(b.id);
+  return d !== 0 ? d : new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
+});
 const tierlists = (await getCollection('tierlists')).sort(byOrderThenDate);
 
 const cover = (col, slug, file) => (file ? `/${col}/${slug}/${file}` : null);
@@ -98,7 +105,7 @@ const stats = {
       </a>
 
       <a class="vid-card" href="/video">
-        {homeVideos[0] && <VideoThumb url={homeVideos[0].data.youtube_url} duration={homeVideos[0].data.duration} height={0} playSize={38} />}
+        {homeVideos[0] && <VideoThumb url={homeVideos[0].data.youtube_url} height={0} playSize={38} />}
         <div class="vid-shade"></div>
         <div class="vid-body">
           <div class="vid-title">{homeVideos[0]?.data.title}</div>
@@ -175,7 +182,7 @@ const stats = {
     <div class="v-grid">
       {homeVideos.map((v) => (
         <a class="v-item" href="/video">
-          <VideoThumb url={v.data.youtube_url} duration={v.data.duration} height={126} playSize={32} />
+          <VideoThumb url={v.data.youtube_url} height={126} playSize={32} />
           <div class="v-title">{v.data.title}</div>
         </a>
       ))}

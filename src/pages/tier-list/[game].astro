@@ -3,8 +3,9 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { SITE } from '../../config/site';
 import { dmy } from '../../lib/format';
+import { HERO_CLASS_MAP } from '../../lib/labels';
 
-type Char = { name: string; image?: string; element?: string; desc?: string };
+type Char = { name: string; image?: string; element?: string; desc?: string; role?: string };
 type Tier = { label: string; sublabel?: string; color?: string; chars: Char[] };
 
 export async function getStaticPaths() {
@@ -63,7 +64,7 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
               ? <span class="tier-empty">—</span>
               : tier.chars.map((c) => (
                   <div class="avatar" tabindex="0" role="button"
-                    data-name={c.name} data-img={img(c.image) ?? ''} data-el={c.element ?? ''} data-desc={c.desc ?? ''}>
+                    data-name={c.name} data-img={img(c.image) ?? ''} data-el={c.element ?? ''} data-desc={c.desc ?? ''} data-class={c.role && HERO_CLASS_MAP[c.role] ? `${HERO_CLASS_MAP[c.role].icon} ${HERO_CLASS_MAP[c.role].label}` : ''}>
                     {img(c.image)
                       ? <img src={img(c.image)} alt={c.name} loading="lazy" />
                       : <span class="abbr">{initials(c.name)}</span>}
@@ -103,6 +104,7 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
       <div class="pop-ava" id="pop-ava"></div>
       <div class="pop-id">
         <div class="pop-name" id="pop-name"></div>
+        <div class="pop-class" id="pop-class"></div>
         <div class="pop-el" id="pop-el"></div>
       </div>
     </div>
@@ -149,6 +151,7 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
   .pop-ava { width: 48px; height: 48px; flex: none; border-radius: 3px; overflow: hidden; background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 6px, #202028 6px, #202028 12px); }
   .pop-ava img { width: 100%; height: 100%; object-fit: cover; }
   .pop-name { font: 800 15px var(--display); color: #fff; }
+  .pop-class { font: 700 10px var(--mono); color: #fff; margin-top: 3px; }
   .pop-el { font: 400 9.5px var(--mono); color: var(--lime); margin-top: 2px; }
   .pop-desc { font: 400 11px/1.55 var(--mono); color: var(--tx-body); }
 
@@ -166,6 +169,9 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
   let hideTimer;
   function show(a) {
     el('pop-name').textContent = a.dataset.name || '';
+    const cls = a.dataset.class || '';
+    el('pop-class').textContent = cls;
+    el('pop-class').style.display = cls ? '' : 'none';
     const elm = a.dataset.el || '';
     el('pop-el').textContent = elm ? elm.toUpperCase() : '';
     el('pop-el').style.display = elm ? '' : 'none';
