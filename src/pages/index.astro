@@ -33,7 +33,11 @@ const homeGuides = GUIDE_LEVELS.map(
 // Newest "code" post for the home Code card
 const latestCode = guides.find((g) => g.data.level === 'code');
 
-const previewEntry = tierlists[0];
+const previewEntry = [...tierlists].sort((a, b) => {
+  const da = a.data.updated ? new Date(a.data.updated).getTime() : 0;
+  const db = b.data.updated ? new Date(b.data.updated).getTime() : 0;
+  return db - da;
+})[0];
 const previewMeta = previewEntry?.data;
 function parseTiers(body: string) {
   try { const a = JSON.parse((body || '').trim() || '[]'); return Array.isArray(a) ? a : []; } catch { return []; }
@@ -82,10 +86,10 @@ const stats = {
         </div>
       </a>
 
-      <a class="tl-card" href="/tier-list">
+      <a class="tl-card" href={previewEntry ? `/tier-list/${previewEntry.id}` : '/tier-list'}>
         <div class="tl-top">
           <span class="kicker">TIER-LIST TƯƠNG TÁC</span>
-          <span class="meta">CẬP NHẬT {previewMeta ? dmy(previewMeta.updated) : ''}</span>
+          <span class="meta">{previewMeta?.updated ? `CẬP NHẬT ${dmy(previewMeta.updated)}` : ''}</span>
         </div>
         <div class="tl-mid">
           <div class="tl-rows">
@@ -97,8 +101,8 @@ const stats = {
             ))}
           </div>
           <div class="tl-txt">
-            <div class="tl-title">Tier-list DPS bản {previewMeta?.version} — ai đứng đỉnh meta?</div>
-            <div class="tl-sub">Hover từng nhân vật để xem build tóm tắt</div>
+            <div class="tl-title">{previewMeta?.game_label ?? 'Tier-List'}</div>
+            <div class="tl-sub">{previewMeta?.blurb ?? previewMeta?.genre ?? 'Hover từng nhân vật để xem chi tiết'}</div>
           </div>
         </div>
         <div class="tl-cta">XEM TIER-LIST →</div>
