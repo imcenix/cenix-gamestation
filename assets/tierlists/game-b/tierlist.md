@@ -14,10 +14,11 @@ order: 100
     "color": "#ff4d4d",
     "chars": [
       {
-        "name": "Xạ Thủ",
-        "image": "",
-        "element": "Vật lý",
-        "desc": "DPS tầm xa mạnh nhất Game B"
+        "name": "Caishen",
+        "image": "x-th-1783865908488.jpg",
+        "element": "Heart",
+        "desc": "Caishen, vị thần bảo hộ tài lộc, cai quản dòng chảy của cải, thành công và cơ hội. Có khả năng ban tặng vận may hoặc tước đoạt tài sản, Caishen tưởng thưởng cho sự siêng năng và trừng phạt lòng tham.",
+        "role": "support"
       }
     ]
   },
