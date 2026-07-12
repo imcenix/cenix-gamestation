@@ -2,8 +2,8 @@
 import Thumb from './Thumb.astro';
 
 interface Item { slug: string; title: string; cover?: string | null; score?: number | string | null; review?: string | null }
-interface Props { items: Item[]; heading?: string; note?: string; moreHref?: string; compact?: boolean }
-const { items, heading, note, moreHref, compact = false } = Astro.props;
+interface Props { items: Item[]; heading?: string; note?: string; moreHref?: string; compact?: boolean; scroll?: boolean }
+const { items, heading, note, moreHref, compact = false, scroll = false } = Astro.props;
 
 const coverUrl = (slug: string, file?: string | null) => (file ? `/reviews/${slug}/${file}` : null);
 const fmtScore = (s?: number | string | null) => {
@@ -13,7 +13,7 @@ const fmtScore = (s?: number | string | null) => {
 };
 ---
 
-<section class:list={['gut', 'reviews-block', { compact }]}>
+<section class:list={['gut', 'reviews-block', { compact, scrollx: scroll }]}>
   {heading && (
     <div class="sec-head">
       <div class="sec-title">{heading}</div>
@@ -94,6 +94,10 @@ const fmtScore = (s?: number | string | null) => {
   .rv-modal-art img { width: 100%; height: 100%; object-fit: cover; }
 
   @media (max-width: 900px) { .rv-grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 900px) {
+    .reviews-block.scrollx .rv-grid { display: flex; overflow-x: auto; gap: 12px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; padding-bottom: 6px; grid-template-columns: none; }
+    .reviews-block.scrollx .rv-card { width: 150px; flex: none; scroll-snap-align: start; }
+  }
   @media (max-width: 760px) {
     .rv-modal { grid-template-columns: 1fr; max-height: 92vh; overflow-y: auto; }
     .rv-modal-art { aspect-ratio: 16 / 10; }
