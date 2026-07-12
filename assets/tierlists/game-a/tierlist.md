@@ -4,7 +4,7 @@ genre: Gacha nhập vai thế giới mở
 blurb: Game xôi thịt bánh bao
 version: "2.5"
 updated: 2026-07-12
-cover:
+cover: cover.jpg
 order: 100
 ---
 [
