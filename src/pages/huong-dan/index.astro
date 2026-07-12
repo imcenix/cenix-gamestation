@@ -48,7 +48,7 @@ const cover = (slug, file) => (file ? `/guides/${slug}/${file}` : null);
     <div class="g-grid" id="guide-grid">
       {guides.map((g) => (
         <a class="g-card" href={`/huong-dan/${g.data.slug}`} data-level={g.data.level}>
-          <Thumb src={cover(g.data.slug, g.data.cover)} label="thumb guide" class="g-thumb" />
+          <Thumb src={cover(g.id, g.data.cover)} label="thumb guide" class="g-thumb" />
           <div class="g-body">
             <div class="g-meta">
               <span class="kicker">{GUIDE_LABEL[g.data.level]}</span>

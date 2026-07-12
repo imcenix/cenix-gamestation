@@ -29,7 +29,7 @@ const cover = (slug: string, file?: string | null) => (file ? `/news/${slug}/${f
   <!-- Featured -->
   <div class="gut feat-wrap" data-category={featured.data.category}>
     <a class="feat" href={`/tin-tuc/${featured.data.slug}`}>
-      <Thumb src={cover(featured.data.slug, featured.data.cover)} label="key art — bài nổi bật chuyên mục" class="feat-img" />
+      <Thumb src={cover(featured.id, featured.data.cover)} label="key art — bài nổi bật chuyên mục" class="feat-img" />
       <div class="feat-body">
         <div class="row-meta">
           <span class="badge">NỔI BẬT</span>
@@ -53,7 +53,7 @@ const cover = (slug: string, file?: string | null) => (file ? `/news/${slug}/${f
       return (
         <a class="row" href={`/tin-tuc/${n.data.slug}`} data-category={n.data.category}>
           <div class="row-date">{d.dm}<br />{d.y}</div>
-          <Thumb src={cover(n.data.slug, n.data.cover)} label="thumb" class="row-thumb" />
+          <Thumb src={cover(n.id, n.data.cover)} label="thumb" class="row-thumb" />
           <div class="row-body">
             <div class="kicker">{NEWS_LABEL[n.data.category]}</div>
             <div class="row-title">{n.data.title}</div>

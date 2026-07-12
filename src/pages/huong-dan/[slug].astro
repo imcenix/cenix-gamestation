@@ -14,7 +14,7 @@ const { entry } = Astro.props;
 const { Content } = await render(entry);
 const d = entry.data;
 const mins = readMinutes(entry.body);
-const cover = d.cover ? `/guides/${d.slug}/${d.cover}` : null;
+const cover = d.cover ? `/guides/${entry.id}/${d.cover}` : null;
 ---
 
 <BaseLayout title={d.title} activeNav="guide" description={d.excerpt ?? undefined}>

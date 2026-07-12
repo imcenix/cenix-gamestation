@@ -73,7 +73,7 @@ const stats = {
 
     <div class="feature-grid">
       <a class="lead" href={lead ? `/tin-tuc/${lead.data.slug}` : '#'}>
-        <Thumb src={cover('news', lead.data.slug, lead.data.cover)} label="key art — bài nổi bật" class="fill" />
+        <Thumb src={cover('news', lead.id, lead.data.cover)} label="key art — bài nổi bật" class="fill" />
         <div class="lead-shade"></div>
         <div class="lead-body">
           <div class="row-meta">
@@ -138,7 +138,7 @@ const stats = {
       <div class="news-rows">
         {newsList.map((n) => (
           <a class="news-row" href={`/tin-tuc/${n.data.slug}`}>
-            <Thumb src={cover('news', n.data.slug, n.data.cover)} label="thumb" class="nr-thumb" />
+            <Thumb src={cover('news', n.id, n.data.cover)} label="thumb" class="nr-thumb" />
             <div class="nr-body">
               <div class="kicker">{NEWS_LABEL[n.data.category]}</div>
               <div class="nr-title">{n.data.title}</div>
