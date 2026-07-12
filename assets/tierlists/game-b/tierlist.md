@@ -57,7 +57,7 @@ order: 100
     "chars": [
       {
         "name": "Anubis",
-        "image": "",
+        "image": "anubis-1783866443232.jpg",
         "element": "Clubs",
         "desc": "Anubis có chỉ số trung bình, và anh ta thể hiện tốt ở hầu hết mọi nơi, nhưng mạnh nhất ở PVP và trong tháp, còn yếu nhất ở Grim Surge.",
         "role": "assassin"
