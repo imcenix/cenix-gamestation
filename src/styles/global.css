@@ -54,6 +54,7 @@
 html { scroll-behavior: smooth; }
 
 body {
+  overflow-x: hidden;
   margin: 0;
   background: var(--bg);
   color: var(--tx);
@@ -76,6 +77,7 @@ p { margin: 0 0 1em; }
 .gut { padding-left: var(--gutter); padding-right: var(--gutter); }
 
 .app-main { min-height: 60vh; }
+body:not([data-page='home']) .app-main { padding-top: 66px; }
 
 /* ── Mono label / kicker helpers ──────────────────────────────────────── */
 .mono { font-family: var(--mono); }
