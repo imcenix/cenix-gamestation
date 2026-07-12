@@ -13,36 +13,30 @@ const videos = (await getCollection('videos')).sort(byOrderThenDate);
 const characters = await getCollection('characters');
 const tierlists = (await getCollection('tierlists')).sort(byOrderThenDate);
 
-const cover = (col: string, slug: string, file?: string | null) =>
-  file ? `/${col}/${slug}/${file}` : null;
+const cover = (col, slug, file) => (file ? `/${col}/${slug}/${file}` : null);
 
-// Lead story = featured news (fallback first)
 const lead = news.find((n) => n.data.featured) ?? news[0];
 const newsList = news.filter((n) => n.id !== lead?.id).slice(0, 3);
-
-// "Đọc nhiều nhất" — curated top titles from guides + news
 const popular = [...guides, ...news].slice(0, 5);
-
-// Home video row (4)
 const homeVideos = videos.slice(0, 4);
 
-// Home guides — one per level in fixed order
 const homeGuides = GUIDE_LEVELS.map(
   (lvl) => guides.find((g) => g.data.level === lvl.key)
 ).filter(Boolean).slice(0, 4);
 
-// Tier-list mini preview from first game DPS
+// Newest "code" post for the home Code card
+const latestCode = guides.find((g) => g.data.level === 'code');
+
 const previewGame = tierlists[0]?.data.game;
 const previewChars = characters.filter(
   (c) => c.data.game === previewGame && c.data.role === 'dps'
 );
-const previewRows = (['S', 'A', 'B'] as const).map((t) => ({
+const previewRows = (['S', 'A', 'B']).map((t) => ({
   tier: t,
   chars: previewChars.filter((c) => c.data.tier === t).slice(0, 4),
 }));
 const previewMeta = tierlists[0]?.data;
 
-// Masthead stats
 const stats = {
   posts: news.length + guides.length,
   tiers: tierlists.length * 3,
@@ -51,7 +45,6 @@ const stats = {
 ---
 
 <BaseLayout title={SITE.name} activeNav="home" ticker>
-  <!-- Masthead -->
   <section class="masthead">
     <div class="glow"></div>
     <div class="est">{SITE.est}</div>
@@ -63,7 +56,6 @@ const stats = {
     </div>
   </section>
 
-  <!-- Feature grid -->
   <section class="gut block">
     <div class="sec-head">
       <div class="eyebrow">◆ NỔI BẬT HÔM NAY</div>
@@ -71,7 +63,6 @@ const stats = {
     </div>
 
     <div class="feature-grid">
-      <!-- Lead -->
       <a class="lead" href={lead ? `/tin-tuc/${lead.data.slug}` : '#'}>
         <Thumb src={cover('news', lead.data.slug, lead.data.cover)} label="key art — bài nổi bật" class="fill" />
         <div class="lead-shade"></div>
@@ -86,7 +77,6 @@ const stats = {
         </div>
       </a>
 
-      <!-- Tier-list interactive -->
       <a class="tl-card" href="/tier-list">
         <div class="tl-top">
           <span class="kicker">TIER-LIST TƯƠNG TÁC</span>
@@ -109,7 +99,6 @@ const stats = {
         <div class="tl-cta">XEM TIER-LIST →</div>
       </a>
 
-      <!-- Video -->
       <a class="vid-card" href="/video">
         {homeVideos[0] && <VideoThumb url={homeVideos[0].data.youtube_url} duration={homeVideos[0].data.duration} height={0} playSize={38} />}
         <div class="vid-shade"></div>
@@ -119,19 +108,17 @@ const stats = {
         </div>
       </a>
 
-      <!-- Codes -->
-      <a class="code-card" href="/tin-tuc/tong-hop-code-thang-7">
+      <a class="code-card" href={latestCode ? `/huong-dan/${latestCode.data.slug}` : '/huong-dan'}>
         <div class="code-emoji">🎁</div>
         <div>
           <div class="code-title">Code mới tuần này</div>
-          <div class="code-sub">3 code sắp hết hạn — nhận ngay</div>
+          <div class="code-sub">{latestCode?.data.excerpt ?? 'Tổng hợp code game mới nhất — nhận ngay'}</div>
         </div>
         <div class="kicker">NHẬN CODE →</div>
       </a>
     </div>
   </section>
 
-  <!-- Tin tức + sidebar -->
   <section class="gut block news-split">
     <div>
       <div class="sec-head">
@@ -181,7 +168,6 @@ const stats = {
     </aside>
   </section>
 
-  <!-- Video -->
   <section class="gut block">
     <div class="sec-head">
       <div class="sec-title">VIDEO</div>
@@ -198,7 +184,6 @@ const stats = {
     </div>
   </section>
 
-  <!-- Hướng dẫn -->
   <section class="gut block last">
     <div class="sec-head">
       <div class="sec-title">HƯỚNG DẪN</div>
@@ -207,12 +192,12 @@ const stats = {
     </div>
     <div class="hd-grid">
       {homeGuides.map((g) => {
-        const lvl = GUIDE_LEVELS.find((l) => l.key === g!.data.level);
+        const lvl = GUIDE_LEVELS.find((l) => l.key === g.data.level);
         return (
-          <a class="hd-card" href={`/huong-dan/${g!.data.slug}`}>
+          <a class="hd-card" href={`/huong-dan/${g.data.slug}`}>
             <div class="kicker" style="letter-spacing:2px">{lvl?.label}</div>
-            <div class="hd-title">{g!.data.title}</div>
-            <div class="hd-meta">{(g!.data.tags[0] ?? 'HƯỚNG DẪN')}{g!.data.tags[1] ? ` · ${g!.data.tags[1]}` : ''}</div>
+            <div class="hd-title">{g.data.title}</div>
+            <div class="hd-meta">{(g.data.tags[0] ?? 'HƯỚNG DẪN')}{g.data.tags[1] ? ` · ${g.data.tags[1]}` : ''}</div>
           </a>
         );
       })}
@@ -225,51 +210,23 @@ const stats = {
   .news-split { padding-top: 52px; }
   .last { padding-bottom: 56px; }
 
-  /* Masthead */
-  .masthead {
-    text-align: center;
-    padding: 58px 0 50px;
-    border-bottom: 1px solid var(--bd-divider);
-    position: relative;
-    overflow: hidden;
-  }
-  .glow {
-    position: absolute; inset: 0;
-    background: radial-gradient(ellipse 60% 80% at 50% 100%, rgba(200, 240, 60, 0.07), transparent);
-    pointer-events: none;
-  }
+  .masthead { text-align: center; padding: 58px 0 50px; border-bottom: 1px solid var(--bd-divider); position: relative; overflow: hidden; }
+  .glow { position: absolute; inset: 0; background: radial-gradient(ellipse 60% 80% at 50% 100%, rgba(200, 240, 60, 0.07), transparent); pointer-events: none; }
   .est { position: relative; font: 400 11px var(--mono); color: var(--lime); letter-spacing: 4px; margin-bottom: 16px; }
   .wordmark { position: relative; font: 900 104px/0.92 var(--display); letter-spacing: -3px; }
   .outline { -webkit-text-stroke: 2px var(--lime); color: transparent; }
-  .stats {
-    position: relative;
-    display: flex; justify-content: center; gap: 36px;
-    margin-top: 30px;
-    font: 400 10.5px var(--mono); color: var(--tx-meta);
-  }
+  .stats { position: relative; display: flex; justify-content: center; gap: 36px; margin-top: 30px; font: 400 10.5px var(--mono); color: var(--tx-meta); }
   .stats b { color: #fff; font: 900 15px var(--display); }
   .stats .sep { border-left: 1px solid rgba(255, 255, 255, 0.15); padding-left: 36px; }
 
-  /* Feature grid */
-  .feature-grid {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: 104px;
-    gap: 14px;
-  }
+  .feature-grid { display: grid; grid-template-columns: repeat(12, 1fr); grid-auto-rows: 104px; gap: 14px; }
   .row-meta { display: flex; gap: 8px; align-items: center; }
   .badge { background: var(--lime); color: var(--on-lime); font: 700 10px var(--mono); padding: 3px 9px; border-radius: 2px; }
   .meta { font: 400 10px var(--mono); color: var(--tx-dim); }
 
-  .lead {
-    grid-column: span 7; grid-row: span 4;
-    position: relative; border-radius: 3px; overflow: hidden; color: #fff;
-  }
+  .lead { grid-column: span 7; grid-row: span 4; position: relative; border-radius: 3px; overflow: hidden; color: #fff; }
   .lead :global(.fill) { position: absolute; inset: 0; width: 100%; height: 100%; }
-  .lead-shade {
-    position: absolute; inset: 0;
-    background: linear-gradient(0deg, rgba(10, 10, 11, 0.96) 0%, rgba(10, 10, 11, 0.4) 45%, transparent 70%);
-  }
+  .lead-shade { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(10, 10, 11, 0.96) 0%, rgba(10, 10, 11, 0.4) 45%, transparent 70%); }
   .lead-body { position: absolute; left: 28px; right: 28px; bottom: 26px; display: flex; flex-direction: column; gap: 11px; }
   .lead-title { font: 900 34px/1.08 var(--display); letter-spacing: -0.5px; }
   .lead-dek { font: 400 13px/1.55 var(--display); color: var(--tx-65); max-width: 520px; margin: 0; }
@@ -277,14 +234,7 @@ const stats = {
   .author .ava { width: 26px; height: 26px; border-radius: 50%; background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 6px, #202028 6px, #202028 12px); }
   .lead:hover .lead-title { color: var(--lime); }
 
-  .tl-card {
-    grid-column: span 5; grid-row: span 2;
-    border: 1px solid var(--lime-40); border-radius: 3px;
-    padding: 20px 22px;
-    display: flex; flex-direction: column; justify-content: space-between;
-    background: linear-gradient(135deg, rgba(200, 240, 60, 0.06), transparent 60%);
-    color: #fff;
-  }
+  .tl-card { grid-column: span 5; grid-row: span 2; border: 1px solid var(--lime-40); border-radius: 3px; padding: 20px 22px; display: flex; flex-direction: column; justify-content: space-between; background: linear-gradient(135deg, rgba(200, 240, 60, 0.06), transparent 60%); color: #fff; }
   .tl-top { display: flex; justify-content: space-between; align-items: flex-start; }
   .tl-top .kicker { letter-spacing: 2px; }
   .tl-mid { display: flex; align-items: center; gap: 14px; }
@@ -303,16 +253,11 @@ const stats = {
   .vid-body { position: absolute; left: 16px; right: 16px; bottom: 14px; display: flex; flex-direction: column; gap: 5px; }
   .vid-title { font: 700 13.5px/1.3 var(--display); }
 
-  .code-card {
-    grid-column: span 2; grid-row: span 2;
-    border: 1px solid var(--bd-input); border-radius: 3px; padding: 18px;
-    display: flex; flex-direction: column; justify-content: space-between; color: #fff;
-  }
+  .code-card { grid-column: span 2; grid-row: span 2; border: 1px solid var(--bd-input); border-radius: 3px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; color: #fff; }
   .code-emoji { font: 900 26px var(--display); color: var(--lime); }
   .code-title { font: 700 14px/1.3 var(--display); }
   .code-sub { font: 400 9.5px/1.5 var(--mono); color: var(--tx-meta); margin-top: 6px; }
 
-  /* News split */
   .news-split { display: grid; grid-template-columns: 1fr 340px; gap: 40px; }
   .news-rows { display: flex; flex-direction: column; }
   .news-row { display: flex; gap: 20px; padding: 20px 0; border-bottom: 1px solid var(--bd-divider); color: #fff; }
@@ -341,22 +286,18 @@ const stats = {
   .nl-form input::placeholder { color: var(--tx-faint); }
   .nl-form .btn-lime { padding: 11px; }
 
-  /* Video grid */
   .v-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
   .v-item { color: #fff; display: flex; flex-direction: column; gap: 10px; }
   .v-title { font: 700 13.5px/1.3 var(--display); }
   .v-item:hover .v-title { color: var(--lime); }
 
-  /* Hướng dẫn */
   .hd-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
   .hd-card { border: 1px solid var(--bd-card); border-radius: 3px; padding: 22px; display: flex; flex-direction: column; gap: 12px; background: var(--surface); color: #fff; }
   .hd-title { font: 800 16px/1.3 var(--display); }
   .hd-card:hover .hd-title { color: var(--lime); }
   .hd-meta { font: 400 11px/1.5 var(--mono); color: var(--tx-meta); margin-top: auto; }
 
-  @media (max-width: 1100px) {
-    .wordmark { font-size: 72px; }
-  }
+  @media (max-width: 1100px) { .wordmark { font-size: 72px; } }
   @media (max-width: 900px) {
     .wordmark { font-size: 48px; letter-spacing: -2px; }
     .stats { gap: 20px; flex-wrap: wrap; }

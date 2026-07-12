@@ -17,10 +17,16 @@ export const VIDEO_CATEGORIES = [
 ] as const;
 
 export const GUIDE_LEVELS = [
-  { key: 'tan-thu', label: 'TÂN THỦ',  no: '01', title: 'Tân thủ',          desc: '7 ngày đầu, reroll, quay banner nào trước' },
-  { key: 'build',   label: 'BUILD',    no: '02', title: 'Build nhân vật',   desc: 'Vũ khí, di vật, chỉ số ưu tiên từng nhân vật' },
+  { key: 'tan-thu', label: 'TÂN THỦ',  no: '01', title: 'Tân thủ',           desc: '7 ngày đầu, reroll, quay banner nào trước' },
+  { key: 'build',   label: 'BUILD',    no: '02', title: 'Build nhân vật',    desc: 'Vũ khí, di vật, chỉ số ưu tiên từng nhân vật' },
   { key: 'farm',    label: 'FARM',     no: '03', title: 'Farm & tài nguyên', desc: 'Lịch farm theo tuần, tối ưu thể lực, event shop' },
-  { key: 'endgame', label: 'ENDGAME',  no: '04', title: 'Endgame',          desc: 'Clear full sao, đội hình rẻ, boss tuần' },
+  { key: 'endgame', label: 'ENDGAME',  no: '04', title: 'Endgame',           desc: 'Clear full sao, đội hình rẻ, boss tuần' },
+] as const;
+
+/** Extra guide sub-category shown as a filter chip but NOT in the roadmap. */
+export const GUIDE_FILTERS = [
+  ...GUIDE_LEVELS.map((l) => ({ key: l.key, label: l.label })),
+  { key: 'code', label: 'CODE' },
 ] as const;
 
 export const ROLES = [
@@ -43,5 +49,5 @@ const map = (arr: readonly { key: string; label: string }[]) =>
 
 export const NEWS_LABEL = map(NEWS_CATEGORIES);
 export const VIDEO_LABEL = map(VIDEO_CATEGORIES);
-export const GUIDE_LABEL = map(GUIDE_LEVELS);
+export const GUIDE_LABEL = map(GUIDE_FILTERS);
 export const ROLE_LABEL = map(ROLES);

@@ -1,6 +1,7 @@
 ---
 game: game-a
 game_label: "Game A"
+blurb: "Gacha nhập vai thế giới mở — meta xoay quanh phản ứng nguyên tố."
 version: "2.5"
 updated: 2026-07-10
 order: 1

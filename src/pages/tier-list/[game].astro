@@ -1,0 +1,311 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE } from '../../config/site';
+import { ROLES, ROLE_LABEL, TIERS, TIER_COLOR } from '../../lib/labels';
+import { dmy } from '../../lib/format';
+
+export async function getStaticPaths() {
+  const tierlists = await getCollection('tierlists');
+  const characters = await getCollection('characters');
+  return tierlists.map((t) => ({
+    params: { game: t.data.game },
+    props: {
+      meta: t.data,
+      chars: characters
+        .filter((c) => c.data.game === t.data.game)
+        .map((c) => ({
+          name: c.data.name,
+          role: c.data.role,
+          tier: c.data.tier,
+          rarity: c.data.rarity,
+          element: c.data.element ?? '',
+          weapon: c.data.weapon ?? '',
+          team: c.data.team ?? '',
+          reason: c.data.reason ?? '',
+          build_url: c.data.build_url ?? '#',
+          avatar: c.data.avatar ? `/characters/${c.id}/${c.data.avatar}` : null,
+          order: c.data.order ?? 999,
+        })),
+      others: tierlists
+        .filter((o) => o.data.game !== t.data.game)
+        .sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999))
+        .map((o) => ({ slug: o.data.game, label: o.data.game_label, updated: dmy(o.data.updated) })),
+    },
+  }));
+}
+
+const { meta, chars, others } = Astro.props;
+
+const data = {
+  chars,
+  roles: ROLES.map((r) => ({ key: r.key, label: r.label })),
+  tiers: TIERS,
+  tierColor: TIER_COLOR,
+  roleLabel: ROLE_LABEL,
+};
+
+const changelog = [
+  ...meta.changes_up.map((t) => ({ cls: 'up', tag: '▲ LÊN', txt: t })),
+  ...meta.changes_down.map((t) => ({ cls: 'down', tag: '▼ XUỐNG', txt: t })),
+  ...meta.changes_new.map((t) => ({ cls: 'new', tag: '＋ MỚI', txt: t })),
+];
+---
+
+<BaseLayout title={`Tier-List ${meta.game_label}`} activeNav="tier" description={`Tier-list ${meta.game_label} — bảng xếp hạng S/A/B/C, hover nhân vật để xem build.`}>
+  <div class="page-head">
+    <div class="crumb">TRANG CHỦ / <a href="/tier-list">TIER-LIST</a> / <span class="here">{meta.game_label.toUpperCase()}</span></div>
+    <div class="page-head-row">
+      <div class="page-title">{meta.game_label}</div>
+      <div class="page-meta">{meta.version ? `BẢN ${meta.version} · ` : ''}CẬP NHẬT {dmy(meta.updated)}</div>
+    </div>
+    <div class="filters">
+      <span class="flabel">VAI TRÒ:</span>
+      <div class="chip-row" id="role-chips">
+        {ROLES.map((r, i) => (
+          <button class:list={['chip', { 'active-soft': i === 0 }]} data-role={r.key}>{r.label}</button>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <section class="gut tl-layout">
+    <div class="tl-table">
+      <div class="tl-table-head">
+        <div class="tl-h-title" id="tl-title">TIER-LIST DPS</div>
+        <div class="tl-h-updated">HOVER NHÂN VẬT ĐỂ XEM CHI TIẾT</div>
+      </div>
+      <div id="tier-rows"></div>
+      <div class="legend">
+        <span><b style={`color:${TIER_COLOR.S}`}>S</b> — định hình meta</span>
+        <span><b style={`color:${TIER_COLOR.A}`}>A</b> — rất mạnh, đáng đầu tư</span>
+        <span><b style={`color:${TIER_COLOR.B}`}>B</b> — ổn nếu đã có sẵn</span>
+        <span><b style={`color:${TIER_COLOR.C}`}>C</b> — chỉ dùng tình huống</span>
+      </div>
+    </div>
+
+    <aside class="tl-side">
+      <div class="changelog">
+        <div class="cl-head">◆ THAY ĐỔI{meta.version ? ` BẢN ${meta.version}` : ''}</div>
+        <div class="cl-list">
+          {changelog.length === 0
+            ? <div class="cl-txt">Chưa có thay đổi ghi nhận.</div>
+            : changelog.map((c) => (
+                <div class="cl-item">
+                  <span class:list={['cl-tag', c.cls]}>{c.tag}</span>
+                  <span class="cl-txt">{c.txt}</span>
+                </div>
+              ))}
+        </div>
+      </div>
+
+      {others.length > 0 && (
+        <div class="others">
+          <div class="side-head">◆ TIER-LIST GAME KHÁC</div>
+          <div class="other-list">
+            {others.map((o) => (
+              <a class="other-item" href={`/tier-list/${o.slug}`}>
+                <span class="oi-name">{o.label}</span>
+                <span class="oi-date">{o.updated}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <a class="discord" href={SITE.socials.discord} target="_blank" rel="noopener">
+        <div class="dc-title">Không đồng ý với xếp hạng?</div>
+        <div class="dc-sub">Vào Discord tranh luận cùng cộng đồng Cenix.</div>
+        <div class="dc-cta">JOIN DISCORD →</div>
+      </a>
+    </aside>
+  </section>
+
+  <div class="tl-popup" id="tl-popup" hidden>
+    <div class="pop-top">
+      <div class="pop-ava" id="pop-ava"></div>
+      <div class="pop-id">
+        <div class="pop-name" id="pop-name"></div>
+        <div class="pop-tags" id="pop-tags"></div>
+      </div>
+    </div>
+    <div class="pop-rows" id="pop-rows"></div>
+    <a class="pop-cta" id="pop-cta" href="#">XEM BUILD ĐẦY ĐỦ →</a>
+  </div>
+
+  <script type="application/json" id="tl-data" set:html={JSON.stringify(data)}></script>
+</BaseLayout>
+
+<style>
+  .flabel { font: 400 10px var(--mono); color: var(--tx-meta); margin-right: 6px; }
+  .chip-row { display: flex; gap: 8px; flex-wrap: wrap; }
+
+  .tl-layout { padding-top: 36px; padding-bottom: 44px; display: grid; grid-template-columns: 1fr 320px; gap: 28px; }
+  .tl-table-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px; }
+  .tl-h-title { font: 900 20px var(--display); }
+  .tl-h-updated { font: 400 10px var(--mono); color: var(--tx-meta); }
+
+  .tier-row { display: flex; gap: 12px; align-items: stretch; margin-bottom: 12px; }
+  .tier-badge { width: 64px; flex: none; color: var(--on-lime); font: 900 26px var(--display); border-radius: 3px; display: flex; align-items: center; justify-content: center; }
+  .tier-track { flex: 1; background: var(--surface-2); border: 1px solid var(--bd-soft); border-radius: 3px; padding: 12px; display: flex; gap: 10px; flex-wrap: wrap; min-height: 96px; }
+  .tier-empty { font: 400 10px var(--mono); color: var(--tx-faint); align-self: center; }
+
+  .avatar {
+    position: relative; width: 72px; height: 72px; flex: none;
+    border-radius: 3px; overflow: hidden;
+    background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 8px, #202028 8px, #202028 16px);
+    cursor: pointer; outline: 2px solid transparent; outline-offset: 2px; transition: outline-color 0.15s;
+  }
+  .avatar img { width: 100%; height: 100%; object-fit: cover; }
+  .avatar .abbr { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font: 700 10px var(--mono); color: var(--tx-55); padding: 4px; text-align: center; }
+  .avatar:hover, .avatar.on { outline-color: var(--lime); }
+
+  .legend { display: flex; gap: 22px; flex-wrap: wrap; padding: 14px 0; font: 400 10px var(--mono); color: var(--tx-dim); }
+
+  .tl-side { display: flex; flex-direction: column; gap: 26px; }
+  .changelog { border: 1px solid var(--bd-card); border-radius: 3px; padding: 20px; background: var(--surface); }
+  .cl-head { font: 900 12px var(--mono); letter-spacing: 2px; color: var(--lime); margin-bottom: 14px; }
+  .cl-list { display: flex; flex-direction: column; gap: 11px; font: 400 11px/1.5 var(--mono); }
+  .cl-item { display: flex; gap: 10px; align-items: center; }
+  .cl-tag { font-weight: 700; padding: 2px 8px; border-radius: 2px; white-space: nowrap; }
+  .cl-tag.up { background: var(--lime-15); color: var(--lime); }
+  .cl-tag.down { background: rgba(255, 92, 92, 0.15); color: var(--tier-s); }
+  .cl-tag.new { background: rgba(255, 255, 255, 0.1); color: var(--tx-body); }
+  .cl-txt { color: var(--tx-65); }
+
+  .side-head { font: 900 12px var(--mono); letter-spacing: 2px; color: var(--lime); border-bottom: 1px solid var(--bd-card); padding-bottom: 10px; margin-bottom: 4px; }
+  .other-list { display: flex; flex-direction: column; }
+  .other-item { display: flex; justify-content: space-between; align-items: center; padding: 13px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.07); color: #fff; }
+  .other-item:last-child { border-bottom: none; }
+  .other-item .oi-name { font: 700 13px var(--display); }
+  .other-item:hover .oi-name { color: var(--lime); }
+  .other-item .oi-date { font: 400 9px var(--mono); color: var(--tx-faint); }
+
+  .discord { border: 1px solid var(--lime-40); border-radius: 3px; padding: 20px; background: linear-gradient(160deg, rgba(200, 240, 60, 0.07), transparent 65%); display: block; color: #fff; }
+  .dc-title { font: 800 15px/1.3 var(--display); margin-bottom: 6px; }
+  .dc-sub { font: 400 10.5px/1.55 var(--mono); color: var(--tx-55); margin-bottom: 14px; }
+  .dc-cta { background: var(--lime); color: var(--on-lime); font: 700 10.5px var(--mono); padding: 9px; border-radius: 2px; text-align: center; }
+
+  .tl-popup {
+    position: absolute; z-index: 50; width: 290px;
+    background: var(--popup); border: 1px solid rgba(200, 240, 60, 0.5); border-radius: 4px;
+    padding: 16px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7);
+  }
+  .pop-top { display: flex; gap: 12px; margin-bottom: 10px; }
+  .pop-ava { width: 52px; height: 52px; flex: none; border-radius: 3px; overflow: hidden; background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 6px, #202028 6px, #202028 12px); }
+  .pop-ava img { width: 100%; height: 100%; object-fit: cover; }
+  .pop-id { display: flex; flex-direction: column; gap: 3px; justify-content: center; }
+  .pop-name { font: 800 15px var(--display); }
+  .pop-tags { font: 400 9.5px var(--mono); color: var(--lime); }
+  .pop-rows { display: flex; flex-direction: column; gap: 6px; font: 400 10.5px/1.5 var(--mono); color: var(--tx-body); }
+  .pop-rows b { color: #fff; font-weight: 400; }
+  .pop-cta { margin-top: 12px; display: block; background: var(--lime); color: var(--on-lime); font: 700 10px var(--mono); padding: 8px; border-radius: 2px; text-align: center; }
+
+  @media (max-width: 900px) {
+    .tl-layout { grid-template-columns: 1fr; }
+    .tl-popup { position: fixed; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%); width: min(320px, 90vw); }
+  }
+</style>
+
+<script>
+  const D = JSON.parse(document.getElementById('tl-data')?.textContent ?? '{}');
+  let role = D.roles[0]?.key ?? 'dps';
+
+  const el = (id) => document.getElementById(id);
+  const rowsBox = el('tier-rows');
+  const popup = el('tl-popup');
+  let hideTimer;
+
+  const initials = (name) =>
+    name.split(/\s+/).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
+
+  function showPopup(anchor, c) {
+    el('pop-name').textContent = c.name;
+    el('pop-tags').textContent = `${c.rarity}★ · ${D.roleLabel[c.role]}${c.element ? ' · ' + c.element.toUpperCase() : ''}`;
+    el('pop-ava').innerHTML = c.avatar ? `<img src="${c.avatar}" alt="">` : '';
+    const rows = el('pop-rows');
+    rows.innerHTML = '';
+    const line = (label, val) => {
+      if (!val) return;
+      const d = document.createElement('div');
+      d.innerHTML = `<b>${label}:</b> ${val}`;
+      rows.appendChild(d);
+    };
+    line('Vũ khí', c.weapon);
+    line('Đội hình', c.team);
+    line(`Vì sao tier ${c.tier}`, c.reason);
+    el('pop-cta').href = c.build_url;
+
+    popup.hidden = false;
+    if (window.matchMedia('(min-width: 901px)').matches) {
+      const r = anchor.getBoundingClientRect();
+      let left = r.right + window.scrollX + 14;
+      const pw = 290;
+      if (left + pw > window.scrollX + document.documentElement.clientWidth - 8) {
+        left = r.left + window.scrollX - pw - 14;
+      }
+      popup.style.left = `${left}px`;
+      popup.style.top = `${r.top + window.scrollY - 8}px`;
+    }
+  }
+  const hidePopup = () => { popup.hidden = true; };
+
+  popup.addEventListener('mouseenter', () => clearTimeout(hideTimer));
+  popup.addEventListener('mouseleave', hidePopup);
+  document.addEventListener('click', (e) => {
+    if (!popup.contains(e.target) && !e.target.closest('.avatar')) hidePopup();
+  });
+  window.addEventListener('scroll', hidePopup, { passive: true });
+
+  function render() {
+    const list = D.chars.filter((c) => c.role === role).sort((a, b) => a.order - b.order);
+    rowsBox.innerHTML = '';
+    for (const tier of D.tiers) {
+      const row = document.createElement('div');
+      row.className = 'tier-row';
+      const badge = document.createElement('div');
+      badge.className = 'tier-badge';
+      badge.style.background = D.tierColor[tier];
+      badge.textContent = tier;
+      row.appendChild(badge);
+
+      const track = document.createElement('div');
+      track.className = 'tier-track';
+      const inTier = list.filter((c) => c.tier === tier);
+      if (inTier.length === 0) {
+        const em = document.createElement('span');
+        em.className = 'tier-empty';
+        em.textContent = 'Chưa có nhân vật';
+        track.appendChild(em);
+      }
+      for (const c of inTier) {
+        const a = document.createElement('div');
+        a.className = 'avatar';
+        a.setAttribute('role', 'button');
+        a.setAttribute('tabindex', '0');
+        a.setAttribute('aria-label', c.name);
+        a.innerHTML = c.avatar ? `<img src="${c.avatar}" alt="${c.name}">` : `<span class="abbr">${initials(c.name)}</span>`;
+        const open = () => { clearTimeout(hideTimer); document.querySelectorAll('.avatar.on').forEach((x) => x.classList.remove('on')); a.classList.add('on'); showPopup(a, c); };
+        a.addEventListener('mouseenter', () => { hideTimer = window.setTimeout(open, 120); });
+        a.addEventListener('mouseleave', () => { clearTimeout(hideTimer); hideTimer = window.setTimeout(hidePopup, 150); });
+        a.addEventListener('click', open);
+        a.addEventListener('keydown', (e) => { if (e.key === 'Enter') open(); });
+        track.appendChild(a);
+      }
+      row.appendChild(track);
+      rowsBox.appendChild(row);
+    }
+    el('tl-title').textContent = `TIER-LIST ${D.roleLabel[role]}`;
+    hidePopup();
+  }
+
+  document.querySelectorAll('#role-chips .chip').forEach((c) => {
+    c.addEventListener('click', () => {
+      role = c.dataset.role;
+      document.querySelectorAll('#role-chips .chip').forEach((x) => x.classList.toggle('active-soft', x === c));
+      render();
+    });
+  });
+
+  render();
+</script>

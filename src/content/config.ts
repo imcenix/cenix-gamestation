@@ -33,13 +33,12 @@ const news = defineCollection({
   schema: z.object({
     title:    z.string(),
     slug:     z.string(),
-    // Chuyên mục hiển thị trên filter chip
     category: z.enum(['tin-tuc', 'su-kien', 'gioi-thieu-game', 'phan-tich']).default('tin-tuc'),
     date:     dateSchema,
     excerpt:  z.string().nullable().optional(),
     author:   z.string().default('Cenix Team'),
     read_minutes: z.number().nullable().optional(),
-    cover:    z.string().nullable().optional(), // filename, mặc định cover.jpg
+    cover:    z.string().nullable().optional(),
     featured: z.boolean().default(false),
     order:    orderSchema,
   }),
@@ -56,11 +55,10 @@ const videos = defineCollection({
   schema: z.object({
     title:    z.string(),
     slug:     z.string(),
-    // Dán full URL YouTube (watch?v=… / youtu.be/… / embed/…)
     youtube_url: z.string(),
     category: z.enum(['gameplay', 'review', 'cot-truyen', 'huong-dan', 'giai-tri', 'tin-tuc']).default('gameplay'),
     date:     dateSchema,
-    duration: z.string().nullable().optional(), // "18:22" — hiển thị góc thumbnail
+    duration: z.string().nullable().optional(),
     description: z.string().nullable().optional(),
     featured: z.boolean().default(false),
     order:    orderSchema,
@@ -79,16 +77,16 @@ const characters = defineCollection({
   schema: z.object({
     name:       z.string(),
     slug:       z.string(),
-    game:       z.string(),                 // slug game, vd "game-a" (khớp tierlists.game)
+    game:       z.string(),
     role:       z.enum(['dps', 'support', 'healer']),
     tier:       z.enum(['S', 'A', 'B', 'C']),
-    rarity:     z.number().default(5),      // số sao
+    rarity:     z.number().default(5),
     element:    z.string().nullable().optional(),
     weapon:     z.string().nullable().optional(),
     team:       z.string().nullable().optional(),
-    reason:     z.string().nullable().optional(), // "Vì sao tier S"
+    reason:     z.string().nullable().optional(),
     build_url:  z.string().nullable().optional(),
-    avatar:     z.string().nullable().optional(), // filename, mặc định avatar.png
+    avatar:     z.string().nullable().optional(),
     order:      orderSchema,
   }),
 });
@@ -102,11 +100,12 @@ const tierlists = defineCollection({
     generateId: ({ entry }) => entry.split('/')[0],
   }),
   schema: z.object({
-    game:       z.string(),  // slug, khớp characters.game
-    game_label: z.string(),  // tên hiển thị trên chip filter, vd "Game A"
-    version:    z.string().nullable().optional(),  // "2.5"
+    game:       z.string(),
+    game_label: z.string(),
+    cover:      z.string().nullable().optional(), // ảnh key-art game (trang listing)
+    blurb:      z.string().nullable().optional(), // mô tả ngắn dưới tên game
+    version:    z.string().nullable().optional(),
     updated:    dateSchema,
-    // Changelog — mỗi dòng là 1 chuỗi, vd "Nhân vật X: A → S"
     changes_up:   z.array(z.string()).default([]),
     changes_down: z.array(z.string()).default([]),
     changes_new:  z.array(z.string()).default([]),
@@ -125,7 +124,8 @@ const guides = defineCollection({
   schema: z.object({
     title:    z.string(),
     slug:     z.string(),
-    level:    z.enum(['tan-thu', 'build', 'farm', 'endgame']).default('tan-thu'),
+    // tan-thu/build/farm/endgame = lộ trình; code = mục chia sẻ code game
+    level:    z.enum(['tan-thu', 'build', 'farm', 'endgame', 'code']).default('tan-thu'),
     date:     dateSchema,
     excerpt:  z.string().nullable().optional(),
     cover:    z.string().nullable().optional(),

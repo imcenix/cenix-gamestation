@@ -2,12 +2,12 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Thumb from '../../components/Thumb.astro';
-import { GUIDE_LEVELS, GUIDE_LABEL } from '../../lib/labels';
+import { GUIDE_LEVELS, GUIDE_FILTERS, GUIDE_LABEL } from '../../lib/labels';
 import { dm, byOrderThenDate } from '../../lib/format';
 
 const guides = (await getCollection('guides')).sort(byOrderThenDate);
-const countByLevel = (key: string) => guides.filter((g) => g.data.level === key).length;
-const cover = (slug: string, file?: string | null) => (file ? `/guides/${slug}/${file}` : null);
+const countByLevel = (key) => guides.filter((g) => g.data.level === key).length;
+const cover = (slug, file) => (file ? `/guides/${slug}/${file}` : null);
 ---
 
 <BaseLayout title="Hướng dẫn" activeNav="guide" description="Hướng dẫn game từ tân thủ đến endgame: reroll, build nhân vật, farm tài nguyên.">
@@ -19,7 +19,6 @@ const cover = (slug: string, file?: string | null) => (file ? `/guides/${slug}/$
     </div>
   </div>
 
-  <!-- Lộ trình -->
   <section class="gut roadmap-wrap">
     <div class="sec-head">
       <div class="eyebrow">◆ LỘ TRÌNH ĐỀ XUẤT</div>
@@ -37,13 +36,12 @@ const cover = (slug: string, file?: string | null) => (file ? `/guides/${slug}/$
     </div>
   </section>
 
-  <!-- Guide list -->
   <section class="gut guide-list">
     <div class="gl-head">
       <div class="sec-title" style="font-size:22px">GUIDE MỚI NHẤT</div>
       <div class="gl-filters">
         <button class="chip small active" data-filter="all">TẤT CẢ</button>
-        {GUIDE_LEVELS.map((l) => <button class="chip small" data-filter={l.key}>{l.label}</button>)}
+        {GUIDE_FILTERS.map((l) => <button class="chip small" data-filter={l.key}>{l.label}</button>)}
       </div>
     </div>
 
@@ -74,7 +72,6 @@ const cover = (slug: string, file?: string | null) => (file ? `/guides/${slug}/$
 </BaseLayout>
 
 <style>
-  /* Roadmap */
   .roadmap-wrap { padding-top: 36px; }
   .roadmap { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--bd-card); border-radius: 3px; overflow: hidden; }
   .rm-cell { padding: 24px; border-right: 1px solid rgba(255, 255, 255, 0.1); display: flex; flex-direction: column; gap: 10px; color: #fff; min-height: 150px; }
@@ -87,7 +84,6 @@ const cover = (slug: string, file?: string | null) => (file ? `/guides/${slug}/$
   .rm-count { font: 700 10px var(--mono); color: var(--lime); margin-top: auto; }
   .rm-cell:hover .rm-title { color: var(--lime); }
 
-  /* Guide list */
   .guide-list { padding-top: 44px; padding-bottom: 48px; }
   .gl-head { display: flex; align-items: baseline; gap: 16px; margin-bottom: 16px; flex-wrap: wrap; }
   .gl-filters { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; }
@@ -122,11 +118,11 @@ const cover = (slug: string, file?: string | null) => (file ? `/guides/${slug}/$
 </style>
 
 <script>
-  const chips = document.querySelectorAll<HTMLButtonElement>('.gl-filters .chip');
-  const cards = document.querySelectorAll<HTMLElement>('#guide-grid .g-card');
+  const chips = document.querySelectorAll('.gl-filters .chip');
+  const cards = document.querySelectorAll('#guide-grid .g-card');
   const empty = document.getElementById('g-empty');
 
-  function apply(f: string) {
+  function apply(f) {
     chips.forEach((c) => c.classList.toggle('active', c.dataset.filter === f));
     let shown = 0;
     cards.forEach((el) => {
@@ -137,13 +133,12 @@ const cover = (slug: string, file?: string | null) => (file ? `/guides/${slug}/$
     if (empty) empty.hidden = shown > 0;
   }
 
-  chips.forEach((chip) => chip.addEventListener('click', () => apply(chip.dataset.filter!)));
+  chips.forEach((chip) => chip.addEventListener('click', () => apply(chip.dataset.filter)));
 
-  // Roadmap cells jump to a filtered view
-  document.querySelectorAll<HTMLElement>('[data-jump]').forEach((cell) => {
+  document.querySelectorAll('[data-jump]').forEach((cell) => {
     cell.addEventListener('click', (e) => {
       e.preventDefault();
-      apply(cell.dataset.jump!);
+      apply(cell.dataset.jump);
       document.querySelector('.guide-list')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
