@@ -75,7 +75,8 @@ order: 100
         "name": "Nephtys",
         "image": "char-1783864213046.jpg",
         "element": "Spades",
-        "desc": ""
+        "desc": "",
+        "role": "warrior"
       }
     ]
   },
