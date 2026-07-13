@@ -201,6 +201,41 @@ order: 100
         "element": "SSR+",
         "desc": "Khi sử dụng cùng Loki, các bản sao của cô ấy trở nên vô cùng mạnh mẽ; nếu không có Loki, các bản sao của cô ấy gần như vô dụng, vì vậy chúng khá phù hợp với nhau và điều đó khiến việc xếp hạng cô ấy trở nên khó khăn. Tuy nhiên, hãy xem xét xếp hạng này khi sử dụng cô ấy CÙNG với Loki, còn nếu bạn không có Loki thì tôi không thấy nhiều lý do để xây dựng cô ấy ở trạng thái hiện tại.",
         "role": "healer"
+      },
+      {
+        "name": "Scheherazade",
+        "image": "char-1783923129196.png",
+        "element": "SSR",
+        "desc": "Khả năng hồi phục và hỗ trợ tuyệt vời, gần như phù hợp với mọi đội hình. Nhân vật linh mục mạnh nhất trong Dragon Traveler.",
+        "role": "healer"
+      },
+      {
+        "name": "Chiron",
+        "image": "char-1783923168780.png",
+        "element": "SSR",
+        "desc": "Cô ấy cũng là một người chữa trị giỏi, đồng thời còn giúp nâng cao tinh thần. Đừng lo lắng về việc giảm HP của cô ấy, vì cô ấy sẽ hồi phục gần như ngay lập tức.",
+        "role": "healer"
+      },
+      {
+        "name": "Tyrfing",
+        "image": "char-1783923207440.png",
+        "element": "SSR+",
+        "desc": "Khi bạn đạt đến Cấp độ Cộng hưởng II cho tất cả các lớp nhân vật (sớm nhất là ngày thứ 11 sau khi máy chủ của bạn mở cửa), vị tướng này sẽ được mở khóa. Cô ấy rất giỏi trong việc chặn hồi máu và giảm sát thương, vì càng tiến xa bạn càng gặp phải những đội hình có quá nhiều khả năng hồi máu và đó là lúc cô ấy phát huy vai trò của mình.",
+        "role": "warrior"
+      },
+      {
+        "name": "Medusa",
+        "image": "char-1783923246053.png",
+        "element": "SSR",
+        "desc": "Khả năng điều khiển khá tốt nhưng chỉ có thể mua được từ Cửa hàng Thần thánh và cần lối chơi thủ công cao để phát huy hiệu quả. Thành thật mà nói, nhân vật này giống như một \"công cụ mở đường\" khi bạn bị mắc kẹt ở một giai đoạn nhất định, cần phải tự mình vượt qua bằng nỗ lực.",
+        "role": "archer"
+      },
+      {
+        "name": "Gullveig",
+        "image": "char-1783923280836.jpg",
+        "element": "SSR",
+        "desc": "Cô ta có thể cực kỳ khó chịu khi khả năng ức chế hồi máu và hút máu của cô ta gây sát thương mạnh lên kẻ địch. Không phải trong mọi trường hợp, nhưng cô ấy rất gần với những nhân vật mạnh nhất trong Dragon Traveler.",
+        "role": "mage"
       }
     ]
   },
