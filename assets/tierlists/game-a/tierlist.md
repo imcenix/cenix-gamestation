@@ -47,6 +47,13 @@ order: 100
         "element": "",
         "desc": "Khả năng bảo vệ đồng đội của cô ấy khá tuyệt vời, đặc biệt là khi gây thêm sát thương hoặc khiêu khích kẻ địch từ tuyến sau với lượng khiên và khả năng giảm sát thương khổng lồ. Cho dù là để sưu tập hay vì bạn muốn một người bảo vệ giỏi, cô ấy thực sự là một nhân vật đáng giá. Nếu bạn đã có những người bảo vệ tốt trong các banner trước và cảm thấy khả năng sống sót không phải là vấn đề lớn nhất của mình, bạn có thể bỏ qua cô ấy, nhưng tôi nghĩ chỉ riêng vì sự linh hoạt của cô ấy, bạn vẫn muốn có cô ấy trong đội hình của mình.",
         "role": "warrior"
+      },
+      {
+        "name": "Asmodeus",
+        "image": "char-1783921733012.jpg",
+        "element": "",
+        "desc": "Là nhân tố cốt lõi cho các thiết lập triệu hồi vì cô ấy củng cố đội hình, đồng thời cũng có thể chống chịu sát thương, hồi máu và khả năng gây sát thương cũng không hề tệ, vì vậy cô ấy thực sự là một nhân tố nổi bật, chỉ ra hướng đi cho tương lai của meta, nơi mà các tướng triệu hồi sẽ chiếm ưu thế.",
+        "role": "warrior"
       }
     ]
   },
