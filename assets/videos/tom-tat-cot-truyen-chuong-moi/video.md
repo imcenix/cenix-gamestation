@@ -2,7 +2,7 @@
 title: Aniimo | Gameplay Showcase
 slug: Aniimo
 youtube_url: "https://www.youtube.com/watch?v=XHPS09hP7m4"
-category: cot-truyen
+category: gameplay
 date: 2026-07-12
 duration: "7:47"
 featured: true
