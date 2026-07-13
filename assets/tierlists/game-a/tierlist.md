@@ -23,14 +23,14 @@ order: 100
       {
         "name": "Loki",
         "image": "char-1783921514771.jpg",
-        "element": "",
+        "element": "SSR EX",
         "desc": "Cô ấy thực sự là khắc tinh của những nhân vật SSR EX nổi tiếng trước đó như Athena, Thần Biển, Hades và Thần Chiến tranh, đặc biệt là khi được sử dụng cùng với Spimo, điều này khiến các bản sao của cô ấy trở nên vô cùng mạnh mẽ.",
         "role": "knight"
       },
       {
         "name": "Athena",
         "image": "athena-1783921562975.jpg",
-        "element": "",
+        "element": "SSR EX",
         "desc": "Khả năng chịu sát thương cực lớn nhờ khiên chắn, cả từ đồng minh và thậm chí tự gây sát thương, điều này luôn hữu ích. Rất cần thiết cho tất cả các chế độ PvE và cũng hiệu quả trong đấu trường. Một trong những nhân vật không thể thiếu ngay từ đầu.",
         "role": "knight"
       },
@@ -72,14 +72,14 @@ order: 100
       {
         "name": "Apollo",
         "image": "char-1783921868850.jpg",
-        "element": "",
+        "element": "SSR EX",
         "desc": "Cực kỳ hiệu quả khi đối đầu với trùm nhờ sát thương mục tiêu đơn cực cao.",
         "role": "archer"
       },
       {
         "name": "Venus",
         "image": "char-1783921930369.jpg",
-        "element": "",
+        "element": "SSR EX",
         "desc": "Khả năng hồi phục tuyệt vời và có thể đối phó hiệu quả với hầu hết các nhân vật gây sát thương, đặc biệt là trong PvP.",
         "role": "healer"
       },
@@ -100,7 +100,7 @@ order: 100
       {
         "name": "Poseidon",
         "image": "char-1783922035689.jpg",
-        "element": "",
+        "element": "SSR EX",
         "desc": "Sát thương và tiện ích cực kỳ khủng khiếp, vô cùng mạnh mẽ và có thể ngăn chặn cái chết đến hai lần để bảo vệ đồng minh.",
         "role": "mage"
       }
