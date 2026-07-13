@@ -9,8 +9,7 @@ const { activeNav = 'home' } = Astro.props;
 <header class="site-nav" id="site-nav">
 <div class="nav gut">
   <a href="/" class="brand" aria-label={SITE.name}>
-    <span class="brand-mark">C</span>
-    <span class="brand-name">CENIX <span class="slash">/</span> GAME STATION</span>
+    <img class="brand-logo" src="/images/Cenix-Game-Station-Logo.png" alt={SITE.name} width="154" height="40" />
   </a>
 
   <nav class="nav-menu" aria-label="Điều hướng chính">
@@ -59,15 +58,7 @@ const { activeNav = 'home' } = Astro.props;
     padding-bottom: 15px;
   }
   .brand { display: flex; align-items: center; gap: 11px; color: #fff; }
-  .brand-mark {
-    width: 32px; height: 32px; flex: none;
-    background: var(--lime); color: var(--on-lime);
-    border-radius: 4px;
-    display: flex; align-items: center; justify-content: center;
-    font: 900 17px var(--display);
-  }
-  .brand-name { font: 900 16px var(--display); letter-spacing: 1px; white-space: nowrap; }
-  .brand-name .slash { color: rgba(255, 255, 255, 0.45); font-weight: 400; }
+  .brand-logo { height: 40px; width: auto; display: block; }
 
   .nav-menu { display: flex; gap: 32px; }
   .nav-link {
@@ -132,6 +123,7 @@ const { activeNav = 'home' } = Astro.props;
     .nav-link { padding: 14px 0; border-bottom: 1px solid var(--bd-soft); }
     .nav-link.active { border-bottom-color: var(--bd-soft); color: var(--lime); }
   }
+  @media (max-width: 560px) { .brand-logo { height: 34px; } }
 </style>
 
 <script>
