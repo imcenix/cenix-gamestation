@@ -54,6 +54,55 @@ order: 100
         "element": "",
         "desc": "Là nhân tố cốt lõi cho các thiết lập triệu hồi vì cô ấy củng cố đội hình, đồng thời cũng có thể chống chịu sát thương, hồi máu và khả năng gây sát thương cũng không hề tệ, vì vậy cô ấy thực sự là một nhân tố nổi bật, chỉ ra hướng đi cho tương lai của meta, nơi mà các tướng triệu hồi sẽ chiếm ưu thế.",
         "role": "warrior"
+      },
+      {
+        "name": "Caesar",
+        "image": "char-1783921771519.jpg",
+        "element": "",
+        "desc": "Cô ấy có khả năng phòng thủ mở màn đáng kinh ngạc, thậm chí còn làm tăng chi phí năng lượng của kẻ địch, cộng thêm khả năng sống sót sau đòn tấn công chí mạng của chính mình, khiến cô ấy rất đáng tin cậy trong việc che chắn và bảo vệ. Có phần thiên về PvP hơn nhưng cũng là một sự bổ sung tuyệt vời cho đội hình của bạn trong PvE và thành thật mà nói, nếu bạn có một vị trí phòng thủ còn trống trong đội hình mà bạn không hài lòng lắm, cô ấy có thể lấp đầy, mặc dù sự phối hợp của cô ấy với Sanctum và Illusion không quá dễ dàng đối với nhiều người chơi, vì vậy hãy kiểm tra xem bạn có đủ các tướng khác ở đó để tạo ra sự phối hợp hay không.",
+        "role": "knight"
+      },
+      {
+        "name": "Vermilion Bird",
+        "image": "char-1783921809591.jpg",
+        "element": "",
+        "desc": "Cùng với cô ấy là sức mạnh của các đội hình nguyên tố, một khi bạn có thể xây dựng cô ấy trong một đội hình với các đồng minh có khả năng kích hoạt phản ứng nguyên tố, cô ấy sẽ bùng nổ một cách đáng kinh ngạc, thật sự rất thú vị khi chứng kiến. Cô ấy sẽ nâng cao sát thương của đội bạn với những thành viên phù hợp (phản ứng nguyên tố với độ tương thích!).",
+        "role": "mage"
+      },
+      {
+        "name": "Apollo",
+        "image": "char-1783921868850.jpg",
+        "element": "",
+        "desc": "Cực kỳ hiệu quả khi đối đầu với trùm nhờ sát thương mục tiêu đơn cực cao.",
+        "role": "archer"
+      },
+      {
+        "name": "Venus",
+        "image": "char-1783921930369.jpg",
+        "element": "",
+        "desc": "Khả năng hồi phục tuyệt vời và có thể đối phó hiệu quả với hầu hết các nhân vật gây sát thương, đặc biệt là trong PvP.",
+        "role": "healer"
+      },
+      {
+        "name": "Vivian",
+        "image": "char-1783921965223.jpg",
+        "element": "",
+        "desc": "Nhất định phải sở hữu nhân vật này. Là một người hồi máu tuyệt vời và là nhân tố hỗ trợ quan trọng cho DPS chính của bạn, thậm chí còn cung cấp khả năng miễn nhiễm hiệu ứng khống chế. Bạn thực sự muốn có cô ấy trong đội của mình!",
+        "role": "healer"
+      },
+      {
+        "name": "Gabriele",
+        "image": "char-1783922002123.jpg",
+        "element": "",
+        "desc": "Đây là một nhân vật cực kỳ mạnh mẽ nhưng cũng cần được nâng cấp ban đầu để thực sự phát huy hết khả năng, vì vậy đừng thất vọng khi bạn chỉ có 1 bản sao để sử dụng cô ấy. Hãy đầu tư mạnh vào banner của cô ấy để có thể tiến bộ nhanh chóng.",
+        "role": "mage"
+      },
+      {
+        "name": "Poseidon",
+        "image": "char-1783922035689.jpg",
+        "element": "",
+        "desc": "Sát thương và tiện ích cực kỳ khủng khiếp, vô cùng mạnh mẽ và có thể ngăn chặn cái chết đến hai lần để bảo vệ đồng minh.",
+        "role": "mage"
       }
     ]
   },
