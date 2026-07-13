@@ -287,10 +287,25 @@ order: 100
         "role": "warrior"
       },
       {
-        "name": "Thủy Thương",
-        "image": "",
-        "element": "Thủy",
-        "desc": "Ổn nếu đã có sẵn"
+        "name": "Faust",
+        "image": "thy-thng-1783923722942.png",
+        "element": "SSR+",
+        "desc": "Khi bạn đạt đến Cấp độ Cộng hưởng II cho tất cả các lớp nhân vật (sớm nhất là ngày thứ 11 sau khi máy chủ của bạn mở cửa), vị tướng này sẽ khả dụng. Cũng tạm được, nhưng với Gabriele và Ifrit là những banner đầu tiên thì cô ấy không còn quá nổi bật khi bạn thực sự có thể sở hữu được cô ấy.",
+        "role": "mage"
+      },
+      {
+        "name": "Ophelia",
+        "image": "char-1783923766997.png",
+        "element": "SSR+",
+        "desc": "Khi bạn đạt đến Cấp độ Cộng hưởng II cho tất cả các lớp nhân vật (sớm nhất là ngày thứ 11 sau khi máy chủ của bạn mở cửa), vị tướng này sẽ được mở khóa. Bộ kỹ năng của cô ấy khá hạn chế, chỉ phù hợp với những đội hình cụ thể. Thực ra cũng không quá mạnh, và thông thường bạn sẽ nhận được banner Vivian trước khi mở khóa cô ấy, vì vậy hãy ưu tiên Vivian làm người hồi máu và hỗ trợ chính.",
+        "role": "healer"
+      },
+      {
+        "name": "Lorilin",
+        "image": "char-1783923803273.jpg",
+        "element": "SSR",
+        "desc": "Thật lòng mà nói, Dragon Traveler mạnh hơn ở giai đoạn đầu trận so với giai đoạn sau, với khả năng gây sát thương ổn định, khả năng ngắt đòn tấn công với chi phí thấp và nếu giữ được tầm đánh thì cũng có khả năng sống sót trước sát thương nhỏ giọt. Nhưng đây không phải là nhân vật sẽ trụ lại trong đội hình chính của bạn quá lâu.",
+        "role": "archer"
       }
     ]
   },
