@@ -62,12 +62,12 @@ const { activeNav = 'home' } = Astro.props;
   .brand { display: flex; align-items: center; gap: 11px; color: #fff; }
   .brand-logo { height: 60px; width: auto; display: block; }
 
-  .nav-menu { display: flex; gap: 32px; }
+  .nav-menu { display: flex; gap: 34px; }
   .nav-link {
     display: inline-flex;
     align-items: flex-start;
     gap: 4px;
-    font: 700 12px var(--display);
+    font: 700 16px var(--display);
     letter-spacing: 0.5px;
     color: var(--tx-55);
     transition: color 0.2s ease;
@@ -75,7 +75,7 @@ const { activeNav = 'home' } = Astro.props;
   .nl-flip { display: inline-flex; flex-direction: column; overflow: hidden; height: 1.25em; line-height: 1.25; }
   .nl-row { display: block; height: 1.25em; line-height: 1.25em; transition: transform 0.45s cubic-bezier(0.65, 0, 0.35, 1); will-change: transform; }
   .nav-link:hover .nl-row, .nav-link:focus-visible .nl-row { transform: translateY(-100%); }
-  .nl-num { font: 500 7px var(--mono); letter-spacing: 0.5px; color: var(--lime); opacity: 0.55; line-height: 1; padding-top: 2px; }
+  .nl-num { font: 500 9px var(--mono); letter-spacing: 0.5px; color: var(--lime); opacity: 0.55; line-height: 1; padding-top: 2px; }
   .nav-link:hover .nl-num, .nav-link.active .nl-num { opacity: 1; }
   .nav-link:hover { color: #fff; }
   .nav-link.active { color: var(--lime); }
