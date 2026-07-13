@@ -119,10 +119,67 @@ order: 100
         "role": "archer"
       },
       {
-        "name": "Phong Hộ",
-        "image": "",
-        "element": "Phong",
-        "desc": "Buff sát thương mạnh nhất"
+        "name": "Thor",
+        "image": "phong-h-1783922303259.jpg",
+        "element": "SSR EX",
+        "desc": "Không phải là cô ấy tệ, nhưng so với các tướng EX hàng đầu khác và cả các tướng chiến binh SSR+ khác, cô ấy không mạnh mẽ như vẻ ngoài và thực sự cần đội hình có thuộc tính nguyên tố tương đồng để kích hoạt bộ kỹ năng của mình, điều này đôi khi khiến bạn gặp khó khăn trong việc xây dựng đội hình so với những người khác. Thành thật mà nói, điều này phù hợp với hầu hết người chơi không có ý định xây dựng các tướng EX.",
+        "role": "warrior"
+      },
+      {
+        "name": "Orion",
+        "image": "char-1783922366773.jpg",
+        "element": "SSR+",
+        "desc": "Cực kỳ mạnh mẽ trong PvE với khả năng chặn hồi máu và làm choáng mục tiêu đơn lẻ. Có thể dễ dàng bị vô hiệu hóa trong PvP nhưng đối với PvE, khi bạn có những thiết lập tập trung vào hồi máu, cô ấy sẽ phát huy tác dụng tuyệt vời và giúp bạn vượt qua những bất lợi lớn hơn.",
+        "role": "archer"
+      },
+      {
+        "name": "Dvalin",
+        "image": "char-1783922407315.jpg",
+        "element": "SSR+",
+        "desc": "Thành thật mà nói, cô ấy là một tướng đỡ đòn tốt và đa năng, và với việc các đội hình hiện nay rất đa dạng, một tướng như vậy sẽ rất hữu ích. Tuy nhiên, điều đó cũng phụ thuộc vào đội hình của bạn. Nếu bạn cảm thấy tuyến đầu của mình hoàn toàn ổn, bạn có thể bỏ qua cô ấy, trừ khi bạn chơi PvP và thực sự cần một tướng khắc chế đội hình hệ bóng tối, vì cô ấy khắc chế đội hình đó rất mạnh, thậm chí có thể làm thay đổi meta. Nhưng đối với người chơi trung bình không gặp vấn đề gì với tuyến đầu, cô ấy không phải là tướng bắt buộc phải có, mặc dù cô ấy rất mạnh nên sở hữu cô ấy sẽ không bao giờ khiến bạn hối tiếc.",
+        "role": "knight"
+      },
+      {
+        "name": "Azure Dragon",
+        "image": "char-1783922447048.jpg",
+        "element": "SSR+",
+        "desc": "Đây là một vị tướng tuyệt vời để rút được trong banner của cô ấy. Cô ấy hoạt động rất hiệu quả với lớp khiên, khả năng hỗ trợ và thậm chí cả giảm chi phí chiêu cuối. Gần như là một sự bổ trợ tức thì cho mọi đội hình.",
+        "role": "warrior"
+      },
+      {
+        "name": "Ifrit",
+        "image": "char-1783922486740.jpg",
+        "element": "SSR+",
+        "desc": "Sát thương cực mạnh, luôn trúng mục tiêu và hiệu quả với nhiều mục tiêu hoặc một mục tiêu duy nhất, thời gian hồi chiêu cực ngắn cho phép sử dụng kỹ năng liên tục. Một nhân vật tuyệt vời để sở hữu ngay từ đầu trong Dragon Traveler.",
+        "role": "archer"
+      },
+      {
+        "name": "Hades",
+        "image": "char-1783922523003.jpg",
+        "element": "SSR EX",
+        "desc": "Khả năng tạo ra các bản sao và kỹ năng sát thủ của cô ấy hầu như luôn gây khó khăn cho đội địch, và cô ấy thậm chí có thể chiến đấu ngay cả khi máu còn rất thấp trong khi cả đội vẫn còn đầy đủ lực lượng để xoay chuyển cục diện trận đấu.",
+        "role": "rogue"
+      },
+      {
+        "name": "Zagreus",
+        "image": "char-1783922572611.jpg",
+        "element": "SSR+",
+        "desc": "Cô ấy cực kỳ mạnh mẽ trong việc kiểm soát bản thân và cũng có thể tự đứng vững rất tốt. Thực sự rất đáng để sở hữu.",
+        "role": "rogue"
+      },
+      {
+        "name": "Jing",
+        "image": "char-1783922618110.jpg",
+        "element": "SSR+",
+        "desc": "Sát thương bùng nổ cực kỳ mạnh. Ưu điểm là cô ấy gây sát thương liên tục ngay cả khi không quá phụ thuộc vào chiêu cuối, nhưng bù lại cô ấy chỉ nhắm mục tiêu vào một đối tượng nên cần một chút linh hoạt. Tuy nhiên, cô ấy giúp đội hình xanh lá cây trở nên đa năng hơn rất nhiều, vì vậy việc sở hữu cô ấy là hoàn toàn hợp lý.",
+        "role": "archer"
+      },
+      {
+        "name": "Atanith",
+        "image": "char-1783922661446.jpg",
+        "element": "SSR",
+        "desc": "Bộ kỹ năng của cô ấy có vẻ không mạnh mẽ như thực tế, đặc biệt là khi được kích hoạt khả năng hút máu và hiệu ứng khống chế, cô ấy cực kỳ mạnh mẽ trong hầu hết các chế độ và là một trong số ít tướng gánh team chính trong chế độ PvE.",
+        "role": "healer"
       }
     ]
   },
