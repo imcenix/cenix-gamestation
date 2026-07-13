@@ -1,11 +1,13 @@
 ---
 import { getCollection } from 'astro:content';
+import { marked } from 'marked';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Reviews from '../../components/Reviews.astro';
 import { byOrderThenDate } from '../../lib/format';
+const reviewHtml = (r: any) => marked.parse(((r.body && r.body.trim()) ? r.body : (r.data.review || '')).trim()) as string;
 
 const reviews = (await getCollection('reviews')).sort(byOrderThenDate).map((r) => ({
-  slug: r.id, title: r.data.title, cover: r.data.cover, score: r.data.score, review: r.data.review, platforms: r.data.platforms, genre: Array.isArray(r.data.genre) ? r.data.genre : (r.data.genre ? [r.data.genre] : []),
+  slug: r.id, title: r.data.title, cover: r.data.cover, score: r.data.score, reviewHtml: reviewHtml(r), platforms: r.data.platforms, genre: Array.isArray(r.data.genre) ? r.data.genre : (r.data.genre ? [r.data.genre] : []),
 }));
 ---
 <BaseLayout title="Review" activeNav="review" description="Review nhanh các game gacha — Cenix chấm tạm.">

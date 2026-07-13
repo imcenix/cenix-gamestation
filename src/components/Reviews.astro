@@ -2,7 +2,7 @@
 import Thumb from './Thumb.astro';
 import PlatformIcon from './PlatformIcon.astro';
 
-interface Item { slug: string; title: string; cover?: string | null; score?: number | string | null; review?: string | null; platforms?: string[]; genre?: string[] }
+interface Item { slug: string; title: string; cover?: string | null; score?: number | string | null; reviewHtml?: string; platforms?: string[]; genre?: string[] }
 interface Props { items: Item[]; heading?: string; subheading?: string; note?: string; moreHref?: string; compact?: boolean; scroll?: boolean }
 const { items, heading, subheading, note, moreHref, compact = false, scroll = false } = Astro.props;
 
@@ -32,7 +32,6 @@ const fmtScore = (s?: number | string | null) => {
           class="rv-card rvjs"
           data-title={r.title}
           data-score={fmtScore(r.score)}
-          data-review={r.review ?? ''}
           data-img={coverUrl(r.slug, r.cover) ?? ''}
         >
           <div class="rv-art"><Thumb src={coverUrl(r.slug, r.cover)} label="key art" class="rv-img" /></div>
@@ -46,6 +45,7 @@ const fmtScore = (s?: number | string | null) => {
             {(r.platforms ?? []).map((p) => <span class="pt"><PlatformIcon name={p} size={15} /> {p}</span>)}
             {(r.genre ?? []).map((g) => <span class="pt pt-genre"><span class="gi">◆</span> {g}</span>)}
           </div>
+          <div class="rv-body" hidden set:html={r.reviewHtml}></div>
           {fmtScore(r.score) && (
             <div class="rv-score-line">
               <span class="rv-lbl">CENIX CHẤM TẠM</span>
@@ -100,7 +100,14 @@ const fmtScore = (s?: number | string | null) => {
   .rv-modal-title { font: 900 34px/1.08 var(--display); letter-spacing: -0.5px; }
   .rv-modal-score { display: flex; align-items: baseline; gap: 10px; }
   .rv-modal-score .rv-score { font: 900 26px var(--display); }
-  .rv-modal-review { font: 400 14.5px/1.75 var(--display); color: var(--tx-65); white-space: pre-line; }
+  .rv-modal-review { font: 400 14.5px/1.75 var(--display); color: var(--tx-65); }
+  .rv-modal-review :global(p) { margin: 0 0 12px; }
+  .rv-modal-review :global(p:last-child) { margin-bottom: 0; }
+  .rv-modal-review :global(strong), .rv-modal-review :global(b) { color: #fff; font-weight: 800; }
+  .rv-modal-review :global(ul), .rv-modal-review :global(ol) { margin: 0 0 12px; padding-left: 20px; }
+  .rv-modal-review :global(li) { margin-bottom: 4px; }
+  .rv-modal-review :global(a) { color: var(--lime); }
+  .rv-modal-review :global(h1), .rv-modal-review :global(h2), .rv-modal-review :global(h3) { font-family: var(--display); color: #fff; margin: 14px 0 8px; }
   .rv-modal-art { min-height: 500px; }
   .rv-modal-tags { display: flex; flex-wrap: wrap; gap: 8px; }
   .rv-modal-tags .pt { display: inline-flex; align-items: center; gap: 6px; background: rgba(255, 255, 255, 0.06); border: 1px solid var(--bd-chip); border-radius: 3px; padding: 5px 10px; font: 600 11px var(--mono); color: var(--tx-65); }
@@ -139,8 +146,9 @@ const fmtScore = (s?: number | string | null) => {
   function open(btn) {
     set('rv-m-title', btn.dataset.title || '');
     set('rv-m-score', btn.dataset.score || '');
-    const rev = btn.dataset.review || '';
-    set('rv-m-review', rev);
+    const rEl = document.getElementById('rv-m-review');
+    const bodyEl = btn.querySelector('.rv-body');
+    if (rEl) rEl.innerHTML = bodyEl ? bodyEl.innerHTML : '';
     const tagsEl = document.getElementById('rv-m-tags');
     const pt = btn.querySelector('.rv-poptags');
     if (tagsEl) tagsEl.innerHTML = pt ? pt.innerHTML : '';
