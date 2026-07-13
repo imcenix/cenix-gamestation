@@ -127,8 +127,8 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
   .tier-empty { font: 400 11px var(--mono); color: var(--tx-faint); align-self: center; }
 
   .avatar { position: relative; width: 72px; flex: none; cursor: pointer; text-align: center; }
-  .avatar > img, .avatar .abbr { width: 72px; height: 72px; border-radius: 4px; overflow: hidden; display: flex; align-items: center; justify-content: center; object-fit: cover; background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 8px, #202028 8px, #202028 16px); outline: 2px solid transparent; outline-offset: 2px; transition: outline-color 0.15s; }
-  .avatar .abbr { font: 700 12px var(--mono); color: var(--tx-55); }
+  .avatar > img, .avatar .abbr { width: 72px; height: 72px; border-radius: 4px; overflow: hidden; display: flex; align-items: center; justify-content: center; object-fit: cover; background: linear-gradient(145deg, #f3ddf0 0%, #dde6fb 55%, #dbf1e7 100%); outline: 2px solid transparent; outline-offset: 2px; transition: outline-color 0.15s; }
+  .avatar .abbr { font: 700 12px var(--mono); color: rgba(24, 24, 34, 0.5); }
   .avatar:hover > img, .avatar:hover .abbr, .avatar.on > img, .avatar.on .abbr { outline-color: var(--lime); }
   .avatar .cap { display: block; margin-top: 6px; font: 700 10px/1.2 var(--display); color: var(--tx-65); }
   .avatar:hover .cap { color: #fff; }
@@ -148,7 +148,7 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
 
   .tl-popup { position: absolute; z-index: 50; width: 260px; background: var(--popup); border: 1px solid rgba(200, 240, 60, 0.5); border-radius: 4px; padding: 14px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7); }
   .pop-top { display: flex; gap: 12px; margin-bottom: 8px; align-items: center; padding-right: 26px; }
-  .pop-ava { width: 48px; height: 48px; flex: none; border-radius: 3px; overflow: hidden; background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 6px, #202028 6px, #202028 12px); }
+  .pop-ava { width: 48px; height: 48px; flex: none; border-radius: 3px; overflow: hidden; background: linear-gradient(145deg, #f3ddf0 0%, #dde6fb 55%, #dbf1e7 100%); }
   .pop-ava img { width: 100%; height: 100%; object-fit: cover; }
   .pop-name { font: 800 15px var(--display); color: #fff; }
   .pop-class { position: absolute; top: 9px; right: 11px; font-size: 22px; line-height: 1; }
