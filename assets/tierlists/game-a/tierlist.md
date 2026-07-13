@@ -2,7 +2,7 @@
 game_label: Dragon Traveler
 genre: Gacha nhập vai thế giới mở
 blurb: Game xôi thịt bánh bao
-version: "2.5"
+version:
 updated: 2026-07-12
 cover: cover.jpg
 order: 100
@@ -19,6 +19,34 @@ order: 100
         "element": "",
         "desc": "Khả năng ra đòn trước mà không tốn mana và lượng sát thương khủng khiếp mà cô ấy gây ra khiến cô ấy thực sự là một tướng không thể thiếu.",
         "role": "mage"
+      },
+      {
+        "name": "Loki",
+        "image": "char-1783921514771.jpg",
+        "element": "",
+        "desc": "Cô ấy thực sự là khắc tinh của những nhân vật SSR EX nổi tiếng trước đó như Athena, Thần Biển, Hades và Thần Chiến tranh, đặc biệt là khi được sử dụng cùng với Spimo, điều này khiến các bản sao của cô ấy trở nên vô cùng mạnh mẽ.",
+        "role": "knight"
+      },
+      {
+        "name": "Athena",
+        "image": "athena-1783921562975.jpg",
+        "element": "",
+        "desc": "Khả năng chịu sát thương cực lớn nhờ khiên chắn, cả từ đồng minh và thậm chí tự gây sát thương, điều này luôn hữu ích. Rất cần thiết cho tất cả các chế độ PvE và cũng hiệu quả trong đấu trường. Một trong những nhân vật không thể thiếu ngay từ đầu.",
+        "role": "knight"
+      },
+      {
+        "name": "Ares",
+        "image": "char-1783921604918.jpg",
+        "element": "",
+        "desc": "Với khả năng hồi sinh, cô ấy có thể làm được rất nhiều việc trong PvE, giống như một Athena linh hoạt hơn, và trong PvP, cô ấy có thể hy sinh bản thân để hỗ trợ đồng đội trong những đội hình phù hợp. Chắc chắn đây là một vị tướng bạn có thể sử dụng rất hiệu quả.",
+        "role": "warrior"
+      },
+      {
+        "name": "Xuanwu",
+        "image": "char-1783921647333.jpg",
+        "element": "",
+        "desc": "Khả năng bảo vệ đồng đội của cô ấy khá tuyệt vời, đặc biệt là khi gây thêm sát thương hoặc khiêu khích kẻ địch từ tuyến sau với lượng khiên và khả năng giảm sát thương khổng lồ. Cho dù là để sưu tập hay vì bạn muốn một người bảo vệ giỏi, cô ấy thực sự là một nhân vật đáng giá. Nếu bạn đã có những người bảo vệ tốt trong các banner trước và cảm thấy khả năng sống sót không phải là vấn đề lớn nhất của mình, bạn có thể bỏ qua cô ấy, nhưng tôi nghĩ chỉ riêng vì sự linh hoạt của cô ấy, bạn vẫn muốn có cô ấy trong đội hình của mình.",
+        "role": "warrior"
       }
     ]
   },
