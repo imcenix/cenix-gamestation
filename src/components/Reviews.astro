@@ -1,7 +1,8 @@
 ---
 import Thumb from './Thumb.astro';
+import PlatformIcon from './PlatformIcon.astro';
 
-interface Item { slug: string; title: string; cover?: string | null; score?: number | string | null; review?: string | null }
+interface Item { slug: string; title: string; cover?: string | null; score?: number | string | null; review?: string | null; platforms?: string[]; genre?: string | null }
 interface Props { items: Item[]; heading?: string; subheading?: string; note?: string; moreHref?: string; compact?: boolean; scroll?: boolean }
 const { items, heading, subheading, note, moreHref, compact = false, scroll = false } = Astro.props;
 
@@ -36,6 +37,16 @@ const fmtScore = (s?: number | string | null) => {
         >
           <div class="rv-art"><Thumb src={coverUrl(r.slug, r.cover)} label="key art" class="rv-img" /></div>
           <div class="rv-name">{r.title}</div>
+          {((r.platforms && r.platforms.length) || r.genre) && (
+            <div class="rv-cardtags">
+              {(r.platforms ?? []).map((p) => <span class="rv-plat"><PlatformIcon name={p} size={13} /></span>)}
+              {r.genre && <span class="rv-genre">{r.genre}</span>}
+            </div>
+          )}
+          <div class="rv-poptags" hidden>
+            {(r.platforms ?? []).map((p) => <span class="pt"><PlatformIcon name={p} size={15} /> {p}</span>)}
+            {r.genre && <span class="pt pt-genre"><span class="gi">◆</span> {r.genre}</span>}
+          </div>
           {fmtScore(r.score) && (
             <div class="rv-score-line">
               <span class="rv-lbl">CENIX CHẤM TẠM</span>
@@ -54,6 +65,7 @@ const fmtScore = (s?: number | string | null) => {
     <div class="rv-modal-info">
       <div class="rv-kicker">◆ REVIEW NHANH</div>
       <div class="rv-modal-title" id="rv-m-title"></div>
+      <div class="rv-modal-tags" id="rv-m-tags"></div>
       <div class="rv-modal-score">
         <span class="rv-lbl">CENIX CHẤM TẠM</span>
         <span class="rv-score" id="rv-m-score"></span>
@@ -81,15 +93,25 @@ const fmtScore = (s?: number | string | null) => {
 
   .rv-popup { position: fixed; inset: 0; z-index: 100; background: rgba(0, 0, 0, 0.72); display: flex; align-items: center; justify-content: center; padding: 20px; }
   .rv-popup[hidden] { display: none; }
-  .rv-modal { position: relative; display: grid; grid-template-columns: 1fr 300px; gap: 0; width: min(760px, 100%); max-height: 90vh; background: var(--popup); border: 1px solid var(--bd-card); border-radius: 6px; overflow: hidden; }
+  .rv-modal { position: relative; display: grid; grid-template-columns: 1fr 360px; gap: 0; width: min(900px, 100%); min-height: 500px; max-height: 92vh; background: var(--popup); border: 1px solid var(--bd-card); border-radius: 8px; overflow: hidden; }
   .rv-close { position: absolute; top: 10px; right: 12px; z-index: 2; width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--bd-chip); background: rgba(0, 0, 0, 0.4); color: #fff; font-size: 18px; line-height: 1; cursor: pointer; }
   .rv-close:hover { border-color: var(--lime); color: var(--lime); }
-  .rv-modal-info { padding: 30px 30px 34px; display: flex; flex-direction: column; gap: 12px; overflow-y: auto; }
+  .rv-modal-info { padding: 42px 44px 46px; display: flex; flex-direction: column; gap: 16px; overflow-y: auto; }
   .rv-kicker { font: 900 11px var(--mono); letter-spacing: 2px; color: var(--lime); }
-  .rv-modal-title { font: 900 28px/1.1 var(--display); letter-spacing: -0.5px; }
+  .rv-modal-title { font: 900 34px/1.08 var(--display); letter-spacing: -0.5px; }
   .rv-modal-score { display: flex; align-items: baseline; gap: 10px; }
   .rv-modal-score .rv-score { font: 900 26px var(--display); }
-  .rv-modal-review { font: 400 13px/1.65 var(--display); color: var(--tx-65); white-space: pre-line; }
+  .rv-modal-review { font: 400 14.5px/1.75 var(--display); color: var(--tx-65); white-space: pre-line; }
+  .rv-modal-art { min-height: 500px; }
+  .rv-modal-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+  .rv-modal-tags .pt { display: inline-flex; align-items: center; gap: 6px; background: rgba(255, 255, 255, 0.06); border: 1px solid var(--bd-chip); border-radius: 3px; padding: 5px 10px; font: 600 11px var(--mono); color: var(--tx-65); }
+  .rv-modal-tags .pt svg { color: var(--lime); flex: none; }
+  .rv-modal-tags .pt-genre { background: rgba(200, 240, 60, 0.1); color: var(--lime); border-color: transparent; }
+  .rv-modal-tags .pt-genre .gi { font-size: 9px; }
+  .rv-cardtags { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .rv-plat { display: inline-flex; align-items: center; color: var(--tx-65); }
+  .rv-card:hover .rv-plat { color: #fff; }
+  .rv-genre { display: inline-flex; align-items: center; background: rgba(200, 240, 60, 0.1); color: var(--lime); border-radius: 2px; padding: 2px 6px; font: 700 8.5px var(--mono); letter-spacing: 0.3px; }
   .rv-modal-art { background: #111; }
   .rv-modal-art img { width: 100%; height: 100%; object-fit: cover; }
 
@@ -99,8 +121,10 @@ const fmtScore = (s?: number | string | null) => {
     .reviews-block.scrollx .rv-card { width: 150px; flex: none; scroll-snap-align: start; }
   }
   @media (max-width: 760px) {
-    .rv-modal { grid-template-columns: 1fr; max-height: 92vh; overflow-y: auto; }
-    .rv-modal-art { aspect-ratio: 16 / 10; }
+    .rv-modal { grid-template-columns: 1fr; min-height: 0; max-height: 92vh; overflow-y: auto; }
+    .rv-modal-art { aspect-ratio: 4 / 3; min-height: 0; order: -1; }
+    .rv-modal-info { padding: 24px 22px 28px; }
+    .rv-modal-title { font-size: 26px; }
   }
   @media (max-width: 900px) {
     .reviews-block.scrollx .rv-sub,
@@ -118,6 +142,9 @@ const fmtScore = (s?: number | string | null) => {
     set('rv-m-score', btn.dataset.score || '');
     const rev = btn.dataset.review || '';
     set('rv-m-review', rev);
+    const tagsEl = document.getElementById('rv-m-tags');
+    const pt = btn.querySelector('.rv-poptags');
+    if (tagsEl) tagsEl.innerHTML = pt ? pt.innerHTML : '';
     const img = document.getElementById('rv-m-img');
     const art = document.querySelector('.rv-modal-art');
     if (btn.dataset.img) { img.src = btn.dataset.img; art.style.display = ''; }
