@@ -394,7 +394,7 @@ order: 100
   {
     "label": "B",
     "sublabel": "Tier 5",
-    "color": "#ffc9a0",
+    "color": "#ffeee0",
     "chars": [
       {
         "name": "Jormungandr",
@@ -467,19 +467,104 @@ order: 100
         "role": "healer",
         "limited": false,
         "isNew": false
+      },
+      {
+        "name": "Van Helsing",
+        "image": "char-1783924862609.png",
+        "element": "SSR",
+        "desc": "",
+        "role": "archer",
+        "limited": false,
+        "isNew": false
       }
     ]
   },
   {
     "label": "C",
     "sublabel": "Tier 6",
-    "color": "#4a4a4a",
-    "chars": []
-  },
-  {
-    "label": "D",
-    "sublabel": "Tier 7",
-    "color": "#8a8a8a",
-    "chars": []
+    "color": "#bdbdbd",
+    "chars": [
+      {
+        "name": "Mordred",
+        "image": "char-1783924887043.png",
+        "element": "SSR+",
+        "desc": "",
+        "role": "rogue",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "White Tiger",
+        "image": "char-1783924940108.png",
+        "element": "SSR",
+        "desc": "",
+        "role": "rogue",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Lancelot",
+        "image": "char-1783924959558.png",
+        "element": "SSR",
+        "desc": "",
+        "role": "assassin",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Pan Junbao",
+        "image": "char-1783924983035.jpg",
+        "element": "SSR",
+        "desc": "",
+        "role": "assassin",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Gudong",
+        "image": "char-1783924999752.jpg",
+        "element": "SSR",
+        "desc": "",
+        "role": "knight",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Cerberus",
+        "image": "char-1783925019212.png",
+        "element": "SSR",
+        "desc": "",
+        "role": "mage",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Beowulf",
+        "image": "char-1783925040863.jpg",
+        "element": "SSR",
+        "desc": "",
+        "role": "warrior",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Guna",
+        "image": "char-1783925066539.png",
+        "element": "SSR",
+        "desc": "",
+        "role": "warrior",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Arthur",
+        "image": "char-1783925087036.png",
+        "element": "SSR",
+        "desc": "",
+        "role": "warrior",
+        "limited": false,
+        "isNew": false
+      }
+    ]
   }
 ]
