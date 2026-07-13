@@ -199,7 +199,7 @@ order: 100
     "chars": [
       {
         "name": "Andvari",
-        "image": "bng-cung-1783922773155.png",
+        "image": "andvari-1783925318839.png",
         "element": "SSR+",
         "desc": "Cô ấy được thêm vào nhóm triệu hồi thông thường (khá tốt đấy) nhưng trước khi bạn điên cuồng quay gacha để có được cô ấy... cô ấy khá tốt nhưng chủ yếu hữu ích trong nội dung PvE, nơi hiệu ứng hất tung kẻ địch của cô ấy thực sự phát huy tác dụng và lý tưởng nhất là cô ấy cần được ghép cặp với một Thần Biển được xây dựng tốt, vì vậy bạn có thể dành thời gian để nâng cấp cô ấy. Cô ấy là một SSR+ tuyệt vời trong nhóm triệu hồi thông thường nhưng không phải là người sẽ giúp đội hình của bạn mạnh lên ngay lập tức.",
         "role": "warrior"
