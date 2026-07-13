@@ -21,7 +21,7 @@ const videos = (await getCollection('videos')).sort((a, b) => {
 const tierlists = (await getCollection('tierlists')).sort(byOrderThenDate);
 const allReviews = (await getCollection('reviews')).sort(byOrderThenDate);
 const reviewCount = allReviews.length;
-const reviews = allReviews.slice(0, 5).map((r) => ({ slug: r.id, title: r.data.title, cover: r.data.cover, score: r.data.score, review: r.data.review, platforms: r.data.platforms, genre: r.data.genre }));
+const reviews = allReviews.slice(0, 5).map((r) => ({ slug: r.id, title: r.data.title, cover: r.data.cover, score: r.data.score, review: r.data.review, platforms: r.data.platforms, genre: Array.isArray(r.data.genre) ? r.data.genre : (r.data.genre ? [r.data.genre] : []) }));
 
 const stats = { posts: news.length + guides.length, tiers: tierlists.length * 3, reviews: reviewCount };
 const cover = (col: string, slug: string, file?: string | null) => (file ? `/${col}/${slug}/${file}` : null);

@@ -2,7 +2,7 @@
 import Thumb from './Thumb.astro';
 import PlatformIcon from './PlatformIcon.astro';
 
-interface Item { slug: string; title: string; cover?: string | null; score?: number | string | null; review?: string | null; platforms?: string[]; genre?: string | null }
+interface Item { slug: string; title: string; cover?: string | null; score?: number | string | null; review?: string | null; platforms?: string[]; genre?: string[] }
 interface Props { items: Item[]; heading?: string; subheading?: string; note?: string; moreHref?: string; compact?: boolean; scroll?: boolean }
 const { items, heading, subheading, note, moreHref, compact = false, scroll = false } = Astro.props;
 
@@ -44,7 +44,7 @@ const fmtScore = (s?: number | string | null) => {
           )}
           <div class="rv-poptags" hidden>
             {(r.platforms ?? []).map((p) => <span class="pt"><PlatformIcon name={p} size={15} /> {p}</span>)}
-            {r.genre && <span class="pt pt-genre"><span class="gi">◆</span> {r.genre}</span>}
+            {(r.genre ?? []).map((g) => <span class="pt pt-genre"><span class="gi">◆</span> {g}</span>)}
           </div>
           {fmtScore(r.score) && (
             <div class="rv-score-line">

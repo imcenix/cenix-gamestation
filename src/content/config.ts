@@ -80,7 +80,7 @@ const reviews = defineCollection({
     score:  z.union([z.number(), z.string()]).nullable().optional(), // điểm (vd 8)
     review: z.string().nullable().optional(), // đánh giá sơ (hiện trong popup)
     platforms: z.array(z.string()).default([]),   // Loại máy (PS5, Steam, ...)
-    genre:  z.string().nullable().optional(),     // Thể loại
+    genre:  z.union([z.string(), z.array(z.string())]).nullable().optional(), // Thể loại (1 hoặc nhiều)
     date:   dateSchema,
     order:  orderSchema,
   }),

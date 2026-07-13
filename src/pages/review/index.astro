@@ -5,7 +5,7 @@ import Reviews from '../../components/Reviews.astro';
 import { byOrderThenDate } from '../../lib/format';
 
 const reviews = (await getCollection('reviews')).sort(byOrderThenDate).map((r) => ({
-  slug: r.id, title: r.data.title, cover: r.data.cover, score: r.data.score, review: r.data.review, platforms: r.data.platforms, genre: r.data.genre,
+  slug: r.id, title: r.data.title, cover: r.data.cover, score: r.data.score, review: r.data.review, platforms: r.data.platforms, genre: Array.isArray(r.data.genre) ? r.data.genre : (r.data.genre ? [r.data.genre] : []),
 }));
 ---
 <BaseLayout title="Review" activeNav="review" description="Review nhanh các game gacha — Cenix chấm tạm.">
