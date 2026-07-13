@@ -245,10 +245,32 @@ order: 100
     "color": "#ffd23f",
     "chars": [
       {
-        "name": "Nham Thương",
-        "image": "",
-        "element": "Nham",
-        "desc": "4★ gánh meta, cực đáng đầu tư"
+        "name": "Pompey",
+        "image": "nham-thng-1783923570245.png",
+        "element": "SSR+",
+        "desc": "Không thực sự xuất sắc như những anh hùng trong banner trước đây và có thể bỏ qua. Cô ấy là một người bảo vệ khá tốt, không thể phủ nhận, nhưng không quá xuất sắc trong mọi chế độ và Athena, ngay cả khi chỉ có một bản sao, cũng hoạt động tốt hơn.",
+        "role": "knight"
+      },
+      {
+        "name": "Huginn and Muninn",
+        "image": "char-1783923604629.png",
+        "element": "SSR",
+        "desc": "Cô ấy có thể là DPS chính cho đội hình xanh lá cây trong chế độ PvE và cho đội hình bóng tối trong PvP, nhưng ở đó cô ấy không thực sự mạnh như một số nguồn đánh giá, vì vậy hãy cẩn thận khi đầu tư vào cô ấy.",
+        "role": "archer"
+      },
+      {
+        "name": "Herman",
+        "image": "char-1783923638994.jpg",
+        "element": "SSR",
+        "desc": "Tank có khả năng giảm sát thương và hồi máu - không phải lúc nào cũng là lựa chọn tốt nhất, nhưng nếu bạn cần một tank phụ để chống lại các hiệu ứng khống chế, thì anh ta sẽ đáp ứng được.",
+        "role": "knight"
+      },
+      {
+        "name": "Helveil",
+        "image": "char-1783923675788.png",
+        "element": "SSR",
+        "desc": "Xe tăng thuần túy với hào quang bảo vệ đồng đội khỏi sát thương chí mạng. Không quá độc đáo nhưng hoạt động chính xác như một xe tăng nếu bạn cần.",
+        "role": "knight"
       }
     ]
   },
