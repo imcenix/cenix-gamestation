@@ -1,5 +1,5 @@
 ---
-game_label: Dragon Traveler Tier-List
+game_label: Dragon Traveler
 genre: Gacha nhập vai thế giới mở
 blurb: Game xôi thịt bánh bao
 version: "2.5"
