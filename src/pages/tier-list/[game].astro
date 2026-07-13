@@ -5,7 +5,7 @@ import { SITE } from '../../config/site';
 import { dmy } from '../../lib/format';
 import { HERO_CLASS_MAP } from '../../lib/labels';
 
-type Char = { name: string; image?: string; element?: string; desc?: string; role?: string };
+type Char = { name: string; image?: string; element?: string; desc?: string; role?: string; limited?: boolean; isNew?: boolean };
 type Tier = { label: string; sublabel?: string; color?: string; chars: Char[] };
 
 export async function getStaticPaths() {
@@ -63,11 +63,12 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
             {tier.chars.length === 0
               ? <span class="tier-empty">—</span>
               : tier.chars.map((c) => (
-                  <div class="avatar" tabindex="0" role="button"
+                  <div class:list={['avatar', { limited: c.limited, 'is-new': c.isNew }]} tabindex="0" role="button"
                     data-name={c.name} data-img={img(c.image) ?? ''} data-el={c.element ?? ''} data-desc={c.desc ?? ''} data-class={c.role && HERO_CLASS_MAP[c.role] ? HERO_CLASS_MAP[c.role].icon : ''}>
                     {img(c.image)
                       ? <img src={img(c.image)} alt={c.name} loading="lazy" />
                       : <span class="abbr">{initials(c.name)}</span>}
+                    {c.isNew && <span class="new-badge">NEW</span>}
                     <span class="cap">{c.name}</span>
                   </div>
                 ))}
@@ -132,6 +133,10 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
   .avatar:hover > img, .avatar:hover .abbr, .avatar.on > img, .avatar.on .abbr { outline-color: var(--lime); }
   .avatar .cap { display: block; margin-top: 6px; font: 700 10px/1.2 var(--display); color: var(--tx-65); }
   .avatar:hover .cap { color: #fff; }
+  .avatar > img, .avatar .abbr { position: relative; z-index: 1; }
+  .avatar.limited::before { content: ''; position: absolute; top: -3px; left: -3px; right: -3px; height: 78px; border-radius: 8px; background: linear-gradient(135deg, #ffe680 0%, #f6b93b 30%, #fff4c2 55%, #e08e14 100%); box-shadow: 0 0 10px rgba(246, 185, 59, 0.45); z-index: 0; }
+  .avatar.is-new > img, .avatar.is-new .abbr { box-shadow: 0 0 0 2px #35d07f; }
+  .avatar .new-badge { position: absolute; top: -5px; left: -5px; z-index: 3; background: linear-gradient(135deg, #3ff08a, #12b866); color: #04210f; font: 800 7px/1 var(--mono); letter-spacing: 0.5px; padding: 3px 4px; border-radius: 3px; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4); }
 
   .tl-side { display: flex; flex-direction: column; gap: 26px; }
   .side-head { font: 900 12px var(--mono); letter-spacing: 2px; color: var(--lime); border-bottom: 1px solid var(--bd-card); padding-bottom: 10px; margin-bottom: 4px; }
