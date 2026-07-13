@@ -25,21 +25,24 @@ order: 100
         "image": "loki-1783922882904.png",
         "element": "SSR EX",
         "desc": "Cô ấy thực sự là khắc tinh của những nhân vật SSR EX nổi tiếng trước đó như Athena, Thần Biển, Hades và Thần Chiến tranh, đặc biệt là khi được sử dụng cùng với Spimo, điều này khiến các bản sao của cô ấy trở nên vô cùng mạnh mẽ.",
-        "role": "knight"
+        "role": "knight",
+        "limited": true
       },
       {
         "name": "Athena",
         "image": "athena-1783922893508.png",
         "element": "SSR EX",
         "desc": "Khả năng chịu sát thương cực lớn nhờ khiên chắn, cả từ đồng minh và thậm chí tự gây sát thương, điều này luôn hữu ích. Rất cần thiết cho tất cả các chế độ PvE và cũng hiệu quả trong đấu trường. Một trong những nhân vật không thể thiếu ngay từ đầu.",
-        "role": "knight"
+        "role": "knight",
+        "limited": true
       },
       {
         "name": "Ares",
         "image": "ares-1783922907302.png",
         "element": "SSR EX",
         "desc": "Với khả năng hồi sinh, cô ấy có thể làm được rất nhiều việc trong PvE, giống như một Athena linh hoạt hơn, và trong PvP, cô ấy có thể hy sinh bản thân để hỗ trợ đồng đội trong những đội hình phù hợp. Chắc chắn đây là một vị tướng bạn có thể sử dụng rất hiệu quả.",
-        "role": "warrior"
+        "role": "warrior",
+        "limited": true
       },
       {
         "name": "Xuanwu",
@@ -74,14 +77,16 @@ order: 100
         "image": "apollo-1783922990773.png",
         "element": "SSR EX",
         "desc": "Cực kỳ hiệu quả khi đối đầu với trùm nhờ sát thương mục tiêu đơn cực cao.",
-        "role": "archer"
+        "role": "archer",
+        "limited": true
       },
       {
         "name": "Venus",
         "image": "venus-1783923006315.png",
         "element": "SSR EX",
         "desc": "Khả năng hồi phục tuyệt vời và có thể đối phó hiệu quả với hầu hết các nhân vật gây sát thương, đặc biệt là trong PvP.",
-        "role": "healer"
+        "role": "healer",
+        "limited": true
       },
       {
         "name": "Vivian",
@@ -102,7 +107,8 @@ order: 100
         "image": "poseidon-1783923029073.png",
         "element": "SSR EX",
         "desc": "Sát thương và tiện ích cực kỳ khủng khiếp, vô cùng mạnh mẽ và có thể ngăn chặn cái chết đến hai lần để bảo vệ đồng minh.",
-        "role": "mage"
+        "role": "mage",
+        "limited": true
       }
     ]
   },
@@ -124,7 +130,8 @@ order: 100
         "image": "thor-1783922851180.png",
         "element": "SSR EX",
         "desc": "Không phải là cô ấy tệ, nhưng so với các tướng EX hàng đầu khác và cả các tướng chiến binh SSR+ khác, cô ấy không mạnh mẽ như vẻ ngoài và thực sự cần đội hình có thuộc tính nguyên tố tương đồng để kích hoạt bộ kỹ năng của mình, điều này đôi khi khiến bạn gặp khó khăn trong việc xây dựng đội hình so với những người khác. Thành thật mà nói, điều này phù hợp với hầu hết người chơi không có ý định xây dựng các tướng EX.",
-        "role": "warrior"
+        "role": "warrior",
+        "limited": true
       },
       {
         "name": "Orion",
@@ -159,7 +166,8 @@ order: 100
         "image": "hades-1783923066757.png",
         "element": "SSR EX",
         "desc": "Khả năng tạo ra các bản sao và kỹ năng sát thủ của cô ấy hầu như luôn gây khó khăn cho đội địch, và cô ấy thậm chí có thể chiến đấu ngay cả khi máu còn rất thấp trong khi cả đội vẫn còn đầy đủ lực lượng để xoay chuyển cục diện trận đấu.",
-        "role": "rogue"
+        "role": "rogue",
+        "limited": true
       },
       {
         "name": "Zagreus",
