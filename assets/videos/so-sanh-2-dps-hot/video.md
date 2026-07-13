@@ -2,7 +2,7 @@
 title: " Stellar Blade: Blood Rain - Official Reveal Trailer"
 slug: StellarBlade-BloodRain
 youtube_url: "https://www.youtube.com/watch?v=4aVoaSixc0E"
-category: review
+category: trailer
 date: 2026-07-12
 duration: "3:30"
 featured: false
