@@ -14,8 +14,11 @@ const { activeNav = 'home' } = Astro.props;
   </a>
 
   <nav class="nav-menu" aria-label="Điều hướng chính">
-    {NAV.map((item) => (
-      <a href={item.href} class:list={['nav-link', { active: item.key === activeNav }]}>{item.label}</a>
+    {NAV.map((item, i) => (
+      <a href={item.href} class:list={['nav-link', { active: item.key === activeNav }]}>
+        <span class="nl-label">{item.label}</span>
+        <sup class="nl-num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</sup>
+      </a>
     ))}
   </nav>
 
@@ -68,12 +71,17 @@ const { activeNav = 'home' } = Astro.props;
 
   .nav-menu { display: flex; gap: 32px; }
   .nav-link {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 4px;
     font: 700 11.5px var(--mono);
     letter-spacing: 1px;
     color: var(--tx-55);
     padding-bottom: 5px;
     border-bottom: 2px solid transparent;
   }
+  .nl-num { font: 500 7px var(--mono); letter-spacing: 0.5px; color: var(--lime); opacity: 0.55; line-height: 1; padding-top: 1px; }
+  .nav-link:hover .nl-num, .nav-link.active .nl-num { opacity: 1; }
   .nav-link:hover { color: #fff; }
   .nav-link.active { color: #fff; border-bottom-color: var(--lime); }
 
