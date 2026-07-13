@@ -37,10 +37,9 @@ const fmtScore = (s?: number | string | null) => {
         >
           <div class="rv-art"><Thumb src={coverUrl(r.slug, r.cover)} label="key art" class="rv-img" /></div>
           <div class="rv-name">{r.title}</div>
-          {((r.platforms && r.platforms.length) || r.genre) && (
+          {r.platforms && r.platforms.length > 0 && (
             <div class="rv-cardtags">
-              {(r.platforms ?? []).map((p) => <span class="rv-plat"><PlatformIcon name={p} size={13} /></span>)}
-              {r.genre && <span class="rv-genre">{r.genre}</span>}
+              {r.platforms.map((p) => <span class="rv-plat"><PlatformIcon name={p} size={13} /></span>)}
             </div>
           )}
           <div class="rv-poptags" hidden>

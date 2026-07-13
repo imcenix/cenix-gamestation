@@ -6,7 +6,7 @@
   "scripts": {
     "predev": "node ./scripts/link-assets.mjs",
     "dev": "astro dev",
-    "prebuild": "node ./scripts/link-assets.mjs",
+    "prebuild": "node ./scripts/link-assets.mjs && node ./scripts/fix-frontmatter.mjs",
     "build": "astro build",
     "deploy": "./Publish.command",
     "preview": "astro preview",
