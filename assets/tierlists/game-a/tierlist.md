@@ -316,6 +316,78 @@ order: 100
         "element": "SSR",
         "desc": "Thật lòng mà nói, Dragon Traveler mạnh hơn ở giai đoạn đầu trận so với giai đoạn sau, với khả năng gây sát thương ổn định, khả năng ngắt đòn tấn công với chi phí thấp và nếu giữ được tầm đánh thì cũng có khả năng sống sót trước sát thương nhỏ giọt. Nhưng đây không phải là nhân vật sẽ trụ lại trong đội hình chính của bạn quá lâu.",
         "role": "archer"
+      },
+      {
+        "name": "Fenrir",
+        "image": "char-1783924372330.png",
+        "element": "SSR",
+        "desc": "Sát thương bùng nổ cực mạnh ở giai đoạn đầu trận và có thể quét sạch mọi thứ. Về sau thì yếu dần nhưng vẫn còn hữu dụng trong các chế độ cuối trận.",
+        "role": "rogue",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Nemesis",
+        "image": "char-1783924409895.png",
+        "element": "SSR",
+        "desc": "Sát thủ này khá tốt và hữu ích trong việc xử lý các đội hình tấn công phía sau của đối phương, nhưng kỹ năng của anh ta phụ thuộc rất nhiều vào cấp độ thăng tiến.",
+        "role": "assassin",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Oberonnie",
+        "image": "char-1783924448014.jpg",
+        "element": "SSR",
+        "desc": "Thành thật mà nói, cô ấy làm việc khá tốt, nhưng khi cần phải làm việc đột xuất thì cô ấy gặp khó khăn.",
+        "role": "knight",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Nanalie",
+        "image": "char-1783924484956.png",
+        "element": "SSR",
+        "desc": "Có thể gây sát thương diện rộng rất lớn nhưng đôi khi lại rất dễ bị hạ gục. Kết hợp tốt với khả năng giảm thời gian hồi chiêu, cô ấy có tiềm năng khá lớn.",
+        "role": "mage",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Siegfried",
+        "image": "char-1783924519358.png",
+        "element": "SSR",
+        "desc": "Có thể đóng vai trò tank phụ ở giai đoạn đầu trận và gây sát thương khá tốt. Cần có sự hỗ trợ phù hợp để không bị hạ gục quá nhanh về sau, nhưng nhìn chung là một lựa chọn tốt. Đầu tư rẻ nhưng không phải là tướng để sử dụng lâu dài.",
+        "role": "warrior",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Anubis",
+        "image": "char-1783924564703.jpg",
+        "element": "SSR",
+        "desc": "Là một người bảo vệ tốt nhưng có một vài điểm yếu nhỏ mà hệ thống phòng thủ của anh ta không thể bù đắp, đặc biệt là các hiệu ứng giảm máu. Nhưng ngoài ra thì anh ta là một người bảo vệ tốt.",
+        "role": "knight",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Melina",
+        "image": "char-1783924594268.png",
+        "element": "SSR",
+        "desc": "Lacks a little area and burst but overall a more than solid damage dealer. Do not over-invest in her just because she is an early pull!.",
+        "role": "mage",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Telperion",
+        "image": "char-1783924624688.jpg",
+        "element": "SSR",
+        "desc": "Phạm vi ảnh hưởng theo hàng và khả năng gây sát thương tối đa hay không khiến cô ấy trở nên khá ngẫu nhiên và không đáng tin cậy vào một số thời điểm. Tuy nhiên, nếu bạn xây dựng một đội hình dựa trên nguyên tố, tiềm năng gây sát thương của cô ấy rất lớn.",
+        "role": "mage",
+        "limited": false,
+        "isNew": false
       }
     ]
   },
@@ -323,7 +395,80 @@ order: 100
     "label": "B",
     "sublabel": "Tier 5",
     "color": "#ffc9a0",
-    "chars": []
+    "chars": [
+      {
+        "name": "Jormungandr",
+        "image": "char-1783924665646.png",
+        "element": "SSR+",
+        "desc": "",
+        "role": "assassin",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Drasill",
+        "image": "char-1783924690447.jpg",
+        "element": "SSR",
+        "desc": "",
+        "role": "knight",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Brynhild",
+        "image": "char-1783924715681.png",
+        "element": "SSR+",
+        "desc": "",
+        "role": "warrior",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Cleopatra",
+        "image": "char-1783924735422.png",
+        "element": "SSR",
+        "desc": "",
+        "role": "mage",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Caligula",
+        "image": "char-1783924755546.jpg",
+        "element": "SSR",
+        "desc": "",
+        "role": "healer",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Marylis",
+        "image": "char-1783924789081.png",
+        "element": "SSR+",
+        "desc": "",
+        "role": "warrior",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Goren",
+        "image": "char-1783924812836.jpg",
+        "element": "SSR",
+        "desc": "",
+        "role": "knight",
+        "limited": false,
+        "isNew": false
+      },
+      {
+        "name": "Titania",
+        "image": "char-1783924839679.jpg",
+        "element": "SSR",
+        "desc": "",
+        "role": "healer",
+        "limited": false,
+        "isNew": false
+      }
+    ]
   },
   {
     "label": "C",
