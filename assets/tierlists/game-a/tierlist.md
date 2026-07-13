@@ -9,21 +9,30 @@ order: 100
 ---
 [
   {
-    "label": "SSS",
+    "label": "SS",
     "sublabel": "Top Tier",
     "color": "#ff4d4d",
-    "chars": []
+    "chars": [
+      {
+        "name": "Talos",
+        "image": "char-1783921365390.jpg",
+        "element": "",
+        "desc": "Khả năng ra đòn trước mà không tốn mana và lượng sát thương khủng khiếp mà cô ấy gây ra khiến cô ấy thực sự là một tướng không thể thiếu.",
+        "role": "mage"
+      }
+    ]
   },
   {
-    "label": "SS",
+    "label": "S",
     "sublabel": "Tier 1",
     "color": "#ff8c42",
     "chars": [
       {
-        "name": "Lôi Kiếm",
-        "image": "",
-        "element": "Lôi",
-        "desc": "Combo bùng nổ, phá khiên tốt"
+        "name": "Mimir",
+        "image": "li-kim-1783921240103.jpg",
+        "element": "",
+        "desc": "Điều thú vị là khả năng tự tạo khiên của cô ấy cũng hoạt động như một cách tăng sát thương, nhưng bạn phải xây dựng cô ấy sao cho lớp khiên được tích lũy nhiều thì cô ấy mới gây ra sát thương lớn, đồng thời giảm bớt gánh nặng cho người hỗ trợ vì cô ấy có thể tự gánh vác hầu hết các tình huống. Trong PvP thì không tốt lắm vì có quá nhiều pha chặn đòn sẽ làm reset bộ kỹ năng của cô ấy.",
+        "role": "archer"
       },
       {
         "name": "Phong Hộ",
@@ -34,7 +43,7 @@ order: 100
     ]
   },
   {
-    "label": "S",
+    "label": "A+",
     "sublabel": "Tier 2",
     "color": "#ffa62b",
     "chars": [
@@ -66,10 +75,17 @@ order: 100
     ]
   },
   {
-    "label": "B",
+    "label": "B+",
     "sublabel": "Tier 4",
     "color": "#ffc9a0",
     "chars": [
+      {
+        "name": "Asteros",
+        "image": "ha-vng-1783861783932.jpg",
+        "element": "",
+        "desc": "Có thể nhận miễn phí từ lần đăng nhập 7 ngày cho đến khi kỷ niệm nửa năm ra mắt. Cơ chế của cô ấy là tích lũy nộ khí bằng cách mất máu. Không tệ khi dùng làm tướng bổ sung trong một số đội hình PvE nhưng cần sự hỗ trợ liên tục và tổng sát thương gây ra không thực sự cao. Nếu đội hình của bạn đã đủ người và hoạt động tốt, thì thực sự không cần thiết phải có cô ấy nên đừng đầu tư quá nhiều vào cô ấy.",
+        "role": "warrior"
+      },
       {
         "name": "Thủy Thương",
         "image": "",
@@ -79,22 +95,21 @@ order: 100
     ]
   },
   {
-    "label": "C",
+    "label": "B",
     "sublabel": "Tier 5",
-    "color": "#8a8a8a",
-    "chars": [
-      {
-        "name": "Asteros",
-        "image": "ha-vng-1783861783932.jpg",
-        "element": "Warrior",
-        "desc": ""
-      }
-    ]
+    "color": "#ffc9a0",
+    "chars": []
+  },
+  {
+    "label": "C",
+    "sublabel": "Tier 6",
+    "color": "#4a4a4a",
+    "chars": []
   },
   {
     "label": "D",
-    "sublabel": "Tier 6",
-    "color": "#4a4a4a",
+    "sublabel": "Tier 7",
+    "color": "#8a8a8a",
     "chars": []
   }
 ]
