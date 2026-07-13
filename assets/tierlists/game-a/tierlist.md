@@ -10,74 +10,15 @@ order: 100
 [
   {
     "label": "SS",
-    "sublabel": "Top Tier",
-    "color": "#ff4d4d",
+    "sublabel": "",
+    "color": "#cc0000",
     "chars": [
-      {
-        "name": "Talos",
-        "image": "talos-1783922872357.png",
-        "element": "SSR+",
-        "desc": "Khả năng ra đòn trước mà không tốn mana và lượng sát thương khủng khiếp mà cô ấy gây ra khiến cô ấy thực sự là một tướng không thể thiếu.",
-        "role": "mage"
-      },
-      {
-        "name": "Loki",
-        "image": "loki-1783922882904.png",
-        "element": "SSR EX",
-        "desc": "Cô ấy thực sự là khắc tinh của những nhân vật SSR EX nổi tiếng trước đó như Athena, Thần Biển, Hades và Thần Chiến tranh, đặc biệt là khi được sử dụng cùng với Spimo, điều này khiến các bản sao của cô ấy trở nên vô cùng mạnh mẽ.",
-        "role": "knight",
-        "limited": true
-      },
       {
         "name": "Athena",
         "image": "athena-1783922893508.png",
         "element": "SSR EX",
         "desc": "Khả năng chịu sát thương cực lớn nhờ khiên chắn, cả từ đồng minh và thậm chí tự gây sát thương, điều này luôn hữu ích. Rất cần thiết cho tất cả các chế độ PvE và cũng hiệu quả trong đấu trường. Một trong những nhân vật không thể thiếu ngay từ đầu.",
         "role": "knight",
-        "limited": true
-      },
-      {
-        "name": "Ares",
-        "image": "ares-1783922907302.png",
-        "element": "SSR EX",
-        "desc": "Với khả năng hồi sinh, cô ấy có thể làm được rất nhiều việc trong PvE, giống như một Athena linh hoạt hơn, và trong PvP, cô ấy có thể hy sinh bản thân để hỗ trợ đồng đội trong những đội hình phù hợp. Chắc chắn đây là một vị tướng bạn có thể sử dụng rất hiệu quả.",
-        "role": "warrior",
-        "limited": true
-      },
-      {
-        "name": "Xuanwu",
-        "image": "xuanwu-1783922934501.png",
-        "element": "SSR+",
-        "desc": "Khả năng bảo vệ đồng đội của cô ấy khá tuyệt vời, đặc biệt là khi gây thêm sát thương hoặc khiêu khích kẻ địch từ tuyến sau với lượng khiên và khả năng giảm sát thương khổng lồ. Cho dù là để sưu tập hay vì bạn muốn một người bảo vệ giỏi, cô ấy thực sự là một nhân vật đáng giá. Nếu bạn đã có những người bảo vệ tốt trong các banner trước và cảm thấy khả năng sống sót không phải là vấn đề lớn nhất của mình, bạn có thể bỏ qua cô ấy, nhưng tôi nghĩ chỉ riêng vì sự linh hoạt của cô ấy, bạn vẫn muốn có cô ấy trong đội hình của mình.",
-        "role": "warrior"
-      },
-      {
-        "name": "Asmodeus",
-        "image": "asmodeus-1783922952050.png",
-        "element": "SSR+",
-        "desc": "Là nhân tố cốt lõi cho các thiết lập triệu hồi vì cô ấy củng cố đội hình, đồng thời cũng có thể chống chịu sát thương, hồi máu và khả năng gây sát thương cũng không hề tệ, vì vậy cô ấy thực sự là một nhân tố nổi bật, chỉ ra hướng đi cho tương lai của meta, nơi mà các tướng triệu hồi sẽ chiếm ưu thế.",
-        "role": "warrior"
-      },
-      {
-        "name": "Caesar",
-        "image": "caesar-1783922970285.png",
-        "element": "SSR+",
-        "desc": "Cô ấy có khả năng phòng thủ mở màn đáng kinh ngạc, thậm chí còn làm tăng chi phí năng lượng của kẻ địch, cộng thêm khả năng sống sót sau đòn tấn công chí mạng của chính mình, khiến cô ấy rất đáng tin cậy trong việc che chắn và bảo vệ. Có phần thiên về PvP hơn nhưng cũng là một sự bổ sung tuyệt vời cho đội hình của bạn trong PvE và thành thật mà nói, nếu bạn có một vị trí phòng thủ còn trống trong đội hình mà bạn không hài lòng lắm, cô ấy có thể lấp đầy, mặc dù sự phối hợp của cô ấy với Sanctum và Illusion không quá dễ dàng đối với nhiều người chơi, vì vậy hãy kiểm tra xem bạn có đủ các tướng khác ở đó để tạo ra sự phối hợp hay không.",
-        "role": "knight"
-      },
-      {
-        "name": "Vermilion Bird",
-        "image": "vermilion-bird-1783922982679.png",
-        "element": "SSR+",
-        "desc": "Cùng với cô ấy là sức mạnh của các đội hình nguyên tố, một khi bạn có thể xây dựng cô ấy trong một đội hình với các đồng minh có khả năng kích hoạt phản ứng nguyên tố, cô ấy sẽ bùng nổ một cách đáng kinh ngạc, thật sự rất thú vị khi chứng kiến. Cô ấy sẽ nâng cao sát thương của đội bạn với những thành viên phù hợp (phản ứng nguyên tố với độ tương thích!).",
-        "role": "mage"
-      },
-      {
-        "name": "Apollo",
-        "image": "apollo-1783922990773.png",
-        "element": "SSR EX",
-        "desc": "Cực kỳ hiệu quả khi đối đầu với trùm nhờ sát thương mục tiêu đơn cực cao.",
-        "role": "archer",
         "limited": true
       },
       {
@@ -96,13 +37,6 @@ order: 100
         "role": "healer"
       },
       {
-        "name": "Gabriele",
-        "image": "gabriele-1783923022125.png",
-        "element": "SSR+",
-        "desc": "Đây là một nhân vật cực kỳ mạnh mẽ nhưng cũng cần được nâng cấp ban đầu để thực sự phát huy hết khả năng, vì vậy đừng thất vọng khi bạn chỉ có 1 bản sao để sử dụng cô ấy. Hãy đầu tư mạnh vào banner của cô ấy để có thể tiến bộ nhanh chóng.",
-        "role": "mage"
-      },
-      {
         "name": "Poseidon",
         "image": "poseidon-1783923029073.png",
         "element": "SSR EX",
@@ -113,10 +47,61 @@ order: 100
     ]
   },
   {
-    "label": "S",
-    "sublabel": "Tier 1",
-    "color": "#ff8c42",
+    "label": "S+",
+    "sublabel": "Top Tier",
+    "color": "#ff4d4d",
     "chars": [
+      {
+        "name": "Xuanwu",
+        "image": "xuanwu-1783922934501.png",
+        "element": "SSR+",
+        "desc": "Khả năng bảo vệ đồng đội của cô ấy khá tuyệt vời, đặc biệt là khi gây thêm sát thương hoặc khiêu khích kẻ địch từ tuyến sau với lượng khiên và khả năng giảm sát thương khổng lồ. Cho dù là để sưu tập hay vì bạn muốn một người bảo vệ giỏi, cô ấy thực sự là một nhân vật đáng giá. Nếu bạn đã có những người bảo vệ tốt trong các banner trước và cảm thấy khả năng sống sót không phải là vấn đề lớn nhất của mình, bạn có thể bỏ qua cô ấy, nhưng tôi nghĩ chỉ riêng vì sự linh hoạt của cô ấy, bạn vẫn muốn có cô ấy trong đội hình của mình.",
+        "role": "warrior"
+      },
+      {
+        "name": "Caesar",
+        "image": "caesar-1783922970285.png",
+        "element": "SSR+",
+        "desc": "Cô ấy có khả năng phòng thủ mở màn đáng kinh ngạc, thậm chí còn làm tăng chi phí năng lượng của kẻ địch, cộng thêm khả năng sống sót sau đòn tấn công chí mạng của chính mình, khiến cô ấy rất đáng tin cậy trong việc che chắn và bảo vệ. Có phần thiên về PvP hơn nhưng cũng là một sự bổ sung tuyệt vời cho đội hình của bạn trong PvE và thành thật mà nói, nếu bạn có một vị trí phòng thủ còn trống trong đội hình mà bạn không hài lòng lắm, cô ấy có thể lấp đầy, mặc dù sự phối hợp của cô ấy với Sanctum và Illusion không quá dễ dàng đối với nhiều người chơi, vì vậy hãy kiểm tra xem bạn có đủ các tướng khác ở đó để tạo ra sự phối hợp hay không.",
+        "role": "knight"
+      },
+      {
+        "name": "Pompey",
+        "image": "nham-thng-1783923570245.png",
+        "element": "SSR+",
+        "desc": "Không thực sự xuất sắc như những anh hùng trong banner trước đây và có thể bỏ qua. Cô ấy là một người bảo vệ khá tốt, không thể phủ nhận, nhưng không quá xuất sắc trong mọi chế độ và Athena, ngay cả khi chỉ có một bản sao, cũng hoạt động tốt hơn.",
+        "role": "knight"
+      },
+      {
+        "name": "Ares",
+        "image": "ares-1783922907302.png",
+        "element": "SSR EX",
+        "desc": "Với khả năng hồi sinh, cô ấy có thể làm được rất nhiều việc trong PvE, giống như một Athena linh hoạt hơn, và trong PvP, cô ấy có thể hy sinh bản thân để hỗ trợ đồng đội trong những đội hình phù hợp. Chắc chắn đây là một vị tướng bạn có thể sử dụng rất hiệu quả.",
+        "role": "warrior",
+        "limited": true
+      },
+      {
+        "name": "Azure Dragon",
+        "image": "azure-dragon-1783923057441.png",
+        "element": "SSR+",
+        "desc": "Đây là một vị tướng tuyệt vời để rút được trong banner của cô ấy. Cô ấy hoạt động rất hiệu quả với lớp khiên, khả năng hỗ trợ và thậm chí cả giảm chi phí chiêu cuối. Gần như là một sự bổ trợ tức thì cho mọi đội hình.",
+        "role": "warrior"
+      },
+      {
+        "name": "Asmodeus",
+        "image": "asmodeus-1783922952050.png",
+        "element": "SSR+",
+        "desc": "Là nhân tố cốt lõi cho các thiết lập triệu hồi vì cô ấy củng cố đội hình, đồng thời cũng có thể chống chịu sát thương, hồi máu và khả năng gây sát thương cũng không hề tệ, vì vậy cô ấy thực sự là một nhân tố nổi bật, chỉ ra hướng đi cho tương lai của meta, nơi mà các tướng triệu hồi sẽ chiếm ưu thế.",
+        "role": "warrior"
+      },
+      {
+        "name": "Apollo",
+        "image": "apollo-1783922990773.png",
+        "element": "SSR EX",
+        "desc": "Cực kỳ hiệu quả khi đối đầu với trùm nhờ sát thương mục tiêu đơn cực cao.",
+        "role": "archer",
+        "limited": true
+      },
       {
         "name": "Mimir",
         "image": "mimir-1783923987841.png",
@@ -126,13 +111,26 @@ order: 100
         "isNew": true
       },
       {
-        "name": "Thor",
-        "image": "thor-1783922851180.png",
-        "element": "SSR EX",
-        "desc": "Không phải là cô ấy tệ, nhưng so với các tướng EX hàng đầu khác và cả các tướng chiến binh SSR+ khác, cô ấy không mạnh mẽ như vẻ ngoài và thực sự cần đội hình có thuộc tính nguyên tố tương đồng để kích hoạt bộ kỹ năng của mình, điều này đôi khi khiến bạn gặp khó khăn trong việc xây dựng đội hình so với những người khác. Thành thật mà nói, điều này phù hợp với hầu hết người chơi không có ý định xây dựng các tướng EX.",
-        "role": "warrior",
-        "limited": true
+        "name": "Talos",
+        "image": "talos-1783922872357.png",
+        "element": "SSR+",
+        "desc": "Khả năng ra đòn trước mà không tốn mana và lượng sát thương khủng khiếp mà cô ấy gây ra khiến cô ấy thực sự là một tướng không thể thiếu.",
+        "role": "mage"
       },
+      {
+        "name": "Vermilion Bird",
+        "image": "vermilion-bird-1783922982679.png",
+        "element": "SSR+",
+        "desc": "Cùng với cô ấy là sức mạnh của các đội hình nguyên tố, một khi bạn có thể xây dựng cô ấy trong một đội hình với các đồng minh có khả năng kích hoạt phản ứng nguyên tố, cô ấy sẽ bùng nổ một cách đáng kinh ngạc, thật sự rất thú vị khi chứng kiến. Cô ấy sẽ nâng cao sát thương của đội bạn với những thành viên phù hợp (phản ứng nguyên tố với độ tương thích!).",
+        "role": "mage"
+      }
+    ]
+  },
+  {
+    "label": "S",
+    "sublabel": "Tier 1",
+    "color": "#ff8c42",
+    "chars": [
       {
         "name": "Orion",
         "image": "orion-1783923040563.png",
@@ -146,13 +144,6 @@ order: 100
         "element": "SSR+",
         "desc": "Thành thật mà nói, cô ấy là một tướng đỡ đòn tốt và đa năng, và với việc các đội hình hiện nay rất đa dạng, một tướng như vậy sẽ rất hữu ích. Tuy nhiên, điều đó cũng phụ thuộc vào đội hình của bạn. Nếu bạn cảm thấy tuyến đầu của mình hoàn toàn ổn, bạn có thể bỏ qua cô ấy, trừ khi bạn chơi PvP và thực sự cần một tướng khắc chế đội hình hệ bóng tối, vì cô ấy khắc chế đội hình đó rất mạnh, thậm chí có thể làm thay đổi meta. Nhưng đối với người chơi trung bình không gặp vấn đề gì với tuyến đầu, cô ấy không phải là tướng bắt buộc phải có, mặc dù cô ấy rất mạnh nên sở hữu cô ấy sẽ không bao giờ khiến bạn hối tiếc.",
         "role": "knight"
-      },
-      {
-        "name": "Azure Dragon",
-        "image": "azure-dragon-1783923057441.png",
-        "element": "SSR+",
-        "desc": "Đây là một vị tướng tuyệt vời để rút được trong banner của cô ấy. Cô ấy hoạt động rất hiệu quả với lớp khiên, khả năng hỗ trợ và thậm chí cả giảm chi phí chiêu cuối. Gần như là một sự bổ trợ tức thì cho mọi đội hình.",
-        "role": "warrior"
       },
       {
         "name": "Ifrit",
@@ -189,6 +180,36 @@ order: 100
         "element": "SSR",
         "desc": "Bộ kỹ năng của cô ấy có vẻ không mạnh mẽ như thực tế, đặc biệt là khi được kích hoạt khả năng hút máu và hiệu ứng khống chế, cô ấy cực kỳ mạnh mẽ trong hầu hết các chế độ và là một trong số ít tướng gánh team chính trong chế độ PvE.",
         "role": "healer"
+      },
+      {
+        "name": "Thor",
+        "image": "thor-1783922851180.png",
+        "element": "SSR EX",
+        "desc": "Không phải là cô ấy tệ, nhưng so với các tướng EX hàng đầu khác và cả các tướng chiến binh SSR+ khác, cô ấy không mạnh mẽ như vẻ ngoài và thực sự cần đội hình có thuộc tính nguyên tố tương đồng để kích hoạt bộ kỹ năng của mình, điều này đôi khi khiến bạn gặp khó khăn trong việc xây dựng đội hình so với những người khác. Thành thật mà nói, điều này phù hợp với hầu hết người chơi không có ý định xây dựng các tướng EX.",
+        "role": "warrior",
+        "limited": true
+      },
+      {
+        "name": "Loki",
+        "image": "loki-1783922882904.png",
+        "element": "SSR EX",
+        "desc": "Cô ấy thực sự là khắc tinh của những nhân vật SSR EX nổi tiếng trước đó như Athena, Thần Biển, Hades và Thần Chiến tranh, đặc biệt là khi được sử dụng cùng với Spimo, điều này khiến các bản sao của cô ấy trở nên vô cùng mạnh mẽ.",
+        "role": "knight",
+        "limited": true
+      },
+      {
+        "name": "Gabriele",
+        "image": "gabriele-1783923022125.png",
+        "element": "SSR+",
+        "desc": "Đây là một nhân vật cực kỳ mạnh mẽ nhưng cũng cần được nâng cấp ban đầu để thực sự phát huy hết khả năng, vì vậy đừng thất vọng khi bạn chỉ có 1 bản sao để sử dụng cô ấy. Hãy đầu tư mạnh vào banner của cô ấy để có thể tiến bộ nhanh chóng.",
+        "role": "mage"
+      },
+      {
+        "name": "Spimo",
+        "image": "thy-tin-1783922812728.png",
+        "element": "SSR+",
+        "desc": "Khi sử dụng cùng Loki, các bản sao của cô ấy trở nên vô cùng mạnh mẽ; nếu không có Loki, các bản sao của cô ấy gần như vô dụng, vì vậy chúng khá phù hợp với nhau và điều đó khiến việc xếp hạng cô ấy trở nên khó khăn. Tuy nhiên, hãy xem xét xếp hạng này khi sử dụng cô ấy CÙNG với Loki, còn nếu bạn không có Loki thì tôi không thấy nhiều lý do để xây dựng cô ấy ở trạng thái hiện tại.",
+        "role": "healer"
       }
     ]
   },
@@ -203,13 +224,6 @@ order: 100
         "element": "SSR+",
         "desc": "Cô ấy được thêm vào nhóm triệu hồi thông thường (khá tốt đấy) nhưng trước khi bạn điên cuồng quay gacha để có được cô ấy... cô ấy khá tốt nhưng chủ yếu hữu ích trong nội dung PvE, nơi hiệu ứng hất tung kẻ địch của cô ấy thực sự phát huy tác dụng và lý tưởng nhất là cô ấy cần được ghép cặp với một Thần Biển được xây dựng tốt, vì vậy bạn có thể dành thời gian để nâng cấp cô ấy. Cô ấy là một SSR+ tuyệt vời trong nhóm triệu hồi thông thường nhưng không phải là người sẽ giúp đội hình của bạn mạnh lên ngay lập tức.",
         "role": "warrior"
-      },
-      {
-        "name": "Spimo",
-        "image": "thy-tin-1783922812728.png",
-        "element": "SSR+",
-        "desc": "Khi sử dụng cùng Loki, các bản sao của cô ấy trở nên vô cùng mạnh mẽ; nếu không có Loki, các bản sao của cô ấy gần như vô dụng, vì vậy chúng khá phù hợp với nhau và điều đó khiến việc xếp hạng cô ấy trở nên khó khăn. Tuy nhiên, hãy xem xét xếp hạng này khi sử dụng cô ấy CÙNG với Loki, còn nếu bạn không có Loki thì tôi không thấy nhiều lý do để xây dựng cô ấy ở trạng thái hiện tại.",
-        "role": "healer"
       },
       {
         "name": "Scheherazade",
@@ -253,13 +267,6 @@ order: 100
     "sublabel": "Tier 3",
     "color": "#ffd23f",
     "chars": [
-      {
-        "name": "Pompey",
-        "image": "nham-thng-1783923570245.png",
-        "element": "SSR+",
-        "desc": "Không thực sự xuất sắc như những anh hùng trong banner trước đây và có thể bỏ qua. Cô ấy là một người bảo vệ khá tốt, không thể phủ nhận, nhưng không quá xuất sắc trong mọi chế độ và Athena, ngay cả khi chỉ có một bản sao, cũng hoạt động tốt hơn.",
-        "role": "knight"
-      },
       {
         "name": "Huginn and Muninn",
         "image": "char-1783923604629.png",
