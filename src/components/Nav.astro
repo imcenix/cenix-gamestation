@@ -15,15 +15,17 @@ const { activeNav = 'home' } = Astro.props;
   <nav class="nav-menu" aria-label="Điều hướng chính">
     {NAV.map((item, i) => (
       <a href={item.href} class:list={['nav-link', { active: item.key === activeNav }]}>
-        <span class="nl-label">{item.label}</span>
+        <span class="nl-flip">
+          <span class="nl-row">{item.label}</span>
+          <span class="nl-row" aria-hidden="true">{item.label}</span>
+        </span>
         <sup class="nl-num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</sup>
       </a>
     ))}
   </nav>
 
   <div class="nav-actions">
-    <div class="search" role="search"><span aria-hidden="true">⌕</span> Tìm kiếm…</div>
-    <a class="btn-lime follow" href={SITE.socials.youtube} target="_blank" rel="noopener">THEO DÕI</a>
+    <span class="btn-lime follow" aria-disabled="true" title="Sắp có">Cenix Profile</span>
     <button class="nav-hamburger" id="nav-hamburger" aria-label="Mở menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -65,28 +67,21 @@ const { activeNav = 'home' } = Astro.props;
     display: inline-flex;
     align-items: flex-start;
     gap: 4px;
-    font: 700 11.5px var(--mono);
-    letter-spacing: 1px;
+    font: 700 12px var(--display);
+    letter-spacing: 0.5px;
     color: var(--tx-55);
-    padding-bottom: 5px;
-    border-bottom: 2px solid transparent;
+    transition: color 0.2s ease;
   }
-  .nl-num { font: 500 7px var(--mono); letter-spacing: 0.5px; color: var(--lime); opacity: 0.55; line-height: 1; padding-top: 1px; }
+  .nl-flip { display: inline-flex; flex-direction: column; overflow: hidden; height: 1.25em; line-height: 1.25; }
+  .nl-row { display: block; height: 1.25em; line-height: 1.25em; transition: transform 0.45s cubic-bezier(0.65, 0, 0.35, 1); will-change: transform; }
+  .nav-link:hover .nl-row, .nav-link:focus-visible .nl-row { transform: translateY(-100%); }
+  .nl-num { font: 500 7px var(--mono); letter-spacing: 0.5px; color: var(--lime); opacity: 0.55; line-height: 1; padding-top: 2px; }
   .nav-link:hover .nl-num, .nav-link.active .nl-num { opacity: 1; }
   .nav-link:hover { color: #fff; }
-  .nav-link.active { color: #fff; border-bottom-color: var(--lime); }
+  .nav-link.active { color: var(--lime); }
 
   .nav-actions { display: flex; align-items: center; gap: 12px; }
-  .search {
-    display: flex; align-items: center; gap: 8px;
-    border: 1px solid var(--bd-input);
-    border-radius: 3px;
-    padding: 8px 14px;
-    font: 400 11px var(--mono);
-    color: var(--tx-meta);
-    width: 150px;
-  }
-  .follow { white-space: nowrap; }
+  .follow { white-space: nowrap; cursor: default; user-select: none; }
 
   .nav-hamburger {
     display: none;
@@ -101,7 +96,6 @@ const { activeNav = 'home' } = Astro.props;
   .nav-hamburger[aria-expanded='true'] span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
 
   @media (max-width: 900px) {
-    .search { display: none; }
     .follow { display: none; }
     .nav-hamburger { display: flex; }
     .nav-menu {

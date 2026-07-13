@@ -17,12 +17,12 @@ export const SITE = {
 
 /** Primary nav — active state matches BaseLayout `activeNav`. */
 export const NAV = [
-  { label: 'TRANG CHỦ',  href: '/',          key: 'home' },
-  { label: 'TIN TỨC',    href: '/tin-tuc',   key: 'news' },
-  { label: 'VIDEO',      href: '/video',     key: 'video' },
-  { label: 'TIER-LIST',  href: '/tier-list', key: 'tier' },
-  { label: 'REVIEW',     href: '/review',    key: 'review' },
-  { label: 'HƯỚNG DẪN',  href: '/huong-dan', key: 'guide' },
+  { label: 'Home',      href: '/',          key: 'home' },
+  { label: 'News',      href: '/tin-tuc',   key: 'news' },
+  { label: 'Video',     href: '/video',     key: 'video' },
+  { label: 'Tier List', href: '/tier-list', key: 'tier' },
+  { label: 'Review',    href: '/review',    key: 'review' },
+  { label: 'Tips',      href: '/huong-dan', key: 'guide' },
 ] as const;
 
 export type NavKey = (typeof NAV)[number]['key'];
