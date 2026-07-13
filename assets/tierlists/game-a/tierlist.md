@@ -113,10 +113,11 @@ order: 100
     "chars": [
       {
         "name": "Mimir",
-        "image": "li-kim-1783921240103.jpg",
+        "image": "mimir-1783923987841.png",
         "element": "SSR+",
         "desc": "Điều thú vị là khả năng tự tạo khiên của cô ấy cũng hoạt động như một cách tăng sát thương, nhưng bạn phải xây dựng cô ấy sao cho lớp khiên được tích lũy nhiều thì cô ấy mới gây ra sát thương lớn, đồng thời giảm bớt gánh nặng cho người hỗ trợ vì cô ấy có thể tự gánh vác hầu hết các tình huống. Trong PvP thì không tốt lắm vì có quá nhiều pha chặn đòn sẽ làm reset bộ kỹ năng của cô ấy.",
-        "role": "archer"
+        "role": "archer",
+        "isNew": true
       },
       {
         "name": "Thor",
@@ -281,10 +282,11 @@ order: 100
     "chars": [
       {
         "name": "Asteros",
-        "image": "ha-vng-1783861783932.jpg",
+        "image": "asteros-1783923935359.png",
         "element": "SSR+",
         "desc": "Có thể nhận miễn phí từ lần đăng nhập 7 ngày cho đến khi kỷ niệm nửa năm ra mắt. Cơ chế của cô ấy là tích lũy nộ khí bằng cách mất máu. Không tệ khi dùng làm tướng bổ sung trong một số đội hình PvE nhưng cần sự hỗ trợ liên tục và tổng sát thương gây ra không thực sự cao. Nếu đội hình của bạn đã đủ người và hoạt động tốt, thì thực sự không cần thiết phải có cô ấy nên đừng đầu tư quá nhiều vào cô ấy.",
-        "role": "warrior"
+        "role": "warrior",
+        "isNew": true
       },
       {
         "name": "Faust",
