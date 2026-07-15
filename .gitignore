@@ -16,6 +16,9 @@ public/profile/
 # local design sources
 Resource/
 
+# generated profile data
+src/data/steam.json
+
 # deps
 node_modules/
 

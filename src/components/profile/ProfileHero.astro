@@ -82,6 +82,9 @@ const stats = [
 <style>
   .phero {
     position: relative;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
     overflow: hidden;
     isolation: isolate;
     border-bottom: 1px solid var(--bd-divider);
@@ -117,6 +120,9 @@ const stats = [
   .phero-grid {
     position: relative;
     z-index: 2;
+    width: 100%;
+    max-width: var(--maxw);
+    margin: 0 auto;
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     gap: clamp(24px, 4vw, 56px);

@@ -35,6 +35,10 @@ jobs:
       - name: Install dependencies
         run: npm install --no-audit --no-fund
 
+      - name: Fetch public Steam profile
+        continue-on-error: true
+        run: node scripts/fetch-steam.mjs
+
       - name: Build
         run: npm run build
 

@@ -73,7 +73,7 @@ const shelves = [
 </div>
 
 <style>
-  .platform-libraries { overflow:hidden; background:#070707; }
+  .platform-libraries { width:100vw; margin-left:calc(50% - 50vw); margin-right:calc(50% - 50vw); overflow:hidden; background:#070707; }
   .game-shelf {
     --tone:#ff4d75;
     position:relative;
@@ -83,6 +83,7 @@ const shelves = [
     border-top:1px solid rgba(255,255,255,.07);
   }
   .game-shelf.mobile { --tone:#ffd84d; }
+  .shelf-inner { width:100%; max-width:var(--maxw); margin-left:auto; margin-right:auto; }
   .shelf-glow {
     position:absolute; inset:0; z-index:-1;
     background:

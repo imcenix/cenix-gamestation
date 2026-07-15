@@ -3,8 +3,8 @@ import { PROFILE } from '../../config/site';
 import { dmy } from '../../lib/format';
 import type { SteamData } from '../../lib/steam';
 
-interface Props { steam: SteamData; steamGamesLabel: string }
-const { steam, steamGamesLabel } = Astro.props;
+interface Props { steam: SteamData; steamGamesLabel: string; featuredGames: SteamData['recent'] }
+const { steam, steamGamesLabel, featuredGames } = Astro.props;
 const t = steam.totals;
 const weeklyHours = t.twoWeeksHours / 2;
 const cells = [
@@ -13,11 +13,10 @@ const cells = [
   { num: String(t.achievements), label: 'ACHIEVEMENTS', hl: true },
   { num: `${weeklyHours.toLocaleString('en-US', { maximumFractionDigits: 1 })}h`, label: 'WEEKLY PLAY TIME' },
 ];
-const rankedRecent = [...steam.recent].sort((a, b) => {
+const achievementLeaders = [...steam.recent].sort((a, b) => {
   const byAchievements = (b.achieved ?? -1) - (a.achieved ?? -1);
   return byAchievements || b.hours - a.hours;
 });
-const featuredGames = rankedRecent;
 ---
 
 <section id="steam" class="profile-stage steam-stage" data-profile-stage>
@@ -51,7 +50,7 @@ const featuredGames = rankedRecent;
     <div class="featured-head">
       <div>
         <div class="featured-title">FEATURED PC GAMES</div>
-        <div class="featured-note">EXPANDS AUTOMATICALLY WITH STEAM DATA</div>
+        <div class="featured-note">CURATED FAVORITES FROM CENIX CMS</div>
       </div>
     </div>
 
@@ -64,7 +63,7 @@ const featuredGames = rankedRecent;
               <img src={g.header} alt={g.name} loading="lazy" onerror="this.closest('.featured-card').classList.add('no-image'); this.remove()" />
               <div class="featured-shade"></div>
               <div class="featured-copy">
-                <span>{g.achieved !== null ? g.achieved + ' ACHIEVEMENTS' : 'STEAM LIBRARY'}</span>
+                <span>CENIX'S PC FAVORITE</span>
                 <strong>{g.name}</strong>
               </div>
             </article>
@@ -75,12 +74,12 @@ const featuredGames = rankedRecent;
     </div>
 
     <div class="steam-recent-label">
-      <span>RECENT ACTIVITY</span>
-      <span>SORTED BY ACHIEVEMENTS EARNED</span>
+      <span>STEAM ACHIEVEMENT LEADERS</span>
+      <span>RECENTLY PLAYED · MOST UNLOCKED FIRST</span>
     </div>
 
     <div class="steam-list">
-      {rankedRecent.map((g) => {
+      {achievementLeaders.map((g) => {
         const pct = g.achieved !== null && g.total ? Math.round((g.achieved / g.total) * 100) : 0;
         return (
           <div class="srow">
@@ -114,9 +113,10 @@ const featuredGames = rankedRecent;
 </section>
 
 <style>
-  .profile-stage { --stage-shift:0px; position:relative; isolation:isolate; overflow:hidden; background:#070909; }
+  .profile-stage { --stage-shift:0px; position:relative; width:100vw; margin-left:calc(50% - 50vw); margin-right:calc(50% - 50vw); isolation:isolate; overflow:hidden; background:#070909; }
+  .profile-stage > .gut { width:100%; max-width:var(--maxw); margin-left:auto; margin-right:auto; }
   .stage-background {
-    position:absolute; inset:-90px -4vw; z-index:-2;
+    position:absolute; inset:-90px 0; z-index:-2;
     background:url('/images/profile/steam-stage.jpg') center/cover no-repeat;
     transform:translate3d(0,var(--stage-shift),0) scale(1.07); will-change:transform;
     opacity:.2; filter:hue-rotate(55deg) saturate(.72) brightness(.48) contrast(1.1);

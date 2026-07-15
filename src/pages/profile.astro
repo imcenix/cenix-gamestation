@@ -65,7 +65,7 @@ const cmsSteamEntries = profileEntries
   .filter((entry) => entry.data.type === 'steam')
   .sort((a, b) => Number(a.data.order ?? 999) - Number(b.data.order ?? 999));
 
-const cmsSteamRecent = cmsSteamEntries.map((entry) => ({
+const featuredPcGames = cmsSteamEntries.map((entry) => ({
   appid: entry.data.appid ?? 0,
   name: entry.data.title,
   lastPlayed: entry.data.last_played ?? '2026-01-01',
@@ -79,7 +79,6 @@ const steamAchievements = profileSettings?.data.steam_achievements ?? steamBase.
 const steam = {
   ...steamBase,
   totals: { ...steamBase.totals, achievements: steamAchievements },
-  recent: cmsSteamRecent.length ? cmsSteamRecent : steamBase.recent,
 };
 
 const mapShelfGames = (type: 'switch' | 'mobile') => profileEntries
@@ -110,7 +109,7 @@ const steamGamesLabel = profileSettings?.data.steam_games ?? PROFILE.steamGames;
     gamingYears={gamingYears}
   />
   <PsnCollection psn={psn} plats={plats} />
-  <SteamActivity steam={steam} steamGamesLabel={steamGamesLabel} />
+  <SteamActivity steam={steam} steamGamesLabel={steamGamesLabel} featuredGames={featuredPcGames} />
   <PlatformLibraries switchGames={switchGames} mobileGames={mobileGames} />
 </BaseLayout>
 

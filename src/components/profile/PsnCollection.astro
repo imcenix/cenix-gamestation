@@ -109,9 +109,10 @@ const platPages = Array.from({ length: Math.ceil(plats.length / 6) }, (_, i) => 
 
 <style>
   @property --card-angle { syntax: '<angle>'; initial-value: 0deg; inherits: false; }
-  .profile-stage { --stage-shift: 0px; position: relative; isolation: isolate; overflow: hidden; background: #07080a; border-bottom: 1px solid var(--bd-divider); }
+  .profile-stage { --stage-shift: 0px; position: relative; width:100vw; margin-left:calc(50% - 50vw); margin-right:calc(50% - 50vw); isolation: isolate; overflow: hidden; background: #07080a; border-bottom: 1px solid var(--bd-divider); }
+  .profile-stage > .gut { width:100%; max-width:var(--maxw); margin-left:auto; margin-right:auto; }
   .stage-background {
-    position: absolute; inset: -90px -4vw; z-index: -2;
+    position: absolute; inset: -90px 0; z-index: -2;
     background: url('/images/profile/playstation-stage.jpg') center/cover no-repeat;
     transform: translate3d(0,var(--stage-shift),0) scale(1.06); will-change: transform;
     opacity: .34; filter: saturate(.72) brightness(.58) contrast(1.08);
