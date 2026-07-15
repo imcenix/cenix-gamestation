@@ -614,7 +614,8 @@ const tier3 = tierlists.slice(0, 3).map((t) => {
 
   @media (max-width: 900px) {
     .home-hero { min-height: 100svh; margin-top:0; padding: 72px 20px 48px; align-items: center; }
-    .hh-video { object-position: center center; }
+    /* Mobile source video has a dark safe area at the top; pull artwork beneath the fixed nav. */
+    .hh-video { object-position: 50% 42%; transform: translate3d(0,-4%,0) scale(1.08); transform-origin: center; }
     .hh-copy { width: 100%; }
     .hh-title { font-size: clamp(58px, 14.8vw, 86px); line-height: .82; letter-spacing: -4px; }
     .hh-outline-white, .hh-outline-lime { -webkit-text-stroke-width: 1.4px; }
@@ -664,6 +665,7 @@ const tier3 = tierlists.slice(0, 3).map((t) => {
 
   @media (max-width: 560px) {
     .home-hero { min-height: 100svh; padding: 68px 16px 44px; }
+    .hh-video { object-position: 50% 38%; transform: translate3d(0,-5%,0) scale(1.1); }
     .hh-title { font-size: clamp(49px, 14.2vw, 62px); line-height: .84; letter-spacing: -3px; }
     .hh-outline-white, .hh-outline-lime { -webkit-text-stroke-width: 1.15px; }
     .story-manifesto { min-height: 405px; padding: 64px 16px 56px; }
