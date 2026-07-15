@@ -1,7 +1,7 @@
 ---
 type: steam
 title: Wandering Sword
-thumbnail: thumbnail.jpg
+thumbnail: hero_capsule-1.webp
 order: 1
 appid: 1876890
 last_played: 2026-07-11
