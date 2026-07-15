@@ -25,7 +25,7 @@ const { activeNav = 'home' } = Astro.props;
   </nav>
 
   <div class="nav-actions">
-    <span class="btn-lime follow" aria-disabled="true" title="Sắp có">Cenix Profile</span>
+    <a class="btn-lime follow" href="/profile">Cenix Profile</a>
     <button class="nav-hamburger" id="nav-hamburger" aria-label="Mở menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -40,7 +40,8 @@ const { activeNav = 'home' } = Astro.props;
     border-bottom: 1px solid transparent;
     transition: background 0.3s ease, backdrop-filter 0.3s ease, border-color 0.3s ease;
   }
-  :global(body:not([data-page='home'])) .site-nav {
+  /* Trang có hero video full-bleed (home, profile) để nav trong suốt đè lên. */
+  :global(body:not([data-page='home']):not([data-page='profile'])) .site-nav {
     background: rgba(10, 10, 11, 0.92);
     border-bottom-color: var(--bd-divider);
   }

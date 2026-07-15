@@ -1,0 +1,157 @@
+---
+interface GameItem {
+  id: string;
+  title: string;
+  image: string | null;
+}
+interface Props {
+  switchGames: GameItem[];
+  mobileGames: GameItem[];
+}
+const { switchGames, mobileGames } = Astro.props;
+const shelves = [
+  {
+    id: 'nintendo-switch',
+    eyebrow: 'HANDHELD WORLDS',
+    title: 'NINTENDO SWITCH',
+    tone: 'switch',
+    games: switchGames,
+    empty: 'ADD GAMES FROM CENIX CMS',
+  },
+  {
+    id: 'mobile-game',
+    eyebrow: 'GAMES IN YOUR POCKET',
+    title: 'MOBILE GAME',
+    tone: 'mobile',
+    games: mobileGames,
+    empty: 'ADD GAMES FROM CENIX CMS',
+  },
+];
+---
+
+<div class="platform-libraries">
+  {shelves.map((shelf) => (
+    <section id={shelf.id} class:list={['game-shelf', shelf.tone]}>
+      <div class="shelf-glow" aria-hidden="true"></div>
+      <div class="gut shelf-inner">
+        <div class="shelf-head">
+          <div>
+            <div class="shelf-eyebrow">{shelf.eyebrow}</div>
+            <h2>{shelf.title}</h2>
+          </div>
+          <div class="shelf-count">{shelf.games.length ? `${shelf.games.length} GAMES` : 'READY FOR CMS'}</div>
+        </div>
+
+        {shelf.games.length ? (
+          <div class="shelf-carousel" data-carousel>
+            <button class="shelf-arrow prev" type="button" data-carousel-prev aria-label={'Previous game in ' + shelf.title}>←</button>
+            <div class="shelf-viewport" data-carousel-viewport>
+              <div class="shelf-track">
+                {shelf.games.map((game) => (
+                  <article class="shelf-card">
+                    {game.image ? <img src={game.image} alt={game.title} loading="lazy" /> : <div class="shelf-placeholder"></div>}
+                    <div class="shelf-shade"></div>
+                    <div class="shelf-copy">
+                      <span>{shelf.title}</span>
+                      <strong>{game.title}</strong>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </div>
+            <button class="shelf-arrow next" type="button" data-carousel-next aria-label={'Next game in ' + shelf.title}>→</button>
+          </div>
+        ) : (
+          <div class="shelf-empty">
+            <span>COLLECTION IN PROGRESS</span>
+            <strong>{shelf.empty}</strong>
+          </div>
+        )}
+      </div>
+    </section>
+  ))}
+</div>
+
+<style>
+  .platform-libraries { overflow:hidden; background:#070707; }
+  .game-shelf {
+    --tone:#ff4d75;
+    position:relative;
+    isolation:isolate;
+    overflow:hidden;
+    padding:78px 0 84px;
+    border-top:1px solid rgba(255,255,255,.07);
+  }
+  .game-shelf.mobile { --tone:#ffd84d; }
+  .shelf-glow {
+    position:absolute; inset:0; z-index:-1;
+    background:
+      radial-gradient(circle at 16% 20%, color-mix(in srgb,var(--tone) 14%,transparent), transparent 34%),
+      linear-gradient(115deg,color-mix(in srgb,var(--tone) 4%,transparent),transparent 42%),
+      #070707;
+  }
+  .shelf-head { display:flex; align-items:flex-end; justify-content:space-between; gap:24px; margin:0 52px 24px; }
+  .shelf-eyebrow { margin-bottom:10px; color:var(--tx-meta); font:700 9px var(--mono); letter-spacing:2px; }
+  .shelf-head h2 {
+    color:var(--tone);
+    font:900 clamp(46px,6vw,92px)/.82 var(--display);
+    letter-spacing:clamp(-5px,-.4vw,-2px);
+    word-spacing:.08em;
+    text-shadow:0 0 30px color-mix(in srgb,var(--tone) 12%,transparent);
+  }
+  .shelf-count { color:color-mix(in srgb,var(--tone) 72%,#fff); font:700 9px var(--mono); letter-spacing:1.6px; }
+  .shelf-carousel { position:relative; }
+  .shelf-viewport { margin:0 52px; overflow:hidden; scroll-behavior:smooth; scroll-snap-type:x mandatory; }
+  .shelf-track { display:flex; gap:18px; width:max-content; }
+  .shelf-card {
+    position:relative;
+    flex:0 0 clamp(184px,16vw,232px);
+    aspect-ratio:9/16;
+    overflow:hidden;
+    border:1px solid color-mix(in srgb,var(--tone) 30%,rgba(255,255,255,.12));
+    background:#111;
+    scroll-snap-align:start;
+    box-shadow:0 22px 54px rgba(0,0,0,.28);
+  }
+  .shelf-card img { width:100%; height:100%; object-fit:cover; filter:saturate(.82) brightness(.78); transition:transform .5s ease,filter .5s ease; }
+  .shelf-card:hover img { transform:scale(1.07); filter:saturate(1) brightness(.9); }
+  .shelf-placeholder { width:100%; height:100%; background:linear-gradient(145deg,color-mix(in srgb,var(--tone) 14%,#111),#080808); }
+  .shelf-shade { position:absolute; inset:0; background:linear-gradient(180deg,transparent 38%,rgba(4,4,4,.96) 96%); }
+  .shelf-copy { position:absolute; inset:auto 16px 18px; display:flex; flex-direction:column; gap:8px; }
+  .shelf-copy span { color:var(--tone); font:700 8px var(--mono); letter-spacing:1.2px; }
+  .shelf-copy strong { color:#fff; font:900 20px/1.04 var(--display); }
+  .shelf-arrow {
+    position:absolute; top:50%; z-index:3;
+    width:42px; height:42px; display:grid; place-items:center;
+    border:1px solid color-mix(in srgb,var(--tone) 45%,rgba(255,255,255,.2));
+    border-radius:50%; background:rgba(7,7,7,.8); color:#fff;
+    transform:translateY(-50%); backdrop-filter:blur(10px);
+  }
+  .shelf-arrow:hover:not(:disabled) { color:var(--tone); border-color:var(--tone); }
+  .shelf-arrow:disabled { opacity:.2; cursor:default; }
+  .shelf-arrow.prev { left:0; } .shelf-arrow.next { right:0; }
+  .shelf-empty {
+    min-height:240px; margin:0 52px; padding:36px;
+    display:flex; flex-direction:column; justify-content:flex-end; gap:10px;
+    border:1px dashed color-mix(in srgb,var(--tone) 34%,rgba(255,255,255,.12));
+    background:linear-gradient(135deg,color-mix(in srgb,var(--tone) 7%,transparent),rgba(255,255,255,.015));
+  }
+  .shelf-empty span { color:var(--tone); font:700 9px var(--mono); letter-spacing:1.6px; }
+  .shelf-empty strong { color:rgba(255,255,255,.58); font:900 clamp(24px,3vw,42px)/1 var(--display); }
+
+  @media(max-width:760px) {
+    .game-shelf { max-width:100vw; padding:58px 0 64px; }
+    .shelf-inner, .shelf-head, .shelf-head > div, .shelf-empty { min-width:0; max-width:100%; }
+    .shelf-head { margin:0 0 20px; align-items:flex-start; flex-direction:column; gap:10px; }
+    .shelf-head h2 { max-width:100%; font-size:clamp(28px,7.5vw,34px); line-height:.9; white-space:normal; overflow-wrap:anywhere; }
+    .shelf-empty strong { font-size:clamp(17px,4.8vw,22px); white-space:normal; overflow-wrap:break-word; }
+    .shelf-viewport { margin:0; overflow-x:auto; }
+    .shelf-card { flex-basis:min(59vw,224px); }
+    .shelf-arrow { display:none; }
+    .shelf-empty { min-height:190px; margin:0; padding:24px; }
+  }
+  @media(prefers-reduced-motion:reduce) {
+    .shelf-viewport { scroll-behavior:auto; }
+    .shelf-card img { transition:none; }
+  }
+</style>

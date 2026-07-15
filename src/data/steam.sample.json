@@ -1,0 +1,46 @@
+{
+  "_note": "Data mẫu cho dev local. Bản thật do scripts/fetch-steam.mjs ghi ra src/data/steam.json trong GitHub Actions.",
+  "fetchedAt": "2026-07-14T00:00:00Z",
+  "profile": {
+    "personaName": "imCenix",
+    "level": 10,
+    "badges": 7,
+    "url": "https://steamcommunity.com/id/imcenix/"
+  },
+  "totals": {
+    "games": 150,
+    "dlc": 82,
+    "achievements": 397,
+    "perfectGames": 1,
+    "twoWeeksHours": 149.3
+  },
+  "recent": [
+    {
+      "appid": 1876890,
+      "name": "Wandering Sword",
+      "lastPlayed": "2026-07-11",
+      "achieved": 39,
+      "total": 110,
+      "hours": 144,
+      "header": "https://cdn.cloudflare.steamstatic.com/steam/apps/1876890/header.jpg"
+    },
+    {
+      "appid": 1963370,
+      "name": "Sword of Convallaria",
+      "lastPlayed": "2026-07-11",
+      "achieved": null,
+      "total": null,
+      "hours": 4.1,
+      "header": "https://cdn.cloudflare.steamstatic.com/steam/apps/1963370/header.jpg"
+    },
+    {
+      "appid": 2291060,
+      "name": "Dragonkin: The Banished",
+      "lastPlayed": "2026-07-12",
+      "achieved": 1,
+      "total": 44,
+      "hours": 0.9,
+      "header": "https://cdn.cloudflare.steamstatic.com/steam/apps/2291060/header.jpg"
+    }
+  ]
+}

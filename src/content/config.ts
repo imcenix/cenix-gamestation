@@ -86,4 +86,74 @@ const reviews = defineCollection({
   }),
 });
 
-export const collections = { news, videos, tierlists, guides, reviews };
+/* ── PSN — thẻ tổng quan PlayStation (chỉ dùng 1 entry) ─────────────────────
+ * assets/psn/<slug>/profile.md  (+ avatar.png)
+ * Trang /profile đọc entry đầu tiên; anh cập nhật số liệu qua CMS.           */
+const psn = defineCollection({
+  loader: glob({
+    pattern: ['*/profile.md', '!_*/profile.md'],
+    base: './assets/psn',
+    generateId: ({ entry }) => entry.split('/')[0],
+  }),
+  schema: z.object({
+    display_name: z.string().default('CENIX TR'),
+    psn_id:       z.string().default('Mirirem'),
+    avatar:       z.string().nullable().optional(),
+    level:        z.number().default(0),
+    platinum:     z.number().default(0),
+    gold:         z.number().default(0),
+    silver:       z.number().default(0),
+    bronze:       z.number().default(0),
+  }),
+});
+
+/* ── Platinum — mỗi cúp bạch kim PS5 đã đạt = 1 entry ───────────────────────
+ * assets/platinum/<slug>/trophy.md  (+ cover.jpg)
+ * Đạt cúp mới → anh đăng qua CMS: cover, tên game, ngày đạt, số cúp phụ.     */
+const platinum = defineCollection({
+  loader: glob({
+    pattern: ['*/trophy.md', '!_*/trophy.md'],
+    base: './assets/platinum',
+    generateId: ({ entry }) => entry.split('/')[0],
+  }),
+  schema: z.object({
+    title:  z.string(),
+    cover:  z.string().nullable().optional(),
+    date:   dateSchema, // ngày đạt cúp bạch kim
+    gold:   z.number().default(0),
+    silver: z.number().default(0),
+    bronze: z.number().default(0),
+    order:  orderSchema,
+  }),
+});
+
+const profile = defineCollection({
+  loader: glob({
+    pattern: ['*/item.md', '!_*/item.md'],
+    base: './assets/profile',
+    generateId: ({ entry }) => entry.split('/')[0],
+  }),
+  schema: z.object({
+    type: z.enum(['psn', 'platinum', 'steam', 'switch', 'mobile']),
+    title: z.string(),
+    thumbnail: z.string().nullable().optional(),
+    order: orderSchema,
+    psn_id: z.string().nullable().optional(),
+    level: z.number().nullable().optional(),
+    platinum: z.number().nullable().optional(),
+    gold: z.number().nullable().optional(),
+    silver: z.number().nullable().optional(),
+    bronze: z.number().nullable().optional(),
+    playstation_games: z.string().nullable().optional(),
+    steam_games: z.string().nullable().optional(),
+    gaming_years: z.string().nullable().optional(),
+    steam_achievements: z.number().nullable().optional(),
+    date: dateSchema.nullable().optional(),
+    appid: z.number().nullable().optional(),
+    last_played: dateSchema.nullable().optional(),
+    achieved: z.number().nullable().optional(),
+    total: z.number().nullable().optional(),
+    hours: z.number().nullable().optional(),
+  }),
+});
+export const collections = { news, videos, tierlists, guides, reviews, psn, platinum, profile };

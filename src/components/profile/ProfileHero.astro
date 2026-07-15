@@ -1,0 +1,247 @@
+---
+import { PROFILE } from '../../config/site';
+
+/** Banner trang /profile — theo pattern hero của imcenix.com (Profile V1):
+ *  video động full-bleed dưới nền + tint tối, trái là info, phải là ảnh
+ *  cutout (PNG nền trong suốt) nổi lên trước chữ lớn CENIX GAMING. */
+interface Props {
+  platinum: number;          // tổng cúp bạch kim (từ entry PSN trong CMS)
+  steamAchievements: number; // từ CMS / Steam data
+  playstationGames: string;
+  gamingYears: string;
+}
+const { platinum, steamAchievements, playstationGames, gamingYears } = Astro.props;
+
+
+const stats = [
+  { num: String(platinum),          label: 'PLATINUM TROPHIES', hl: true },
+  { num: String(steamAchievements), label: 'STEAM ACHIEVEMENTS' },
+  { num: playstationGames,  label: 'PLAYSTATION GAMES' },
+  { num: gamingYears,        label: 'YEARS WITH GAMES' },
+];
+---
+
+<section class="phero">
+  <!-- Video nền — dùng chung clip với masthead trang chủ (same-origin). -->
+  <video
+    class="phero-video"
+    src="/background-clip/01.mp4"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="auto"
+    aria-hidden="true"
+  ></video>
+  <div class="phero-tint" aria-hidden="true"></div>
+
+  <div class="phero-grid gut">
+    <!-- TRÁI: breadcrumb + title + intro + chips + stats -->
+    <div class="phero-left">
+      <div class="crumb">HOME / <span class="here">PROFILE</span></div>
+
+      <h1 class="phero-title">
+        <span>CENIX</span>
+        <span class="lime">PROFILE</span>
+      </h1>
+
+      <p class="phero-desc">{PROFILE.intro}</p>
+
+      <div class="phero-chips">
+        <a class="pchip" href={PROFILE.psnUrl} target="_blank" rel="noopener">
+          <span class="pchip-ico" aria-hidden="true">▲</span> PSN / {PROFILE.psnId.toUpperCase()}
+        </a>
+        <a class="pchip" href={PROFILE.steamUrl} target="_blank" rel="noopener">
+          <span class="pchip-ico" aria-hidden="true">◉</span> STEAM / {PROFILE.steamVanity.toUpperCase()}
+        </a>
+      </div>
+
+      <div class="phero-stats">
+        {stats.map((s) => (
+          <div class="pstat">
+            <span class:list={['pstat-num', { lime: s.hl }]}>{s.num}</span>
+            <span class="pstat-label">{s.label}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- PHẢI: cutout nổi trước chữ lớn CENIX GAMING (như imcenix.com) -->
+    <div class="phero-portrait-wrap" aria-hidden="true">
+      <div class="phero-big">
+        <span>CENIX</span>
+        <span>GAMING</span>
+      </div>
+      <div class="phero-portrait">
+        <img src="/images/profile-cutout.png" alt="" loading="eager" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .phero {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    border-bottom: 1px solid var(--bd-divider);
+    /* fallback khi video chưa load */
+    background: linear-gradient(120deg, #0a0a0b 0%, #101014 55%, #0a0a0b 100%);
+    /* nav fixed trong suốt đè lên — chừa chỗ cho nav như masthead home */
+    padding-top: 96px;
+  }
+  .phero-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.55;
+    filter: saturate(0.3) brightness(0.6) contrast(1.05);
+  }
+  .phero-tint {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background:
+      radial-gradient(ellipse 80% 80% at 10% 15%, rgba(10, 10, 11, 0.6), transparent 70%),
+      linear-gradient(180deg, rgba(10, 10, 11, 0.55) 0%, rgba(10, 10, 11, 0.35) 55%, rgba(10, 10, 11, 0.75) 100%);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .phero-video { display: none; }
+  }
+
+  .phero-grid {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: clamp(24px, 4vw, 56px);
+    align-items: stretch;
+  }
+
+  .phero-left { padding: 20px 0 48px; }
+
+  .phero-title {
+    display: flex;
+    flex-direction: column;
+    font: 900 clamp(52px, 6.5vw, 86px)/0.95 var(--display);
+    letter-spacing: -2px;
+    margin: 6px 0 22px;
+  }
+  .phero-title .lime { color: var(--lime); }
+
+  .phero-desc {
+    font: 400 15.5px/1.75 var(--display);
+    color: var(--tx-65);
+    max-width: 560px;
+    margin-bottom: 26px;
+    white-space: pre-line;
+  }
+
+  .phero-chips { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 36px; }
+  .pchip {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--bd-input);
+    padding: 13px 20px;
+    border-radius: 3px;
+    font: 700 11.5px var(--mono);
+    letter-spacing: 1px;
+    color: #fff;
+    background: rgba(10, 10, 11, 0.4);
+  }
+  .pchip:hover { border-color: var(--lime-40); color: #fff; }
+  .pchip-ico { color: var(--lime); font-size: 10px; }
+
+  .phero-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid var(--bd-soft);
+    background: rgba(10, 10, 11, 0.55);
+  }
+  .pstat {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px 22px;
+  }
+  .pstat + .pstat { border-left: 1px solid var(--bd-soft); }
+  .pstat-num { font: 900 32px/1 var(--display); letter-spacing: -1px; }
+  .pstat-num.lime { color: var(--lime); }
+  .pstat-label { font: 700 9.5px var(--mono); letter-spacing: 1.5px; color: var(--tx-meta); }
+
+  /* ── Cụm phải: chữ lớn + cutout (pattern imcenix.com) ─────────────────── */
+  .phero-portrait-wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-self: end;
+    min-height: 0;
+  }
+  .phero-big {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* đẩy chữ lên vùng đầu/vai (thân ảnh hẹp hơn) cho lộ chữ nhiều hơn */
+    padding-bottom: 16%;
+    font: 900 clamp(64px, 9vw, 128px)/0.85 var(--display);
+    letter-spacing: 0.01em;
+    color: var(--lime);
+    text-align: center;
+    z-index: 1;
+    pointer-events: none;
+  }
+  .phero-big span { display: block; }
+  .phero-big span:nth-child(2) { margin-top: 10px; }
+  /* "Thở" nhẹ: CENIX nhấp lên trong khi GAMING nhún xuống */
+  @keyframes phero-bob-up {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(-10px); }
+  }
+  @keyframes phero-bob-down {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(10px); }
+  }
+  .phero-big span:nth-child(1) { animation: phero-bob-up 6s ease-in-out infinite; }
+  .phero-big span:nth-child(2) { animation: phero-bob-down 6s ease-in-out infinite; }
+  @media (prefers-reduced-motion: reduce) {
+    .phero-big span { animation: none; }
+  }
+
+  /* Cutout PNG (667×1000, ~23% trống phía trên đầu) — crop phần trống bằng
+     aspect-ratio + object-fit như Profile V1. */
+  .phero-portrait {
+    position: relative;
+    z-index: 3;
+    width: min(100%, 430px);
+    aspect-ratio: 660 / 800;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .phero-portrait img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 100%;
+  }
+
+  @media (max-width: 900px) {
+    .phero { padding-top: 84px; }
+    .phero-grid { grid-template-columns: 1fr; }
+    .phero-left { padding-bottom: 8px; }
+    .phero-stats { grid-template-columns: repeat(2, 1fr); }
+    .pstat:nth-child(3) { border-left: none; }
+    .pstat:nth-child(n + 3) { border-top: 1px solid var(--bd-soft); }
+    .phero-portrait { width: min(100%, 340px); }
+    .phero-big { font-size: clamp(44px, 12vw, 64px); }
+  }
+</style>

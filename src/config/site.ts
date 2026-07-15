@@ -25,4 +25,19 @@ export const NAV = [
   { label: 'Tips',      href: '/huong-dan', key: 'guide' },
 ] as const;
 
-export type NavKey = (typeof NAV)[number]['key'];
+/** 'profile' không nằm trong menu chính — nó là nút lime bên phải Nav. */
+export type NavKey = (typeof NAV)[number]['key'] | 'profile';
+
+/** Cenix Profile (/profile) — thông số cá nhân gaming, sửa ở đây. */
+export const PROFILE = {
+  psnId: 'Mirirem',
+  psnUrl: 'https://psnprofiles.com/Mirirem',
+  steamVanity: 'imcenix',
+  steamUrl: 'https://steamcommunity.com/id/imcenix/',
+  platinumTrophies: 14,
+  playstationGames: '400+',
+  steamGames: '150+',
+  gamingYears: '30+',
+  intro:
+    'Life is more fun when you play games.\nA cross-platform gaming profile documenting Cenix’s journey through memorable worlds, hard-earned achievements, and milestones across console, PC, and mobile.',
+} as const;

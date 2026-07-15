@@ -77,7 +77,8 @@ p { margin: 0 0 1em; }
 .gut { padding-left: var(--gutter); padding-right: var(--gutter); }
 
 .app-main { min-height: 60vh; }
-body:not([data-page='home']) .app-main { padding-top: 86px; }
+/* profile cũng có hero video full-bleed như home → tự lo offset trong hero */
+body:not([data-page='home']):not([data-page='profile']) .app-main { padding-top: 86px; }
 
 /* ── Mono label / kicker helpers ──────────────────────────────────────── */
 .mono { font-family: var(--mono); }

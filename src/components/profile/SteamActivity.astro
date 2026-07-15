@@ -1,0 +1,208 @@
+---
+import { PROFILE } from '../../config/site';
+import { dmy } from '../../lib/format';
+import type { SteamData } from '../../lib/steam';
+
+interface Props { steam: SteamData; steamGamesLabel: string }
+const { steam, steamGamesLabel } = Astro.props;
+const t = steam.totals;
+const weeklyHours = t.twoWeeksHours / 2;
+const cells = [
+  { num: steamGamesLabel, label: 'GAMES' },
+  ...(t.dlc !== null ? [{ num: String(t.dlc), label: 'DLC' }] : []),
+  { num: String(t.achievements), label: 'ACHIEVEMENTS', hl: true },
+  { num: `${weeklyHours.toLocaleString('en-US', { maximumFractionDigits: 1 })}h`, label: 'WEEKLY PLAY TIME' },
+];
+const rankedRecent = [...steam.recent].sort((a, b) => {
+  const byAchievements = (b.achieved ?? -1) - (a.achieved ?? -1);
+  return byAchievements || b.hours - a.hours;
+});
+const featuredGames = rankedRecent;
+---
+
+<section id="steam" class="profile-stage steam-stage" data-profile-stage>
+  <div class="stage-background" aria-hidden="true"></div>
+
+  <div class="platform-banner gut">
+    <div class="platform-kicker">STEAM LIBRARY</div>
+    <h2 class="platform-slogan"><span>EVERY ACHIEVEMENT</span><strong><em>TELLS</em> <b class="fill-lime">A</b> <em>STORY</em></strong></h2>
+  </div>
+
+  <div class="steam gut">
+    <div class="steam-head">
+      <div>
+        <div class="eyebrow steam-eyebrow">
+          <span aria-hidden="true">◉</span> STEAM — LEVEL {steam.profile.level} · {steam.profile.badges} BADGES
+        </div>
+        <h2 class="steam-title">STEAM'S COLLECTION</h2>
+      </div>
+      <a class="steam-more" href={PROFILE.steamUrl} target="_blank" rel="noopener">VIEW ON STEAM <span>→</span></a>
+    </div>
+
+    <div class="steam-stats" style={`--cols:${cells.length}`}>
+      {cells.map((c) => (
+        <div class="scell">
+          <span class:list={['scell-num', { lime: c.hl }]}>{c.num}</span>
+          <span class="scell-label">{c.label}</span>
+        </div>
+      ))}
+    </div>
+
+    <div class="featured-head">
+      <div>
+        <div class="featured-title">FEATURED PC GAMES</div>
+        <div class="featured-note">EXPANDS AUTOMATICALLY WITH STEAM DATA</div>
+      </div>
+    </div>
+
+    <div class="featured-carousel" data-carousel>
+      <button class="carousel-arrow prev" type="button" data-carousel-prev aria-label="Previous PC games">←</button>
+      <div class="featured-viewport" data-carousel-viewport>
+        <div class="featured-track">
+          {featuredGames.map((g) => (
+            <article class="featured-card">
+              <img src={g.header} alt={g.name} loading="lazy" onerror="this.closest('.featured-card').classList.add('no-image'); this.remove()" />
+              <div class="featured-shade"></div>
+              <div class="featured-copy">
+                <span>{g.achieved !== null ? g.achieved + ' ACHIEVEMENTS' : 'STEAM LIBRARY'}</span>
+                <strong>{g.name}</strong>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+      <button class="carousel-arrow next" type="button" data-carousel-next aria-label="Next PC games">→</button>
+    </div>
+
+    <div class="steam-recent-label">
+      <span>RECENT ACTIVITY</span>
+      <span>SORTED BY ACHIEVEMENTS EARNED</span>
+    </div>
+
+    <div class="steam-list">
+      {rankedRecent.map((g) => {
+        const pct = g.achieved !== null && g.total ? Math.round((g.achieved / g.total) * 100) : 0;
+        return (
+          <div class="srow">
+            <div class="srow-cover">
+              <img class="cover" src={g.header} alt={'Header ' + g.name} loading="lazy" onerror="this.closest('.srow-cover').classList.add('ph'); this.remove()" />
+            </div>
+            <div class="srow-info">
+              <div class="srow-name">{g.name}</div>
+              <div class="srow-last">LAST PLAYED {dmy(g.lastPlayed)}</div>
+            </div>
+            <div class="srow-ach">
+              <div class="srow-ach-head">
+                <span>ACHIEVEMENTS</span>
+                <span class="srow-ach-nums">
+                  {g.achieved !== null && g.total ? <>{g.achieved} <i>/</i> {g.total}</> : '–'}
+                </span>
+              </div>
+              <div class="srow-bar"><div class="srow-fill" style={`width:${pct}%`}></div></div>
+            </div>
+            <div class="srow-hours">
+              <span class="srow-hours-num">{g.hours.toLocaleString('vi-VN')}</span>
+              <span class="srow-hours-label">HOURS PLAYED</span>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+
+    <div class="steam-updated">STEAM DATA UPDATED — {dmy(steam.fetchedAt)}</div>
+  </div>
+</section>
+
+<style>
+  .profile-stage { --stage-shift:0px; position:relative; isolation:isolate; overflow:hidden; background:#070909; }
+  .stage-background {
+    position:absolute; inset:-90px -4vw; z-index:-2;
+    background:url('/images/profile/steam-stage.jpg') center/cover no-repeat;
+    transform:translate3d(0,var(--stage-shift),0) scale(1.07); will-change:transform;
+    opacity:.2; filter:hue-rotate(55deg) saturate(.72) brightness(.48) contrast(1.1);
+    -webkit-mask-image:linear-gradient(180deg,transparent,#000 12%,#000 84%,transparent);
+    mask-image:linear-gradient(180deg,transparent,#000 12%,#000 84%,transparent);
+  }
+  .profile-stage::after { content:''; position:absolute; inset:0; z-index:-1; background:radial-gradient(circle at 78% 30%,rgba(200,240,60,.08),transparent 34%),linear-gradient(180deg,rgba(5,8,8,.62),rgba(6,8,8,.9) 48%,#070808); }
+  .platform-banner { min-height:clamp(250px,32vw,390px); display:flex; flex-direction:column; justify-content:center; align-items:flex-end; text-align:right; padding-top:52px; padding-bottom:52px; }
+  .platform-kicker { margin-bottom:16px; color:rgba(255,255,255,.5); font:700 10px var(--mono); letter-spacing:2.4px; }
+  .platform-slogan { display:flex; flex-direction:column; align-items:flex-end; max-width:100%; color:#fff; font:900 clamp(46px,6.3vw,98px)/.8 var(--display); letter-spacing:clamp(-6px,-.45vw,-2px); }
+  .platform-slogan strong { margin-top:15px; color:transparent; -webkit-text-stroke:2px var(--lime); filter:drop-shadow(0 0 24px rgba(200,240,60,.15)); }
+  .platform-slogan b, .platform-slogan em { font-style:normal; font-weight:inherit; }
+  .platform-slogan .fill-lime { color:var(--lime); -webkit-text-stroke:0; text-shadow:0 0 22px rgba(200,240,60,.14); }
+
+  .steam { padding-top:40px; padding-bottom:78px; }
+  .steam-head { display:flex; align-items:flex-end; justify-content:space-between; gap:16px; margin-bottom:26px; }
+  .steam-eyebrow { color:var(--tx-meta); margin-bottom:10px; }
+  .steam-eyebrow span { color:var(--lime); }
+  .steam-title { font:900 clamp(34px,4.5vw,58px)/.95 var(--display); letter-spacing:-1.5px; }
+  .steam-more { flex:none; color:var(--lime); font:700 10.5px var(--mono); letter-spacing:1px; border-bottom:1px solid var(--lime-40); padding-bottom:3px; }
+  .steam-stats { display:grid; grid-template-columns:repeat(var(--cols,4),1fr); border:1px solid rgba(255,255,255,.11); background:rgba(7,10,10,.54); backdrop-filter:blur(14px); margin-bottom:38px; }
+  .scell { display:flex; flex-direction:column; gap:9px; padding:24px; }
+  .scell + .scell { border-left:1px solid rgba(255,255,255,.08); }
+  .scell-num { font:900 34px/1 var(--display); letter-spacing:-1px; }
+  .scell-num.lime { color:var(--lime); }
+  .scell-label { color:var(--tx-meta); font:700 9.5px var(--mono); letter-spacing:1.5px; }
+
+  .featured-head { display:flex; justify-content:space-between; align-items:flex-end; margin:0 52px 16px; }
+  .featured-title { color:#fff; font:900 18px var(--display); }
+  .featured-note { margin-top:6px; color:var(--tx-meta); font:700 9px var(--mono); letter-spacing:1.4px; }
+  .featured-carousel { position:relative; margin-bottom:44px; }
+  .featured-viewport { margin:0 52px; overflow:hidden; scroll-behavior:smooth; scroll-snap-type:x mandatory; }
+  .featured-track { display:flex; gap:18px; width:max-content; }
+  .featured-card {
+    position:relative; flex:0 0 clamp(180px,16vw,230px); aspect-ratio:9/16; overflow:hidden;
+    border:1px solid rgba(255,255,255,.14); background:linear-gradient(145deg,#171d1a,#080a09); scroll-snap-align:start;
+  }
+  .featured-card img { width:100%; height:100%; object-fit:cover; transform:scale(1.04); transition:transform .5s ease,filter .5s ease; filter:saturate(.78) brightness(.76); }
+  .featured-card:hover img { transform:scale(1.1); filter:saturate(1) brightness(.9); }
+  .featured-shade { position:absolute; inset:0; background:linear-gradient(180deg,transparent 35%,rgba(4,6,5,.94) 94%); }
+  .featured-copy { position:absolute; inset:auto 16px 17px; display:flex; flex-direction:column; gap:8px; }
+  .featured-copy span { color:var(--lime); font:700 8px var(--mono); letter-spacing:1.2px; }
+  .featured-copy strong { color:#fff; font:900 19px/1.08 var(--display); }
+
+  .carousel-arrow { position:absolute; top:50%; z-index:4; width:42px; height:42px; display:grid; place-items:center; border:1px solid rgba(255,255,255,.24); border-radius:50%; background:rgba(5,8,7,.76); color:#fff; transform:translateY(-50%); }
+  .carousel-arrow:hover:not(:disabled) { color:var(--lime); border-color:var(--lime); }
+  .carousel-arrow:disabled { opacity:.22; cursor:default; }
+  .carousel-arrow.prev { left:0; } .carousel-arrow.next { right:0; }
+
+  .steam-recent-label { display:flex; justify-content:space-between; gap:16px; padding-bottom:12px; border-bottom:1px solid var(--bd-soft); color:var(--tx-dim); font:700 10px var(--mono); letter-spacing:1.7px; }
+  .steam-recent-label span:last-child { color:var(--lime); font-size:8.5px; }
+  .srow { display:grid; grid-template-columns:150px minmax(0,1fr) 340px 90px; align-items:center; gap:26px; padding:20px 0; border-bottom:1px solid var(--bd-soft); }
+  .srow-cover { aspect-ratio:460/215; overflow:hidden; background:var(--surface-2); }
+  .srow-name { font:800 19px var(--display); letter-spacing:-.3px; }
+  .srow-last { margin-top:6px; color:var(--tx-meta); font:400 10px var(--mono); letter-spacing:1px; }
+  .srow-ach-head { display:flex; justify-content:space-between; margin-bottom:8px; color:var(--tx-meta); font:400 10px var(--mono); letter-spacing:1px; }
+  .srow-ach-nums { color:var(--tx-65); } .srow-ach-nums i { font-style:normal; color:var(--tx-faint); }
+  .srow-bar { height:4px; background:rgba(255,255,255,.12); } .srow-fill { height:100%; background:var(--lime); }
+  .srow-hours { display:flex; flex-direction:column; align-items:flex-end; gap:5px; }
+  .srow-hours-num { color:var(--lime); font:900 24px/1 var(--display); }
+  .srow-hours-label { color:var(--tx-meta); font:700 9px var(--mono); letter-spacing:1.5px; }
+  .steam-updated { margin-top:18px; color:var(--tx-faint); font:400 9.5px var(--mono); letter-spacing:1px; text-align:right; }
+
+  @media(max-width:1080px) { .srow { grid-template-columns:130px minmax(0,1fr) 240px 80px; gap:18px; } }
+  @media(max-width:760px) {
+    .stage-background { inset:-40px; opacity:.15; transform:scale(1.08); }
+    .platform-banner { min-height:250px; align-items:flex-start; text-align:left; padding-top:50px; padding-bottom:44px; }
+    .platform-slogan { align-items:flex-start; width:100%; font-size:clamp(31px,9.5vw,42px); line-height:.86; letter-spacing:-2px; }
+    .platform-slogan span, .platform-slogan strong { max-width:100%; white-space:normal; }
+    .platform-slogan strong { margin-top:10px; -webkit-text-stroke-width:1.3px; }
+    .steam { padding-top:28px; padding-bottom:58px; }
+    .steam-head { align-items:flex-start; flex-direction:column; }
+    .steam-stats { grid-template-columns:repeat(2,1fr); }
+    .scell { padding:20px 16px; }
+    .scell-num { font-size:27px; }
+    .scell:nth-child(odd) { border-left:0; } .scell:nth-child(n+3) { border-top:1px solid rgba(255,255,255,.08); }
+    .featured-head { margin:0 0 14px; }
+    .featured-viewport { margin:0; overflow-x:auto; }
+    .featured-card { flex-basis:min(58vw,220px); }
+    .carousel-arrow { display:none; }
+    .steam-recent-label { flex-direction:column; gap:6px; }
+    .srow { grid-template-columns:110px minmax(0,1fr); grid-template-areas:'cover info' 'ach ach' 'hours hours'; row-gap:12px; }
+    .srow-cover{grid-area:cover}.srow-info{grid-area:info}.srow-ach{grid-area:ach}.srow-hours{grid-area:hours;flex-direction:row;align-items:baseline;gap:8px}
+  }
+  @media(prefers-reduced-motion:reduce) {
+    .stage-background { transform:scale(1.07); }
+    .featured-viewport { scroll-behavior:auto; }
+  }
+</style>

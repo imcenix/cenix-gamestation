@@ -9,6 +9,12 @@ public/guides/
 public/tierlists/
 public/reviews/
 public/images/
+public/psn/
+public/platinum/
+public/profile/
+
+# local design sources
+Resource/
 
 # deps
 node_modules/

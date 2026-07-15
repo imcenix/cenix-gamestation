@@ -1,0 +1,50 @@
+---
+/** Icon cúp PSN vẽ bằng SVG — không dùng ảnh bản quyền của Sony.
+ *  kind: plat | gold | silver | bronze | level  */
+interface Props {
+  kind: 'plat' | 'gold' | 'silver' | 'bronze' | 'level';
+  size?: number;
+}
+const { kind, size = 18 } = Astro.props;
+
+const COLORS: Record<string, { main: string; hi: string }> = {
+  plat:   { main: '#8ec9ef', hi: '#d9f0ff' },
+  gold:   { main: '#d9a63c', hi: '#f4d47e' },
+  silver: { main: '#aab2bd', hi: '#e2e7ee' },
+  bronze: { main: '#c07a4a', hi: '#e5aa7c' },
+  level:  { main: '#e0596e', hi: '#ff96a6' },
+};
+const c = COLORS[kind];
+const gid = `tg-${kind}`;
+---
+
+{kind === 'level' ? (
+  <!-- Level: huy hiệu khiên -->
+  <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden="true">
+    <defs>
+      <linearGradient id={gid} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color={c.hi} />
+        <stop offset="1" stop-color={c.main} />
+      </linearGradient>
+    </defs>
+    <path
+      d="M12 2 20 5v6c0 5-3.4 8.6-8 11-4.6-2.4-8-6-8-11V5l8-3z"
+      fill={`url(#${gid})`}
+    />
+    <path d="M12 6.5 13.6 10l3.7.3-2.8 2.4.9 3.6L12 14.4l-3.4 1.9.9-3.6-2.8-2.4 3.7-.3L12 6.5z" fill="rgba(10,10,11,0.55)" />
+  </svg>
+) : (
+  <!-- Trophy: cúp có 2 quai -->
+  <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden="true">
+    <defs>
+      <linearGradient id={gid} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color={c.hi} />
+        <stop offset="1" stop-color={c.main} />
+      </linearGradient>
+    </defs>
+    <path
+      d="M7 3h10v2h4v3c0 2.8-2 5-4.6 5.4A5.5 5.5 0 0 1 13 16.9V19h3v2H8v-2h3v-2.1a5.5 5.5 0 0 1-3.4-3.5C5 13 3 10.8 3 8V5h4V3zm-2 4v1c0 1.6 1 3 2.4 3.5A9.6 9.6 0 0 1 7 8V7H5zm14 0h-2v1c0 1.2-.14 2.4-.4 3.5A3.8 3.8 0 0 0 19 8V7z"
+      fill={`url(#${gid})`}
+    />
+  </svg>
+)}

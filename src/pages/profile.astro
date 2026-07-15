@@ -1,0 +1,163 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ProfileHero from '../components/profile/ProfileHero.astro';
+import PsnCollection from '../components/profile/PsnCollection.astro';
+import SteamActivity from '../components/profile/SteamActivity.astro';
+import PlatformLibraries from '../components/profile/PlatformLibraries.astro';
+import { loadSteam } from '../lib/steam';
+import { PROFILE } from '../config/site';
+
+const legacyPsnEntries = await getCollection('psn');
+const legacyPsnEntry = legacyPsnEntries[0] ?? null;
+const profileEntries = await getCollection('profile');
+const profileSettings = profileEntries.find((entry) => entry.data.type === 'psn') ?? null;
+
+const psn = profileSettings ? {
+  display_name: profileSettings.data.title,
+  psn_id: profileSettings.data.psn_id ?? PROFILE.psnId,
+  avatar: profileSettings.data.thumbnail ? `/profile/${profileSettings.id}/${profileSettings.data.thumbnail}` : null,
+  level: profileSettings.data.level ?? 0,
+  platinum: profileSettings.data.platinum ?? PROFILE.platinumTrophies,
+  gold: profileSettings.data.gold ?? 0,
+  silver: profileSettings.data.silver ?? 0,
+  bronze: profileSettings.data.bronze ?? 0,
+} : {
+  display_name: legacyPsnEntry?.data.display_name ?? 'CENIX TR',
+  psn_id: legacyPsnEntry?.data.psn_id ?? PROFILE.psnId,
+  avatar: legacyPsnEntry?.data.avatar && legacyPsnEntry
+    ? `/psn/${legacyPsnEntry.id}/${legacyPsnEntry.data.avatar}`
+    : null,
+  level: legacyPsnEntry?.data.level ?? 0,
+  platinum: legacyPsnEntry?.data.platinum ?? PROFILE.platinumTrophies,
+  gold: legacyPsnEntry?.data.gold ?? 0,
+  silver: legacyPsnEntry?.data.silver ?? 0,
+  bronze: legacyPsnEntry?.data.bronze ?? 0,
+};
+
+const cmsPlats = profileEntries
+  .filter((entry) => entry.data.type === 'platinum')
+  .sort((a, b) => Number(a.data.order ?? 999) - Number(b.data.order ?? 999))
+  .map((entry) => ({
+    id: entry.id,
+    title: entry.data.title,
+    image: entry.data.thumbnail ? `/profile/${entry.id}/${entry.data.thumbnail}` : null,
+    gold: entry.data.gold ?? 0,
+    silver: entry.data.silver ?? 0,
+    bronze: entry.data.bronze ?? 0,
+  }));
+
+const legacyPlats = (await getCollection('platinum'))
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .map((entry) => ({
+    id: entry.id,
+    title: entry.data.title,
+    image: entry.data.cover ? `/platinum/${entry.id}/${entry.data.cover}` : null,
+    gold: entry.data.gold,
+    silver: entry.data.silver,
+    bronze: entry.data.bronze,
+  }));
+
+const plats = cmsPlats.length ? cmsPlats : legacyPlats;
+
+const steamBase = await loadSteam();
+const cmsSteamEntries = profileEntries
+  .filter((entry) => entry.data.type === 'steam')
+  .sort((a, b) => Number(a.data.order ?? 999) - Number(b.data.order ?? 999));
+
+const cmsSteamRecent = cmsSteamEntries.map((entry) => ({
+  appid: entry.data.appid ?? 0,
+  name: entry.data.title,
+  lastPlayed: entry.data.last_played ?? '2026-01-01',
+  achieved: entry.data.achieved ?? null,
+  total: entry.data.total ?? null,
+  hours: entry.data.hours ?? 0,
+  header: entry.data.thumbnail ? `/profile/${entry.id}/${entry.data.thumbnail}` : '',
+}));
+
+const steamAchievements = profileSettings?.data.steam_achievements ?? steamBase.totals.achievements;
+const steam = {
+  ...steamBase,
+  totals: { ...steamBase.totals, achievements: steamAchievements },
+  recent: cmsSteamRecent.length ? cmsSteamRecent : steamBase.recent,
+};
+
+const mapShelfGames = (type: 'switch' | 'mobile') => profileEntries
+  .filter((entry) => entry.data.type === type)
+  .sort((a, b) => Number(a.data.order ?? 999) - Number(b.data.order ?? 999))
+  .map((entry) => ({
+    id: entry.id,
+    title: entry.data.title,
+    image: entry.data.thumbnail ? `/profile/${entry.id}/${entry.data.thumbnail}` : null,
+  }));
+
+const switchGames = mapShelfGames('switch');
+const mobileGames = mapShelfGames('mobile');
+const playstationGames = profileSettings?.data.playstation_games ?? PROFILE.playstationGames;
+const gamingYears = profileSettings?.data.gaming_years ?? PROFILE.gamingYears;
+const steamGamesLabel = profileSettings?.data.steam_games ?? PROFILE.steamGames;
+---
+
+<BaseLayout
+  title="Cenix Profile"
+  description="Cenix’s cross-platform gaming journey through memorable worlds, hard-earned achievements, and milestones across console, PC, and mobile."
+  activeNav="profile"
+>
+  <ProfileHero
+    platinum={psn.platinum}
+    steamAchievements={steamAchievements}
+    playstationGames={playstationGames}
+    gamingYears={gamingYears}
+  />
+  <PsnCollection psn={psn} plats={plats} />
+  <SteamActivity steam={steam} steamGamesLabel={steamGamesLabel} />
+  <PlatformLibraries switchGames={switchGames} mobileGames={mobileGames} />
+</BaseLayout>
+
+<script>
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const stages = Array.from(document.querySelectorAll('[data-profile-stage]'));
+
+  const renderParallax = () => {
+    if (reducedMotion.matches) return;
+    const viewportHeight = window.innerHeight;
+    stages.forEach((stage) => {
+      const rect = stage.getBoundingClientRect();
+      const travel = rect.height + viewportHeight;
+      const progress = Math.max(0, Math.min(1, (viewportHeight - rect.top) / travel));
+      stage.style.setProperty('--stage-shift', `${(progress - .5) * 110}px`);
+    });
+  };
+
+  let parallaxFrame = 0;
+  const requestParallax = () => {
+    if (parallaxFrame) return;
+    parallaxFrame = window.requestAnimationFrame(() => {
+      parallaxFrame = 0;
+      renderParallax();
+    });
+  };
+
+  window.addEventListener('scroll', requestParallax, { passive: true });
+  window.addEventListener('resize', requestParallax);
+  renderParallax();
+
+  document.querySelectorAll('[data-carousel]').forEach((carousel) => {
+    const viewport = carousel.querySelector('[data-carousel-viewport]');
+    const prev = carousel.querySelector('[data-carousel-prev]');
+    const next = carousel.querySelector('[data-carousel-next]');
+    if (!viewport || !prev || !next) return;
+
+    const update = () => {
+      const max = Math.max(0, viewport.scrollWidth - viewport.clientWidth);
+      prev.disabled = viewport.scrollLeft <= 4;
+      next.disabled = viewport.scrollLeft >= max - 4;
+    };
+
+    prev.addEventListener('click', () => viewport.scrollBy({ left: -viewport.clientWidth, behavior: 'smooth' }));
+    next.addEventListener('click', () => viewport.scrollBy({ left: viewport.clientWidth, behavior: 'smooth' }));
+    viewport.addEventListener('scroll', update, { passive: true });
+    new ResizeObserver(update).observe(viewport);
+    update();
+  });
+</script>

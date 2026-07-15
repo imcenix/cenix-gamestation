@@ -1,0 +1,213 @@
+---
+import { PROFILE } from '../../config/site';
+import TrophyIcon from './TrophyIcon.astro';
+
+interface PlatinumItem {
+  id: string;
+  title: string;
+  image: string | null;
+  gold: number;
+  silver: number;
+  bronze: number;
+}
+interface Props {
+  psn: {
+    display_name: string; psn_id: string; avatar: string | null | undefined;
+    level: number; platinum: number; gold: number; silver: number; bronze: number;
+  };
+  plats: PlatinumItem[];
+}
+const { psn, plats } = Astro.props;
+const avatarSrc = psn.avatar || null;
+const summary = [
+  { kind: 'level' as const, num: psn.level, label: 'LEVEL' },
+  { kind: 'plat' as const, num: psn.platinum, label: 'PLATINUM', highlight: true },
+  { kind: 'gold' as const, num: psn.gold, label: 'GOLD' },
+  { kind: 'silver' as const, num: psn.silver, label: 'SILVER' },
+  { kind: 'bronze' as const, num: psn.bronze, label: 'BRONZE' },
+];
+const platPages = Array.from({ length: Math.ceil(plats.length / 6) }, (_, i) => plats.slice(i * 6, i * 6 + 6));
+---
+
+<section id="playstation" class="profile-stage psn-stage" data-profile-stage>
+  <div class="stage-background" aria-hidden="true"></div>
+
+  <div class="platform-banner gut">
+    <div class="platform-kicker">PLAYSTATION NETWORK</div>
+    <h2 class="platform-slogan"><span><b>PLAY</b> <em class="outline-white">HAS</em></span><strong><em>NO</em> <b class="fill-blue">LIMITS</b></strong></h2>
+  </div>
+
+  <div class="psn gut">
+    <div class="psn-heading">
+      <div>
+        <div class="eyebrow psn-eyebrow">PLAYSTATION NETWORK</div>
+        <h2 class="psn-title">PLAYSTATION'S COLLECTION</h2>
+      </div>
+      <a class="psn-more" href={PROFILE.psnUrl} target="_blank" rel="noopener">VIEW ON PSNPROFILES <span>→</span></a>
+    </div>
+
+    <div class="psn-card">
+      <div class="psn-avatar">
+        {avatarSrc ? <img class="cover" src={avatarSrc} alt={'PSN avatar of ' + psn.display_name} /> : <div class="ph psn-avatar-ph">PSN</div>}
+      </div>
+      <div class="psn-id">
+        <div class="psn-name">{psn.display_name}</div>
+        <div class="psn-sub">ID: {psn.psn_id.toUpperCase()}</div>
+      </div>
+      <div class="psn-summary">
+        {summary.map((s) => (
+          <div class:list={['psn-sum-item', { highlight: s.highlight }]}>
+            <TrophyIcon kind={s.kind} size={32} />
+            <span class="psn-sum-num">{s.num.toLocaleString('vi-VN')}</span>
+            <span class="psn-sum-label">{s.label}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <div class="plat-head">
+      <div class="plat-kicker">{psn.platinum} PLATINUM TROPHIES</div>
+      <div class="plat-note">PLATINUM ARCHIVE · 6 GAMES PER PAGE</div>
+    </div>
+
+    <div class="plat-carousel" data-carousel>
+      <button class="carousel-arrow prev" type="button" data-carousel-prev aria-label="Previous 6 games">←</button>
+      <div class="plat-viewport" data-carousel-viewport>
+        <div class="plat-track">
+          {platPages.map((page) => (
+            <div class="plat-page">
+              {page.map((p) => (
+                <article class="plat-card">
+                  <div class="plat-cover">
+                    {p.image ? (
+                      <img class="cover" src={p.image} alt={'Key art ' + p.title} loading="lazy" />
+                    ) : (
+                      <div class="plat-cover-ph"><span>PLATINUM ARCHIVE</span><strong>{p.title}</strong></div>
+                    )}
+                  </div>
+                  <div class="plat-bar">
+                    <div>
+                      <div class="plat-name">{p.title.toUpperCase()}</div>
+                      <div class="plat-counts">
+                        <span><TrophyIcon kind="gold" size={13} /> {p.gold}</span>
+                        <span><TrophyIcon kind="silver" size={13} /> {p.silver}</span>
+                        <span><TrophyIcon kind="bronze" size={13} /> {p.bronze}</span>
+                      </div>
+                    </div>
+                    <div class="plat-badge"><TrophyIcon kind="plat" size={24} /></div>
+                  </div>
+                </article>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
+      <button class="carousel-arrow next" type="button" data-carousel-next aria-label="Next 6 games">→</button>
+    </div>
+  </div>
+</section>
+
+<style>
+  @property --card-angle { syntax: '<angle>'; initial-value: 0deg; inherits: false; }
+  .profile-stage { --stage-shift: 0px; position: relative; isolation: isolate; overflow: hidden; background: #07080a; border-bottom: 1px solid var(--bd-divider); }
+  .stage-background {
+    position: absolute; inset: -90px -4vw; z-index: -2;
+    background: url('/images/profile/playstation-stage.jpg') center/cover no-repeat;
+    transform: translate3d(0,var(--stage-shift),0) scale(1.06); will-change: transform;
+    opacity: .34; filter: saturate(.72) brightness(.58) contrast(1.08);
+    -webkit-mask-image: linear-gradient(180deg,transparent,#000 14%,#000 82%,transparent);
+    mask-image: linear-gradient(180deg,transparent,#000 14%,#000 82%,transparent);
+  }
+  .profile-stage::after { content:''; position:absolute; inset:0; z-index:-1; background:radial-gradient(circle at 18% 34%,rgba(57,155,255,.12),transparent 34%),linear-gradient(180deg,rgba(5,6,9,.62),rgba(5,6,9,.88) 48%,#07080a); }
+  .platform-banner { min-height:clamp(260px,34vw,410px); display:flex; flex-direction:column; justify-content:center; padding-top:52px; padding-bottom:52px; }
+  .platform-kicker { margin-bottom:16px; color:rgba(255,255,255,.55); font:700 10px var(--mono); letter-spacing:2.4px; }
+  .platform-slogan { display:flex; flex-direction:column; width:max-content; max-width:100%; color:#fff; font:900 clamp(58px,8vw,126px)/.76 var(--display); letter-spacing:clamp(-7px,-.5vw,-3px); }
+  .platform-slogan strong { margin-top:16px; color:transparent; -webkit-text-stroke:2px #55aaff; filter:drop-shadow(0 0 24px rgba(65,160,255,.24)); }
+  .platform-slogan b, .platform-slogan em { font-style:normal; font-weight:inherit; }
+  .platform-slogan .outline-white { color:transparent; -webkit-text-stroke:2px #fff; }
+  .platform-slogan .fill-blue { color:#55aaff; -webkit-text-stroke:0; text-shadow:0 0 24px rgba(65,160,255,.2); }
+
+  .psn { padding-top:38px; padding-bottom:80px; }
+  .psn-heading { display:flex; justify-content:space-between; align-items:flex-end; gap:24px; margin-bottom:28px; }
+  .psn-eyebrow { color:var(--tx-meta); margin-bottom:10px; }
+  .psn-title { font:900 clamp(34px,4.5vw,58px)/.94 var(--display); letter-spacing:-1.5px; color:var(--lime); }
+  .psn-more { flex:none; color:var(--lime); font:700 10.5px var(--mono); letter-spacing:1px; border-bottom:1px solid var(--lime-40); padding-bottom:3px; }
+
+  .psn-card {
+    --card-angle:0deg; position:relative; display:grid; grid-template-columns:auto minmax(160px,1fr) auto; align-items:center; gap:26px;
+    padding:24px 28px; border:1px solid rgba(255,255,255,.12); border-radius:14px;
+    background:linear-gradient(115deg,rgba(18,31,52,.62),rgba(7,10,16,.46));
+    box-shadow:0 28px 80px rgba(0,0,0,.38),inset 0 1px 0 rgba(255,255,255,.08); backdrop-filter:blur(22px) saturate(1.22);
+  }
+  .psn-card::before {
+    content:''; position:absolute; inset:-1px; border-radius:inherit; padding:1px; pointer-events:none;
+    background:conic-gradient(from var(--card-angle),transparent 0 68%,rgba(67,153,255,.12) 73%,rgba(90,184,255,.95) 80%,rgba(200,240,60,.92) 85%,transparent 92%);
+    -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0); -webkit-mask-composite:xor; mask-composite:exclude;
+    animation:cardOrbit 6s linear infinite; filter:drop-shadow(0 0 9px rgba(75,167,255,.42));
+  }
+  @keyframes cardOrbit { to { --card-angle:360deg; } }
+  .psn-avatar { width:86px; height:86px; border-radius:50%; overflow:hidden; border:1px solid rgba(255,255,255,.2); box-shadow:0 0 28px rgba(67,153,255,.18); }
+  .psn-avatar-ph { width:100%; height:100%; border-radius:50%; font-size:10px; }
+  .psn-name { font:900 28px var(--display); letter-spacing:-.7px; }
+  .psn-sub { margin-top:6px; color:var(--tx-meta); font:400 11px var(--mono); letter-spacing:1px; }
+  .psn-summary { display:flex; gap:5px; padding:8px; border:1px solid rgba(255,255,255,.09); border-radius:10px; background:rgba(4,7,12,.46); }
+  .psn-sum-item { min-width:82px; display:flex; flex-direction:column; align-items:center; gap:7px; padding:12px 10px 10px; border-radius:7px; }
+  .psn-sum-item + .psn-sum-item { border-left:1px solid rgba(255,255,255,.07); }
+  .psn-sum-item.highlight { background:rgba(82,164,255,.1); }
+  .psn-sum-num { color:#fff; font:900 clamp(20px,2vw,29px)/1 var(--display); letter-spacing:-.8px; }
+  .psn-sum-item.highlight .psn-sum-num { color:#83c7ff; }
+  .psn-sum-label { color:var(--tx-meta); font:700 8px var(--mono); letter-spacing:1px; }
+
+  .plat-head { display:flex; justify-content:space-between; align-items:flex-end; margin:36px 52px 18px; }
+  .plat-kicker { color:#fff; font:900 18px var(--display); }
+  .plat-note { color:var(--tx-meta); font:700 9px var(--mono); letter-spacing:1.5px; }
+  .plat-carousel { position:relative; }
+  .plat-viewport { margin:0 52px; overflow:hidden; scroll-behavior:smooth; scroll-snap-type:x mandatory; }
+  .plat-track { display:flex; }
+  .plat-page { flex:0 0 100%; min-width:0; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:22px; scroll-snap-align:start; }
+  .plat-card { overflow:hidden; border:1px solid rgba(255,255,255,.13); background:rgba(5,7,11,.66); backdrop-filter:blur(8px); }
+  .plat-cover { aspect-ratio:16/10; overflow:hidden; }
+  .plat-cover img { transition:transform .4s ease; }
+  .plat-card:hover .plat-cover img { transform:scale(1.045); }
+  .plat-cover-ph { width:100%; height:100%; display:flex; flex-direction:column; justify-content:flex-end; gap:8px; padding:20px; background:linear-gradient(145deg,rgba(37,107,180,.2),transparent 52%),radial-gradient(circle at 80% 18%,rgba(200,240,60,.11),transparent 28%),#0a0d13; }
+  .plat-cover-ph span { color:#7cbcff; font:700 8px var(--mono); letter-spacing:1.5px; }
+  .plat-cover-ph strong { color:rgba(255,255,255,.72); font:900 19px var(--display); }
+  .plat-bar { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:14px 16px; border-top:1px solid rgba(255,255,255,.09); }
+  .plat-name { margin-bottom:8px; font:800 12px var(--display); letter-spacing:.5px; }
+  .plat-counts { display:flex; gap:14px; }
+  .plat-counts span { display:inline-flex; align-items:center; gap:5px; color:var(--tx-55); font:400 11px var(--mono); }
+  .plat-badge { width:42px; height:42px; display:grid; place-items:center; border:1px solid rgba(95,175,255,.28); background:rgba(50,130,210,.09); }
+  .carousel-arrow { position:absolute; top:50%; z-index:4; width:42px; height:42px; display:grid; place-items:center; border:1px solid rgba(255,255,255,.24); border-radius:50%; background:rgba(5,8,13,.72); color:#fff; transform:translateY(-50%); }
+  .carousel-arrow:hover:not(:disabled) { color:var(--lime); border-color:var(--lime); }
+  .carousel-arrow:disabled { opacity:.22; cursor:default; }
+  .carousel-arrow.prev { left:0; } .carousel-arrow.next { right:0; }
+
+  @media(max-width:1100px) {
+    .psn-card { grid-template-columns:auto 1fr; }
+    .psn-summary { grid-column:1/-1; justify-content:space-between; }
+    .psn-sum-item { flex:1; }
+  }
+  @media(max-width:760px) {
+    .stage-background { inset:-40px; opacity:.24; transform:scale(1.08); }
+    .platform-banner { min-height:250px; padding-top:54px; padding-bottom:44px; }
+    .platform-slogan { font-size:clamp(46px,15vw,76px); line-height:.82; }
+    .platform-slogan strong { margin-top:10px; -webkit-text-stroke-width:1.3px; }
+    .platform-slogan .outline-white { -webkit-text-stroke-width:1.3px; }
+    .psn { padding-top:24px; padding-bottom:58px; }
+    .psn-heading { align-items:flex-start; flex-direction:column; }
+    .psn-card { grid-template-columns:auto 1fr; gap:16px; padding:18px; }
+    .psn-avatar { width:66px; height:66px; } .psn-name { font-size:22px; }
+    .psn-summary { grid-column:1/-1; display:grid; grid-template-columns:repeat(3,1fr); width:100%; }
+    .psn-sum-item { min-width:0; } .psn-sum-item + .psn-sum-item { border-left:0; }
+    .plat-head { margin:30px 0 16px; align-items:flex-start; flex-direction:column; gap:7px; }
+    .plat-viewport { margin:0; overflow-x:auto; }
+    .plat-page { flex:0 0 auto; display:flex; gap:14px; padding-right:14px; }
+    .plat-card { min-width:min(80vw,300px); }
+    .carousel-arrow { display:none; }
+  }
+  @media(prefers-reduced-motion:reduce) {
+    .stage-background { transform:scale(1.06); }
+    .psn-card::before { animation:none; }
+    .plat-viewport { scroll-behavior:auto; }
+  }
+</style>
