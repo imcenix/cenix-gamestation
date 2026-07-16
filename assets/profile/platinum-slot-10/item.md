@@ -1,6 +1,6 @@
 ---
 type: platinum
-title: Nioh 
+title: Nioh
 thumbnail: 4iagvymt2f3pkpkuj8d1dzpt.avif
 order: 10
 gold: 2
