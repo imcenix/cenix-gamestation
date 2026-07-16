@@ -2,7 +2,7 @@
 type: steam
 title: "Dragonkin: The Banished"
 thumbnail: dragonkin_the_banished_1_.webp
-order: 10
+order:
 appid: 2291060
 last_played: 2026-07-12
 achieved: 1
