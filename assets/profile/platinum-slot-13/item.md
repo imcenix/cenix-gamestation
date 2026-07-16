@@ -1,9 +1,10 @@
 ---
 type: platinum
-title: Platinum Trophy 13
-thumbnail: null
+title: Horizon Zero Dawn
+thumbnail: 7502.jpeg.webp
 order: 13
-gold: 0
-silver: 0
-bronze: 0
+gold: 2
+silver: 5
+bronze: 49
+date: 2020-06-25
 ---
