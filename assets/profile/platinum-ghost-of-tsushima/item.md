@@ -1,10 +1,10 @@
 ---
 type: platinum
 title: Ghost of Tsushima
-thumbnail: null
-order: 1
-date: 2026-05-20
-gold: 12
-silver: 12
-bronze: 12
+thumbnail: anh-game-ghost-of-tsushima.jpeg
+order: 2
+date: 2021-04-10
+gold: 2
+silver: 9
+bronze: 42
 ---
