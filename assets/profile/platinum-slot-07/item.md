@@ -2,7 +2,7 @@
 type: platinum
 title: "Marvel's Spider-Man 2"
 thumbnail: marvels-spider-man-2-700.jpg
-order: 7
+order: 9
 gold: 2
 silver: 17
 bronze: 22
