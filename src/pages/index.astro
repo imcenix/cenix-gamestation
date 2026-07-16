@@ -318,6 +318,7 @@ const tier3 = tierlists.slice(0, 3).map((t) => {
     };
     const story = document.querySelector('.story-sequence');
     const sticky = story?.querySelector('.story-sticky');
+    const storyConsole = story?.querySelector('.story-console');
     const desktop = window.matchMedia('(min-width: 901px)');
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
     let ticking = false;
@@ -333,12 +334,17 @@ const tier3 = tierlists.slice(0, 3).map((t) => {
       const enter = smooth(.02, .32, progress);
       const leave = smooth(.38, .6, progress);
       const characterEnter = smooth(.03, .36, progress);
-      const characterSettle = smooth(.4, .78, progress);
+      const characterSettle = smooth(.38, .68, progress);
       const playerEnter = smooth(.5, .74, progress);
       const screenEnter = smooth(.46, .72, progress);
       const char1ManifestX = lerp(-30, 17, characterEnter);
       const char2ManifestY = lerp(-38, 9, characterEnter);
       const char3ManifestX = lerp(110, 69, characterEnter);
+      const screenLeftVw = storyConsole ? (storyConsole.offsetLeft / window.innerWidth) * 100 : 49;
+      const screenWidthVw = storyConsole ? (storyConsole.offsetWidth / window.innerWidth) * 100 : 42;
+      const char1ScreenX = screenLeftVw + (screenWidthVw * .06);
+      const char2ScreenX = screenLeftVw + (screenWidthVw * .37);
+      const char3ScreenX = screenLeftVw + (screenWidthVw * .69);
 
       setVar('--manifest-left-x', `${(-82 * (1 - enter)) + (44 * leave)}vw`);
       setVar('--manifest-right-x', `${(82 * (1 - enter)) - (44 * leave)}vw`);
@@ -348,15 +354,15 @@ const tier3 = tierlists.slice(0, 3).map((t) => {
       setVar('--screen-opacity', String(screenEnter));
       setVar('--screen-scale', String(lerp(.84, 1, screenEnter)));
       setVar('--char-opacity', String(characterEnter * (.72 + (.28 * characterSettle))));
-      setVar('--char1-x', `${lerp(char1ManifestX, 56, characterSettle)}vw`);
+      setVar('--char1-x', `${lerp(char1ManifestX, char1ScreenX, characterSettle)}vw`);
       setVar('--char1-y', `${lerp(55, 39, characterSettle)}vh`);
-      setVar('--char2-x', `${lerp(42, 68, characterSettle)}vw`);
+      setVar('--char2-x', `${lerp(42, char2ScreenX, characterSettle)}vw`);
       setVar('--char2-y', `${lerp(char2ManifestY, 28, characterSettle)}vh`);
-      setVar('--char3-x', `${lerp(char3ManifestX, 79, characterSettle)}vw`);
+      setVar('--char3-x', `${lerp(char3ManifestX, char3ScreenX, characterSettle)}vw`);
       setVar('--char3-y', `${lerp(54, 39, characterSettle)}vh`);
-      setVar('--char1-scale', String(lerp(1, .64, characterSettle)));
-      setVar('--char2-scale', String(lerp(1, .72, characterSettle)));
-      setVar('--char3-scale', String(lerp(1, .64, characterSettle)));
+      setVar('--char1-scale', String(lerp(1, .55, characterSettle)));
+      setVar('--char2-scale', String(lerp(1, .62, characterSettle)));
+      setVar('--char3-scale', String(lerp(1, .55, characterSettle)));
     };
 
     const requestRender = () => {
@@ -441,7 +447,7 @@ const tier3 = tierlists.slice(0, 3).map((t) => {
   .manifesto-outline-white { -webkit-text-stroke: 2px rgba(255,255,255,.92); }
   .manifesto-outline-lime { -webkit-text-stroke: 2px var(--lime); filter: drop-shadow(0 4px 12px rgba(0,0,0,.9)) drop-shadow(0 0 28px rgba(200,240,60,.12)); }
   .story-characters { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
-  .story-char { position: absolute; top: 0; left: 0; opacity: var(--char-opacity); transition: transform .3s cubic-bezier(.22,.61,.36,1), opacity .22s linear; will-change: transform, opacity; filter: drop-shadow(0 24px 42px rgba(0,0,0,.7)); }
+  .story-char { position: absolute; top: 0; left: 0; opacity: var(--char-opacity); transform-origin: top left; transition: transform .3s cubic-bezier(.22,.61,.36,1), opacity .22s linear; will-change: transform, opacity; filter: drop-shadow(0 24px 42px rgba(0,0,0,.7)); }
   .story-char img { width: 100%; height: auto; object-fit: contain; animation: characterFloat 6.4s ease-in-out infinite; }
   .story-char-1 { width: min(18vw, 290px); transform: translate3d(var(--char1-x), var(--char1-y), 0) scale(var(--char1-scale)) rotate(-2deg); }
   .story-char-2 { z-index: 3; width: min(16vw, 250px); transform: translate3d(var(--char2-x), var(--char2-y), 0) scale(var(--char2-scale)) rotate(1deg); }
@@ -464,9 +470,9 @@ const tier3 = tierlists.slice(0, 3).map((t) => {
   .story-controller em,.story-controller span { position:absolute; top:29px; width:7px; height:7px; border-radius:50%; background:var(--lime); box-shadow:0 0 10px rgba(200,240,60,.48); }
   .story-controller em { right:78px; } .story-controller span { right:65px; top:18px; }
   .story-player { z-index: 4; display: flex; align-items: center; opacity: var(--player-opacity); transform: translate3d(0, var(--player-y), 0); transition: transform .2s linear, opacity .2s linear; will-change: transform, opacity; pointer-events: none; }
-  .story-player-copy { width: min(43vw, 620px); }
-  .story-player-label { color: #fff; font: 900 clamp(52px, 6vw, 92px)/.82 var(--display); letter-spacing: clamp(-5px, -.34vw, -2px); }
-  .story-player h2 { margin-top: 14px; color: transparent; font: 900 clamp(112px, 13vw, 198px)/.7 var(--display); letter-spacing: clamp(-12px, -.72vw, -6px); -webkit-text-stroke: 2px var(--lime); filter: drop-shadow(0 0 32px rgba(200,240,60,.13)); }
+  .story-player-copy { width: min(36vw, 520px); }
+  .story-player-label { color: #fff; font: 900 clamp(44px, 4.7vw, 72px)/.82 var(--display); letter-spacing: clamp(-4px, -.26vw, -2px); }
+  .story-player h2 { margin-top: 14px; color: transparent; font: 900 clamp(88px, 9.4vw, 142px)/.7 var(--display); letter-spacing: clamp(-9px, -.5vw, -5px); -webkit-text-stroke: 2px var(--lime); filter: drop-shadow(0 0 32px rgba(200,240,60,.13)); }
   .story-profile-link { pointer-events: auto; display: inline-flex; align-items: center; justify-content: space-between; gap: 48px; min-width: 218px; margin-top: 42px; padding: 14px 16px; border: 1px solid rgba(200,240,60,.62); background: rgba(7,7,8,.4); color: #fff; font: 700 10px var(--mono); letter-spacing: .8px; backdrop-filter: blur(10px); transition: background .25s ease, color .25s ease, transform .25s ease; }
   .story-profile-link span { color: var(--lime); }
   .story-profile-link:hover { background: var(--lime); color: #080809; transform: translateY(-2px); }
@@ -607,7 +613,7 @@ const tier3 = tierlists.slice(0, 3).map((t) => {
     .story-char-1 { width: min(17vw, 260px); }
     .story-char-2 { width: min(15vw, 230px); }
     .story-char-3 { width: min(17vw, 260px); }
-    .story-player-copy { width: 46vw; }
+    .story-player-copy { width: 40vw; }
     .game-mosaic { grid-template-rows: 230px 230px 240px; }
     .vrow { grid-template-columns: repeat(4, 1fr); }
   }
