@@ -24,14 +24,9 @@ import { SITE } from '../config/site';
       <div class="col-head">KẾT NỐI</div>
       <a href={SITE.socials.youtube} target="_blank" rel="noopener">YouTube</a>
       <a href={SITE.socials.facebook} target="_blank" rel="noopener">Facebook</a>
-      <a href={SITE.socials.discord} target="_blank" rel="noopener">Discord</a>
-    </div>
-
-    <div class="col">
-      <div class="col-head">KHÁC</div>
-      <a href="/tin-tuc">Về Cenix</a>
-      <a href={`mailto:hello@${SITE.domain}`}>Liên hệ</a>
-      <a href="/rss.xml">RSS</a>
+      <button class="discord-copy" type="button" data-discord={SITE.socials.discordUsername} title="Copy Discord username">
+        Discord · <span>{SITE.socials.discordUsername}</span>
+      </button>
     </div>
   </div>
 
@@ -45,7 +40,7 @@ import { SITE } from '../config/site';
   .footer { border-top: 1px solid var(--bd-divider); margin-top: 8px; }
   .footer-grid {
     display: grid;
-    grid-template-columns: 1.2fr repeat(3, 0.6fr);
+    grid-template-columns: 1.4fr repeat(2, 0.6fr);
     gap: 32px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -63,10 +58,28 @@ import { SITE } from '../config/site';
 
   .col { display: flex; flex-direction: column; gap: 10px; }
   .col-head { font: 700 10px var(--mono); color: #fff; letter-spacing: 2px; margin-bottom: 4px; }
-  .col a { font: 400 11.5px var(--mono); color: var(--tx-55); }
-  .col a:hover { color: var(--lime); }
+  .col a, .discord-copy { font: 400 11.5px var(--mono); color: var(--tx-55); }
+  .discord-copy { width: fit-content; padding: 0; border: 0; background: none; cursor: pointer; text-align: left; }
+  .discord-copy span { color: var(--lime); }
+  .col a:hover, .discord-copy:hover { color: var(--lime); }
 
   @media (max-width: 900px) {
     .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px 20px; }
+    .brand-col { grid-column: 1 / -1; }
   }
 </style>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('.discord-copy').forEach((button) => {
+    button.addEventListener('click', async () => {
+      const username = button.dataset.discord;
+      if (!username) return;
+      try {
+        await navigator.clipboard.writeText(username);
+        const original = button.innerHTML;
+        button.innerHTML = `Copied · <span>${username}</span>`;
+        window.setTimeout(() => { button.innerHTML = original; }, 1600);
+      } catch {}
+    });
+  });
+</script>

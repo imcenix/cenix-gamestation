@@ -9,9 +9,9 @@ export const SITE = {
   est: 'EST. 2026 — BLOG GAME · TIER-LIST · HƯỚNG DẪN',
   footerNote: 'MADE BY GAMERS, FOR GAMERS',
   socials: {
-    youtube: 'https://youtube.com/@cenix',
-    facebook: 'https://facebook.com/cenix',
-    discord: 'https://discord.gg/cenix',
+    youtube: 'https://www.youtube.com/@vietruong',
+    facebook: 'https://www.facebook.com/imcenix/',
+    discordUsername: 'cenixtr',
   },
 } as const;
 
