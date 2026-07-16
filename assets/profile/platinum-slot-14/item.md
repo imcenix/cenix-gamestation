@@ -1,9 +1,10 @@
 ---
 type: platinum
-title: Platinum Trophy 14
-thumbnail: null
+title: Game of Thrones
+thumbnail: gameofthronestelltale1.webp
 order: 14
-gold: 0
-silver: 0
-bronze: 0
+gold: 2
+silver: 12
+bronze: 34
+date: 2017-07-25
 ---
