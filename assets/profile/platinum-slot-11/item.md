@@ -1,9 +1,10 @@
 ---
 type: platinum
-title: Platinum Trophy 11
-thumbnail: null
+title: God of War
+thumbnail: god-of-war-pc-game-steam-europe-cover.jpg
 order: 11
-gold: 0
-silver: 0
-bronze: 0
+gold: 5
+silver: 9
+bronze: 22
+date: 2018-05-05
 ---
