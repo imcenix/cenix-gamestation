@@ -1,9 +1,10 @@
 ---
 type: platinum
-title: Platinum Trophy 05
-thumbnail: null
+title: "Wuchang: Fallen Feathers"
+thumbnail: wuchang-fallen-feathers.jpg
 order: 5
-gold: 0
-silver: 0
-bronze: 0
+gold: 4
+silver: 11
+bronze: 24
+date: 2025-08-29
 ---
