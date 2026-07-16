@@ -1,9 +1,10 @@
 ---
 type: platinum
-title: Platinum Trophy 10
-thumbnail: null
+title: Nioh 
+thumbnail: 4iagvymt2f3pkpkuj8d1dzpt.avif
 order: 10
-gold: 0
-silver: 0
-bronze: 0
+gold: 2
+silver: 10
+bronze: 58
+date: 2017-11-07
 ---
