@@ -10,13 +10,22 @@ interface Props {
   description?: string;
   activeNav?: NavKey;
   ticker?: boolean;
+  socialImage?: string | null;
+  socialType?: 'website' | 'article';
 }
 
-const { title, description = SITE.tagline, activeNav = 'home', ticker = false } = Astro.props;
+const {
+  title,
+  description = SITE.tagline,
+  activeNav = 'home',
+  ticker = false,
+  socialImage: socialImageProp = null,
+  socialType = 'website',
+} = Astro.props;
 
 const site = Astro.site ?? new URL(SITE.url);
 const canonicalUrl = new URL(Astro.url.pathname, site).toString();
-const socialImage = new URL('/images/og-cover.png', site).toString();
+const socialImage = new URL(socialImageProp || '/images/showcase/hero-poster.webp', site).toString();
 const fullTitle = title.includes(SITE.name) ? title : `${title} · ${SITE.name}`;
 ---
 
@@ -29,16 +38,22 @@ const fullTitle = title.includes(SITE.name) ? title : `${title} · ${SITE.name}`
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
 
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={socialType} />
+    <meta property="og:locale" content="vi_VN" />
     <meta property="og:site_name" content={SITE.name} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:image" content={socialImage} />
+    <meta property="og:image:secure_url" content={socialImage} />
+    <meta property="og:image:alt" content={title} />
+    <link rel="image_src" href={socialImage} />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={canonicalUrl} />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={socialImage} />
+    <meta name="twitter:image:alt" content={title} />
 
     <link rel="icon" type="image/svg+xml" href="/favicon-gaming.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

@@ -17,7 +17,7 @@ const mins = readMinutes(entry.body);
 const cover = d.cover ? `/guides/${entry.id}/${d.cover}` : null;
 ---
 
-<BaseLayout title={d.title} activeNav="guide" description={d.excerpt ?? undefined}>
+<BaseLayout title={d.title} activeNav="guide" description={d.excerpt ?? undefined} socialImage={cover} socialType="article">
   <article class="article gut">
     <div class="crumb">TRANG CHỦ / <a href="/huong-dan">HƯỚNG DẪN</a> / <span class="here">{GUIDE_LABEL[d.level]}</span></div>
 

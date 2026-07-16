@@ -18,7 +18,7 @@ const featured = videos.find((v) => v.data.featured) ?? videos[0];
 const upNext = videos.filter((v) => v.id !== featured?.id).slice(0, 4);
 ---
 
-<BaseLayout title="Video" activeNav="video" description="Video game embed từ YouTube — gameplay, review, cốt truyện và hướng dẫn.">
+<BaseLayout title="Video" activeNav="video" description="Video game embed từ YouTube — gameplay, review, cốt truyện và hướng dẫn." socialImage={featured ? youtubeThumb(featured.data.youtube_url) : null}>
   <div class="page-head">
     <div class="crumb">TRANG CHỦ / <span class="here">VIDEO</span></div>
     <div class="page-head-row">

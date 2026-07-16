@@ -34,10 +34,11 @@ export async function getStaticPaths() {
 
 const { meta, tiers, gameId, others } = Astro.props;
 const img = (file?: string) => (file ? `/tierlists/${gameId}/images/${file}` : null);
+const socialCover = meta.cover ? `/tierlists/${gameId}/${meta.cover}` : null;
 const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
 ---
 
-<BaseLayout title={`Tier-List ${meta.game_label}`} activeNav="tier" description={`Tier-list ${meta.game_label} — hover nhân vật để xem chi tiết.`}>
+<BaseLayout title={`Tier-List ${meta.game_label}`} activeNav="tier" description={`Tier-list ${meta.game_label} — hover nhân vật để xem chi tiết.`} socialImage={socialCover} socialType="article">
   <div class="page-head">
     <div class="crumb">TRANG CHỦ / <a href="/tier-list">TIER-LIST</a> / <span class="here">{meta.game_label.toUpperCase()}</span></div>
     <div class="page-head-row">

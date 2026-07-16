@@ -17,7 +17,7 @@ const mins = readMinutes(entry.body, d.read_minutes);
 const cover = d.cover ? `/news/${entry.id}/${d.cover}` : null;
 ---
 
-<BaseLayout title={d.title} activeNav="news" description={d.excerpt ?? undefined}>
+<BaseLayout title={d.title} activeNav="news" description={d.excerpt ?? undefined} socialImage={cover} socialType="article">
   <article class="article gut">
     <div class="crumb">TRANG CHỦ / <a href="/tin-tuc">TIN TỨC</a> / <span class="here">{NEWS_LABEL[d.category]}</span></div>
 
