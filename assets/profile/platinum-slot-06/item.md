@@ -1,9 +1,10 @@
 ---
 type: platinum
-title: Platinum Trophy 06
-thumbnail: null
+title: Ghost of Yōtei
+thumbnail: ghost-of-yotei-2.jpg
 order: 6
-gold: 0
-silver: 0
-bronze: 0
+gold: 2
+silver: 7
+bronze: 44
+date: 2025-10-26
 ---
