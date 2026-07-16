@@ -28,7 +28,20 @@ const { activeNav = 'home' } = Astro.props;
   </nav>
 
 <div class="nav-actions">
-    <a class="btn-lime follow" href="/profile">Cenix Profile</a>
+    <a class:list={['profile-cta', 'follow', { active: activeNav === 'profile' }]} href="/profile">
+      <svg class="profile-cta-border" viewBox="0 0 178 52" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="profile-border-light" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#c8f03c" stop-opacity="0" />
+            <stop offset="0.46" stop-color="#c8f03c" />
+            <stop offset="0.72" stop-color="#ffffff" />
+            <stop offset="1" stop-color="#c8f03c" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+        <rect x="1.5" y="1.5" width="175" height="49" rx="2" pathLength="100" />
+      </svg>
+      <span>Cenix Profile</span>
+    </a>
     <a class="profile-mobile" href="/profile" aria-label="Cenix Profile">
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <circle cx="12" cy="8" r="3.25"></circle>
@@ -88,7 +101,59 @@ const { activeNav = 'home' } = Astro.props;
   .nav-link.active { color: var(--lime); }
 
   .nav-actions { display: flex; align-items: center; gap: 12px; }
-  .follow { white-space: nowrap; cursor: default; user-select: none; }
+  .follow { white-space: nowrap; }
+  .profile-cta {
+    position: relative;
+    display: inline-flex;
+    min-width: 178px;
+    min-height: 52px;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    border: 2px solid rgba(200, 240, 60, .58);
+    border-radius: 3px;
+    background: transparent;
+    color: #fff;
+    box-shadow: 0 0 0 1px rgba(200, 240, 60, .06), inset 0 0 18px rgba(200, 240, 60, .025);
+    font: 800 13px var(--display);
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    transition: color .28s ease, border-color .28s ease, box-shadow .28s ease, transform .28s ease;
+  }
+  .profile-cta-border {
+    position: absolute;
+    inset: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    overflow: visible;
+    pointer-events: none;
+    filter: drop-shadow(0 0 5px rgba(200, 240, 60, .7));
+  }
+  .profile-cta-border rect {
+    fill: none;
+    stroke: url(#profile-border-light);
+    stroke-width: 2.6;
+    stroke-linecap: round;
+    stroke-dasharray: 18 82;
+    vector-effect: non-scaling-stroke;
+    animation: profile-border-run 3s linear infinite;
+  }
+  .profile-cta span {
+    position: relative;
+    z-index: 1;
+    text-shadow: 0 0 16px rgba(200, 240, 60, .16);
+  }
+  .profile-cta:hover,
+  .profile-cta:focus-visible,
+  .profile-cta.active {
+    color: var(--lime);
+    border-color: rgba(200, 240, 60, .88);
+    box-shadow: 0 0 24px rgba(200, 240, 60, .22), inset 0 0 20px rgba(200, 240, 60, .06);
+    transform: translateY(-2px);
+  }
+  .profile-cta:hover .profile-cta-border rect,
+  .profile-cta:focus-visible .profile-cta-border rect { animation-duration: 1.8s; }
+  @keyframes profile-border-run { to { stroke-dashoffset: -100; } }
   .profile-mobile { display: none; }
 
   .nav-hamburger {
@@ -146,6 +211,13 @@ const { activeNav = 'home' } = Astro.props;
     .nav-menu.is-open { max-height: 320px; padding-top: 8px; padding-bottom: 8px; border-bottom-color: var(--bd-divider); }
     .nav-link { padding: 14px 0; border-bottom: 1px solid var(--bd-soft); }
     .nav-link.active { border-bottom-color: var(--bd-soft); color: var(--lime); }
+  }
+  @media (min-width: 901px) and (max-width: 1220px) {
+    .nav-menu { gap: 20px; }
+    .profile-cta { min-width: 158px; min-height: 48px; font-size: 12px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .profile-cta-border rect { animation: none; }
   }
   @media (max-width: 560px) { .brand-logo { height: 50px; } }
 </style>
