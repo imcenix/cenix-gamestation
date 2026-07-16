@@ -38,7 +38,7 @@ const { activeNav = 'home' } = Astro.props;
             <stop offset="1" stop-color="#c8f03c" stop-opacity="0" />
           </linearGradient>
         </defs>
-        <rect x="1.5" y="1.5" width="175" height="49" rx="2" pathLength="100" />
+        <rect x="1.5" y="1.5" width="175" height="49" rx="25" pathLength="100" />
       </svg>
       <span>Cenix Profile</span>
     </a>
@@ -105,19 +105,20 @@ const { activeNav = 'home' } = Astro.props;
   .profile-cta {
     position: relative;
     display: inline-flex;
-    min-width: 178px;
-    min-height: 52px;
+    min-width: 184px;
+    min-height: 54px;
     align-items: center;
     justify-content: center;
     overflow: visible;
     border: 2px solid rgba(200, 240, 60, .58);
-    border-radius: 3px;
+    border-radius: 999px;
     background: transparent;
     color: #fff;
     box-shadow: 0 0 0 1px rgba(200, 240, 60, .06), inset 0 0 18px rgba(200, 240, 60, .025);
     font: 800 13px var(--display);
     letter-spacing: 1.1px;
     text-transform: uppercase;
+    cursor: pointer;
     transition: color .28s ease, border-color .28s ease, box-shadow .28s ease, transform .28s ease;
   }
   .profile-cta-border {
@@ -151,6 +152,7 @@ const { activeNav = 'home' } = Astro.props;
     box-shadow: 0 0 24px rgba(200, 240, 60, .22), inset 0 0 20px rgba(200, 240, 60, .06);
     transform: translateY(-2px);
   }
+  .profile-cta:active { transform: translateY(0) scale(.98); }
   .profile-cta:hover .profile-cta-border rect,
   .profile-cta:focus-visible .profile-cta-border rect { animation-duration: 1.8s; }
   @keyframes profile-border-run { to { stroke-dashoffset: -100; } }
