@@ -1,9 +1,10 @@
 ---
 type: platinum
-title: Platinum Trophy 09
-thumbnail: null
+title: Nioh 2
+thumbnail: nioh-2-background.jpg
 order: 9
-gold: 0
-silver: 0
-bronze: 0
+gold: 2
+silver: 5
+bronze: 48
+date: 2020-04-17
 ---
