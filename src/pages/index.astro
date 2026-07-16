@@ -342,9 +342,14 @@ const tier3 = tierlists.slice(0, 3).map((t) => {
       const char3ManifestX = lerp(110, 69, characterEnter);
       const screenLeftVw = storyConsole ? (storyConsole.offsetLeft / window.innerWidth) * 100 : 49;
       const screenWidthVw = storyConsole ? (storyConsole.offsetWidth / window.innerWidth) * 100 : 42;
-      const char1ScreenX = screenLeftVw + (screenWidthVw * .06);
-      const char2ScreenX = screenLeftVw + (screenWidthVw * .37);
-      const char3ScreenX = screenLeftVw + (screenWidthVw * .69);
+      const screenTopVh = storyConsole ? ((storyConsole.offsetTop - (storyConsole.offsetHeight * .44)) / window.innerHeight) * 100 : 25;
+      const screenHeightVh = storyConsole ? ((storyConsole.offsetHeight - 54) / window.innerHeight) * 100 : 50;
+      const char1ScreenX = screenLeftVw + (screenWidthVw * .04);
+      const char2ScreenX = screenLeftVw + (screenWidthVw * .36);
+      const char3ScreenX = screenLeftVw + (screenWidthVw * .66);
+      const char1ScreenY = screenTopVh + (screenHeightVh * .28);
+      const char2ScreenY = screenTopVh + (screenHeightVh * .07);
+      const char3ScreenY = screenTopVh + (screenHeightVh * .28);
 
       setVar('--manifest-left-x', `${(-82 * (1 - enter)) + (44 * leave)}vw`);
       setVar('--manifest-right-x', `${(82 * (1 - enter)) - (44 * leave)}vw`);
@@ -355,14 +360,14 @@ const tier3 = tierlists.slice(0, 3).map((t) => {
       setVar('--screen-scale', String(lerp(.84, 1, screenEnter)));
       setVar('--char-opacity', String(characterEnter * (.72 + (.28 * characterSettle))));
       setVar('--char1-x', `${lerp(char1ManifestX, char1ScreenX, characterSettle)}vw`);
-      setVar('--char1-y', `${lerp(55, 39, characterSettle)}vh`);
+      setVar('--char1-y', `${lerp(55, char1ScreenY, characterSettle)}vh`);
       setVar('--char2-x', `${lerp(42, char2ScreenX, characterSettle)}vw`);
-      setVar('--char2-y', `${lerp(char2ManifestY, 28, characterSettle)}vh`);
+      setVar('--char2-y', `${lerp(char2ManifestY, char2ScreenY, characterSettle)}vh`);
       setVar('--char3-x', `${lerp(char3ManifestX, char3ScreenX, characterSettle)}vw`);
-      setVar('--char3-y', `${lerp(54, 39, characterSettle)}vh`);
-      setVar('--char1-scale', String(lerp(1, .55, characterSettle)));
-      setVar('--char2-scale', String(lerp(1, .62, characterSettle)));
-      setVar('--char3-scale', String(lerp(1, .55, characterSettle)));
+      setVar('--char3-y', `${lerp(54, char3ScreenY, characterSettle)}vh`);
+      setVar('--char1-scale', String(lerp(1, .66, characterSettle)));
+      setVar('--char2-scale', String(lerp(1, .72, characterSettle)));
+      setVar('--char3-scale', String(lerp(1, .66, characterSettle)));
     };
 
     const requestRender = () => {
