@@ -1,7 +1,7 @@
 ---
 type: platinum
 title: Ghost of Tsushima
-thumbnail: anh-game-ghost-of-tsushima.jpeg
+thumbnail: ml5567_1024x1024.webp
 order: 5
 date: 2021-04-10
 gold: 2
