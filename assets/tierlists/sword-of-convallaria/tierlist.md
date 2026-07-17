@@ -1,10 +1,10 @@
 ---
-game_label: "Sword of Convallaria"
-genre: "SRPG chiến thuật gacha (XD Entertainment)"
-blurb: "Xếp hạng nhân vật theo tier list của GameWith (cập nhật 26.06.2026) — hover từng nhân vật để xem phe và điểm mạnh. SP Inanna là nhân vật mạnh nhất hiện tại."
-version: ""
+game_label: Sword of Convallaria
+genre: SRPG chiến thuật gacha (XD Entertainment)
+blurb: Xếp hạng nhân vật theo tier list của GameWith (cập nhật 26.06.2026) — hover từng nhân vật để xem phe và điểm mạnh. SP Inanna là nhân vật mạnh nhất hiện tại.
+version:
 updated: 2026-07-17
-cover: cover.png
+cover: cover.jpg
 order: 100
 ---
 [
