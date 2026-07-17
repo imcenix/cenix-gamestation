@@ -1,8 +1,8 @@
 ---
-game_label: "Chaos Zero Nightmare"
-genre: "Roguelike deckbuilder RPG (Com2uS)"
-blurb: "Xếp hạng theo tier list chế độ Chaos Manifestation của Prydwen (cập nhật 08.07.2026) — hover từng nhân vật để xem hệ, class và vai trò (DPS / Support DPS / Support). Nhân vật đứng nhiều nhóm được ghi chú trong mô tả."
-version: ""
+game_label: Chaos Zero Nightmare
+genre: Roguelike deckbuilder RPG (Com2uS)
+blurb: Xếp hạng theo tier list chế độ Chaos Manifestation của Prydwen (cập nhật 08.07.2026) — hover từng nhân vật để xem hệ, class và vai trò (DPS / Support DPS / Support). Nhân vật đứng nhiều nhóm được ghi chú trong mô tả.
+version:
 updated: 2026-07-17
 cover: cover.jpg
 order: 100
