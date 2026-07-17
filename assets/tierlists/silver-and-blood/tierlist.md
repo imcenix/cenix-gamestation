@@ -1,10 +1,10 @@
 ---
-game_label: "Silver and Blood"
-genre: "SRPG gothic vampire (Vizta Games / MOONTON)"
-blurb: "Xếp hạng theo tier list mục Story của Prydwen (cập nhật 17.03.2026) — hover từng nhân vật để xem Moon type, phe, giáp và thế mạnh. So sánh nhân vật trong cùng Moon type nhé, đừng so New Moon với Crescent Moon."
-version: ""
+game_label: Silver and Blood
+genre: SRPG gothic vampire (Vizta Games / MOONTON)
+blurb: Xếp hạng theo tier list mục Story của Prydwen (cập nhật 17.03.2026) — hover từng nhân vật để xem Moon type, phe, giáp và thế mạnh. So sánh nhân vật trong cùng Moon type nhé, đừng so New Moon với Crescent Moon.
+version:
 updated: 2026-07-18
-cover: cover.png
+cover: cover.jpg
 order: 100
 ---
 [
