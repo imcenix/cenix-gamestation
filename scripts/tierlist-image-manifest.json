@@ -558,5 +558,179 @@
   {
     "path": "assets/tierlists/sword-of-convallaria/cover.png",
     "url": "https://img.gamewith.net/article/thumbnail/rectangle/48270.png"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/heidemarie.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/heidemarie_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/heidemarie"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/nine.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/nine_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/nine"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/sereniel.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/sereniel_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/sereniel"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/tenebria.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/tenebria_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/tenebria"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/hugo.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/hugo_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/hugo"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/veronica.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/veronica_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/veronica"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/adelheid.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/adelheid_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/adelheid"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/mika.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/mika_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/mika"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/narja.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/narja_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/narja"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/tiphera.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/tiphera_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/tiphera"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/diana.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/diana_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/diana"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/fei.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/fei_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/fei"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/mei-lin.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/mei-lin_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/mei-lin"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/khalipe.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/khalipe_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/khalipe"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/magna.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/magna_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/magna"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/orlea.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/orlea_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/orlea"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/rei.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/rei_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/rei"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/beryl.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/beryl_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/beryl"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/chizuru.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/chizuru_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/chizuru"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/haru.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/haru_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/haru"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/kayron.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/kayron_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/kayron"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/rin.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/rin_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/rin"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/rita.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/rita_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/rita"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/cassius.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/cassius_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/cassius"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/nia.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/nia_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/nia"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/luke.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/luke_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/luke"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/maribell.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/maribell_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/maribell"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/renoa.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/renoa_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/renoa"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/tressa.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/tressa_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/tressa"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/yuki.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/yuki_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/yuki"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/selena.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/selena_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/selena"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/amir.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/amir_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/amir"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/lucas.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/lucas_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/lucas"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/images/owen.webp",
+    "url": "https://cdn.prydwen.gg/images/chaos/characters/owen_card.webp",
+    "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/owen"
+  },
+  {
+    "path": "assets/tierlists/chaos-zero-nightmare/cover.jpg",
+    "url": "https://www.prydwen.gg/social_chaos.jpg"
   }
 ]

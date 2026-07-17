@@ -17,13 +17,24 @@ if (!existsSync(manifestPath)) process.exit(0);
 const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
 const downloaded = [];
 
-for (const { path, url } of manifest) {
+const UA = { headers: { 'user-agent': 'Mozilla/5.0 (CenixBot tierlist fetch)' } };
+async function grab(url) {
+  const res = await fetch(url, UA);
+  if (!res.ok) return null;
+  return Buffer.from(await res.arrayBuffer());
+}
+for (const { path, url, page } of manifest) {
   const abs = resolve(root, path);
   if (existsSync(abs)) continue;
   try {
-    const res = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0 (CenixBot tierlist fetch)' } });
-    if (!res.ok) { console.warn(`[tierlist] ${url} -> HTTP ${res.status}, skip`); continue; }
-    const buf = Buffer.from(await res.arrayBuffer());
+    let buf = url ? await grab(url) : null;
+    if (!buf && page) {
+      // fallback: lấy og:image từ trang nhân vật
+      const html = await (await fetch(page, UA)).text();
+      const m = html.match(/property="og:image"\s+content="([^"]+)"/) || html.match(/content="([^"]+)"\s+property="og:image"/);
+      if (m) buf = await grab(m[1]);
+    }
+    if (!buf) { console.warn(`[tierlist] ${url} (+page fallback) -> failed, skip`); continue; }
     mkdirSync(dirname(abs), { recursive: true });
     writeFileSync(abs, buf);
     downloaded.push(path);
