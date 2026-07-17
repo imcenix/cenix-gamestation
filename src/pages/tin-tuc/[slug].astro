@@ -38,7 +38,7 @@ const cover = d.cover ? `/news/${entry.id}/${d.cover}` : null;
       <Thumb src={cover} label="key art bài viết" class="cover-img" />
     </div>
 
-    <div class="prose">
+    <div class="prose magazine-prose">
       <Content />
     </div>
 
@@ -47,19 +47,128 @@ const cover = d.cover ? `/news/${entry.id}/${d.cover}` : null;
 </BaseLayout>
 
 <style>
-  .article { padding-top: 40px; padding-bottom: 56px; max-width: 860px; margin: 0 auto; }
+  .article { padding-top: 42px; padding-bottom: 72px; max-width: 1080px; margin: 0 auto; }
   .art-kicker { letter-spacing: 1.5px; margin: 22px 0 12px; }
-  .art-title { font: 900 44px/1.08 var(--display); letter-spacing: -1px; }
+  .art-title { max-width: 980px; font: 900 clamp(42px, 5vw, 68px)/1.02 var(--display); letter-spacing: -1.8px; text-wrap: balance; }
   .art-meta { display: flex; align-items: center; gap: 10px; margin-top: 18px; font: 400 10.5px var(--mono); color: var(--tx-55); }
   .art-meta .dot { color: var(--tx-faint); }
   .ava { width: 26px; height: 26px; border-radius: 50%; background: repeating-linear-gradient(45deg, #1c1c22 0, #1c1c22 6px, #202028 6px, #202028 12px); }
-  .art-lede { font: 400 17px/1.6 var(--display); color: var(--tx-body); margin: 24px 0 0; }
-  .art-cover { margin: 28px 0 32px; }
-  .art-cover :global(.cover-img) { width: 100%; height: 420px; border-radius: 3px; }
+  .art-lede { max-width: 840px; margin: 30px 0 0; padding-left: 24px; border-left: 3px solid var(--lime); color: rgba(255,255,255,.9); font: 500 clamp(20px, 2vw, 24px)/1.58 'Lora', Georgia, serif; text-wrap: pretty; }
+  .art-cover { margin: 38px 0 48px; }
+  .art-cover :global(.cover-img) { width: 100%; height: clamp(340px, 48vw, 560px); border-radius: 3px; box-shadow: 0 30px 90px rgba(0,0,0,.38); }
+  .magazine-prose {
+    max-width: 760px;
+    margin: 0 auto;
+    color: rgba(242, 241, 234, .82);
+    font-family: 'Lora', Georgia, 'Times New Roman', serif;
+    font-size: clamp(17px, 1.22vw, 19px);
+    font-weight: 400;
+    line-height: 1.9;
+    text-wrap: pretty;
+  }
+  .magazine-prose::before {
+    content: '';
+    display: block;
+    width: 72px;
+    height: 3px;
+    margin: 2px 0 38px;
+    background: var(--lime);
+    box-shadow: 0 0 18px rgba(200, 240, 60, .32);
+  }
+  .article :global(.magazine-prose > p) { margin: 0 0 1.5em; }
+  .article :global(.magazine-prose > p:first-of-type::first-letter) {
+    float: left;
+    margin: .08em .14em 0 0;
+    color: var(--lime);
+    font-family: 'Lora', Georgia, serif;
+    font-size: 5.35em;
+    font-weight: 700;
+    line-height: .72;
+    text-shadow: 0 0 24px rgba(200, 240, 60, .2);
+  }
+  .article :global(.magazine-prose h2) {
+    position: relative;
+    margin: 2.3em 0 .75em;
+    padding-top: 18px;
+    color: #fff;
+    font: 900 clamp(27px, 2.5vw, 36px)/1.16 var(--display);
+    letter-spacing: -.8px;
+  }
+  .article :global(.magazine-prose h2::before) {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 2px;
+    background: var(--lime);
+  }
+  .article :global(.magazine-prose h3) {
+    margin: 1.9em 0 .65em;
+    color: #fff;
+    font: 800 clamp(21px, 1.8vw, 26px)/1.25 var(--display);
+  }
+  .article :global(.magazine-prose strong) { color: #fff; font-weight: 700; }
+  .article :global(.magazine-prose a) { color: #fff; border-bottom-color: var(--lime); }
+  .article :global(.magazine-prose blockquote) {
+    position: relative;
+    margin: 3.4em -76px;
+    padding: 68px 58px 62px;
+    border: 1px solid rgba(200, 240, 60, .22);
+    background:
+      radial-gradient(circle at 15% 15%, rgba(200, 240, 60, .1), transparent 32%),
+      linear-gradient(135deg, rgba(255, 255, 255, .055), rgba(255, 255, 255, .018));
+    box-shadow: 0 24px 70px rgba(0, 0, 0, .28), inset 0 0 45px rgba(200, 240, 60, .025);
+    color: #fff;
+    font: 500 italic clamp(23px, 2.2vw, 31px)/1.52 'Lora', Georgia, serif;
+    text-align: center;
+  }
+  .article :global(.magazine-prose blockquote::before),
+  .article :global(.magazine-prose blockquote::after) {
+    position: absolute;
+    z-index: 1;
+    color: var(--lime);
+    font: 700 82px/.7 'Lora', Georgia, serif;
+    text-shadow: 0 0 24px rgba(200, 240, 60, .25);
+  }
+  .article :global(.magazine-prose blockquote::before) { content: '“'; top: -24px; left: 34px; }
+  .article :global(.magazine-prose blockquote::after) { content: '”'; right: 34px; bottom: -54px; }
+  .article :global(.magazine-prose blockquote p) { margin: 0; }
+  .article :global(.magazine-prose p:has(> img:only-child)) {
+    width: calc(100% + 120px);
+    margin: 3.8em -60px;
+    padding: 10px;
+    background: #e9e6dc;
+    box-shadow: 0 26px 70px rgba(0, 0, 0, .42);
+    transform: rotate(-1.15deg);
+    transform-origin: center;
+    transition: transform .45s cubic-bezier(.2,.8,.2,1), box-shadow .45s ease;
+  }
+  .article :global(.magazine-prose p:has(> img:only-child):nth-of-type(even)) { transform: rotate(1.15deg); }
+  .article :global(.magazine-prose p:has(> img:only-child):hover) {
+    transform: rotate(0) scale(1.012);
+    box-shadow: 0 32px 90px rgba(0, 0, 0, .52);
+  }
+  .article :global(.magazine-prose p:has(> img:only-child) img) {
+    display: block;
+    width: 100%;
+    margin: 0;
+    border-radius: 1px;
+  }
+
   .back { display: inline-block; margin-top: 40px; font: 700 11px var(--mono); color: var(--lime); }
 
   @media (max-width: 760px) {
     .art-title { font-size: 30px; }
     .art-cover :global(.cover-img) { height: 240px; }
+    .art-lede { font-size: 18px; padding-left: 18px; }
+    .magazine-prose { font-size: 17px; line-height: 1.82; }
+    .magazine-prose::before { margin-bottom: 30px; }
+    .article :global(.magazine-prose > p:first-of-type::first-letter) { font-size: 4.7em; margin-right: .12em; }
+    .article :global(.magazine-prose blockquote) { margin: 3em 0; padding: 58px 24px 54px; font-size: 21px; }
+    .article :global(.magazine-prose blockquote::before) { left: 18px; }
+    .article :global(.magazine-prose blockquote::after) { right: 18px; }
+    .article :global(.magazine-prose p:has(> img:only-child)) { width: calc(100% + 12px); margin: 3em -6px; padding: 6px; transform: rotate(-.6deg); }
+    .article :global(.magazine-prose p:has(> img:only-child):nth-of-type(even)) { transform: rotate(.6deg); }
   }
 </style>
