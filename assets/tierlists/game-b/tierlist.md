@@ -3,7 +3,7 @@ game_label: Motto Immortal
 genre: Idle Gacha
 blurb: Game idle về các vị thần, art rất đẹp, game nhẹ nhàng, ít tốn thời gian, cập nhật liên tục
 version: "1.3"
-updated: 2026-07-12
+updated: 2026-07-17
 cover: cover.jpg
 order: 100
 ---
@@ -15,10 +15,80 @@ order: 100
     "chars": [
       {
         "name": "Caishen",
-        "image": "x-th-1783865908488.jpg",
-        "element": "Heart",
-        "desc": "Caishen, vị thần bảo hộ tài lộc, cai quản dòng chảy của cải, thành công và cơ hội. Có khả năng ban tặng vận may hoặc tước đoạt tài sản, Caishen tưởng thưởng cho sự siêng năng và trừng phạt lòng tham.",
+        "image": "caishen.webp",
+        "element": "Hearts",
+        "desc": "PvP S · PvE S. Đánh giá theo motto-immortal-db.com.",
         "role": "support"
+      },
+      {
+        "name": "Cronus",
+        "image": "cronus.webp",
+        "element": "Starglint",
+        "desc": "PvP S · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "support"
+      },
+      {
+        "name": "Hera",
+        "image": "hera.webp",
+        "element": "Starglint",
+        "desc": "PvP S · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "support"
+      },
+      {
+        "name": "Mengpo",
+        "image": "mengpo.webp",
+        "element": "Hearts",
+        "desc": "PvP S · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "support"
+      },
+      {
+        "name": "Meret",
+        "image": "meret.webp",
+        "element": "Diamonds",
+        "desc": "PvP S · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "support"
+      },
+      {
+        "name": "Nezha",
+        "image": "nezha.webp",
+        "element": "Starglint",
+        "desc": "PvP S · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "warrior"
+      },
+      {
+        "name": "Nut",
+        "image": "nut.webp",
+        "element": "Spades",
+        "desc": "PvP S · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "mage"
+      },
+      {
+        "name": "Poseidon",
+        "image": "poseidon.webp",
+        "element": "Spades",
+        "desc": "PvP S · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "warrior"
+      },
+      {
+        "name": "Skadi",
+        "image": "skadi.webp",
+        "element": "Spades",
+        "desc": "PvP S · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "mage"
+      },
+      {
+        "name": "Xuannv",
+        "image": "xuannv.webp",
+        "element": "Clubs",
+        "desc": "PvP A- · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "archer"
+      },
+      {
+        "name": "Zeus",
+        "image": "zeus.webp",
+        "element": "Starglint",
+        "desc": "PvP S · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "mage"
       }
     ]
   },
@@ -28,10 +98,87 @@ order: 100
     "color": "#ff8c42",
     "chars": [
       {
-        "name": "Dionysus",
-        "image": "kim-s-1783866251609.jpg",
+        "name": "Amunra",
+        "image": "amunra.webp",
         "element": "Starglint",
-        "desc": "Dionysus, nữ thần rượu vang và những cuộc vui chơi, hiện thân cho niềm đam mê và sự hân hoan vô bờ bến của cuộc sống. Đẹp trai và rạng rỡ, bà khoác áo choàng dệt từ dây nho, tay cầm chén rượu và cây trượng Thyrsus.",
+        "desc": "PvP S · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "warrior"
+      },
+      {
+        "name": "Cancer",
+        "image": "cancer.webp",
+        "element": "Hearts",
+        "desc": "PvP S · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "support"
+      },
+      {
+        "name": "Dionysus",
+        "image": "dionysus.webp",
+        "element": "Starglint",
+        "desc": "PvP S · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "support"
+      },
+      {
+        "name": "Eris",
+        "image": "eris.webp",
+        "element": "Clubs",
+        "desc": "PvP B · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "archer"
+      },
+      {
+        "name": "Hecate",
+        "image": "hecate.webp",
+        "element": "Spades",
+        "desc": "PvP B · PvE B. Đánh giá theo motto-immortal-db.com.",
+        "role": "mage"
+      },
+      {
+        "name": "Hephaestus",
+        "image": "hephaestus.webp",
+        "element": "Hearts",
+        "desc": "PvP B · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "support"
+      },
+      {
+        "name": "Heracles",
+        "image": "heracles.webp",
+        "element": "Diamonds",
+        "desc": "PvP S · PvE A. Đánh giá theo motto-immortal-db.com.",
+        "role": "warrior"
+      },
+      {
+        "name": "Nuba",
+        "image": "nuba.webp",
+        "element": "Clubs",
+        "desc": "PvP S · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "warrior"
+      },
+      {
+        "name": "Nuwa",
+        "image": "nuwa.webp",
+        "element": "Starglint",
+        "desc": "PvP S · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "tank"
+      },
+      {
+        "name": "Nyx",
+        "image": "nyx.webp",
+        "element": "Starglint",
+        "desc": "PvP S · PvE B. Đánh giá theo motto-immortal-db.com.",
+        "role": "assassin"
+      },
+      {
+        "name": "Wen-Shen",
+        "image": "wenshen.webp",
+        "element": "Clubs",
+        "desc": "PvP S · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "support"
+      },
+      {
+        "name": "Yuelao",
+        "image": "yuelao.webp",
+        "element": "Hearts",
+        "desc": "PvP S · PvE S. Đánh giá theo motto-immortal-db.com.",
         "role": "support"
       }
     ]
@@ -43,10 +190,87 @@ order: 100
     "chars": [
       {
         "name": "Bastet",
-        "image": "php-s-bng-1783866322109.jpg",
-        "element": "Diamond",
-        "desc": "Bastet, chú mèo đen bảo vệ các ngôi nhà, là hiện thân của sự thanh lịch và bí ẩn.",
+        "image": "bastet.webp",
+        "element": "Diamonds",
+        "desc": "PvP S · PvE A+. Đánh giá theo motto-immortal-db.com.",
         "role": "assassin"
+      },
+      {
+        "name": "Hela",
+        "image": "hela.webp",
+        "element": "Spades",
+        "desc": "PvP B · PvE A. Đánh giá theo motto-immortal-db.com.",
+        "role": "support"
+      },
+      {
+        "name": "Iris",
+        "image": "iris.webp",
+        "element": "Spades",
+        "desc": "PvP A · PvE A. Đánh giá theo motto-immortal-db.com.",
+        "role": "support"
+      },
+      {
+        "name": "Jingwei",
+        "image": "jingwei.webp",
+        "element": "Hearts",
+        "desc": "PvP B · PvE A. Đánh giá theo motto-immortal-db.com.",
+        "role": "assassin"
+      },
+      {
+        "name": "Khepri",
+        "image": "khepri.webp",
+        "element": "Spades",
+        "desc": "PvP A · PvE A. Đánh giá theo motto-immortal-db.com.",
+        "role": "support"
+      },
+      {
+        "name": "Momus",
+        "image": "momus.webp",
+        "element": "Spades",
+        "desc": "PvP A · PvE A. Đánh giá theo motto-immortal-db.com.",
+        "role": "tank"
+      },
+      {
+        "name": "Pan",
+        "image": "pan.webp",
+        "element": "Clubs",
+        "desc": "PvP A · PvE S. Đánh giá theo motto-immortal-db.com.",
+        "role": "support"
+      },
+      {
+        "name": "Phoenix",
+        "image": "phoenix.webp",
+        "element": "Diamonds",
+        "desc": "PvP A · PvE B. Đánh giá theo motto-immortal-db.com.",
+        "role": "mage"
+      },
+      {
+        "name": "Serket",
+        "image": "serket.webp",
+        "element": "Diamonds",
+        "desc": "PvP A+ · PvE A+. Đánh giá theo motto-immortal-db.com.",
+        "role": "warrior"
+      },
+      {
+        "name": "Set",
+        "image": "set.webp",
+        "element": "Diamonds",
+        "desc": "PvP B · PvE A. Đánh giá theo motto-immortal-db.com.",
+        "role": "warrior"
+      },
+      {
+        "name": "Tefnut",
+        "image": "tefnut.webp",
+        "element": "Spades",
+        "desc": "PvP A · PvE A. Đánh giá theo motto-immortal-db.com.",
+        "role": "support"
+      },
+      {
+        "name": "Yanluo",
+        "image": "yanluo.webp",
+        "element": "Hearts",
+        "desc": "PvP S · PvE A. Đánh giá theo motto-immortal-db.com.",
+        "role": "warrior"
       }
     ]
   },
@@ -57,10 +281,38 @@ order: 100
     "chars": [
       {
         "name": "Anubis",
-        "image": "anubis-1783866443232.jpg",
+        "image": "anubis.webp",
         "element": "Clubs",
-        "desc": "Anubis có chỉ số trung bình, và anh ta thể hiện tốt ở hầu hết mọi nơi, nhưng mạnh nhất ở PVP và trong tháp, còn yếu nhất ở Grim Surge.",
+        "desc": "PvP S · PvE A. Đánh giá theo motto-immortal-db.com.",
         "role": "assassin"
+      },
+      {
+        "name": "Athena",
+        "image": "athena.webp",
+        "element": "Diamonds",
+        "desc": "PvP B · PvE A. Đánh giá theo motto-immortal-db.com.",
+        "role": "support"
+      },
+      {
+        "name": "Diana",
+        "image": "diana.webp",
+        "element": "Clubs",
+        "desc": "PvP A · PvE A. Đánh giá theo motto-immortal-db.com.",
+        "role": "archer"
+      },
+      {
+        "name": "Hladgunnr",
+        "image": "hladgunnr.webp",
+        "element": "Hearts",
+        "desc": "PvP A · PvE D. Đánh giá theo motto-immortal-db.com.",
+        "role": "warrior"
+      },
+      {
+        "name": "Prometheus",
+        "image": "prometheus.webp",
+        "element": "Hearts",
+        "desc": "PvP B · PvE B. Đánh giá theo motto-immortal-db.com.",
+        "role": "tank"
       }
     ]
   },
@@ -68,19 +320,35 @@ order: 100
     "label": "B",
     "sublabel": "Tier 4",
     "color": "#ffc9a0",
-    "chars": []
+    "chars": [
+      {
+        "name": "Jormungandr",
+        "image": "jormungandr.webp",
+        "element": "Clubs",
+        "desc": "PvP B · PvE C. Đánh giá theo motto-immortal-db.com.",
+        "role": "warrior"
+      }
+    ]
   },
   {
     "label": "C",
     "sublabel": "Tier 5",
-    "color": "#8a8a8a",
+    "color": "#bdbdbd",
     "chars": [
       {
         "name": "Nephtys",
-        "image": "nephtys-1783865391588.jpg",
+        "image": "nephtys.webp",
         "element": "Spades",
-        "desc": "",
-        "role": "warrior"
+        "desc": "PvP B · PvE C. Đánh giá theo motto-immortal-db.com.",
+        "role": "warrior",
+        "isNew": true
+      },
+      {
+        "name": "Ares",
+        "image": "ares.webp",
+        "element": "Diamonds",
+        "desc": "PvP C · PvE C. Đánh giá theo motto-immortal-db.com.",
+        "role": "tank"
       }
     ]
   },
@@ -88,6 +356,84 @@ order: 100
     "label": "D",
     "sublabel": "Tier 6",
     "color": "#8a8a8a",
-    "chars": []
+    "chars": [
+      {
+        "name": "Artemis",
+        "image": "artemis.webp",
+        "element": "Clubs",
+        "desc": "PvP C · PvE D. Đánh giá theo motto-immortal-db.com.",
+        "role": "archer"
+      },
+      {
+        "name": "Demeter",
+        "image": "demeter.webp",
+        "element": "Clubs",
+        "desc": "PvP D · PvE D. Đánh giá theo motto-immortal-db.com.",
+        "role": "tank"
+      },
+      {
+        "name": "Fengyi",
+        "image": "fengyi.webp",
+        "element": "Clubs",
+        "desc": "PvP B · PvE D. Đánh giá theo motto-immortal-db.com.",
+        "role": "mage"
+      },
+      {
+        "name": "Freya",
+        "image": "freya.webp",
+        "element": "Clubs",
+        "desc": "PvP D · PvE D. Đánh giá theo motto-immortal-db.com.",
+        "role": "support"
+      },
+      {
+        "name": "Horus",
+        "image": "horus.webp",
+        "element": "Diamonds",
+        "desc": "PvP D · PvE D. Đánh giá theo motto-immortal-db.com.",
+        "role": "assassin"
+      },
+      {
+        "name": "Isis",
+        "image": "isis.webp",
+        "element": "Hearts",
+        "desc": "PvP C · PvE D. Đánh giá theo motto-immortal-db.com.",
+        "role": "archer"
+      },
+      {
+        "name": "Medusa",
+        "image": "medusa.webp",
+        "element": "Spades",
+        "desc": "PvP D · PvE D. Đánh giá theo motto-immortal-db.com.",
+        "role": "archer"
+      },
+      {
+        "name": "Nemesis",
+        "image": "nemesis.webp",
+        "element": "Spades",
+        "desc": "PvP A · PvE D. Đánh giá theo motto-immortal-db.com.",
+        "role": "assassin"
+      },
+      {
+        "name": "Sekhmet",
+        "image": "sekhmet.webp",
+        "element": "Diamonds",
+        "desc": "PvP C · PvE D. Đánh giá theo motto-immortal-db.com.",
+        "role": "warrior"
+      },
+      {
+        "name": "Surtr",
+        "image": "surtr.webp",
+        "element": "Hearts",
+        "desc": "PvP D · PvE D. Đánh giá theo motto-immortal-db.com.",
+        "role": "mage"
+      },
+      {
+        "name": "Ullr",
+        "image": "ullr.webp",
+        "element": "Hearts",
+        "desc": "PvP B · PvE D. Đánh giá theo motto-immortal-db.com.",
+        "role": "tank"
+      }
+    ]
   }
 ]
