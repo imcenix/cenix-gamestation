@@ -6,6 +6,6 @@ category: gameplay
 date: 2026-07-12
 duration: "5:00"
 featured: false
-order:
+order: 5
 description:
 ---

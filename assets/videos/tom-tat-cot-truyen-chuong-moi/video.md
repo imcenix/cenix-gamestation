@@ -6,7 +6,7 @@ category: gameplay
 date: 2026-07-12
 duration: "7:47"
 featured: true
-order:
+order: 9
 description:
 ---
 Every creature has a story.  

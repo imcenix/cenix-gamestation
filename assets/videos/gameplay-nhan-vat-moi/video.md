@@ -6,6 +6,6 @@ category: tin-tuc
 date: 2026-07-12
 duration: "12:00"
 featured: false
-order:
+order: 6
 description: Top 10 game xây dựng nổi bật nữa cuối năm 2026
 ---
