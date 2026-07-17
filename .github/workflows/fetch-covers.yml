@@ -1,0 +1,25 @@
+name: Fetch news covers
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/cover-manifest.json'
+      - '.github/workflows/fetch-covers.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  covers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Download missing covers and commit
+        env:
+          GITHUB_ACTIONS: 'true'
+        run: node scripts/fetch-covers.mjs
