@@ -101,15 +101,15 @@ const cover = (slug: string, file?: string | null) => (file ? `/news/${slug}/${f
 
   /* Pagination */
   .pagination { display: flex; justify-content: center; gap: 8px; padding: 34px 0 48px; }
-  .pg {
+  .pagination :global(.pg) {
     min-width: 36px; height: 36px; padding: 0 10px;
     border: 1px solid var(--bd-chip); border-radius: 3px;
     display: flex; align-items: center; justify-content: center;
     font: 400 12px var(--mono); color: var(--tx-body); cursor: pointer; background: transparent;
   }
-  .pg.active { background: var(--lime); color: var(--on-lime); border-color: var(--lime); font-weight: 700; }
-  .pg.wide { padding: 0 14px; }
-  .pg.ellipsis { cursor: default; border-color: transparent; }
+  .pagination :global(.pg.active) { background: var(--lime); color: var(--on-lime); border-color: var(--lime); font-weight: 700; }
+  .pagination :global(.pg.wide) { padding: 0 14px; }
+  .pagination :global(.pg.ellipsis) { cursor: default; border-color: transparent; }
   .pagination[hidden] { display: none; }
 
   @media (max-width: 760px) {
