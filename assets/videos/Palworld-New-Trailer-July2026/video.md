@@ -1,6 +1,6 @@
 ---
 category: trailer
-featured: true
+featured: false
 title: Palworld - 1.0 Cinematic Trailer | PS5 Games
 slug: Palworld-New-Trailer-July2026
 youtube_url: "https://www.youtube.com/watch?v=AtbdH5Avx-4"
