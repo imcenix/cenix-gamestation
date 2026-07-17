@@ -1,6 +1,6 @@
 ---
 category: trailer
-featured: false
+featured: true
 title: Marvel’s Wolverine - Ain’t No Hero Trailer
 slug: Marvel-Wolverine-TrailerJuly
 youtube_url: "https://www.youtube.com/watch?v=rJrqHyojaa4"
