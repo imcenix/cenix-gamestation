@@ -10,6 +10,7 @@ tags:
   - 22 NHÂN VẬT
   - CHECKLIST
 excerpt: Lộ trình tuyển đủ 22 companion từ đầu đến cuối game, kèm các lựa chọn dễ bỏ lỡ và những mốc cần lưu save riêng.
+cover: wandering-sword-boxart-01.jpg
 ---
 Đây là checklist tuyển đủ **22 nhân vật** trong _Wandering Sword_, sắp xếp theo tiến trình từ đầu đến cuối game. Những lựa chọn có thể khóa tuyến, làm mất nhân vật hoặc thay đổi kết quả đều được đánh dấu rõ.
 
