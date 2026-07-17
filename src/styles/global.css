@@ -216,7 +216,105 @@ body:not([data-page='home']):not([data-page='profile']) .app-main { padding-top:
   border-radius: 3px;
 }
 
-/* ── Responsive gutter ────────────────────────────────────────────────── */
+/* Editorial blocks authored in Cenix CMS */
+.prose span[style*="color"] strong { color: inherit; }
+
+.prose .editorial-text-box {
+  margin: 2em 0;
+  padding: 15px;
+  border: 1px solid color-mix(in srgb, var(--box-color, #fff) 18%, transparent);
+  border-radius: 4px;
+  background: var(--box-bg, #171a22);
+  color: var(--box-color, #fff);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, .22);
+}
+.prose .editorial-text-box > :first-child { margin-top: 0; }
+.prose .editorial-text-box > :last-child { margin-bottom: 0; }
+.prose .editorial-text-box strong { color: inherit; }
+
+.prose blockquote:not(.editorial-split-quote-card) {
+  position: relative;
+  margin: 3em 0;
+  padding: 58px 42px 50px;
+  border: 1px solid rgba(200, 240, 60, .2);
+  background: linear-gradient(135deg, rgba(200, 240, 60, .08), rgba(255, 255, 255, .025));
+  color: #fff;
+  font: 500 italic clamp(21px, 2.2vw, 29px)/1.5 'Lora', Georgia, serif;
+  text-align: center;
+}
+.prose blockquote:not(.editorial-split-quote-card)::before,
+.prose blockquote:not(.editorial-split-quote-card)::after {
+  position: absolute;
+  color: var(--lime);
+  font: 700 76px/.7 'Lora', Georgia, serif;
+}
+.prose blockquote:not(.editorial-split-quote-card)::before { content: '“'; top: -18px; left: 24px; }
+.prose blockquote:not(.editorial-split-quote-card)::after { content: '”'; right: 24px; bottom: -48px; }
+
+.prose .editorial-split-quote {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 22px;
+  align-items: stretch;
+  width: calc(100% + 140px);
+  margin: 3.2em -70px;
+}
+.prose .editorial-split-quote-card {
+  position: relative;
+  min-height: 320px;
+  margin: 0;
+  padding: 82px 42px 52px;
+  border: 1px solid rgba(200, 240, 60, .18);
+  background:
+    radial-gradient(circle at 15% 15%, rgba(200, 240, 60, .1), transparent 35%),
+    #071620;
+  color: #fff;
+  font: 700 clamp(24px, 2.4vw, 34px)/1.36 'Lora', Georgia, serif;
+  overflow: hidden;
+}
+.prose .editorial-split-quote-card::before,
+.prose .editorial-split-quote-card::after {
+  position: absolute;
+  color: var(--lime);
+  font: 700 104px/.7 'Lora', Georgia, serif;
+  opacity: .78;
+}
+.prose .editorial-split-quote-card::before { content: '“'; top: 22px; left: 28px; }
+.prose .editorial-split-quote-card::after { content: '”'; right: 28px; bottom: -32px; }
+.prose .editorial-split-quote-card p { position: relative; z-index: 1; margin: 0; }
+.prose .editorial-split-quote-card cite {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin-top: 28px;
+  color: var(--lime);
+  font: 700 10px/1.5 var(--mono);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.prose .editorial-copy {
+  align-self: center;
+  color: var(--tx-65);
+  font: inherit;
+}
+.prose .editorial-copy > :first-child { margin-top: 0; }
+.prose .editorial-copy > :last-child { margin-bottom: 0; }
+.prose .editorial-split-quote.quote-right .editorial-split-quote-card { order: 2; }
+.prose .editorial-split-quote.quote-right .editorial-copy { order: 1; }
+
+@media (max-width: 760px) {
+  .prose .editorial-split-quote {
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 2.4em 0;
+  }
+  .prose .editorial-split-quote-card { min-height: 260px; padding: 70px 28px 46px; }
+  .prose .editorial-split-quote.quote-right .editorial-split-quote-card,
+  .prose .editorial-split-quote.quote-right .editorial-copy { order: initial; }
+  .prose blockquote:not(.editorial-split-quote-card) { padding: 52px 24px 46px; }
+}
+
+/* Responsive gutter */
 @media (max-width: 900px) {
   :root { --gutter: 20px; }
   .page-title { font-size: 40px; }

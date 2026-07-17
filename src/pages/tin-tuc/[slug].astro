@@ -110,7 +110,7 @@ const cover = d.cover ? `/news/${entry.id}/${d.cover}` : null;
   }
   .article :global(.magazine-prose strong) { color: #fff; font-weight: 700; }
   .article :global(.magazine-prose a) { color: #fff; border-bottom-color: var(--lime); }
-  .article :global(.magazine-prose blockquote) {
+  .article :global(.magazine-prose blockquote:not(.editorial-split-quote-card)) {
     position: relative;
     margin: 3.4em -76px;
     padding: 68px 58px 62px;
@@ -123,17 +123,17 @@ const cover = d.cover ? `/news/${entry.id}/${d.cover}` : null;
     font: 500 italic clamp(23px, 2.2vw, 31px)/1.52 'Lora', Georgia, serif;
     text-align: center;
   }
-  .article :global(.magazine-prose blockquote::before),
-  .article :global(.magazine-prose blockquote::after) {
+  .article :global(.magazine-prose blockquote:not(.editorial-split-quote-card)::before),
+  .article :global(.magazine-prose blockquote:not(.editorial-split-quote-card)::after) {
     position: absolute;
     z-index: 1;
     color: var(--lime);
     font: 700 82px/.7 'Lora', Georgia, serif;
     text-shadow: 0 0 24px rgba(200, 240, 60, .25);
   }
-  .article :global(.magazine-prose blockquote::before) { content: '“'; top: -24px; left: 34px; }
-  .article :global(.magazine-prose blockquote::after) { content: '”'; right: 34px; bottom: -54px; }
-  .article :global(.magazine-prose blockquote p) { margin: 0; }
+  .article :global(.magazine-prose blockquote:not(.editorial-split-quote-card)::before) { content: '“'; top: -24px; left: 34px; }
+  .article :global(.magazine-prose blockquote:not(.editorial-split-quote-card)::after) { content: '”'; right: 34px; bottom: -54px; }
+  .article :global(.magazine-prose blockquote:not(.editorial-split-quote-card) p) { margin: 0; }
   .article :global(.magazine-prose p:has(> img:only-child)) {
     width: calc(100% + 120px);
     margin: 3.8em -60px;
@@ -165,9 +165,9 @@ const cover = d.cover ? `/news/${entry.id}/${d.cover}` : null;
     .magazine-prose { font-size: 17px; line-height: 1.82; }
     .magazine-prose::before { margin-bottom: 30px; }
     .article :global(.magazine-prose > p:first-of-type::first-letter) { font-size: 4.7em; margin-right: .12em; }
-    .article :global(.magazine-prose blockquote) { margin: 3em 0; padding: 58px 24px 54px; font-size: 21px; }
-    .article :global(.magazine-prose blockquote::before) { left: 18px; }
-    .article :global(.magazine-prose blockquote::after) { right: 18px; }
+    .article :global(.magazine-prose blockquote:not(.editorial-split-quote-card)) { margin: 3em 0; padding: 58px 24px 54px; font-size: 21px; }
+    .article :global(.magazine-prose blockquote:not(.editorial-split-quote-card)::before) { left: 18px; }
+    .article :global(.magazine-prose blockquote:not(.editorial-split-quote-card)::after) { right: 18px; }
     .article :global(.magazine-prose p:has(> img:only-child)) { width: calc(100% + 12px); margin: 3em -6px; padding: 6px; transform: rotate(-.6deg); }
     .article :global(.magazine-prose p:has(> img:only-child):nth-of-type(even)) { transform: rotate(.6deg); }
   }
