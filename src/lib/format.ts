@@ -45,3 +45,10 @@ export function byOrderThenDate<T extends { data: { order?: number | null; date?
   const bd = b.data.date ? new Date(b.data.date).getTime() : 0;
   return bd - ad;
 }
+
+/** Sort strictly by publication date descending (newest first). */
+export function byDateDesc<T extends { data: { date?: string } }>(a: T, b: T): number {
+  const ad = a.data.date ? new Date(a.data.date).getTime() : 0;
+  const bd = b.data.date ? new Date(b.data.date).getTime() : 0;
+  return bd - ad;
+}

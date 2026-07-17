@@ -7,10 +7,10 @@ import VideoThumb from '../components/VideoThumb.astro';
 import Reviews from '../components/Reviews.astro';
 import { SITE } from '../config/site';
 import { NEWS_LABEL, GUIDE_LABEL } from '../lib/labels';
-import { dmy, byOrderThenDate } from '../lib/format';
+import { dmy, byDateDesc, byOrderThenDate } from '../lib/format';
 import { readFileSync } from 'node:fs';
 
-const news = (await getCollection('news')).sort(byOrderThenDate);
+const news = (await getCollection('news')).sort(byDateDesc);
 const guides = (await getCollection('guides')).sort(byOrderThenDate);
 let vorder: string[] = [];
 try { vorder = JSON.parse(readFileSync('./assets/videos/_order_videos.json', 'utf-8')); } catch {}
@@ -39,7 +39,7 @@ const selectedGames = [
 ];
 
 // News: 1 lead + 2 nhỏ (nổi bật); cột Tin tức = 5 kế tiếp
-const leadNews = news.find((n) => n.data.featured) ?? news[0];
+const leadNews = news[0];
 const restNews = news.filter((n) => n.id !== leadNews?.id);
 const featSmall = restNews.slice(0, 2);
 const newsCol = restNews.slice(2, 7);

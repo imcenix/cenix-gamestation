@@ -3,10 +3,10 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Thumb from '../../components/Thumb.astro';
 import { NEWS_CATEGORIES, NEWS_LABEL } from '../../lib/labels';
-import { dmy, dmSplit, byOrderThenDate } from '../../lib/format';
+import { dmy, dmSplit, byDateDesc } from '../../lib/format';
 
-const news = (await getCollection('news')).sort(byOrderThenDate);
-const featured = news.find((n) => n.data.featured) ?? news[0];
+const news = (await getCollection('news')).sort(byDateDesc);
+const featured = news[0];
 const rest = news.filter((n) => n.id !== featured?.id);
 
 const cover = (slug: string, file?: string | null) => (file ? `/news/${slug}/${file}` : null);
