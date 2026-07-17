@@ -9,6 +9,9 @@ concurrency:
   group: gamestation-deploy
   cancel-in-progress: true
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     name: Build and deploy game.imcenix.com
@@ -38,6 +41,10 @@ jobs:
       - name: Fetch public Steam profile
         continue-on-error: true
         run: node scripts/fetch-steam.mjs
+
+      - name: Fetch tier-list images
+        continue-on-error: true
+        run: node scripts/fetch-tierlist-images.mjs
 
       - name: Build
         run: npm run build
