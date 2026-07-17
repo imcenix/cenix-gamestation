@@ -728,5 +728,354 @@
     "path": "assets/tierlists/chaos-zero-nightmare/images/owen.webp",
     "url": "https://cdn.prydwen.gg/images/chaos/characters/owen_card.webp",
     "page": "https://www.prydwen.gg/chaos-zero-nightmare/characters/owen"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/albrecht.webp",
+    "url": "https://www.prydwen.gg/static/82dc26d2f13b36f02a895cd030722ade/2547a/silver_55_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/albrecht"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/bella.webp",
+    "url": "https://www.prydwen.gg/static/08466b02913cccd285f0347d8b451670/2547a/Silver_29_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/bella"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/bella-fleeting.webp",
+    "url": "https://www.prydwen.gg/static/d1edadb2703582da8f718128b28d58a5/2547a/Silver_14_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/bella-fleeting"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/livian.webp",
+    "url": "https://www.prydwen.gg/static/1f1b9932835cf3236ce26d3e7c7a2322/2547a/silver_62_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/livian"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/quinn.webp",
+    "url": "https://www.prydwen.gg/static/946eb09d00f7c4e1419928f87c37a14b/2547a/silver_51_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/quinn"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/acappella.webp",
+    "url": "https://www.prydwen.gg/static/f473bb083423135ceedc0757c40ecce4/2547a/Silver_11_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/acappella"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/aiona-timeless.webp",
+    "url": "https://www.prydwen.gg/static/9a4a64dccfb8b33eebff480a8afba19e/2547a/silver_50_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/aiona-timeless"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/alexi.webp",
+    "url": "https://www.prydwen.gg/static/03a0346424144349aee3bb7bd75e3f0b/2547a/silver_63_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/alexi"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/empousa-blooming.webp",
+    "url": "https://www.prydwen.gg/static/f4937698af4ff646644b76d418934933/2547a/silver_68_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/empousa-blooming"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/ethereal-joan.webp",
+    "url": "https://www.prydwen.gg/static/c57a39d1c85b8697dfedad4249936e34/2547a/silver_65_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/ethereal-joan"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/aiona-starry-eyed.webp",
+    "url": "https://www.prydwen.gg/static/8cd9a8eb589da590b893d17ee906d0a9/2547a/Silver_22_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/aiona-starry-eyed"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/alene.webp",
+    "url": "https://www.prydwen.gg/static/d7b6d6f37427f7f6cd68c250d08a7762/2547a/silver_64_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/alene"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/jestel-transcendent.webp",
+    "url": "https://www.prydwen.gg/static/1c0c6a87d511ea5895b1e62269d7cbe8/2547a/Silver_69_c.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/jestel-transcendent"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/seth.webp",
+    "url": "https://www.prydwen.gg/static/98ede07bf4ea9ecee5fc2ea4a47993fc/2547a/Silver_10_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/seth"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/agnes.webp",
+    "url": "https://www.prydwen.gg/static/72ba01e3f51267b92825b8f10cd285b7/2547a/Silver_52_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/agnes"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/dalcarlo.webp",
+    "url": "https://www.prydwen.gg/static/96432e2b035abb2e9c5df81be233745f/2547a/Silver_24_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/dalcarlo"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/letitia.webp",
+    "url": "https://www.prydwen.gg/static/aa2ac45963afbfba6c68146c86207e7d/2547a/silver_61_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/letitia"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/lucille.webp",
+    "url": "https://www.prydwen.gg/static/f3e7ba35a7cd943a0d90899c5786811f/2547a/silver_66_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/lucille"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/fanny.webp",
+    "url": "https://www.prydwen.gg/static/0ed01787a2b8fa125d7df77dd55ac072/2547a/silver_58_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/fanny"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/seraphina.webp",
+    "url": "https://www.prydwen.gg/static/5aa1555220501e063b11ff5c46a5af86/2547a/silver_60_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/seraphina"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/setti-resurgent.webp",
+    "url": "https://www.prydwen.gg/static/d58988dbc3530fe201290f55e0214c37/2547a/silver_67_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/setti-resurgent"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/ami-transcendent.webp",
+    "url": "https://www.prydwen.gg/static/ca87958f10fe36ef5d243bb6e3aecae7/2547a/Silver_2_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/ami-transcendent"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/friedrich.webp",
+    "url": "https://www.prydwen.gg/static/d20d9dc0f26bb50f42c81f38cb2dcf02/2547a/Silver_25_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/friedrich"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/theophane.webp",
+    "url": "https://www.prydwen.gg/static/4cf00598b72d2d0a93ab413d18a8423c/2547a/Silver_31_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/theophane"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/ami.webp",
+    "url": "https://www.prydwen.gg/static/8c029539c35eee3da57ead861001b37c/2547a/Silver_36_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/ami"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/lorelei.webp",
+    "url": "https://www.prydwen.gg/static/1365e916429d1beddfb040b1f1e13171/2547a/Silver_9_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/lorelei"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/stella.webp",
+    "url": "https://www.prydwen.gg/static/4fa05f8fcd3c118c75ba47d6d12ac9fd/2547a/silver_57_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/stella"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/genevieve.webp",
+    "url": "https://www.prydwen.gg/static/b460a92f5c123be93823a50ee4bf2afe/2547a/silver_59_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/genevieve"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/hati-transcendent.webp",
+    "url": "https://www.prydwen.gg/static/683861c969f4cdeee7a4922a5b8f5f95/2547a/Silver_1_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/hati-transcendent"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/lamia.webp",
+    "url": "https://www.prydwen.gg/static/0b22b4f0a58f54284b385b1b16b2a64e/2547a/Silver_19_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/lamia"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/noah-transcendent.webp",
+    "url": "https://www.prydwen.gg/static/6d251cfc571ddc961a68024581606332/2547a/Silver_8_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/noah-transcendent"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/thibault.webp",
+    "url": "https://www.prydwen.gg/static/decfb4cf620adf99060db1ded2e70dbc/2547a/Silver_30_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/thibault"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/valora.webp",
+    "url": "https://www.prydwen.gg/static/5ca6ee06ab1f6f0e4dee556605c64127/2547a/silver_54_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/valora"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/van-helsing.webp",
+    "url": "https://www.prydwen.gg/static/d9ad56c655ded345c6cc402ec47b87bf/2547a/Silver_7_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/van-helsing"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/edina.webp",
+    "url": "https://www.prydwen.gg/static/9cbd9d7c7038226dc8705e557c89b324/2547a/Silver_27_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/edina"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/jestel.webp",
+    "url": "https://www.prydwen.gg/static/132cd5e927feb844de6ebc4c99322a1f/2547a/Silver_47_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/jestel"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/augustine.webp",
+    "url": "https://www.prydwen.gg/static/99aca141645ea3b545f88b36810bffa9/2547a/Silver_21_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/augustine"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/darcias.webp",
+    "url": "https://www.prydwen.gg/static/ece682d4a4db8621971d099ee4a79239/2547a/Silver_15_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/darcias"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/gilrain.webp",
+    "url": "https://www.prydwen.gg/static/437399c0b1179861ae7c5314f50838c6/2547a/Silver_12_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/gilrain"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/joan.webp",
+    "url": "https://www.prydwen.gg/static/5ef352fa0076508c65d14e3a522013f9/2547a/Silver_13_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/joan"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/pavana.webp",
+    "url": "https://www.prydwen.gg/static/b206275df91a7ad398d00597948008c7/2547a/Silver_18_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/pavana"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/agares.webp",
+    "url": "https://www.prydwen.gg/static/2f030f0b9c0b2e15b1cfd3e916053e1b/2547a/Silver_28_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/agares"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/cecia.webp",
+    "url": "https://www.prydwen.gg/static/f6f9f097c238a9ef56c9e0b0a19af2fa/2547a/Silver_20_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/cecia"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/julius.webp",
+    "url": "https://www.prydwen.gg/static/c88f0052c9c0604b8c435397b755db6e/2547a/silver_56_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/julius"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/limine.webp",
+    "url": "https://www.prydwen.gg/static/f7a3c3e3d51a12f060e5f5c170503175/2547a/Silver_3_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/limine"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/ressa.webp",
+    "url": "https://www.prydwen.gg/static/d95cf604e9a93778286f6d6efa75e6c7/2547a/Silver_16_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/ressa"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/sirene.webp",
+    "url": "https://www.prydwen.gg/static/b7a45d0699073e0b2d3a7b4d78f5522c/2547a/Silver_4_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/sirene"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/aiona.webp",
+    "url": "https://www.prydwen.gg/static/b2cdcba393b72b7147f4598c4168d8a7/2547a/Silver_40_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/aiona"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/yggdrasill.webp",
+    "url": "https://www.prydwen.gg/static/cad9001e8f886d1d67338c4c2e8986c9/2547a/Silver_23_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/yggdrasill"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/gilrain-spectral.webp",
+    "url": "https://www.prydwen.gg/static/15d6435233645de8de4f7c4558122077/2547a/Silver_34_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/gilrain-spectral"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/hati.webp",
+    "url": "https://www.prydwen.gg/static/37eb2d0184bc397e794b718351a63662/2547a/Silver_6_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/hati"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/nicole.webp",
+    "url": "https://www.prydwen.gg/static/fa30fa5749eeadbcae5011c10bf4bfc6/2547a/Silver_26_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/nicole"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/selena-jinxed.webp",
+    "url": "https://cdn.prydwen.gg/images/silver-and-blood/characters/selena-jinxed_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/selena-jinxed"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/agares-incendiary.webp",
+    "url": "https://cdn.prydwen.gg/images/silver-and-blood/characters/agares-incendiary_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/agares-incendiary"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/ottavia.webp",
+    "url": "https://cdn.prydwen.gg/images/silver-and-blood/characters/ottavia_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/ottavia"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/piera.webp",
+    "url": "https://cdn.prydwen.gg/images/silver-and-blood/characters/piera_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/piera"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/selena.webp",
+    "url": "https://cdn.prydwen.gg/images/silver-and-blood/characters/selena_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/selena"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/tris.webp",
+    "url": "https://cdn.prydwen.gg/images/silver-and-blood/characters/tris_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/tris"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/clive.webp",
+    "url": "https://cdn.prydwen.gg/images/silver-and-blood/characters/clive_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/clive"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/mass.webp",
+    "url": "https://cdn.prydwen.gg/images/silver-and-blood/characters/mass_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/mass"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/noah.webp",
+    "url": "https://cdn.prydwen.gg/images/silver-and-blood/characters/noah_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/noah"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/baphomet.webp",
+    "url": "https://cdn.prydwen.gg/images/silver-and-blood/characters/baphomet_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/baphomet"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/cain.webp",
+    "url": "https://cdn.prydwen.gg/images/silver-and-blood/characters/cain_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/cain"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/clive-jr.webp",
+    "url": "https://cdn.prydwen.gg/images/silver-and-blood/characters/clive-jr_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/clive-jr"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/empousa.webp",
+    "url": "https://cdn.prydwen.gg/images/silver-and-blood/characters/empousa_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/empousa"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/gadric.webp",
+    "url": "https://cdn.prydwen.gg/images/silver-and-blood/characters/gadric_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/gadric"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/goldland.webp",
+    "url": "https://cdn.prydwen.gg/images/silver-and-blood/characters/goldland_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/goldland"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/regina.webp",
+    "url": "https://cdn.prydwen.gg/images/silver-and-blood/characters/regina_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/regina"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/images/setti.webp",
+    "url": "https://cdn.prydwen.gg/images/silver-and-blood/characters/setti_card.webp",
+    "page": "https://www.prydwen.gg/silver-and-blood/characters/setti"
+  },
+  {
+    "path": "assets/tierlists/silver-and-blood/cover.png",
+    "url": "https://en.moonton.com/upload/image/20250626/0e937302feaf8b251d038321bcf91fcb.png"
   }
 ]
