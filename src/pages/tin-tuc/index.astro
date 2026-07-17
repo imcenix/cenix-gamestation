@@ -27,7 +27,7 @@ const cover = (slug: string, file?: string | null) => (file ? `/news/${slug}/${f
   </div>
 
   <!-- Featured -->
-  <div class="gut feat-wrap" data-category={featured.data.category}>
+  <div class="gut feat-wrap" id="news-featured" data-category={featured.data.category}>
     <a class="feat" href={`/tin-tuc/${featured.data.slug}`}>
       <Thumb src={cover(featured.id, featured.data.cover)} label="key art — bài nổi bật chuyên mục" class="feat-img" />
       <div class="feat-body">
@@ -51,7 +51,7 @@ const cover = (slug: string, file?: string | null) => (file ? `/news/${slug}/${f
     {rest.map((n) => {
       const d = dmSplit(n.data.date);
       return (
-        <a class="row" href={`/tin-tuc/${n.data.slug}`} data-category={n.data.category}>
+        <a class="row" href={`/tin-tuc/${n.data.slug}`} data-category={n.data.category} data-news-row>
           <div class="row-date">{d.dm}<br />{d.y}</div>
           <Thumb src={cover(n.id, n.data.cover)} label="thumb" class="row-thumb" />
           <div class="row-body">
@@ -66,14 +66,7 @@ const cover = (slug: string, file?: string | null) => (file ? `/news/${slug}/${f
     <p class="empty" id="news-empty" hidden>Chưa có bài viết trong chuyên mục này.</p>
   </div>
 
-  <!-- Pagination (decorative — sample có 1 trang) -->
-  <div class="pagination">
-    <span class="pg active">1</span>
-    <span class="pg">2</span>
-    <span class="pg">3</span>
-    <span class="pg">…</span>
-    <span class="pg wide">SAU →</span>
-  </div>
+  <nav class="pagination" id="news-pagination" aria-label="Phân trang tin tức" hidden></nav>
 </BaseLayout>
 
 <style>
@@ -112,10 +105,12 @@ const cover = (slug: string, file?: string | null) => (file ? `/news/${slug}/${f
     min-width: 36px; height: 36px; padding: 0 10px;
     border: 1px solid var(--bd-chip); border-radius: 3px;
     display: flex; align-items: center; justify-content: center;
-    font: 400 12px var(--mono); color: var(--tx-body); cursor: pointer;
+    font: 400 12px var(--mono); color: var(--tx-body); cursor: pointer; background: transparent;
   }
   .pg.active { background: var(--lime); color: var(--on-lime); border-color: var(--lime); font-weight: 700; }
   .pg.wide { padding: 0 14px; }
+  .pg.ellipsis { cursor: default; border-color: transparent; }
+  .pagination[hidden] { display: none; }
 
   @media (max-width: 760px) {
     .feat { grid-template-columns: 1fr; }
@@ -128,22 +123,111 @@ const cover = (slug: string, file?: string | null) => (file ? `/news/${slug}/${f
 </style>
 
 <script>
-  const chips = document.querySelectorAll<HTMLButtonElement>('.filters .chip');
-  const items = document.querySelectorAll<HTMLElement>('[data-category]');
+  const PAGE_SIZE = 6;
+  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>('.filters .chip'));
+  const featured = document.getElementById('news-featured');
+  const rows = Array.from(document.querySelectorAll<HTMLElement>('[data-news-row]'));
   const empty = document.getElementById('news-empty');
+  const pagination = document.getElementById('news-pagination');
+
+  const initialParams = new URLSearchParams(window.location.search);
+  let activeFilter = initialParams.get('category') || 'all';
+  let currentPage = Math.max(1, Number(initialParams.get('page')) || 1);
+
+  const pageButton = (label: string, page: number, className = '') => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = `pg ${className}`.trim();
+    button.dataset.page = String(page);
+    button.textContent = label;
+    return button;
+  };
+
+  const renderPagination = (totalPages: number) => {
+    if (!pagination) return;
+    pagination.replaceChildren();
+    if (totalPages <= 1) {
+      pagination.hidden = true;
+      return;
+    }
+
+    pagination.hidden = false;
+    if (currentPage > 1) pagination.append(pageButton('← TRƯỚC', currentPage - 1, 'wide'));
+
+    const visiblePages = new Set([1, totalPages, currentPage - 1, currentPage, currentPage + 1]);
+    const pages = Array.from(visiblePages)
+      .filter((page) => page >= 1 && page <= totalPages)
+      .sort((a, b) => a - b);
+
+    pages.forEach((page, index) => {
+      if (index > 0 && page - pages[index - 1] > 1) {
+        const ellipsis = document.createElement('span');
+        ellipsis.className = 'pg ellipsis';
+        ellipsis.textContent = '…';
+        pagination.append(ellipsis);
+      }
+      const button = pageButton(String(page), page, page === currentPage ? 'active' : '');
+      if (page === currentPage) button.setAttribute('aria-current', 'page');
+      pagination.append(button);
+    });
+
+    if (currentPage < totalPages) pagination.append(pageButton('SAU →', currentPage + 1, 'wide'));
+  };
+
+  const updateUrl = () => {
+    const params = new URLSearchParams(window.location.search);
+    if (currentPage > 1) params.set('page', String(currentPage));
+    else params.delete('page');
+    if (activeFilter !== 'all') params.set('category', activeFilter);
+    else params.delete('category');
+    const query = params.toString();
+    history.pushState({}, '', `${window.location.pathname}${query ? `?${query}` : ''}`);
+  };
+
+  const applyView = ({ push = false, scroll = false } = {}) => {
+    const filteredRows = rows.filter((row) => activeFilter === 'all' || row.dataset.category === activeFilter);
+    const totalPages = Math.max(1, Math.ceil(filteredRows.length / PAGE_SIZE));
+    currentPage = Math.min(Math.max(1, currentPage), totalPages);
+
+    rows.forEach((row) => { row.style.display = 'none'; });
+    filteredRows
+      .slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE)
+      .forEach((row) => { row.style.display = ''; });
+
+    const featuredMatches = !!featured && (activeFilter === 'all' || featured.dataset.category === activeFilter);
+    const showFeatured = featuredMatches && currentPage === 1;
+    if (featured) featured.style.display = showFeatured ? '' : 'none';
+
+    const visibleRows = filteredRows.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE).length;
+    if (empty) empty.hidden = showFeatured || visibleRows > 0;
+
+    chips.forEach((chip) => chip.classList.toggle('active', chip.dataset.filter === activeFilter));
+    renderPagination(totalPages);
+    if (push) updateUrl();
+    if (scroll) document.getElementById('news-list')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
 
   chips.forEach((chip) => {
     chip.addEventListener('click', () => {
-      chips.forEach((c) => c.classList.remove('active'));
-      chip.classList.add('active');
-      const f = chip.dataset.filter;
-      let shown = 0;
-      items.forEach((el) => {
-        const match = f === 'all' || el.dataset.category === f;
-        el.style.display = match ? '' : 'none';
-        if (match) shown++;
-      });
-      if (empty) empty.hidden = shown > 0;
+      activeFilter = chip.dataset.filter || 'all';
+      currentPage = 1;
+      applyView({ push: true });
     });
   });
+
+  pagination?.addEventListener('click', (event) => {
+    const button = (event.target as HTMLElement).closest<HTMLButtonElement>('[data-page]');
+    if (!button) return;
+    currentPage = Number(button.dataset.page) || 1;
+    applyView({ push: true, scroll: true });
+  });
+
+  window.addEventListener('popstate', () => {
+    const params = new URLSearchParams(window.location.search);
+    activeFilter = params.get('category') || 'all';
+    currentPage = Math.max(1, Number(params.get('page')) || 1);
+    applyView();
+  });
+
+  applyView();
 </script>
