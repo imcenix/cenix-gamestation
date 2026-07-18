@@ -64,6 +64,7 @@ const fullTitle = title.includes(SITE.name) ? title : `${title} · ${SITE.name}`
     />
   </head>
   <body data-page={activeNav} id="top">
+    <script is:inline src="/analytics.js" defer></script>
     <Nav activeNav={activeNav} />
     <div class="wrap">
       <main class="app-main">
