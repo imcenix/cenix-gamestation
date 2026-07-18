@@ -1,10 +1,10 @@
 // Tải ảnh cover còn thiếu cho bài viết (chạy lúc build trên GitHub Actions,
-// nơi có network đầy đủ). Đọc manifest scripts/cover-manifest.json:
-//   [{ "path": "assets/news/<slug>/cover.jpg", "url": "https://..." }]
+// nơi có network đầy đủ). Đọc manifest scripts/cover-manifest.json, mỗi entry:
+//   { "path": "assets/news/<slug>/cover.jpg", "url": "https://...ảnh trực tiếp" }
+//   hoặc { "path": "...", "page": "https://...bài viết" } -> tự lấy og:image.
 // - Chỉ tải file chưa tồn tại.
 // - Nếu chạy trong GitHub Actions và có file mới: commit ngược vào repo
-//   ([skip ci]) để ảnh nằm hẳn trong assets/** như ảnh đăng qua CMS.
-//   Nếu push fail (thiếu quyền) thì bỏ qua — ảnh vẫn có mặt cho lần build này.
+//   ([skip ci]). Nếu push fail (thiếu quyền) thì bỏ qua — ảnh vẫn có cho build này.
 import { readFileSync, existsSync, writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { execSync } from 'node:child_process';
@@ -14,22 +14,32 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const manifestPath = resolve(root, 'scripts/cover-manifest.json');
 if (!existsSync(manifestPath)) process.exit(0);
 
+const UA = { 'user-agent': 'Mozilla/5.0 (CenixBot cover fetch)' };
 const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
 const downloaded = [];
 
-for (const { path, url } of manifest) {
-  const abs = resolve(root, path);
+for (const entry of manifest) {
+  const abs = resolve(root, entry.path);
   if (existsSync(abs)) continue;
   try {
-    const res = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0 (CenixBot cover fetch)' } });
+    let url = entry.url;
+    if (!url && entry.page) {
+      const html = await (await fetch(entry.page, { headers: UA })).text();
+      const m = html.match(/property=["']og:image["']\s+content=["']([^"']+)["']/) ||
+                html.match(/content=["']([^"']+)["']\s+property=["']og:image["']/);
+      if (!m) { console.warn(`[covers] no og:image on ${entry.page}, skip`); continue; }
+      url = m[1];
+      console.log(`[covers] og:image for ${entry.path}: ${url}`);
+    }
+    const res = await fetch(url, { headers: UA });
     if (!res.ok) { console.warn(`[covers] ${url} -> HTTP ${res.status}, skip`); continue; }
     const buf = Buffer.from(await res.arrayBuffer());
     mkdirSync(dirname(abs), { recursive: true });
     writeFileSync(abs, buf);
-    downloaded.push(path);
-    console.log(`[covers] downloaded ${path} (${(buf.length / 1024).toFixed(0)} KB)`);
+    downloaded.push(entry.path);
+    console.log(`[covers] downloaded ${entry.path} (${(buf.length / 1024).toFixed(0)} KB)`);
   } catch (e) {
-    console.warn(`[covers] failed ${url}: ${e.message}`);
+    console.warn(`[covers] failed ${entry.path}: ${e.message}`);
   }
 }
 

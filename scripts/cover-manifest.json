@@ -1,12 +1,82 @@
 [
-  { "path": "assets/news/lol-classic-ra-mat-29-7/cover.jpg", "url": "https://cdn.mos.cms.futurecdn.net/zCGFPK7BZDRwtG3BHJnXmQ.jpg" },
-  { "path": "assets/news/gta-trilogy-sep-gsg-len-tieng/cover.jpg", "url": "https://cdn.mos.cms.futurecdn.net/cVzUV3aBTPFKdcwDyzb7Ki.jpg" },
-  { "path": "assets/news/wow-classic-hardcore-11-lop-nhan-vat/cover.png", "url": "https://cdn.mos.cms.futurecdn.net/UWZznzgKHku3D8hVGaVCp6.png" },
-  { "path": "assets/news/ac-black-flag-resynced-review/cover.jpg", "url": "https://cdn.mos.cms.futurecdn.net/UxUtuhdWfqxJourPDCr3BC-2560-80.jpg" },
-  { "path": "assets/news/blood-of-dawnwalker-trai-nghiem-4-gio/cover.png", "url": "https://cdn.mos.cms.futurecdn.net/avmKkLdHGJhkMtbC68eAZh.png" },
-  { "path": "assets/news/csgo-hoi-sinh-pha-ky-luc/cover.jpg", "url": "https://cdn.mos.cms.futurecdn.net/wVpHPL9ydYs2bbARuj4eRe-1920-80.jpg" },
-  { "path": "assets/news/battlefield-6-free-week-sale-50/cover.jpg", "url": "https://cdn.mos.cms.futurecdn.net/46ZVriK8tajWzcTDAtqsb6.jpg" },
-  { "path": "assets/news/kojima-od-thoat-nan-lan-2/cover.png", "url": "https://cdn.mos.cms.futurecdn.net/rivqEci2yWkpqnV6StXTUF.png" },
-  { "path": "assets/news/haunted-chocolatier-tien-do-moi/cover.jpg", "url": "https://cdn.mos.cms.futurecdn.net/sF8KxPT4Kn7CvNSZkb3CNH.jpg" },
-  { "path": "assets/news/zzz-bi-to-sao-chep-puzzle-indie/cover.jpg", "url": "https://cdn.mos.cms.futurecdn.net/64r2sQ3qwxrc9CRPVps36J.jpg" }
+  {
+    "path": "assets/news/lol-classic-ra-mat-29-7/cover.jpg",
+    "url": "https://cdn.mos.cms.futurecdn.net/zCGFPK7BZDRwtG3BHJnXmQ.jpg"
+  },
+  {
+    "path": "assets/news/gta-trilogy-sep-gsg-len-tieng/cover.jpg",
+    "url": "https://cdn.mos.cms.futurecdn.net/cVzUV3aBTPFKdcwDyzb7Ki.jpg"
+  },
+  {
+    "path": "assets/news/wow-classic-hardcore-11-lop-nhan-vat/cover.png",
+    "url": "https://cdn.mos.cms.futurecdn.net/UWZznzgKHku3D8hVGaVCp6.png"
+  },
+  {
+    "path": "assets/news/ac-black-flag-resynced-review/cover.jpg",
+    "url": "https://cdn.mos.cms.futurecdn.net/UxUtuhdWfqxJourPDCr3BC-2560-80.jpg"
+  },
+  {
+    "path": "assets/news/blood-of-dawnwalker-trai-nghiem-4-gio/cover.png",
+    "url": "https://cdn.mos.cms.futurecdn.net/avmKkLdHGJhkMtbC68eAZh.png"
+  },
+  {
+    "path": "assets/news/csgo-hoi-sinh-pha-ky-luc/cover.jpg",
+    "url": "https://cdn.mos.cms.futurecdn.net/wVpHPL9ydYs2bbARuj4eRe-1920-80.jpg"
+  },
+  {
+    "path": "assets/news/battlefield-6-free-week-sale-50/cover.jpg",
+    "url": "https://cdn.mos.cms.futurecdn.net/46ZVriK8tajWzcTDAtqsb6.jpg"
+  },
+  {
+    "path": "assets/news/kojima-od-thoat-nan-lan-2/cover.png",
+    "url": "https://cdn.mos.cms.futurecdn.net/rivqEci2yWkpqnV6StXTUF.png"
+  },
+  {
+    "path": "assets/news/haunted-chocolatier-tien-do-moi/cover.jpg",
+    "url": "https://cdn.mos.cms.futurecdn.net/sF8KxPT4Kn7CvNSZkb3CNH.jpg"
+  },
+  {
+    "path": "assets/news/zzz-bi-to-sao-chep-puzzle-indie/cover.jpg",
+    "url": "https://cdn.mos.cms.futurecdn.net/64r2sQ3qwxrc9CRPVps36J.jpg"
+  },
+  {
+    "path": "assets/news/bethesda-xa-kho-fallout-elder-scrolls/cover.jpg",
+    "page": "https://www.gamesradar.com/games/fallout/everything-bethesda-just-announced-about-the-future-of-fallout-and-the-elder-scrolls/"
+  },
+  {
+    "path": "assets/news/fallout-76-raven-rock-tien-truyen-fallout-3/cover.jpg",
+    "page": "https://www.gamesradar.com/games/fallout/a-prequel-story-to-fallout-3-is-one-of-bethesdas-most-exciting-announcements-in-ages-and-its-coming-next-year-to-fallout-76/"
+  },
+  {
+    "path": "assets/news/elder-scrolls-6-van-on-lam/cover.jpg",
+    "page": "https://www.gamesradar.com/games/the-elder-scrolls/bethesda-says-the-elder-scrolls-6-is-going-great-actually-were-where-we-planned-to-be-loving-how-it-looks-and-playing-it-every-day/"
+  },
+  {
+    "path": "assets/news/ff14-mobile-bi-khai-tu/cover.jpg",
+    "page": "https://www.gamesradar.com/games/final-fantasy/square-enix-just-killed-final-fantasy-14s-mobile-port-before-it-could-even-launch-globally-offering-sincere-apologies-for-being-unable-to-meet-your-expectations/"
+  },
+  {
+    "path": "assets/news/marathon-mat-game-director/cover.jpg",
+    "page": "https://www.gamesradar.com/games/fps/marathon-just-lost-its-game-director-joe-ziegler-is-bungies-latest-high-profile-departure/"
+  },
+  {
+    "path": "assets/news/diablo-4-cong-thuc-lua-tinh/cover.jpg",
+    "page": "https://www.gamesradar.com/games/diablo/diablo-4-players-are-accidentally-trashing-their-best-items-due-to-an-objectively-misleading-recipe-and-its-the-best-argument-ive-seen-for-yellow-paint-in-games/"
+  },
+  {
+    "path": "assets/news/skyrim-vs-witcher-3-65-trieu/cover.jpg",
+    "page": "https://www.gamesradar.com/games/the-elder-scrolls/skyrim-and-the-witcher-3-have-both-sold-65-million-copies-but-cd-projekt-red-got-there-faster-than-bethesda/"
+  },
+  {
+    "path": "assets/news/slay-the-spire-2-patch-khung/cover.jpg",
+    "page": "https://www.gamesradar.com/games/roguelike/slay-the-spire-2-just-got-its-biggest-patch-yet-with-so-many-new-relics-buffed-cards-and-massive-nerfs-that-players-barely-know-where-to-start/"
+  },
+  {
+    "path": "assets/news/zelda-totk-bi-mat-nhat-nintendo/cover.jpg",
+    "page": "https://www.gamesradar.com/games/the-legend-of-zelda/zelda-tears-of-the-kingdom-was-so-secret-within-nintendo-most-employees-found-out-about-it-for-the-first-time-at-its-e3-reveal-we-popped-off/"
+  },
+  {
+    "path": "assets/news/ac-black-flag-san-kho-bau/cover.jpg",
+    "page": "https://www.gamesradar.com/games/assassin-s-creed/assassins-creed-black-flag-resynced-players-keep-spoiling-ubisofts-community-treasure-hunt-with-genuinely-insane-luck/"
+  }
 ]
