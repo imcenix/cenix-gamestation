@@ -109,7 +109,7 @@ const steam = {
   totals: { ...steamBase.totals, achievements: steamAchievements },
 };
 
-const mapShelfGames = (type: 'switch' | 'mobile') => profileEntries
+const mapShelfGames = (type: 'switch' | 'mobile' | 'nostalgia') => profileEntries
   .filter((entry) => entry.data.type === type)
   .sort((a, b) => Number(a.data.order ?? 999) - Number(b.data.order ?? 999))
   .map((entry) => ({
@@ -120,6 +120,7 @@ const mapShelfGames = (type: 'switch' | 'mobile') => profileEntries
 
 const switchGames = mapShelfGames('switch');
 const mobileGames = mapShelfGames('mobile');
+const nostalgiaGames = mapShelfGames('nostalgia');
 const playstationGames = profileSettings?.data.playstation_games ?? PROFILE.playstationGames;
 const gamingYears = profileSettings?.data.gaming_years ?? PROFILE.gamingYears;
 const steamGamesLabel = profileSettings?.data.steam_games ?? PROFILE.steamGames;
@@ -139,7 +140,7 @@ const steamGamesLabel = profileSettings?.data.steam_games ?? PROFILE.steamGames;
   />
   <PsnCollection psn={psn} plats={plats} />
   <SteamActivity steam={steam} steamGamesLabel={steamGamesLabel} featuredGames={featuredPcGames} />
-  <PlatformLibraries switchGames={switchGames} mobileGames={mobileGames} />
+  <PlatformLibraries switchGames={switchGames} mobileGames={mobileGames} nostalgiaGames={nostalgiaGames} />
 </BaseLayout>
 
 <script>

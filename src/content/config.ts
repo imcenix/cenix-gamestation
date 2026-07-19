@@ -134,7 +134,7 @@ const profile = defineCollection({
     generateId: ({ entry }) => entry.split('/')[0],
   }),
   schema: z.object({
-    type: z.enum(['psn', 'platinum', 'steam', 'switch', 'mobile']),
+    type: z.enum(['psn', 'platinum', 'steam', 'switch', 'mobile', 'nostalgia']),
     title: z.string(),
     thumbnail: z.string().nullable().optional(),
     order: orderSchema,

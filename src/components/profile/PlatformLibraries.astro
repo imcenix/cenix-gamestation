@@ -7,8 +7,9 @@ interface GameItem {
 interface Props {
   switchGames: GameItem[];
   mobileGames: GameItem[];
+  nostalgiaGames: GameItem[];
 }
-const { switchGames, mobileGames } = Astro.props;
+const { switchGames, mobileGames, nostalgiaGames } = Astro.props;
 const shelves = [
   {
     id: 'nintendo-switch',
@@ -25,6 +26,14 @@ const shelves = [
     tone: 'mobile',
     games: mobileGames,
     empty: 'ADD GAMES FROM CENIX CMS',
+  },
+  {
+    id: 'nostalgia-games',
+    eyebrow: 'MEMORIES NEVER FADE',
+    title: 'GAME HOÀI NIỆM',
+    tone: 'nostalgia',
+    games: nostalgiaGames,
+    empty: 'ADD NOSTALGIA GAMES FROM CENIX CMS',
   },
 ];
 ---
@@ -83,6 +92,22 @@ const shelves = [
     border-top:1px solid rgba(255,255,255,.07);
   }
   .game-shelf.mobile { --tone:#ffd84d; }
+  .game-shelf.nostalgia { --tone:#b78cff; --cream:#e6d0aa; }
+  .game-shelf.nostalgia .shelf-glow {
+    background:
+      radial-gradient(circle at 18% 22%, rgba(114,74,152,.34), transparent 38%),
+      radial-gradient(circle at 78% 70%, rgba(128,88,48,.22), transparent 42%),
+      linear-gradient(118deg, rgba(44,29,52,.72), rgba(22,15,13,.82) 48%, #070606);
+  }
+  .game-shelf.nostalgia .shelf-card {
+    flex-basis:clamp(210px,18vw,270px);
+    aspect-ratio:4/5;
+    border-color:rgba(230,208,170,.28);
+    box-shadow:0 24px 64px rgba(37,18,45,.42);
+  }
+  .game-shelf.nostalgia .shelf-card img { filter:sepia(.12) saturate(.76) brightness(.78); }
+  .game-shelf.nostalgia .shelf-card:hover img { filter:sepia(.04) saturate(.98) brightness(.9); }
+  .game-shelf.nostalgia .shelf-copy span { color:var(--cream); }
   .shelf-inner { width:100%; max-width:var(--maxw); margin-left:auto; margin-right:auto; }
   .shelf-glow {
     position:absolute; inset:0; z-index:-1;
