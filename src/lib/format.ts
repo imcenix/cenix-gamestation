@@ -9,6 +9,22 @@ export function dmy(date: string | Date): string {
   return `${MONTH_PAD(d.getDate())}.${MONTH_PAD(d.getMonth() + 1)}.${d.getFullYear()}`;
 }
 
+/** ISO timestamp → "20.07.2026 · 00:51" in Vietnam time. */
+export function dmyTime(date: string | Date): string {
+  const d = typeof date === 'string' ? new Date(date) : date;
+  if (Number.isNaN(d.getTime())) return String(date);
+  const parts = new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Asia/Ho_Chi_Minh',
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    hourCycle: 'h23',
+  }).formatToParts(d);
+  const value = (type: Intl.DateTimeFormatPartTypes) => parts.find((part) => part.type === type)?.value ?? '';
+  return value('day') + '.' + value('month') + '.' + value('year') + ' · ' + value('hour') + ':' + value('minute');
+}
 /** "2026-07-11" → "11.07" */
 export function dm(date: string | Date): string {
   const d = typeof date === 'string' ? new Date(date) : date;

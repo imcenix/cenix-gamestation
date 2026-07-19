@@ -15,6 +15,14 @@ export interface SteamRecentGame {
   header: string;          // ảnh header từ Steam CDN
 }
 
+export interface SteamAchievement {
+  appid: number;
+  game: string;
+  name: string;
+  rarity: string;
+  icon: string;
+  url: string;
+}
 export interface SteamData {
   fetchedAt: string;
   profile: { personaName: string; level: number; badges: number; url: string };
@@ -26,6 +34,7 @@ export interface SteamData {
     twoWeeksHours: number;
   };
   recent: SteamRecentGame[];
+  showcase?: SteamAchievement[];
 }
 
 export async function loadSteam(): Promise<SteamData> {

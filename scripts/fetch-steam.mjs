@@ -60,14 +60,30 @@ const achievements = toNumber(html.match(/data-tooltip-text="([\d,]+) achievemen
 const perfectGames = toNumber(html.match(/href="[^"]*tab=perfect"[\s\S]{0,180}?class="value">\s*([\d,]+)/i)?.[1]);
 const twoWeeksHours = Number((html.match(/([\d,.]+) hours past 2 weeks/i)?.[1] || '0').replace(/,/g, '')) || 0;
 
+const showcaseBlock = html.match(/<div class="achievement_showcase">([\s\S]*?)<div class="showcase_content_bg showcase_stats_row">/i)?.[1] || '';
+const showcase = [...showcaseBlock.matchAll(/<div class="showcase_achievement[^"]*"[^>]*data-tooltip-html="([^"]+)"[\s\S]*?<a href="([^"]*\/stats\/(\d+)\/achievements\/)"[\s\S]*?<img src="([^"]+)"/gi)]
+  .slice(0, 6)
+  .map((match) => {
+    const [game = '', name = '', ...rarityParts] = match[1].split(/<br\s*\/?>/i).map(decode);
+    return {
+      appid: Number(match[3]),
+      game,
+      name,
+      rarity: rarityParts.join(' '),
+      icon: decode(match[4]),
+      url: decode(match[2]),
+    };
+  });
+
 const data = {
   fetchedAt: now.toISOString(),
   profile: { personaName, level, badges, url: profileUrl },
   totals: { games: 0, dlc: null, achievements, perfectGames, twoWeeksHours },
   recent,
+  showcase,
 };
 
 const output = path.join(process.cwd(), 'src', 'data', 'steam.json');
 await mkdir(path.dirname(output), { recursive: true });
 await writeFile(output, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
-console.log(`Steam profile synced: ${recent.length} recent games, ${achievements} achievements`);
+console.log(`Steam profile synced: ${recent.length} recent games, ${achievements} achievements, ${showcase.length} showcased`);

@@ -1,6 +1,6 @@
 ---
 import { PROFILE } from '../../config/site';
-import { dmy } from '../../lib/format';
+import { dmy, dmyTime } from '../../lib/format';
 import type { SteamData } from '../../lib/steam';
 
 interface Props { steam: SteamData; steamGamesLabel: string; featuredGames: SteamData['recent'] }
@@ -47,6 +47,29 @@ const achievementLeaders = [...steam.recent].sort((a, b) => {
       ))}
     </div>
 
+    {steam.showcase && steam.showcase.length > 0 && (
+      <section class="achievement-showcase" aria-labelledby="rarest-achievements-title">
+        <div class="achievement-head">
+          <div>
+            <h3 id="rarest-achievements-title">RAREST ACHIEVEMENTS</h3>
+            <p>HANDPICKED BY YOUR STEAM SHOWCASE</p>
+          </div>
+          <span>{t.achievements.toLocaleString('en-US')} UNLOCKED</span>
+        </div>
+        <div class="achievement-track">
+          {steam.showcase.map((achievement) => (
+            <a class="achievement-card" href={achievement.url} target="_blank" rel="noopener">
+              <img src={achievement.icon} alt={achievement.name} loading="lazy" />
+              <span class="achievement-copy">
+                <small>{achievement.game}</small>
+                <strong>{achievement.name}</strong>
+                <em>{achievement.rarity}</em>
+              </span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
     <div class="featured-head">
       <div>
         <div class="featured-title">FEATURED PC GAMES</div>
@@ -108,7 +131,7 @@ const achievementLeaders = [...steam.recent].sort((a, b) => {
       })}
     </div>
 
-    <div class="steam-updated">STEAM DATA UPDATED — {dmy(steam.fetchedAt)}</div>
+    <div class="steam-updated">STEAM DATA UPDATED — {dmyTime(steam.fetchedAt)}</div>
   </div>
 </section>
 
@@ -144,6 +167,23 @@ const achievementLeaders = [...steam.recent].sort((a, b) => {
   .scell-num.lime { color:var(--lime); }
   .scell-label { color:var(--tx-meta); font:700 9.5px var(--mono); letter-spacing:1.5px; }
 
+  .achievement-showcase { margin-bottom:44px; }
+  .achievement-head { display:flex; align-items:flex-end; justify-content:space-between; gap:18px; margin-bottom:16px; }
+  .achievement-head h3 { color:#fff; font:900 18px var(--display); }
+  .achievement-head p { margin-top:6px; color:var(--tx-meta); font:700 9px var(--mono); letter-spacing:1.4px; }
+  .achievement-head > span { color:var(--lime); font:700 9px var(--mono); letter-spacing:1.2px; }
+  .achievement-track { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:12px; }
+  .achievement-card {
+    min-width:0; display:grid; grid-template-columns:72px minmax(0,1fr); align-items:center; gap:12px; padding:12px;
+    border:1px solid rgba(255,255,255,.11); background:rgba(7,10,10,.58); backdrop-filter:blur(12px);
+    transition:transform .25s ease,border-color .25s ease,background .25s ease;
+  }
+  .achievement-card:hover { transform:translateY(-3px); border-color:rgba(200,240,60,.48); background:rgba(13,18,15,.82); }
+  .achievement-card img { width:72px; aspect-ratio:1; object-fit:cover; border:1px solid rgba(200,240,60,.32); box-shadow:0 10px 26px rgba(0,0,0,.3); }
+  .achievement-copy { min-width:0; display:flex; flex-direction:column; gap:5px; }
+  .achievement-copy small { overflow:hidden; color:var(--tx-meta); font:700 8px var(--mono); letter-spacing:.7px; text-overflow:ellipsis; white-space:nowrap; }
+  .achievement-copy strong { display:-webkit-box; overflow:hidden; color:#fff; font:800 13px/1.15 var(--display); -webkit-box-orient:vertical; -webkit-line-clamp:2; }
+  .achievement-copy em { color:var(--lime); font:700 8px/1.3 var(--mono); font-style:normal; }
   .featured-head { display:flex; justify-content:space-between; align-items:flex-end; margin:0 52px 16px; }
   .featured-title { color:#fff; font:900 18px var(--display); }
   .featured-note { margin-top:6px; color:var(--tx-meta); font:700 9px var(--mono); letter-spacing:1.4px; }
@@ -193,6 +233,10 @@ const achievementLeaders = [...steam.recent].sort((a, b) => {
     .scell { padding:20px 16px; }
     .scell-num { font-size:27px; }
     .scell:nth-child(odd) { border-left:0; } .scell:nth-child(n+3) { border-top:1px solid rgba(255,255,255,.08); }
+    .achievement-head { align-items:flex-start; flex-direction:column; gap:7px; }
+    .achievement-track { display:flex; gap:10px; overflow-x:auto; padding-bottom:8px; scroll-snap-type:x mandatory; }
+    .achievement-card { flex:0 0 min(82vw,300px); grid-template-columns:68px minmax(0,1fr); scroll-snap-align:start; }
+    .achievement-card img { width:68px; }
     .featured-head { margin:0 0 14px; }
     .featured-viewport { margin:0; overflow-x:auto; }
     .featured-card { flex-basis:min(58vw,220px); }

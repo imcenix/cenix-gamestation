@@ -103,7 +103,7 @@ const featuredPcGames = cmsSteamEntries.map((entry) => ({
   header: entry.data.thumbnail ? `/profile/${entry.id}/${entry.data.thumbnail}` : '',
 }));
 
-const steamAchievements = profileSettings?.data.steam_achievements ?? steamBase.totals.achievements;
+const steamAchievements = steamBase.totals.achievements || profileSettings?.data.steam_achievements || 0;
 const steam = {
   ...steamBase,
   totals: { ...steamBase.totals, achievements: steamAchievements },
