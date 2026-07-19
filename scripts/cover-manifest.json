@@ -78,5 +78,45 @@
   {
     "path": "assets/news/ac-black-flag-san-kho-bau/cover.jpg",
     "page": "https://www.gamesradar.com/games/assassin-s-creed/assassins-creed-black-flag-resynced-players-keep-spoiling-ubisofts-community-treasure-hunt-with-genuinely-insane-luck/"
+  },
+  {
+    "path": "assets/news/stardew-valley-x-mtg-drama-artwork/cover.jpg",
+    "page": "https://www.pcgamer.com/games/card-games/stardew-valley-comes-to-magic-the-gathering-and-fans-arent-taking-some-of-the-new-artwork-well/"
+  },
+  {
+    "path": "assets/news/sir-brante-free-steam/cover.jpg",
+    "page": "https://www.pcgamer.com/games/visual-novel/grab-a-free-steam-game-full-of-misery-and-decision-making-for-a-limited-time/"
+  },
+  {
+    "path": "assets/news/god-of-war-tv-doi-kratos/cover.jpg",
+    "page": "https://www.pcgamer.com/movies-tv/amazons-god-of-war-tv-show-will-recast-kratos-due-to-on-set-injury/"
+  },
+  {
+    "path": "assets/news/tf2-mvm-update-van-song/cover.jpg",
+    "page": "https://www.pcgamer.com/games/fps/valve-reassures-team-fortress-2-players-that-its-still-working-on-the-mann-vs-machine-update-it-announced-last-year-we-promise-were-making-progress/"
+  },
+  {
+    "path": "assets/news/erenshor-mmo-solo-co-raid/cover.jpg",
+    "page": "https://www.pcgamer.com/games/mmo/raids-just-landed-in-solo-simulated-mmo-erenshor/"
+  },
+  {
+    "path": "assets/news/gta-6-to-co-nao/cover.jpg",
+    "page": "https://www.gamesradar.com/games/grand-theft-auto/gta-5-dev-can-only-imagine-the-size-of-gta-6-it-must-be-monstrous/"
+  },
+  {
+    "path": "assets/news/steam-machine-khung-hoang-ram/cover.jpg",
+    "page": "https://www.pcgamer.com/hardware/steam-machines/valve-says-theres-no-end-in-sight-to-the-memory-crisis-and-prices-are-only-going-to-increase-honestly-its-still-getting-worse/"
+  },
+  {
+    "path": "assets/news/xbox-doc-quyen-khong-khac-da/cover.jpg",
+    "page": "https://www.gamesradar.com/games/xbox-exec-tells-fans-not-to-overly-fixate-on-single-player-games-becoming-console-exclusives-because-its-not-carved-in-stone/"
+  },
+  {
+    "path": "assets/news/dia-cd-hoi-sinh-playstation-bo-dia/cover.jpg",
+    "page": "https://www.gamesradar.com/games/as-playstation-declares-nobody-wants-physical-discs-anymore-gen-z-is-helping-fuel-a-16-percent-surge-in-us-music-cd-sales/"
+  },
+  {
+    "path": "assets/news/deceive-inc-hoi-sinh-server-cong-dong/cover.jpg",
+    "page": "https://www.pcgamer.com/games/fps/closed-game-studio-returns-to-un-live-service-its-game-with-community-servers-before-shutdown-we-dont-believe-deceive-inc-should-quietly-disappear/"
   }
 ]
