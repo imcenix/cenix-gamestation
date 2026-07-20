@@ -1,5 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
+import { createHash } from 'node:crypto';
+import { readFileSync } from 'node:fs';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Thumb from '../../components/Thumb.astro';
 import { NEWS_LABEL } from '../../lib/labels';
@@ -15,9 +17,19 @@ const { Content } = await render(entry);
 const d = entry.data;
 const mins = readMinutes(entry.body, d.read_minutes);
 const cover = d.cover ? `/news/${entry.id}/${d.cover}` : null;
+let socialImage = cover;
+if (cover && d.cover) {
+  try {
+    const coverBytes = readFileSync(`./assets/news/${entry.id}/${d.cover}`);
+    const coverVersion = createHash('sha1').update(coverBytes).digest('hex').slice(0, 10);
+    socialImage = `${cover}?v=${coverVersion}`;
+  } catch {
+    // Keep the clean cover URL if a CMS asset is temporarily unavailable at build time.
+  }
+}
 ---
 
-<BaseLayout title={d.title} activeNav="news" description={d.excerpt ?? undefined} socialImage={cover} socialType="article">
+<BaseLayout title={d.title} activeNav="news" description={d.excerpt ?? undefined} socialImage={socialImage} socialType="article">
   <article class="article gut">
     <div class="crumb">TRANG CHỦ / <a href="/tin-tuc">TIN TỨC</a> / <span class="here">{NEWS_LABEL[d.category]}</span></div>
 
