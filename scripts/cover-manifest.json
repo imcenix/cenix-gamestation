@@ -118,5 +118,45 @@
   {
     "path": "assets/news/deceive-inc-hoi-sinh-server-cong-dong/cover.jpg",
     "page": "https://www.pcgamer.com/games/fps/closed-game-studio-returns-to-un-live-service-its-game-with-community-servers-before-shutdown-we-dont-believe-deceive-inc-should-quietly-disappear/"
+  },
+  {
+    "path": "assets/news/lol-classic-quay-xe-skin/cover.jpg",
+    "page": "https://www.pcgamer.com/games/moba/riot-quickly-backpedals-on-paid-old-school-skins-in-league-of-legends-classic-after-backlash/"
+  },
+  {
+    "path": "assets/news/cliffyb-lawbreakers-bai-hoc-cai-toi/cover.jpg",
+    "page": "https://www.pcgamer.com/games/fps/cliff-bleszinski-says-ego-played-a-role-in-lawbreakers-failure-people-are-loyal-to-the-game-but-theyre-not-necessarily-loyal-to-the-person/"
+  },
+  {
+    "path": "assets/news/gow-laufey-deborah-khong-ban-tam/cover.jpg",
+    "page": "https://www.pcgamer.com/games/action/god-of-war-laufey-star-deborah-ann-woll-isnt-phased-by-the-negative-reactions-to-its-announcement-i-feel-totally-unbothered/"
+  },
+  {
+    "path": "assets/news/gta5-mod-jailbreak-nha-tu/cover.jpg",
+    "page": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-needs-this-this-gta-5-prison-mod-turns-one-of-roleplays-most-enduring-staples-into-a-game-within-a-game/"
+  },
+  {
+    "path": "assets/news/007-first-light-goc-khuat-kich-ban/cover.jpg",
+    "page": "https://www.pcgamer.com/games/action/007-first-light-was-originally-going-to-be-less-about-james-bond-and-more-of-an-ensemble-piece-with-all-the-00s-working-together-as-they-do-in-slovakia/"
+  },
+  {
+    "path": "assets/news/gears-of-war-2-port-pc-khong-chinh-thuc/cover.jpg",
+    "page": "https://www.pcgamer.com/games/third-person-shooter/theres-an-unofficial-pc-port-of-gears-of-war-2-based-on-a-leaked-build-from-2008/"
+  },
+  {
+    "path": "assets/news/sweet-hamster-days-game-lam-chuot/cover.jpg",
+    "page": "https://www.pcgamer.com/games/visual-novel/the-fmv-game-where-youre-a-hamster-being-doted-on-by-three-japanese-sisters-was-inspired-by-its-creators-job-as-an-animal-mascot-and-grand-theft-auto-5/"
+  },
+  {
+    "path": "assets/news/galley-house-game-tham-tu-97-phan-tram/cover.jpg",
+    "page": "https://www.pcgamer.com/games/puzzle/the-follow-up-to-one-of-last-years-best-detective-games-is-off-to-an-overwhelmingly-positive-start-on-steam-after-just-2-days/"
+  },
+  {
+    "path": "assets/news/ff10-25-nam-cam-hung-chua-nhan/cover.jpg",
+    "page": "https://www.gamesradar.com/games/final-fantasy/final-fantasy-10-leaned-into-the-fantasy-genre-after-devs-learned-that-the-lord-of-the-rings-was-in-production-and-thought-it-would-be-the-next-big-global-trend/"
+  },
+  {
+    "path": "assets/news/rockstar-xoa-sach-noi-dung-cat/cover.jpg",
+    "page": "https://www.gamesradar.com/games/grand-theft-auto/after-gta-san-andreas-hot-coffee-debacle-rockstar-makes-a-huge-effort-to-wipe-anything-cut-from-its-game-to-avoid-accidentally-shipping-it-ex-dev-says/"
   }
 ]
