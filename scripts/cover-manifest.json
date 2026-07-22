@@ -198,5 +198,45 @@
   {
     "path": "assets/news/sk-hynix-gioi-han-tang-gia/cover.jpg",
     "page": "https://www.pcgamer.com/hardware/memory/there-are-limits-to-how-much-prices-can-be-raised-says-sk-hynix-chairman-about-memory-crisis-but-im-not-sure-the-market-will-care/"
+  },
+  {
+    "path": "assets/news/poe2-trieu-hoi-2000-bo-xuong/cover.jpg",
+    "page": "https://www.pcgamer.com/games/rpg/path-of-exile-2-players-broke-the-game-by-summoning-2-000-skeletons-and-then-lured-unsuspecting-players-into-the-ultimate-frame-rate-shredder/"
+  },
+  {
+    "path": "assets/news/marathon-pve-hoi-sinh-gap-3/cover.jpg",
+    "page": "https://www.pcgamer.com/games/fps/marathons-experimental-pve-mode-is-live-immediately-tripling-its-daily-player-count/"
+  },
+  {
+    "path": "assets/news/hasbro-56-trieu-bg3/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/hasbro-takes-usd56-million-hit-over-multiple-game-cancellations-but-its-still-talking-about-how-baldurs-gate-3-is-key-to-its-future-success/"
+  },
+  {
+    "path": "assets/news/dear-passengers-hang-khong-te-nhat/cover.jpg",
+    "page": "https://www.pcgamer.com/games/action/a-new-friendslop-game-is-already-steams-12th-most-wishlisted-game-a-mere-week-after-it-was-announced/"
+  },
+  {
+    "path": "assets/news/palworld-bom-song-vinh-cuu/cover.jpg",
+    "page": "https://www.pcgamer.com/games/survival-crafting/palworld-players-have-harnessed-the-power-of-selective-breeding-to-create-infinite-bomb-pals-that-can-blow-themselves-up-repeatedly-forever/"
+  },
+  {
+    "path": "assets/news/jimothy-gau-meo-vien-du-game/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/jimothy-a-particularly-round-raccoon-and-the-internets-latest-sensation-has-now-broken-into-games/"
+  },
+  {
+    "path": "assets/news/xbox-vp-nghi-sau-2-thang/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/xboxs-new-vp-of-engineering-quits-just-2-months-after-taking-the-job/"
+  },
+  {
+    "path": "assets/news/starfield-mod-cat-canh-lien-mach/cover.jpg",
+    "page": "https://www.pcgamer.com/games/rpg/a-modder-has-brought-no-mans-sky-style-seamless-takeoffs-to-starfield-and-even-in-beta-they-look-pretty-great/"
+  },
+  {
+    "path": "assets/news/unity-game-chay-trong-unreal/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/game-development/unity-demonstrates-an-unreal-character-running-through-a-unity-world-for-the-first-time/"
+  },
+  {
+    "path": "assets/news/splitgate-1047-dot-cat-giam-thu-3/cover.jpg",
+    "page": "https://www.pcgamer.com/games/fps/splitgate-studio-1047-games-is-laying-off-more-people-just-a-month-after-releasing-its-latest-game/"
   }
 ]
