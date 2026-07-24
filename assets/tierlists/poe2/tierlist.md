@@ -1,9 +1,9 @@
 ---
 game_label: "Path of Exile 2"
 genre: "Action RPG (Grinding Gear Games)"
-blurb: "Xếp hạng Ascendancy cho bản 0.4 League Starter (SC/Trade) theo Mobalytics — hover từng ascendancy để xem class gốc và điểm mạnh. Dành cho tuần đầu league với người chơi trung bình; Hardcore sẽ khác."
-version: "0.4"
-updated: 2026-07-18
+blurb: "Xếp hạng Ascendancy cho bản 0.5 League Starter (SC/Trade) theo Mobalytics — hover từng ascendancy để xem class gốc và điểm mạnh. Dành cho tuần đầu league với người chơi trung bình; Hardcore sẽ khác."
+version: "0.5"
+updated: 2026-07-24
 cover: cover.jpg
 order: 100
 ---
@@ -14,18 +14,48 @@ order: 100
     "color": "#cc0000",
     "chars": [
       {
-        "name": "Pathfinder",
-        "image": "pathfinder.webp",
+        "name": "Deadeye",
+        "image": "deadeye.webp",
         "element": "Ranger",
-        "desc": "Đa dụng cho Grenade, Poison Bow, Galvanic Shards, Shockburst Rounds. Dễ ghép item mạnh như Shavronne's Satchel để hồi ES kèm máu; The Adorned cho tốc chạy khủng.",
+        "desc": "Chuyên Crossbow/Bow — Crossbow đang S-tier và Deadeye là ascendancy tốt nhất cho chúng; +1 Projectiles cực đa dụng. Vọt lên top ở 0.5.",
         "role": "archer"
       },
       {
-        "name": "Amazon",
-        "image": "amazon.webp",
+        "name": "Infernalist",
+        "image": "infernalist.webp",
+        "element": "Witch",
+        "desc": "Một trong những build lên cấp nhanh nhất; Demon Form có dash tốt và damage sớm dồi dào, hưởng lợi lớn từ các node Shapeshift.",
+        "role": "mage"
+      },
+      {
+        "name": "Martial Artist",
+        "image": "martial-artist.webp",
+        "element": "Monk",
+        "desc": "Nhánh Monk cận chiến combo, tốc độ và bùng nổ cao; một trong những lựa chọn mở màn mạnh nhất 0.5.",
+        "role": "assassin",
+        "isNew": true
+      },
+      {
+        "name": "Spirit Walker",
+        "image": "spirit-walker.webp",
         "element": "Huntress",
-        "desc": "Mở khoá Crit cho nhiều build và có 2 node thủ mạnh nhất game: Stalking Panther (tăng Evasion) và Soul Tether + Mystic Harvest (giữ 100% ES) — chi phí thấp lúc league start.",
-        "role": "warrior"
+        "desc": "Nhánh Huntress theo hướng thần linh/triệu hồi, cơ động và damage tốt; nổi lên S-tier ở 0.5.",
+        "role": "warrior",
+        "isNew": true
+      },
+      {
+        "name": "Tactician",
+        "image": "tactician.webp",
+        "element": "Mercenary",
+        "desc": "A Solid Plan (Reservation) thuộc hàng notable mạnh nhất game, cây tổng thể chắc; War Banner cho lượng damage lớn.",
+        "role": "archer"
+      },
+      {
+        "name": "Gemling Legionnaire",
+        "image": "gemling-legionnaire.webp",
+        "element": "Mercenary",
+        "desc": "Được buff mạnh ở 0.5: nhân đôi hiệu quả gem, cực linh hoạt cho nhiều build — từ F-tier vọt thẳng lên S.",
+        "role": "archer"
       }
     ]
   },
@@ -35,46 +65,54 @@ order: 100
     "color": "#ff8c42",
     "chars": [
       {
-        "name": "Deadeye",
-        "image": "deadeye.webp",
-        "element": "Ranger",
-        "desc": "Mất Wind Ward làm yếu chạy map juiced sớm, nhưng +1 Projectiles vẫn cực đa dụng. Crossbow là S-tier và Deadeye vẫn là ascendancy tốt nhất cho chúng.",
-        "role": "archer"
-      },
-      {
-        "name": "Lich",
-        "image": "lich.webp",
-        "element": "Witch",
-        "desc": "Thêm Jewel Socket = sức mạnh chung cho mọi build; bỏ qua Life là thủ tốt. Unholy Might hợp minion; mạnh cho Essence Drain Contagion — combo mở màn hàng đầu.",
-        "role": "mage"
-      },
-      {
-        "name": "Titan",
-        "image": "titan.webp",
-        "element": "Warrior",
-        "desc": "Hulking Form là node top-tier, class tổng thể tốt. Shield Wall vẫn là skill mạnh nhất game; vùng Warrior trên cây được buff nên build đa dụng hơn.",
-        "role": "tank"
+        "name": "Amazon",
+        "image": "amazon.webp",
+        "element": "Huntress",
+        "desc": "Mở khoá Crit cho nhiều build và có 2 node thủ mạnh: Stalking Panther (tăng Evasion), Soul Tether + Mystic Harvest (giữ ES).",
+        "role": "warrior"
       },
       {
         "name": "Blood Mage",
         "image": "blood-mage.webp",
         "element": "Witch",
-        "desc": "Scaling Crit tốt, đổi được base Crit nên caster rất linh hoạt. Node thủ mạnh kết hợp node damage tốt, cân bằng cho nhiều league starter.",
+        "desc": "Scaling Crit tốt, đổi được base Crit nên caster rất linh hoạt; node thủ kết hợp node damage cân bằng.",
         "role": "mage"
       },
       {
-        "name": "Tactician",
-        "image": "tactician.webp",
-        "element": "Mercenary",
-        "desc": "A Solid Plan (Reservation) là một trong những notable mạnh nhất game, cây tổng thể chắc. Elemental Conflux được buff; War Banner cho lượng damage lớn.",
-        "role": "archer"
+        "name": "Disciple of Varashta",
+        "image": "disciple-of-varashta.webp",
+        "element": "Sorceress",
+        "desc": "Nhánh Sorceress mới, thiên biến hoá và damage phép; lựa chọn A-tier đáng chú ý ở 0.5.",
+        "role": "wizard",
+        "isNew": true
       },
       {
-        "name": "Witchhunter",
-        "image": "witchhunter.webp",
-        "element": "Mercenary",
-        "desc": "Damage tốt ngay từ sớm, một trong những class mạnh nhất giai đoạn campaign. Sorcery Ward thành thủ top sau khi gear; Grenade vẫn S-tier.",
-        "role": "archer"
+        "name": "Lich",
+        "image": "lich.webp",
+        "element": "Witch",
+        "desc": "Thêm Jewel Socket = sức mạnh chung; bỏ qua Life là thủ tốt; mạnh cho Essence Drain Contagion và minion.",
+        "role": "mage"
+      },
+      {
+        "name": "Oracle",
+        "image": "oracle.webp",
+        "element": "Druid",
+        "desc": "Được cải thiện mạnh ở 0.5 (từng bị chê ở 0.4), giờ leo lên A-tier.",
+        "role": "wizard"
+      },
+      {
+        "name": "Shaman",
+        "image": "shaman.webp",
+        "element": "Druid",
+        "desc": "Adaptation hợp build tự đánh trúng mình, tạo Rage dễ; damage tốt cho hybrid caster.",
+        "role": "wizard"
+      },
+      {
+        "name": "Titan",
+        "image": "titan.webp",
+        "element": "Warrior",
+        "desc": "Hulking Form là node top-tier, class trâu và đa dụng; Bear form mới có thể rất mạnh.",
+        "role": "tank"
       }
     ]
   },
@@ -84,31 +122,38 @@ order: 100
     "color": "#ffa62b",
     "chars": [
       {
-        "name": "Warbringer",
-        "image": "warbringer.webp",
-        "element": "Warrior",
-        "desc": "Shield Wall gánh phần lớn nhánh Warrior lúc này; Warbringer nhiều lựa chọn thủ hơn Titan nhưng Titan lại tốt hơn cho đa số build.",
-        "role": "tank"
+        "name": "Pathfinder",
+        "image": "pathfinder.webp",
+        "element": "Ranger",
+        "desc": "Đa dụng cho Grenade, Poison Bow, Galvanic Shards; nhưng tụt xuống B ở 0.5 khi các nhánh khác vượt lên.",
+        "role": "archer"
       },
       {
-        "name": "Shaman",
-        "image": "shaman.webp",
-        "element": "Druid",
-        "desc": "Adaptation hợp build tự đánh trúng mình, dễ tạo Rage. Damage tốt cho hybrid caster nhưng chi phí Rage quá nặng cho pure caster.",
+        "name": "Stormweaver",
+        "image": "stormweaver.webp",
+        "element": "Sorceress",
+        "desc": "Chuyên Shock và damage phép; thiếu lựa chọn di chuyển nên chỉ tầm trung lúc mở màn.",
         "role": "wizard"
       },
       {
-        "name": "Infernalist",
-        "image": "infernalist.webp",
-        "element": "Witch",
-        "desc": "Vẫn là một trong những build lên cấp nhanh nhất. Demon Form có dash tốt và nhiều damage sớm; có thể hưởng lợi lớn từ các node Druid mới.",
-        "role": "mage"
+        "name": "Witchhunter",
+        "image": "witchhunter.webp",
+        "element": "Mercenary",
+        "desc": "Damage tốt ngay từ sớm, mạnh giai đoạn campaign; Sorcery Ward thành thủ tốt sau khi gear.",
+        "role": "archer"
+      },
+      {
+        "name": "Acolyte of Chayula",
+        "image": "acolyte-of-chayula.webp",
+        "element": "Monk",
+        "desc": "Cận chiến theo hướng Darkness; ổn nhưng đòi hỏi thao tác nhặt đồ, xếp B ở 0.5.",
+        "role": "assassin"
       },
       {
         "name": "Invoker",
         "image": "invoker.webp",
         "element": "Monk",
-        "desc": "Nhiều node phụ thuộc gear, endgame nhiều lựa chọn nhưng mở màn tầm trung. Cứu cánh: Gathering Storm cực mạnh với Toxic Growth, gánh được mọi build.",
+        "desc": "Nhiều node phụ thuộc gear, mở màn tầm trung; Gathering Storm + Toxic Growth là cứu cánh gánh mọi build.",
         "role": "assassin"
       }
     ]
@@ -119,17 +164,10 @@ order: 100
     "color": "#ffd23f",
     "chars": [
       {
-        "name": "Smith of Kitava",
-        "image": "smith-of-kitava.webp",
-        "element": "Warrior",
-        "desc": "Một trong những khởi đầu trâu nhất, nhưng về sau độ trâu ít hữu ích ở SC. Bị Titan/Warbringer lấn át trừ vài build đặc thù mà Smith mở ra.",
-        "role": "tank"
-      },
-      {
-        "name": "Stormweaver",
-        "image": "stormweaver.webp",
+        "name": "Chronomancer",
+        "image": "chronomancer.webp",
         "element": "Sorceress",
-        "desc": "Double Shock chủ yếu hợp chơi party. Có thể khá nếu GGG thêm Limit Skill tốt ở 0.4; hiện thiếu lựa chọn di chuyển.",
+        "desc": "Cơ chế thao túng thời gian phức tạp; hiệu quả nhưng bấm nhiều nút, không tối ưu cho mở màn nhanh.",
         "role": "wizard"
       }
     ]
@@ -137,49 +175,28 @@ order: 100
   {
     "label": "D",
     "sublabel": "Tier 4",
-    "color": "#ffc9a0",
+    "color": "#8a8a8a",
     "chars": [
       {
         "name": "Ritualist",
         "image": "ritualist.webp",
         "element": "Huntress",
-        "desc": "Node Rings không hợp mở màn vì cần gear. Top-tier về late game khi gear tốt nhưng không hợp League Start.",
-        "role": "warrior"
-      }
-    ]
-  },
-  {
-    "label": "F",
-    "sublabel": "Tier 5",
-    "color": "#8a8a8a",
-    "chars": [
-      {
-        "name": "Acolyte of Chayula",
-        "image": "acolyte-of-chayula.webp",
-        "element": "Monk",
-        "desc": "Kém hơn Pathfinder cho Poison, lại phải đi vòng nhặt đồ không vui. Darkness đơn giản là dở hơn Spirit.",
-        "role": "assassin"
-      },
-      {
-        "name": "Oracle",
-        "image": "oracle.webp",
-        "element": "Huntress",
-        "desc": "Theo Ruetoo: ascendancy tệ nhất từng thấy. Chỉ khá lên nếu được rework toàn bộ nhánh và các node.",
+        "desc": "Node Rings cần gear nên yếu lúc mở màn; top-tier late game với gear tốt nhưng không hợp League Start.",
         "role": "warrior"
       },
       {
-        "name": "Gemling Legionnaire",
-        "image": "gemling-legionnaire.webp",
-        "element": "Mercenary",
-        "desc": "Gần như không có gì tốt lúc league start. Build nào chơi được trên nó thì chơi class khác đều tốt hơn.",
-        "role": "archer"
+        "name": "Smith of Kitava",
+        "image": "smith-of-kitava.webp",
+        "element": "Warrior",
+        "desc": "Khởi đầu trâu nhất nhưng độ trâu ít hữu ích về sau ở SC; bị Titan/Warbringer lấn át hầu hết mặt trận.",
+        "role": "tank"
       },
       {
-        "name": "Chronomancer",
-        "image": "chronomancer.webp",
-        "element": "Sorceress",
-        "desc": "Bấm thêm nút để giết boss trong khi bạn chỉ cần thêm damage — không phải cách chơi tối ưu.",
-        "role": "wizard"
+        "name": "Warbringer",
+        "image": "warbringer.webp",
+        "element": "Warrior",
+        "desc": "Nhiều lựa chọn phòng thủ nhưng damage kém các nhánh Warrior khác; tụt xuống D ở 0.5.",
+        "role": "tank"
       }
     ]
   }

@@ -1079,80 +1079,92 @@
     "url": "https://en.moonton.com/upload/image/20250626/0e937302feaf8b251d038321bcf91fcb.png"
   },
   {
-    "path": "assets/tierlists/poe2/images/pathfinder.webp",
-    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexFour_Ranger3.webp"
-  },
-  {
-    "path": "assets/tierlists/poe2/images/amazon.webp",
-    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexFourb_Huntress1.webp"
-  },
-  {
     "path": "assets/tierlists/poe2/images/deadeye.webp",
     "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexFour_Ranger1.webp"
-  },
-  {
-    "path": "assets/tierlists/poe2/images/lich.webp",
-    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFour_Witch3.webp"
-  },
-  {
-    "path": "assets/tierlists/poe2/images/titan.webp",
-    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrFourb_Warrior1.webp"
-  },
-  {
-    "path": "assets/tierlists/poe2/images/blood-mage.webp",
-    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFour_Witch2.webp"
-  },
-  {
-    "path": "assets/tierlists/poe2/images/tactician.webp",
-    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrDexFourb_Mercenary1.webp"
-  },
-  {
-    "path": "assets/tierlists/poe2/images/witchhunter.webp",
-    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrDexFourb_Mercenary2.webp"
-  },
-  {
-    "path": "assets/tierlists/poe2/images/warbringer.webp",
-    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrFourb_Warrior2.webp"
-  },
-  {
-    "path": "assets/tierlists/poe2/images/shaman.webp",
-    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrIntFourb_Druid2.webp"
   },
   {
     "path": "assets/tierlists/poe2/images/infernalist.webp",
     "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFour_Witch1.webp"
   },
   {
-    "path": "assets/tierlists/poe2/images/invoker.webp",
-    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexIntFourb_Monk2.webp"
+    "path": "assets/tierlists/poe2/images/martial-artist.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexIntFourb_Monk1.webp"
   },
   {
-    "path": "assets/tierlists/poe2/images/smith-of-kitava.webp",
-    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrFourb_Warrior3.webp"
+    "path": "assets/tierlists/poe2/images/spirit-walker.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexFourb_Huntress2.webp"
   },
   {
-    "path": "assets/tierlists/poe2/images/stormweaver.webp",
-    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFourb_Sorceress1.webp"
-  },
-  {
-    "path": "assets/tierlists/poe2/images/ritualist.webp",
-    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexFourb_Huntress3.webp"
-  },
-  {
-    "path": "assets/tierlists/poe2/images/acolyte-of-chayula.webp",
-    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexIntFourb_Monk3.webp"
-  },
-  {
-    "path": "assets/tierlists/poe2/images/oracle.webp",
-    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrIntFourb_Druid1.webp"
+    "path": "assets/tierlists/poe2/images/tactician.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrDexFourb_Mercenary1.webp"
   },
   {
     "path": "assets/tierlists/poe2/images/gemling-legionnaire.webp",
     "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrDexFourb_Mercenary3.webp"
   },
   {
+    "path": "assets/tierlists/poe2/images/amazon.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexFourb_Huntress1.webp"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/blood-mage.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFour_Witch2.webp"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/disciple-of-varashta.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFourb_Sorceress3.webp"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/lich.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFour_Witch3.webp"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/oracle.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrIntFourb_Druid1.webp"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/shaman.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrIntFourb_Druid2.webp"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/titan.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrFourb_Warrior1.webp"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/pathfinder.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexFour_Ranger3.webp"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/stormweaver.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFourb_Sorceress1.webp"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/witchhunter.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrDexFourb_Mercenary2.webp"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/acolyte-of-chayula.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexIntFourb_Monk3.webp"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/invoker.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexIntFourb_Monk2.webp"
+  },
+  {
     "path": "assets/tierlists/poe2/images/chronomancer.webp",
     "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconIntFourb_Sorceress2.webp"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/ritualist.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconDexFourb_Huntress3.webp"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/smith-of-kitava.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrFourb_Warrior3.webp"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/warbringer.webp",
+    "url": "https://cdn.poe2db.tw/image/Art/2DArt/UIImages/Common/IconStrFourb_Warrior2.webp"
   },
   {
     "path": "assets/tierlists/poe2/cover.jpg",
