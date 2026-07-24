@@ -1077,5 +1077,104 @@
   {
     "path": "assets/tierlists/silver-and-blood/cover.png",
     "url": "https://en.moonton.com/upload/image/20250626/0e937302feaf8b251d038321bcf91fcb.png"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/pathfinder.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Pathfinder_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Pathfinder"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/amazon.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Amazon_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Amazon"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/deadeye.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Deadeye_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Deadeye"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/lich.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Lich_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Lich"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/titan.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Titan_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Titan"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/blood-mage.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Blood_Mage_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Blood_Mage"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/tactician.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Tactician_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Tactician"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/witchhunter.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Witchhunter_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Witchhunter"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/warbringer.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Warbringer_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Warbringer"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/shaman.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Shaman_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Shaman"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/infernalist.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Infernalist_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Infernalist"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/invoker.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Invoker_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Invoker"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/smith-of-kitava.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Smith_of_Kitava_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Smith_of_Kitava"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/stormweaver.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Stormweaver_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Stormweaver"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/ritualist.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Ritualist_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Ritualist"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/acolyte-of-chayula.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Acolyte_of_Chayula_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Acolyte_of_Chayula"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/oracle.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Oracle_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Oracle"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/gemling-legionnaire.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Gemling_Legionnaire_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Gemling_Legionnaire"
+  },
+  {
+    "path": "assets/tierlists/poe2/images/chronomancer.png",
+    "url": "https://www.poe2wiki.net/wiki/Special:FilePath/Chronomancer_portrait.png",
+    "page": "https://www.poe2wiki.net/wiki/Chronomancer"
+  },
+  {
+    "path": "assets/tierlists/poe2/cover.jpg",
+    "url": "https://shared.fastly.steamstatic.com/community_assets/images/apps/2694490/fa8ff2005f65d0cbc7403a5b18ca77c0bbc9d05a.jpg"
   }
 ]
