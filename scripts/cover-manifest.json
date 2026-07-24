@@ -278,5 +278,45 @@
   {
     "path": "assets/news/denshattack-tau-dien-88-diem/cover.jpg",
     "page": "https://www.gamesradar.com/games/action/denshattack-dev-wakes-up-rolls-out-of-bed-finds-out-their-game-is-one-of-the-highest-rated-releases-of-2026-and-promptly-loses-their-mind/"
+  },
+  {
+    "path": "assets/news/black-flag-resynced-100k-steam/cover.jpg",
+    "page": "https://www.gamesradar.com/games/assassin-s-creed/assassins-creed-black-flag-resynced-is-the-first-assassins-creed-game-ever-to-hit-over-100-000-concurrent-players-on-steam-and-it-only-took-3-days/"
+  },
+  {
+    "path": "assets/news/cyberpunk-2077-40-trieu-ban/cover.jpg",
+    "page": "https://www.pcgamer.com/games/rpg/cyberpunk-2077-has-now-sold-more-than-40-million-copies-a-testament-to-what-cd-projekt-does-best/"
+  },
+  {
+    "path": "assets/news/diablo-4-mua-14-va-mythic/cover.jpg",
+    "page": "https://www.gamesradar.com/games/diablo/blizzard-responds-to-diablo-4-season-14-mythic-complaints-by-making-them-easier-to-craft-and-fixing-a-bug-that-stopped-bosses-from-dropping-them/"
+  },
+  {
+    "path": "assets/news/god-of-war-laufey-ban-dia/cover.jpg",
+    "page": "https://www.gamesradar.com/games/god-of-war/sony-santa-monica-confirms-god-of-war-laufey-will-be-available-on-disc-despite-playstations-war-on-physical/"
+  },
+  {
+    "path": "assets/news/gta6-pc-39-phan-tram-cho/cover.jpg",
+    "page": "https://www.pcgamer.com/games/grand-theft-auto/despite-having-no-clue-when-gta-6-is-coming-to-pc-39-percent-of-you-are-more-than-happy-to-wait-for-it/"
+  },
+  {
+    "path": "assets/news/marathon-barrett-hoa-giai-200-trieu/cover.jpg",
+    "page": "https://www.gamesradar.com/games/fps/former-marathon-and-destiny-2-lead-pleased-to-share-outcome-of-his-usd200-million-lawsuit-against-bungie-and-sony-is-one-i-am-very-satisfied-with/"
+  },
+  {
+    "path": "assets/news/meccha-chameleon-1-trieu-do-moi-ngay/cover.jpg",
+    "page": "https://www.pcgamer.com/games/sports/based-on-meccha-chameleons-incredibly-short-2-month-dev-cycle-its-creators-have-already-earned-usd1-million-per-day-of-work/"
+  },
+  {
+    "path": "assets/news/mortal-shell-2-ra-mat-thang-8/cover.jpg",
+    "page": "https://www.gamesradar.com/games/action-rpg/mortal-shell-2-is-suddenly-one-of-my-most-anticipated-soulslikes-and-its-out-next-month/"
+  },
+  {
+    "path": "assets/news/total-war-warhammer-3-endgame-end-times/cover.jpg",
+    "page": "https://www.pcgamer.com/games/strategy/total-war-warhammer-3-is-getting-new-endgames-individual-victory-conditions-a-vampire-counts-rework-and-nurgles-three-grossest-champions/"
+  },
+  {
+    "path": "assets/news/valheim-tang-gia-1-0/cover.jpg",
+    "page": "https://www.pcgamer.com/games/rpg/valheim-will-get-a-50-percent-price-hike-when-it-hits-1-0-and-no-changes-to-the-ocean-biome/"
   }
 ]
