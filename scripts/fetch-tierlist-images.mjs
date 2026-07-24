@@ -18,10 +18,21 @@ const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
 const downloaded = [];
 
 const UA = { headers: { 'user-agent': 'Mozilla/5.0 (CenixBot tierlist fetch)' } };
+// Chỉ chấp nhận đúng file ảnh (magic bytes PNG/JPEG/GIF/WEBP). Nguồn trả HTML
+// (tường chống bot, trang lỗi) -> coi như fail, KHÔNG lưu để lần sau thử lại.
+function isImage(buf) {
+  if (!buf || buf.length < 12) return false;
+  if (buf[0] === 0x89 && buf[1] === 0x50 && buf[2] === 0x4e && buf[3] === 0x47) return true; // PNG
+  if (buf[0] === 0xff && buf[1] === 0xd8 && buf[2] === 0xff) return true;                     // JPEG
+  if (buf[0] === 0x47 && buf[1] === 0x49 && buf[2] === 0x46) return true;                     // GIF
+  if (buf.slice(0, 4).toString('ascii') === 'RIFF' && buf.slice(8, 12).toString('ascii') === 'WEBP') return true;
+  return false;
+}
 async function grab(url) {
   const res = await fetch(url, UA);
   if (!res.ok) return null;
-  return Buffer.from(await res.arrayBuffer());
+  const buf = Buffer.from(await res.arrayBuffer());
+  return isImage(buf) ? buf : null;
 }
 for (const { path, url, page } of manifest) {
   const abs = resolve(root, path);
