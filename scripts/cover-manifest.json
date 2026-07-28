@@ -478,5 +478,45 @@
   {
     "path": "assets/news/capcom-resident-evil-remake-nam-nao-cung-co/cover.jpg",
     "page": "https://www.gamesradar.com/games/resident-evil/resident-evil-remakes-allow-capcom-to-release-yearly-games-in-the-series-and-invest-money-back-into-new-games-like-pragmata-producer-says/"
+  },
+  {
+    "path": "assets/news/ea-duoc-eu-bat-den-xanh-thuong-vu-55-ty/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/saudi-arabias-takeover-of-ea-gets-approval-from-european-commission/"
+  },
+  {
+    "path": "assets/news/xbox-thu-nghiem-xem-quang-cao-doi-choi-mien-phi/cover.jpg",
+    "page": "https://www.gamesradar.com/games/xbox-adds-advertisements-to-games-in-ad-supported-streaming-trial-and-it-sounds-like-theres-more-ads-where-these-came-from/"
+  },
+  {
+    "path": "assets/news/ubisoft-ceo-noi-bo-dia-vat-ly-giup-pc-lon-manh/cover.jpg",
+    "page": "https://www.gamesradar.com/games/ubisoft-ceo-says-ditching-physical-games-helped-pc-gaming-and-playstation-ending-discs-wont-disturb-the-industry-much-anyway/"
+  },
+  {
+    "path": "assets/news/halo-campaign-evolved-mixed-review-loi-dang-nhap/cover.jpg",
+    "page": "https://www.gamesradar.com/games/halo/halo-campaign-evolved-launches-to-mixed-steam-reviews-thanks-to-server-login-issues-in-a-single-player-game-after-charging-usd70-for-early-access/"
+  },
+  {
+    "path": "assets/news/ac-black-flag-resynced-3-5-trieu-ban-vuot-ky-vong-nam/cover.jpg",
+    "page": "https://www.gamesradar.com/games/assassin-s-creed/at-3-5-million-sales-assassins-creed-black-flag-resynced-beat-ubisofts-full-year-expectations-in-2-weeks-with-historical-pc-performance/"
+  },
+  {
+    "path": "assets/news/bloodborne-remaster-van-la-bi-an-ngay-ca-cuu-sep-playstation-cung-chiu/cover.jpg",
+    "page": "https://www.gamesradar.com/games/action-rpg/even-former-playstation-chief-shuhei-yoshida-doesnt-know-why-bloodborne-hasnt-been-remastered-or-released-on-pc-its-a-complete-mystery/"
+  },
+  {
+    "path": "assets/news/epic-tuyen-sep-battlenet-cuu-epic-games-store/cover.jpg",
+    "page": "https://www.gamesradar.com/platforms/pc-gaming/epic-taps-blizzards-battle-net-lead-to-fix-the-epic-games-store-as-steam-dominates/"
+  },
+  {
+    "path": "assets/news/pokemon-quet-mat-chan-phe-ve-nhat-ban/cover.jpg",
+    "page": "https://www.gamesradar.com/tabletop-gaming/the-war-on-pokemon-scalpers-now-includes-facial-recognition-checks-in-some-stores-in-japan/"
+  },
+  {
+    "path": "assets/news/ubisoft-tang-mien-phi-13-game-pc-cho-chu-xbox/cover.jpg",
+    "page": "https://www.gamesradar.com/games/assassin-s-creed/ubisoft-is-giving-out-free-pc-copies-of-assassins-creed-far-cry-prince-of-persia-and-tom-clancy-games-to-people-who-own-them-on-xbox/"
+  },
+  {
+    "path": "assets/news/dragonsword-awakening-doi-thu-bat-ngo-cua-crimson-desert/cover.jpg",
+    "page": "https://www.gamesradar.com/games/rpg/the-new-open-world-rpg-climbing-steam-is-the-biggest-surprise-since-crimson-desert-huge-pretty-and-only-usd30/"
   }
 ]
