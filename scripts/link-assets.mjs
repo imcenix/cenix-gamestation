@@ -17,7 +17,7 @@ const ASSETS = path.join(ROOT, 'assets');
 const PUBLIC = path.join(ROOT, 'public');
 
 // Each folder in assets/ that holds servable images.
-const NAMES = ['images', 'news', 'videos', 'characters', 'guides', 'tierlists', 'reviews', 'psn', 'platinum', 'profile'];
+const NAMES = ['images', 'news', 'videos', 'characters', 'guides', 'tierlists', 'reviews', 'psn', 'platinum', 'profile', 'profile-blog'];
 
 await mkdir(PUBLIC, { recursive: true });
 

@@ -156,4 +156,23 @@ const profile = defineCollection({
     hours: z.number().nullable().optional(),
   }),
 });
-export const collections = { news, videos, tierlists, guides, reviews, psn, platinum, profile };
+const profileBlog = defineCollection({
+  loader: glob({
+    pattern: ['*/post.md', '!_*/post.md'],
+    base: './assets/profile-blog',
+    generateId: ({ entry }) => entry.split('/')[0],
+  }),
+  schema: z.object({
+    title: z.string(), slug: z.string(), date: dateSchema,
+    type: z.enum(['vlog', 'short']),
+    url: z.string().url(),
+    thumbnail: z.string().nullable().optional(),
+    excerpt: z.string().nullable().optional(),
+    tags: z.array(z.string()).default([]),
+    featured: z.boolean().default(false),
+    order: orderSchema,
+    category: z.string().nullable().optional(),
+  }),
+});
+
+export const collections = { news, videos, tierlists, guides, reviews, psn, platinum, profile, profileBlog };

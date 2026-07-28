@@ -5,6 +5,7 @@ import ProfileHero from '../components/profile/ProfileHero.astro';
 import PsnCollection from '../components/profile/PsnCollection.astro';
 import SteamActivity from '../components/profile/SteamActivity.astro';
 import PlatformLibraries from '../components/profile/PlatformLibraries.astro';
+import ProfileBlogReels from '../components/profile/ProfileBlogReels.astro';
 import { loadSteam } from '../lib/steam';
 import { PROFILE } from '../config/site';
 import { readFileSync } from 'node:fs';
@@ -124,6 +125,10 @@ const nostalgiaGames = mapShelfGames('nostalgia');
 const playstationGames = profileSettings?.data.playstation_games ?? PROFILE.playstationGames;
 const gamingYears = profileSettings?.data.gaming_years ?? PROFILE.gamingYears;
 const steamGamesLabel = profileSettings?.data.steam_games ?? PROFILE.steamGames;
+const profileBlogEntries = (await getCollection('profileBlog'))
+  .sort((a, b) => Number(b.data.featured) - Number(a.data.featured)
+    || Number(a.data.order ?? 999) - Number(b.data.order ?? 999)
+    || new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 ---
 
 <BaseLayout
@@ -141,6 +146,8 @@ const steamGamesLabel = profileSettings?.data.steam_games ?? PROFILE.steamGames;
   <PsnCollection psn={psn} plats={plats} />
   <SteamActivity steam={steam} steamGamesLabel={steamGamesLabel} featuredGames={featuredPcGames} />
   <PlatformLibraries switchGames={switchGames} mobileGames={mobileGames} nostalgiaGames={nostalgiaGames} />
+  <ProfileBlogReels entries={profileBlogEntries} />
+
 </BaseLayout>
 
 <script>
