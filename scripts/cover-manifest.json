@@ -842,5 +842,45 @@
   {
     "path": "assets/news/microsoft-bo-goi-y-32gb-ram/cover.jpg",
     "page": "https://www.gamesradar.com/hardware/laptops/funny-that-microsoft-no-longer-recommends-32gb-ram-for-gaming-laptops/"
+  },
+  {
+    "path": "assets/news/doom-dev-noi-thang-xbox-khong-hieu-nghe-thuat/cover.jpg",
+    "page": "https://www.gamesradar.com/games/fps/doom-developer-slams-xbox-after-layoffs-hit-id-software-they-fundamentally-dont-understand-art-they-dont-understand-games/"
+  },
+  {
+    "path": "assets/news/lies-of-p-dev-khong-qua-noi-game-minh/cover.jpg",
+    "page": "https://www.gamesradar.com/games/rpg/soulslike-prince-lies-of-p-added-difficulty-settings-after-its-own-developers-struggled-to-beat-it-most-couldnt-even-make-it-halfway/"
+  },
+  {
+    "path": "assets/news/last-sentinel-tencent-buong-tay/cover.jpg",
+    "page": "https://www.pcgamer.com/games/action/tencents-cyberpunk-rival-to-grand-theft-auto-is-in-trouble-as-its-developer-lays-off-80-people/"
+  },
+  {
+    "path": "assets/news/take-two-3-nam-nua-len-may/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/take-two-ceo-says-he-expects-the-games-industry-to-be-in-commercial-streaming-mode-within-3-years-which-is-great-news-if-you-hate-owning-things/"
+  },
+  {
+    "path": "assets/news/ff7-dirge-of-cerberus-lost-episode-cuu-song/cover.jpg",
+    "page": "https://www.gamesradar.com/games/final-fantasy/a-lost-final-fantasy-7-game-has-just-been-saved-20-years-after-its-release-though-it-cost-one-preservationist-usd900/"
+  },
+  {
+    "path": "assets/news/metanet-22-nam-mot-game-platformer/cover.jpg",
+    "page": "https://www.gamesradar.com/games/platformer/these-devs-have-been-building-the-perfect-platformer-for-22-years-and-the-steam-apocalypse-wont-stop-them-now-video-games-have-always-been-about-a-small-team-of-sickos-doing-something/"
+  },
+  {
+    "path": "assets/news/worms-directors-cut-ban-mo-rong-30-nam/cover.jpg",
+    "page": "https://www.pcgamer.com/games/strategy/forget-quake-worms-the-directors-cut-just-got-a-free-expansion-for-the-series-30th-anniversary/"
+  },
+  {
+    "path": "assets/news/vholume-parkour-chot-ngay-21-8/cover.jpg",
+    "page": "https://www.pcgamer.com/games/action/the-indie-parkour-game-from-one-of-the-french-brothers-behind-2024s-best-fps-is-coming-out-in-just-two-weeks/"
+  },
+  {
+    "path": "assets/news/unturned-mo-source-code-cho-cong-dong/cover.jpg",
+    "page": "https://www.pcgamer.com/games/survival-crafting/blocky-zombie-survival-sim-unturned-releases-its-source-code-so-players-can-build-a-lasting-legacy-for-the-game-regardless-of-the-changes-we-make/"
+  },
+  {
+    "path": "assets/news/blizzard-studio-manh-nhat-nha-xbox/cover.jpg",
+    "page": "https://www.gamesradar.com/games/fps/diablo-4-lord-of-hatred-and-overwatchs-resurgence-reportedly-drove-blizzard-to-its-first-back-to-back-years-of-growth-in-almost-10-years/"
   }
 ]
