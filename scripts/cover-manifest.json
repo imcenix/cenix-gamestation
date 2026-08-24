@@ -1002,5 +1002,85 @@
   {
     "path": "assets/news/super-mario-bros-speedrun-4-frame/cover.jpg",
     "page": "https://www.gamesradar.com/games/super-mario/the-greatest-speedrun-accomplishment-of-all-time-is-in-sight-as-two-legendary-super-mario-bros-runners-compete-for-a-time-that-once-seemed-impossible/"
+  },
+  {
+    "path": "assets/news/epic-games-store-kho-quay-dau/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/can-the-epic-games-store-turn-things-around-i-dont-see-how-they-can-recover-at-this-point-says-newzoo-analyst/"
+  },
+  {
+    "path": "assets/news/compulsion-thoat-microsoft-het-phan/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/compulsion-games-buyout-is-complete-so-now-microsoft-wont-get-a-cut-if-you-buy-south-of-midnight/"
+  },
+  {
+    "path": "assets/news/tim-cain-hoc-tu-game-do/cover.jpg",
+    "page": "https://www.pcgamer.com/games/fallout-dev-tim-cain-says-we-should-pay-more-attention-to-bad-games-publishers-often-dont-learn-from-failure-because-they-only-look-at-the-games-that-sold-well/"
+  },
+  {
+    "path": "assets/news/doom-mod-blackout-nanosuit/cover.jpg",
+    "page": "https://www.pcgamer.com/games/fps/this-mod-transforms-doom-into-a-terrifying-tactical-shooter-and-its-partly-inspired-by-another-pc-gaming-classic/"
+  },
+  {
+    "path": "assets/news/dishonored-arkane-con-4-thang-tien/cover.jpg",
+    "page": "https://www.pcgamer.com/games/action/dishonored-was-a-last-ditch-effort-by-arkane-studios-after-years-of-fruitless-contract-work-according-to-the-games-co-creator-i-think-we-had-four-months-of-money-left/"
+  },
+  {
+    "path": "assets/news/how-to-fish-ban-ca-bang-sniper/cover.jpg",
+    "page": "https://www.pcgamer.com/games/sim/the-latest-cooperative-craze-is-a-physics-based-fishing-simulator-where-you-can-launch-your-catch-into-the-air-and-no-scope-it-with-a-sniper-rifle/"
+  },
+  {
+    "path": "assets/news/rizz-dungeon-doi-sang-nam/cover.jpg",
+    "page": "https://www.pcgamer.com/games/rpg/the-dungeoncrawler-where-you-really-can-roll-to-seduce-the-dragon-has-been-delayed-until-next-year/"
+  },
+  {
+    "path": "assets/news/double-fine-kickstarter-amnesia-fortnight/cover.jpg",
+    "page": "https://www.gamesradar.com/games/free-from-xbox-double-fine-returns-to-kickstarter-to-ask-fans-what-its-next-small-game-should-be/"
+  },
+  {
+    "path": "assets/news/steam-frame-video-huong-dan-ro-ri/cover.jpg",
+    "page": "https://www.gamesradar.com/hardware/vr/whenever-youre-ready-valve-nine-minutes-of-steam-frame-user-guide-videos-appearing-as-steam-store-assets-surely-point-to-this-headset-launching-soon-right/"
+  },
+  {
+    "path": "assets/news/ori-3-tin-don-xbox/cover.jpg",
+    "page": "https://www.gamesradar.com/games/platformer/the-legend-of-zelda-ocarina-of-time-leaker-says-xbox-is-working-on-a-new-ori-game-6-years-after-its-last-excellent-metroidvania/"
+  },
+  {
+    "path": "assets/news/hell-let-loose-vietnam-can-ma-sat/cover.jpg",
+    "page": "https://www.gamesradar.com/games/fps/hell-let-loose-vietnam-director-says-games-need-friction-to-thrive-and-this-shooter-is-proof/"
+  },
+  {
+    "path": "assets/news/mcconaughey-suyt-thanh-joel/cover.jpg",
+    "page": "https://www.pcgamer.com/movies-tv/matthew-mcconaughey-could-have-played-joel-in-the-last-of-us-but-says-it-just-wasnt-for-me-at-the-time/"
+  },
+  {
+    "path": "assets/news/palworld-1-1-khong-doi-ca-nam/cover.jpg",
+    "page": "https://www.gamesradar.com/games/survival/palworld-devs-not-planning-to-spend-a-year-making-a-massive-1-1-update-publishing-lead-clarifies-after-quickly-regretting-asking-fans-for-ideas/"
+  },
+  {
+    "path": "assets/news/pokemon-bank-5-pokemon-mat-tich/cover.jpg",
+    "page": "https://www.gamesradar.com/games/pokemon/pokemon-bank-shutdown-will-make-5-pokemon-unobtainable-in-modern-switch-games-and-fans-want-to-know-when-that-changes/"
+  },
+  {
+    "path": "assets/news/prey-choi-coop-16-nguoi-mod/cover.jpg",
+    "page": "https://www.pcgamer.com/games/sim/you-can-now-play-the-secret-best-immersive-sim-in-coop-thanks-to-this-mod/"
+  },
+  {
+    "path": "assets/news/stalker-2-back-to-the-zone-20-8/cover.jpg",
+    "page": "https://www.pcgamer.com/games/fps/stalker-2s-imminent-free-update-aims-to-make-the-sequel-more-atmospheric-and-less-relentlessly-hostile-the-zone-isnt-one-constant-gunfight/"
+  },
+  {
+    "path": "assets/news/swtor-8-0-thanh-do-kho/cover.jpg",
+    "page": "https://www.pcgamer.com/games/mmo/star-wars-the-old-republic-hopes-to-recapture-the-classic-experience-with-difficulty-options-and-a-new-way-to-start-from-scratch/"
+  },
+  {
+    "path": "assets/news/tinysol-solitaire-3kb-ma-qr/cover.jpg",
+    "page": "https://www.pcgamer.com/games/this-solitaire-game-is-so-tiny-it-can-load-from-a-qr-code-which-is-just-what-i-need-in-the-age-of-massive-games-and-expensive-storage/"
+  },
+  {
+    "path": "assets/news/witcher-3-lang-8-nha-npc-that/cover.jpg",
+    "page": "https://www.pcgamer.com/games/the-witcher/witcher-3-designer-says-it-wasnt-easy-to-convince-players-its-npc-simulation-wasnt-just-fakery-people-nowadays-are-interested-in-those-kinds-of-details-and-it-really-came-to-haunt-us/"
+  },
+  {
+    "path": "assets/news/wolverine-khong-ke-chuyen-goc/cover.jpg",
+    "page": "https://www.gamesradar.com/games/action/marvels-wolverine-wont-show-logans-origins-or-how-he-got-the-adamantium-skeleton-were-not-doing-an-origin-story/"
   }
 ]
