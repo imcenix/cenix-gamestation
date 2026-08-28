@@ -10,7 +10,7 @@ tags:
   - ENDGAME
   - ATLAS
 excerpt: Lộ trình đi Fortress từ cổng vào tới Arbiter of Divinity, kèm những chỗ dễ mất điểm Atlas nhất mà 9/10 anh em bỏ sót.
-cover: cover.png
+cover: cover.jpg
 ---
 Phá đảo campaign _Path of Exile 2_ xong, mở bản đồ endgame ra thấy nguyên cái pháo đài to đùng rồi đứng hình — quen không mấy ông? Ngồi xuống uống miếng nước rồi nghe nè: **Fortress** chính là chỗ anh em gom **Atlas Passive Point**, và cây Atlas full ăn tới **335 điểm**. Bài này là lộ trình từ lúc bước qua cổng cho tới lúc hạ Pinnacle Boss cuối, kèm mấy chỗ dễ rớt điểm nhất.
 
