@@ -18,6 +18,10 @@ Phá đảo campaign _Path of Exile 2_ xong, mở bản đồ endgame ra thấy 
 
 ## <span style="color:rgb(255, 176, 0)">Fortress có gì — hai tầng, một mạch đi</span>
 
+![Bản đồ Fortress trong Path of Exile 2 với các điểm mốc được đánh dấu](fortress-map.png)
+
+_Cả cái Fortress nằm gọn trong một tấm: cổng vào, hai Gateway, Burning Monolith ở tầng 1; Enigma Chamber và Origin Tower ở tầng 2._
+
 ### <span style="color:rgb(200, 240, 60)">Tầng 1 — nơi anh em đặt chân xuống</span>
 
 -   **The Ancient Gateway** — cổng vào, mở khu Fortress đầu tiên.
@@ -48,6 +52,10 @@ Phá đảo campaign _Path of Exile 2_ xong, mở bản đồ endgame ra thấy 
 
 ## <span style="color:rgb(255, 176, 0)">Cây Atlas mở dần theo 3 mảng</span>
 
+![Toàn cảnh cây Atlas Passive Tree của Path of Exile 2](atlas-tree-full.png)
+
+_335 điểm nhìn thì đã mắt, nhưng cắm hết cả đời không xong đâu mấy ông._
+
 -   **Mảng 1** — có ngay từ đầu, phục vụ khu Waystone.
 
 -   **Mảng 2** — mở sau khi hạ **Arbiter of Ash**, áp cho khu **Area Level 70+**.
@@ -55,6 +63,10 @@ Phá đảo campaign _Path of Exile 2_ xong, mở bản đồ endgame ra thấy 
 -   **Mảng 3** — mở sau khi clear boss **Enigma Chamber**, áp cho khu **Area Level 75+**.
 
 Phần điểm còn lại rơi vào tay anh em sau khi hạ **Arbiter of Divinity**.
+
+![Cây Atlas chia làm ba mảng mở khoá theo tiến trình](atlas-tree-3-mang.png)
+
+_Ba mảng tô riêng cho dễ nhìn — mỗi mảng gắn với một cột mốc boss, không hạ boss thì cứ nhìn từ xa thôi._
 
 Về nội dung, cây Atlas phủ gần như trọn bộ cơ chế trong game: **Essences**, **Strongboxes**, **Azmeri Wisps**, **Rogue Exiles**, **Summoning Circles**, **Shrines**, **Precursor Tablets**, cộng thêm **Rarity** chung và các bonus cho Waystone theo **Biome**. Một số **Keystone** còn cho anh em chọn giữa nhiều nhánh chứ không phải bật/tắt một chiều.
 
@@ -80,13 +92,25 @@ Một khi đã máu thì đừng hỏi bố cháu là ai nữa — nhưng thôi,
 
 Hạ một lần chưa đủ 335 điểm đâu. Muốn đánh lại con này, anh em cần nạp nguyên liệu vào **Precursor Reactor** đặt dưới chân **Origin Tower**:
 
+![Precursor Reactor đặt dưới chân Origin Tower](precursor-reactor.png)
+
+_Đây là cái lò nạp nguyên liệu, nằm ngay chân Origin Tower._
+
 ### <span style="color:rgb(200, 240, 60)">Chơi Trade League</span>
 
 Ra thẳng **Currency Exchange** mua **Origin Spark** + **Origin Cradle**, hoặc gọn hơn là một viên **Origin Core**. Đây là đường nhanh nhất, thích đánh bao nhiêu lần cũng được, miễn ví chịu nổi.
 
+![Vật phẩm Origin Spark và Origin Cradle](origin-spark-cradle.png)
+
+_Hai món cần mua: Origin Spark và Origin Cradle._
+
 ### <span style="color:rgb(200, 240, 60)">Chơi SSF</span>
 
 Không có chợ thì phải tự đi. Lặn vào **Atlas vô hạn** tìm **Patriarch Hall** và **Matriarch Hall**, hạ boss trong đó để tự rơi ra nguyên liệu. Cực hơn nhiều, nhưng đó là cái giá của dân SSF.
+
+![Vị trí Patriarch Hall và Matriarch Hall trên Atlas](patriarch-halls.png)
+
+_Patriarch Hall và Matriarch Hall nằm rải trong Atlas vô hạn — dân SSF chịu khó lặn tìm._
 
 <div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Cảnh báo:</strong> Sau mỗi lần hạ Arbiter of Divinity, hãy rà lại bản đồ Fortress xem còn Precursor Tower nào chưa clear không. Boss clear hộ anh em cả khu nhưng chừa đúng mấy cái tháp — và đó lại là chỗ giữ những điểm cuối cùng.</p></div>
 
