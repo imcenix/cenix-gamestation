@@ -1206,29 +1206,5 @@
   {
     "path": "assets/news/linus-torvalds-debug-dia-nguc-ai/cover.jpg",
     "page": "https://www.pcgamer.com/hardware/linus-torvalds-details-his-debug-session-from-hell-pushing-an-ai-to-fix-an-error-it-repeatedly-said-was-impossible-and-unsolvable-he-then-made-it-write-the-report/"
-  },
-  {
-    "path": "assets/guides/poe-2-fortress-cay-335-diem-atlas/fortress-map.png",
-    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Fortress_Labeled1.png"
-  },
-  {
-    "path": "assets/guides/poe-2-fortress-cay-335-diem-atlas/atlas-tree-full.png",
-    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Full_Atlas_Tree.png"
-  },
-  {
-    "path": "assets/guides/poe-2-fortress-cay-335-diem-atlas/atlas-tree-3-mang.png",
-    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Atlas_Tree_Segmented.png"
-  },
-  {
-    "path": "assets/guides/poe-2-fortress-cay-335-diem-atlas/precursor-reactor.png",
-    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Precursor_Reactor.png"
-  },
-  {
-    "path": "assets/guides/poe-2-fortress-cay-335-diem-atlas/origin-spark-cradle.png",
-    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Spark_And_Cradle.png"
-  },
-  {
-    "path": "assets/guides/poe-2-fortress-cay-335-diem-atlas/patriarch-halls.png",
-    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Patriarch_Halls.png"
   }
 ]
