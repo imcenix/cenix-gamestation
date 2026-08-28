@@ -4,7 +4,7 @@ slug: poe-2-fortress-cay-335-diem-atlas
 level: endgame
 date: 2026-08-28
 featured: true
-order: 2
+order:
 tags:
   - PATH OF EXILE 2
   - ENDGAME

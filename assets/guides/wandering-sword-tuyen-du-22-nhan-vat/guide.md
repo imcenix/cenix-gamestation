@@ -4,7 +4,7 @@ slug: wandering-sword-tuyen-du-22-nhan-vat
 level: endgame
 date: 2026-07-17
 featured: true
-order: 1
+order:
 tags:
   - WANDERING SWORD
   - 22 NHÂN VẬT
