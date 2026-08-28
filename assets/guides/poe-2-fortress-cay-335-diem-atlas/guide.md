@@ -130,4 +130,4 @@ _Patriarch Hall và Matriarch Hall nằm rải trong Atlas vô hạn — dân SS
 
 Rồi đó, hôm nay không cày hôm nào cày? Anh em nào đã hạ được Arbiter of Divinity rồi thì khoe cái build ở phần bình luận cho Cenix ngó với — và nói luôn là mấy ông dồn điểm Atlas vào cơ chế nào: Essence, Strongbox hay Precursor Tablet? Cenix đang phân vân chưa biết chốt hướng nào.
 
-*Nguồn: [Mobalytics](https://mobalytics.gg/poe-2/guides/endgame-fortress)*
+*Nguồn tham khảo: [Mobalytics](https://mobalytics.gg/poe-2/guides/endgame-fortress)*
