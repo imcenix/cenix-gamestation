@@ -35,4 +35,4 @@ Tháng 9 năm nay vốn đã chật kín game rồi, nên nói cho công bằng 
 
 Mấy pa thì sao — nghe tin một game indie dời lịch vì "không muốn crunch", mấy ông thấy nhẹ nhõm hay vẫn tiếc? Và có ai đang đặt gạch chờ tựa này không, điểm danh ở phần comment nhé!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/the-dungeoncrawler-where-you-really-can-roll-to-seduce-the-dragon-has-been-delayed-until-next-year/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/the-dungeoncrawler-where-you-really-can-roll-to-seduce-the-dragon-has-been-delayed-until-next-year/)*

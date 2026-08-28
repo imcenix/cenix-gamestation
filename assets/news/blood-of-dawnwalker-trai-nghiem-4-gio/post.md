@@ -30,4 +30,4 @@ Thật thà mà nói, reviewer chê phần chiến đấu: đánh kiếm dạng 
 
 **The Blood of Dawnwalker ra mắt ngày 3/9/2026.** Anh em đội nào hóng game này cùng Cenix thì điểm danh, để tới ngày còn rủ nhau "đi hiến máu" tập thể nè!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/i-played-4-hours-of-the-blood-of-dawnwalker-and-it-borrows-a-heck-of-a-lot-from-the-witcher-3-for-good-and-bad/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/i-played-4-hours-of-the-blood-of-dawnwalker-and-it-borrows-a-heck-of-a-lot-from-the-witcher-3-for-good-and-bad/)*

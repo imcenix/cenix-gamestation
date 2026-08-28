@@ -40,4 +40,4 @@ Chi tiết Cenix thấy hay nhất là cái tên: Back to the Zone. Nghe như GS
 
 Vùng Đất Cấm mở lại cửa ngày 20/8. Anh em định làm bản save mới chơi lại từ số 0, hay xách nhân vật cũ vào bản mở rộng luôn? Mà mấy pa thấy A-Life sau đại tu có đủ sức cứu vãn danh tiếng không, hay phải chờ patch 3.0 nữa? Comment cho Cenix biết với, hôm nay không chơi hôm nào chơi.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fps/stalker-2s-imminent-free-update-aims-to-make-the-sequel-more-atmospheric-and-less-relentlessly-hostile-the-zone-isnt-one-constant-gunfight/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fps/stalker-2s-imminent-free-update-aims-to-make-the-sequel-more-atmospheric-and-less-relentlessly-hostile-the-zone-isnt-one-constant-gunfight/)*

@@ -36,4 +36,4 @@ Tất nhiên, mọi thứ chỉ chắc chắn khi Microsoft chính thức công 
 
 Anh em dự đoán OD sẽ là siêu phẩm kinh dị thế hệ mới hay lại là một "trải nghiệm nghệ thuật" xem stream cho đỡ tốn tiền? Comment chém gió cùng Cenix nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/horror/hideo-kojimas-upcoming-horror-game-od-is-said-to-survive-microsofts-culling-for-the-second-time-now/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/horror/hideo-kojimas-upcoming-horror-game-od-is-said-to-survive-microsofts-culling-for-the-second-time-now/)*

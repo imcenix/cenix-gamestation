@@ -29,4 +29,4 @@ Dù vậy, không thể phủ nhận sức hút của tựa game vẫn đang lan
 
 Mấy ông đã cày Black Flag Resynced tới đâu rồi? Có nằm trong số 3,5 triệu người góp phần vào kỷ lục này không? Điểm danh cho Cenix biết nhé!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/assassin-s-creed/at-3-5-million-sales-assassins-creed-black-flag-resynced-beat-ubisofts-full-year-expectations-in-2-weeks-with-historical-pc-performance/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/assassin-s-creed/at-3-5-million-sales-assassins-creed-black-flag-resynced-beat-ubisofts-full-year-expectations-in-2-weeks-with-historical-pc-performance/)*

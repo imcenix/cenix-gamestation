@@ -31,4 +31,4 @@ Kojima cũng từng chia sẻ ông muốn cách "ra đi" của mình là đượ
 
 Mấy ông nghĩ Kojima nên ưu tiên ước mơ nào trước — làm phim, lên vũ trụ, hay cứ tiếp tục làm game cho tới khi nghỉ hưu? Để lại ý kiến cho Cenix nghe với!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/metal-gear/hideo-kojima-isnt-planning-to-blast-off-to-space-yet-because-he-doesnt-want-to-rush-to-his-ultimate-dream-so-hell-keep-on-making-games-for-now/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/metal-gear/hideo-kojima-isnt-planning-to-blast-off-to-space-yet-because-he-doesnt-want-to-rush-to-his-ultimate-dream-so-hell-keep-on-making-games-for-now/)*

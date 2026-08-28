@@ -37,4 +37,4 @@ Có hai lựa chọn thôi. Một là đã có sẵn tài khoản Netflix thì c
 
 Mấy ông chọn phe nào — bấm Netflix xem sớm cho nóng, hay kiên nhẫn đợi sáu tiếng để xem chùa trên YouTube? Comment cho Cenix biết với, để Cenix còn biết hôm đó nên thức hay nên ngủ.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/the-first-gta-6-gameplay-reveal-will-debut-on-netflix-later-this-month-as-the-streaming-service-tries-yet-again-to-get-a-piece-of-that-videogame-pie/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/the-first-gta-6-gameplay-reveal-will-debut-on-netflix-later-this-month-as-the-streaming-service-tries-yet-again-to-get-a-piece-of-that-videogame-pie/)*

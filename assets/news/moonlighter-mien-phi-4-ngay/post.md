@@ -35,4 +35,4 @@ Moonlighter 2 sẽ nhảy khỏi early access và lên 1.0 vào **2/9**. Tính r
 
 Một khi đã máu thì đừng hỏi bố cháu là ai nữa — anh em định làm nhà buôn tử tế hay chủ tiệm chặt chém? Comment cho Cenix biết chiến thuật định giá của mấy ông nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/roguelike/you-have-4-days-to-get-one-of-our-favorite-roguelikes-for-free-on-steam-thanks-to-its-sequel-leaving-early-access/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/roguelike/you-have-4-days-to-get-one-of-our-favorite-roguelikes-for-free-on-steam-thanks-to-its-sequel-leaving-early-access/)*

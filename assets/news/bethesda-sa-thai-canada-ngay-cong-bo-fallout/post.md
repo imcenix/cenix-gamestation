@@ -35,4 +35,4 @@ Tin tức về tương lai Fallout chắc chắn khiến nhiều anh em phấn k
 
 Mấy ông nghĩ sao về cách các studio lớn xử lý thông tin sa thải song song với tin PR? Cùng chia sẻ góc nhìn với Cenix nhé.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/union-claims-bethesda-developers-were-laid-off-the-day-xbox-announced-new-fallouts-after-being-told-they-would-still-have-jobs-until-september/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/union-claims-bethesda-developers-were-laid-off-the-day-xbox-announced-new-fallouts-after-being-told-they-would-still-have-jobs-until-september/)*

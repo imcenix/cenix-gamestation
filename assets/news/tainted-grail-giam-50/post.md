@@ -30,4 +30,4 @@ Túm cái váy lại: TES6 thì "đang trên đường tới" (đường hơi d�
 
 Anh em nào chơi Tainted Grail rồi thì cho nhận xét thật lòng dưới comment nha — đáng đồng tiền không, để hội còn lại cân nhắc xuống ví!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/a-new-elder-scrolls-is-still-years-away-but-this-fun-arthurian-skyrim-clone-is-50-percent-off-right-now/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/a-new-elder-scrolls-is-still-years-away-but-this-fun-arthurian-skyrim-clone-is-50-percent-off-right-now/)*

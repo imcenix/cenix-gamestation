@@ -35,4 +35,4 @@ Vui thì vui, tỉnh vẫn phải tỉnh — đằng sau con số 80 là 80 ngư
 
 Anh em nghĩ có studio nào ngoài Rockstar đủ sức làm một GTA-like ra hồn trong vài năm tới không, hay đây là cuộc chơi chỉ một người chơi được? Kể Cenix nghe với ở phần comment.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/action/tencents-cyberpunk-rival-to-grand-theft-auto-is-in-trouble-as-its-developer-lays-off-80-people/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/action/tencents-cyberpunk-rival-to-grand-theft-auto-is-in-trouble-as-its-developer-lays-off-80-people/)*

@@ -34,4 +34,4 @@ First Light khi ra mắt nhận đánh giá khá trái chiều (PC Gamer chê ph
 
 Anh em đã chơi First Light chưa — màn Slovakia có lừa được mấy ông không hay đọc vị từ sớm? Kể Cenix nghe trải nghiệm với. Còn ai chưa chơi mà mê Hitman thì cân nhắc thử nha, chất lén lút của IO vẫn ở đó đủ đầy.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/action/007-first-light-was-originally-going-to-be-less-about-james-bond-and-more-of-an-ensemble-piece-with-all-the-00s-working-together-as-they-do-in-slovakia/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/action/007-first-light-was-originally-going-to-be-less-about-james-bond-and-more-of-an-ensemble-piece-with-all-the-00s-working-together-as-they-do-in-slovakia/)*

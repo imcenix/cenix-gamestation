@@ -32,4 +32,4 @@ Cây bút Rick Lane của PC Gamer — người đã xem trọn bản demo dài 
 
 Anh em nghĩ sao về hướng đi mới này — làn gió cần thiết sau khi Ragnarök khép lại saga Norse, hay God of War thiếu Kratos như phở thiếu bánh phở? Chia phe văn minh dưới comment cho Cenix nghe nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/action/god-of-war-laufey-star-deborah-ann-woll-isnt-phased-by-the-negative-reactions-to-its-announcement-i-feel-totally-unbothered/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/action/god-of-war-laufey-star-deborah-ann-woll-isnt-phased-by-the-negative-reactions-to-its-announcement-i-feel-totally-unbothered/)*

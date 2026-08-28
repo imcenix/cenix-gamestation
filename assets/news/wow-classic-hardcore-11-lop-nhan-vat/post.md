@@ -32,4 +32,4 @@ Và như vậy vẫn chưa đủ đô, ông thần này còn chơi thêm một r
 
 Đọc xong tự nhiên thấy mấy lần mình wipe raid vì đứng trong lửa cũng... bình thường thôi ha. Anh em có dám thử hardcore self-found không, hay để Cenix xem clip thôi cũng đủ tim đập chân run rồi?
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/world-of-warcraft/wow-classic-player-hits-60-on-hardcore-self-found-with-every-class-decides-that-isnt-enough-does-a-naked-run-for-good-measure/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/world-of-warcraft/wow-classic-player-hits-60-on-hardcore-self-found-with-every-class-decides-that-isnt-enough-does-a-naked-run-for-good-measure/)*

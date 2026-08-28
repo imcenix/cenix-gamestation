@@ -36,4 +36,4 @@ Cho anh em từng nghiện WoW/EverQuest thời 2x tuổi mà giờ chỉ còn 1
 
 Anh em nghĩ sao về thể loại "MMO offline" này — ý tưởng thiên tài hay đi ngược tinh thần MMO? Chia phe dưới comment cho Cenix hóng với!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/mmo/raids-just-landed-in-solo-simulated-mmo-erenshor/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/mmo/raids-just-landed-in-solo-simulated-mmo-erenshor/)*

@@ -45,4 +45,4 @@ Vậy tin ai? Cenix nghĩ cả hai đều đang nói thật theo góc nhìn củ
 
 Anh em nghĩ id Software còn làm nổi một tựa Doom cỡ lớn nữa không, hay từ giờ nên hạ kỳ vọng xuống? Để lại ý kiến ở phần comment cho Cenix nghe với.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/fps/doom-developer-slams-xbox-after-layoffs-hit-id-software-they-fundamentally-dont-understand-art-they-dont-understand-games/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/fps/doom-developer-slams-xbox-after-layoffs-hit-id-software-they-fundamentally-dont-understand-art-they-dont-understand-games/)*

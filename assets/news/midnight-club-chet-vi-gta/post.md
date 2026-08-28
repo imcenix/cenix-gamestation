@@ -37,4 +37,4 @@ Trong một môi trường như vậy, "hay" thôi thường là không đủ.
 
 Anh em có ai từng cày Midnight Club 2 hay LA không? Và nếu Rockstar hồi sinh series này sau GTA 6, mấy ông có đặt gạch không? Kể Cenix nghe kỷ niệm đua đêm của mấy pa với.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/racing/rockstars-great-midnight-club-racing-series-was-killed-off-for-one-simple-reason-and-you-can-probably-guess-what-it-was/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/racing/rockstars-great-midnight-club-racing-series-was-killed-off-for-one-simple-reason-and-you-can-probably-guess-what-it-was/)*

@@ -32,4 +32,4 @@ GamesRadar còn chỉ ra điểm trùng hợp thú vị: hành trình hành hư�
 
 Anh em còn nhớ cảnh nào của FF10 làm mình rưng rưng nhất không? Cenix xin đặt gạch cảnh cuối, cái ôm hụt đó... thôi không nói nữa, cay mắt rồi. Comment kỷ niệm của mấy ông đi!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/final-fantasy/final-fantasy-10-leaned-into-the-fantasy-genre-after-devs-learned-that-the-lord-of-the-rings-was-in-production-and-thought-it-would-be-the-next-big-global-trend/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/final-fantasy/final-fantasy-10-leaned-into-the-fantasy-genre-after-devs-learned-that-the-lord-of-the-rings-was-in-production-and-thought-it-would-be-the-next-big-global-trend/)*

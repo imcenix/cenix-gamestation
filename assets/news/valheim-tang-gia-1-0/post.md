@@ -31,4 +31,4 @@ Cenix thì nghĩ: lên 1.0 sau 5 năm đã là một cột mốc đáng ăn mừ
 
 Anh em team Viking tính sao — hốt liền lúc còn 20 đô, hay chờ xem 1.0 có "ra ngô ra khoai" rồi mới nhảy hố? Comment cho Cenix biết nhé!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/valheim-will-get-a-50-percent-price-hike-when-it-hits-1-0-and-no-changes-to-the-ocean-biome/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/valheim-will-get-a-50-percent-price-hike-when-it-hits-1-0-and-no-changes-to-the-ocean-biome/)*

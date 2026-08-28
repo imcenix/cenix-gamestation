@@ -29,4 +29,4 @@ Songs of the Past đặt lịch **2027**, nên Cenix đoán khó có ngày phát
 
 Anh em mong Songs of the Past kể tiếp câu chuyện của ai — Geralt, hay một gương mặt cũ nào đó của Witcher 3? Đoán thử với Cenix nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/the-witcher/cd-projekt-red-says-the-witcher-3-songs-of-the-past-geralts-first-expansion-in-a-decade-will-get-a-proper-reveal-next-month/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/the-witcher/cd-projekt-red-says-the-witcher-3-songs-of-the-past-geralts-first-expansion-in-a-decade-will-get-a-proper-reveal-next-month/)*

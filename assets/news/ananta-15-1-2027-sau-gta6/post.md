@@ -27,4 +27,4 @@ Ai đã chơi thử ở các kỳ hội chợ đều nói cùng một câu: nó 
 
 Chà, quyết định khó quá, làm sao để tốt cho cả hai? Tháng 11 GTA 6, tháng 1 Ananta miễn phí — anh em định chơi cả hai hay chọn một? Comment chia phe cho Cenix xem hội mình nghiêng bên nào nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/open-world/ananta-release-date-places-the-free-to-play-anime-take-on-gta-in-january-2027-just-2-months-after-rockstars-gta-6/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/open-world/ananta-release-date-places-the-free-to-play-anime-take-on-gta-in-january-2027-just-2-months-after-rockstars-gta-6/)*

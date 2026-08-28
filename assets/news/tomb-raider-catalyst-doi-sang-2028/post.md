@@ -29,4 +29,4 @@ Cây viết Andy Chalk của PC Gamer cho biết đã liên hệ Amazon để x�
 
 Đây rõ ràng là một ví dụ nữa cho thấy làn sóng sa thải trong ngành game đang để lại hậu quả kéo dài — không phải cứ cắt giảm là dự án chạy đều như cũ. Mấy ông nghĩ Catalyst có đáng để chờ thêm một năm không, hay tin này khiến niềm tin vào lịch ra mắt của các hãng lớn ngày càng lung lay? Để lại bình luận cho Cenix biết góc nhìn của mấy ông nhé!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/action/tomb-raider-catalyst-delayed-to-2028/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/action/tomb-raider-catalyst-delayed-to-2028/)*

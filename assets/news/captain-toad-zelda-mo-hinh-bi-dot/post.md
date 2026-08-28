@@ -41,4 +41,4 @@ Cái này khó nha, khó nói thiệt chớ — bị từ chối một lần l�
 
 Mấy ông thấy sao, nếu ngày đó Miyamoto gật đầu thì một game Zelda dạng sa bàn sẽ ngon cỡ nào? Comment tưởng tượng cùng Cenix nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/the-legend-of-zelda/a-mario-dev-burned-the-handmade-diorama-he-used-to-pitch-a-zelda-game-because-shigeru-miyamoto-said-no-it-was-such-a-bad-memory-that-i-decided-to-let-it-die/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/the-legend-of-zelda/a-mario-dev-burned-the-handmade-diorama-he-used-to-pitch-a-zelda-game-because-shigeru-miyamoto-said-no-it-was-such-a-bad-memory-that-i-decided-to-let-it-die/)*

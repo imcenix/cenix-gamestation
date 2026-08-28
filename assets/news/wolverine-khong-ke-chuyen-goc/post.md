@@ -37,4 +37,4 @@ Mà nhắc tới Wolverine thì mạch tin dạo này khá dày — từ chuyệ
 
 Anh em thuộc phe nào: thích game kể luôn từ đầu cho rõ ngọn ngành, hay thích kiểu thả vào giữa câu chuyện rồi tự ghép mảnh? Kể Cenix nghe game nào từng làm mấy pa hài lòng nhất với cách mở đầu của nó nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/action/marvels-wolverine-wont-show-logans-origins-or-how-he-got-the-adamantium-skeleton-were-not-doing-an-origin-story/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/action/marvels-wolverine-wont-show-logans-origins-or-how-he-got-the-adamantium-skeleton-were-not-doing-an-origin-story/)*

@@ -31,4 +31,4 @@ Nói đi cũng phải nói lại, GTA 6 cũng không còn xa nữa đâu — Roc
 
 Một khi đã máu thì đừng hỏi bố cháu là ai nữa! Một mình DryxioGTA làm được thứ mà cả Rockstar chưa từng nghĩ tới trong gần ba thập kỷ. Mấy ông có nghĩ Rockstar nên "học hỏi" ý tưởng này cho tương lai series không? Hay đây mãi mãi chỉ là sân chơi của dân mod? Cmt cho Cenix nghe góc nhìn của mấy ông!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/modding-wizard-creates-grand-theft-auto-multiverse-that-lets-players-travel-instantly-between-rockstars-first-three-games-we-got-inter-gta-portals-before-gta-6/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/modding-wizard-creates-grand-theft-auto-multiverse-that-lets-players-travel-instantly-between-rockstars-first-three-games-we-got-inter-gta-portals-before-gta-6/)*

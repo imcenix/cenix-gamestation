@@ -45,4 +45,4 @@ Lưu ý nhỏ là mod đang alpha, nên đừng kỳ vọng mọi thứ mượt 
 
 Mấy ông nghĩ sao — Doom mà phải đi chậm thì còn là Doom nữa không, hay đây đúng là thứ series cần thử một lần? Chia phe ở phần comment đi, Cenix hóng!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fps/this-mod-transforms-doom-into-a-terrifying-tactical-shooter-and-its-partly-inspired-by-another-pc-gaming-classic/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fps/this-mod-transforms-doom-into-a-terrifying-tactical-shooter-and-its-partly-inspired-by-another-pc-gaming-classic/)*

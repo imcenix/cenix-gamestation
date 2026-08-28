@@ -52,4 +52,4 @@ Trong bối cảnh giá RAM và SSD đang leo thang vì cơn khát AI, một car
 
 Ở tầm giá này mấy ông sẽ chọn RX 9050 mới, hay đi tìm card cũ mạnh hơn? Mấy pa đang chạy VRAM bao nhiêu GB rồi? Comment cho Cenix biết nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/hardware/graphics-cards/amd-launches-the-rx-9050-and-its-even-more-entry-level-than-expected/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/hardware/graphics-cards/amd-launches-the-rx-9050-and-its-even-more-entry-level-than-expected/)*

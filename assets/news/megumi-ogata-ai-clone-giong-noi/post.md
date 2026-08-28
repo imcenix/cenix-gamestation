@@ -39,4 +39,4 @@ Vui thì vui, tỉnh vẫn phải tỉnh. Công nghệ tiến nhanh hơn luật 
 
 Mấy ông nghĩ sao — nên có luật riêng bảo vệ giọng nói diễn viên, hay để nền tảng tự quản là đủ? Comment cho Cenix biết quan điểm của mấy pa nha.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/the-voice-of-shinji-in-evangelion-says-ai-voice-cloning-is-heartbreaking-calls-for-japanese-government-to-intervene/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/the-voice-of-shinji-in-evangelion-says-ai-voice-cloning-is-heartbreaking-calls-for-japanese-government-to-intervene/)*

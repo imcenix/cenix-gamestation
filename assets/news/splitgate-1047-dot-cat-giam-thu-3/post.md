@@ -32,4 +32,4 @@ Câu chuyện 1047 là mẫu số chung của cả một thế hệ studio: mộ
 
 Anh em từng có kỷ niệm với Splitgate thời hoàng kim không — cái cảm giác bắn nhau xuyên cổng dịch chuyển đã tay ấy? Chia sẻ chút kỷ niệm đẹp cho ấm lòng nhà 1047 nha.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fps/splitgate-studio-1047-games-is-laying-off-more-people-just-a-month-after-releasing-its-latest-game/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fps/splitgate-studio-1047-games-is-laying-off-more-people-just-a-month-after-releasing-its-latest-game/)*

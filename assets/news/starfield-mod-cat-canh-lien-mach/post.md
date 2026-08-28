@@ -26,4 +26,4 @@ Món quà kèm theo cho anh em: nếu cả màn **hạ cánh** cũng được x�
 
 Câu hỏi cho cả nhà: tính năng nào anh em ước Bethesda tự làm cho Starfield thay vì chờ modder — cất/hạ cánh liền mạch, lái tàu bay trong khí quyển, hay phương tiện mặt đất xịn hơn? Comment ước mơ của mấy ông, biết đâu Todd đọc được!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/a-modder-has-brought-no-mans-sky-style-seamless-takeoffs-to-starfield-and-even-in-beta-they-look-pretty-great/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/a-modder-has-brought-no-mans-sky-style-seamless-takeoffs-to-starfield-and-even-in-beta-they-look-pretty-great/)*

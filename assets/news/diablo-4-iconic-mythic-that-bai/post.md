@@ -29,4 +29,4 @@ Cơn giận quanh mấy món mythic vốn đã âm ỉ từ trước khi Season 
 
 Cái này khó nói thiệt chớ: cày trối chết mà RNG không thương thì cũng chịu. Anh em team Diablo 4 farm Iconic Mythic tới đâu rồi? Có ai "nhân phẩm vô cực" chưa, hay toàn về không như số đông? Điểm danh than thở với Cenix nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/diablo/blizzard-promises-diablo-4s-iconic-mythic-drop-rate-is-being-looked-into-as-players-declare-the-latest-patch-a-failed-experiment/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/diablo/blizzard-promises-diablo-4s-iconic-mythic-drop-rate-is-being-looked-into-as-players-declare-the-latest-patch-a-failed-experiment/)*

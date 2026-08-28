@@ -31,4 +31,4 @@ Cái này khó nha, khó nói thiệt chớ — một bên là dấu hiệu sả
 
 Mấy pa nghĩ sao, có ông nào định săn một bộ Dawn of Palpagos chơi cho vui không, hay thấy giá này là quay xe luôn? Comment kể Cenix nghe nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/tabletop-gaming/palworld-tcg-cards-are-already-selling-for-up-to-usd4-000-as-pocketpairs-tabletop-game-follows-in-pokemons-footsteps-with-resellers-dominating-the-market-1-day-after-launch/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/tabletop-gaming/palworld-tcg-cards-are-already-selling-for-up-to-usd4-000-as-pocketpairs-tabletop-game-follows-in-pokemons-footsteps-with-resellers-dominating-the-market-1-day-after-launch/)*

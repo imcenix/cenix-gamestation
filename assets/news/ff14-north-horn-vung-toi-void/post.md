@@ -43,4 +43,4 @@ Nếu đúng là một cái nháy mắt về FF11 thì Square Enix chơi đẹp 
 
 Hôm nay không chơi hôm nào chơi? Mấy ông đã mò xuống dark territory chưa, hay còn đang cày Phantom Job trên mặt đất? Ai lọt xuống được rồi thì kể Cenix nghe cảm giác đi!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/mmo/ff14s-new-zone-has-a-creepy-backrooms-void-tucked-just-underneath-it-filled-with-horrible-milky-ruins-and-what-i-deem-to-be-far-too-many-arms/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/mmo/ff14s-new-zone-has-a-creepy-backrooms-void-tucked-just-underneath-it-filled-with-horrible-milky-ruins-and-what-i-deem-to-be-far-too-many-arms/)*

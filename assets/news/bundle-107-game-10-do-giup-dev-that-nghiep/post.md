@@ -44,4 +44,4 @@ Vui thì vui, mà tỉnh vẫn phải tỉnh: đây không phải một đợt s
 
 Mấy ông có định hốt bundle này không? Ai đã mua rồi thì kể xem tải được món nào hay nhất trong 107 game đó, để anh em còn biết đường mà chơi.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/rpg/indies-devs-band-together-for-100-game-usd10-bundle-aiming-to-help-an-unprecedented-number-of-laid-off-developers/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/rpg/indies-devs-band-together-for-100-game-usd10-bundle-aiming-to-help-an-unprecedented-number-of-laid-off-developers/)*

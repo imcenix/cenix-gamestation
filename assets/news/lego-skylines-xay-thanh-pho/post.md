@@ -31,4 +31,4 @@ Sự kết hợp này nghe thì hiển nhiên đến mức lạ là tới giờ 
 
 Hôm nay không chơi hôm nào chơi? Anh em thấy Lego Skylines có đủ sức kéo mấy ông rời Cities: Skylines không, hay đây chỉ là món ăn nhẹ giữa hai bữa chính? Comment cho Cenix biết với nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/city-builder/lego-skylines-is-the-city-building-game-of-my-dreams-and-the-new-cities-skylines-devs-are-making-it-look-like-everything-i-couldve-imagined/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/city-builder/lego-skylines-is-the-city-building-game-of-my-dreams-and-the-new-cities-skylines-devs-are-making-it-look-like-everything-i-couldve-imagined/)*

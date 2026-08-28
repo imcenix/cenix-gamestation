@@ -33,4 +33,4 @@ Nhưng ít nhất, họ được đi tiếp bằng chân của mình. Hôm nay k
 
 Mấy ông đã thử *South of Midnight* chưa, hay đang để nó nằm trong wishlist mấy tháng nay rồi? Kể Cenix nghe với — và nếu ai chơi rồi thì cho hội mình một câu review ngắn ở phần comment nhé!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/compulsion-games-buyout-is-complete-so-now-microsoft-wont-get-a-cut-if-you-buy-south-of-midnight/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/compulsion-games-buyout-is-complete-so-now-microsoft-wont-get-a-cut-if-you-buy-south-of-midnight/)*

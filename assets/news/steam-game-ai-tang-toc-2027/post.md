@@ -31,4 +31,4 @@ Nhà nghiên cứu Sulka Haro (đồng sáng lập studio Phần Lan đứng sau
 
 Cenix để câu hỏi này cho hội anh em cuồng game: mấy ông có từng mua nhầm một game "trông như AI làm" chưa, và cảm giác lúc phát hiện ra là gì? Comment kể Cenix nghe với!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/steam-week-in-review-take-cover-because-it-looks-like-more-than-half-of-steam-games-will-have-an-ai-disclosure-by-2027-2028/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/steam-week-in-review-take-cover-because-it-looks-like-more-than-half-of-steam-games-will-have-an-ai-disclosure-by-2027-2028/)*

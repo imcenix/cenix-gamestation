@@ -35,4 +35,4 @@ Còn nếu chỉ muốn một game để bật lên chạy vài vòng cho đầu
 
 Hôm nay không chơi hôm nào chơi? Anh em ngóng Vholume hay vẫn trung thành với Mirror's Edge bản cũ? Kể Cenix nghe ở phần comment nào.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/action/the-indie-parkour-game-from-one-of-the-french-brothers-behind-2024s-best-fps-is-coming-out-in-just-two-weeks/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/action/the-indie-parkour-game-from-one-of-the-french-brothers-behind-2024s-best-fps-is-coming-out-in-just-two-weeks/)*

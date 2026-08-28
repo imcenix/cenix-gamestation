@@ -37,4 +37,4 @@ Thêm nữa là loạt công bố quanh Evercold: hệ thống job được "evo
 
 Mấy pa còn đang cày FF14 không, hay đã treo kiếm từ đợt Dawntrail? Evercold có đủ sức kéo anh em quay lại chưa — kể Cenix nghe với!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/mmo/square-enixs-88-percent-profit-bump-financial-report-gives-me-hope-for-ff14-suggesting-the-mmos-finally-not-having-to-carry-the-company-for-once/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/mmo/square-enixs-88-percent-profit-bump-financial-report-gives-me-hope-for-ff14-suggesting-the-mmos-finally-not-having-to-carry-the-company-for-once/)*

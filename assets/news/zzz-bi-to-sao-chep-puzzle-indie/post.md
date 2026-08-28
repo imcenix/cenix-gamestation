@@ -34,4 +34,4 @@ Kamm cho biết không định kiện cáo gì — kiện công ty tỷ đô v�
 
 Anh em nghĩ sao: ranh giới giữa "lấy cảm hứng" và "copy" nằm ở đâu? Vụ này Cenix xin phép ngồi hàng ghế đầu, bắp rang sẵn sàng!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/puzzle/zenless-zone-zero-copied-my-puzzle-game-indie-dev-says-posts-a-pretty-convincing-video-to-prove-it/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/puzzle/zenless-zone-zero-copied-my-puzzle-game-indie-dev-says-posts-a-pretty-convincing-video-to-prove-it/)*

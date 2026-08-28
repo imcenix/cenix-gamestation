@@ -34,4 +34,4 @@ Nhắc lại bối cảnh cho anh em: giới phân tích dự đoán GTA 6 sẽ 
 
 Còn anh em đoán map GTA 6 sẽ to cỡ nào — gấp đôi GTA 5? Gấp ba? Hay "to vừa thôi nhưng chi tiết tới từng cọng cỏ"? Comment dự đoán cho Cenix lưu sổ, tới ngày game ra mình mở sổ đối chiếu nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/grand-theft-auto/gta-5-dev-can-only-imagine-the-size-of-gta-6-it-must-be-monstrous/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/grand-theft-auto/gta-5-dev-can-only-imagine-the-size-of-gta-6-it-must-be-monstrous/)*

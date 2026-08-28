@@ -28,4 +28,4 @@ Cộng thêm chuỗi sự kiện Cenix từng điểm tin — Microsoft tắt Co
 
 Anh em nghĩ sao — làn sóng nhân tài công nghệ đổ về AI có đang "hút máu" ngành game không? Và Xbox cần gì hơn lúc này: thêm chuyên gia AI hay thêm người làm game thuần túy? Bàn luận văn minh dưới comment nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/xboxs-new-vp-of-engineering-quits-just-2-months-after-taking-the-job/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/xboxs-new-vp-of-engineering-quits-just-2-months-after-taking-the-job/)*

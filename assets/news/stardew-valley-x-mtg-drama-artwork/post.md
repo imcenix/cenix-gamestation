@@ -33,4 +33,4 @@ Còn cây bút Jody Macgregor của PC Gamer thì đứng về phe ConcernedApe:
 
 Còn anh em thì sao — Elliott hàm vuông là "phá hoại tuổi thơ" hay là chân dung chính chủ không thể cãi? Team Penny búi tóc điểm danh cùng Cenix coi nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/card-games/stardew-valley-comes-to-magic-the-gathering-and-fans-arent-taking-some-of-the-new-artwork-well/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/card-games/stardew-valley-comes-to-magic-the-gathering-and-fans-arent-taking-some-of-the-new-artwork-well/)*

@@ -45,4 +45,4 @@ Chín năm trôi qua, dù đã qua thời đỉnh cao, Unturned vẫn kéo về 
 
 Anh em có định nhảy vào nghịch source code không, hay chỉ đợi xem cộng đồng đẻ ra mod gì hay? Kể Cenix nghe ở phần comment nha.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/survival-crafting/blocky-zombie-survival-sim-unturned-releases-its-source-code-so-players-can-build-a-lasting-legacy-for-the-game-regardless-of-the-changes-we-make/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/survival-crafting/blocky-zombie-survival-sim-unturned-releases-its-source-code-so-players-can-build-a-lasting-legacy-for-the-game-regardless-of-the-changes-we-make/)*

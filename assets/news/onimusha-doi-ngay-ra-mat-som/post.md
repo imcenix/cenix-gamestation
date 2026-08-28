@@ -27,4 +27,4 @@ Với việc dời lịch lần này, Onimusha: Way of the Sword coi như cũng 
 
 Hội mê hack-and-slash kiếm Nhật, mấy ông có định đặt trước Onimusha không, hay đang dồn tiền chờ The Blood of Dawnwalker? Để lại comment cho Cenix biết phe của mấy ông nhé!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/action/onimusha-way-of-the-sword-is-releasing-21-days-earlier-than-expected-possibly-cramping-the-blood-of-dawnwalkers-style/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/action/onimusha-way-of-the-sword-is-releasing-21-days-earlier-than-expected-possibly-cramping-the-blood-of-dawnwalkers-style/)*

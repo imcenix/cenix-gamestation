@@ -39,4 +39,4 @@ Ngành game năm nay có quá nhiều tin khiến người ta mệt. Giữa lúc
 
 Mấy pa còn giữ kỷ niệm nào với Doom hay Quake đời đầu không? Kể Cenix nghe trong phần bình luận nhé — Cenix hóng!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/thank-you-so-much-for-the-best-weekend-ever-the-id-software-gang-got-together-at-quakecon-and-it-sure-looks-like-everyone-had-a-great-time/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/thank-you-so-much-for-the-best-weekend-ever-the-id-software-gang-got-together-at-quakecon-and-it-sure-looks-like-everyone-had-a-great-time/)*

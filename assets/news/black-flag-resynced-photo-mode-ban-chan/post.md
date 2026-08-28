@@ -39,4 +39,4 @@ Nhắc lại cho đủ mạch: Black Flag Resynced đã cán mốc **3,5 triệu
 
 Mấy ông xài photo mode trong Black Flag Resynced để chụp gì? Cảnh tàu lướt hoàng hôn, hay cũng đang góp phần vào cái thống kê kia? Thú nhận với Cenix ở phần bình luận đi nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/assassin-s-creed/assassins-creed-black-flag-resynced-feet-pics-barrage-surprised-the-remakes-director-but-he-says-thats-kind-of-what-photo-mode-is-there-for/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/assassin-s-creed/assassins-creed-black-flag-resynced-feet-pics-barrage-surprised-the-remakes-director-but-he-says-thats-kind-of-what-photo-mode-is-there-for/)*

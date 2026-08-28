@@ -31,4 +31,4 @@ Câu chuyện này nghe quen quen đúng không mấy ông — kiểu Chiếc Nh
 
 Hội cày Diablo, mấy ông có đang đeo Wendigo Brand trong build hiện tại không? Có dính pha chết bất đắc kỳ tử nào chưa, kể Cenix nghe với!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/diablo/diablo-4-players-are-so-obsessed-with-a-ring-thats-probably-killing-them-that-blizzard-has-been-forced-to-investigate-like-the-dang-fellowship/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/diablo/diablo-4-players-are-so-obsessed-with-a-ring-thats-probably-killing-them-that-blizzard-has-been-forced-to-investigate-like-the-dang-fellowship/)*

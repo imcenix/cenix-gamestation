@@ -46,4 +46,4 @@ Mong là phần còn lại của đội tìm được chỗ đứng khi tự c�
 
 Nếu được bỏ phiếu, mấy ông muốn Double Fine làm thể loại gì cho game nhỏ tiếp theo? Thả ý tưởng ở phần comment coi hội mình có ai nghĩ giống nhau không!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/free-from-xbox-double-fine-returns-to-kickstarter-to-ask-fans-what-its-next-small-game-should-be/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/free-from-xbox-double-fine-returns-to-kickstarter-to-ask-fans-what-its-next-small-game-should-be/)*

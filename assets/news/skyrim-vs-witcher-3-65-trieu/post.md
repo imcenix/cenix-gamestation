@@ -33,4 +33,4 @@ Cây bút Anthony McGlynn của GamesRadar còn "đổ thêm dầu" bằng một
 
 Team Dragonborn với team Geralt, vô điểm danh coi phe nào đông hơn nè. Một khi đã máu thì đừng hỏi bố cháu là ai nữa nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/the-elder-scrolls/skyrim-and-the-witcher-3-have-both-sold-65-million-copies-but-cd-projekt-red-got-there-faster-than-bethesda/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/the-elder-scrolls/skyrim-and-the-witcher-3-have-both-sold-65-million-copies-but-cd-projekt-red-got-there-faster-than-bethesda/)*

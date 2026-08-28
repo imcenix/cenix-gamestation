@@ -28,4 +28,4 @@ Nhắc lại kẻo lỡ: Vault Breaker chỉ mở **hai tuần** và đang trong
 
 Câu hỏi thảo luận: nếu Marathon ra hẳn chế độ PvE lâu dài, anh em có quay lại/nhảy vào không? Và mấy ông nghĩ extraction shooter "thuần PvE" có phải là tương lai của thể loại này? Vô comment mổ xẻ cùng Cenix nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fps/marathons-experimental-pve-mode-is-live-immediately-tripling-its-daily-player-count/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fps/marathons-experimental-pve-mode-is-live-immediately-tripling-its-daily-player-count/)*

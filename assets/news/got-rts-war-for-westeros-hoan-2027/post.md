@@ -29,4 +29,4 @@ Nghe là thấy mùi "kéo-thả đúng bài mới sống" của RTS xịn rồi
 
 Còn anh em, ai định cầm quân về phe nào ở Westeros — Lannister, Stark, hay Targaryen cưỡi rồng đốt sạch? Điểm danh chia phe cho Cenix xem nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rts/that-game-of-thrones-rts-is-still-coming-still-very-hbo-but-no-longer-due-out-this-year/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rts/that-game-of-thrones-rts-is-still-coming-still-very-hbo-but-no-longer-due-out-this-year/)*

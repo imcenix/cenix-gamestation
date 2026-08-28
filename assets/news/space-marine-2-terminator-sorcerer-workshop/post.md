@@ -35,4 +35,4 @@ Saber Interactive xác nhận sẽ tiếp tục hỗ trợ game thêm **ít nh�
 
 Mấy ông tính sao — nhảy vào PvP thử map Facility, hay rủ đủ 9 anh em càn Operations cho banh nóc? Comment chia phe cho Cenix xem nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/action/space-marine-2s-latest-updates-add-terminator-sorcerers-and-steam-workshop-support-so-you-can-now-play-co-op-with-9-other-players-if-you-want/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/action/space-marine-2s-latest-updates-add-terminator-sorcerers-and-steam-workshop-support-so-you-can-now-play-co-op-with-9-other-players-if-you-want/)*

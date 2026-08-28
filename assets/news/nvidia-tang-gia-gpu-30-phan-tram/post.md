@@ -37,4 +37,4 @@ Tệ hơn nữa: khủng hoảng bộ nhớ được dự báo kéo tới ít nh
 
 Chà, quyết định khó quá, làm sao để tốt cho cả hai? Mấy ông tính sao — cắn răng nâng cấp bây giờ trước khi giá leo tiếp, hay ngồi chờ tới khi thị trường hạ nhiệt? Comment chia phe cho Cenix xem nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/hardware/graphics-cards/the-memory-crisis-keeps-getting-worse-nvidia-graphics-card-prices-now-rumoured-to-increase-by-as-much-as-30-percent/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/hardware/graphics-cards/the-memory-crisis-keeps-getting-worse-nvidia-graphics-card-prices-now-rumoured-to-increase-by-as-much-as-30-percent/)*

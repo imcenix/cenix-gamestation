@@ -33,4 +33,4 @@ Cú lội ngược dòng thật sự đến nhờ may mắn: một lần quảng
 
 Một khi đã máu thì đừng hỏi bố cháu là ai nữa — ông lớn ngày nay cũng từng đi năn nỉ từng khung giờ phát sóng đó thôi. Anh em thấy còn "giai thoại khởi nghiệp" nào của làng game đáng nể không? Kể Cenix nghe với!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/nintendo-of-america-was-so-poor-in-the-80s-that-it-was-bartering-for-2am-tv-commercials-while-employees-had-to-dodge-snakes-and-rats-in-the-bathroom/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/nintendo-of-america-was-so-poor-in-the-80s-that-it-was-bartering-for-2am-tv-commercials-while-employees-had-to-dodge-snakes-and-rats-in-the-bathroom/)*

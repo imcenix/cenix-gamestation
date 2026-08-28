@@ -35,4 +35,4 @@ Hiện chưa ai cắn câu mức giá 9.000 đô, dù theo eBay thì đã có **
 
 Mấy ông nghĩ cái băng này có chứa game thật không? Ai từng nghe qua PokePark Fishing Rally trước hôm nay thì điểm danh cho Cenix xem với nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/pokemon/usd9-000-ebay-auction-might-hold-a-secret-pokemon-game-thats-been-lost-for-20-years/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/pokemon/usd9-000-ebay-auction-might-hold-a-secret-pokemon-game-thats-been-lost-for-20-years/)*

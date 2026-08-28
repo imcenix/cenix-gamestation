@@ -31,4 +31,4 @@ Scribble Hunt chưa ra mắt, cũng không nói rõ ngày, chỉ ghi "tháng nà
 
 Anh em nghĩ sao — Steam nên mạnh tay với mấy bản clone AI kiểu này không? Kể Cenix nghe với!
 
-*Nguồn: [GamesRadar](https://www.gamesradar.com/games/co-op/meccha-chameleon-awarded-steams-highest-honor-a-fast-follow-ai-ripoff-that-even-uses-the-same-name-in-some-regions/)*
+*Nguồn tham khảo: [GamesRadar](https://www.gamesradar.com/games/co-op/meccha-chameleon-awarded-steams-highest-honor-a-fast-follow-ai-ripoff-that-even-uses-the-same-name-in-some-regions/)*

@@ -35,4 +35,4 @@ Vui thì chưa có gì để vui, mà hoảng cũng chưa cần hoảng. Trướ
 
 Còn mấy ông thì sao — nghĩ EA sau ngày 4/8 sẽ mạnh tay hơn hay co cụm lại? Anh em nào đang cày Battlefield 6 hoặc chờ RPG mới của họ thì để lại một dòng ở phần bình luận, Cenix hóng ý kiến của anh em nè.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/saudi-arabias-usd55-billion-takeover-of-electronic-arts-will-happen-next-week/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/saudi-arabias-usd55-billion-takeover-of-electronic-arts-will-happen-next-week/)*

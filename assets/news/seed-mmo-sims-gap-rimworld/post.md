@@ -37,4 +37,4 @@ Klang giải thích lý do ra mắt sớm khá thẳng thắn: "Chúng tôi ra E
 
 Nghe tham vọng dữ, nhưng cũng đúng kiểu ý tưởng mà chỉ có làm mới biết được. Mấy ông thấy sao — một MMO mà nhân vật sống tiếp khi mình ngủ, nghe hấp dẫn hay hơi đáng sợ? Comment kể Cenix nghe nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/simulation/the-sims-and-rimworld-collide-in-a-new-24-7-persistent-player-driven-mmo-where-the-community-collaborates-to-build-real-functional-societies/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/simulation/the-sims-and-rimworld-collide-in-a-new-24-7-persistent-player-driven-mmo-where-the-community-collaborates-to-build-real-functional-societies/)*

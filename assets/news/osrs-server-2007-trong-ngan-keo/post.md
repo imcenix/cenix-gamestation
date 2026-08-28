@@ -43,4 +43,4 @@ Nghe thì rủi ro, nhưng Charles nói ông thà bị bác một đề xuất c
 
 Anh em có ai từng cày RuneScape thời thư viện trường không, hay đang cày OSRS bây giờ? Và mấy ông nghĩ sao về cái luật 70% — đó là dân chủ xịn hay là cái phanh kìm sáng tạo? Comment cho Cenix nghe với.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/mmo/old-school-runescape-began-when-a-dev-found-the-2007-server-in-their-desk-drawer-13-years-later-its-setting-subscriber-records-for-the-long-lived-mmo/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/mmo/old-school-runescape-began-when-a-dev-found-the-2007-server-in-their-desk-drawer-13-years-later-its-setting-subscriber-records-for-the-long-lived-mmo/)*

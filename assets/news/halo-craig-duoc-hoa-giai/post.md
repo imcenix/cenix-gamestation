@@ -29,4 +29,4 @@ Halo: Campaign Evolved hiện đang trong giai đoạn early access dành riêng
 
 Mấy ông nghĩ sao về việc một meme cà khịa lại được biến thành chi tiết lore chính thức? Đây là cách "chữa thẹn" khéo léo hay chỉ là chiêu fan service dễ dãi? Điểm danh dưới comment cho Cenix biết mấy ông từng cà khịa Craig bao nhiêu lần rồi nhé!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/halo/halo-campaign-evolved-shows-love-for-craig-the-ugly-brute-who-became-an-internet-meme-after-halo-infinites-controversial-first-demo/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/halo/halo-campaign-evolved-shows-love-for-craig-the-ugly-brute-who-became-an-internet-meme-after-halo-infinites-controversial-first-demo/)*

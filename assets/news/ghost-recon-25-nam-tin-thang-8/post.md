@@ -27,4 +27,4 @@ Nhưng tiếc là lần này Ubisoft chỉ hé về Ghost Recon thôi. Có tin �
 
 Anh em team nào — vẫn còn máu Ghost Recon, hay chỉ mong Ubisoft moi Splinter Cell ra khỏi tủ lạnh? Kể Cenix nghe với!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/third-person-shooter/ubisoft-promises-ghost-recon-news-in-august-and-if-youre-hoping-that-means-an-update-on-the-splinter-cell-remake-then-i-admire-your-optimism-but-sorry-no/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/third-person-shooter/ubisoft-promises-ghost-recon-news-in-august-and-if-youre-hoping-that-means-an-update-on-the-splinter-cell-remake-then-i-admire-your-optimism-but-sorry-no/)*

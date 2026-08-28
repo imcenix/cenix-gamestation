@@ -31,4 +31,4 @@ Mistfall Hunter sẽ ra mắt trên PC và Xbox Series X/S vào **29/7**, còn n
 
 Mấy ông có định thử sức với thể loại extraction lần đầu qua Mistfall Hunter không, hay vẫn trung thành với Nightreign quen thuộc? Chia phe dưới comment cho Cenix biết mấy ông chọn lớp nhân vật nào nhé!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/mistfall-hunters-demo-might-finally-convince-me-a-souls-sicko-to-give-extraction-games-a-proper-go-even-if-its-more-modern-god-of-war-than-nightreign/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/mistfall-hunters-demo-might-finally-convince-me-a-souls-sicko-to-give-extraction-games-a-proper-go-even-if-its-more-modern-god-of-war-than-nightreign/)*

@@ -29,4 +29,4 @@ Và rồi ông buông một câu nghe vừa lầy vừa thật lòng: "làm ơn 
 
 Cenix thấy cũng đúng là thế khó: GTA 6 mà đổ bộ thì game nào chẳng bị "hút trớn". Vậy anh em tính sao — cày nốt Black Flag Resynced trước, hay gác lại chờ GTA 6 rồi quay xe sau? Chia phe điểm danh nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/assassin-s-creed/assassins-creed-black-flag-resynced-lead-begs-fans-to-please-play-us-when-when-gta-6-comes-out-as-he-teases-post-launch-support-plans/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/assassin-s-creed/assassins-creed-black-flag-resynced-lead-begs-fans-to-please-play-us-when-when-gta-6-comes-out-as-he-teases-post-launch-support-plans/)*

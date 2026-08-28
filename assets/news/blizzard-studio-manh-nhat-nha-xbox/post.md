@@ -35,4 +35,4 @@ Nói cách khác, làm ăn tốt trong tập đoàn hiện tại không đảm b
 
 Anh em có quay lại Overwatch trong năm nay không, hay vẫn đang cắm đầu ở Diablo 4? Điểm danh ở comment cho Cenix xem phe nào đông nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/fps/diablo-4-lord-of-hatred-and-overwatchs-resurgence-reportedly-drove-blizzard-to-its-first-back-to-back-years-of-growth-in-almost-10-years/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/fps/diablo-4-lord-of-hatred-and-overwatchs-resurgence-reportedly-drove-blizzard-to-its-first-back-to-back-years-of-growth-in-almost-10-years/)*

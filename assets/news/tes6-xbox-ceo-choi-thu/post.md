@@ -35,4 +35,4 @@ Cenix thì thấy vầy: sau 8 năm ăn teaser, một dòng tweet của CEO cũn
 
 Mấy pa đoán 8 dấu sao đó là chữ gì? Hammerfell thì 10 chữ, High Rock 8 chữ (tính cả khoảng trắng)... Comment đáp án của mấy ông xuống dưới, để Cenix xem hội nào đoán trúng trước nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/the-elder-scrolls/xbox-ceo-says-her-live-playthrough-of-the-elder-scrolls-6-shows-incredible-scale-but-the-story-is-even-greater/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/the-elder-scrolls/xbox-ceo-says-her-live-playthrough-of-the-elder-scrolls-6-shows-incredible-scale-but-the-story-is-even-greater/)*

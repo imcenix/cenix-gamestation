@@ -28,4 +28,4 @@ Kế hoạch dùng crypto, dùng Signal với bí danh "Sibel.eth" — nghe kín
 
 Anh em từng gặp kèo "mời tải game lạ" kiểu này chưa? Kể trải nghiệm dưới comment để cả nhà cùng cảnh giác nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/fbi-arrests-21-year-old-who-allegedly-stole-usd200-000-with-malware-infected-steam-games-and-spent-the-money-on-traceable-ubereats-gift-cards/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/fbi-arrests-21-year-old-who-allegedly-stole-usd200-000-with-malware-infected-steam-games-and-spent-the-money-on-traceable-ubereats-gift-cards/)*

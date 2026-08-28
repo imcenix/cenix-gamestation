@@ -31,4 +31,4 @@ Nói đùa vậy thôi, nhịp patch dày đặc kiểu này là lý do cộng �
 
 Mấy pa thấy sao, cơ chế cung – cầu này làm game sâu hơn hay chỉ khiến việc bán đồ thêm rườm rà? Comment chia phe cho Cenix xem nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/crimson-desert-adds-133-new-trading-posts-and-overhauls-the-in-game-economy-with-supply-and-demand/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/crimson-desert-adds-133-new-trading-posts-and-overhauls-the-in-game-economy-with-supply-and-demand/)*

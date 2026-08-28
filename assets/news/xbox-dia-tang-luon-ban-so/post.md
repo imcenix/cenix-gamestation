@@ -33,4 +33,4 @@ Vui thì vui, tỉnh vẫn phải tỉnh: đây vẫn là giấy phép số, v�
 
 Còn mấy ông thì sao — nhà còn giữ kệ đĩa vật lý không, hay lên digital hết rồi? Tính năng này có đủ hấp dẫn để mấy ông quay lại mua đĩa không? Kể Cenix nghe với!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/hardware/xbox-discs-will-now-grant-digital-access-to-games-as-part-of-microsofts-self-proclaimed-broader-commitment-to-game-preservation/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/hardware/xbox-discs-will-now-grant-digital-access-to-games-as-part-of-microsofts-self-proclaimed-broader-commitment-to-game-preservation/)*

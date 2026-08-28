@@ -45,4 +45,4 @@ Hiện tại mới chỉ có vùng **Kuttenberg** hoàn thành — mà riêng n�
 
 Mấy ông có định lấy cái web này làm bản đồ du lịch Séc thật không, hay chỉ ngồi so cho sướng mắt? Comment cho Cenix biết địa điểm nào trong game mấy pa muốn thấy ngoài đời nhất nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/action-rpg/proving-kingdom-come-deliverance-2s-authenticity-warhorses-biggest-fan-hikes-through-czechia-by-foot-to-make-3d-maps-of-the-rpgs-historical-locations/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/action-rpg/proving-kingdom-come-deliverance-2s-authenticity-warhorses-biggest-fan-hikes-through-czechia-by-foot-to-make-3d-maps-of-the-rpgs-historical-locations/)*

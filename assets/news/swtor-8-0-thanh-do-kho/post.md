@@ -41,4 +41,4 @@ Chỉ có một câu hỏi treo lại: liệu độ khó tăng có kéo theo ph�
 
 Anh em có ai còn giữ nhân vật SWTOR từ thời 2011 không? Mấy ông định làm venture character mức expert để thử lửa, hay kéo thanh độ khó về mức nghe truyện cho khoẻ? Điểm danh chia phe trong comment cho Cenix xem bên nào đông nào.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/mmo/star-wars-the-old-republic-hopes-to-recapture-the-classic-experience-with-difficulty-options-and-a-new-way-to-start-from-scratch/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/mmo/star-wars-the-old-republic-hopes-to-recapture-the-classic-experience-with-difficulty-options-and-a-new-way-to-start-from-scratch/)*

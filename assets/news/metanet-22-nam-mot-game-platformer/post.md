@@ -43,4 +43,4 @@ Hoặc nói gọn như Burns: "Đây là thời đại tốt nhất, cũng là t
 
 Anh em thấy Steam bây giờ dễ tìm game hay hơn hay khó hơn hồi xưa? Và cái ý chia lại 5% kia nghe hợp lý hay ảo tưởng? Bình luận cho Cenix biết nha.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/platformer/these-devs-have-been-building-the-perfect-platformer-for-22-years-and-the-steam-apocalypse-wont-stop-them-now-video-games-have-always-been-about-a-small-team-of-sickos-doing-something/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/platformer/these-devs-have-been-building-the-perfect-platformer-for-22-years-and-the-steam-apocalypse-wont-stop-them-now-video-games-have-always-been-about-a-small-team-of-sickos-doing-something/)*

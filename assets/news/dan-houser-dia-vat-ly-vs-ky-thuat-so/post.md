@@ -35,4 +35,4 @@ Houser chốt lại đơn giản: "Tôi yêu đĩa vật lý." Nhưng rõ ràng,
 
 Mấy ông thuộc phe nào — quyết bám trụ đĩa vật lý tới cùng, hay đã chuyển hẳn sang kỹ thuật số từ lâu rồi? Vào comment "chia phe" cho vui với Cenix nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/grand-theft-auto/rockstar-games-co-founder-and-gta-co-creator-dan-houser-says-he-loves-physical-media-but-digital-releases-have-their-own-benefits-too/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/grand-theft-auto/rockstar-games-co-founder-and-gta-co-creator-dan-houser-says-he-loves-physical-media-but-digital-releases-have-their-own-benefits-too/)*

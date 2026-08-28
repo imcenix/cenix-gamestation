@@ -30,4 +30,4 @@ Công bằng thì game 19 tuổi này không bị bỏ rơi hẳn: đầu tháng
 
 Giờ chỉ mong bản MvM này đừng theo truyền thống "Half-Life 3 Time". Anh em dự đoán update ra năm nào — cuối 2026 hay hẹn hò 2027? Đặt gạch dưới comment, tới lúc ra mình đào lại xem ai tiên tri chuẩn nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fps/valve-reassures-team-fortress-2-players-that-its-still-working-on-the-mann-vs-machine-update-it-announced-last-year-we-promise-were-making-progress/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fps/valve-reassures-team-fortress-2-players-that-its-still-working-on-the-mann-vs-machine-update-it-announced-last-year-we-promise-were-making-progress/)*

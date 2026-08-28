@@ -33,4 +33,4 @@ Torvalds lâu nay không thuộc phe bài AI. Ông từng nói AI hiện tại c
 
 Anh em nào làm dev chắc thấy quen quen. Mấy ông từng có phiên debug nào "từ địa ngục" chưa, và thủ phạm cuối cùng có nhỏ xíu kiểu này không? Kể Cenix nghe ở phần bình luận nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/hardware/linus-torvalds-details-his-debug-session-from-hell-pushing-an-ai-to-fix-an-error-it-repeatedly-said-was-impossible-and-unsolvable-he-then-made-it-write-the-report/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/hardware/linus-torvalds-details-his-debug-session-from-hell-pushing-an-ai-to-fix-an-error-it-repeatedly-said-was-impossible-and-unsolvable-he-then-made-it-write-the-report/)*

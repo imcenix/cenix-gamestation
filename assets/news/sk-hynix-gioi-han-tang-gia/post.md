@@ -30,4 +30,4 @@ Nghe ngược đời ha? Nhưng lý do rất thực dụng, chính chủ nói lu
 
 Chốt lại theo kiểu Cenix: tia sáng có thật, nhưng mới là ánh đèn pin cuối đường hầm dài. Ai cần nâng cấp thì đừng đợi phép màu; ai chưa gấp thì ôm máy cũ thêm mùa nữa vẫn là kèo an toàn. Anh em đoán bao giờ giá RAM về lại mặt đất — 2027, 2028 hay "kiếp sau"? Đặt kèo dưới comment, tới lúc đó mình đào lại xem ai là tiên tri của làng nè!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/hardware/memory/there-are-limits-to-how-much-prices-can-be-raised-says-sk-hynix-chairman-about-memory-crisis-but-im-not-sure-the-market-will-care/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/hardware/memory/there-are-limits-to-how-much-prices-can-be-raised-says-sk-hynix-chairman-about-memory-crisis-but-im-not-sure-the-market-will-care/)*

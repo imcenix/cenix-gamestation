@@ -39,4 +39,4 @@ Với ai đã cày Dragon's Dogma 2 tới mức đi bộ qua bản đồ mà kh�
 
 Mấy ông đang để nhân vật ở level bao nhiêu rồi? Comment con số cho Cenix xem ai đang gần trần nhất nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/rpg/dragons-dogma-2-devs-confirm-what-everyone-was-asking-about-were-working-on-a-hard-mode/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/rpg/dragons-dogma-2-devs-confirm-what-everyone-was-asking-about-were-working-on-a-hard-mode/)*

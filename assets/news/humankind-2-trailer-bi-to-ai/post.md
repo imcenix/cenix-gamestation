@@ -37,4 +37,4 @@ Humankind 2 dự kiến ra mắt trên PC vào **2027**.
 
 Anh em xem trailer chưa, cảm giác đầu tiên của mấy ông là gì — "AI chắc rồi" hay "chỉ là hậu kỳ hơi cứng"? Comment cho Cenix biết, và nói luôn xem giờ mấy ông còn tin nổi trailer game nữa không nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/strategy/humankind-2-trailer-accused-of-being-ai-slop-studio-says-nope-real-actors-practical-sets-and-custom-made-props/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/strategy/humankind-2-trailer-accused-of-being-ai-slop-studio-says-nope-real-actors-practical-sets-and-custom-made-props/)*

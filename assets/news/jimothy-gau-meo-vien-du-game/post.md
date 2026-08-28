@@ -27,4 +27,4 @@ Vì nó là internet ở trạng thái dễ thương nhất: không drama, khôn
 
 Câu hỏi quan trọng nhất tuần cho anh em: Jimothy vào game nào là hợp vibe nhất — làm pet WoW, làm skin Fall Guys, hay làm boss bí mật trong Elden Ring? Comment phương án của mấy ông cho Cenix tổng hợp gửi... vũ trụ xem xét nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/jimothy-a-particularly-round-raccoon-and-the-internets-latest-sensation-has-now-broken-into-games/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/jimothy-a-particularly-round-raccoon-and-the-internets-latest-sensation-has-now-broken-into-games/)*

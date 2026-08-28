@@ -31,4 +31,4 @@ Giờ tới phần khó nói — mà khó nói thiệt chớ. Loạt tin vui nà
 
 Túm lại: tin thì vui đó, mà cái kết của tâm thư — như GamesRadar chốt hạ — thật ra vẫn là... **tiếp tục chờ**. Anh em nghiêng về phe "cứ mừng cái đã" hay phe "chiêu trò cả thôi"? Vô comment chiến với Cenix nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/fallout/everything-bethesda-just-announced-about-the-future-of-fallout-and-the-elder-scrolls/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/fallout/everything-bethesda-just-announced-about-the-future-of-fallout-and-the-elder-scrolls/)*

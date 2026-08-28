@@ -41,4 +41,4 @@ Và cũng đáng nhắc lại: cách đây ít hôm studio làm **Humankind 2** 
 
 Còn mấy ông, mấy ông nghiêng về phe nào — "vấn đề nằm ở AI" hay "vấn đề nằm ở cách người ta xài AI"? Comment cho Cenix nghe quan điểm của mấy pa với nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/puzzle/ai-is-just-a-plagiarism-machine-that-makes-people-lose-their-jobs-in-the-eyes-of-the-talos-principle-3s-writers/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/puzzle/ai-is-just-a-plagiarism-machine-that-makes-people-lose-their-jobs-in-the-eyes-of-the-talos-principle-3s-writers/)*

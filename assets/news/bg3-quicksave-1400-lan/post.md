@@ -33,4 +33,4 @@ Công bằng mà nói, quicksave không hẳn là tội lỗi. Cảm giác đậ
 
 Còn anh em, một lần chơi BG3 mấy ông bấm quicksave khoảng bao nhiêu lần? Ai dám tự nhận mình vượt mốc 560 thì điểm danh dưới comment, Cenix hứa không phán xét (nhiều).
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/baldur-s-gate/the-biggest-baldurs-gate-3-save-scummers-slammed-quicksave-over-1-400-times-in-one-go-larian-says-you-doing-okay-there/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/baldur-s-gate/the-biggest-baldurs-gate-3-save-scummers-slammed-quicksave-over-1-400-times-in-one-go-larian-says-you-doing-okay-there/)*

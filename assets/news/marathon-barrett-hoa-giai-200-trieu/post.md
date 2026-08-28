@@ -31,4 +31,4 @@ Cenix thấy đây là kiểu tin nên kể nhẹ nhàng: người trong cuộc 
 
 Anh em nghĩ sao về cái kết này — công bằng, hay vẫn còn nhiều điều chưa nói hết? Kể Cenix nghe với!
 
-*Nguồn: [GamesRadar](https://www.gamesradar.com/games/fps/former-marathon-and-destiny-2-lead-pleased-to-share-outcome-of-his-usd200-million-lawsuit-against-bungie-and-sony-is-one-i-am-very-satisfied-with/)*
+*Nguồn tham khảo: [GamesRadar](https://www.gamesradar.com/games/fps/former-marathon-and-destiny-2-lead-pleased-to-share-outcome-of-his-usd200-million-lawsuit-against-bungie-and-sony-is-one-i-am-very-satisfied-with/)*

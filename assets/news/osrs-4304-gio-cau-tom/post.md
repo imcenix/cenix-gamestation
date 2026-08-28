@@ -38,4 +38,4 @@ Studio còn đăng kèm hình một con tôm ngồi trước máy tính, dễ th
 
 Mấy ông từng cày cái gì trong game theo cách ngu nhất có thể chưa? Kể Cenix nghe thành tích tấu hài của mấy pa ở phần comment nào — Cenix đoán là có kha khá đó!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/mmo/in-a-fascinating-use-of-free-will-old-school-runescape-player-spent-4-304-hours-catching-catching-275-196-shrimp-and-257-064-anchovies-to-max-out-his-fishing-skill-in-the-worst-way-possible/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/mmo/in-a-fascinating-use-of-free-will-old-school-runescape-player-spent-4-304-hours-catching-catching-275-196-shrimp-and-257-064-anchovies-to-max-out-his-fishing-skill-in-the-worst-way-possible/)*

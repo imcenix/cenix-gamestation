@@ -47,4 +47,4 @@ Chà, quyết định khó quá, làm sao để tốt cho cả hai? Studio nào 
 
 Còn anh em thì sao, mấy ông thuộc phe thích game vuốt ve mình cho dễ chịu, hay phe thích bị game vả cho tỉnh người? Kể Cenix nghe trận thua nào khiến mấy pa cay nhất mà vẫn quay lại chơi tiếp nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/fps/hell-let-loose-vietnam-director-says-games-need-friction-to-thrive-and-this-shooter-is-proof/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/fps/hell-let-loose-vietnam-director-says-games-need-friction-to-thrive-and-this-shooter-is-proof/)*

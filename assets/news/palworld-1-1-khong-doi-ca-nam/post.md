@@ -41,4 +41,4 @@ Dù sao thì thông điệp cuối cùng vẫn tích cực: 1.1 sẽ tới sớm
 
 Anh em còn đang cày Palworld sau bản 1.0 không, hay đã cất Pal vào chuồng nghỉ ngơi rồi? Mấy ông muốn Pocketpair ưu tiên cái gì nhất cho 1.1 — thêm Pal mới, sửa cân bằng, hay tối ưu server? Comment cho Cenix nghe với, biết đâu Bucky lại vào đọc.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/survival/palworld-devs-not-planning-to-spend-a-year-making-a-massive-1-1-update-publishing-lead-clarifies-after-quickly-regretting-asking-fans-for-ideas/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/survival/palworld-devs-not-planning-to-spend-a-year-making-a-massive-1-1-update-publishing-lead-clarifies-after-quickly-regretting-asking-fans-for-ideas/)*

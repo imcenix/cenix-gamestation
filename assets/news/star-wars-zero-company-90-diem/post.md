@@ -37,4 +37,4 @@ Tin buồn cho hội Steam Deck: game **gần như không chạy nổi**. Hạ h
 
 Mấy ông tính build đội hình kiểu gì — Gunslinger bắn tràn màn hình hay ôm một con astromech droid làm support? Comment cho Cenix biết đội hình của mấy pa với nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/strategy/star-wars-zero-company-review/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/strategy/star-wars-zero-company-review/)*

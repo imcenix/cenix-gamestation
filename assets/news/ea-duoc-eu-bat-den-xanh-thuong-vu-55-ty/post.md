@@ -31,4 +31,4 @@ Một khi đã máu thì đừng hỏi bố cháu là ai nữa! Thương vụ n�
 
 Mấy ông nghĩ sao về việc một ông lớn như EA về tay quỹ đầu tư Trung Đông? Lo cho tương lai các studio, hay thấy cũng chẳng khác gì bao công ty game khác đã bị mua bán? Để lại bình luận cho Cenix biết góc nhìn của mấy ông nhé!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/saudi-arabias-takeover-of-ea-gets-approval-from-european-commission/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/saudi-arabias-takeover-of-ea-gets-approval-from-european-commission/)*

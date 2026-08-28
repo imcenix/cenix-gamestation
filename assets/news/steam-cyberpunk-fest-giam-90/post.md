@@ -36,4 +36,4 @@ Một lưu ý nhỏ: sale kết thúc **10 giờ sáng 10/8** theo giờ Steam, 
 
 Wishlist của mấy ông đang có món nào nằm trong đợt sale này? Ném tên game xuống comment, biết đâu Cenix gợi ý thêm được vài viên ngọc ẩn.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/steams-cyberpunk-fest-means-big-savings-on-games-about-high-tech-lowlifes/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/steams-cyberpunk-fest-means-big-savings-on-games-about-high-tech-lowlifes/)*

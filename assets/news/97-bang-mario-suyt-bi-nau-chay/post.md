@@ -41,4 +41,4 @@ Ganos và Braun định chia nhau, giữ lại một số, đấu giá một s�
 
 Mấy ông đoán một cái băng "biến thể cuối cùng" này chốt giá bao nhiêu? Ghi con số của mình xuống bình luận, tới ngày 12/8 quay lại xem ai đoán trúng nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/super-mario/97-super-mario-bros-nes-cartridges-set-to-be-melted-down-turn-out-to-be-a-lot-more-valuable-than-the-gold-they-contain/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/super-mario/97-super-mario-bros-nes-cartridges-set-to-be-melted-down-turn-out-to-be-a-lot-more-valuable-than-the-gold-they-contain/)*

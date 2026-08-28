@@ -30,4 +30,4 @@ Và như GamesRadar nói: nếu anh em đã bỏ game một thời gian thì **�
 
 Anh em thấy vụ Dominate lên rare là đáng đời hay oan ức? Còn combo Eidolon mới ai nghĩ ra trò gì bệnh hoạn rồi thì chia sẻ cho anh em Cenix hưởng ké với nè.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/roguelike/slay-the-spire-2-just-got-its-biggest-patch-yet-with-so-many-new-relics-buffed-cards-and-massive-nerfs-that-players-barely-know-where-to-start/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/roguelike/slay-the-spire-2-just-got-its-biggest-patch-yet-with-so-many-new-relics-buffed-cards-and-massive-nerfs-that-players-barely-know-where-to-start/)*

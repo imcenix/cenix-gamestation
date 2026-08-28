@@ -37,4 +37,4 @@ Riêng việc có một bản PC không bị cắt mất bài credit rất "th�
 
 Anh em còn nhớ lần đầu bước vào Inverted Castle không? Và mấy ông sẽ chơi bản 360 hay bản PS1? Comment chia phe cho Cenix nghe với.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/action/29-years-later-castlevania-symphony-of-the-night-gets-its-second-pc-port-in-4-weeks-thanks-to-fans-of-the-ps1-version/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/action/29-years-later-castlevania-symphony-of-the-night-gets-its-second-pc-port-in-4-weeks-thanks-to-fans-of-the-ps1-version/)*

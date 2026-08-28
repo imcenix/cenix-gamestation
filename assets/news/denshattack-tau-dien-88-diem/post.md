@@ -31,4 +31,4 @@ Hiện Denshattack! đang có giá **17,99 USD**, giảm 10% mừng ra mắt. Ng
 
 Anh em thấy ý tưởng "điều khiển một đoàn tàu lướt phố" nghe điên rồ cỡ nào? Có ông nào nhảy hố chưa, vào review cho hội biết với nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/action/denshattack-dev-wakes-up-rolls-out-of-bed-finds-out-their-game-is-one-of-the-highest-rated-releases-of-2026-and-promptly-loses-their-mind/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/action/denshattack-dev-wakes-up-rolls-out-of-bed-finds-out-their-game-is-one-of-the-highest-rated-releases-of-2026-and-promptly-loses-their-mind/)*

@@ -37,4 +37,4 @@ Cenix thì chỉ mong nó về được đúng nguyên bản: Springfield mở, 
 
 Mấy ông có thuộc thế hệ chơi Hit & Run trên PS2 không? Nếu nó quay lại thật, anh em muốn remaster giữ nguyên bản gốc hay làm lại từ đầu cho hợp thời? Comment điểm danh cho Cenix xem hội hoài niệm đông cỡ nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/open-world/the-simpsons-hit-and-run-is-coming-back-in-some-form-says-matt-groening-but-it-looks-like-he-wasnt-supposed-to/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/open-world/the-simpsons-hit-and-run-is-coming-back-in-some-form-says-matt-groening-but-it-looks-like-he-wasnt-supposed-to/)*

@@ -31,4 +31,4 @@ Với việc chỉ số cuối cùng đã được công bố, có vẻ Tarnishe
 
 Mấy ông đã có sẵn ý tưởng build cho Idus Knight hay Heavy Knight chưa? Vào comment "đặt gạch" chia sẻ chiến thuật với anh em nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/fromsoftware-reveals-final-stats-of-new-elden-ring-classes-and-one-of-them-already-got-a-tiny-nerf/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/fromsoftware-reveals-final-stats-of-new-elden-ring-classes-and-one-of-them-already-got-a-tiny-nerf/)*

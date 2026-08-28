@@ -35,4 +35,4 @@ Thêm một chi tiết vui: chính Zelnick từng phát biểu năm 2020 rằng 
 
 Anh em thấy sao — ba năm nữa mình sẽ stream game như xem Netflix, hay vẫn sẽ cắm cúi tải về ổ cứng cho chắc? Chia phe ở phần comment cho Cenix xem nào.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/take-two-ceo-says-he-expects-the-games-industry-to-be-in-commercial-streaming-mode-within-3-years-which-is-great-news-if-you-hate-owning-things/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/take-two-ceo-says-he-expects-the-games-industry-to-be-in-commercial-streaming-mode-within-3-years-which-is-great-news-if-you-hate-owning-things/)*

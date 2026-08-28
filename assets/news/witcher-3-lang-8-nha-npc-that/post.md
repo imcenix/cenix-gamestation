@@ -39,4 +39,4 @@ Cenix thấy chuyện này nối khá gọn với thứ cả ngành đang tranh 
 
 Còn anh em thì sao, mấy ông có thuộc phe hay đi theo NPC về tận nhà để kiểm tra không? Kể Cenix nghe game nào từng khiến mấy pa tin rằng dân trong đó sống thật, và game nào bị mấy pa bóc mẽ trong vòng năm phút nào.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/the-witcher/witcher-3-designer-says-it-wasnt-easy-to-convince-players-its-npc-simulation-wasnt-just-fakery-people-nowadays-are-interested-in-those-kinds-of-details-and-it-really-came-to-haunt-us/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/the-witcher/witcher-3-designer-says-it-wasnt-easy-to-convince-players-its-npc-simulation-wasnt-just-fakery-people-nowadays-are-interested-in-those-kinds-of-details-and-it-really-came-to-haunt-us/)*

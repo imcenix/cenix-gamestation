@@ -39,4 +39,4 @@ Nhắc lại cho đủ mạch: Microsoft được cho là đang thử nghiệm t
 
 Anh em đội xanh có bị dính đợt này không? Mà theo mấy ông, sau hai vụ liên tiếp thế này thì niềm tin vào tương lai "all-digital" còn được bao nhiêu phần trăm? Kể Cenix nghe với!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/xbox-is-down-just-days-after-playstation-outage-and-it-affects-both-digital-and-disc-based-games/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/xbox-is-down-just-days-after-playstation-outage-and-it-affects-both-digital-and-disc-based-games/)*

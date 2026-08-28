@@ -33,4 +33,4 @@ Stealth cũng được nâng cấp thật sự: nút crouch từ AC Shadows khi�
 
 Túm cái váy lại: chưa từng chơi Black Flag thì Resynced vẫn là vé du lịch Caribbean xịn xò. Còn với anh em cựu binh, bản 2013 — dù mặt nhân vật hơi "lởm" — vẫn là chân ái. Anh em thuộc team nào, remake lung linh hay bản gốc nguyên chất? Kể Cenix nghe với!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/assassins-creed/assassins-creed-black-flag-resynced-review/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/assassins-creed/assassins-creed-black-flag-resynced-review/)*

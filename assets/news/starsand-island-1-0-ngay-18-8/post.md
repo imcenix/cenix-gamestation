@@ -35,4 +35,4 @@ Với anh em đã cày nát Stardew Valley và đang tìm thứ gì đó cùng n
 
 Mấy ông định lập nhóm 4 người cày Starsand Island không? Rủ hội đi, comment tên đảo mơ ước dưới đây cho Cenix xem với nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/simulation/hit-stardew-valley-like-starsand-island-is-already-leaving-steam-early-access-with-update-1-0-out-next-month-adding-online-multiplayer-for-up-to-4-players/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/simulation/hit-stardew-valley-like-starsand-island-is-already-leaving-steam-early-access-with-update-1-0-out-next-month-adding-online-multiplayer-for-up-to-4-players/)*

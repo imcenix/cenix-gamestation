@@ -33,4 +33,4 @@ Nói gì thì nói, Valve đã cảnh báo trước rằng giai đoạn đầu s
 
 Anh em nào đang cày Deadlock thì khai thật đi: placement của mấy ông tụt mấy bậc rồi? Và 15 win mỗi hero là hợp lý hay quá tay? Comment chia phe cho Cenix hóng với.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/moba/deadlocks-new-ranked-mode-is-driving-players-mad-as-they-try-to-escape-the-casual-modes-and-climb-back-to-where-they-were/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/moba/deadlocks-new-ranked-mode-is-driving-players-mad-as-they-try-to-escape-the-casual-modes-and-climb-back-to-where-they-were/)*

@@ -41,4 +41,4 @@ Rainbow Six Tactics ra mắt **2027**.
 
 Vậy là Ubisoft chịu làm game chơi đơn không gắn store rồi đó anh em. Mấy ông tin họ giữ được lời hứa không, hay chờ ngày ra mắt rồi tính? Comment chốt kèo cho Cenix nghe với nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/strategy/ubisoft-is-making-the-first-singleplayer-rainbow-six-in-19-years-and-its-a-tactics-game-in-the-style-of-xcom/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/strategy/ubisoft-is-making-the-first-singleplayer-rainbow-six-in-19-years-and-its-a-tactics-game-in-the-style-of-xcom/)*

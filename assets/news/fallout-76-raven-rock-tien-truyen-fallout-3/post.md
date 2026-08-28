@@ -30,4 +30,4 @@ Công bằng thì phải nhắc: loạt tin vui này rơi ngay sau đợt **sa t
 
 Dù sao thì 2027 hãy còn xa, trước mắt cứ để dành cái hẹn: khi Raven Rock mở cửa, hội anh em mình lại kéo nhau về Appalachia làm chuyến "về nguồn". Hôm đó mà không chơi thì hôm nào chơi?
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/fallout/a-prequel-story-to-fallout-3-is-one-of-bethesdas-most-exciting-announcements-in-ages-and-its-coming-next-year-to-fallout-76/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/fallout/a-prequel-story-to-fallout-3-is-one-of-bethesdas-most-exciting-announcements-in-ages-and-its-coming-next-year-to-fallout-76/)*

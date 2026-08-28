@@ -31,4 +31,4 @@ Cenix thì nghĩ đây nhiều khả năng chỉ là màn hài hước ngoài ý
 
 Anh em còn cày GTA Online lúc này không, hay đã "đặt gạch" chờ thẳng GTA 6 luôn? Chia phe cho Cenix xem nào!
 
-*Nguồn: [GamesRadar](https://www.gamesradar.com/games/grand-theft-auto/ahead-of-gta-6-gta-online-players-complain-that-rockstar-nerfed-literally-everything-commonly-used-to-make-money/)*
+*Nguồn tham khảo: [GamesRadar](https://www.gamesradar.com/games/grand-theft-auto/ahead-of-gta-6-gta-online-players-complain-that-rockstar-nerfed-literally-everything-commonly-used-to-make-money/)*

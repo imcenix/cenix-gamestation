@@ -38,4 +38,4 @@ Với một game từng bị soi kỹ về A-Life và độ ổn định lúc m�
 
 Mấy ông định vào lại Vùng Cấm ngay 20/8, hay chờ patch ổn định rồi mới bước qua hàng rào? Điểm danh cho Cenix biết cái nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fps/stalker-2s-engine-upgrade-and-first-story-expansion-are-due-out-in-august/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fps/stalker-2s-engine-upgrade-and-first-story-expansion-are-due-out-in-august/)*

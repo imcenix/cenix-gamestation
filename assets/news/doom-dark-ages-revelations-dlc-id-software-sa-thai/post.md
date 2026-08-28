@@ -27,4 +27,4 @@ Review đứng thứ hai cũng chung tinh thần: "Hãy trân trọng từng gi�
 
 Vui thì vui, tỉnh vẫn phải tỉnh — một sản phẩm chất lượng không thể xóa đi nỗi lo về tương lai của cả một studio đã gắn liền với lịch sử làng game FPS. Mấy ông đã trải nghiệm Revelations chưa? Và mấy ông nghĩ sao về cách cộng đồng chọn ủng hộ thay vì tẩy chay trong hoàn cảnh này? Chia sẻ suy nghĩ với Cenix dưới phần bình luận nhé.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/fps/doom-the-dark-ages-dlc-lands-to-rave-steam-reviews-as-id-software-reportedly-faces-losing-half-its-staff-it-may-very-well-be-the-last-piece-of-good-doom-content-that-we-ever-get/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/fps/doom-the-dark-ages-dlc-lands-to-rave-steam-reviews-as-id-software-reportedly-faces-losing-half-its-staff-it-may-very-well-be-the-last-piece-of-good-doom-content-that-we-ever-get/)*

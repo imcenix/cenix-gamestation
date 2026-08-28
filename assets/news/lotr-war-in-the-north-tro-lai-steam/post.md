@@ -35,4 +35,4 @@ Legacy Edition đã lên Steam, giá gốc **20 đô** và đang giảm **10%**.
 
 Mấy ông có ai từng cày War in the North bản gốc chưa? Nó đáng để quay lại hay để yên trong ký ức thì đẹp hơn — kể Cenix nghe với!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/action/a-long-lost-lord-of-the-rings-action-rpg-makes-a-surprise-return-to-steam/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/action/a-long-lost-lord-of-the-rings-action-rpg-makes-a-surprise-return-to-steam/)*

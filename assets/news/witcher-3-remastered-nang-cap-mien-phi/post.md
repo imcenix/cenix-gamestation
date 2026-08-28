@@ -33,4 +33,4 @@ Bản mở rộng mới toanh **Songs of the Past** cũng có trailer trong đê
 
 Vậy là tháng 9 này Novigrad lại đông vui rồi. Anh em định chơi lại từ đầu hay nhảy thẳng vào Blood and Wine cho nhanh? Kể Cenix nghe với, và điểm danh xem hội mình bao nhiêu người sắp cày lại lần thứ N nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/the-witcher/the-witcher-3-remastered-announced-another-huge-free-update-and-its-coming-soon/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/the-witcher/the-witcher-3-remastered-announced-another-huge-free-update-and-its-coming-soon/)*

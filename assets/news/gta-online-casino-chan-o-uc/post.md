@@ -37,4 +37,4 @@ Nói gọn: có thể Rockstar khai form rating cho nhanh, và để hợp với
 
 Anh em nghĩ sao — Rockstar chủ động phòng xa, hay chỉ là hệ quả của một cái form khai lụi? Ở Việt Nam mình thì Diamond Casino vẫn ổn, nhưng mấy ông có bao giờ đốt GTA$ ở đó tới mức tiếc không? Comment kể Cenix nghe với!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/gta-online-in-game-gambling-is-now-blocked-in-australia/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/gta-online-in-game-gambling-is-now-blocked-in-australia/)*

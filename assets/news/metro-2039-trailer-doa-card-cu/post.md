@@ -35,4 +35,4 @@ Metro 2039 dự kiến ra mắt vào **tháng 2/2027** — còn kha khá thời 
 
 Cái này khó nha, khó nói thiệt chớ. Anh em đang xài card gì, và có định nâng cấp vì Metro 2039 không? Comment khoe cấu hình cho Cenix xem hội mình còn trụ được tới đâu nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fps/metro-2039-gameplay-trailer-looks-like-bad-news-for-your-aging-graphics-card/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fps/metro-2039-gameplay-trailer-looks-like-bad-news-for-your-aging-graphics-card/)*

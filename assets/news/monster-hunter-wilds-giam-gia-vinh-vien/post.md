@@ -29,4 +29,4 @@ Wilds hiện vẫn đeo nhãn "Mixed" trên Steam, nên động thái này là b
 
 Anh em team đi săn nào đang chờ giá mềm để nhảy vào Wilds? Hay đã cày sâu rồi và chỉ mong tối ưu hiệu năng? Comment cho Cenix biết nhé!
 
-*Nguồn: [GamesRadar](https://www.gamesradar.com/games/monster-hunter/monster-hunter-wilds-is-getting-a-permanent-price-reduction-and-new-dlc-bundles-as-capcom-looks-to-further-recover-from-a-year-of-middling-reviews/)*
+*Nguồn tham khảo: [GamesRadar](https://www.gamesradar.com/games/monster-hunter/monster-hunter-wilds-is-getting-a-permanent-price-reduction-and-new-dlc-bundles-as-capcom-looks-to-further-recover-from-a-year-of-middling-reviews/)*

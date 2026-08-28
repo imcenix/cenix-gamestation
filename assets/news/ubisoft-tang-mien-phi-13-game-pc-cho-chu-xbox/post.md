@@ -43,4 +43,4 @@ Chương trình này nằm trong khuôn khổ "quan hệ đối tác mở rộng
 
 Mấy ông có nằm trong danh sách được tặng game PC lần này không? Game nào trong 13 cái tên trên khiến mấy ông vui nhất? Điểm danh cho Cenix biết nhé!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/assassin-s-creed/ubisoft-is-giving-out-free-pc-copies-of-assassins-creed-far-cry-prince-of-persia-and-tom-clancy-games-to-people-who-own-them-on-xbox/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/assassin-s-creed/ubisoft-is-giving-out-free-pc-copies-of-assassins-creed-far-cry-prince-of-persia-and-tom-clancy-games-to-people-who-own-them-on-xbox/)*

@@ -35,4 +35,4 @@ Cenix thì thấy đây vừa là chuyện tấu hài "số tiền phi lý", v�
 
 Anh em nghĩ sao — *Meccha Chameleon* là ăn may đúng trend, hay là công thức indie đáng học hỏi? Kể Cenix nghe với nhé!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/sports/based-on-meccha-chameleons-incredibly-short-2-month-dev-cycle-its-creators-have-already-earned-usd1-million-per-day-of-work/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/sports/based-on-meccha-chameleons-incredibly-short-2-month-dev-cycle-its-creators-have-already-earned-usd1-million-per-day-of-work/)*

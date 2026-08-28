@@ -35,4 +35,4 @@ Với 6 sao ở đỉnh thang, Cenix đoán là mức cao nhất sẽ khắc ngh
 
 Còn mấy ông, kiểu truy nã mới này nghe hấp dẫn hay hơi phiền? Mấy ông sẽ chơi kiểu ninja lén lút hay vẫn theo trường phái "một khi đã máu thì đừng hỏi bố cháu là ai nữa"? Chia phe ở phần bình luận nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/grand-theft-auto/gta-6-wanted-system-goes-up-to-6-stars-and-lets-police-track-your-face-your-clothes-and-your-car/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/grand-theft-auto/gta-6-wanted-system-goes-up-to-6-stars-and-lets-police-track-your-face-your-clothes-and-your-car/)*

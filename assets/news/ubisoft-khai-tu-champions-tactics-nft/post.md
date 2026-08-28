@@ -39,4 +39,4 @@ Vui thì vui, nhưng tỉnh vẫn phải tỉnh. Đằng sau mỗi dự án bị
 
 Mấy ông nghĩ sao — Ubisoft rút chân khỏi Web3 lần này là dứt hẳn, hay chỉ đợi một cơn sốt mới rồi lại nhảy vào? Comment chia phe cho Cenix xem nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/strategy/ubisofts-nft-tactics-game-a-thing-that-still-exists-is-shutting-down-in-october/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/strategy/ubisofts-nft-tactics-game-a-thing-that-still-exists-is-shutting-down-in-october/)*

@@ -31,4 +31,4 @@ Hiện chưa có ngày phát hành, nhưng riêng chuyện có bản đĩa đã 
 
 Anh em team nào — đĩa vật lý để chưng cho đã, hay digital cho gọn? Chà, quyết định khó quá, làm sao để tốt cho cả hai? Chia phe cho Cenix xem với nào!
 
-*Nguồn: [GamesRadar](https://www.gamesradar.com/games/god-of-war/sony-santa-monica-confirms-god-of-war-laufey-will-be-available-on-disc-despite-playstations-war-on-physical/)*
+*Nguồn tham khảo: [GamesRadar](https://www.gamesradar.com/games/god-of-war/sony-santa-monica-confirms-god-of-war-laufey-will-be-available-on-disc-despite-playstations-war-on-physical/)*

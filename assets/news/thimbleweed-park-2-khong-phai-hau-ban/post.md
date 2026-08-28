@@ -37,4 +37,4 @@ Trước mắt chưa có nhiều thứ để xem, nhưng Gilbert hứa sẽ mở
 
 Chờ tới 2028 nghe xa thật, nhưng với thể loại này thì đợi được. Mấy ông đã chơi Thimbleweed Park bản gốc chưa, hay còn kẹt ở Monkey Island từ hồi nào tới giờ? Comment cho Cenix biết game point-and-click nào làm mấy pa đau đầu nhất nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/adventure/thimbleweed-park-2-is-not-really-a-sequel-not-really-a-prequel-but-it-is-finally-happening/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/adventure/thimbleweed-park-2-is-not-really-a-sequel-not-really-a-prequel-but-it-is-finally-happening/)*

@@ -35,4 +35,4 @@ Vui thì vui, tỉnh vẫn phải tỉnh: với một công ty mà doanh thu AI 
 
 Mấy ông đang dùng card gì và có định nâng cấp trong năm nay không, hay quyết định "để dành tiền chờ bão qua"? Cenix hóng ý kiến của anh em ở phần bình luận!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/hardware/nvidia-says-it-would-be-making-a-whole-lot-more-money-if-it-werent-for-the-memory-crisis-its-contributing-to/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/hardware/nvidia-says-it-would-be-making-a-whole-lot-more-money-if-it-werent-for-the-memory-crisis-its-contributing-to/)*

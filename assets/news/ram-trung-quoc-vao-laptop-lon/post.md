@@ -41,4 +41,4 @@ Cạnh tranh nhiều hơn về dài hạn là tin tốt. Chỉ là "dài hạn" 
 
 Anh em có ai đang hoãn build máy vì giá RAM không? Mấy ông chờ tới 2029 hay chốt đơn luôn cho xong? Comment cho Cenix nghe với.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/hardware/memory/chinese-ram-is-reportedly-landing-in-laptops-from-hp-asus-and-acer-but-it-wont-change-the-memory-crisis-overnight/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/hardware/memory/chinese-ram-is-reportedly-landing-in-laptops-from-hp-asus-and-acer-but-it-wont-change-the-memory-crisis-overnight/)*

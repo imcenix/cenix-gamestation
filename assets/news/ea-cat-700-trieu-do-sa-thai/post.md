@@ -37,4 +37,4 @@ Vui thì vui, tỉnh vẫn phải tỉnh: đằng sau mấy con số tỷ đô l
 
 Anh em nghĩ sao — chủ mới lắm tiền có cứu được EA, hay chỉ là đổi từ chủ này sang chủ nợ khác? Comment cho Cenix nghe với.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/mass-layoffs-expected-at-ea-as-the-now-private-publisher-reportedly-tells-its-new-debt-masters-that-its-going-to-cut-usd700-million-in-annual-costs/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/mass-layoffs-expected-at-ea-as-the-now-private-publisher-reportedly-tells-its-new-debt-masters-that-its-going-to-cut-usd700-million-in-annual-costs/)*

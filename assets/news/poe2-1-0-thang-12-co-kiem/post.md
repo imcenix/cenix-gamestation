@@ -27,4 +27,4 @@ Giám đốc game từng nói ông sẽ "sốc tận cùng" nếu game không ra
 
 Vậy là tháng 12 này ARPG sẽ đông vui phết. Anh em định mở màn bản 1.0 bằng duelist cầm kiếm cho đúng bài, hay bê build cũ vào cày trước rồi tính sau? Comment chốt kèo cho Cenix biết nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/path-of-exile-2-is-finally-getting-swords-in-december-and-also-the-rest-of-the-game/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/path-of-exile-2-is-finally-getting-swords-in-december-and-also-the-rest-of-the-game/)*

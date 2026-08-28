@@ -41,4 +41,4 @@ Nghe xong mới thấy tư duy này đi trước thời đại cỡ nào: thay v
 
 Mấy pa nghĩ sao — nếu một hãng game hôm nay dám làm y hệt vậy thì họ sẽ thắng lớn hay ôm lỗ? Kể Cenix nghe với.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fps/john-romero-says-id-software-once-sold-empty-doom-boxes-to-taiwanese-pirates-so-fans-there-could-have-legit-copies-for-us-it-was-distribution/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fps/john-romero-says-id-software-once-sold-empty-doom-boxes-to-taiwanese-pirates-so-fans-there-could-have-legit-copies-for-us-it-was-distribution/)*

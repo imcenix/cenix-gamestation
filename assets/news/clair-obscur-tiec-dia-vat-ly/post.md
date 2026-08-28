@@ -41,4 +41,4 @@ Chà, quyết định khó quá, làm sao để tốt cho cả hai? Phe ủng h�
 
 Mấy ông thuộc phe nào — hộp đĩa trên kệ, hay thư viện Steam gọn nhẹ? Anh em còn giữ đĩa game nào từ thời PS2 không? Kể Cenix nghe với!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/clair-obscur-developers-see-sonys-no-disk-announcement-as-a-sad-decision-because-they-like-to-go-outside-buy-a-game-and-come-back-home-with-it/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/clair-obscur-developers-see-sonys-no-disk-announcement-as-a-sad-decision-because-they-like-to-go-outside-buy-a-game-and-come-back-home-with-it/)*

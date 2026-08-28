@@ -26,4 +26,4 @@ Không phải Steam thương anh em đâu — đây là chiêu warm-up cho game 
 
 Tóm tắt cho anh em lười đọc: game hay – đang **free** – hạn chót **23/7** – nhận xong nằm thư viện vĩnh viễn. Thứ duy nhất phải trả là... nước mắt khi chơi thôi. Vô Steam bấm "Add to Account" liền tay, xong quay lại đây kể Cenix nghe anh em chọn phe cách mạng hay phe đế chế nha — kèo này chia phe là cãi nhau tới sáng đó!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/visual-novel/grab-a-free-steam-game-full-of-misery-and-decision-making-for-a-limited-time/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/visual-novel/grab-a-free-steam-game-full-of-misery-and-decision-making-for-a-limited-time/)*

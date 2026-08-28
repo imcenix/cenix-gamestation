@@ -36,4 +36,4 @@ Loạt công bố này đến sau nhiều năm im ắng của các thương hi�
 
 Nghe thì hoành tráng, nhưng thực tế là fan Fallout vẫn phải chờ dài cổ thêm nhiều năm nữa. Mấy ông nghĩ Bethesda nên ưu tiên ES6 trước hay dồn lực làm song song cả hai? Và liệu Creation Engine 3 có thực sự khắc phục được tiếng xấu "buggy" bao năm qua? Vào cmt chia phe cho Cenix nghe với!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/fallout/fallout-5-is-currently-in-preproduction-bethesda-breaks-silence-on-long-awaited-rpg/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/fallout/fallout-5-is-currently-in-preproduction-bethesda-breaks-silence-on-long-awaited-rpg/)*

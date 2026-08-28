@@ -35,4 +35,4 @@ Với một game vốn đã là tượng đài về độ phức tạp, thêm m�
 
 Còn mấy ông, đã từng thử Dwarf Fortress chưa hay vẫn còn sợ cái độ khó huyền thoại của nó? Nếu thế giới của mấy ông tự sinh ra một hệ phép thuật, mấy ông muốn nó kỳ quặc cỡ nào? Kể Cenix nghe ở phần bình luận nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/sim/holy-crap-its-happening-dwarf-fortress-gets-its-first-myth-and-magic-update-later-this-year-bringing-each-players-world-its-own-procedural-magic-system/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/sim/holy-crap-its-happening-dwarf-fortress-gets-its-first-myth-and-magic-update-later-this-year-bringing-each-players-world-its-own-procedural-magic-system/)*

@@ -38,4 +38,4 @@ Nói cách khác, bốn cụ chỉ là đội hình khởi động. Nếu Xbox l
 
 Vậy còn anh em, nếu được chọn tựa Xbox đời đầu tiếp theo được "resurrect" lên PC, mấy ông muốn gọi tên game nào? Thả xuống comment cho Cenix góp vui nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/microsoft-is-bringing-original-xbox-exclusives-to-pc-for-the-first-time-starting-with-four-classic-games/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/microsoft-is-bringing-original-xbox-exclusives-to-pc-for-the-first-time-starting-with-four-classic-games/)*

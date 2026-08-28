@@ -39,4 +39,4 @@ Cũng nói thêm cho đủ bối cảnh: series Worms từ đó tới nay đã �
 
 Hôm nay không chơi hôm nào chơi? Anh em còn nhớ vũ khí nào của Worms nhất — Holy Hand Grenade, Banana Bomb hay con cừu nổ? Điểm danh ở comment cho Cenix xem tuổi thơ ai dữ dội hơn nào.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/strategy/forget-quake-worms-the-directors-cut-just-got-a-free-expansion-for-the-series-30th-anniversary/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/strategy/forget-quake-worms-the-directors-cut-just-got-a-free-expansion-for-the-series-30th-anniversary/)*

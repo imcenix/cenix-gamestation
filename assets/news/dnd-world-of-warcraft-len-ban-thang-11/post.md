@@ -38,4 +38,4 @@ Với hội đã thuộc lòng lore Azeroth mà chưa từng có cách kể lạ
 
 Mấy ông muốn chơi race nào đầu tiên nếu ngồi vào bàn D&D World of Warcraft? Comment class + race của mình xuống dưới, biết đâu hội anh em ở đây đủ quân lập một party luôn đó.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/tabletop-gaming/d-and-d-world-of-warcraft-is-the-first-mtg-style-universes-beyond-crossover-for-the-rpg/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/tabletop-gaming/d-and-d-world-of-warcraft-is-the-first-mtg-style-universes-beyond-crossover-for-the-rpg/)*

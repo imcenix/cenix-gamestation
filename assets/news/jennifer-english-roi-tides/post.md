@@ -32,4 +32,4 @@ Ngành lồng tiếng game mấy năm nay tăng tốc chóng mặt — các di�
 
 Còn anh em, vai diễn nào của Jennifer English để lại ấn tượng sâu nhất — Shadowheart hay Maelle? Và ai đang hóng Tides of Annihilation thì điểm danh, mình cùng chờ xem Gwen phiên bản mới nha.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/jennifer-english-star-of-baldurs-gate-3-and-clair-obscur-expedition-33-leaves-tides-of-annihilation-lead-role/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/jennifer-english-star-of-baldurs-gate-3-and-clair-obscur-expedition-33-leaves-tides-of-annihilation-lead-role/)*

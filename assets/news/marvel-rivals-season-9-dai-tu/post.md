@@ -29,4 +29,4 @@ Tuy nhiên không phải thay đổi nào cũng được lòng cộng đồng �
 
 Chà, quyết định khó quá, làm sao để tốt cho cả hai? Cân bằng "cho vui" nghe hay đấy, nhưng nếu ai cũng mạnh như nhau thì rốt cuộc ai cũng thành... ác mộng để đối đầu. Mấy ông đang main tướng nào, có bị ảnh hưởng nặng ở Season 9 này không? Vào comment kể Cenix nghe xem tướng của mấy ông được buff hay bị nerf sml luôn!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-season-9-update-will-affect-80-percent-of-its-roster-as-netease-throws-balance-out-the-window-for-a-more-fun-approach-to-the-game/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-season-9-update-will-affect-80-percent-of-its-roster-as-netease-throws-balance-out-the-window-for-a-more-fun-approach-to-the-game/)*

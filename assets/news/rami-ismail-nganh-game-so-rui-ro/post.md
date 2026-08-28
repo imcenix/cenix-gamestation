@@ -41,4 +41,4 @@ Sony là ví dụ nhãn tiền với chiến lược live-service: cả một th
 
 Mấy ông nghĩ sao — ngành game hiện tại thiếu can đảm thật, hay chỉ là đang thận trọng vì tiền không còn dễ như xưa? Comment chia phe cho Cenix xem nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/the-games-industrys-fear-of-risk-is-currently-the-largest-risk-it-faces-according-to-nuclear-thrones-producer/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/the-games-industrys-fear-of-risk-is-currently-the-largest-risk-it-faces-according-to-nuclear-thrones-producer/)*

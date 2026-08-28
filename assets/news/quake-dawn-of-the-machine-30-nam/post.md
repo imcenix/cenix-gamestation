@@ -45,4 +45,4 @@ Romero, John Carmack, Adrian Carmack và Tom Hall đều có tên trong panel h�
 
 Anh em có định tải bản Dawn of the Machine về cày lại không, hay để dành cuối tuần? Điểm danh cho Cenix xem hội nghiện boomer shooter còn đông không nào.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fps/30-years-after-it-ruined-id-software-quake-gets-another-big-update-while-the-studio-once-again-grapples-with-adversity/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fps/30-years-after-it-ruined-id-software-quake-gets-another-big-update-while-the-studio-once-again-grapples-with-adversity/)*

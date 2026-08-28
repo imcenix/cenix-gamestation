@@ -39,4 +39,4 @@ Một bình luận trên YouTube tóm gọn cảm giác của cả cộng đồn
 
 Nếu Demon's Souls giữ nguyên góc nhìn thứ nhất, anh em nghĩ dòng Souls hôm nay sẽ ra sao — hay hơn hay tắt máy sau 10 phút? Kể Cenix nghe với.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/action-rpg/rare-demons-souls-prototype-shows-off-first-person-perspective-unused-enemies-that-could-have-rewritten-dark-souls-history-like-watching-the-mona-lisa-being-painted/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/action-rpg/rare-demons-souls-prototype-shows-off-first-person-perspective-unused-enemies-that-could-have-rewritten-dark-souls-history-like-watching-the-mona-lisa-being-painted/)*

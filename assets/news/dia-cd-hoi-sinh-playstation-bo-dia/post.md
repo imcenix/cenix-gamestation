@@ -32,4 +32,4 @@ Bài học từ chiếc CD: cái chết của vật lý không phải do ngườ
 
 Anh em thuộc team nào: tủ đĩa xếp đầy ngắm mỗi tối, hay thư viện digital gọn nhẹ ngàn game trong một nút bấm? Khoe tủ đĩa (hoặc khoe số game Steam chưa cài) dưới comment cho Cenix ngắm với!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/as-playstation-declares-nobody-wants-physical-discs-anymore-gen-z-is-helping-fuel-a-16-percent-surge-in-us-music-cd-sales/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/as-playstation-declares-nobody-wants-physical-discs-anymore-gen-z-is-helping-fuel-a-16-percent-surge-in-us-music-cd-sales/)*

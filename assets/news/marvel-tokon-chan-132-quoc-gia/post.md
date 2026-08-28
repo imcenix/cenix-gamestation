@@ -29,4 +29,4 @@ Marvel Tōkon vốn đang là cái tên hiếm hoi khiến cộng đồng đối
 
 Hội mê tag fighter, mấy ông có nằm trong danh sách 132 nước xui xẻo đó không? Cứ để lại bình luận báo cáo tình hình cho Cenix và anh em cùng biết nhé.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fighting/another-self-own-for-sony-marvel-tokons-pc-version-is-unavailable-in-over-100-countries-thanks-to-our-old-friend-psn-again/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fighting/another-self-own-for-sony-marvel-tokons-pc-version-is-unavailable-in-over-100-countries-thanks-to-our-old-friend-psn-again/)*

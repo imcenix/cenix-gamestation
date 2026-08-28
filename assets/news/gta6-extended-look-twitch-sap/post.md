@@ -35,4 +35,4 @@ Chuyện này cũng nói lên một điều: quy mô độ hot của GTA 6 giờ
 
 Còn mấy ông, tối qua xem ở đâu? Trụ được trên Netflix từ đầu tới cuối, hay đang hóng phân tích trên Twitch thì ăn ngay màn hình đen? Kể Cenix nghe với ở phần bình luận nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/grand-theft-auto/netflix-survived-the-gta-6-an-extended-look-but-twitch-did-not/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/grand-theft-auto/netflix-survived-the-gta-6-an-extended-look-but-twitch-did-not/)*

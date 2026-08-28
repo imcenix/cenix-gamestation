@@ -32,4 +32,4 @@ Pocketpair chưa dừng lại ở đó: hãng đang phát triển song song Palf
 
 Một khi đã máu thì đừng hỏi bố cháu là ai nữa — dân indie mà dám cân cả gã khổng lồ Counter-Strike 2 thì quá đỉnh rồi còn gì! Mấy ông đã quay lại cày Palworld bản 1.0 chưa, hay vẫn đang chờ xem còn drama gì nữa không? Điểm danh dưới comment cho Cenix biết pal cưng nhất của mấy ông là con nào nhé!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/survival/palworld-1-0-briefly-overtook-the-king-of-steam-counter-strike-2-and-devs-cant-help-but-bask-in-the-victory-let-me-enjoy-this-moment-for-just-a-little-longer/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/survival/palworld-1-0-briefly-overtook-the-king-of-steam-counter-strike-2-and-devs-cant-help-but-bask-in-the-victory-let-me-enjoy-this-moment-for-just-a-little-longer/)*

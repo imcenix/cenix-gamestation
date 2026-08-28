@@ -39,4 +39,4 @@ Còn bản chính thức thì lên kệ **6/10** trên Xbox Series X|S, PC và G
 
 Hôm nay không chơi hôm nào chơi? Mấy ông đã đặt gạch đợt beta 13/8 chưa, hay định đợi bản đầy đủ tháng 10 mới nhảy vào? Điểm danh phần comment cho Cenix xem hội Gears còn đông không nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/gears-of-war/gears-of-war-e-days-steam-player-peak-has-already-passed-the-series-all-time-record-and-its-still-only-in-limited-beta/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/gears-of-war/gears-of-war-e-days-steam-player-peak-has-already-passed-the-series-all-time-record-and-its-still-only-in-limited-beta/)*

@@ -39,4 +39,4 @@ Nói cho công bằng: **Final Fantasy 7 Rebirth** là một thành công lớn,
 
 Mấy ông thì sao — muốn Hamaguchi làm FF17 thật, hay để anh khép trọn bộ ba FF7 rồi tính tiếp? Chia phe ở phần bình luận cho Cenix hóng với!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/final-fantasy/i-want-this-guy-to-make-final-fantasy-17-yoshi-p-embarrasses-final-fantasy-7-remake-lead-with-the-highest-praise-you-can-get-from-players-live-on-stage-at-ff14-fan-fest/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/final-fantasy/i-want-this-guy-to-make-final-fantasy-17-yoshi-p-embarrasses-final-fantasy-7-remake-lead-with-the-highest-praise-you-can-get-from-players-live-on-stage-at-ff14-fan-fest/)*

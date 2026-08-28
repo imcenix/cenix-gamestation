@@ -45,4 +45,4 @@ SummoningSalt, tên tuổi quen thuộc với dòng phim tài liệu speedrun tr
 
 Mấy ông đoán ai sẽ là người chạm tới 4:54.265 trước — Niftski hay LeKukie? Và anh em có từng thử speedrun game nào chưa, dù chỉ để tự phá kỷ lục của chính mình? Comment cho Cenix nghe nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/super-mario/the-greatest-speedrun-accomplishment-of-all-time-is-in-sight-as-two-legendary-super-mario-bros-runners-compete-for-a-time-that-once-seemed-impossible/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/super-mario/the-greatest-speedrun-accomplishment-of-all-time-is-in-sight-as-two-legendary-super-mario-bros-runners-compete-for-a-time-that-once-seemed-impossible/)*

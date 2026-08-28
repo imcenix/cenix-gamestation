@@ -35,4 +35,4 @@ Nghe rất đúng với dân làm game. Nhưng với người bỏ tiền mua th
 
 Mấy pa tính nhảy hố sớm ngày 25/8 hay ngồi chờ vài bản patch rồi mới vào? Chà, quyết định khó quá — comment cho Cenix biết anh em chọn phe nào nhé!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/action/1666-amsterdam-has-the-makings-of-something-brilliant-but-i-came-away-from-its-preview-with-a-bad-feeling-as-its-early-access-release-creeps-too-close-for-comfort/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/action/1666-amsterdam-has-the-makings-of-something-brilliant-but-i-came-away-from-its-preview-with-a-bad-feeling-as-its-early-access-release-creeps-too-close-for-comfort/)*

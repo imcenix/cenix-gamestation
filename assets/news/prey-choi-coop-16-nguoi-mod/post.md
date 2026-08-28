@@ -42,4 +42,4 @@ Cũng phải nói thêm cho công bằng: Prey từng có chế độ multiplaye
 
 Anh em có định rủ hội lên Talos 1 quậy một chuyến không? Mà nếu chơi co-op thì Prey còn đáng sợ nữa hay biến thành trò hài? Cenix nghiêng về phương án hai, nhưng cứ comment chia phe cho vui đi mấy pa.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/sim/you-can-now-play-the-secret-best-immersive-sim-in-coop-thanks-to-this-mod/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/sim/you-can-now-play-the-secret-best-immersive-sim-in-coop-thanks-to-this-mod/)*

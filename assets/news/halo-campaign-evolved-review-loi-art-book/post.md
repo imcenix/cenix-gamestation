@@ -31,4 +31,4 @@ Chưa dừng ở đó, game còn bắt buộc liên kết tài khoản Microsoft
 
 Hội cựu binh Halo, mấy ông có định mua Campaign Evolved không, hay đợi giảm giá rồi quay về ôm MCC cho chắc? Để lại comment cho Cenix biết phe của mấy ông nhé!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/halo/halo-campaign-evolved-review/), [PC Gamer](https://www.pcgamer.com/games/halo/halo-campaign-evolved-early-adopters-were-unable-to-play-the-game-on-steam-as-it-kept-forcing-them-to-look-at-the-art-book-instead/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/halo/halo-campaign-evolved-review/), [PC Gamer](https://www.pcgamer.com/games/halo/halo-campaign-evolved-early-adopters-were-unable-to-play-the-game-on-steam-as-it-kept-forcing-them-to-look-at-the-art-book-instead/)*

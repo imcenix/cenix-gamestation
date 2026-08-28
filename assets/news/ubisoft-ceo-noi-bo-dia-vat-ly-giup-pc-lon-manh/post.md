@@ -33,4 +33,4 @@ Chà, quyết định khó quá, làm sao để tốt cho cả hai? Sự thật 
 
 Mấy ông thuộc phe nào — vẫn giữ kệ đĩa game như báu vật, hay đã chuyển hẳn qua thư viện digital từ lâu rồi? Để lại bình luận cho Cenix biết phe của mấy ông nhé!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/ubisoft-ceo-says-ditching-physical-games-helped-pc-gaming-and-playstation-ending-discs-wont-disturb-the-industry-much-anyway/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/ubisoft-ceo-says-ditching-physical-games-helped-pc-gaming-and-playstation-ending-discs-wont-disturb-the-industry-much-anyway/)*

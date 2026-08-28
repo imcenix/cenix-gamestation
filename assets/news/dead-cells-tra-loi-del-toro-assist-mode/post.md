@@ -37,4 +37,4 @@ PC Gamer bênh del Toro một câu khá thấm: một trong những từ khoá G
 
 Còn mấy ông thì sao — có bao giờ bật một game lên chơi cả chục giờ rồi mới phát hiện ra nó có sẵn chế độ mình cần từ đầu chưa? Kể Cenix nghe với, comment cái coi ai "lỡ tay" đau nhất!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/roguelike/dead-cells-studio-thanks-guillermo-del-toro-for-playing-its-game-gently-suggests-he-try-the-easy-mode/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/roguelike/dead-cells-studio-thanks-guillermo-del-toro-for-playing-its-game-gently-suggests-he-try-the-easy-mode/)*

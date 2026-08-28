@@ -37,4 +37,4 @@ Nếu mấy ông đang tìm một trò để nhóm 3-4 người cười sặc tr
 
 Mấy ông thấy sao — game co-op nhảm nào từng khiến hội anh em mình cười nhiều nhất từ trước tới giờ? Kể Cenix nghe với ở phần comment, biết đâu hội mình lại có kèo tối nay!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/sim/the-latest-cooperative-craze-is-a-physics-based-fishing-simulator-where-you-can-launch-your-catch-into-the-air-and-no-scope-it-with-a-sniper-rifle/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/sim/the-latest-cooperative-craze-is-a-physics-based-fishing-simulator-where-you-can-launch-your-catch-into-the-air-and-no-scope-it-with-a-sniper-rifle/)*

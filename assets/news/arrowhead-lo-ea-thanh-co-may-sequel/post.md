@@ -33,4 +33,4 @@ Nói thật, phản ứng của Jorjani còn thuộc hàng nhẹ nhàng nhất. 
 
 Chà, quyết định khó quá, làm sao để tốt cho cả hai? Một bên là dòng vốn khổng lồ đúng lúc ngành game đang khát tiền, một bên là nỗi sợ EA chỉ còn bóng đá với súng ống. Anh em nghĩ 3 năm nữa EA sẽ ra loại game gì — vẫn có chỗ cho mấy tựa nhỏ như Unravel, hay chỉ còn FC với Battlefield? Kể Cenix nghe với.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/saudi-arabias-usd55-billion-takeover-of-ea-could-waste-one-of-the-best-catalogues-in-the-industry-by-reducing-it-to-a-sequel-and-mega-franchise-machine-helldivers-2-boss-worries/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/saudi-arabias-usd55-billion-takeover-of-ea-could-waste-one-of-the-best-catalogues-in-the-industry-by-reducing-it-to-a-sequel-and-mega-franchise-machine-helldivers-2-boss-worries/)*

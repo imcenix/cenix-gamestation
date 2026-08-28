@@ -34,4 +34,4 @@ GoW 2 là dạng campaign "phá đảo trong một cuối tuần" đúng nghĩa:
 
 Anh em nào từng cày GoW 2 trên Xbox 360 điểm danh coi — và giờ có làm lại chuyến "chui bụng sâu" trên PC không? Hôm nay không chơi hôm nào chơi?
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/third-person-shooter/theres-an-unofficial-pc-port-of-gears-of-war-2-based-on-a-leaked-build-from-2008/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/third-person-shooter/theres-an-unofficial-pc-port-of-gears-of-war-2-based-on-a-leaked-build-from-2008/)*

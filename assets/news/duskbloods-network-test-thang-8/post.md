@@ -32,4 +32,4 @@ FromSoftware nói rõ mục tiêu: "Chúng tôi dự định chạy test tải m
 
 Anh em team Souls nào tính canh đăng ký từ 22/7 để được sờ tận tay game mới nhất của Miyazaki? Điểm danh cho Cenix xem lực lượng nào!
 
-*Nguồn: [GamesRadar](https://www.gamesradar.com/games/action-rpg/fromsoftware-finally-wakes-up-announces-the-duskbloods-closed-network-test-for-next-month-and-says-you-can-register-next-week/)*
+*Nguồn tham khảo: [GamesRadar](https://www.gamesradar.com/games/action-rpg/fromsoftware-finally-wakes-up-announces-the-duskbloods-closed-network-test-for-next-month-and-says-you-can-register-next-week/)*

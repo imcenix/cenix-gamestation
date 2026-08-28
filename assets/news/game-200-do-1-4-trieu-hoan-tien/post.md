@@ -33,4 +33,4 @@ Nhân tiện, Major bảo đặt giá 200 đô vì đó là mức trần Steam c
 
 Anh em nghĩ sao — đây là lỗ hổng refund cần Valve siết lại, hay chỉ là chuyện vui của internet? Điểm danh coi có ai đủ máu bỏ 200 đô mua thử không, một khi đã máu thì đừng hỏi bố cháu là ai nữa!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/i-was-this-close-teenage-devs-usd200-joke-game-made-nearly-usd1-4-million-on-steam-before-the-refunds-came-flooding-in/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/i-was-this-close-teenage-devs-usd200-joke-game-made-nearly-usd1-4-million-on-steam-before-the-refunds-came-flooding-in/)*

@@ -28,4 +28,4 @@ Góc nhìn Cenix: với người chơi, tin này nửa buồn nửa mừng — b
 
 Câu hỏi cho anh em: nếu được quyết thay Hasbro, mấy ông chọn gì — dồn tiền tìm studio làm BG4, hay để yên tượng đài và làm một RPG D&D hoàn toàn mới? Tranh luận dưới comment nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/hasbro-takes-usd56-million-hit-over-multiple-game-cancellations-but-its-still-talking-about-how-baldurs-gate-3-is-key-to-its-future-success/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/hasbro-takes-usd56-million-hit-over-multiple-game-cancellations-but-its-still-talking-about-how-baldurs-gate-3-is-key-to-its-future-success/)*

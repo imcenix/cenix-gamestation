@@ -33,4 +33,4 @@ Trong sự nghiệp của mình, Yoshida từng góp phần định hình gần 
 
 Mấy ông có còn ngồi chờ ngày Bloodborne lên PC hay PS5 không, hay đã bỏ cuộc từ lâu rồi? Để lại bình luận cho Cenix biết mấy ông nghĩ sao về vụ này nhé!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/action-rpg/even-former-playstation-chief-shuhei-yoshida-doesnt-know-why-bloodborne-hasnt-been-remastered-or-released-on-pc-its-a-complete-mystery/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/action-rpg/even-former-playstation-chief-shuhei-yoshida-doesnt-know-why-bloodborne-hasnt-been-remastered-or-released-on-pc-its-a-complete-mystery/)*

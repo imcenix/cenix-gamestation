@@ -47,4 +47,4 @@ Cách giải hay nhất có lẽ là dùng các dạng biến đổi và cảnh 
 
 Mấy pa muốn thấy trận nào nhất trong 12 trận đó? Sephiroth, Jenova, hay mấy con Weapon? Điểm danh phe FF7 và phe FF14 cho Cenix xem đông tới đâu nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/final-fantasy/final-fantasy-7-revelation-boss-has-been-thinking-about-ways-to-make-a-mysterious-boss-suitable-for-the-upcoming-crossover-raid-with-final-fantasy-14/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/final-fantasy/final-fantasy-7-revelation-boss-has-been-thinking-about-ways-to-make-a-mysterious-boss-suitable-for-the-upcoming-crossover-raid-with-final-fantasy-14/)*

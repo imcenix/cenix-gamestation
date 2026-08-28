@@ -41,4 +41,4 @@ Lời khuyên từ chính bài viết gốc: vào chơi với càng ít thông t
 
 Mấy ông đã rủ được ai chưa, hay vẫn đang ngồi chờ đồng đội online? Điểm danh phần comment cho Cenix ghép kèo với nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/co-op/game-of-the-week-august-3-7-big-walk/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/co-op/game-of-the-week-august-3-7-big-walk/)*

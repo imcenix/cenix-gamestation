@@ -40,4 +40,4 @@ Cenix thì thấy vụ này nối tiếp khá gọn mạch tin mấy tuần qua 
 
 Còn anh em ở đây thì sao? Mấy ông thuộc phe cầm đĩa lên kệ cho oai, hay phe tải về cho gọn máy? Mà nếu 2028 đĩa biến mất thật, mấy pa có tiếc không? Điểm danh chia phe trong comment cho Cenix xem bên nào đông hơn nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/survival-horror/resident-evil-requiem-is-selling-just-as-many-physical-copies-as-digital-globally-with-near-50-percent-splits-according-to-analysts-except-for-in-the-us-that-is/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/survival-horror/resident-evil-requiem-is-selling-just-as-many-physical-copies-as-digital-globally-with-near-50-percent-splits-according-to-analysts-except-for-in-the-us-that-is/)*

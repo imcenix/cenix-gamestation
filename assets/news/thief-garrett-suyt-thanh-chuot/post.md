@@ -28,4 +28,4 @@ PC Gamer đoán không khó những "câu hỏi" đó là gì: Thief là game **
 
 Anh em thế hệ nào từng nín thở nấp trong bóng tối cùng Garrett thì điểm danh phát coi! Còn hội trẻ chưa biết Thief là gì — cứ chờ bản remaster rồi vào học "ông tổ dạy nghề", bảo đảm hiểu ngay vì sao game lén lút ngày nay nợ ổng một lời cảm ơn.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fps/15-years-before-dishonored-thief-devs-considered-letting-garrett-shrink-himself-rat-sized-so-he-could-scurry-through-drains-and-mouse-holes/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fps/15-years-before-dishonored-thief-devs-considered-letting-garrett-shrink-himself-rat-sized-so-he-could-scurry-through-drains-and-mouse-holes/)*

@@ -31,4 +31,4 @@ Cái này khó nói thiệt chớ — nhưng nhìn cách Pocketpair liên tục 
 
 Hội mê game xây dựng kết hợp tự động hóa, mấy ông đã thử demo Clicky Islands chưa? Cảm giác đầu tiên thế nào, kể Cenix nghe với!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/strategy/palworld-studio-pocketpair-is-publishing-a-new-indie-game-that-mixes-factorio-style-automation-town-building-and-more-and-you-can-try-it-for-free-on-steam/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/strategy/palworld-studio-pocketpair-is-publishing-a-new-indie-game-that-mixes-factorio-style-automation-town-building-and-more-and-you-can-try-it-for-free-on-steam/)*

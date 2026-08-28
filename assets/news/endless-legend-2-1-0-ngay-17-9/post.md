@@ -32,4 +32,4 @@ Nói thêm cho anh em nào còn phân vân: hồi năm ngoái, ngay khi game cò
 
 Mấy ông tính mở màn ván 1.0 bằng phe nào — Sandshapers biến hành tinh thành sa mạc, hay chọn luôn Severed Claw cho máu? Điểm danh dưới comment nha.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/strategy/endless-legend-2-is-escaping-early-access-in-september-and-adding-new-major-minor-and-rogue-factions/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/strategy/endless-legend-2-is-escaping-early-access-in-september-and-adding-new-major-minor-and-rogue-factions/)*

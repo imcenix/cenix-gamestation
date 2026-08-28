@@ -27,4 +27,4 @@ Bản đầu *Mortal Shell* chơi ổn — đủ ổn để Cold Symmetry có kh
 
 Một khi đã máu thì đừng hỏi bố cháu là ai nữa — anh em đội soulslike đã sẵn sàng chết đi sống lại ở Mortal Shell 2 chưa? Ai định hốt ngày đầu thì điểm danh cho Cenix xem nào!
 
-*Nguồn: [GamesRadar](https://www.gamesradar.com/games/action-rpg/mortal-shell-2-is-suddenly-one-of-my-most-anticipated-soulslikes-and-its-out-next-month/)*
+*Nguồn tham khảo: [GamesRadar](https://www.gamesradar.com/games/action-rpg/mortal-shell-2-is-suddenly-one-of-my-most-anticipated-soulslikes-and-its-out-next-month/)*

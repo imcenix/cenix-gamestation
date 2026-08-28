@@ -39,4 +39,4 @@ Cái này khó nha, khó nói thiệt chớ. Một bên là quyền minh bạch 
 
 Anh em nghĩ sao — nhãn AI trên Steam có đủ để mấy ông yên tâm xuống tiền không, hay thấy có AI là quay xe luôn? Mà giọng nói AI trong game lái xe thì mấy pa chịu được tới đâu? Comment cho Cenix nghe quan điểm của hội mình.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/simulation/saber-finally-adds-ai-disclosure-to-rideshare-stimulator-amid-ceos-public-feud-with-a-former-writer-who-claims-she-was-replaced-by-chatgpt/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/simulation/saber-finally-adds-ai-disclosure-to-rideshare-stimulator-amid-ceos-public-feud-with-a-former-writer-who-claims-she-was-replaced-by-chatgpt/)*
