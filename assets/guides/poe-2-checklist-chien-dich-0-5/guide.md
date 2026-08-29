@@ -10,7 +10,7 @@ tags:
   - TÂN THỦ
   - CHECKLIST
 excerpt: Đi hết chiến dịch bản 0.5 mà không sót nhiệm vụ thì ăn 24 điểm kỹ năng, 100 Spirit và 30% kháng nguyên tố. Bỏ lỡ thì mất vĩnh viễn — checklist đây.
-cover:
+cover: cover.jpg
 ---
 Chiến dịch _Path of Exile 2_ bản 0.5 rải phần thưởng **vĩnh viễn** khắp 4 Act và 3 Interlude. Vấn đề là nhiều cái nằm ở nhiệm vụ phụ, chạy lướt qua là mất luôn, không có đường quay lại nhặt. Mấy ông nghe tin gì chưa — đi đủ thì tổng cộng ăn **24 điểm kỹ năng weapon set, 100 Spirit và 30% kháng nguyên tố**. Đây là checklist do **Mordarim** tổng hợp.
 

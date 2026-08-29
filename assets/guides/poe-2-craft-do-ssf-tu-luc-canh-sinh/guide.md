@@ -10,7 +10,7 @@ tags:
   - SSF
   - CRAFT
 excerpt: Chơi SSF là không mua được đồ của ai, muốn mặc gì phải tự craft. Bài này là trình tự currency, cách gom base và mấy combo Omen biến đồ thường thành đồ dùng được.
-cover:
+cover: cover.jpg
 ---
 Chơi **SSF (Solo Self-Found)** trong _Path of Exile 2_ nghĩa là không mua được đồ của ai hết. Muốn mặc gì thì tự cày base, tự gom currency, tự craft. Nghe khổ, nhưng craft ở PoE 2 có trình tự đàng hoàng chứ không phải đập bừa cầu may. Để Cenix kể cho nghe.
 
