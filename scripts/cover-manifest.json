@@ -1202,5 +1202,45 @@
   {
     "path": "assets/news/linus-torvalds-debug-dia-nguc-ai/cover.jpg",
     "page": "https://www.pcgamer.com/hardware/linus-torvalds-details-his-debug-session-from-hell-pushing-an-ai-to-fix-an-error-it-repeatedly-said-was-impossible-and-unsolvable-he-then-made-it-write-the-report/"
+  },
+  {
+    "path": "assets/news/gta6-30fps-console-chua-co-performance-mode/cover.jpg",
+    "page": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-will-run-at-30fps-across-ps5-and-xbox-series-x-and-rockstar-is-reportedly-undecided-about-adding-a-performance-mode-to-better-that/"
+  },
+  {
+    "path": "assets/news/ps5-pro-chay-hang-sau-gta6-1300-do/cover.jpg",
+    "page": "https://www.gamesradar.com/games/grand-theft-auto/ps5-pros-all-but-vanish-after-gta-6-reveal-going-for-up-to-usd1-300-at-the-few-stores-with-stock/"
+  },
+  {
+    "path": "assets/news/1666-amsterdam-bo-han-ai/cover.jpg",
+    "page": "https://www.gamesradar.com/games/action/after-ai-backlash-assassins-creed-creator-says-1666-amsterdam-wont-be-using-any-ai-anymore-and-only-used-it-in-conception-and-pre-production/"
+  },
+  {
+    "path": "assets/news/dlss-5-ro-ri-mod-vao-control/cover.jpg",
+    "page": "https://www.pcgamer.com/hardware/graphics-cards/looks-like-you-can-try-dlss-5-out-today-yourself/"
+  },
+  {
+    "path": "assets/news/ymtc-doi-soan-ngoi-nand-2027/cover.jpg",
+    "page": "https://www.pcgamer.com/hardware/ssds/chinese-memory-maker-ymtc-wants-to-dethrone-samsung-and-sk-hynix-by-the-end-of-2027/"
+  },
+  {
+    "path": "assets/news/tim-willits-carmack-che-skynet/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/game-development/id-softwares-former-co-owner-says-they-absolutely-wouldve-used-gen-ai-back-in-the-day-john-carmack-would-be-like-making-skynet-or-something/"
+  },
+  {
+    "path": "assets/news/activision-body-cam-trum-cheat-cod/cover.jpg",
+    "page": "https://www.gamesradar.com/games/call-of-duty/activision-releases-body-cam-footage-of-call-of-duty-cheat-maker-being-served-a-cease-and-desist-order-were-taking-the-fight-directly-to-cheat-sellers/"
+  },
+  {
+    "path": "assets/news/xbox-chao-ban-hon-chuc-phim-game/cover.jpg",
+    "page": "https://www.gamesradar.com/games/the-elder-scrolls/xbox-is-reportedly-pitching-movie-and-tv-adaptations-for-more-than-a-dozen-games-including-elder-scrolls-and-halo/"
+  },
+  {
+    "path": "assets/news/star-wars-galactic-racer-hau-rotj/cover.jpg",
+    "page": "https://www.gamesradar.com/games/racing/star-wars-galactic-racer-is-a-sports-movie-story-set-after-return-of-the-jedi-because-it-mirrors-the-real-life-post-ww2-motorsports-boom/"
+  },
+  {
+    "path": "assets/news/aliens-fireteam-elite-2-jankcore/cover.jpg",
+    "page": "https://www.gamesradar.com/games/third-person-shooter/aliens-fireteam-elite-2-review/"
   }
 ]
