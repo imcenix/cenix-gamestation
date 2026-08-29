@@ -33,4 +33,4 @@ Owlcat còn tiết lộ vài số liệu từ beta: kiểu nhân vật được 
 
 Dark Heresy hiện chưa có ngày phát hành. Trong lúc chờ, anh em tính main class nào? Chốt kèo dưới comment cho Cenix biết đội hình dự kiến của mấy ông nha.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/warhammer-40-000-dark-heresy-will-let-us-recruit-a-space-elf-pirate-and-one-of-the-holy-psychics-whose-lives-are-nasty-brutish-and-short/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/warhammer-40-000-dark-heresy-will-let-us-recruit-a-space-elf-pirate-and-one-of-the-holy-psychics-whose-lives-are-nasty-brutish-and-short/)*

@@ -31,4 +31,4 @@ Thành thật tới vậy cũng đáng nể. 40 triệu bản không xóa đư�
 
 Anh em thấy sao — *Cyberpunk 2077* có xứng đáng với cú comeback này chưa, hay vết sẹo ngày đầu vẫn khiến anh em dè chừng? Kể Cenix nghe với!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/cyberpunk-2077-has-now-sold-more-than-40-million-copies-a-testament-to-what-cd-projekt-does-best/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/cyberpunk-2077-has-now-sold-more-than-40-million-copies-a-testament-to-what-cd-projekt-does-best/)*

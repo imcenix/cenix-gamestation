@@ -37,4 +37,4 @@ Cenix không có lời đùa nào cho tin này. Chỉ mong 75 anh em bên kia s�
 
 Mấy ông có ai chơi Directive 8020 chưa, thấy sao? Nếu thấy hay thì kể vài dòng ở phần comment — lúc này một lời khen cho đội làm game cũng đáng giá lắm.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/3-months-after-the-release-of-directive-8020-supermassive-games-is-laying-off-even-more-people/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/3-months-after-the-release-of-directive-8020-supermassive-games-is-laying-off-even-more-people/)*

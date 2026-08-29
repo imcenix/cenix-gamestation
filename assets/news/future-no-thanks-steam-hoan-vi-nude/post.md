@@ -31,4 +31,4 @@ Vui thì vui, nhưng tỉnh vẫn phải tỉnh: đây không phải lần đầ
 
 Theo anh em, Steam nên minh bạch quy trình review kiểu gì để đỡ oan cho mấy ông làm game nhỏ? Kể Cenix nghe với!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/indie-game-gets-last-minute-steam-delay-while-valve-reviews-its-dozens-of-untextured-polygons-depicting-ass-and-boobs/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/indie-game-gets-last-minute-steam-delay-while-valve-reviews-its-dozens-of-untextured-polygons-depicting-ass-and-boobs/)*

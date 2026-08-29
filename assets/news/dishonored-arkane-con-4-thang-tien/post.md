@@ -45,4 +45,4 @@ Vui thì vui, tỉnh vẫn phải tỉnh: cái ranh giới giữa "studio huyề
 
 Mấy pa thì sao — bản Arkane nào là chân ái của mấy ông: *Dishonored*, *Dishonored 2* hay *Prey*? Chia phe ở phần comment đi, Cenix đếm phiếu!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/action/dishonored-was-a-last-ditch-effort-by-arkane-studios-after-years-of-fruitless-contract-work-according-to-the-games-co-creator-i-think-we-had-four-months-of-money-left/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/action/dishonored-was-a-last-ditch-effort-by-arkane-studios-after-years-of-fruitless-contract-work-according-to-the-games-co-creator-i-think-we-had-four-months-of-money-left/)*

@@ -32,4 +32,4 @@ Thay vào đó, hướng của GGG là làm mới campaign qua mỗi league đ�
 
 Anh em phe nào: "campaign là nghi thức thiêng liêng" hay "cho tui skip giùm cái"? Vô comment chia phe, lần này Cenix đoán tỉ số sẽ sát nút lắm đó!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/path-of-exile-devs-want-it-to-be-easier-for-new-players-but-still-wont-let-you-skip-its-20-hour-campaign-every-league-at-least-not-yet-it-feels-very-wrong-to-me/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/path-of-exile-devs-want-it-to-be-easier-for-new-players-but-still-wont-let-you-skip-its-20-hour-campaign-every-league-at-least-not-yet-it-feels-very-wrong-to-me/)*

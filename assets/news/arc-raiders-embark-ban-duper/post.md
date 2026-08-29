@@ -29,4 +29,4 @@ Với các trường hợp nghiêm trọng — "nơi việc khai thác lỗi gâ
 
 Nghe cũng hợp tình hợp lý. Anh em team Arc Raiders — ủng hộ Embank mạnh tay dẹp dupe, hay thấy vậy là hơi gắt? Comment cho Cenix biết nhé!
 
-*Nguồn: [GamesRadar](https://www.gamesradar.com/games/third-person-shooter/embark-slaps-arc-raiders-dupers-with-bans-and-drains-their-vaults-suspensions-for-the-severe-cases-particularly-where-exploit-usage-had-a-significant-impact-on-the-in-game-economy/)*
+*Nguồn tham khảo: [GamesRadar](https://www.gamesradar.com/games/third-person-shooter/embark-slaps-arc-raiders-dupers-with-bans-and-drains-their-vaults-suspensions-for-the-severe-cases-particularly-where-exploit-usage-had-a-significant-impact-on-the-in-game-economy/)*

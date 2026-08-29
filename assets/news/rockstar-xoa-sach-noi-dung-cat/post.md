@@ -34,4 +34,4 @@ Nói vui chứ đây là tin hơi buồn cho hội "đào mộ" — cộng đồ
 
 Anh em thấy Rockstar cẩn thận vậy là hợp lý hay tiếc vì mất đi cái thú "săn bí mật trong file game"? Comment cho Cenix nghe với nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/grand-theft-auto/after-gta-san-andreas-hot-coffee-debacle-rockstar-makes-a-huge-effort-to-wipe-anything-cut-from-its-game-to-avoid-accidentally-shipping-it-ex-dev-says/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/grand-theft-auto/after-gta-san-andreas-hot-coffee-debacle-rockstar-makes-a-huge-effort-to-wipe-anything-cut-from-its-game-to-avoid-accidentally-shipping-it-ex-dev-says/)*

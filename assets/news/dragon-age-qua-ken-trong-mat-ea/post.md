@@ -39,4 +39,4 @@ Vui thì vui, tỉnh vẫn phải tỉnh: đằng sau mấy vòng reboot là cô
 
 Anh em nghĩ sao — Dragon Age còn cửa quay lại dưới tay EA, hay đã tới lúc mong nó tìm một mái nhà khác? Chia phe ở phần comment cho Cenix xem nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/dragon-age/dragon-age-was-always-too-niche-too-backwards-too-old-school-in-eas-eyes-former-bioware-lead-argues/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/dragon-age/dragon-age-was-always-too-niche-too-backwards-too-old-school-in-eas-eyes-former-bioware-lead-argues/)*

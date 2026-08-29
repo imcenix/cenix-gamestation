@@ -30,4 +30,4 @@ Vì nó khó và tốn công kinh khủng: game multiplayer hiện đại xây q
 
 Ước gì "un-live-service trước khi đóng cửa" thành tiêu chuẩn ngành ha anh em? Game live-service nào đã mất mà anh em ước được cứu kiểu này — comment tên để Cenix cùng thắp nến tưởng niệm nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fps/closed-game-studio-returns-to-un-live-service-its-game-with-community-servers-before-shutdown-we-dont-believe-deceive-inc-should-quietly-disappear/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fps/closed-game-studio-returns-to-un-live-service-its-game-with-community-servers-before-shutdown-we-dont-believe-deceive-inc-should-quietly-disappear/)*

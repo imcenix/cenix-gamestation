@@ -31,4 +31,4 @@ Việc một cựu lãnh đạo cấp cao nhất của chính hãng cũng "bó t
 
 Hội mê Souls, mấy ông nghĩ Bloodborne có bao giờ được remaster thật không, hay đây sẽ mãi là "chiến tích PS4 độc quyền" không ai được chạm vào? Bình luận cho Cenix biết dự đoán của mấy ông nhé.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/action-rpg/even-former-playstation-chief-shuhei-yoshida-doesnt-know-why-bloodborne-hasnt-been-remastered-or-released-on-pc-its-a-complete-mystery/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/action-rpg/even-former-playstation-chief-shuhei-yoshida-doesnt-know-why-bloodborne-hasnt-been-remastered-or-released-on-pc-its-a-complete-mystery/)*

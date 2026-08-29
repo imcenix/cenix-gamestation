@@ -27,4 +27,4 @@ Vui thì vui, tỉnh vẫn phải tỉnh: chưa có ngày ra mắt, cũng chưa 
 
 Anh em team nào — nóng lòng cho Fallout 3 hay New Vegas hơn? Chà, quyết định khó quá, làm sao để tốt cho cả hai? Chia phe cho Cenix xem nào!
 
-*Nguồn: [GamesRadar](https://www.gamesradar.com/games/fallout/fallout-3-and-fallout-new-vegas-are-both-getting-remasters-bethesda-announces/)*
+*Nguồn tham khảo: [GamesRadar](https://www.gamesradar.com/games/fallout/fallout-3-and-fallout-new-vegas-are-both-getting-remasters-bethesda-announces/)*

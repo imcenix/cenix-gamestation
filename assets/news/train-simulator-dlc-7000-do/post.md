@@ -28,4 +28,4 @@ Train Simulator Classic là "kỳ quan" độc nhất của Steam: hơn một th
 
 Câu hỏi khảo sát vui cho anh em: nếu được phát không 6.993 USD nhưng BẮT BUỘC tiêu trong Steam, mấy ông mua full DLC tàu hỏa hay quét sạch wishlist cả đời? Khai thật dưới comment coi, Cenix nghi có ông chọn tàu hỏa thật đó nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/sim/steams-train-fest-sale-means-all-790-pieces-of-train-simulator-classic-dlc-can-be-yours-for-a-mere-usd6-993-instead-of-usd15-621/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/sim/steams-train-fest-sale-means-all-790-pieces-of-train-simulator-classic-dlc-can-be-yours-for-a-mere-usd6-993-instead-of-usd15-621/)*

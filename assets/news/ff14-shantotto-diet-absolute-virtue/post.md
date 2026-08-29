@@ -31,4 +31,4 @@ Nói cho mấy ông chưa rõ độ nặng ký: **Absolute Virtue** là một tr
 
 Anh em cày FF14 thấy màn flex này của Shantotto có "phê" không? Trong đám raid crossover, mấy ông ấn tượng con boss nào nhất? Điểm danh khoe clear nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/final-fantasy/final-fantasy-14s-third-walk-raid-starts-with-ff11s-most-infamous-boss-being-bodied-in-a-cutscene-because-a-raid-designer-wanted-to-show-off-the-true-strength-of-your-first-foe/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/final-fantasy/final-fantasy-14s-third-walk-raid-starts-with-ff11s-most-infamous-boss-being-bodied-in-a-cutscene-because-a-raid-designer-wanted-to-show-off-the-true-strength-of-your-first-foe/)*

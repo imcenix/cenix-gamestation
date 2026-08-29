@@ -37,4 +37,4 @@ Kết quả thì ai cũng rõ: Wii và DS nổi tiếng vì kéo được cả n
 
 Mấy pa nghĩ sao — tới 2026 rồi, "gamer" đã thành một từ bình thường chưa, hay vẫn còn bị nhìn khác? Comment kể Cenix nghe nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/hardware/nintendo-designed-the-ds-and-wii-to-normalize-being-a-gamer-says-shigeru-miyamoto-we-dont-say-book-readers-and-non-book-readers/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/hardware/nintendo-designed-the-ds-and-wii-to-normalize-being-a-gamer-says-shigeru-miyamoto-we-dont-say-book-readers-and-non-book-readers/)*

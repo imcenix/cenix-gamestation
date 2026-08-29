@@ -31,4 +31,4 @@ Với anh em game thủ PC, điều này có thể báo hiệu Epic Games Store 
 
 Mấy ông đang dùng Epic Games Store hay trung thành với Steam? Cenix tò mò xem phe nào đông hơn, để lại bình luận nhé!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/platforms/pc-gaming/epic-taps-blizzards-battle-net-lead-to-fix-the-epic-games-store-as-steam-dominates/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/platforms/pc-gaming/epic-taps-blizzards-battle-net-lead-to-fix-the-epic-games-store-as-steam-dominates/)*

@@ -34,4 +34,4 @@ Khá là dễ thương: "Chúng tôi định công bố gợi ý cho rương c�
 
 Anh em nào đang chơi Resynced thì check tọa độ trên kẻo hụt đồ nha. Mà khoan — ai chưa nhặt Explorer Outfit thì cuối tuần này lặn biển thôi, hôm nay không chơi hôm nào chơi?
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/assassin-s-creed/assassins-creed-black-flag-resynced-players-keep-spoiling-ubisofts-community-treasure-hunt-with-genuinely-insane-luck/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/assassin-s-creed/assassins-creed-black-flag-resynced-players-keep-spoiling-ubisofts-community-treasure-hunt-with-genuinely-insane-luck/)*

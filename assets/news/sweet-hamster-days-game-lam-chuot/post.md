@@ -32,4 +32,4 @@ Từ Trevor bắn phá Los Santos tới bé Hamta được xoa đầu — đúng
 
 Túm cái váy lại: một ngày mệt mỏi, deadline dí, rank tụt — về nhà làm chuột hamster được cưng 30 phút nghe cũng chữa lành phết chớ bộ? Anh em có dám thử "trải nghiệm làm thú cưng" này không, hay thấy dị quá nhập vai không nổi? Comment cho Cenix biết độ chịu chơi của mấy ông coi!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/visual-novel/the-fmv-game-where-youre-a-hamster-being-doted-on-by-three-japanese-sisters-was-inspired-by-its-creators-job-as-an-animal-mascot-and-grand-theft-auto-5/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/visual-novel/the-fmv-game-where-youre-a-hamster-being-doted-on-by-three-japanese-sisters-was-inspired-by-its-creators-job-as-an-animal-mascot-and-grand-theft-auto-5/)*

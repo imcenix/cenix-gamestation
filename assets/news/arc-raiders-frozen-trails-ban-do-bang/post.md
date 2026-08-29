@@ -37,4 +37,4 @@ Một khi đã máu thì đừng hỏi bố cháu là ai nữa — Cenix đoán 
 
 Mấy ông chờ nhất thứ gì ở Frozen Trails — bản đồ mới, đám arc mới, hay lời giải cho bí ẩn arc? Và anh em đã max Raider Den chưa, hay vẫn còn đang cày dở như Cenix? Comment kể nghe với.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/third-person-shooter/arc-raiders-next-major-update-will-present-players-with-a-new-high-level-challenge-with-a-frozen-map-and-arcs-which-will-challenge-the-ways-youve-learned-to-move/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/third-person-shooter/arc-raiders-next-major-update-will-present-players-with-a-new-high-level-challenge-with-a-frozen-map-and-arcs-which-will-challenge-the-ways-youve-learned-to-move/)*

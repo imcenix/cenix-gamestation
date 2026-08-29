@@ -33,4 +33,4 @@ Câu hỏi thật sự cho nửa cuối năm là: Meccha Chameleon giữ đượ
 
 Mấy ông đã nhảy hố con tắc kè này chưa? Ai đang cày bản Steam, ai bị bạn bè lôi qua Roblox chơi bản nhái — điểm danh cho Cenix biết cái nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/co-op/steam-indie-hit-meccha-chameleon-made-more-money-than-any-other-pc-game-last-month-apart-from-fortnite-according-to-new-data/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/co-op/steam-indie-hit-meccha-chameleon-made-more-money-than-any-other-pc-game-last-month-apart-from-fortnite-according-to-new-data/)*

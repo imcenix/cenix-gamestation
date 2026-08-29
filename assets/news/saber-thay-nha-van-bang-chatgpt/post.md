@@ -35,4 +35,4 @@ Cenix nói thẳng: chuyện studio dùng AI là câu chuyện dài của cả n
 
 Mấy ông đứng phe nào — chấp nhận AI nếu game hay, hay dứt khoát bỏ qua nếu không khai báo minh bạch? Chia phe ở phần comment cho Cenix xem với nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/simulation/saber-interactive-replaced-me-with-chatgpt-midway-through-development-but-ai-use-is-not-disclosed-on-steam-claims-former-lead-writer/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/simulation/saber-interactive-replaced-me-with-chatgpt-midway-through-development-but-ai-use-is-not-disclosed-on-steam-claims-former-lead-writer/)*

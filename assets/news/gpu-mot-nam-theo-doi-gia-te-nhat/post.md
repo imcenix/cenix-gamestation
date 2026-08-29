@@ -47,4 +47,4 @@ Vui thì vui, tỉnh vẫn phải tỉnh — nối tiếp mạch RAM Trung Quố
 
 Anh em đang ráp hay nâng cấp máy trong năm nay có bị hụt hẫng vì giá không? Mấy ông chọn cắn răng mua Nvidia hay quay xe sang AMD? Comment cho Cenix biết ví của hội mình đang chống chọi ra sao.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/hardware/graphics-cards/weve-been-tracking-graphics-card-prices-for-exactly-one-year-and-its-never-been-worse-than-this/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/hardware/graphics-cards/weve-been-tracking-graphics-card-prices-for-exactly-one-year-and-its-never-been-worse-than-this/)*

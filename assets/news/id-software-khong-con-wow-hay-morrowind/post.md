@@ -33,4 +33,4 @@ Bài đăng của Willis được nhiều người trong ngành nhắc lại l�
 
 Mấy ông nghĩ ngành game có cách nào thoát khỏi vòng luẩn quẩn sa thải — remake — sa thải này không? Chia sẻ góc nhìn với Cenix dưới comment nhé.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/youll-never-get-another-world-of-warcraft-or-morrowind-in-the-current-climate-id-software-producer-says-as-constant-layoffs-batter-the-industry/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/youll-never-get-another-world-of-warcraft-or-morrowind-in-the-current-climate-id-software-producer-says-as-constant-layoffs-batter-the-industry/)*

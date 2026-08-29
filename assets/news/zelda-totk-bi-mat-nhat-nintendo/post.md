@@ -32,4 +32,4 @@ Vì sao phải kín cỡ đó? Vì Breath of the Wild là tựa game mở ra c�
 
 Anh em còn nhớ mình ở đâu, làm gì khi xem trailer sequel BotW năm 2019 không? Cenix thì nhớ rõ — đang giả bộ làm việc và suýt hét lên giữa văn phòng. Kể kỷ niệm của mấy ông nghe coi!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/the-legend-of-zelda/zelda-tears-of-the-kingdom-was-so-secret-within-nintendo-most-employees-found-out-about-it-for-the-first-time-at-its-e3-reveal-we-popped-off/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/the-legend-of-zelda/zelda-tears-of-the-kingdom-was-so-secret-within-nintendo-most-employees-found-out-about-it-for-the-first-time-at-its-e3-reveal-we-popped-off/)*

@@ -33,4 +33,4 @@ Và năm 2025, studio 37 tuổi này đã phải **cắt giảm khoảng một n
 
 Mấy ông thì sao — nếu Project Anglerfish mở gọi vốn ngày mai, anh em có đặt gạch không? Kể Cenix nghe với!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/adventure/cyan-releases-teaser-for-the-first-new-myst-game-in-20-years-then-breaks-the-news-that-its-not-actually-being-made/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/adventure/cyan-releases-teaser-for-the-first-new-myst-game-in-20-years-then-breaks-the-news-that-its-not-actually-being-made/)*

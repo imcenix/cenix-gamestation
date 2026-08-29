@@ -31,4 +31,4 @@ Cenix xin gửi lời chúc tới ông: cảm ơn vì Dead Space, vì những đ
 
 Anh em có kỷ niệm nào với Dead Space hay CoD của Schofield không? Kể Cenix nghe với nhé.
 
-*Nguồn: [GamesRadar](https://www.gamesradar.com/games/dead-space/dead-space-creator-glen-schofield-is-retiring-times-are-tough-right-now-but-the-future-ahead-is-really-really-bright/)*
+*Nguồn tham khảo: [GamesRadar](https://www.gamesradar.com/games/dead-space/dead-space-creator-glen-schofield-is-retiring-times-are-tough-right-now-but-the-future-ahead-is-really-really-bright/)*

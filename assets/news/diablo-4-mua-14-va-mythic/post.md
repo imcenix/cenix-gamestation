@@ -33,4 +33,4 @@ Blizzard giải thích rằng chỉnh tỉ lệ rơi (drop rate) chưa bao giờ
 
 Cenix thì thấy: Blizzard chịu lắng nghe và ra tay nhanh là tốt, nhưng "bớt khổ" khác với "hết khổ". Anh em đang cày Mùa 14 thấy sao — đợt vá này đã đủ để anh em quay lại lăn xả chưa, hay vẫn đợi cú đại phẫu thật sự? Comment cho Cenix biết nhé!
 
-*Nguồn: [GamesRadar](https://www.gamesradar.com/games/diablo/blizzard-responds-to-diablo-4-season-14-mythic-complaints-by-making-them-easier-to-craft-and-fixing-a-bug-that-stopped-bosses-from-dropping-them/)*
+*Nguồn tham khảo: [GamesRadar](https://www.gamesradar.com/games/diablo/blizzard-responds-to-diablo-4-season-14-mythic-complaints-by-making-them-easier-to-craft-and-fixing-a-bug-that-stopped-bosses-from-dropping-them/)*

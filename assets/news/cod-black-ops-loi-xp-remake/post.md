@@ -27,4 +27,4 @@ Activision đã tạm khóa "một số chế độ chơi" trong lúc điều tr
 
 Muộn còn hơn không, nhưng cũng phải nói thiệt: việc quên đổi mã hóa file save sau 15 năm nghe hơi... cẩu thả. Mấy ông có đang chơi bản port Black Ops mới này không, và có gặp phải mấy ông bạn XP "nhảy vọt" bất thường chưa? Vào comment kể Cenix nghe trải nghiệm của mấy ông với!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/call-of-duty/activision-seemingly-didnt-bother-fixing-a-15-year-old-call-of-duty-black-ops-exploit-for-its-new-port-modder-says-but-its-now-investigating-the-leftover-ps3-issue/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/call-of-duty/activision-seemingly-didnt-bother-fixing-a-15-year-old-call-of-duty-black-ops-exploit-for-its-new-port-modder-says-but-its-now-investigating-the-leftover-ps3-issue/)*

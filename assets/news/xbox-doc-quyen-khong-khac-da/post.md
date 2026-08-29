@@ -32,4 +32,4 @@ Nhìn từ ghế khán giả: sau đợt layoff lớn vừa rồi, Xbox cần l�
 
 Câu hỏi cho anh em: nếu TES6 hay OD thành độc quyền Xbox thật, anh em có xuống tiền mua máy không, hay "thôi em chờ bản PC"? Chia phe dưới comment cho Cenix đếm phiếu coi nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/xbox-exec-tells-fans-not-to-overly-fixate-on-single-player-games-becoming-console-exclusives-because-its-not-carved-in-stone/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/xbox-exec-tells-fans-not-to-overly-fixate-on-single-player-games-becoming-console-exclusives-because-its-not-carved-in-stone/)*

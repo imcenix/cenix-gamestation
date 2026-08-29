@@ -39,4 +39,4 @@ Với anh em mình, chuyện này khá thực tế: lần tới bấm refund m�
 
 Vậy game nào là "game dở" mà mấy ông học được nhiều nhất — cái nào dở mà mấy pa vẫn nhớ tới giờ? Điểm danh ở phần comment coi hội mình có trùng nhau không!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fallout-dev-tim-cain-says-we-should-pay-more-attention-to-bad-games-publishers-often-dont-learn-from-failure-because-they-only-look-at-the-games-that-sold-well/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fallout-dev-tim-cain-says-we-should-pay-more-attention-to-bad-games-publishers-often-dont-learn-from-failure-because-they-only-look-at-the-games-that-sold-well/)*

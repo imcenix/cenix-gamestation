@@ -30,4 +30,4 @@ Quan điểm của Cenix: cứ lạc quan trong tỉnh táo. Việc phần lớn
 
 Anh em dự đoán TES6 ra năm nào? Cenix đặt gạch 2028, ai kèo 2030 thì vô comment "chốt đơn" để sau này còn có bằng chứng cà khịa nhau nè.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/the-elder-scrolls/bethesda-says-the-elder-scrolls-6-is-going-great-actually-were-where-we-planned-to-be-loving-how-it-looks-and-playing-it-every-day/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/the-elder-scrolls/bethesda-says-the-elder-scrolls-6-is-going-great-actually-were-where-we-planned-to-be-loving-how-it-looks-and-playing-it-every-day/)*

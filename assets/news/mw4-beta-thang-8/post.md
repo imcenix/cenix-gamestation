@@ -31,4 +31,4 @@ Với anh em Việt mình, hai mốc cần nhớ: **21/8** nếu đã xuống ti
 
 Câu hỏi cho cả nhà: anh em thuộc team pre-order chơi sớm 5 ngày, hay team "beta free là đủ, game thì chờ review"? Và ai định thử CoD trên Switch 2 đợt 2 thì kể Cenix nghe cảm giác cầm tay bắn Modern Warfare nó ra sao nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/call-of-duty/modern-warfare-4-beta-dates-set-for-august-and-this-year-game-pass-subscribers-get-no-special-treatment/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/call-of-duty/modern-warfare-4-beta-dates-set-for-august-and-this-year-game-pass-subscribers-get-no-special-treatment/)*

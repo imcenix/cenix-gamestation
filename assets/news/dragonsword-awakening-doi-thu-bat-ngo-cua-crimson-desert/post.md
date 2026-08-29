@@ -34,4 +34,4 @@ Cũng như Crimson Desert, DragonSword: Awakening công khai minh bạch về AI
 
 Chà, quyết định khó quá, làm sao để tốt cho cả hai — chọn cày Crimson Desert hay nhảy hố DragonSword: Awakening đây mấy ông? Ai đã thử game này rồi thì để lại cảm nhận cho Cenix và anh em cùng biết nhé!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/rpg/the-new-open-world-rpg-climbing-steam-is-the-biggest-surprise-since-crimson-desert-huge-pretty-and-only-usd30/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/rpg/the-new-open-world-rpg-climbing-steam-is-the-biggest-surprise-since-crimson-desert-huge-pretty-and-only-usd30/)*

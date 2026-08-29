@@ -33,4 +33,4 @@ Cenix đoán lý do cũng dễ hiểu thôi: Rockstar đang dồn toàn bộ đ�
 
 Mấy ông nghĩ remake sẽ ra trước hay sau bản PC của GTA 6? Ai đoán trúng thì Cenix xin quỳ — comment xuống dưới đặt gạch trước đi nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/max-payne/max-payne-1-and-2-remake-is-still-happening-but-publisher-rockstar-wont-let-remedy-say-any-more/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/max-payne/max-payne-1-and-2-remake-is-still-happening-but-publisher-rockstar-wont-let-remedy-say-any-more/)*

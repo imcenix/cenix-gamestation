@@ -33,4 +33,4 @@ Với một công ty nhỏ, khoản tiền đó chắc chắn không nhỏ. Như
 
 Mấy ông có ai đang sở hữu một chiếc Playdate không? Và theo mấy ông, mấy hãng lớn khác có nên học theo cách làm này không? Kể Cenix nghe ở phần bình luận nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/its-just-not-our-money-to-keep-handheld-console-maker-panic-is-refunding-us-tariff-fees-to-its-customers/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/its-just-not-our-money-to-keep-handheld-console-maker-panic-is-refunding-us-tariff-fees-to-its-customers/)*

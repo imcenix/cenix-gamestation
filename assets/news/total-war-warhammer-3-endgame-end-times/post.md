@@ -33,4 +33,4 @@ Ngoài ra, đúng như tên gọi bản tin gốc, đợt này còn có bản **
 
 Anh em team nào — chờ hạ gục Archaon, hay hóng bản rework Vampire Counts nhiều hơn? Chia phe cho Cenix xem nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/strategy/total-war-warhammer-3-is-getting-new-endgames-individual-victory-conditions-a-vampire-counts-rework-and-nurgles-three-grossest-champions/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/strategy/total-war-warhammer-3-is-getting-new-endgames-individual-victory-conditions-a-vampire-counts-rework-and-nurgles-three-grossest-champions/)*

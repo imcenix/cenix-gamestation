@@ -44,4 +44,4 @@ Mười hai tháng tám, đánh dấu lịch đi mấy pa. Hôm nay không chơi
 
 Mấy ông định chốt đơn Warbond này chứ, hay đợi xem meta rồi mới quyết? Comment cho Cenix biết mấy pa hóng món nào nhất — giáp Cadian hay khẩu Meltagun nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/third-person-shooter/the-helldivers-2-x-warhammer-40k-warbond-arrives-on-august-12-bringing-three-of-its-most-iconic-weapons-and-two-imperial-guard-armour-sets/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/third-person-shooter/the-helldivers-2-x-warhammer-40k-warbond-arrives-on-august-12-bringing-three-of-its-most-iconic-weapons-and-two-imperial-guard-armour-sets/)*

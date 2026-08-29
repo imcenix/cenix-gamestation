@@ -37,4 +37,4 @@ Vui thì vui, nhưng tỉnh vẫn phải tỉnh: đây không phải chuyện So
 
 Anh em có bị kẹt đợt này không? Ai còn giữ tủ đĩa vật lý và thấy mình sáng suốt hôm nay thì điểm danh cái nào — Cenix hóng comment!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/the-playstation-store-and-network-are-down-a-great-sign-for-sonys-all-digital-no-disc-future/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/the-playstation-store-and-network-are-down-a-great-sign-for-sonys-all-digital-no-disc-future/)*

@@ -27,4 +27,4 @@ Vui thì vui, nhưng cũng phải công bằng: điểm review vẫn đang "Mixe
 
 Anh em nào đã lên tàu Resynced rồi, thấy nó xứng đáng với cơn sốt này không, hay chỉ là hào quang hoài niệm *Black Flag* năm xưa? Kể Cenix nghe với nhé!
 
-*Nguồn: [GamesRadar](https://www.gamesradar.com/games/assassin-s-creed/assassins-creed-black-flag-resynced-is-the-first-assassins-creed-game-ever-to-hit-over-100-000-concurrent-players-on-steam-and-it-only-took-3-days/)*
+*Nguồn tham khảo: [GamesRadar](https://www.gamesradar.com/games/assassin-s-creed/assassins-creed-black-flag-resynced-is-the-first-assassins-creed-game-ever-to-hit-over-100-000-concurrent-players-on-steam-and-it-only-took-3-days/)*

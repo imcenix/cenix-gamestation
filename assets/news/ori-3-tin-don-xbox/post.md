@@ -37,4 +37,4 @@ NateTheHate nói anh không chắc dự án sẽ lộ diện ở **Gamescom Open
 
 Mấy ông muốn Ori 3 giữ nguyên công thức Metroidvania cũ, hay dám đổi hẳn hướng như mấy ý tưởng điên rồ mà chính sếp Moon Studios từng úp mở? Chia phe ở phần comment đi, Cenix hóng!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/platformer/the-legend-of-zelda-ocarina-of-time-leaker-says-xbox-is-working-on-a-new-ori-game-6-years-after-its-last-excellent-metroidvania/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/platformer/the-legend-of-zelda-ocarina-of-time-leaker-says-xbox-is-working-on-a-new-ori-game-6-years-after-its-last-excellent-metroidvania/)*

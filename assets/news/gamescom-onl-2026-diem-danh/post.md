@@ -40,4 +40,4 @@ Gamescom mới chỉ mở màn, còn Future Games Show và cả tuần lễ sàn
 
 Trong cả đống công bố đêm nay, cái nào làm anh em bật dậy khỏi ghế? Witcher 3 tặng quà, Rainbow Six quay xe sang chiến thuật, hay Ananta dám ra sát nút GTA 6? Comment cho Cenix biết với, và điểm danh xem hội mình ai đã thức xem trực tiếp nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/news/live/gamescom-opening-night-live-2026-live-coverage/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/news/live/gamescom-opening-night-live-2026-live-coverage/)*

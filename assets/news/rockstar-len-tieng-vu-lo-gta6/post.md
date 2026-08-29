@@ -39,4 +39,4 @@ Cenix thì chọn né. Xem clip 480p quay lén của bản chưa hoàn thiện, 
 
 Còn mấy ông thì sao, đã lỡ xem chưa hay vẫn đang bịt mắt bịt tai chờ tới 19/11? Comment cho Cenix biết mấy ông thuộc phe nào nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/rockstar-responds-to-gta-6-leaks-this-is-not-how-we-intended-for-you-see-the-game-after-all-this-time/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/rockstar-responds-to-gta-6-leaks-this-is-not-how-we-intended-for-you-see-the-game-after-all-this-time/)*

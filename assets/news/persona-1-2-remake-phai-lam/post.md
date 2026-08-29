@@ -37,4 +37,4 @@ Cenix thì thấy nếu Atlus dám làm thật, đây là cơ hội hiếm để
 
 Mấy pa muốn Atlus remake Persona 1 hay Persona 2 trước? Hay thà để yên hai cụ đó và làm luôn Persona 6 cho nhanh? Comment cho Cenix biết phe nào đông nhé!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/persona-big-boss-says-i-think-we-have-to-do-remakes-of-the-series-most-neglected-games/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/persona-big-boss-says-i-think-we-have-to-do-remakes-of-the-series-most-neglected-games/)*

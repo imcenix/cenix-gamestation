@@ -28,4 +28,4 @@ Tất nhiên vẫn còn cả núi câu hỏi: chia doanh thu ra sao, hiệu năn
 
 Anh em nghĩ sao: tương lai "mọi engine liên thông" là giấc mơ đẹp của ngành game, hay rồi tất cả sẽ thành... một cái Fortnite khổng lồ nuốt mọi thứ? Chà, quyết định khó quá, làm sao để tốt cho cả hai — vô comment bàn với Cenix coi nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/game-development/unity-demonstrates-an-unreal-character-running-through-a-unity-world-for-the-first-time/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/game-development/unity-demonstrates-an-unreal-character-running-through-a-unity-world-for-the-first-time/)*

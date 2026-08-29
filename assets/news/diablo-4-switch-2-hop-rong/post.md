@@ -35,4 +35,4 @@ Nếu mốc tháng 9 là đúng, anh em sẽ không phải chờ lâu để nghe
 
 Anh em nghĩ sao — 70 đô cho một cái hộp đựng mã tải, mấy ông chốt đơn hay quay xe? Comment chia phe cho Cenix hóng.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/diablo/diablo-4-reportedly-comes-to-switch-2-next-month-but-will-be-a-usd69-99-code-in-box-release/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/diablo/diablo-4-reportedly-comes-to-switch-2-next-month-but-will-be-a-usd69-99-code-in-box-release/)*

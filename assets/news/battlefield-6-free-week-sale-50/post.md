@@ -33,4 +33,4 @@ Nghe đã chưa? Sau bao năm bị battle royale và ranked mode "meta-pilled" v
 
 Trial đã khép lại nhưng deal **giảm 50% vẫn còn trong Steam Summer Sale** — mức giá dễ chịu nhất của BF6 từ trước tới nay. Anh em nào đã kịp thử tuần free thì kể Cenix nghe trải nghiệm với, còn ai đang lưỡng lự thì... rủ thêm squad rồi nhảy hố chung cho vui, chết chùm đỡ tủi!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fps/battlefield-6-is-an-fps-where-the-guy-obsessed-with-metas-is-having-the-least-fun-and-its-free-to-play-for-a-week/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fps/battlefield-6-is-an-fps-where-the-guy-obsessed-with-metas-is-having-the-least-fun-and-its-free-to-play-for-a-week/)*

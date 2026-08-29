@@ -37,4 +37,4 @@ Chà, quyết định khó quá, làm sao để tốt cho cả hai? Nâng cấp 
 
 Mấy ông đang tính nâng RAM/SSD hay quyết định cắn răng chờ? Ai vừa mua đúng đáy thì vào comment flex cho anh em ngưỡng mộ đi!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/hardware/memory/ram-prices-be-damned-sk-hynixs-record-breaking-usd55-6-billion-quarter-still-failed-to-meet-investors-wild-ai-expectations/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/hardware/memory/ram-prices-be-damned-sk-hynixs-record-breaking-usd55-6-billion-quarter-still-failed-to-meet-investors-wild-ai-expectations/)*

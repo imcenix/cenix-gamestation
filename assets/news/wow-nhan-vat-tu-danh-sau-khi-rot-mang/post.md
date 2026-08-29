@@ -37,4 +37,4 @@ Cenix thì thấy vụ này khá vui: rớt mạng mà nhân vật vẫn gánh t
 
 Mấy ông đã gặp cảnh này chưa, hay bạn bè trong guild có ai kể lại chưa? Nếu Blizzard tung tính năng này thật thì anh em ủng hộ hay thấy kỳ kỳ? Thả comment cho Cenix biết, biết đâu ai đó trong hội có clip xịn hơn cả bản trên Reddit.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/world-of-warcraft/wows-haunted-players-report-that-their-disconnected-friends-characters-are-starting-to-play-the-game-on-their-own/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/world-of-warcraft/wows-haunted-players-report-that-their-disconnected-friends-characters-are-starting-to-play-the-game-on-their-own/)*

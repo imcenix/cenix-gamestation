@@ -39,4 +39,4 @@ Chà, quyết định khó quá, làm sao để tốt cho cả hai? Muốn thị
 
 Còn mấy ông thì sao — trong 12 tháng qua có mua game nào trên Epic Games Store bằng tiền thật chưa, hay chỉ bấm nhận free rồi để đó? Comment cho Cenix biết con số thật đi, đừng ngại!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/can-the-epic-games-store-turn-things-around-i-dont-see-how-they-can-recover-at-this-point-says-newzoo-analyst/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/can-the-epic-games-store-turn-things-around-i-dont-see-how-they-can-recover-at-this-point-says-newzoo-analyst/)*

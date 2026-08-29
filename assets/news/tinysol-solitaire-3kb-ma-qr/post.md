@@ -40,4 +40,4 @@ Mà nói tới chuyện tối giản, phải công nhận thể loại Solitaire
 
 Anh em có ai còn giữ thói quen chơi Solitaire lúc rảnh không, hay bỏ từ thời tắt máy tính bàn rồi? Mà nếu được nén một game yêu thích xuống 3KB để mang theo trong ví, mấy ông chọn game nào? Comment cho Cenix xem cái ví của mấy pa nặng ký cỡ nào nào.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/this-solitaire-game-is-so-tiny-it-can-load-from-a-qr-code-which-is-just-what-i-need-in-the-age-of-massive-games-and-expensive-storage/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/this-solitaire-game-is-so-tiny-it-can-load-from-a-qr-code-which-is-just-what-i-need-in-the-age-of-massive-games-and-expensive-storage/)*

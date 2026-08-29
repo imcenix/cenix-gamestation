@@ -33,4 +33,4 @@ Cenix thấy cũng có lý — mấy thay đổi mạnh kiểu này thường b�
 
 Anh em nghĩ sao: cú giảm giá Command Center này là chủ đích hay tai nạn của Blizzard? Team Terran vào điểm danh khoe combo mới nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/strategy/starcraft-2-patch-includes-the-biggest-change-since-2015s-legacy-of-the-void-fans-say-what-are-they-doing-in-anaheim/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/strategy/starcraft-2-patch-includes-the-biggest-change-since-2015s-legacy-of-the-void-fans-say-what-are-they-doing-in-anaheim/)*

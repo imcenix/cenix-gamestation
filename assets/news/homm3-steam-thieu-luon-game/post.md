@@ -35,4 +35,4 @@ Nói cho công bằng thì lỗi build kiểu này không phải chuyện hiếm
 
 Mấy ông đã từng mua phải bản game nào lỗi tới mức không mở nổi chưa? Kể Cenix nghe pha "mất tiền lãng xẹt" đau nhất của mấy pa trong phần comment nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/strategy/ubisoft-forgot-to-make-sure-the-steam-release-of-heroes-of-might-and-magic-3-included-the-actual-game/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/strategy/ubisoft-forgot-to-make-sure-the-steam-release-of-heroes-of-might-and-magic-3-included-the-actual-game/)*

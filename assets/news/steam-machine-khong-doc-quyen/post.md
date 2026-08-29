@@ -29,4 +29,4 @@ Steam Machine ra mắt hồi tháng 6/2026, được Valve quảng cáo mạnh m
 
 Hôm nay không chơi hôm nào chơi — nhưng câu hỏi là mấy ông sẽ chơi trên Steam Machine hay tiếp tục cày trên PC quen thuộc? Việc Valve từ chối làm độc quyền có khiến mấy ông đánh giá cao hãng này hơn, hay mấy ông vẫn tiếc vì thiếu một "bom tấn mở màn" đúng nghĩa? Cmt chia sẻ với Cenix nhé!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/the-steam-machine-isnt-doing-exclusives-because-valve-thinks-restricting-where-people-can-play-doesnt-work/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/the-steam-machine-isnt-doing-exclusives-because-valve-thinks-restricting-where-people-can-play-doesnt-work/)*

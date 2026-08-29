@@ -35,4 +35,4 @@ Cenix thích cách này thật. Nó không phải video chê game, nó là bản
 
 Preorder được vào beta từ **21/8**. Mấy pa thấy chiêu "kể hết điểm yếu" này đáng tin hay chỉ là marketing khôn lỏi? Comment cho Cenix biết nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fps/hardcore-fps-immediately-becomes-steam-top-seller-as-devs-list-10-reasons-not-to-buy-it/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fps/hardcore-fps-immediately-becomes-steam-top-seller-as-devs-list-10-reasons-not-to-buy-it/)*

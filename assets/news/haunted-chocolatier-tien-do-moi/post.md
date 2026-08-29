@@ -32,4 +32,4 @@ Còn screenshot mới? Đừng mơ nha — ổng từng nói chia sẻ hình ả
 
 Đội "chờ Haunted Chocolatier tới răng long tóc bạc" điểm danh cùng Cenix cái coi — chờ 5 năm rồi, thêm vài năm nữa nhằm nhò gì đúng không?
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/life-sim/eric-barone-gives-players-a-small-update-on-haunted-chocolatiers-progress-its-not-a-simple-task-as-i-torture-myself-over-every-last-detail/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/life-sim/eric-barone-gives-players-a-small-update-on-haunted-chocolatiers-progress-its-not-a-simple-task-as-i-torture-myself-over-every-last-detail/)*

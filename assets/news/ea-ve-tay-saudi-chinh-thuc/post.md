@@ -33,4 +33,4 @@ Cenix không phán ai đúng ai sai ở đây — chuyện này vượt xa phạ
 
 Còn anh em, tin vào cái "chương mới" mà Wilson nói, hay chờ xem 12 tháng nữa EA còn lại những studio nào? Comment cho Cenix biết đội của mấy ông nghiêng về phía nào nha.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/the-deal-is-done-electronic-arts-is-now-officially-owned-by-saudi-arabia/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/the-deal-is-done-electronic-arts-is-now-officially-owned-by-saudi-arabia/)*

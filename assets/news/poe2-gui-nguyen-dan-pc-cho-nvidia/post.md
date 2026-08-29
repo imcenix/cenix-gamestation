@@ -43,4 +43,4 @@ Path of Exile 2 dự kiến lên **1.0** trong năm nay. Hy vọng từ giờ t�
 
 Mấy ông từng gặp lỗi nào dai dẳng tới mức phải đổi cả thiết lập đồ hoạ để sống chung với nó chưa? Comment kể Cenix nghe con bug lì đòn nhất mà mấy pa từng chịu đựng nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/after-a-year-and-a-half-of-rigorous-testing-path-of-exile-2-devs-finally-convinced-nvidia-to-fix-a-driver-bug-by-sending-it-an-entire-pc/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/after-a-year-and-a-half-of-rigorous-testing-path-of-exile-2-devs-finally-convinced-nvidia-to-fix-a-driver-bug-by-sending-it-an-entire-pc/)*

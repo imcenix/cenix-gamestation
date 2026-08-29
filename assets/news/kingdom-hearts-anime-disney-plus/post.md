@@ -31,4 +31,4 @@ Kingdom Hearts 4 vừa có trailer mới hồi mùa hè này sau thời gian dà
 
 Anh em thuộc phe nào — vào Kingdom Hearts vì Disney hay vì Final Fantasy? Và mấy pa muốn anime kể chuyện gì: tiền truyện, nhân vật mới, hay một thế giới chưa từng xuất hiện trong game? Comment cho Cenix nghe với.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/entertainment/anime-shows/kingdom-hearts-anime-announced-disney-plus/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/entertainment/anime-shows/kingdom-hearts-anime-announced-disney-plus/)*

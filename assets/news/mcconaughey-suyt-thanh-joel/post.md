@@ -37,4 +37,4 @@ Mà chuyện diễn viên từ chối vai để đời rồi nhìn người khá
 
 Anh em thấy sao, nếu McConaughey nhận vai thì series sẽ khác đi nhiều không? Mấy pa còn nhớ vai game chuyển thể nào từng khiến mấy ông nghĩ "phải chi người kia đóng thì hay hơn" không? Kể Cenix nghe với, kiểu casting giả tưởng này lúc nào cũng vui.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/movies-tv/matthew-mcconaughey-could-have-played-joel-in-the-last-of-us-but-says-it-just-wasnt-for-me-at-the-time/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/movies-tv/matthew-mcconaughey-could-have-played-joel-in-the-last-of-us-but-says-it-just-wasnt-for-me-at-the-time/)*

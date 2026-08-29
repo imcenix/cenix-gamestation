@@ -37,4 +37,4 @@ Cenix thấy chuyện này không hẳn xấu. UEFN đúng là nơi hàng triệ
 
 Mấy pa nghĩ sao: đưa IP vào Fortnite là cách khôn ngoan để hồi sinh thương hiệu, hay chỉ là kéo dài sự sống cho một series đáng ra cần một Payday 4 tử tế? Chia phe ở phần bình luận cho Cenix xem nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fps/payday-has-come-to-fortnite-because-todays-cool-gamers-are-discovering-legendary-ips-in-entirely-new-ways/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fps/payday-has-come-to-fortnite-because-todays-cool-gamers-are-discovering-legendary-ips-in-entirely-new-ways/)*

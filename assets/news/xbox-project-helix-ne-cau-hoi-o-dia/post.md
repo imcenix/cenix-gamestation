@@ -45,4 +45,4 @@ Cenix thì nghĩ: khi cả Sony lẫn Microsoft đều đang nói cùng một gi
 
 Mấy ông đứng phe nào — máy rẻ hơn không ổ đĩa, hay chịu trả thêm để giữ được kệ đĩa? Điểm danh trong comment cho Cenix biết nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/xbox-boss-asha-sharma-wont-confirm-whether-project-helix-has-a-disc-drive-we-have-to-be-thinking-about-efficiency-and-affordability/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/xbox-boss-asha-sharma-wont-confirm-whether-project-helix-has-a-disc-drive-we-have-to-be-thinking-about-efficiency-and-affordability/)*

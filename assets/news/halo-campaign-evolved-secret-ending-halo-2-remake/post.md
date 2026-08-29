@@ -33,4 +33,4 @@ Halo: Campaign Evolved được đánh giá là "bản remake trung thành, cho 
 
 Mấy ông có đang mong Halo 2 remake xuất hiện, hay thấy vậy là hơi vội? Còn nhớ đoạn cliffhanger huyền thoại của Halo 2 gốc không, để lại comment ôn kỷ niệm với Cenix nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/halo/secret-halo-campaign-evolved-ending-strongly-hints-that-another-halo-2-remake-is-in-the-works-see-you-in-the-sequel/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/halo/secret-halo-campaign-evolved-ending-strongly-hints-that-another-halo-2-remake-is-in-the-works-see-you-in-the-sequel/)*

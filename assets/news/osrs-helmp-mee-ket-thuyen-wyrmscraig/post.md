@@ -37,4 +37,4 @@ Mà nói cho công bằng, đây là kiểu "lỗi" mà cộng đồng OSRS số
 
 Mấy ông có từng bị kẹt hình trong game nào chưa — kẹt kiểu bất lực ngồi nhìn màn hình, chờ ai đó cứu hoặc chờ chết ấy? Kể Cenix nghe với, comment cái ai có pha kẹt kinh điển nhất!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/mmo/old-school-runescape-players-are-getting-their-boats-stuck-suez-canal-style-thanks-to-a-narrow-river-in-its-new-island-helmp-mee/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/mmo/old-school-runescape-players-are-getting-their-boats-stuck-suez-canal-style-thanks-to-a-narrow-river-in-its-new-island-helmp-mee/)*

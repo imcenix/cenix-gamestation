@@ -32,4 +32,4 @@ Mô hình này hay quá trời: người giỏi ý tưởng gặp người giỏ
 
 Anh em có mê dòng trinh thám "ngồi ghép hồ sơ" không — Obra Dinn, Roottrees, Blue Prince ai chơi rồi điểm danh? Còn ai đang tìm game cuối tuần thì đây, kèo thơm sẵn rồi, hôm nay không phá án hôm nào phá án?
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/puzzle/the-follow-up-to-one-of-last-years-best-detective-games-is-off-to-an-overwhelmingly-positive-start-on-steam-after-just-2-days/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/puzzle/the-follow-up-to-one-of-last-years-best-detective-games-is-off-to-an-overwhelmingly-positive-start-on-steam-after-just-2-days/)*

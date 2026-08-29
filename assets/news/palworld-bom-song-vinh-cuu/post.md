@@ -29,4 +29,4 @@ Vì nó đúng tinh thần Palworld: game này sinh ra là để người chơi 
 
 Anh em chơi Palworld đã lai tạo ra "quái vật" nào bá đạo nhất? Khoe phòng thí nghiệm của mấy ông dưới comment cho Cenix mở mang tầm mắt coi!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/survival-crafting/palworld-players-have-harnessed-the-power-of-selective-breeding-to-create-infinite-bomb-pals-that-can-blow-themselves-up-repeatedly-forever/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/survival-crafting/palworld-players-have-harnessed-the-power-of-selective-breeding-to-create-infinite-bomb-pals-that-can-blow-themselves-up-repeatedly-forever/)*

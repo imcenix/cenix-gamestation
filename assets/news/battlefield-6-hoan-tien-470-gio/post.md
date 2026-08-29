@@ -35,4 +35,4 @@ Chà, quyết định khó quá, làm sao để tốt cho cả hai đây?
 
 Mấy ông nghĩ sao — cày mấy trăm giờ rồi mà game bị cắt nội dung thì có xứng đáng được hoàn tiền không, hay đến ngưỡng đó thì coi như huề? Chia phe ở phần bình luận cho Cenix xem với!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fps/battlefield-6-player-claims-to-have-received-steam-refund-after-470-hours-due-to-surprise-mode-removal/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fps/battlefield-6-player-claims-to-have-received-steam-refund-after-470-hours-due-to-surprise-mode-removal/)*

@@ -39,4 +39,4 @@ Tất nhiên anh em vẫn cần bản ROM gốc để chạy, và mấy dự án
 
 Mấy pa mà cầm iPhone chơi Zelda N64 thì chọn Ocarina hay Majora trước? Và ai đây từng bị con mặt trăng trong Majora ám ảnh tới giờ — điểm danh cho Cenix xem nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/the-legend-of-zelda/the-legend-of-zelda-twilight-princess-wasnt-enough-you-can-now-run-ocarina-of-time-and-majoras-mask-natively-on-ios/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/the-legend-of-zelda/the-legend-of-zelda-twilight-princess-wasnt-enough-you-can-now-run-ocarina-of-time-and-majoras-mask-natively-on-ios/)*

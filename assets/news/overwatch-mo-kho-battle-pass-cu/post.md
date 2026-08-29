@@ -37,4 +37,4 @@ Nói chung là bước đi đúng hướng, chỉ tiếc không mở toang tất
 
 Mấy ông đang ngóng mở lại battle pass mùa nào nhất? Có skin nào bỏ lỡ mà tiếc tới giờ không? Điểm danh ở phần bình luận để Cenix xem ai tiếc nhất nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fps/overwatchs-old-battle-passes-are-finally-coming-back-permanently-starting-next-month-but-some-of-the-rewards-will-be-left-out/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fps/overwatchs-old-battle-passes-are-finally-coming-back-permanently-starting-next-month-but-some-of-the-rewards-will-be-left-out/)*

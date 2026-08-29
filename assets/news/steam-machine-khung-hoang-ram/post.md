@@ -32,4 +32,4 @@ Góc nhìn của Cenix: nếu đã dành dụm đủ và linh kiện đang cần
 
 Anh em đang trong tình cảnh nào — vừa build xong thoát nạn, đang gồng chờ giá xuống, hay lỡ kèo tiếc đứt ruột? Kể chuyện "đau ví" của mình cho Cenix nghe với, biết đâu an ủi được nhau!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/hardware/steam-machines/valve-says-theres-no-end-in-sight-to-the-memory-crisis-and-prices-are-only-going-to-increase-honestly-its-still-getting-worse/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/hardware/steam-machines/valve-says-theres-no-end-in-sight-to-the-memory-crisis-and-prices-are-only-going-to-increase-honestly-its-still-getting-worse/)*

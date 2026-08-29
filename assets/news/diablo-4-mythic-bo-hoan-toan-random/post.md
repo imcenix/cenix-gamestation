@@ -41,4 +41,4 @@ Nói thật, theo dõi cái lịch sử chỉnh sửa Mythic của Diablo 4 gi�
 
 Mấy ông định thử PTR 3.2.0 từ ngày 4/8 không? Ai từng lỡ tay Cube mất món đồ tủ thì kể ra cho anh em cùng khóc nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/diablo/blizzard-heard-your-feedback-on-diablo-4-mythics-and-is-completely-changing-how-they-work-again-the-random-factors-are-gone/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/diablo/blizzard-heard-your-feedback-on-diablo-4-mythics-and-is-completely-changing-how-they-work-again-the-random-factors-are-gone/)*

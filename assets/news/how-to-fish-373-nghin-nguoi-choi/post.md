@@ -35,4 +35,4 @@ Hôm nay không chơi hôm nào chơi? Với 5 đô và một nhóm bạn rảnh
 
 Mấy ông đã nhảy hố cái này chưa, hay vẫn đang chờ hội bạn chốt kèo? Kể Cenix nghe con cá to nhất mấy pa từng bắt được trong game với nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/co-op/amid-the-friendslop-renaissance-usd5-co-op-fishing-game-hits-370-000-peak-players-on-steam-in-5-days/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/co-op/amid-the-friendslop-renaissance-usd5-co-op-fishing-game-hits-370-000-peak-players-on-steam-in-5-days/)*

@@ -43,4 +43,4 @@ Nghe thì hào hùng, nhưng tác động của đợt sa thải rõ ràng vẫn
 
 Mấy ông còn cày ESO không, hay đã treo kiếm từ lâu? Comment điểm danh cho Cenix xem hội Tamriel còn đông cỡ nào nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/the-elder-scrolls/we-are-not-looking-to-just-maintain-elder-scrolls-online-new-zenimax-boss-says-but-a-bunch-of-updates-have-been-delayed-into-2027-and-possibly-beyond/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/the-elder-scrolls/we-are-not-looking-to-just-maintain-elder-scrolls-online-new-zenimax-boss-says-but-a-bunch-of-updates-have-been-delayed-into-2027-and-possibly-beyond/)*

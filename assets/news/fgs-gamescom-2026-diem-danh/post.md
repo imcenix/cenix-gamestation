@@ -43,4 +43,4 @@ Riêng BLACK WALLS thì Cenix xin phép chơi ban ngày, có bật đèn.
 
 Trong đống này mấy ông đặt gạch cái nào trước — Onimusha ngày 4/9 hay chờ Boltgun 2 rồi bật loa hết cỡ? Điểm danh trong comment cho Cenix biết nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/events-conferences/everything-announced-at-fgs-live-from-gamescom-2026/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/events-conferences/everything-announced-at-fgs-live-from-gamescom-2026/)*

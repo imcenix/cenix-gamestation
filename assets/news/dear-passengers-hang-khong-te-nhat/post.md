@@ -30,4 +30,4 @@ Drama gì thì drama, 1,5 triệu wishlist nói lên một điều: cơn khát g
 
 Câu hỏi cho anh em: trong squad của mấy ông, ai sẽ là đứa mở cửa máy bay giữa trời? Tag tên nó vào comment luôn cho nó biết mặt nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/action/a-new-friendslop-game-is-already-steams-12th-most-wishlisted-game-a-mere-week-after-it-was-announced/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/action/a-new-friendslop-game-is-already-steams-12th-most-wishlisted-game-a-mere-week-after-it-was-announced/)*

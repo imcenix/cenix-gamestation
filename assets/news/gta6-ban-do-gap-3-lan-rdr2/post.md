@@ -35,4 +35,4 @@ Bản đồ to gấp ba, NPC được đầu tư riêng cả một studio, cộn
 
 Còn mấy ông thì sao, thích bản đồ rộng mênh mông kiểu này hay thấy vậy là hơi quá sức? Với cái map to gấp 3 RDR2, mấy ông sẽ làm gì đầu tiên khi vào game — chạy cốt truyện hay đi bộ vòng quanh Leonida cho biết? Comment cho Cenix biết nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/grand-theft-auto/the-gta-6-map-is-3-times-bigger-than-red-dead-redemption-2s/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/grand-theft-auto/the-gta-6-map-is-3-times-bigger-than-red-dead-redemption-2s/)*

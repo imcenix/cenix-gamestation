@@ -37,4 +37,4 @@ Tất nhiên vẫn có drama nhẹ: một bộ phận game thủ chê cách "tr�
 
 Còn anh em thì sao — 29/7 này quay về mùa 3 "hít drama" cùng Cenix không? Chốt kèo lẹ nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/moba/league-of-legends-classic-mode-has-a-release-date-and-it-isnt-just-an-old-version-of-the-game-players-will-vote-on-new-patches-old-school-runescape-style/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/moba/league-of-legends-classic-mode-has-a-release-date-and-it-isnt-just-an-old-version-of-the-game-players-will-vote-on-new-patches-old-school-runescape-style/)*

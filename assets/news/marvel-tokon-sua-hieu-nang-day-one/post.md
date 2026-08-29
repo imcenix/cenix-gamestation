@@ -43,4 +43,4 @@ Chà, quyết định khó quá, làm sao để tốt cho cả hai? Fix trong 8 
 
 Mấy ông có chơi beta không, máy anh em chạy được bao nhiêu FPS? Ai định mua ngày 6/8 thì điểm danh cho Cenix biết nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fighting/marvel-tokon-devs-vow-to-fix-performance-issues-for-launch-day-next-week-to-our-pc-players-message-received/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fighting/marvel-tokon-devs-vow-to-fix-performance-issues-for-launch-day-next-week-to-our-pc-players-message-received/)*

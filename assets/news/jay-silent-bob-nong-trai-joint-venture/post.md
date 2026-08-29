@@ -36,4 +36,4 @@ Game do **Starworks Studios** và **Nitrate Games** thực hiện. Chưa có ng�
 
 Mấy pa nghĩ sao — đây là kiểu game cozy mà mấy ông sẽ cày, hay chỉ là một cú bắt trend hoài niệm thập niên 90? Kể Cenix nghe với!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/life-sim/cringe-90s-stoner-icons-jay-and-silent-bob-are-getting-a-cosy-farming-sim-but-wait-for-it-you-farm-weed/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/life-sim/cringe-90s-stoner-icons-jay-and-silent-bob-are-getting-a-cosy-farming-sim-but-wait-for-it-you-farm-weed/)*

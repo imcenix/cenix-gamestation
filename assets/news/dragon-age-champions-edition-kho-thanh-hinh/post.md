@@ -37,4 +37,4 @@ Chưa hết, Darrah cho rằng làm remaster kiểu đó cần **một team mớ
 
 Chà, quyết định khó quá, làm sao để tốt cho cả hai? Mấy ông thì sao — muốn EA remaster bộ ba Dragon Age, hay thà để yên cho ký ức đẹp? Comment chia phe cho Cenix xem nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/dragon-ages-former-producer-had-envisioned-a-champions-edition-equivalent-to-mass-effects-legendary-edition-but-he-doesnt-think-it-will-happen-anymore-there-are-basically-no-companies-that-could-help-you/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/dragon-ages-former-producer-had-envisioned-a-champions-edition-equivalent-to-mass-effects-legendary-edition-but-he-doesnt-think-it-will-happen-anymore-there-are-basically-no-companies-that-could-help-you/)*

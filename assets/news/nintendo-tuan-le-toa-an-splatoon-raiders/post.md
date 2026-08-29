@@ -33,4 +33,4 @@ Năm nay Nintendo vẫn còn nhiều cột mốc lớn phía trước như Fire 
 
 Mấy ông đã thử Splatoon Raiders chưa, hay vẫn đang hóng xem vụ kiện Palworld đi tới đâu? Cùng bàn luận với Cenix dưới comment nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/action/nintendo-couldnt-escape-the-courtroom-during-one-of-its-biggest-weeks-of-the-year/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/action/nintendo-couldnt-escape-the-courtroom-during-one-of-its-biggest-weeks-of-the-year/)*

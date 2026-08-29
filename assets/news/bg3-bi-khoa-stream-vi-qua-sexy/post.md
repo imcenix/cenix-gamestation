@@ -35,4 +35,4 @@ Nhiều khả năng một mod nào đó trong mạch chơi này can thiệp vào
 
 Anh em đã đi qua House of Hope chưa, và có ai bị Steam Overlay bắt gặp đúng khoảnh khắc khó đỡ chưa? Kể Cenix nghe với, comment thoải mái.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/baldur-s-gate/baldurs-gate-3-is-now-cancelled-larian-stream-smacked-down-over-violation-for-body-exposure-and-sexualized-behaviors-which-feels-like-high-praise-for-an-rpg/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/baldur-s-gate/baldurs-gate-3-is-now-cancelled-larian-stream-smacked-down-over-violation-for-body-exposure-and-sexualized-behaviors-which-feels-like-high-praise-for-an-rpg/)*

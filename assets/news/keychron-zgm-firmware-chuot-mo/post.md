@@ -43,4 +43,4 @@ Cenix thích cách nghĩ này: càng nhiều dự án open-source ngoài kia, c�
 
 Mấy ông có bao giờ đổi firmware cho phím/chuột của mình chưa? Hay để nguyên bản cho lành? Kể Cenix nghe với!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/hardware/gaming-mice/keychrons-gaming-mouse-firmware-is-going-open-source-while-the-company-critiques-firmware-you-cant-read-cant-audit-cant-change/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/hardware/gaming-mice/keychrons-gaming-mouse-firmware-is-going-open-source-while-the-company-critiques-firmware-you-cant-read-cant-audit-cant-change/)*

@@ -30,4 +30,4 @@ Thành tích sau vài tuần ra mắt: **hơn 3.000 lượt tải** trên gta5-m
 
 Ai đang chơi GTA 5 trên PC thì thử ngay cho biết mùi cơm tù Los Santos — mod tên Jailbreak, tìm phát ra liền. Còn câu hỏi cho cả nhà: anh em có muốn GTA 6 chơi hệ "hậu quả thật" kiểu này không, hay thích kiểu cũ bị bắt xong phủi mông đi tiếp cho lẹ? Comment cho Cenix biết phe nào đông nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/gta-6-needs-this-this-gta-5-prison-mod-turns-one-of-roleplays-most-enduring-staples-into-a-game-within-a-game/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/gta-6-needs-this-this-gta-5-prison-mod-turns-one-of-roleplays-most-enduring-staples-into-a-game-within-a-game/)*

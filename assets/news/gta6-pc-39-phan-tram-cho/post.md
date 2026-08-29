@@ -31,4 +31,4 @@ Kiên nhẫn đúng là một loại đức tính — nhưng với GTA 6 thì Ce
 
 Còn anh em thì sao — thuộc team "cắm cọc chờ PC" hay team "chốt đơn console luôn cho nóng"? Điểm danh cho Cenix xem lực lượng hai phe nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/despite-having-no-clue-when-gta-6-is-coming-to-pc-39-percent-of-you-are-more-than-happy-to-wait-for-it/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/despite-having-no-clue-when-gta-6-is-coming-to-pc-39-percent-of-you-are-more-than-happy-to-wait-for-it/)*

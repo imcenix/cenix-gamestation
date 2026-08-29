@@ -41,4 +41,4 @@ Nghĩa là Rockstar đang gánh một cái bóng do chính họ đổ xuống. C
 
 Mấy pa nghĩ GTA 6 sẽ chốt bao nhiêu bản trong năm đầu? Và trong số anh em đây, ai đã mua GTA 5 nhiều hơn một lần rồi thì điểm danh nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/grand-theft-auto-5-averages-more-copies-sold-per-year-than-most-megahits-manage-in-their-entire-lifetime-with-a-total-of-230-million-since-2013/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/grand-theft-auto-5-averages-more-copies-sold-per-year-than-most-megahits-manage-in-their-entire-lifetime-with-a-total-of-230-million-since-2013/)*

@@ -32,4 +32,4 @@ An ủi nho nhỏ cho anh em: bản **FF14 cho Nintendo Switch 2** vẫn ra mắ
 
 Anh em có từng mơ cày FF14 trên điện thoại không, hay thấy MMO là phải ngồi PC mới đúng vị? Kể Cenix nghe cái!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/final-fantasy/square-enix-just-killed-final-fantasy-14s-mobile-port-before-it-could-even-launch-globally-offering-sincere-apologies-for-being-unable-to-meet-your-expectations/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/final-fantasy/square-enix-just-killed-final-fantasy-14s-mobile-port-before-it-could-even-launch-globally-offering-sincere-apologies-for-being-unable-to-meet-your-expectations/)*

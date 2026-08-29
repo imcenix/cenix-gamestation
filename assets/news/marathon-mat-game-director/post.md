@@ -32,4 +32,4 @@ Bối cảnh xung quanh cũng chẳng sáng hơn: Bungie vừa sa thải "phần
 
 Chà, giờ đứng giữa hai lựa chọn: tin vào lời hứa "chương mới tươi sáng", hay tin vào biểu đồ người chơi đang chạm đáy? Quyết định khó quá, làm sao để tốt cho cả hai ta? Anh em nghĩ Marathon còn cửa lội ngược dòng kiểu Fallout 76 không, hay đây là đoạn kết đã được báo trước? Vô comment phán một câu coi!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/fps/marathon-just-lost-its-game-director-joe-ziegler-is-bungies-latest-high-profile-departure/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/fps/marathon-just-lost-its-game-director-joe-ziegler-is-bungies-latest-high-profile-departure/)*

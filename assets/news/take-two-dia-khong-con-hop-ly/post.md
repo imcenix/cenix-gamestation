@@ -41,4 +41,4 @@ Vui thì vui, tỉnh vẫn phải tỉnh: dữ liệu bán hàng đúng là đan
 
 Anh em thuộc phe nào — vẫn thích cầm cái đĩa trên tay, hay tải một phát cho gọn máy? Điểm danh ở phần comment cho Cenix xem phe nào đông hơn nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/grand-theft-auto/with-gta-6-digital-only-take-two-boss-says-discs-dont-really-make-sense-if-youre-already-connected-who-cares-if-you-download-digitally/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/grand-theft-auto/with-gta-6-digital-only-take-two-boss-says-discs-dont-really-make-sense-if-youre-already-connected-who-cares-if-you-download-digitally/)*

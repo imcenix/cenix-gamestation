@@ -39,4 +39,4 @@ Nói cách khác: Roblox muốn lớn lên cùng người chơi của mình thay
 
 Anh em từng đổ Robux vào con nào rồi? Và mấy ông tin Roblox chuyển hướng thật, hay chỉ là câu chữ cho đẹp báo cáo? Comment cho Cenix nghe với.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/roblox-value-tanks-72-percent-as-viral-hits-dry-up-and-execs-try-to-ditch-clickbait-y-or-kind-of-cash-grabby-type-games-for-babies-and-pursue-an-older-crowd/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/roblox-value-tanks-72-percent-as-viral-hits-dry-up-and-execs-try-to-ditch-clickbait-y-or-kind-of-cash-grabby-type-games-for-babies-and-pursue-an-older-crowd/)*

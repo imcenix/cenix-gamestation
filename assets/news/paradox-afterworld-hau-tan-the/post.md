@@ -37,4 +37,4 @@ Afterworld chưa công bố ngày ra mắt.
 
 Anh em thấy sao — Paradox rời khỏi lịch sử có thắng nổi không, hay mấy ông vẫn thích chinh phục kiểu Europa Universalis hơn? Comment cho Cenix biết, và ai định lập bộ lạc đầu tiên thì điểm danh nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/strategy/paradoxs-next-grand-strategy-game-is-taking-cues-from-fallout-and-mad-max/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/strategy/paradoxs-next-grand-strategy-game-is-taking-cues-from-fallout-and-mad-max/)*

@@ -44,4 +44,4 @@ Cái này khó nha. Về mặt số liệu, Krafton thắng đậm. Về mặt c
 
 Mấy ông đã lặn thử Subnautica 2 chưa? Bản Adaptive Measures có làm mấy ông quay lại không? Comment cho Cenix biết nhé!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/survival-crafting/subnautica-2-is-responsible-for-kraftons-record-second-quarter-performance-despite-the-messy-legal-battle-and-accusations-of-sabotage/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/survival-crafting/subnautica-2-is-responsible-for-kraftons-record-second-quarter-performance-despite-the-messy-legal-battle-and-accusations-of-sabotage/)*

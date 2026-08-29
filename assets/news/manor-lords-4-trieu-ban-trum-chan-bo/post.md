@@ -37,4 +37,4 @@ Hôm nay không chơi hôm nào chơi? Anh em nào bỏ Manor Lords lâu rồi t
 
 Còn mấy ông, trong bản update này mấy ông hóng cái nào nhất — bò, phô mai hay rượu táo? Và làng của mấy ông đang sống sót tới mùa đông thứ mấy rồi? Comment cho Cenix biết nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/city-builder/manor-lords-celebrates-4-million-copies-sold-with-a-new-major-update-which-gives-players-the-chance-to-become-a-cow-herding-mogul/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/city-builder/manor-lords-celebrates-4-million-copies-sold-with-a-new-major-update-which-gives-players-the-chance-to-become-a-cow-herding-mogul/)*

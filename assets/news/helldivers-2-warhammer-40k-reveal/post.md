@@ -29,4 +29,4 @@ Trùng hợp thú vị: 30/7 cũng chính là ngày Gears of War: E-Day dự ki�
 
 Hội Helldiver, mấy ông đang mong chờ điều gì nhất từ Warbond Warhammer 40K này — vũ khí mới hay chỉ đơn giản là bộ giáp không thể ngầu hơn? Điểm danh dưới comment cho Cenix biết nhé!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/third-person-shooter/the-helldivers-2-and-warhammer-40k-crossover-is-getting-a-full-reveal-on-july-30-update-your-calendar-accordingly/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/third-person-shooter/the-helldivers-2-and-warhammer-40k-crossover-is-getting-a-full-reveal-on-july-30-update-your-calendar-accordingly/)*

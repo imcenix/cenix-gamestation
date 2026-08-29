@@ -32,4 +32,4 @@ Tin vui kèm theo: CliffyB tiết lộ ông **đang cân nhắc quay lại làm 
 
 Anh em nghĩ sao — CliffyB comeback với một game single-player cốt truyện thì có kèo không? Và bài học "trung thành với game, không phải con người" này, mấy ông thấy đúng với studio/dev nào nữa? Vô comment luận bàn với Cenix nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/fps/cliff-bleszinski-says-ego-played-a-role-in-lawbreakers-failure-people-are-loyal-to-the-game-but-theyre-not-necessarily-loyal-to-the-person/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/fps/cliff-bleszinski-says-ego-played-a-role-in-lawbreakers-failure-people-are-loyal-to-the-game-but-theyre-not-necessarily-loyal-to-the-person/)*

@@ -28,4 +28,4 @@ Amazon chưa công bố ai sẽ thay thế, và cộng đồng lại được d�
 
 Nếu được quyền chọn, anh em muốn ai vác rìu Leviathan lên màn ảnh? Comment tên ứng viên của mình cho Cenix nghe coi — kèo casting Kratos này cãi nhau vui phải biết. Và nói thật lòng: phim chuyển thể game dạo này hên xui lắm, anh em thuộc team "hóng nhiệt tình" hay team "để ra rồi tính"?
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/movies-tv/amazons-god-of-war-tv-show-will-recast-kratos-due-to-on-set-injury/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/movies-tv/amazons-god-of-war-tv-show-will-recast-kratos-due-to-on-set-injury/)*

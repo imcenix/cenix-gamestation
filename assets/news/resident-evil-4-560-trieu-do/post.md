@@ -37,4 +37,4 @@ Nói cách khác: giảm giá sâu + chất lượng bền vững = cỗ máy in
 
 Hội anh em, mấy ông đã chơi RE4 remake mấy lần rồi — 1, 2 hay đã "farm" hết mọi chế độ khó? Chia sẻ dưới comment cho Cenix biết đội hình fan cứng nhé!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/resident-evil/resident-evil-4-made-capcom-another-usd560-million-and-became-the-best-selling-remake-of-the-generation-analyst-says-more-than-tripling-sales-of-oblivion-remastered-and-final-fantasy-7-rebirth/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/resident-evil/resident-evil-4-made-capcom-another-usd560-million-and-became-the-best-selling-remake-of-the-generation-analyst-says-more-than-tripling-sales-of-oblivion-remastered-and-final-fantasy-7-rebirth/)*

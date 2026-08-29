@@ -29,4 +29,4 @@ Rõ ràng nạn phe vé và trộm cắp thẻ bài Pokemon đang là vấn đ�
 
 Mấy ông thấy biện pháp này có hợp lý không, hay là hơi quá tay với một thú vui sưu tầm thẻ bài? Cho Cenix biết ý kiến của mấy ông nhé!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/tabletop-gaming/the-war-on-pokemon-scalpers-now-includes-facial-recognition-checks-in-some-stores-in-japan/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/tabletop-gaming/the-war-on-pokemon-scalpers-now-includes-facial-recognition-checks-in-some-stores-in-japan/)*

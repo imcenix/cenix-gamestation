@@ -32,4 +32,4 @@ Nhân tiện, Riot cũng trả lời khiếu nại về cách trộn nhiều pat
 
 Túm cái váy lại: khủng hoảng đầu tiên của LoL Classic xử đẹp trước ngày ra mắt 29/7. Anh em thấy Riot lần này "biết điều" thật lòng hay chỉ là thử phản ứng cộng đồng rồi lùi? Và bản Classic trong tim mấy ông là mùa mấy — khai thật cho Cenix nghe coi!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/moba/riot-quickly-backpedals-on-paid-old-school-skins-in-league-of-legends-classic-after-backlash/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/moba/riot-quickly-backpedals-on-paid-old-school-skins-in-league-of-legends-classic-after-backlash/)*

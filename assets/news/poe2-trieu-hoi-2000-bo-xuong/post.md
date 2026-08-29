@@ -32,4 +32,4 @@ Chưa dừng ở đó, cả hội rút về hideout và bày trò cuối: Empyri
 
 Anh em từng làm trò gì "phá game trong khuôn khổ" kiểu này chưa — stack item vô hạn, dụ boss rơi map? Kể chiến tích cho Cenix nghe với, hứa không mách GGG đâu!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/path-of-exile-2-players-broke-the-game-by-summoning-2-000-skeletons-and-then-lured-unsuspecting-players-into-the-ultimate-frame-rate-shredder/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/path-of-exile-2-players-broke-the-game-by-summoning-2-000-skeletons-and-then-lured-unsuspecting-players-into-the-ultimate-frame-rate-shredder/)*

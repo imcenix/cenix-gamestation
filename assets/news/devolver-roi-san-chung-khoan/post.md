@@ -45,4 +45,4 @@ Vui thì vui, tỉnh vẫn phải tỉnh: bỏ cổ đông đi không tự độ
 
 Anh em nghĩ sao — rời sàn có phải là hướng đi mà nhiều studio khác nên học theo không? Comment cho Cenix nghe với.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/devolver-digital-decides-video-games-and-publicly-traded-companies-dont-mix-announces-plan-to-go-private-once-again-to-save-it-some-money-and-headache/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/devolver-digital-decides-video-games-and-publicly-traded-companies-dont-mix-announces-plan-to-go-private-once-again-to-save-it-some-money-and-headache/)*

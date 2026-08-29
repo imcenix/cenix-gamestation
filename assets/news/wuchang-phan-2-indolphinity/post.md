@@ -45,4 +45,4 @@ Cái này khó nha, khó nói thiệt chớ. Một mặt, thấy vui vì ngườ
 
 Mấy ông có phá đảo Wuchang: Fallen Feathers chưa? Phần 2 nên giữ gì và bỏ gì? Comment cho Cenix biết nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/soulslike-game-wuchang-is-officially-getting-a-sequel-developed-by-its-creators-new-studio-after-the-original-team-reportedly-disbanded/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/soulslike-game-wuchang-is-officially-getting-a-sequel-developed-by-its-creators-new-studio-after-the-original-team-reportedly-disbanded/)*

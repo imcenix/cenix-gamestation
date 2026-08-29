@@ -39,4 +39,4 @@ Cenix nghĩ điểm mấu chốt nằm ở chỗ Okamoto đã nói: nếu mỗi 
 
 Mấy ông đứng phe nào — mừng vì Silent Hill hồi sinh mạnh mẽ, hay lo hãng làm quá tay? Comment cho Cenix biết nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/horror/konami-is-aiming-for-a-new-silent-hill-game-every-year-with-producer-motoi-okamoto-trying-to-quell-fears-by-promising-fans-that-they-will-be-able-to-provide-positive-kinds-of-surprises/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/horror/konami-is-aiming-for-a-new-silent-hill-game-every-year-with-producer-motoi-okamoto-trying-to-quell-fears-by-promising-fans-that-they-will-be-able-to-provide-positive-kinds-of-surprises/)*

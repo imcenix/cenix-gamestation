@@ -32,4 +32,4 @@ Cộng đồng cũng cuồng không kém gì Cenix: game đã vượt **500.000 
 
 Câu hỏi cho anh em: nếu được làm một loài khủng long cầm vũ khí, mấy ông chọn con gì + vũ khí gì? Cenix xin bắt đầu: velociraptor song kiếm, cho đúng chất tốc độ. Comment loadout của mấy ông coi nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/action/theres-a-dinosaur-soulslike-launching-on-steam-this-week-where-youre-a-spinosaurus-swinging-a-greatsword-with-your-mouth-who-just-might-be-able-to-parry-the-meteor/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/action/theres-a-dinosaur-soulslike-launching-on-steam-this-week-where-youre-a-spinosaurus-swinging-a-greatsword-with-your-mouth-who-just-might-be-able-to-parry-the-meteor/)*

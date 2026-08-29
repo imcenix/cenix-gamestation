@@ -35,4 +35,4 @@ Cenix thấy chiến lược này hợp lý trong ngắn hạn, nhưng về lâu
 
 Mấy ông thấy chiến lược "remake nuôi IP mới" này của Capcom có bền vững không, hay sớm muộn cũng phải đổi hướng? Để lại bình luận cho Cenix biết ý kiến nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/resident-evil/resident-evil-remakes-allow-capcom-to-release-yearly-games-in-the-series-and-invest-money-back-into-new-games-like-pragmata-producer-says/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/resident-evil/resident-evil-remakes-allow-capcom-to-release-yearly-games-in-the-series-and-invest-money-back-into-new-games-like-pragmata-producer-says/)*

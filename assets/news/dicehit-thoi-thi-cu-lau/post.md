@@ -38,4 +38,4 @@ Cenix thì thấy đây là bài học thực tế hơn là lời kêu gọi vi 
 
 Mấy ông từng mua key ở trang bên thứ ba chưa, và sau khi nghe vụ này thì có đổi ý không? Kể Cenix nghe ở phần comment nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/just-pirate-it-roguelike-dev-would-rather-you-download-its-games-illegally-than-buy-from-steam-code-resellers/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/just-pirate-it-roguelike-dev-would-rather-you-download-its-games-illegally-than-buy-from-steam-code-resellers/)*

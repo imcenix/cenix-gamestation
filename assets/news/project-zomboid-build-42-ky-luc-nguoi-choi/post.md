@@ -33,4 +33,4 @@ Với build 42 đã ra lò, sự chú ý giờ dồn về bản cập nhật l�
 
 Mấy ông sao rồi — có định quay lại Knox County lần nữa không, hay đợi tới lúc chơi được với hội bạn mới nhảy hố? Hôm nay không chơi hôm nào chơi? Comment kể Cenix nghe kỷ lục sống sót lâu nhất của mấy pa là bao nhiêu ngày nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/survival-crafting/perennial-early-access-game-project-zomboid-hit-a-new-concurrent-player-record-after-a-huge-map-update-added-reworked-towns-a-spooky-orphanage-and-400-procedural-basements/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/survival-crafting/perennial-early-access-game-project-zomboid-hit-a-new-concurrent-player-record-after-a-huge-map-update-added-reworked-towns-a-spooky-orphanage-and-400-procedural-basements/)*

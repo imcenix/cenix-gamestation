@@ -35,4 +35,4 @@ Nên nhét thêm campaign lẫn Warzone vào beta nghe giống một nhành ô l
 
 Anh em có định nhảy vào beta ngày 21/8 không, hay đợi đợt mở toang 28/8 cho đỡ tốn tiền đặt trước? Mà quan trọng hơn: giữa MW4 và GTA 6, ví của mấy ông chọn bên nào? Comment cho Cenix nghe với.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/call-of-duty/heres-a-first-for-call-of-duty-the-modern-warfare-4-beta-will-have-a-campaign-mission-and-warzone-stuff/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/call-of-duty/heres-a-first-for-call-of-duty-the-modern-warfare-4-beta-will-have-a-campaign-mission-and-warzone-stuff/)*

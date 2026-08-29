@@ -31,4 +31,4 @@ Cenix không đùa cợt trên chuyện mất việc của ai cả — 32 con ng
 
 Anh em từng chơi Disco Elysium hay Zero Parades chưa? Theo mấy ông, làm sao để một game hay về nghệ thuật vẫn sống được về mặt thương mại? Chia sẻ góc nhìn với Cenix nha.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/rpg/controversial-disco-elysium-studio-plans-32-layoffs-after-latest-rpgs-underwhelming-commercial-performance-our-artistic-standards-remain-unchanged/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/rpg/controversial-disco-elysium-studio-plans-32-layoffs-after-latest-rpgs-underwhelming-commercial-performance-our-artistic-standards-remain-unchanged/)*

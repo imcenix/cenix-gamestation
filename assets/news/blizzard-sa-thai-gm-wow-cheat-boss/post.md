@@ -33,4 +33,4 @@ Câu chuyện này đúng kiểu "chơi lớn thì phải trả giá lớn" — 
 
 Mấy ông nghĩ sao — đây có phải chỉ là "con sâu làm rầu nồi canh" hay còn nhiều GM khác đang âm thầm "giúp đỡ" bạn bè mà chưa bị lộ? Vào comment chia sẻ góc nhìn của mấy ông với Cenix nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/world-of-warcraft/blizzard-fires-world-of-warcraft-dev-after-using-development-only-spells-on-a-live-realm-to-help-a-friend-breeze-through-bosses/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/world-of-warcraft/blizzard-fires-world-of-warcraft-dev-after-using-development-only-spells-on-a-live-realm-to-help-a-friend-breeze-through-bosses/)*

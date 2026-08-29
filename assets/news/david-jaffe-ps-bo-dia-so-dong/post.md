@@ -33,4 +33,4 @@ Lo ngại của cộng đồng không phải vô căn cứ: chuyện lưu trữ 
 
 Cái này khó nha, khó nói thiệt chớ. Anh em đứng phe nào — số đông tiện lợi hay số ít giữ đĩa? Comment cho Cenix biết kệ đĩa nhà mấy ông đang có bao nhiêu game nha.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/god-of-war/god-of-war-creator-says-sonys-decision-to-kill-playstation-discs-is-likely-because-the-needs-of-the-many-customers-outweigh-the-needs-of-the-fewer/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/god-of-war/god-of-war-creator-says-sonys-decision-to-kill-playstation-discs-is-likely-because-the-needs-of-the-many-customers-outweigh-the-needs-of-the-fewer/)*

@@ -36,4 +36,4 @@ Chà, quyết định khó quá, làm sao để tốt cho cả hai? Một bên l
 
 Mấy ông tính chơi Warlock theo hướng nào — Timekeeper điều nhịp hay Dreamer ru ngủ cả map? Điểm danh trong comment cho Cenix biết mấy pa chọn phe nào nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/solasta-2-is-getting-multiplayer-and-warlocks-in-its-next-update/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/solasta-2-is-getting-multiplayer-and-warlocks-in-its-next-update/)*

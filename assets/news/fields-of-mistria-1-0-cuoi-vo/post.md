@@ -37,4 +37,4 @@ Cuối cùng là **bóng mây trôi trên mặt đất** quanh thị trấn. V�
 
 Hôm nay không chơi hôm nào chơi? Anh em ai đang cày Mistria thì khai thật đi — mấy ông định cưới ai? Comment điểm danh cho Cenix hóng nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/simulation/beloved-anime-inspired-life-sim-fields-of-mistria-adds-marriage-kids-and-cloud-shadows-in-long-awaited-1-0-update-after-2-years-in-early-access/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/simulation/beloved-anime-inspired-life-sim-fields-of-mistria-adds-marriage-kids-and-cloud-shadows-in-long-awaited-1-0-update-after-2-years-in-early-access/)*

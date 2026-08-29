@@ -35,4 +35,4 @@ Chuyện này nhắc anh em một điều hơi phũ: mình khoá tài khoản k�
 
 Mấy ông có đặt phần cứng Steam ship về châu Âu đợt vừa rồi không? Dạo này có nhận được mail lạ nào đáng ngờ chưa? Kể Cenix nghe trong phần bình luận để anh em cùng cảnh giác nhé!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/steam-user-data-may-have-been-compromised-by-a-cyberattack-targeting-valves-european-shipping-partner/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/steam-user-data-may-have-been-compromised-by-a-cyberattack-targeting-valves-european-shipping-partner/)*

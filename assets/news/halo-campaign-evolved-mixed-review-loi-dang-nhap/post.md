@@ -31,4 +31,4 @@ Bài review của GamesRadar+ về Halo: Campaign Evolved cũng có nhận xét 
 
 Một khi đã máu thì đừng hỏi bố cháu là ai nữa — dân Halo vẫn cày xuyên đêm bất chấp lỗi login. Mấy ông đã vào chơi chưa, có dính crash hay lỗi đăng nhập gì không? Điểm danh cho Cenix nghe tình hình server bên mấy ông thế nào nhé!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/halo/halo-campaign-evolved-launches-to-mixed-steam-reviews-thanks-to-server-login-issues-in-a-single-player-game-after-charging-usd70-for-early-access/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/halo/halo-campaign-evolved-launches-to-mixed-steam-reviews-thanks-to-server-login-issues-in-a-single-player-game-after-charging-usd70-for-early-access/)*

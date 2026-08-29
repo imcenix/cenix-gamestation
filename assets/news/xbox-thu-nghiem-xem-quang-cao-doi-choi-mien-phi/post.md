@@ -31,4 +31,4 @@ Cái này khó nha, khó nói thiệt chớ — một bên là chi phí truy c�
 
 Mấy ông nghĩ sao, nếu đổi lấy vài chục giây quảng cáo để chơi miễn phí game mình đã mua thì có đáng không, hay thà trả tiền cho yên chuyện? Bình luận cho Cenix biết phe của mấy ông nhé!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/xbox-adds-advertisements-to-games-in-ad-supported-streaming-trial-and-it-sounds-like-theres-more-ads-where-these-came-from/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/xbox-adds-advertisements-to-games-in-ad-supported-streaming-trial-and-it-sounds-like-theres-more-ads-where-these-came-from/)*

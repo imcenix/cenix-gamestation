@@ -39,4 +39,4 @@ Timing thì lại khá đẹp — Vincent Valentine sắp trở lại làm nhân
 
 Anh em có tựa game cũ nào mình sợ sẽ biến mất vĩnh viễn không, kiểu game trên điện thoại đen trắng hay đĩa lậu hồi xưa? Kể Cenix nghe ở phần comment, biết đâu có người cùng gu.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/final-fantasy/a-lost-final-fantasy-7-game-has-just-been-saved-20-years-after-its-release-though-it-cost-one-preservationist-usd900/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/final-fantasy/a-lost-final-fantasy-7-game-has-just-been-saved-20-years-after-its-release-though-it-cost-one-preservationist-usd900/)*

@@ -33,4 +33,4 @@ Nói cho công bằng thì làn sóng ARPG châu Á vài năm nay đang khá m�
 
 Còn mấy ông, nghe "Ngũ hành + luân hồi làm cây kỹ năng" thì thấy hay hay hay là thấy phức tạp? Mà nếu được chọn ngay bây giờ, mấy pa nhảy vào lớp nào trước — ông chú cầm súng hay để mở xem còn gì? Comment cho Cenix nghe với nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/tarae-the-unbound-is-an-eastern-dark-fantasy-action-rpg-and-i-for-one-am-here-for-k-diablo/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/tarae-the-unbound-is-an-eastern-dark-fantasy-action-rpg-and-i-for-one-am-here-for-k-diablo/)*

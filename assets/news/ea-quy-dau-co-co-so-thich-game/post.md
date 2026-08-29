@@ -39,4 +39,4 @@ Vui thì vui, tỉnh vẫn phải tỉnh: nhận định của Darrah thật ra 
 
 Mấy ông nghĩ sao — Dragon Age còn cửa quay lại không, hay đã tới lúc anh em chuyển hẳn hy vọng sang Mass Effect? Kể Cenix nghe với!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/dragon-age/ea-is-a-hedge-fund-with-a-videogame-hobby-former-dragon-age-boss-says-and-thats-why-he-reckons-the-series-is-probably-dead-and-buried/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/dragon-age/ea-is-a-hedge-fund-with-a-videogame-hobby-former-dragon-age-boss-says-and-thats-why-he-reckons-the-series-is-probably-dead-and-buried/)*

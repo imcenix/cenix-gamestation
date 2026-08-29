@@ -31,4 +31,4 @@ Tình hình hiện tại vẫn đang ở dạng "chờ xem": tương lai Arkane 
 
 Mấy ông nghĩ sao — Blade có kịp ra mắt trước khi mọi chuyện ngã ngũ, hay Cenix lại phải viết tiếp một bài buồn về Arkane trong vài tháng tới? Để lại bình luận cho Cenix biết góc nhìn của mấy ông nhé.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/xbox-reportedly-wants-to-put-a-stake-in-blade-and-sell-off-arkane-even-though-todd-howard-says-development-is-going-well/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/xbox-reportedly-wants-to-put-a-stake-in-blade-and-sell-off-arkane-even-though-todd-howard-says-development-is-going-well/)*

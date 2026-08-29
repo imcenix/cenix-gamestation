@@ -35,4 +35,4 @@ Cenix thấy đây là một lập luận khá đẹp cho cuộc tranh cãi kinh
 
 Chà, quyết định khó quá, làm sao để tốt cho cả hai? Anh em thuộc phe nào: soulslike phải giữ đúng một mức khó duy nhất cho ra chất, hay cứ thêm tuỳ chọn, ai muốn khổ thì tự chọn khổ? Điểm danh ở comment cho Cenix xem phe nào đông hơn nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/rpg/soulslike-prince-lies-of-p-added-difficulty-settings-after-its-own-developers-struggled-to-beat-it-most-couldnt-even-make-it-halfway/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/rpg/soulslike-prince-lies-of-p-added-difficulty-settings-after-its-own-developers-struggled-to-beat-it-most-couldnt-even-make-it-halfway/)*

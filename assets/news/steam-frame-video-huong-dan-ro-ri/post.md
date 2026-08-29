@@ -34,4 +34,4 @@ Kính này vốn được hứa hẹn ra "mùa hè năm nay", đã trải qua v�
 
 Mấy ông đoán Valve hét giá Steam Frame bao nhiêu, và ở mức nào thì mấy pa chốt đơn? Thả con số ở phần comment đi, để cuối năm hội mình quay lại xem ai đoán chuẩn nhất!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/hardware/vr/whenever-youre-ready-valve-nine-minutes-of-steam-frame-user-guide-videos-appearing-as-steam-store-assets-surely-point-to-this-headset-launching-soon-right/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/hardware/vr/whenever-youre-ready-valve-nine-minutes-of-steam-frame-user-guide-videos-appearing-as-steam-store-assets-surely-point-to-this-headset-launching-soon-right/)*

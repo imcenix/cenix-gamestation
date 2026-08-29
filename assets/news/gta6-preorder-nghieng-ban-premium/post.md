@@ -35,4 +35,4 @@ Cenix thì nghĩ vầy: câu hỏi thật sự không phải "80 hay 100", mà l
 
 Mấy pa chốt bản nào — standard 80 đô cho lành, hay all-in bản Ultimate? Chia phe ở phần comment, để Cenix xem hội nào đông hơn nha!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/gta-6-might-not-technically-be-usd100-but-its-had-its-cake-and-ate-it-too-as-pre-orders-are-skewing-more-to-the-premium-edition/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/gta-6-might-not-technically-be-usd100-but-its-had-its-cake-and-ate-it-too-as-pre-orders-are-skewing-more-to-the-premium-edition/)*

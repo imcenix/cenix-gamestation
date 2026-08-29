@@ -41,4 +41,4 @@ Chơi 1080p với texture thấp vẫn hơn là không chạy nổi game, đúng
 
 Anh em đang xài bao nhiêu RAM, và đợt này có định nâng cấp không? Điểm danh cho Cenix xem hội 16GB hay hội 32GB đông hơn nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/hardware/laptops/funny-that-microsoft-no-longer-recommends-32gb-ram-for-gaming-laptops/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/hardware/laptops/funny-that-microsoft-no-longer-recommends-32gb-ram-for-gaming-laptops/)*

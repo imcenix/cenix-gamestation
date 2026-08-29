@@ -45,4 +45,4 @@ Cách lấy cũng không đổi: hoàn thành nhiệm vụ hằng ngày nhiều 
 
 Mấy pa định chọn ai trong 9 cái tên trên? Ai đang cay vì Al Haitham vẫn chưa có cửa thì cứ xả ở phần bình luận, Cenix ngồi hóng cùng nè.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/open-world/genshin-impact-7-0-livestream-reveals-nine-more-free-5-star-characters-for-the-constellation-selector-and-ive-already-got-my-next-four-picked-out/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/open-world/genshin-impact-7-0-livestream-reveals-nine-more-free-5-star-characters-for-the-constellation-selector-and-ive-already-got-my-next-four-picked-out/)*

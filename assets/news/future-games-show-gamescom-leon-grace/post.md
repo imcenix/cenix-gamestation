@@ -35,4 +35,4 @@ Xem được trên Twitch, YouTube và vài nền tảng khác, kèm một strea
 
 Tháng 8 năm nay đông vui phết đấy anh em. Mấy ông đang hóng nhất tựa nào ở Gamescom? Comment điểm danh cho Cenix biết để còn canh giờ cùng nhau.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/events-conferences/the-actors-behind-leon-kennedy-and-grace-ashcroft-will-take-to-the-stage-for-the-future-games-show-at-gamescom-this-month/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/events-conferences/the-actors-behind-leon-kennedy-and-grace-ashcroft-will-take-to-the-stage-for-the-future-games-show-at-gamescom-this-month/)*

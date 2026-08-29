@@ -33,4 +33,4 @@ Cenix thì thấy hơi tréo ngoe thật: game thì có đĩa, máy chơi game c
 
 Mấy pa chốt kèo bản nào — múc luôn máy limited digital cho đẹp góc học tập, hay giữ máy có ổ đĩa rồi mua cover 75 đô cho lành? Comment cho Cenix biết nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/hardware/marvels-wolverine-ps5-console-wont-come-with-a-disc-drive-but-playstation-will-happily-sell-you-a-standalone-cover-kit-with-disc-drive-parts/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/hardware/marvels-wolverine-ps5-console-wont-come-with-a-disc-drive-but-playstation-will-happily-sell-you-a-standalone-cover-kit-with-disc-drive-parts/)*

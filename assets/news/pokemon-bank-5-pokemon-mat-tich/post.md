@@ -38,4 +38,4 @@ Còn bây giờ thì đành sống chung với cái checklist dang dở thôi.
 
 Anh em có ai đang ôm Pokemon từ thời DS mà chưa kịp chuyển không? Còn hơn nửa năm để dọn kho đó, đừng để tới sát ngày mới cuống. Mấy pa thuộc phe "phải đủ 1.025 mới ngủ được" hay phe "có Pikachu là đủ vui rồi"? Điểm danh trong comment cho Cenix xem bên nào đông nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/pokemon/pokemon-bank-shutdown-will-make-5-pokemon-unobtainable-in-modern-switch-games-and-fans-want-to-know-when-that-changes/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/pokemon/pokemon-bank-shutdown-will-make-5-pokemon-unobtainable-in-modern-switch-games-and-fans-want-to-know-when-that-changes/)*

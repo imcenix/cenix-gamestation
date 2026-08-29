@@ -37,4 +37,4 @@ Tin an ủi cho anh em season này: hotfix mới đã tăng tỉ lệ rơi Mythi
 
 Còn anh em phe nào: "tại Blizzard đặt tên lươn lẹo" hay "tại game thủ lười đọc"? Khai thật đi, ai từng nướng đồ xịn vì không đọc tooltip thì điểm danh với Cenix — hứa không cười (nhiều) đâu!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/diablo/diablo-4-players-are-accidentally-trashing-their-best-items-due-to-an-objectively-misleading-recipe-and-its-the-best-argument-ive-seen-for-yellow-paint-in-games/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/diablo/diablo-4-players-are-accidentally-trashing-their-best-items-due-to-an-objectively-misleading-recipe-and-its-the-best-argument-ive-seen-for-yellow-paint-in-games/)*

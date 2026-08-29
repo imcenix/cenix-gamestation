@@ -35,4 +35,4 @@ Nhưng có một thứ đang tích lại: mỗi tuần lại thêm một nhóm, 
 
 Anh em nghĩ sao, mấy vụ kiện kiểu này có bẻ lái được Sony không, hay chỉ là ném đá ao bèo? Chia phe trong comment cho Cenix hóng nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/playstation-users-are-treated-like-renters-but-charged-like-owners-say-mexican-politicians-amid-complaint-filed-against-sony-over-physical-games/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/playstation-users-are-treated-like-renters-but-charged-like-owners-say-mexican-politicians-amid-complaint-filed-against-sony-over-physical-games/)*

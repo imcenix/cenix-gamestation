@@ -33,4 +33,4 @@ Nhưng Call of Duty vẫn làm cái việc mà Call of Duty luôn làm: bán ch�
 
 Mấy ông có ai đang cày bản port này không — dính chưa, hay né kịp? Comment cảnh báo nhau cho anh em cùng biết nào!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/call-of-duty/call-of-duty-black-ops-2s-playstation-ports-compromised-by-a-hacker-ruining-players-accounts/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/call-of-duty/call-of-duty-black-ops-2s-playstation-ports-compromised-by-a-hacker-ruining-players-accounts/)*

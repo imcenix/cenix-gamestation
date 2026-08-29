@@ -27,4 +27,4 @@ Tin vui là game tiếp theo của Barone — *Haunted Chocolatier* — đang đ
 
 Anh em có bao giờ suýt mất trắng thành quả vì quên sao lưu chưa? Kể Cenix nghe cho vui (và cho sợ) với nào!
 
-*Nguồn: [GamesRadar](https://www.gamesradar.com/games/simulation/stardew-valley-was-almost-canceled-after-eric-barones-pc-died-without-backups-it-feels-crazy-that-it-all-worked-out/)*
+*Nguồn tham khảo: [GamesRadar](https://www.gamesradar.com/games/simulation/stardew-valley-was-almost-canceled-after-eric-barones-pc-died-without-backups-it-feels-crazy-that-it-all-worked-out/)*

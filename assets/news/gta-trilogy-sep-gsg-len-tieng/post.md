@@ -32,4 +32,4 @@ Lần cuối GTA Trilogy được vá là năm 2024 với hệ thống **classic
 
 Anh em nghĩ sao — GTA Trilogy có đáng được thêm một bản patch chuộc lỗi, hay cứ để Rockstar dồn lực cho GTA 6? Chốt ý kiến dưới comment cho Cenix nghe với!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/gta-trilogy-remaster-boss-understands-fan-anger-but-says-a-lot-of-people-were-playing-them-and-really-enjoying-them/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/gta-trilogy-remaster-boss-understands-fan-anger-but-says-a-lot-of-people-were-playing-them-and-really-enjoying-them/)*

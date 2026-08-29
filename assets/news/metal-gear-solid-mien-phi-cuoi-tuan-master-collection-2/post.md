@@ -29,4 +29,4 @@ Bản Metal Gear Solid Master Collection Vol 1 (gồm chính game PS1 kinh đi�
 
 Mấy ông đã sẵn sàng quay lại Shadow Moses chưa, hay sẽ chờ luôn Vol 2 để cày một lèo cả series? Điểm danh dưới comment xem ai còn nhớ mật khẩu codec 140.85 không nha!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/metal-gear/the-original-metal-gear-solid-is-free-to-play-on-steam-this-weekend-as-konami-gears-up-for-master-collection-volume-2/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/metal-gear/the-original-metal-gear-solid-is-free-to-play-on-steam-this-weekend-as-konami-gears-up-for-master-collection-volume-2/)*

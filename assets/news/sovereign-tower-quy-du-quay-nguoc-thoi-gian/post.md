@@ -41,4 +41,4 @@ Sovereign Tower lên kệ hôm nay, **6/8**. Bản demo trên Steam vẫn còn, 
 
 Anh em thuộc phe nào — kiên quyết không đụng vào du hành thời gian, hay quay ngược tới khi ra kết đẹp mới thôi? Comment chia phe cho Cenix hóng nào.
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/rpg/sovereign-tower-looks-like-a-cosy-management-game-but-its-ruthless-full-of-murder-and-impossible-choices-and-features-one-of-the-best-time-travel-systems-ive-ever-encountered/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/rpg/sovereign-tower-looks-like-a-cosy-management-game-but-its-ruthless-full-of-murder-and-impossible-choices-and-features-one-of-the-best-time-travel-systems-ive-ever-encountered/)*

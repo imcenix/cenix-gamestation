@@ -37,4 +37,4 @@ Chỉ có một điều chắc chắn: khi Baldur's Gate 4 xuất hiện, nó s�
 
 Chà, quyết định khó quá, làm sao để tốt cho cả hai? Mấy ông muốn Larian dồn hết tâm huyết cho Divinity mới, hay vẫn thầm mong họ quay lại Faerûn một lần cuối? Kể Cenix nghe với!
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/baldur-s-gate/its-not-just-baldurs-gate-4-larian-is-not-involved-in-any-baldurs-gate-3-projects-now-but-devs-tease-divinity-news-is-on-the-way/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/baldur-s-gate/its-not-just-baldurs-gate-4-larian-is-not-involved-in-any-baldurs-gate-3-projects-now-but-devs-tease-divinity-news-is-on-the-way/)*

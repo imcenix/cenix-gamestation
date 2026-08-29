@@ -37,4 +37,4 @@ Bản patch không phải lúc nào cũng xấu — nhiều game hay hơn hẳn 
 
 Chà, quyết định khó quá, làm sao để tốt cho cả hai? Mấy ông vẫn đang mua đĩa hay đã chuyển hẳn sang digital rồi? Điểm danh ở phần bình luận xem phe nào đông hơn nào.
 
-*Nguồn: [GamesRadar+](https://www.gamesradar.com/games/34-percent-of-ps5-discs-and-50-percent-of-xbox-series-x-discs-are-junk-without-a-download-research-finds-its-deliberately-undermining-the-value-of-physical-releases/)*
+*Nguồn tham khảo: [GamesRadar+](https://www.gamesradar.com/games/34-percent-of-ps5-discs-and-50-percent-of-xbox-series-x-discs-are-junk-without-a-download-research-finds-its-deliberately-undermining-the-value-of-physical-releases/)*

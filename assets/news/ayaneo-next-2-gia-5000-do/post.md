@@ -35,4 +35,4 @@ Công tâm mà nói, Ayaneo không hẳn "hút máu" — họ là nạn nhân c�
 
 Câu hỏi vui cuối bài: nếu có 5.299 USD chỉ để tiêu cho gaming, mấy ông mua Next 2 hay build PC khủng + Steam Deck + dư tiền nạp game cả năm? Comment phương án của mình cho Cenix tham khảo coi!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/hardware/handheld-gaming-pcs/think-gaming-handhelds-are-too-expensive-ayaneo-says-hold-my-beer-lists-usd5-000-monster/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/hardware/handheld-gaming-pcs/think-gaming-handhelds-are-too-expensive-ayaneo-says-hold-my-beer-lists-usd5-000-monster/)*

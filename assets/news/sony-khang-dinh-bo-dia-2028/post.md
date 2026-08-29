@@ -45,4 +45,4 @@ Nhưng nỗi lo của anh em cũng chính đáng: mất quyền bán lại game 
 
 Chà, quyết định khó quá, làm sao để tốt cho cả hai? Mấy ông thuộc phe nào — vẫn giữ kệ đĩa tới cùng, hay đã chuyển sang digital từ đời nào rồi? Comment chia phe cho Cenix xem nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/gaming-industry/sony-exec-says-killing-discs-wont-make-the-playstation-6-too-much-like-a-pc-going-forward-we-can-coexist-peacefully-with-pc-games/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/gaming-industry/sony-exec-says-killing-discs-wont-make-the-playstation-6-too-much-like-a-pc-going-forward-we-can-coexist-peacefully-with-pc-games/)*

@@ -37,4 +37,4 @@ Warlock dự kiến ra mắt **năm 2027**. Còn xa, nhưng ít nhất lần nà
 
 Chà, quyết định khó quá, làm sao để tốt cho cả hai? Anh em thích D&D kiểu theo lượt như Baldur's Gate 3, hay sẵn sàng nhảy hố sang action thế giới mở? Chia phe trong phần comment cho Cenix xem hội mình nghiêng bên nào nào!
 
-*Nguồn: [PC Gamer](https://www.pcgamer.com/games/action/the-next-big-d-and-d-game-has-been-revealed/)*
+*Nguồn tham khảo: [PC Gamer](https://www.pcgamer.com/games/action/the-next-big-d-and-d-game-has-been-revealed/)*
