@@ -14,7 +14,7 @@ cover: cover.jpg
 ---
 Endgame _Path of Exile 2_ có thêm một dòng đồ đáng săn mà nhiều anh em chưa để ý: **Lineage Support Gem**. Khoảng **40 viên**, cắm như support gem bình thường nhưng thuộc hẳn một đẳng cấp khác. **Dreamcore** tổng hợp lại, Cenix dịch cho anh em.
 
-![Bộ sưu tập Lineage Support Gem trong Path of Exile 2](lineage-tong-quan.png)
+![Bộ sưu tập Lineage Support Gem trong Path of Exile 2](lineage-tong-quan.webp)
 
 ## <span style="color:rgb(255, 176, 0)">Khác gì support gem thường?</span>
 
@@ -26,7 +26,7 @@ Nhưng có một luật xuyên suốt cần nhớ:
 
 Ví dụ dễ hiểu nhất là **Ratha's Assault** — buff cho nỏ na ná Double Barrel Support, đổi lại **mất luôn khả năng nạp đạn theo cách bình thường**.
 
-![Lineage Support Gem Ratha's Assault](ratha-assault.jpg)
+![Lineage Support Gem Ratha's Assault](ratha-assault.webp)
 
 <div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Đọc kỹ mặt trái trước khi cắm:</strong> Đây không phải kiểu gem "cắm vào là mạnh hơn". Mỗi viên là một sự đánh đổi — cắm mà không tính trước cách gánh mặt trái thì build còn yếu hơn lúc dùng support thường.</p></div>
 
@@ -38,7 +38,7 @@ Có đúng hai đường:
 
 -   **Rơi độc quyền từ boss** — gắn với từng trận cụ thể: **Pinnacle Boss**, **Anomaly Boss**, và **Large Abyssal Trove**.
 
-![Nguồn rơi của Lineage Support Gem](lineage-drop.jpg)
+![Nguồn rơi của Lineage Support Gem](lineage-drop.webp)
 
 Bài gốc của Dreamcore có bảng đủ **40 viên** kèm nơi rơi của từng viên — anh em nào săn viên cụ thể thì ghé đó tra.
 
@@ -48,19 +48,19 @@ Bài gốc của Dreamcore có bảng đủ **40 viên** kèm nơi rơi của t�
 
 **Đảo ngược kháng nguyên tố của quái** đối với sát thương mà kỹ năng được hỗ trợ gây ra bằng đòn Hit. Nghe qua là hiểu vì sao viên này được nhắc tên — quái kháng càng cao thì càng ăn đòn.
 
-![Lineage Support Gem Rakiata's Flow](rakiata-flow.jpg)
+![Lineage Support Gem Rakiata's Flow](rakiata-flow.webp)
 
 ### <span style="color:rgb(200, 240, 60)">Dialla's Desire</span>
 
 Cộng **cấp gem**, cộng **quality**, kèm hệ số nhân cost/reservation. Viên này thiên về nâng thẳng sức mạnh của kỹ năng.
 
-![Lineage Support Gem Dialla's Desire](dialla-desire.jpg)
+![Lineage Support Gem Dialla's Desire](dialla-desire.webp)
 
 ### <span style="color:rgb(200, 240, 60)">Zarokh's Refrain</span>
 
 Khiến spell được hỗ trợ **Echo nhiều lần**. Viên này **chỉ rơi từ boss Zarokh**, không có đường nào khác.
 
-![Lineage Support Gem Zarokh's Refrain](zarokh-refrain.jpg)
+![Lineage Support Gem Zarokh's Refrain](zarokh-refrain.webp)
 
 ## <span style="color:rgb(255, 176, 0)">Cenix nói thật một câu</span>
 

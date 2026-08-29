@@ -14,13 +14,13 @@ cover: cover.jpg
 ---
 Có một nghề ở endgame _Path of Exile 2_ mà ít anh em để ý: **craft Waystone để bán**. **Ignatius** làm nghề này ra tấm ra món — mỗi viên bán được **2 tới 4 Divine** tuỳ roll, trong khi vốn bỏ ra chỉ khoảng **73 Exalt**. Trời ơi hot quá nè mấy pa, để Cenix kể cho nghe.
 
-![Waystone đã craft xong trong Path of Exile 2](waystone-1.png)
+![Waystone đã craft xong trong Path of Exile 2](waystone-1.webp)
 
 <div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Hướng của cả bài:</strong> Waystone bán được giá là Waystone nhắm vào <strong>Rarity</strong> và <strong>mod Abyss</strong> — không phải Pack Size. Nhớ kỹ chỗ này, Cenix sẽ nói lại ở cuối bài.</p></div>
 
 ## <span style="color:rgb(255, 176, 0)">Vốn bỏ ra — khoảng 73 Exalt một viên</span>
 
-![Bảng chi phí craft một viên Waystone](waystone-2.png)
+![Bảng chi phí craft một viên Waystone](waystone-2.webp)
 
 | Khoản | Chi phí |
 |---|---|
@@ -40,37 +40,37 @@ Ignatius quy đổi cho dễ nhớ:
 
 ### <span style="color:rgb(200, 240, 60)">Bước 1 — Đẩy đủ 6 affix</span>
 
-![Đẩy Waystone lên đủ affix](waystone-3.png)
+![Đẩy Waystone lên đủ affix](waystone-3.webp)
 
 Dùng **Alchemy**, **Augmentation**, **Regal** và **Exalt** để đẩy lên **đủ 6 affix mỗi phe**. Đừng mất công ngồi đếm mod trước khi sang bước 2 — Ignatius nói thẳng là phí thời gian.
 
 ### <span style="color:rgb(200, 240, 60)">Bước 2 — Ép hướng Rarity</span>
 
-![Dùng Omen of Chaotic Rarity](waystone-4.png)
+![Dùng Omen of Chaotic Rarity](waystone-4.webp)
 
 Dùng **Omen of Chaotic Rarity** kèm **Chaos Orb** để reroll affix theo hướng bonus rarity. Đây là bước tốn tiền nhất (26 Exalt) nhưng cũng là bước quyết định giá bán.
 
 ### <span style="color:rgb(200, 240, 60)">Bước 3 — Thêm mod Abyss</span>
 
-![Desecrate thêm mod Abyss cho Waystone](waystone-5.png)
+![Desecrate thêm mod Abyss cho Waystone](waystone-5.webp)
 
 Dùng **Omen of Sinistral Necromancy** kèm **Preserved Vertebrae** để thêm mod abyss chưa lộ, rồi mang tới **Well of Souls** để lộ mod.
 
 ### <span style="color:rgb(200, 240, 60)">Bước 4 — Bôi Liquid Paranoia</span>
 
-![Bôi Liquid Paranoia lên Waystone](waystone-7.png)
+![Bôi Liquid Paranoia lên Waystone](waystone-7.webp)
 
 Bôi **Liquid Paranoia ba lần** để thêm % quái Rare. Bán hay tự chạy đều làm bước này.
 
 ### <span style="color:rgb(200, 240, 60)">Bước 5 — Vaal (tuỳ chọn)</span>
 
-![Corrupt Waystone bằng Vaal Orb](waystone-8.png)
+![Corrupt Waystone bằng Vaal Orb](waystone-8.webp)
 
 Viên nào ra mod abyss **tier C trở xuống** thì cứ **Vaal** cho corrupt, coi như đánh bạc gỡ lại. Đằng nào cũng khó bán.
 
 ## <span style="color:rgb(255, 176, 0)">Tier list mod Abyss</span>
 
-![Tier list mod Abyss cho Waystone](waystone-tier-list.png)
+![Tier list mod Abyss cho Waystone](waystone-tier-list.webp)
 
 Ignatius có một điều đáng chú ý về cách sắp xếp:
 

@@ -14,11 +14,11 @@ cover: cover.jpg
 ---
 Muốn craft trong _Path of Exile 2_ mà nhảy vào đập currency luôn thì y như đi chợ mà không biết đọc bảng giá. **Lolcohol** mở đầu bài nhập môn bằng một câu rất chuẩn: trước khi động vào viên currency đầu tiên, phải dựng cho vững cái nền — tức là **đọc hiểu món đồ đang cầm trong tay**. Để Cenix kể cho nghe.
 
-![Các loại modifier trên đồ trong Path of Exile 2](modifier-tong-quan.png)
+![Các loại modifier trên đồ trong Path of Exile 2](modifier-tong-quan.webp)
 
 ## <span style="color:rgb(255, 176, 0)">Bốn độ hiếm, bốn giới hạn mod</span>
 
-![Bốn độ hiếm của đồ trong Path of Exile 2](do-hiem-rare.png)
+![Bốn độ hiếm của đồ trong Path of Exile 2](do-hiem-rare.webp)
 
 -   **Normal (trắng)** — không có mod explicit nào.
 -   **Magic (xanh dương)** — tối đa **2 mod** (1 prefix + 1 suffix).
@@ -29,7 +29,7 @@ Muốn craft trong _Path of Exile 2_ mà nhảy vào đập currency luôn thì 
 
 ## <span style="color:rgb(255, 176, 0)">Implicit và Explicit</span>
 
-![Phân biệt mod implicit và explicit](implicit-explicit.png)
+![Phân biệt mod implicit và explicit](implicit-explicit.webp)
 
 **Implicit** nằm ở trên cùng, là thứ gắn liền với loại đồ đó — ví dụ nhẫn Topaz thì luôn có kháng Sét. Currency **không đổi được** implicit. Không phải món nào cũng có.
 
@@ -51,7 +51,7 @@ Game chia mod làm hai phe để không ai chất được quá nhiều mod cùn
 -   **Prefix**: Life, Mana, Spirit, chỉ số phòng thủ (Armour/ES/Evasion), **Movement Speed** (chỉ giày).
 -   **Suffix**: các loại kháng (Sét, Lửa, Lạnh, Chaos), hồi Life/Mana, chỉ số.
 
-![Cách xem tier và phe prefix/suffix bằng phím Alt](xem-tier-alt.png)
+![Cách xem tier và phe prefix/suffix bằng phím Alt](xem-tier-alt.webp)
 
 Muốn xem thì **giữ Alt** rồi rê chuột — chữ xám nhỏ sẽ hiện tier (T7, T2...) và cho biết mod đó thuộc phe nào.
 
@@ -77,7 +77,7 @@ Tag từng cực quan trọng, nhưng từ bản 0.3 gỡ **Omen of Homogenising
 
 ## <span style="color:rgb(255, 176, 0)">Local và Global — chỗ dễ nhầm nhất</span>
 
-![Ví dụ về mod local trên vũ khí](mod-local.png)
+![Ví dụ về mod local trên vũ khí](mod-local.webp)
 
 **Local** chỉ tác động lên chính món đồ đó. Dấu hiệu nhận biết: chỉ số gốc chuyển từ **chữ trắng sang chữ xanh**. Ví dụ "65% increased Physical Damage" trên vũ khí làm đổi luôn dòng Physical Damage của cây vũ khí.
 
