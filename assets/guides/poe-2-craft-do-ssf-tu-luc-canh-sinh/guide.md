@@ -16,7 +16,7 @@ Chơi **SSF (Solo Self-Found)** trong _Path of Exile 2_ nghĩa là không mua đ
 
 <div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Ba thứ phải nắm trước khi đập viên currency đầu tiên:</strong> (1) <strong>Item Modifier</strong> — mình đang muốn ra mod gì, tra ở poe2db; (2) <strong>Item Level</strong> — mod mình muốn cần iLvl tối thiểu bao nhiêu; (3) <strong>Weight</strong> — trọng số quyết định xác suất mod đó xuất hiện. Thiếu một trong ba là craft mù.</p></div>
 
-![Bảng modifier của amulet trong Path of Exile 2](bang-mod-amulet.jpg)
+![Bảng modifier của amulet trong Path of Exile 2](bang-mod-amulet.webp)
 
 _Bảng mod của amulet: mỗi mod đều có tier, iLvl yêu cầu và trọng số riêng. Đây là thứ anh em phải tra trước khi đập._
 

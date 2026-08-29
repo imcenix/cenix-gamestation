@@ -10,7 +10,7 @@ tags:
   - BUILD
   - TÂN THỦ
 excerpt: Cây passive PoE 2 có hơn 1.000 điểm, mở ra lần đầu là hoa mắt luôn. Bài này chỉ anh em cách đọc nó trong 5 phút, khỏi cắm bừa rồi tiếc tiền respec.
-cover: cover.png
+cover: cover.jpg
 ---
 Mở cây kỹ năng bị động của _Path of Exile 2_ lần đầu, cảm giác chung của anh em là gì? Là hoa mắt. **Hơn 1.000 điểm passive** rải kín màn hình, chằng chịt như bản đồ tàu điện ngầm Tokyo. Ngồi xuống uống miếng nước rồi nghe nè — cái cây đó không khó như vẻ ngoài của nó đâu, chỉ là anh em đang nhìn sai chỗ thôi.
 
@@ -18,7 +18,7 @@ Mở cây kỹ năng bị động của _Path of Exile 2_ lần đầu, cảm gi
 
 ## <span style="color:rgb(255, 176, 0)">Bốn loại điểm, phân biệt được là xong một nửa</span>
 
-![Một cụm ô nhỏ vây quanh một Notable trên cây passive](cum-notable.jpg)
+![Một cụm ô nhỏ vây quanh một Notable trên cây passive](cum-notable.webp)
 
 _Một cụm điển hình: mấy ô nhỏ cùng chủ đề vây quanh một Notable ở giữa._
 
@@ -34,7 +34,7 @@ Loại nhiều nhất, cho bonus lẻ tẻ: **+10% Spell Damage**, cộng chút 
 
 Cho **+5 vào một chỉ số bất kỳ do anh em chọn**, và nhiệm vụ chính là làm cầu nối sang khu khác của cây. Điểm hay: **chỉ số của mấy ô này đổi được bất cứ lúc nào**, không phải respec.
 
-![Các ô nối đường trên cây passive](travel-node.jpg)
+![Các ô nối đường trên cây passive](travel-node.webp)
 
 _Mấy ô nối đường trông nhạt vậy thôi, nhưng không có nó thì đừng mơ đi sang vùng khác._
 
@@ -44,7 +44,7 @@ Keystone cho sức mạnh cực lớn nhưng **luôn kèm một cái giá**. Ba 
 
 -   **Chaos Inoculation** — Máu tối đa còn đúng **1**, đổi lại miễn nhiễm hoàn toàn sát thương Chaos.
 
-![Keystone Chaos Inoculation](chaos-inoculation.png)
+![Keystone Chaos Inoculation](chaos-inoculation.webp)
 
 _Chaos Inoculation: còn 1 máu, nghe rợn nhưng cả một trường phái build sống nhờ nó._
 

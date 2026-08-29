@@ -10,7 +10,7 @@ tags:
   - ENDGAME
   - LỘ TRÌNH
 excerpt: Lộ trình endgame do Asmodeus vạch, chia 5 giai đoạn rõ ràng. Đi đúng thứ tự thì không phải quay đầu cày lại — mà Atlas PoE 2 thì không cho respec đâu nha.
-cover: cover.png
+cover: cover.jpg
 ---
 Phá đảo chiến dịch _Path of Exile 2_ xong là bước vào endgame, và đây là chỗ nhiều anh em lạc đường nhất: mở Atlas ra thấy cái gì cũng muốn làm, làm tùm lum rồi cuối cùng phải quay đầu cày lại. Lộ trình dưới đây do **Asmodeus** vạch, chia đúng 5 giai đoạn, đi theo là hết cảnh backtrack.
 
@@ -32,7 +32,7 @@ Thời gian dành cho nội dung có thưởng lớn, đừng nướng vào vi�
 
 3.  Ghé **Hilda's Camp**, làm một **Beast Contract** để mở passive **25% cơ hội nâng boss map thường lên Powerful**.
 
-![Passive của Hilda](hilda.png)
+![Passive của Hilda](hilda.webp)
 
 _Passive của Hilda — làm sớm một Beast Contract là có, rẻ mà lời._
 
@@ -60,7 +60,7 @@ _Passive của Hilda — làm sớm một Beast Contract là có, rẻ mà lời
 8.  **Atop the World** (Precursor Tablet chung)
 9.  **Nemesis Rising: Effectiveness** — nếu còn dư điểm
 
-![Cây Atlas ở giai đoạn 1](atlas-gd1.png)
+![Cây Atlas ở giai đoạn 1](atlas-gd1.webp)
 
 _Cây Atlas sau giai đoạn 1 trông như vầy — chưa đẹp nhưng đủ để nuôi waystone._
 
@@ -89,13 +89,13 @@ Nghĩa là đẩy lên Tier 15 khi đồ còn mỏng chỉ tổ chết nhiều, 
 
 3.  **Abyss** — đi tới **Well of Souls**, đóng abyss ở góc trên, dưới và phải, hạ boss cuối **Kulemak**. **Tránh dùng Abyss Tablet**. Ưu tiên passive **Balance of Power: Ulaman**.
 
-![Nhánh Abyss trên cây Atlas](abyss.png)
+![Nhánh Abyss trên cây Atlas](abyss.webp)
 
 _Nhánh Abyss — nhớ né tablet Abyss trong lúc đang mở khoá chính nó._
 
 4.  **Breach** — đi tới **Monastery of the Keepers**, xong **Breach Hive** và **Colony**, hạ **Xesht**. **Tránh dùng Breach Tablet**. Ưu tiên **Breeding Program: Banded Fruit** và **Diverse Control**.
 
-![Nhánh Breach trên cây Atlas](breach.png)
+![Nhánh Breach trên cây Atlas](breach.webp)
 
 _Nhánh Breach, cùng nguyên tắc: đang mở khoá thì đừng chạy tablet của nó._
 
@@ -119,7 +119,7 @@ Xong xuôi thì dùng **Cardinal Device** ở góc dưới bên trái — nó t�
 
 Đám passive phía trên này scale mod của waystone và tablet — đây là chỗ biến map thường thành map ra đồ.
 
-![Cây Atlas ở giai đoạn 3](atlas-gd3.png)
+![Cây Atlas ở giai đoạn 3](atlas-gd3.webp)
 
 _Tới giai đoạn 3 thì cây bắt đầu ra dáng, ba nhánh phía trên là chỗ ăn tiền._
 
@@ -134,7 +134,7 @@ Kết hợp việc mở rộng theo tuyến Doryani với việc săn Matriarch/
 -   Lặp vòng **Arbiter of Divinity 5 lần**.
 -   Điểm dư cắm vào nhóm chung: quái Magic/Rare, Item Rarity, Pack Size.
 
-![Cây Atlas hoàn chỉnh ở giai đoạn 4](atlas-gd4-full.png)
+![Cây Atlas hoàn chỉnh ở giai đoạn 4](atlas-gd4-full.webp)
 
 _Và đây là đích đến: cây Atlas cắm kín sau giai đoạn 4._
 
@@ -144,19 +144,19 @@ _Và đây là đích đến: cây Atlas cắm kín sau giai đoạn 4._
 
 Đi **Caer Tarth**, nộp tribute lấy **An Audience With The King**, dùng thư mời ở **Crux of Nothingness**, hạ **King in the Mists**, đặt đầu vào effigy, chạy 5 map rồi hạ **Bodach**. Ưu tiên **Reborn in Shadow**, **From the Mists**, **Invigorated Sacrifices: Attrition**.
 
-![Nhánh Ritual trên cây Atlas](ritual.png)
+![Nhánh Ritual trên cây Atlas](ritual.webp)
 
 ### <span style="color:rgb(200, 240, 60)">Vaal Temple</span>
 
 Đi **Vaal City**, xây một con đường thẳng để chống instability, nối **Architect** với **Atziri's Royal Chambers**, hạ Architect rồi tới Atziri. Ưu tiên **Offerings to the Queen**, **Military Reinforcements**, **Loyal Gatekeepers**.
 
-![Nhánh Vaal Temple trên cây Atlas](temple.png)
+![Nhánh Vaal Temple trên cây Atlas](temple.webp)
 
 ### <span style="color:rgb(200, 240, 60)">Delirium phần 2</span>
 
 Đi **Grand Mirror**, chạy map cho sương phủ **100%**, xong **Simulacrum** (trận **7 màn**), lấy **Raven's Reflection**, rồi hạ **Tangmazu** ở Withered Willow.
 
-![Nhánh Delirium trên cây Atlas](delirium.png)
+![Nhánh Delirium trên cây Atlas](delirium.webp)
 
 ### <span style="color:rgb(200, 240, 60)">Nhiệm vụ Master và Expedition</span>
 

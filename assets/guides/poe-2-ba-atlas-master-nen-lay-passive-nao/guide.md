@@ -10,7 +10,7 @@ tags:
   - ENDGAME
   - ATLAS
 excerpt: Jado, Doryani, Hilda — ba ông thầy của Atlas, mỗi ông một kiểu thưởng. Mở khoá thế nào và nên bấm passive nào ở từng hàng, Cenix tóm gọn cho anh em.
-cover: cover.webp
+cover: cover.jpg
 ---
 Đi Atlas trong _Path of Exile 2_ một hồi là anh em gặp ba nhân vật: **Jado**, **Doryani** và **Hilda**. Ba ông này gọi là **Atlas Master**, mỗi ông mở ra một cây passive riêng với một kiểu thưởng riêng. Chà, quyết định khó quá, làm sao để tốt cho cả ba? Thì không cần tốt cho cả ba — chọn ông hợp với kiểu cày của mình là được.
 
