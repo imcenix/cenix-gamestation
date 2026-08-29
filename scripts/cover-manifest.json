@@ -1242,5 +1242,73 @@
   {
     "path": "assets/news/aliens-fireteam-elite-2-jankcore/cover.jpg",
     "page": "https://www.gamesradar.com/games/third-person-shooter/aliens-fireteam-elite-2-review/"
+  },
+  {
+    "path": "assets/guides/poe-2-cay-ky-nang-bi-dong-tan-thu/cover.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/PassiveTreeGuideSmallwithClasses.png"
+  },
+  {
+    "path": "assets/guides/poe-2-cay-ky-nang-bi-dong-tan-thu/cum-notable.jpg",
+    "url": "https://cdn.mobalytics.gg/assets/poe-2/images/guides/passive-tree/small-passive-notable.jpg"
+  },
+  {
+    "path": "assets/guides/poe-2-cay-ky-nang-bi-dong-tan-thu/travel-node.jpg",
+    "url": "https://cdn.mobalytics.gg/assets/poe-2/images/guides/passive-tree/travel-nodes.jpg"
+  },
+  {
+    "path": "assets/guides/poe-2-cay-ky-nang-bi-dong-tan-thu/chaos-inoculation.png",
+    "url": "https://cdn.mobalytics.gg/assets/poe-2/images/guides/passive-tree/ci.png"
+  },
+  {
+    "path": "assets/guides/poe-2-lo-trinh-endgame-chuan-asmodeus/cover.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Atlas%204.png"
+  },
+  {
+    "path": "assets/guides/poe-2-lo-trinh-endgame-chuan-asmodeus/atlas-gd1.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Atlas%201.png"
+  },
+  {
+    "path": "assets/guides/poe-2-lo-trinh-endgame-chuan-asmodeus/abyss.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Abyss%201.png"
+  },
+  {
+    "path": "assets/guides/poe-2-lo-trinh-endgame-chuan-asmodeus/breach.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Breach%201.png"
+  },
+  {
+    "path": "assets/guides/poe-2-lo-trinh-endgame-chuan-asmodeus/atlas-gd3.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Atlas%203.png"
+  },
+  {
+    "path": "assets/guides/poe-2-lo-trinh-endgame-chuan-asmodeus/ritual.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Ritual%201.png"
+  },
+  {
+    "path": "assets/guides/poe-2-lo-trinh-endgame-chuan-asmodeus/temple.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Temple%201.png"
+  },
+  {
+    "path": "assets/guides/poe-2-lo-trinh-endgame-chuan-asmodeus/delirium.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Deli%201.png"
+  },
+  {
+    "path": "assets/guides/poe-2-lo-trinh-endgame-chuan-asmodeus/hilda.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Hilda.png"
+  },
+  {
+    "path": "assets/guides/poe-2-ba-atlas-master-nen-lay-passive-nao/cover.webp",
+    "url": "https://assets.games.gg/atlas_masters_passives_3ff4c35a43.webp"
+  },
+  {
+    "path": "assets/guides/poe-2-ba-atlas-master-nen-lay-passive-nao/masters-2.webp",
+    "url": "https://assets.games.gg/atlas_masters_passives_fa33f586de.webp"
+  },
+  {
+    "path": "assets/guides/poe-2-craft-do-ssf-tu-luc-canh-sinh/bang-mod-amulet.jpg",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/poe%202%20amulet%20modifier%20table.jpg"
+  },
+  {
+    "path": "assets/guides/poe-2-lo-trinh-endgame-chuan-asmodeus/atlas-gd4-full.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Atlas%204.png"
   }
 ]
