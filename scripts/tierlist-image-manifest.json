@@ -1169,5 +1169,349 @@
   {
     "path": "assets/tierlists/poe2/cover.jpg",
     "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2694490/0f59c5bb74b3a2bc7eb77a1d0bc28afe4196a0e0/capsule_616x353.jpg"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/cover.png",
+    "url": "https://play-lh.googleusercontent.com/_OS6EQ01n93vfCiMRVgOb6RSsYiyacTI-2z_ebCzHNlLHdQX4Ln12dC1qGLjb_nrLc2L7Yr62osZDvFdIIv0JA=w1200"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/agravaine.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/agravaine_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/agravaine"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/anessa.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/anessa_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/anessa"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/asuka.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/asuka_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/asuka"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/baylin.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/baylin_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/baylin"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/bedivere.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/bedivere_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/bedivere"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/circe.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/circe_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/circe"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/claire.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/claire_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/claire"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/clarisse.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/clarisse_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/clarisse"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/cowqueen-belsey.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/cowqueen-belsey_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/cowqueen-belsey"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/cristina.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/cristina_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/cristina"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/dian-cecht.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/dian-cecht_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/dian-cecht"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/elaine.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/elaine_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/elaine"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/elin.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/elin_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/elin"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/elizabeth.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/elizabeth_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/elizabeth"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/enya.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/enya_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/enya"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/erin.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/erin_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/erin"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/esmeralda.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/esmeralda_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/esmeralda"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/estheria.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/estheria_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/estheria"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/ethan.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/ethan_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/ethan"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/eva.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/eva_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/eva"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/flame-kay.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/flame-kay_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/flame-kay"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/gaheris.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/gaheris_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/gaheris"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/galahad.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/galahad_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/galahad"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/gawain.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/gawain_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/gawain"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/guinevere.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/guinevere_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/guinevere"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/hikage.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/hikage_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/hikage"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/isabel.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/isabel_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/isabel"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/isis.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/isis_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/isis"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/isolde.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/isolde_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/isolde"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/jessi.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/jessi_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/jessi"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/joan-of-arc.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/joan-of-arc_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/joan-of-arc"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/karishara.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/karishara_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/karishara"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/katrin.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/katrin_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/katrin"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/kay.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/kay_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/kay"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/lancelot.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/lancelot_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/lancelot"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/lilith.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/lilith_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/lilith"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/lisa.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/lisa_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/lisa"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/lohengrin.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/lohengrin_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/lohengrin"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/lua.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/lua_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/lua"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/lucy.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/lucy_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/lucy"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/lueira.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/lueira_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/lueira"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/lumi.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/lumi_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/lumi"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/merlin.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/merlin_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/merlin"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/merry.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/merry_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/merry"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/mia.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/mia_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/mia"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/morgan-le-fay.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/morgan-le-fay_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/morgan-le-fay"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/morgana.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/morgana_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/morgana"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/morgause.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/morgause_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/morgause"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/neo-bedivere.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/neo-bedivere_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/neo-bedivere"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/nesha.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/nesha_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/nesha"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/nia.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/nia_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/nia"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/nymue.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/nymue_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/nymue"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/palamedes.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/palamedes_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/palamedes"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/percival.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/percival_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/percival"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/rachel.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/rachel_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/rachel"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/ran.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/ran_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/ran"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/ray.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/ray_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/ray"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/ria.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/ria_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/ria"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/rita.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/rita_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/rita"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/rita-maid.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/rita-maid_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/rita-maid"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/rowena.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/rowena_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/rowena"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/sarah.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/sarah_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/sarah"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/summer-merry.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/summer-merry_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/summer-merry"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/tiamat.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/tiamat_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/tiamat"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/tristan.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/tristan_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/tristan"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/urien.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/urien_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/urien"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/vivien.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/vivien_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/vivien"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/yumi.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/characters/yumi_card.webp",
+    "page": "https://www.prydwen.gg/lost-sword/characters/yumi"
   }
 ]
