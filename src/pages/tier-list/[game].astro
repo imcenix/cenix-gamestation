@@ -6,7 +6,7 @@ import { dmy } from '../../lib/format';
 import { HERO_CLASS_MAP } from '../../lib/labels';
 
 type Char = { name: string; image?: string; element?: string; desc?: string; role?: string; limited?: boolean; isNew?: boolean };
-type Tier = { label: string; sublabel?: string; color?: string; chars: Char[] };
+type Tier = { label: string; sublabel?: string; color?: string; chars?: Char[]; cols?: Record<string, Char[]> };
 
 export async function getStaticPaths() {
   function parseTiers(body: string): Tier[] {
@@ -33,6 +33,16 @@ export async function getStaticPaths() {
 }
 
 const { meta, tiers, gameId, others } = Astro.props;
+// Cot doc (vai tro). Uu tien frontmatter `columns`, khong co thi suy tu key cua tier.cols
+// theo thu tu xuat hien. Rong => giu layout 1 hang duy nhat nhu cu.
+const declared: string[] = Array.isArray(meta.columns) ? meta.columns.filter(Boolean) : [];
+const derived: string[] = [];
+for (const t of tiers as Tier[]) for (const k of Object.keys(t.cols ?? {})) if (!derived.includes(k)) derived.push(k);
+const columns: string[] = declared.length ? declared : derived;
+const gridMode = columns.length > 0;
+const showColHead = gridMode && columns.some((c) => c.trim() !== '');
+const gridStyle = gridMode ? `grid-template-columns: var(--tl-badge-w) repeat(${columns.length}, minmax(0, 1fr));` : '';
+const cellOf = (tier: Tier, col: string): Char[] => tier.cols?.[col] ?? (columns.length === 1 ? tier.chars ?? [] : []);
 const img = (file?: string) => (file ? `/tierlists/${gameId}/images/${file}` : null);
 const socialCover = meta.cover ? `/tierlists/${gameId}/${meta.cover}` : null;
 const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
@@ -51,32 +61,47 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
     {meta.blurb && <p class="blurb">{meta.blurb}</p>}
   </div>
 
-  <section class="gut tl-layout">
+  <section class:list={['gut', 'tl-layout', { wide: gridMode }]}>
     <div class="tl-table">
       <div class="tl-hint">HOVER NHÂN VẬT ĐỂ XEM HỆ & GIỚI THIỆU</div>
-      {tiers.map((tier) => (
-        <div class="tier-row">
-          <div class="tier-badge" style={`background:${tier.color || '#888'}`}>
-            <span class="tb-label">{tier.label}</span>
-            {tier.sublabel && <span class="tb-sub">{tier.sublabel}</span>}
-          </div>
-          <div class="tier-track">
-            {tier.chars.length === 0
-              ? <span class="tier-empty">—</span>
-              : tier.chars.map((c) => (
-                  <div class:list={['avatar', { limited: c.limited, 'is-new': c.isNew }]} tabindex="0" role="button"
-                    data-name={c.name} data-img={img(c.image) ?? ''} data-el={c.element ?? ''} data-desc={c.desc ?? ''} data-class={c.role && HERO_CLASS_MAP[c.role] ? HERO_CLASS_MAP[c.role].icon : ''}>
-                    {img(c.image)
-                      ? <img src={img(c.image)} alt={c.name} loading="lazy" />
-                      : <span class="abbr">{initials(c.name)}</span>}
-                    {c.isNew && <span class="new-badge">NEW</span>}
-                    <span class="cap">{c.name}</span>
+      <div class:list={['tl-scroll', { grid: gridMode }]}>
+        <div class="tl-inner" style={gridMode ? `min-width: calc(var(--tl-badge-w) + ${columns.length} * 190px);` : ''}>
+          {showColHead && (
+            <div class="tier-head" style={gridStyle}>
+              <div class="th-corner"></div>
+              {columns.map((col) => <div class="th-col">{col.toUpperCase()}</div>)}
+            </div>
+          )}
+          {tiers.map((tier) => (
+            <div class:list={['tier-row', { 'has-cols': gridMode }]} style={gridStyle}>
+              <div class="tier-badge" style={`background:${tier.color || '#888'}`}>
+                <span class="tb-label">{tier.label}</span>
+                {tier.sublabel && <span class="tb-sub">{tier.sublabel}</span>}
+              </div>
+              {(gridMode ? columns : ['']).map((col) => {
+                const chars = gridMode ? cellOf(tier, col) : tier.chars ?? [];
+                return (
+                  <div class="tier-track">
+                    {chars.length === 0
+                      ? <span class="tier-empty">—</span>
+                      : chars.map((c) => (
+                          <div class:list={['avatar', { limited: c.limited, 'is-new': c.isNew }]} tabindex="0" role="button"
+                            data-name={c.name} data-img={img(c.image) ?? ''} data-el={c.element ?? ''} data-desc={c.desc ?? ''} data-class={c.role && HERO_CLASS_MAP[c.role] ? HERO_CLASS_MAP[c.role].icon : ''}>
+                            {img(c.image)
+                              ? <img src={img(c.image)} alt={c.name} loading="lazy" />
+                              : <span class="abbr">{initials(c.name)}</span>}
+                            {c.isNew && <span class="new-badge">NEW</span>}
+                            <span class="cap">{c.name}</span>
+                          </div>
+                        ))}
                   </div>
-                ))}
-          </div>
+                );
+              })}
+            </div>
+          ))}
+          {tiers.length === 0 && <p class="tier-empty" style="padding:30px 0">Chưa có dữ liệu tier. Thêm trong CMS.</p>}
         </div>
-      ))}
-      {tiers.length === 0 && <p class="tier-empty" style="padding:30px 0">Chưa có dữ liệu tier. Thêm trong CMS.</p>}
+      </div>
     </div>
 
     <aside class="tl-side">
@@ -116,24 +141,37 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
   .genre { font: 400 11px var(--mono); color: var(--lime); margin-top: 8px; letter-spacing: 1px; }
   .blurb { font: 400 12.5px/1.6 var(--display); color: var(--tx-dim); margin: 16px 0 0; max-width: 640px; }
   .tl-layout { padding-top: 36px; padding-bottom: 44px; display: grid; grid-template-columns: 1fr 300px; gap: 28px; }
+  .tl-layout.wide { grid-template-columns: 1fr; }
+  .tl-layout.wide .other-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
   .tl-hint { font: 400 10px var(--mono); color: var(--tx-meta); margin-bottom: 12px; letter-spacing: 1px; }
 
+  .tl-table { --tl-badge-w: 92px; --tl-ava: 72px; }
+  .tier-row.has-cols { --tl-ava: 60px; }
+  .tl-scroll.grid { overflow-x: auto; overscroll-behavior-x: contain; }
+  .tier-head { display: grid; border: 1px solid var(--bd-soft); border-bottom: none; background: var(--surface); }
+  .th-corner { border-right: 1px solid var(--bd-soft); }
+  .th-col { font: 700 10px var(--mono); letter-spacing: 1.5px; color: var(--lime); padding: 9px 12px; }
+  .th-col + .th-col { border-left: 1px solid var(--bd-soft); }
+
   .tier-row { display: flex; gap: 0; align-items: stretch; border: 1px solid var(--bd-soft); border-bottom: none; }
+  .tier-row.has-cols { display: grid; }
+  .tier-row.has-cols .tier-badge { width: auto; }
+  .tier-row.has-cols .tier-track + .tier-track { border-left: 1px solid var(--bd-soft); }
   .tier-row:last-child { border-bottom: 1px solid var(--bd-soft); }
-  .tier-badge { width: 92px; flex: none; color: #0a0a0b; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; padding: 14px 6px; }
+  .tier-badge { width: var(--tl-badge-w); flex: none; color: #0a0a0b; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; padding: 14px 6px; }
   .tb-label { font: 900 30px/1 var(--display); }
   .tb-sub { font: 700 9px var(--mono); letter-spacing: 0.5px; }
   .tier-track { flex: 1; background: var(--surface-2); padding: 12px; display: flex; gap: 12px; flex-wrap: wrap; min-height: 96px; align-content: flex-start; }
   .tier-empty { font: 400 11px var(--mono); color: var(--tx-faint); align-self: center; }
 
-  .avatar { position: relative; width: 72px; flex: none; cursor: pointer; text-align: center; }
-  .avatar > img, .avatar .abbr { width: 72px; height: 72px; border-radius: 4px; overflow: hidden; display: flex; align-items: center; justify-content: center; object-fit: cover; background: linear-gradient(145deg, #f3ddf0 0%, #dde6fb 55%, #dbf1e7 100%); outline: 2px solid transparent; outline-offset: 2px; transition: outline-color 0.15s; }
+  .avatar { position: relative; width: var(--tl-ava); flex: none; cursor: pointer; text-align: center; }
+  .avatar > img, .avatar .abbr { width: var(--tl-ava); height: var(--tl-ava); border-radius: 4px; overflow: hidden; display: flex; align-items: center; justify-content: center; object-fit: cover; background: linear-gradient(145deg, #f3ddf0 0%, #dde6fb 55%, #dbf1e7 100%); outline: 2px solid transparent; outline-offset: 2px; transition: outline-color 0.15s; }
   .avatar .abbr { font: 700 12px var(--mono); color: rgba(24, 24, 34, 0.5); }
   .avatar:hover > img, .avatar:hover .abbr, .avatar.on > img, .avatar.on .abbr { outline-color: var(--lime); }
   .avatar .cap { display: block; margin-top: 6px; font: 700 10px/1.2 var(--display); color: var(--tx-65); }
   .avatar:hover .cap { color: #fff; }
   .avatar > img, .avatar .abbr { position: relative; z-index: 1; }
-  .avatar.limited::before { content: ''; position: absolute; top: -3px; left: -3px; right: -3px; height: 78px; border-radius: 8px; background: linear-gradient(135deg, #ffe680 0%, #f6b93b 30%, #fff4c2 55%, #e08e14 100%); box-shadow: 0 0 10px rgba(246, 185, 59, 0.45); z-index: 0; }
+  .avatar.limited::before { content: ''; position: absolute; top: -3px; left: -3px; right: -3px; height: calc(var(--tl-ava) + 6px); border-radius: 8px; background: linear-gradient(135deg, #ffe680 0%, #f6b93b 30%, #fff4c2 55%, #e08e14 100%); box-shadow: 0 0 10px rgba(246, 185, 59, 0.45); z-index: 0; }
   .avatar.is-new > img, .avatar.is-new .abbr { box-shadow: 0 0 0 2px #35d07f; }
   .avatar .new-badge { position: absolute; top: -5px; left: -5px; z-index: 3; background: linear-gradient(135deg, #3ff08a, #12b866); color: #04210f; font: 800 7px/1 var(--mono); letter-spacing: 0.5px; padding: 3px 4px; border-radius: 3px; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4); }
 
@@ -166,7 +204,8 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
 
   @media (max-width: 900px) {
     .tl-layout { grid-template-columns: 1fr; }
-    .tier-badge { width: 68px; }
+    .tl-table { --tl-badge-w: 68px; }
+    .tier-badge { width: var(--tl-badge-w); }
     .tb-label { font-size: 22px; }
     .tl-popup { position: fixed; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%); width: min(300px, 90vw); }
   }

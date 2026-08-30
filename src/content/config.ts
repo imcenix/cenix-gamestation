@@ -53,6 +53,9 @@ const tierlists = defineCollection({
     updated: z.union([z.string(), z.date()]).nullable().optional()
              .transform((v) => (!v ? null : typeof v === 'string' ? v : v.toISOString().slice(0, 10))),
     cover:   z.string().nullable().optional(),
+    // Ten cac cot doc (vai tro). Bo trong => suy tu key trong body JSON; van bo trong => layout 1 hang nhu cu.
+    columns: z.union([z.string(), z.array(z.string())]).nullable().optional()
+             .transform((v) => (!v ? [] : (Array.isArray(v) ? v : v.split(',')).map((x) => String(x).trim()).filter(Boolean))),
     order:   orderSchema,
   }),
 });
