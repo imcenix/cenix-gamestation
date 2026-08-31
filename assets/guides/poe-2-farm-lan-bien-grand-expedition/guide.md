@@ -10,11 +10,10 @@ tags:
   - LẶN BIỂN
   - FARM
 excerpt: Mở khoá lặn biển rồi mà chạy sai thì cũng chỉ nhặt được đồ lẻ. Thứ tự chọn Remnant, mẹo nối thuốc nổ, bốn ông thợ và con trùm Olroth — đủ cả.
-cover: cover.png
+cover: cover.jpg
 ---
 Mở khoá được **lặn biển** rồi mà chạy sai cách thì cũng chỉ nhặt được đồ lẻ tẻ, uổng công cả chuỗi quest Kingsmarch. Bài này là phần hai — cách chạy **Grand Expedition** cho ra đồ thật. Để Cenix kể cho nghe.
 
-![Bản đồ nhỏ của một trận Grand Expedition](minimap.png)
 
 <div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Nắm cái này trước mọi thứ khác:</strong> Thứ ra tiền trong Expedition là <strong>Runic Monster</strong> — đám quái đứng cạnh <strong>cột cờ lớn</strong>. Lý do: mod tăng tỉ lệ rơi Logbook và passive <strong>Detailed Records</strong> <strong>CHỈ áp dụng cho Runic Monster</strong>. Bỏ cột cờ để đi nhặt remnant vớ vẩn là lỗ.</p></div>
 
@@ -32,7 +31,7 @@ Mở khoá được **lặn biển** rồi mà chạy sai cách thì cũng chỉ
 
 6.  **Kích nổ** — dây cháy chạy theo thứ tự, quái bung ra và các trận thưởng bắt đầu.
 
-![Màn hình chọn Runic Remnant](chon-remnant.png)
+![Màn hình chọn Runic Remnant](chon-remnant.webp)
 
 ## <span style="color:rgb(255, 176, 0)">Thứ tự ưu tiên Remnant — học thuộc là đủ giàu</span>
 
@@ -44,13 +43,13 @@ Chọn theo đúng thứ tự này, đừng tham cái lấp lánh:
 4.  **Item Quantity**
 5.  **Item Rarity**
 
-![Đặt chuỗi thuốc nổ trong Grand Expedition](dat-thuoc-no.png)
+![Đặt chuỗi thuốc nổ trong Grand Expedition](dat-thuoc-no.webp)
 
 <div class="editorial-text-box" data-bg="#fff4e0" data-color="#2d3458" style="--box-bg: #fff4e0; --box-color: #2d3458;"><p><strong>Remnant chữ vàng — coi chừng:</strong> Mấy mod Remnant màu vàng có thể làm trận đó <strong>không chạy nổi</strong>. Gặp cái nào quá gắt thì bỏ qua, đừng cố.</p></div>
 
 ## <span style="color:rgb(255, 176, 0)">Mẹo ăn tiền: chuyển Rune sang pack sau</span>
 
-![Cơ chế chuyển Rune giữa các pack quái](rune-transfer.png)
+![Cơ chế chuyển Rune giữa các pack quái](rune-transfer.webp)
 
 Mỗi Rune cho đám quái mọc lên một hiệu ứng — có cái buff quái, có cái cho quái cơ hội hồi sinh ở độ hiếm cao hơn. Nhưng điểm quan trọng nhất là:
 
@@ -58,7 +57,7 @@ Mỗi Rune cho đám quái mọc lên một hiệu ứng — có cái buff quái
 
 Nghĩa là nếu anh em xếp chuỗi khéo, mấy pack cuối sẽ gánh chồng chất buff — quái khoẻ kinh khủng nhưng đồ rơi ra cũng khủng theo. Đây là chỗ tách biệt người chạy cho có với người chạy để giàu.
 
-![Rương thưởng sau khi kích nổ](kich-no-ruong.png)
+![Rương thưởng sau khi kích nổ](kich-no-ruong.webp)
 
 ## <span style="color:rgb(255, 176, 0)">Bốn ông thợ và mớ Artifact</span>
 
@@ -84,7 +83,7 @@ Ngoài ra còn **Exotic Coinage** dùng để reroll danh sách hàng của th�
 
 ## <span style="color:rgb(255, 176, 0)">Liquid Verisium — cứu vãn một Remnant xấu</span>
 
-![Mua Liquid Verisium từ Farrow](liquid-verisium.png)
+![Mua Liquid Verisium từ Farrow](liquid-verisium.webp)
 
 Cắm passive Atlas **Feeling Lucky?** là mua được **Liquid Verisium** từ **Farrow**. Công dụng: **reroll một Runic Remnant đúng một lần**, dùng được cả trước lẫn sau khi đặt thuốc nổ. Gặp remnant xấu thì đây là phao.
 
@@ -101,7 +100,7 @@ Cắm thêm nếu dư điểm: **Frail Treasures** (hiện dấu rương, biến
 
 ## <span style="color:rgb(255, 176, 0)">Chọn "tin đồn" nào cho đáng</span>
 
-![Bảng tin đồn của Logbook](rumours.png)
+![Bảng tin đồn của Logbook](rumours.webp)
 
 Mỗi Logbook cho anh em chọn giữa các **Rumour**, mỗi cái ra một kiểu map và một kiểu thưởng. Mấy cái đáng nhắm:
 
@@ -115,7 +114,7 @@ Mỗi Logbook cho anh em chọn giữa các **Rumour**, mỗi cái ra một ki�
 
 Bốn tin đồn boss thì rõ rồi: **Stardrinker** ra Uhtred, **Origin of the Fall** ra Olroth, **The Last to Fall** ra Vorana, **End of the Circle** ra Medved.
 
-![Các loại Omen của Logbook](logbook-omens.png)
+![Các loại Omen của Logbook](logbook-omens.webp)
 
 Còn **Logbook Omen**: mấy viên Omen boss (Vorana's, Medved's, Uhtred's, Olroth's) **đảm bảo** ra đúng Grand Expedition của con đó. Riêng **Aldur's Saga** thì buff cả trận lên mức mà Lolcohol gọi là "trên trời" — đảm bảo có Runic Remnant kèm thêm ô rune.
 
