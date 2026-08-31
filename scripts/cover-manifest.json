@@ -1242,5 +1242,61 @@
   {
     "path": "assets/news/aliens-fireteam-elite-2-jankcore/cover.jpg",
     "page": "https://www.gamesradar.com/games/third-person-shooter/aliens-fireteam-elite-2-review/"
+  },
+  {
+    "path": "assets/guides/poe-2-mo-khoa-lan-bien-kingsmarch/cover.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Ruins_of_Kingsmarch.png"
+  },
+  {
+    "path": "assets/guides/poe-2-mo-khoa-lan-bien-kingsmarch/ruins-kingsmarch.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Ruins_of_Kingsmarch.png"
+  },
+  {
+    "path": "assets/guides/poe-2-mo-khoa-lan-bien-kingsmarch/logbook-icons.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Logbook_Icons.png"
+  },
+  {
+    "path": "assets/guides/poe-2-mo-khoa-lan-bien-kingsmarch/logbook-activated.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Logbook_Activated.png"
+  },
+  {
+    "path": "assets/guides/poe-2-mo-khoa-lan-bien-kingsmarch/grand-expedition-icon.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Grand_Expedition_Icon.png"
+  },
+  {
+    "path": "assets/guides/poe-2-farm-lan-bien-grand-expedition/cover.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Grand_Expedition_Minimap.png"
+  },
+  {
+    "path": "assets/guides/poe-2-farm-lan-bien-grand-expedition/minimap.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Grand_Expedition_Minimap.png"
+  },
+  {
+    "path": "assets/guides/poe-2-farm-lan-bien-grand-expedition/chon-remnant.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Remnant_Selection.png"
+  },
+  {
+    "path": "assets/guides/poe-2-farm-lan-bien-grand-expedition/dat-thuoc-no.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Placement_Explosive.png"
+  },
+  {
+    "path": "assets/guides/poe-2-farm-lan-bien-grand-expedition/rune-transfer.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Rune_Transfer.png"
+  },
+  {
+    "path": "assets/guides/poe-2-farm-lan-bien-grand-expedition/kich-no-ruong.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Reward_Chest_Logbook.png"
+  },
+  {
+    "path": "assets/guides/poe-2-farm-lan-bien-grand-expedition/liquid-verisium.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Farrow_Liquid_Verisium.png"
+  },
+  {
+    "path": "assets/guides/poe-2-farm-lan-bien-grand-expedition/rumours.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Logbook_Rumours.png"
+  },
+  {
+    "path": "assets/guides/poe-2-farm-lan-bien-grand-expedition/logbook-omens.png",
+    "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Logbook_Omens.png"
   }
 ]
