@@ -2017,5 +2017,517 @@
   {
     "path": "assets/tierlists/outerplane/images/tanya.webp",
     "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000016.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-madness-vivien.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_29.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-moonlight-swordplay-ran.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_35.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-red-dragons-blessing-60f-abyss.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_61.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-charm-lilith.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_6.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-holy-grail-spirit-30f-abyss.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_56.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-lingering-allure-anessa.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_28.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-preordained-defeat-clarisse.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/preordained-defeat-clarisse.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-water-dragons-blessing-merlin.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_48.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-carpe-diem-circe.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_5.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-constricting-gaze-nesha.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_63.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-doom-goddess-tiamat.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_9.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-elgrad-sword-art-journal-lua.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_11.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-queens-temptation-morgan-le-fay.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_60.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-quenched-at-last-eva.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_55.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-big-boss-lumi.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/big-boss-lumi.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-managers-dignity-enya.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_32.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-princess-of-smiles-erin.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_37.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-rose-flame-cristina.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_40.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-holy-swords-blessing-ethan.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_21.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-knight-of-purity-galahad.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_25.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-lovely-maid-maid-rita.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_67.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-a-girls-secrets-palamedes.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_58.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-absolute-monarchy-90f-abyss.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_69.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-awakened-power-neo-bedivere.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_52.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-between-snowflakes-yumi.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_66.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-clumsy-lover-lancelot.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_7.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-eternal-bond-lohengrin.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_54.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-eternal-flames-flame-kay.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/eternal-flames-flame-kay.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-fiery-gaze-summer-merry.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_53.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-flame-emperor-kay.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_17.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-hidden-in-the-shadows-agravaine.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/1779101728546-fb0a4b64c527c5746faa89dcdc156c64.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-ice-empress-katrin.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_22.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-smile-in-the-dark-lisa.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_41.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-titanomachia-isabel.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_46.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-unerring-bow-tristan.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_47.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-crusade-of-ecstasy-nia.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/crusade-of-ecstasy-nia.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-sweet-afternoon-lueira.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_62.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-art-of-healing-isolde.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_2.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-first-tactics-guinevere.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_16.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-incarnation-esmeralda.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_23.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-queens-morning-belsey.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_57.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-witch-of-light-dian-cecht.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_50.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-exclusive-to-first-love-karishara.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_68.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-eye-of-vengeance.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_13.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-fairy-queen-morgana.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_14.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-gourmet-ria.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_19.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-instant-counter-baylin.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_24.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-mission-complete-hikage.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_64.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-obedience-morgause.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_36.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-spill-mia.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_42.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-sturdy-strength-lucy.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_44.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-quiet-temptation-estheria.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_59.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-lifelong-contract.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_27.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-prydwen-percival.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_38.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-absolute-armor-elizabeth.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_1.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-demon-pact-rowena.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_8.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-fighting-spirit-joan-of-arc.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_15.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-knitting-master-gaheris.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_26.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-martial-arts-training-claire.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_33.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-massacre-ray.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_34.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-spirits-favor-nymue.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_43.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-glutton-sarah.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_18.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-green-belt-gawain.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_20.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-magic-defense-urien.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_30.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-reflexes-merry.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_39.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-barbarians-will-isis.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_3.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-eastern-medicine-rachel.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_10.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-maintenance-jessi.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_31.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-swordmaster.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_45.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-take-training-seriously-asuka.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_65.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-water-spirit-elaine.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_49.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-barista-rita.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_4.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-evasive-maneuver-elin.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_12.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/card-world-trees-energy-bedivere.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/cards/card_51.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-flame-kay.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/flame-kay.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-lohengrin.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_36.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-lumi.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/lumi.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-nia.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/nia.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-ran.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_28.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-unleashed-eva.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_38.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-yumi.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_47.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-agravaine.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/generic/1779103886823-0d23c26218e5bccedbeb78b9e7a10366.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-athena.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_2.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-cristina.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_6.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-estheria.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_10.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-lilith.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_37.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-morgan-le-fay.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_42.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-nesha.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_44.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-palamedes.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_41.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-phoenix.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_27.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-tiamat.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_30.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-tristan.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_31.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-vivien.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_33.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-anessa.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_1.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-belsey.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_40.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-circe.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_5.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-clarisse.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/clarisse.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-joan-of-arc.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_16.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-katrin.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_17.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-kay.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_18.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-lancelot.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_19.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-maid-rita.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_48.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-morgana.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_24.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-neo-bedivere.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_34.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-asuka.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_46.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-bedivere.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_3.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-erin.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_9.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-eva.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_11.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-fenrir.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_39.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-griffin.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_13.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-guinevere.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_14.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-hikage.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_45.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-isabel.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_15.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-karishara.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_49.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-lisa.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_20.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-lua.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_21.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-merlin.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_22.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-summer-merry.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_35.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-dian-cecht.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_7.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-elizabeth.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_8.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-galahad.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_12.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-belle.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_4.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-lueira.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_43.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-midnight.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_23.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-neo.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_25.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-nightsong.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_26.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-shiba.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_29.webp"
+  },
+  {
+    "path": "assets/tierlists/lost-sword/images/pet-whitey.webp",
+    "url": "https://cdn.prydwen.gg/images/lost-sword/pets/pet_32.webp"
   }
 ]
