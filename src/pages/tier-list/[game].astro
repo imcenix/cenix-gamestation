@@ -7,12 +7,23 @@ import { HERO_CLASS_MAP } from '../../lib/labels';
 
 type Char = { name: string; image?: string; element?: string; desc?: string; role?: string; limited?: boolean; isNew?: boolean };
 type Tier = { label: string; sublabel?: string; color?: string; chars?: Char[]; cols?: Record<string, Char[]> };
+// Mot bang (PVE / PVP / ...). Body kieu cu (mang tier) = 1 bang khong nhan.
+type Board = { id?: string; label?: string; columns?: string[]; note?: string; tiers: Tier[] };
 
 export async function getStaticPaths() {
-  function parseTiers(body: string): Tier[] {
+  // Body chap nhan 2 kieu:
+  //   [ {tier}, ... ]                      -> 1 bang duy nhat (kieu cu)
+  //   { "boards": [ {label, columns?, note?, tiers: [...] } ] }  -> nhieu bang co nut chuyen
+  function parseBoards(body: string): Board[] {
     try {
-      const arr = JSON.parse((body || '').trim() || '[]');
-      return Array.isArray(arr) ? arr : [];
+      const raw = JSON.parse((body || '').trim() || '[]');
+      if (Array.isArray(raw)) return [{ tiers: raw }];
+      if (raw && Array.isArray(raw.boards)) {
+        return raw.boards
+          .filter((b: Board) => b && Array.isArray(b.tiers))
+          .map((b: Board, i: number) => ({ ...b, id: b.id ?? b.label?.toLowerCase().replace(/[^a-z0-9]+/g, '-') ?? `b${i}` }));
+      }
+      return [];
     } catch {
       return [];
     }
@@ -22,7 +33,7 @@ export async function getStaticPaths() {
     params: { game: t.id },
     props: {
       meta: t.data,
-      tiers: parseTiers(t.body ?? ''),
+      boards: parseBoards(t.body ?? ''),
       gameId: t.id,
       others: tierlists
         .filter((o) => o.id !== t.id)
@@ -32,17 +43,31 @@ export async function getStaticPaths() {
   }));
 }
 
-const { meta, tiers, gameId, others } = Astro.props;
-// Cot doc (vai tro). Uu tien frontmatter `columns`, khong co thi suy tu key cua tier.cols
-// theo thu tu xuat hien. Rong => giu layout 1 hang duy nhat nhu cu.
-const declared: string[] = Array.isArray(meta.columns) ? meta.columns.filter(Boolean) : [];
-const derived: string[] = [];
-for (const t of tiers as Tier[]) for (const k of Object.keys(t.cols ?? {})) if (!derived.includes(k)) derived.push(k);
-const columns: string[] = declared.length ? declared : derived;
-const gridMode = columns.length > 0;
-const showColHead = gridMode && columns.some((c) => c.trim() !== '');
-const gridStyle = gridMode ? `grid-template-columns: var(--tl-badge-w) repeat(${columns.length}, minmax(0, 1fr));` : '';
-const cellOf = (tier: Tier, col: string): Char[] => tier.cols?.[col] ?? (columns.length === 1 ? tier.chars ?? [] : []);
+const { meta, boards, gameId, others } = Astro.props;
+// Cot doc (vai tro) tinh cho TUNG bang: uu tien `columns` cua bang, roi frontmatter
+// `columns`, cuoi cung suy tu key cua tier.cols. Rong => 1 hang duy nhat nhu cu.
+const metaCols: string[] = Array.isArray(meta.columns) ? meta.columns.filter(Boolean) : [];
+function columnsOf(board: Board): string[] {
+  if (board.columns?.length) return board.columns.filter(Boolean);
+  if (metaCols.length) return metaCols;
+  const derived: string[] = [];
+  for (const t of board.tiers) for (const k of Object.keys(t.cols ?? {})) if (!derived.includes(k)) derived.push(k);
+  return derived;
+}
+const views = (boards as Board[]).map((board) => {
+  const cols = columnsOf(board);
+  return {
+    board,
+    cols,
+    gridMode: cols.length > 0,
+    showColHead: cols.length > 0 && cols.some((c) => c.trim() !== ''),
+    gridStyle: cols.length > 0 ? `grid-template-columns: var(--tl-badge-w) repeat(${cols.length}, minmax(0, 1fr));` : '',
+    cellOf: (tier: Tier, col: string): Char[] => tier.cols?.[col] ?? (cols.length === 1 ? tier.chars ?? [] : []),
+  };
+});
+// Layout rong khi CO bang nao chay che do luoi (tranh nhay layout luc doi bang).
+const anyGrid = views.some((v) => v.gridMode);
+const multi = views.length > 1;
 const img = (file?: string) => (file ? `/tierlists/${gameId}/images/${file}` : null);
 const socialCover = meta.cover ? `/tierlists/${gameId}/${meta.cover}` : null;
 const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
@@ -61,24 +86,36 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
     {meta.blurb && <p class="blurb">{meta.blurb}</p>}
   </div>
 
-  <section class:list={['gut', 'tl-layout', { wide: gridMode }]}>
+  <section class:list={['gut', 'tl-layout', { wide: anyGrid }]}>
     <div class="tl-table">
       <div class="tl-hint">HOVER NHÂN VẬT ĐỂ XEM HỆ & GIỚI THIỆU</div>
+      {multi && (
+        <div class="mode-tabs" role="tablist">
+          {views.map((v, i) => (
+            <button type="button" class:list={['mode-tab', { on: i === 0 }]} data-board={v.board.id} role="tab" aria-selected={i === 0}>
+              {(v.board.label || `BẢNG ${i + 1}`).toUpperCase()}
+            </button>
+          ))}
+        </div>
+      )}
+      {views.map(({ board, cols, gridMode, showColHead, gridStyle, cellOf }, bi) => (
+      <div class="tl-board" data-board={board.id} hidden={bi > 0}>
+      {board.note && <p class="board-note">{board.note}</p>}
       <div class:list={['tl-scroll', { grid: gridMode }]}>
-        <div class="tl-inner" style={gridMode ? `min-width: calc(var(--tl-badge-w) + ${columns.length} * 190px);` : ''}>
+        <div class="tl-inner" style={gridMode ? `min-width: calc(var(--tl-badge-w) + ${cols.length} * 190px);` : ''}>
           {showColHead && (
             <div class="tier-head" style={gridStyle}>
               <div class="th-corner"></div>
-              {columns.map((col) => <div class="th-col">{col.toUpperCase()}</div>)}
+              {cols.map((col) => <div class="th-col">{col.toUpperCase()}</div>)}
             </div>
           )}
-          {tiers.map((tier) => (
+          {board.tiers.map((tier) => (
             <div class:list={['tier-row', { 'has-cols': gridMode }]} style={gridStyle}>
               <div class="tier-badge" style={`background:${tier.color || '#888'}`}>
                 <span class="tb-label">{tier.label}</span>
                 {tier.sublabel && <span class="tb-sub">{tier.sublabel}</span>}
               </div>
-              {(gridMode ? columns : ['']).map((col) => {
+              {(gridMode ? cols : ['']).map((col) => {
                 const chars = gridMode ? cellOf(tier, col) : tier.chars ?? [];
                 return (
                   <div class="tier-track">
@@ -99,9 +136,12 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
               })}
             </div>
           ))}
-          {tiers.length === 0 && <p class="tier-empty" style="padding:30px 0">Chưa có dữ liệu tier. Thêm trong CMS.</p>}
+          {board.tiers.length === 0 && <p class="tier-empty" style="padding:30px 0">Chưa có dữ liệu tier. Thêm trong CMS.</p>}
         </div>
       </div>
+      </div>
+      ))}
+      {views.length === 0 && <p class="tier-empty" style="padding:30px 0">Chưa có dữ liệu tier. Thêm trong CMS.</p>}
     </div>
 
     <aside class="tl-side">
@@ -143,7 +183,14 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
   .tl-layout { padding-top: 36px; padding-bottom: 44px; display: grid; grid-template-columns: 1fr 300px; gap: 28px; }
   .tl-layout.wide { grid-template-columns: 1fr; }
   .tl-layout.wide .other-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
-  .tl-hint { font: 400 10px var(--mono); color: var(--tx-meta); margin-bottom: 12px; letter-spacing: 1px; }
+  .tl-hint { font: 400 10px var(--mono); color: var(--tx-meta); margin-bottom: 14px; letter-spacing: 1px; }
+
+  .mode-tabs { display: flex; gap: 8px; margin-bottom: 14px; flex-wrap: wrap; }
+  .mode-tab { font: 800 11px var(--mono); letter-spacing: 1.5px; padding: 9px 20px; border-radius: 3px; cursor: pointer;
+    background: var(--surface-2); color: var(--tx-65); border: 1px solid var(--bd-card); transition: color .15s, border-color .15s, background .15s; }
+  .mode-tab:hover { color: #fff; border-color: var(--lime-40); }
+  .mode-tab.on { background: var(--lime); color: var(--on-lime); border-color: var(--lime); }
+  .board-note { font: 400 11px/1.6 var(--mono); color: var(--tx-dim); margin: 0 0 12px; max-width: 760px; }
 
   .tl-table { --tl-badge-w: 92px; --tl-ava: 72px; }
   .tier-row.has-cols { --tl-ava: 60px; }
@@ -241,6 +288,17 @@ const initials = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]
   popup.addEventListener('mouseleave', hide);
   window.addEventListener('scroll', hide, { passive: true });
   document.addEventListener('click', (e) => { if (!popup.contains(e.target) && !e.target.closest('.avatar')) hide(); });
+  // Nut chuyen bang (PVE / PVP / ...)
+  const tabs = document.querySelectorAll('.mode-tab');
+  const boards = document.querySelectorAll('.tl-board');
+  tabs.forEach((t) => {
+    t.addEventListener('click', () => {
+      hide();
+      tabs.forEach((x) => { x.classList.toggle('on', x === t); x.setAttribute('aria-selected', String(x === t)); });
+      boards.forEach((b) => { b.hidden = b.dataset.board !== t.dataset.board; });
+    });
+  });
+
   document.querySelectorAll('.avatar').forEach((a) => {
     const open = () => { clearTimeout(hideTimer); document.querySelectorAll('.avatar.on').forEach((x) => x.classList.remove('on')); a.classList.add('on'); show(a); };
     a.addEventListener('mouseenter', () => { hideTimer = window.setTimeout(open, 100); });
