@@ -57,17 +57,23 @@ const { activeNav = 'home' } = Astro.props;
     position: fixed; top: 0; left: 0; right: 0; z-index: 60;
     background: transparent;
     border-bottom: 1px solid transparent;
-    transition: background 0.3s ease, backdrop-filter 0.3s ease, border-color 0.3s ease;
+    /* KHÔNG transition backdrop-filter: đổi filter trên element fixed làm trình
+       duyệt dựng lại layer mỗi frame -> nav nhấp nháy khi cuộn. */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    /* Giữ nav ở một compositing layer cố định, tránh repaint theo nội dung cuộn. */
+    transform: translateZ(0);
+    will-change: background-color;
   }
   /* Trang có hero video full-bleed (home, profile) để nav trong suốt đè lên. */
   :global(body:not([data-page='home']):not([data-page='profile'])) .site-nav {
-    background: rgba(10, 10, 11, 0.92);
+    background: var(--bg);
     border-bottom-color: var(--bd-divider);
   }
+  /* Đục hẳn khi đã cuộn — nền mờ làm chữ bên dưới trôi xuyên qua nav, nhìn như
+     nav chớp tắt. Bỏ luôn backdrop-filter vì nền đã đục, blur không còn tác dụng
+     mà lại là thủ phạm chính gây nhấp nháy. */
   .site-nav.scrolled {
-    background: rgba(10, 10, 11, 0.85);
-    backdrop-filter: blur(12px) saturate(140%);
-    -webkit-backdrop-filter: blur(12px) saturate(140%);
+    background: var(--bg);
     border-bottom-color: var(--bd-divider);
   }
   .nav {
@@ -226,7 +232,20 @@ const { activeNav = 'home' } = Astro.props;
 
 <script>
   const siteNav = document.getElementById('site-nav');
-  const onScroll = () => siteNav?.classList.toggle('scrolled', window.scrollY > 40);
+  // Hai mốc lệch nhau (bật ở 48, tắt ở 24) để cuộn quanh ranh giới không làm
+  // class bật/tắt liên tục. Đọc scrollY trong rAF cho khớp nhịp vẽ.
+  let navTicking = false;
+  const onScroll = () => {
+    if (navTicking) return;
+    navTicking = true;
+    requestAnimationFrame(() => {
+      navTicking = false;
+      if (!siteNav) return;
+      const y = window.scrollY;
+      if (y > 48) siteNav.classList.add('scrolled');
+      else if (y < 24) siteNav.classList.remove('scrolled');
+    });
+  };
   onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
   const btn = document.getElementById('nav-hamburger');
   const menu = document.querySelector('.nav-menu');
