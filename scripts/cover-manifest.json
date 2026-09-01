@@ -1242,5 +1242,45 @@
   {
     "path": "assets/news/aliens-fireteam-elite-2-jankcore/cover.jpg",
     "page": "https://www.gamesradar.com/games/third-person-shooter/aliens-fireteam-elite-2-review/"
+  },
+  {
+    "path": "assets/news/bit-reactor-cho-nhan-su-nghi-khong-luong/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/the-studio-behind-star-wars-zero-company-which-is-currently-a-steam-bestseller-has-reportedly-furloughed-the-majority-of-its-staff/"
+  },
+  {
+    "path": "assets/news/steam-teraleak-lo-ca-gta-3-mafia-2/cover.jpg",
+    "page": "https://www.pcgamer.com/games/the-steam-teraleak-extends-far-beyond-valve-games-including-prototypes-of-third-party-titles-like-mafia-2-and-grand-theft-auto-3-this-may-be-one-of-if-not-the-biggest-leaks-to-occur/"
+  },
+  {
+    "path": "assets/news/witcher-4-da-chay-tren-pc-va-console/cover.jpg",
+    "page": "https://www.pcgamer.com/games/the-witcher/after-the-debacle-of-cyberpunk-2077-cd-projekt-says-the-witcher-4-is-already-running-on-pc-and-consoles-promises-its-going-to-run-on-all-target-platforms/"
+  },
+  {
+    "path": "assets/news/blizzard-quet-bang-xep-hang-mythic-plus/cover.jpg",
+    "page": "https://www.pcgamer.com/games/world-of-warcraft/blizzard-doing-a-thorough-scrub-of-illegitimate-world-of-warcraft-mythic-plus-dungeon-rankings-with-more-changes-to-come/"
+  },
+  {
+    "path": "assets/news/cdpr-mo-kho-arasaka-cuu-dev-mat-do-gamescom/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/cd-projekt-red-opens-its-arasaka-hardware-archives-to-help-an-indie-dev-whose-gear-was-stolen-during-1-of-at-least-4-gamescom-thefts/"
+  },
+  {
+    "path": "assets/news/splitgate-arena-reloaded-empulse-tat-server/cover.jpg",
+    "page": "https://www.pcgamer.com/games/fps/empulse-and-splitgate-arena-reloaded-are-officially-over-as-1047-games-says-its-probably-done-making-arena-shooters/"
+  },
+  {
+    "path": "assets/news/haunted-chocolatier-eric-barone-rat-nang-suat/cover.jpg",
+    "page": "https://www.pcgamer.com/games/life-sim/haunted-chocolatiers-development-has-been-very-productive-in-recent-months-eric-barone-says-working-on-haunted-chocolatier-is-what-im-most-eager-and-driven-to-do/"
+  },
+  {
+    "path": "assets/news/switch-2-tang-gia-len-500-do/cover.jpg",
+    "page": "https://www.gamesradar.com/games/this-is-your-last-chance-to-buy-a-switch-2-before-nintendo-raises-prices-to-usd500/"
+  },
+  {
+    "path": "assets/news/onimusha-86-diem-cu-tat-thu-tu-cua-capcom/cover.jpg",
+    "page": "https://www.gamesradar.com/games/action/capcom-delivers-its-fourth-hit-of-the-year-with-early-onimusha-way-of-the-sword-reviews-beating-pragmata/"
+  },
+  {
+    "path": "assets/news/blood-of-dawnwalker-83-diem-metacritic/cover.jpg",
+    "page": "https://www.gamesradar.com/games/rpg/the-witcher-3-directors-new-rpg-blood-of-dawnwalker-is-a-hit-with-most-critics-and-just-behind-the-witcher-1-and-2-on-metacritic/"
   }
 ]
