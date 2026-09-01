@@ -1513,5 +1513,509 @@
     "path": "assets/tierlists/lost-sword/images/yumi.webp",
     "url": "https://cdn.prydwen.gg/images/lost-sword/characters/yumi_card.webp",
     "page": "https://www.prydwen.gg/lost-sword/characters/yumi"
+  },
+  {
+    "path": "assets/tierlists/outerplane/cover.png",
+    "url": "https://play-lh.googleusercontent.com/99NGysOPsOf4LzhBg8SYE2KKnfeLcQ0cQ0NRcm04Pn5HufYvfMa4qS88V3ty7egqwpXZxADPs7IRHiGEbV3GWnw=w1200"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/aer.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000055.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/akari.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000064.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/ame.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000065.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/bell-cranel.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000095.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/demiurge-astei.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000059.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/demiurge-drakhan.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000063.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/demiurge-luna.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000119.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/dianne.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000074.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/drakhan.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000062.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/gnosis-nella.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000091.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/heatwave-cop-delta.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000121.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/holy-nights-blessing-dianne.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000093.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/kitsune-of-eternity-tamamo-no-mae.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000086.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/luna.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000103.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/maxwell.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000028.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/midnight-rush-skadi.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000114.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/monad-eva.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000084.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/mystic-sage-ame.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000110.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/nella.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000083.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/poolside-trickster-regina.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000085.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/ryu-lion.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000097.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/skadi.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000101.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/tamara.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000060.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/valentine.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000012.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/anarky.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000116.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/astei.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000058.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/beth.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000025.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/caren.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000089.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/charlotte.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000066.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/core-fusion-epsilon.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2700070.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/core-fusion-eternal.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2700043.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/core-fusion-notia.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2700056.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/core-fusion-veronica.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2700037.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/demiurge-delta.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000100.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/demiurge-saeran.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000129.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/demiurge-stella.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000053.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/demiurge-vlada.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000075.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/ember.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000094.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/eris.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000117.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/eternal.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000043.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/fortuna.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000107.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/fran.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000105.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/gnosis-beth.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000092.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/gnosis-dahlia.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000090.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/gnosis-domine.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000112.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/gnosis-viella.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000109.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/hilde.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000088.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/iota.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000069.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/kanon.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000071.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/liselotte.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000098.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/marian.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000014.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/maxie.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000081.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/mero.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000040.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/monad-iota.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000111.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/omega-nadja.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000102.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/primine.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000113.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/regina.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000067.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/rey.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000087.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/roxie.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000082.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/stella.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000039.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/summer-knights-dream-ember.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000106.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/tamamo-no-mae.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000080.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/tio.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000036.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/veronica.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000037.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/viella.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000108.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/vlada.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000073.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/ais-wallenstein.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000096.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/alice.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000020.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/bryn.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000076.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/christina.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000061.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/core-fusion-lisha.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2700005.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/dahlia.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000068.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/dolly.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000013.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/edelweiss.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000072.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/faenan.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000027.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/fatal.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000078.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/kappa.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000077.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/kuro.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000079.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/lambda.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000118.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/laplace.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000044.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/lyla.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000047.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/mene.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000054.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/notia.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000056.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/rhona.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000008.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/rin.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000019.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/saeran.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000023.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/sterope.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000057.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/cindy.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000031.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/core-fusion-snow.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2700003.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/eliza.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000035.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/eva.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000009.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/francesca.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000015.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/hanbyul-lee.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000021.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/iris.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000004.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/k.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000001.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/kate.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000030.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/leo.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000042.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/lisha.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000005.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/naru-kang.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000024.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/noa.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000022.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/parti.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000032.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/pesketh.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000041.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/ritri.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000048.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/sofia.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000006.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/vera.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000002.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/adelie.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000033.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/claire.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000017.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/delta.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000099.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/epsilon.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000070.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/flamberge.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000050.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/idith.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000010.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/lily.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000011.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/shu.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000038.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/sigma.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000052.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/snow.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000003.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/yuri.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000026.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/alpha.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000007.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/bleu.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000045.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/fenrir.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000034.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/guizam.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000049.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/laine.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000029.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/orox.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000051.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/philia.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000018.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/rico.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000046.webp"
+  },
+  {
+    "path": "assets/tierlists/outerplane/images/tanya.webp",
+    "url": "https://img.outerpedia.com/images/characters/faceicon/FI_2000016.webp"
   }
 ]
