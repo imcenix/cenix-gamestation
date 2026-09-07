@@ -1282,5 +1282,45 @@
   {
     "path": "assets/news/blood-of-dawnwalker-83-diem-metacritic/cover.jpg",
     "page": "https://www.gamesradar.com/games/rpg/the-witcher-3-directors-new-rpg-blood-of-dawnwalker-is-a-hit-with-most-critics-and-just-behind-the-witcher-1-and-2-on-metacritic/"
+  },
+  {
+    "path": "assets/news/nintendo-direct-doi-zelda-40-nam/cover.jpg",
+    "page": "https://www.gamesradar.com/games/events-conferences/nintendo-direct-confirmed-for-next-week-as-well-as-a-dedicated-zelda-anniversary-stream-where-ocarina-of-time-feels-inevitable/"
+  },
+  {
+    "path": "assets/news/blood-of-dawnwalker-1-trieu-ban-3-ngay/cover.jpg",
+    "page": "https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-sold-1-million-copies-in-just-3-days/"
+  },
+  {
+    "path": "assets/news/space-marine-3-khong-dung-ai-tao-sinh/cover.jpg",
+    "page": "https://www.pcgamer.com/games/action/there-is-absolutely-no-generative-ai-in-space-marine-3-promises-saber-interactive-executive/"
+  },
+  {
+    "path": "assets/news/civ-7-arc-of-tomorrow-earthrise-2027/cover.jpg",
+    "page": "https://www.pcgamer.com/games/strategy/civilization-7-will-finally-enter-the-atomic-age-in-2027-via-a-free-update-firaxis-says-will-be-even-bigger-in-scope-than-last-years-test-of-time/"
+  },
+  {
+    "path": "assets/news/persona-4-revival-remake-toan-phan/cover.jpg",
+    "page": "https://www.gamesradar.com/games/persona/after-persona-3-reload-atlus-put-all-the-effort-into-making-a-full-remake-of-persona-4-golden-lets-take-all-the-lessons-we-learned/"
+  },
+  {
+    "path": "assets/news/square-enix-ff7-ip-tien-hoa/cover.jpg",
+    "page": "https://www.gamesradar.com/games/final-fantasy/square-enix-wants-to-turn-final-fantasy-7-into-an-ip-with-an-ever-evolving-future-beyond-the-ff7-remake-trilogy/"
+  },
+  {
+    "path": "assets/news/gta-6-vac-sung-npc-so-chay/cover.jpg",
+    "page": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-boss-says-gta-6-doesnt-just-let-you-easily-walk-around-with-guns-because-gta-5s-approach-doesnt-work-at-this-resolution/"
+  },
+  {
+    "path": "assets/news/stalker-2-gsc-giai-thich-ra-som/cover.jpg",
+    "page": "https://www.pcgamer.com/games/survival-crafting/gsc-game-world-says-theres-a-reason-it-didnt-give-stalker-2-more-time-in-the-oven-to-make-something-better-you-need-to-receive-feedback-and-this-feedback-should-be-fresh/"
+  },
+  {
+    "path": "assets/news/guild-wars-3-di-chuyen-momentum/cover.jpg",
+    "page": "https://www.pcgamer.com/games/mmo/guild-wars-3s-approach-to-combat-and-movement-is-like-nothing-ive-ever-seen-in-an-mmo-before-one-of-our-big-goals-when-we-make-a-new-game-in-the-guild-wars-franchise-is-to-set-out-and-try-new-things/"
+  },
+  {
+    "path": "assets/news/cartographia-imperialis-ban-do-40k/cover.jpg",
+    "page": "https://www.pcgamer.com/games/rpg/a-hobby-dev-built-a-free-3d-galaxy-map-for-warhammer-40k-that-loads-like-lightning-in-your-browser/"
   }
 ]
