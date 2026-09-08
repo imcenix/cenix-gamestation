@@ -1322,5 +1322,45 @@
   {
     "path": "assets/news/cartographia-imperialis-ban-do-40k/cover.jpg",
     "page": "https://www.pcgamer.com/games/rpg/a-hobby-dev-built-a-free-3d-galaxy-map-for-warhammer-40k-that-loads-like-lightning-in-your-browser/"
+  },
+  {
+    "path": "assets/news/riot-2xko-khong-phai-sai-lam/cover.jpg",
+    "page": "https://www.pcgamer.com/games/fighting/riot-co-founder-doesnt-think-2xko-was-a-mistake-but-perhaps-a-tough-sell-youre-not-just-competing-against-games-youre-competing-against-everything/"
+  },
+  {
+    "path": "assets/news/saber-willits-ai-moi-truong-server-vu-tru/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/saber-cco-tim-willits-is-still-bullish-on-ai-but-concerned-about-its-environmental-impact-elon-wants-to-put-servers-in-space-that-could-be-the-answer-right/"
+  },
+  {
+    "path": "assets/news/dlss-5-mod-card-thu-hai-gan-mien-phi/cover.jpg",
+    "page": "https://www.pcgamer.com/hardware/graphics-cards/new-dlss-5-mod-offloads-neural-rendering-to-a-second-card-massively-cutting-the-ai-filters-performance-hit/"
+  },
+  {
+    "path": "assets/news/mgs4-map-mod-dau-tien-18-nam/cover.jpg",
+    "page": "https://www.pcgamer.com/games/action/18-years-after-metal-gear-solid-4-first-launched-a-modder-has-shown-off-its-first-modded-map-mgs3s-groznyj-grad/"
+  },
+  {
+    "path": "assets/news/rtx-5090-bay-toi-pax-west-re-hon/cover.jpg",
+    "page": "https://www.pcgamer.com/hardware/graphics-cards/once-again-it-is-genuinely-cheaper-for-me-to-fly-to-pax-west-and-track-down-nvidias-geforce-evangelist-rather-than-buy-the-rtx-5090-anywhere-else/"
+  },
+  {
+    "path": "assets/news/ritual-tides-cuu-dev-rockstar-lam-horror/cover.jpg",
+    "page": "https://www.gamesradar.com/games/horror/ex-rockstar-devs-chilling-new-psychological-horror-could-be-the-next-silent-hill-even-in-a-rough-design-build/"
+  },
+  {
+    "path": "assets/news/ananta-anime-gta-mien-phi-roi-ram/cover.jpg",
+    "page": "https://www.gamesradar.com/games/open-world/ananta-is-riding-high-off-free-anime-gta-comparisons-but-its-mess-of-ideas-barely-hold-together/"
+  },
+  {
+    "path": "assets/news/pokemon-bank-dong-cua-modder-tu-che-adapter/cover.jpg",
+    "page": "https://www.gamesradar.com/games/pokemon/with-pokemon-banks-demise-on-the-horizon-one-modder-makes-their-own-adapter-to-move-pokemon-from-gba-to-switch-consoles/"
+  },
+  {
+    "path": "assets/news/battle-of-olympus-remake-38-nam/cover.jpg",
+    "page": "https://www.gamesradar.com/games/action-rpg/38-years-of-love-later-a-couple-is-remaking-their-zelda-inspired-nes-gem-and-putting-it-on-steam-after-learning-its-a-cult-classic/"
+  },
+  {
+    "path": "assets/news/gta-6-thieu-ngu-bi-phat/cover.jpg",
+    "page": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-is-a-bit-too-real-for-me-rockstar-will-punish-you-if-jason-and-lucia-dont-get-a-good-nights-sleep-we-track-lots-of-things/"
   }
 ]
