@@ -1442,5 +1442,45 @@
   {
     "path": "assets/news/ps3-wii-chinh-thuc-la-retro/cover.jpg",
     "page": "https://www.gamesradar.com/games/80-percent-of-japanese-gamers-agree-after-20-years-ps3-and-wii-are-retro-now/"
+  },
+  {
+    "path": "assets/news/physint-sony-huy-xbox-cuu/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/playstation-tried-to-cancel-hideo-kojimas-physint-now-xbox-is-publishing-it/"
+  },
+  {
+    "path": "assets/news/wolverine-metacritic-77-thap-nhat/cover.jpg",
+    "page": "https://www.gamesradar.com/games/action/marvels-wolverine-metacritic-shows-the-worst-reviewed-insomniac-game-in-years-and-not-the-smash-hit-sony-needed-for-the-dire-ps5-exclusive-lineup/"
+  },
+  {
+    "path": "assets/news/dlss-5-neuralscreen-toan-man-hinh/cover.jpg",
+    "page": "https://www.pcgamer.com/hardware/you-can-now-apply-dlss-5-to-your-entire-desktop-with-a-free-app-and-it-even-works-with-rtx-30-series-cards/"
+  },
+  {
+    "path": "assets/news/vr-giam-18-phan-tram-lo-cho-valve/cover.jpg",
+    "page": "https://www.pcgamer.com/hardware/vr-hardware/vr-headset-shipments-are-down-18-percent-compared-to-this-time-last-year-and-that-may-not-be-great-news-for-valve/"
+  },
+  {
+    "path": "assets/news/nao-ruoi-giam-choi-doom/cover.jpg",
+    "page": "https://www.pcgamer.com/hardware/after-google-mapped-an-adult-male-fruit-flys-brain-software-engineers-made-it-play-doom-mario64-and-beat-saber/"
+  },
+  {
+    "path": "assets/news/juggernaut-mages-fps-vibe-code/cover.jpg",
+    "page": "https://www.pcgamer.com/games/fps/the-next-game-by-the-creators-of-steins-gate-is-an-entirely-vibe-coded-fps-slopfest/"
+  },
+  {
+    "path": "assets/news/project-dream-banjo-kazooie-ro-ri/cover.jpg",
+    "page": "https://www.gamesradar.com/games/rpg/the-rare-snes-game-that-became-banjo-kazooie-has-been-preserved-thanks-to-a-leaker-who-wants-you-to-delete-microsoft-and-sony-from-your-lives/"
+  },
+  {
+    "path": "assets/news/arthur-morgan-ho-that-khi-thu-am/cover.jpg",
+    "page": "https://www.gamesradar.com/games/red-dead/arthur-morgans-illness-in-red-dead-redemption-2-is-so-convincing-partly-because-actor-roger-clark-caught-a-lot-of-colds-during-the-games-5-year-recording-process/"
+  },
+  {
+    "path": "assets/news/cd-tang-58-phan-tram-dia-song-lai/cover.jpg",
+    "page": "https://www.gamesradar.com/games/tired-of-digital-everything-more-people-are-buying-physical-media-cd-sales-are-up-58-percent-and-vinyl-records-jumped-17-percent-according-to-new-report/"
+  },
+  {
+    "path": "assets/news/songs-of-the-past-demo-pax-australia/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/events-conferences/attendees-will-be-able-to-check-out-a-demo-of-the-witcher-3-dlc-songs-of-the-past-behind-closed-doors-at-pax-australia/"
   }
 ]
