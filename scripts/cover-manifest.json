@@ -1722,5 +1722,46 @@
   {
     "path": "assets/news/ps5-linux-truong-du-an-bo-cuoc/cover.jpg",
     "page": "https://www.pcgamer.com/hardware/the-lead-developer-of-the-ps5-linux-project-has-abandoned-ship-it-is-just-a-bunch-of-noobs-using-llms-and-writing-hacks-they-dont-even-understand/"
+  },
+  {
+    "path": "assets/news/bg3-ban-mo-rong-fan-lam-chionthar-wilds/cover.jpg",
+    "page": "https://www.pcgamer.com/games/baldurs-gate/an-ambitious-fanmade-expansion-for-baldurs-gate-3-is-out-after-almost-two-years-in-development/"
+  },
+  {
+    "path": "assets/news/witcher-4-cdpr-bo-redengine-vi-sao/cover.jpg",
+    "page": "https://www.pcgamer.com/games/the-witcher/cd-projekt-says-abandoning-its-in-house-engine-for-the-witcher-4-had-nothing-to-do-with-cyberpunk-2077s-technical-woes-the-dream-of-the-company-was-actually-never-to-make-technology/"
+  },
+  {
+    "path": "assets/news/dune-awakening-che-do-solo-update-1-5/cover.jpg",
+    "page": "https://www.pcgamer.com/games/survival-crafting/dune-awakening-now-has-a-solo-mode-for-players-put-off-by-its-mmo-leanings-while-funcom-has-adjusted-progression-so-you-dont-have-to-lose-things-anymore/"
+  },
+  {
+    "path": "assets/news/planescape-torment-27-nam-van-ra-patch/cover.jpg",
+    "page": "https://www.pcgamer.com/games/rpg/it-rules-that-a-27-year-old-rpg-one-of-the-greatest-of-all-time-is-still-getting-patches/"
+  },
+  {
+    "path": "assets/news/ff7-revelation-200gb-o-cung/cover.jpg",
+    "page": "https://www.pcgamer.com/games/final-fantasy/final-fantasy-7-revelation-is-apparently-a-super-heavyweight-200gb-installation-we-need-to-overcome-the-hardware-to-a-certain-extent/"
+  },
+  {
+    "path": "assets/news/mh-wilds-ascendance-chinh-lai-do-kho/cover.jpg",
+    "page": "https://www.pcgamer.com/games/action/players-got-better-than-we-expected-monster-hunter-wilds-dlc-director-says-capcom-is-retuning-its-difficulty-standards-for-the-expansions-endgame/"
+  },
+  {
+    "path": "assets/news/pc-gaming-show-tokyo-direct-2026-xem-o-dau/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/events-conferences/how-to-watch-the-pc-gaming-show-tokyo-direct-2026/",
+    "url": "https://cdn.mos.cms.futurecdn.net/9R54FvWBJbWGzAV5x5xhof-1920-80.png"
+  },
+  {
+    "path": "assets/news/project-zeta-moba-battle-royale-lai/cover.jpg",
+    "page": "https://www.gamesradar.com/games/moba/with-11-kills-12-kills-at-a-time-battle-royale-hybrid-project-zeta-is-not-your-daddys-moba-or-your-brothers-hero-shooter/"
+  },
+  {
+    "path": "assets/news/dia-game-chet-nhung-cai-hop-thi-khong/cover.jpg",
+    "page": "https://www.gamesradar.com/games/the-disc-is-dying-but-the-box-isnt-what-will-a-physical-game-actually-mean-in-2030/"
+  },
+  {
+    "path": "assets/news/diablo-5-vi-sao-khong-phai-dlc-diablo-4/cover.jpg",
+    "page": "https://www.gamesradar.com/games/diablo/diablo-himself-is-the-reason-diablo-5-is-coming-instead-of-more-diablo-4-expansions-says-project-lead-we-needed-to-give-him-his-own-game/"
   }
 ]
