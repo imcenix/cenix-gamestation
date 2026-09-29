@@ -2003,5 +2003,45 @@
   {
     "path": "assets/news/microsoft-bang-sang-che-tam-game-quang-cao/cover.jpg",
     "page": "https://www.pcgamer.com/gaming-industry/guess-who-patented-a-new-system-for-in-game-ads/"
+  },
+  {
+    "path": "assets/news/bien-kich-family-matters-quay-lai-cd-projekt/cover.jpg",
+    "url": "https://cdn.mos.cms.futurecdn.net/r4YEJkGdgjTDBqwW5SwbUW-1920-80.jpg"
+  },
+  {
+    "path": "assets/news/kojima-physint-xbox-ngan-sach-thap-hon-sony/cover.jpg",
+    "url": "https://cdn.mos.cms.futurecdn.net/DexicgJSYh9xBnB9nLdRnb.png"
+  },
+  {
+    "path": "assets/news/mark-darrah-se-sua-gi-trong-tung-game-dragon-age/cover.jpg",
+    "url": "https://cdn.mos.cms.futurecdn.net/hH9KJHTAQRZMDWEMXBw6iM.jpg"
+  },
+  {
+    "path": "assets/news/dark-souls-2-co-op-lien-mach-sau-12-nam/cover.jpg",
+    "url": "https://cdn.mos.cms.futurecdn.net/xE6DG35sZvSVNyCzEDCVzG.jpg"
+  },
+  {
+    "path": "assets/news/gears-of-war-e-day-story-director-bi-sa-thai/cover.jpg",
+    "url": "https://cdn.mos.cms.futurecdn.net/ZkAd6Pu64tN54SNVBUpoeG.png"
+  },
+  {
+    "path": "assets/news/arc-raiders-frozen-trails-loot-hotspot-doi-cho/cover.jpg",
+    "url": "https://cdn.mos.cms.futurecdn.net/fvdNe8RV4vTLY9zXgxnufA-1920-80.jpg"
+  },
+  {
+    "path": "assets/news/needle-in-a-haystack-lan-song-game-clone-tren-steam/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-great-haystack-slop-is-a-thing-now/"
+  },
+  {
+    "path": "assets/news/shadow-the-hedgehog-suyt-chet-vinh-vien-sonic-adventure-2/cover.jpg",
+    "url": "https://cdn.mos.cms.futurecdn.net/B43ZHEx4rftyW6w9RwQZzh.jpg"
+  },
+  {
+    "path": "assets/news/witcher-3-remaster-anh-sang-hoang-hon-dep-nhat/cover.jpg",
+    "page": "https://www.pcgamer.com/games/the-witcher/heres-a-gallery-of-the-times-the-witcher-3s-remastered-lighting-had-me-like-damn/"
+  },
+  {
+    "path": "assets/news/super-mario-galaxy-pc-port-astrocore-100-phan-tram-con-nguoi-code/cover.jpg",
+    "page": "https://www.gamesradar.com/games/super-mario/an-unofficial-super-mario-galaxy-pc-port-is-in-the-works-with-the-developers-proudly-claiming-its-100-percent-coded-by-humans/"
   }
 ]
