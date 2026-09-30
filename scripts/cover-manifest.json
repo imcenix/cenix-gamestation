@@ -2043,5 +2043,45 @@
   {
     "path": "assets/news/super-mario-galaxy-pc-port-astrocore-100-phan-tram-con-nguoi-code/cover.jpg",
     "page": "https://www.gamesradar.com/games/super-mario/an-unofficial-super-mario-galaxy-pc-port-is-in-the-works-with-the-developers-proudly-claiming-its-100-percent-coded-by-humans/"
+  },
+  {
+    "path": "assets/news/hades-2-supergiant-quyet-dinh-ngu-nhieu-lan-lien-tiep/cover.jpg",
+    "page": "https://www.gamesradar.com/games/hades/hades-2-devs-say-the-sequel-wasnt-about-the-smart-business-choice-we-have-made-the-dumb-decision-many-times-in-a-row/"
+  },
+  {
+    "path": "assets/news/naughty-dog-hai-du-an-last-of-us-moi/cover.jpg",
+    "page": "https://www.gamesradar.com/games/the-last-of-us/new-last-of-us-projects-have-stories-worth-telling-naughty-dog-boss-neil-druckmann-promises-we-wouldnt-return-to-it-unless-we-had-something-meaningful-to-say/"
+  },
+  {
+    "path": "assets/news/neu-guillermo-del-toro-bioshock-cuoc-goi-tham-hoa/cover.jpg",
+    "page": "https://www.gamesradar.com/entertainment/action-movies/nearly-20-years-later-guillermo-del-toro-finally-confirms-old-bioshock-movie-rumors-probably-one-of-the-most-disastrous-calls-ive-ever-had/"
+  },
+  {
+    "path": "assets/news/diablo-5-director-tra-loi-chris-wilson-build-la-tat-ca/cover.jpg",
+    "page": "https://www.gamesradar.com/games/diablo/diablo-5-director-responds-to-concerns-the-action-rpg-is-more-action-than-rpg-any-challenge-can-be-overcome-with-the-right-build/"
+  },
+  {
+    "path": "assets/news/american-truck-simulator-ford-dlc-pha-ky-luc-steam/cover.jpg",
+    "page": "https://www.gamesradar.com/games/simulation/american-truck-simulator-adds-dlc-where-you-dont-have-to-drive-a-truck-suddenly-sets-a-new-all-time-steam-player-record/"
+  },
+  {
+    "path": "assets/news/steam-thuat-toan-thay-discounts-events-2027/cover.jpg",
+    "page": "https://www.pcgamer.com/games/the-algorithm-comes-for-steams-discounts-and-events/"
+  },
+  {
+    "path": "assets/news/resident-evil-cregger-100-trieu-do-noi-dia/cover.jpg",
+    "page": "https://www.pcgamer.com/movies-tv/creggers-resident-evil-film-is-already-the-3rd-highest-grossing-re-film-with-over-usd100-million-at-the-domestic-box-office-in-under-2-weeks/"
+  },
+  {
+    "path": "assets/news/silent-hill-konami-giau-lore-bible/cover.jpg",
+    "page": "https://www.pcgamer.com/games/horror/konami-has-a-silent-hill-lore-bible-and-no-you-cant-see-it/"
+  },
+  {
+    "path": "assets/news/nvidia-trailer-bi-trom-40000-pound-cat/cover.jpg",
+    "page": "https://www.pcgamer.com/hardware/thieves-stole-two-nvidia-emblazoned-truck-trailers-in-the-hopes-of-getting-hardware-and-instead-got-40-000-lbs-of-sand/"
+  },
+  {
+    "path": "assets/news/witcher-3-remastered-yeu-cau-cau-hinh-rtx-5080/cover.jpg",
+    "page": "https://www.pcgamer.com/hardware/the-witcher-3-updated-system-requirements-are-in-and-you-will-need-an-rtx-5080-for-path-tracing-with-dlss-and-frame-generation/"
   }
 ]
