@@ -217,7 +217,7 @@ const tier3 = tierlists.slice(0, 3).map((t) => {
           <Thumb src={cover('news', leadNews.id, leadNews.data.cover)} label="key art" class="fill" />
           <div class="fn-shade"></div>
           <div class="fn-lead-body">
-            <div class="row-meta"><span class="badge">TIN NÓNG</span><span class="meta">{dmy(leadNews.data.date)} · {leadNews.data.read_minutes ?? 5} PHÚT ĐỌC</span></div>
+            <div class="row-meta"><span class="badge">TIN NÓNG</span><span class="meta">{dmy(leadNews.data.date)}</span></div>
             <h2 class="fn-lead-title">{leadNews.data.title}</h2>
             {leadNews.data.excerpt && <p class="fn-lead-dek clamp2">{leadNews.data.excerpt}</p>}
           </div>

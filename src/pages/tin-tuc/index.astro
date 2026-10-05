@@ -33,7 +33,7 @@ const cover = (slug: string, file?: string | null) => (file ? `/news/${slug}/${f
       <div class="feat-body">
         <div class="row-meta">
           <span class="badge">NỔI BẬT</span>
-          <span class="meta">{dmy(featured.data.date)} · {featured.data.read_minutes ?? 5} PHÚT ĐỌC</span>
+          <span class="meta">{dmy(featured.data.date)}</span>
         </div>
         <h2 class="feat-title">{featured.data.title}</h2>
         {featured.data.excerpt && <p class="feat-dek">{featured.data.excerpt}</p>}
@@ -58,7 +58,7 @@ const cover = (slug: string, file?: string | null) => (file ? `/news/${slug}/${f
             <div class="kicker">{NEWS_LABEL[n.data.category]}</div>
             <div class="row-title">{n.data.title}</div>
             {n.data.excerpt && <div class="row-dek">{n.data.excerpt}</div>}
-            <div class="row-meta-line">{n.data.read_minutes ?? 5} PHÚT ĐỌC · {n.data.author?.toUpperCase()}</div>
+            {n.data.author && <div class="row-meta-line">{n.data.author.toUpperCase()}</div>}
           </div>
         </a>
       );
