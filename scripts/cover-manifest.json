@@ -2363,5 +2363,45 @@
   {
     "path": "assets/news/fps-level-packs-micro-star-v-formgen/cover.jpg",
     "page": "https://www.pcgamer.com/games/fps/the-advent-of-first-person-shooters-introduced-a-wild-frontier-of-unregulated-video-game-level-packs-and-it-ended-in-a-lawsuit-that-changed-copyright-forever/"
+  },
+  {
+    "path": "assets/news/rimworld-bo-unity-engine-waylith/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/game-development/rimworld-drops-unity-for-its-own-in-house-engine-says-your-saves-still-work-so-do-most-mods-and-the-whole-thing-runs-twice-as-fast/"
+  },
+  {
+    "path": "assets/news/xbox-sharma-khong-song-noi-neu-thieu-ip-moi/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/hundreds-of-layoffs-and-many-cancelled-projects-later-xbox-ceo-asha-sharma-reportedly-says-we-will-not-survive-without-new-ips/"
+  },
+  {
+    "path": "assets/news/callisto-protocol-schofield-bi-krafton-ep-ra-mat/cover.jpg",
+    "page": "https://www.pcgamer.com/gaming-industry/game-development/dead-space-creator-says-he-was-forced-to-ship-the-callisto-protocol-by-krafton-we-had-f-cking-covid/"
+  },
+  {
+    "path": "assets/news/amd-tang-gia-gddr6-gpu-con-dat-hon/cover.jpg",
+    "page": "https://www.pcgamer.com/hardware/graphics-cards/amd-has-reportedly-already-raised-gddr6-prices-for-its-graphics-card-partners-so-youll-find-no-solace-from-spiking-gpu-prices-with-team-red/"
+  },
+  {
+    "path": "assets/news/cray-1-mac-mini-bao-tang-tay-ban-sieu-may-tinh/cover.jpg",
+    "page": "https://www.pcgamer.com/hardware/museum-strings-together-30-old-mac-minis-for-replica-of-most-successful-supercomputer-builds-something-more-powerful-than-the-original/"
+  },
+  {
+    "path": "assets/news/hp-eliteboard-g2a-ban-phim-ai-pc-3000-do/cover.jpg",
+    "page": "https://www.pcgamer.com/hardware/behold-the-usd3-000-keyboard-that-is-also-actually-a-powerful-ai-pc-i-would-hate-to-spill-my-coffee-on/"
+  },
+  {
+    "path": "assets/news/my-console-thi-truong-te-nhat-tu-dau-80/cover.jpg",
+    "page": "https://www.gamesradar.com/hardware/us-console-market-hasnt-been-in-a-more-precarious-position-since-the-early-80s-analyst-says-as-ps5-and-xbox-series-x-price-soar-to-all-time-highs/"
+  },
+  {
+    "path": "assets/news/arc-raiders-185-nghin-nguoi-frozen-trail/cover.jpg",
+    "page": "https://www.gamesradar.com/games/third-person-shooter/as-arc-raiders-sees-steam-player-count-surge-to-185-000-for-the-first-time-in-7-months-embark-dev-knows-it-wont-last-forever/"
+  },
+  {
+    "path": "assets/news/epic-games-pivot-ai-hoan-game-disney/cover.jpg",
+    "page": "https://www.gamesradar.com/games/epic-games-undergoes-huge-pivot-for-maximum-ai-acceleration-amid-reports-of-disney-shooter-delay-due-to-the-controversial-tech/"
+  },
+  {
+    "path": "assets/news/wario-snl-elon-musk-nintendo-khong-thich/cover.jpg",
+    "page": "https://www.gamesradar.com/games/elon-musk-dressing-up-as-wario-for-snl-did-not-go-over-well-at-nintendo-ex-marketing-leads-say-that-one-was-out-of-leftfield/"
   }
 ]
