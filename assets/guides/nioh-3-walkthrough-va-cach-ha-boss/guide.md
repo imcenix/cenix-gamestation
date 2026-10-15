@@ -10,12 +10,12 @@ tags:
   - WALKTHROUGH
   - BOSS
   - CHECKLIST
-excerpt: Lộ trình 16 màn chính qua năm thời đại, cấp khuyến nghị, điểm yếu từng boss và những thứ dễ lỡ nhất. Một bài để mở song song khi chơi, từ Hitokoto Slope tới trận cuối ở Edo.
+excerpt: Lộ trình 16 màn chính qua năm thời đại, hồ sơ từng boss cốt truyện, ba boss ẩn và các boss phụ đáng đánh, cùng những thứ dễ lỡ nhất. Một bài để mở song song khi chơi, từ Hitokoto Slope tới trận cuối ở Edo.
 cover: cover.jpg
 ---
 Hội anh em cuồng game ơi, đây là bài Cenix muốn viết nhất trong cả loạt Nioh 3: **một tấm bản đồ đi trọn cốt truyện**. Mỗi thời đại có gì, cấp bao nhiêu thì vào boss, boss sợ nguyên tố gì, và những việc phải làm trước khi đi tiếp để khỏi lỡ đồ ngon.
 
-Cốt truyện có **16 màn chính** với khoảng **20 boss**. Chơi bình thường mất **50–60 tiếng**. Bài chia làm ba phần: luật chung khi đánh boss, lộ trình từng thời đại kèm hồ sơ chi tiết từng boss (xuất thân, điểm mạnh, điểm yếu, cách hạ), và checklist những thứ dễ lỡ.
+Cốt truyện có **16 màn chính** với khoảng **20 boss**. Chơi bình thường mất **50–60 tiếng**. Bài chia làm bốn phần: luật chung khi đánh boss, lộ trình từng thời đại kèm hồ sơ chi tiết từng boss (xuất thân, điểm mạnh, điểm yếu, cách hạ), **boss ẩn và boss phụ**, và checklist những thứ dễ lỡ.
 
 <div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Cách đọc bảng điểm yếu:</strong> "Yếu" là trạng thái nguyên tố boss dính nhanh, ví dụ Saturated là nước, Scorched là lửa, Electrified là sét, Blustered là gió, Poisoned là độc. Boss ghi "Không có" thì đừng phí thời gian chồng nguyên tố, cứ đánh thẳng.</p></div>
 
@@ -800,9 +800,217 @@ Trở về Edo năm 1622, Takechiyo thấy thành Edo đã biến dạng kinh ho
 
 **Đừng bỏ lỡ ở Bakumatsu:** field boss bí mật **Demon of Obsession** ở thành Nijo (yếu **nước**). Battle Scroll **Nobunaga's Blade** cho Guardian Spirit **Tengen Kujaku**.
 
+## <span style="color:rgb(255, 176, 0)">Boss ẩn: ba con quỷ mang tên Kunimatsu</span>
+
+Ngoài 20 boss cốt truyện, Nioh 3 giấu ba **boss bí mật** trên bản đồ mở: **Demon of Pride** (Kiêu ngạo), **Demon of Envy** (Đố kỵ) và **Demon of Obsession** (Ám ảnh). Hạ hai con đầu nhận trophy *Kunimatsu's Pride* và *Kunimatsu's Envy*, còn đường tới con thứ ba thì phải đi theo **cái bóng của Kunimatsu**. Ba con quỷ này nhiều khả năng là ba tâm ma của người em trai Takechiyo. Cả ba đều **khó hơn hẳn** boss cốt truyện cùng giai đoạn, nhưng phần thưởng là Soul Core cho dòng bùa "Hell" mà các build Onmyo cuối game rất cần.
+
+| Boss ẩn | Ở đâu | Mở khi nào | Cấp nên đánh | Điểm yếu |
+|---|---|---|---|---|
+| **Demon of Pride** | Thác nước phía đông Iinoya (Warring States) | Sau khi có Kurama Tengu (hạ Great Tengu) | 100 (80 vẫn được nếu đồ tốt) | Sét |
+| **Demon of Envy** | Dưới lòng đất chùa Anneibo, Hachijo (Heian) | Khi tới chùa Anneibo | 100+ (90 vẫn được nếu đồ tốt) | Nước |
+| **Demon of Obsession** | Abandoned Temple Outskirts, phía tây thành Nijo (Bakumatsu) | Khi tới khu thành Nijo | 130+ | Nước |
+
+### <span style="color:rgb(200, 240, 60)">Demon of Pride</span>
+
+Con quỷ đầu tiên và là cú sốc độ khó lớn nhất game. Hắn nằm sau một **Spirit Vein** ở thác nước phía đông Iinoya, mà Spirit Vein này chỉ mở được bằng **Kurama Tengu**. Nghĩa là anh em phải lên tới thời Heian rồi mới quay về Warring States tìm hắn. Hạ xong nhận trophy *Kunimatsu's Pride*, Soul Core cho **Hellstream Talisman** (bong bóng nước nổ gây sát thương) và Transformed Art *Death from Above Water* cho rìu ném.
+
+**Điểm mạnh**
+
+-   Combo dài, nguy hiểm ở mọi khoảng cách.
+    
+-   Đứng xa là hắn tung **phép nước** chí mạng: đạn nước và bom nước khó né.
+    
+-   Đòn đỏ **vung cực lâu**, Style Shift canh sai một nhịp là chết.
+    
+-   Nửa sau trận hung hơn hẳn. Kháng nước và cả Confusion.
+    
+
+**Điểm yếu**
+
+-   Yếu **sét**.
+    
+-   Đòn cận chiến dễ xử lý hơn phép nước nhiều.
+    
+
+**Cách hạ gục**
+
+1.  Đủ khoảng **cấp 100** rồi hãy vào. Cấp 80 vẫn đánh được nếu đồ tốt.
+    
+2.  Mang sét: vũ khí hoặc Martial Arts phủ sét, **Uncanny Bolt**, bùa **Lightning Familiar / Lightning Shot**, hoặc Summoning Seal từ Soul Core **Ibaraki Doji**.
+    
+3.  **Bám sát hắn**: đứng gần thì hắn ít dùng phép nước. Coi chừng cú giậm chân và bom nước.
+    
+4.  Đòn đỏ thì **ngắt bằng skill Guardian Spirit** trong lúc hắn lấy đà, đừng mạo hiểm Style Shift. Luôn giữ sẵn Spirit Force.
+    
+5.  Mặc đồ có **kháng nước** nhưng đừng hy sinh phòng thủ gốc. Đánh rồi rút, luôn chừa Ki để né.
+    
+6.  Giữ **Living Artifact** cho nửa sau trận.
+    
+
+### <span style="color:rgb(200, 240, 60)">Demon of Envy</span>
+
+Nữ quỷ Đố kỵ ẩn dưới lòng đất **chùa Anneibo** ở Hachijo thời Heian: leo xuống các thang rồi đi thẳng là gặp. Anh em có thể đụng mụ ngay khi tới chùa (khu vực cấp gợi ý 73), nhưng mụ mạnh hơn khu đó rất nhiều. Hạ xong nhận trophy *Kunimatsu's Envy*, Soul Core cho **Hellfire Talisman** (đốt cháy cả một vùng) và Transformed Art *Arc of Chaos Fire* cho Switchglaive.
+
+**Điểm mạnh**
+
+-   Toàn đòn **lửa**: vòng lửa lan ra, vệt lửa chạy trên mặt đất.
+    
+-   Cạn Ki thì mụ **phun lửa quanh người** rồi kéo bạn vào Dark Realm.
+    
+-   Có đòn tóm và đòn bổ nhào từ trên cao. Kháng lửa và độc.
+    
+
+**Điểm yếu**
+
+-   Yếu **nước**.
+    
+-   Đòn tóm né được chỉ bằng cách **đi lùi**, không tốn Ki.
+    
+-   Đòn bổ nhào báo trước rất rõ (mụ nhảy lên cao), né hay Deflect trúng là có một khoảng dài để phản.
+    
+
+**Cách hạ gục**
+
+1.  Khoảng **cấp 100+** là thoải mái, cấp 90 nếu đồ tốt.
+    
+2.  Mang nước: vũ khí phủ nước, **Uncanny Bubble**, bùa **Water Familiar / Water Shot**, Summoning Seal từ Soul Core **Demon of Pride**.
+    
+3.  Vừa làm cạn Ki mụ thì **lùi lại ngay** để tránh vòng lửa trước khi vào Dark Realm.
+    
+4.  **Nhảy qua** vòng lửa và vệt lửa trên đất.
+    
+5.  Chờ mụ bổ nhào, né hoặc Deflect, rồi dồn đòn trong khoảng hở dài.
+    
+6.  Mặc đồ kháng nước, giữ Living Artifact cho nửa sau trận.
+    
+
+### <span style="color:rgb(200, 240, 60)">Demon of Obsession</span>
+
+Con quỷ thứ ba nằm ở **Abandoned Temple Outskirts**, phía tây khu thành Nijo thời Bakumatsu. Đường đi: từ Shrine **Horikawa Market**, dọn Lesser Crucible để vào khu Mibu, tìm **cái bóng của Kunimatsu** cạnh bậc thang bên kia rừng tre, rồi đi theo nó tới nơi. Trên đường mở thêm được hai Shrine. Hạ xong nhận Soul Core cho **Hellgust Talisman** và Transformed Art *Kurama Sword Dance Wind*.
+
+**Điểm mạnh**
+
+-   Đòn **tóm không đỡ được**.
+    
+-   Tạo **vũng độc** trên sàn, đứng vào là mất máu dần.
+    
+-   Cú **xoay người tiến tới** và cú **đấm đất gây nổ** vẫn trúng khi đứng sau lưng.
+    
+-   Dùng nhiều đòn gió. Kháng sét, gió, độc.
+    
+
+**Điểm yếu**
+
+-   Yếu **nước**.
+    
+-   Đòn **chậm và báo trước rất rõ**, Samurai đỡ và Deflect thoải mái.
+    
+-   Phần lớn đòn đánh thẳng phía trước, Ninja đánh lén sau lưng rất ngon.
+    
+
+**Cách hạ gục**
+
+1.  Nên lên **cấp 130+**.
+    
+2.  Chơi phong cách nào cũng được: Samurai đỡ và Deflect, Ninja vòng ra sau đánh lén. Ninja nhớ coi chừng cú xoay và cú đấm đất.
+    
+3.  Chồng **nước** bằng Uncanny Bubble, bùa nước hoặc Summoning Seal Demon of Pride.
+    
+4.  Đi vòng hoặc nhảy qua vũng độc, mang sẵn **Antidote**.
+    
+5.  Mặc đồ **kháng gió**, dùng cả hai Summoning Seal, giữ Living Artifact cho nửa sau trận.
+    
+
+## <span style="color:rgb(255, 176, 0)">Boss phụ đáng đánh</span>
+
+Boss phụ nằm trong nhiệm vụ phụ (Myth), Battle Scroll hoặc đứng sẵn trên bản đồ (Formidable Enemy). Không bắt buộc, nhưng nhiều con rơi Soul Core và đồ cực đáng giá cho build.
+
+### <span style="color:rgb(200, 240, 60)">Bloodedge Demon</span>
+
+Con quỷ "lang thang" của Nioh 3. Nó không có chỗ đứng cố định: mỗi khi anh em hạ **Revenant** ở mộ đỏ, sẽ có vệt **Revenant Malice** dẫn đường, mũi tên đỏ trên bản đồ chỉ khu vực nó xuất hiện (lần đầu ở Hamamatsu / sông Tenryu). Hạ càng nhiều Revenant trước khi đánh, nó **càng mạnh nhưng rơi đồ càng ngon**. Game8 xếp nó vào nhóm boss khó nhất game, mức 4/5. Soul Core của nó là món chủ lực: ô Yang gọi nó ra đánh theo nguyên tố Guardian Spirit của bạn, ô Yin cho **Carnage Talisman**.
+
+**Điểm mạnh:** cực hung, đòn nhanh, nhiều đòn nguyên tố diện rộng và đổi nguyên tố liên tục. Đỡ vẫn ăn sát thương dồn và rất tốn Ki. Không yếu nguyên tố nào, kháng gần hết trạng thái.
+
+**Điểm yếu:** hồi chiêu sau đòn đủ để đánh vài nhát. Lúc ra đòn đỏ nó **đứng yên**, vừa dễ Burst Break vừa là lúc hồi máu, buff lại. Cạn Ki thì khựng theo từng đòn.
+
+**Cách hạ gục:** đánh rồi rút, ưu tiên **né thay vì đỡ**. Ném bom, kunai, shuriken gọt máu từ xa. Đòn đỏ thì Burst Break. Mang **bùa kháng nguyên tố** (Firestop, Windstop...) cho từng nguyên tố nó đổi. Khó quá thì đi lên cấp, kiếm đồ rồi quay lại.
+
+### <span style="color:rgb(200, 240, 60)">Ryomen Sukuna</span>
+
+Trong sử Nhật, Ryomen Sukuna là một nhân vật hai mặt bốn tay ở xứ Hida, triều đình coi là quỷ phản loạn còn dân địa phương thờ như thần. Trong game, Sukuna là boss nhiệm vụ phụ **Fated Land** ở **chùa Ryotan, Iinoya**, đánh cùng **Ii Naotora**. Hạ xong rơi cả bộ **kiếm, rìu và cung của Ryomen Sukuna** cùng Samurai's Locks.
+
+**Điểm mạnh:** đánh được cả **phía trước lẫn phía sau**. Đòn đỏ để lại **vũng nước** gây Saturated, ăn thêm sát thương. Dùng cung bắn xuống những vùng **đánh dấu xanh** trên đất, trong Dark Realm còn làm ngập cả khu xung quanh.
+
+**Điểm yếu:** có **Ii Naotora** kéo aggro giúp. Hai bên sườn là chỗ an toàn nhất.
+
+**Cách hạ gục:** chơi **Ninja**, lắp kỹ năng xoá Yokai Realm, đánh vào **hai bên sườn** chứ đừng đứng trước hay sau. Đánh khi Naotora đang giữ aggro. Burst Break đòn đỏ thì tránh đứng trong vũng nước. Thấy vạch xanh dưới chân là thoát ra ngay.
+
+### <span style="color:rgb(200, 240, 60)">Hino-Enma</span>
+
+Hinoenma là nữ yêu quái quyến rũ trong tranh yêu quái cổ, tên gắn với mê tín về phụ nữ sinh năm Bính Ngọ. Fan Nioh cũ sẽ nhận ra ngay bà chị chuyên **làm tê liệt** này. Mụ là boss nhiệm vụ phụ **Abundant Evil** ở **Maisaka** (Haunting Caves), nhận từ Honda Tadakatsu. Hạ xong rơi giáo **Tombokiri**, mũ **Warrior of the East** và Soul Core Hino-Enma.
+
+**Điểm mạnh:** đòn gây **Paralysis**. Đỡ vẫn bị tích tê liệt. Bắn đạn từ xa. Kháng gió, Confusion, tê liệt, độc.
+
+**Điểm yếu:** yếu **sét**. Đạn của mụ bay chậm, dễ né. Đứng xa thì mụ hay ra **đòn đỏ**, rất dễ Burst Break.
+
+**Cách hạ gục:** chơi **Ninja** để né tê liệt. Đứng xa ném **Uncanny Bolt**, Shrapnel Bomb, kunai, chờ đòn đỏ để Burst Break rồi vào combo. Đánh cận chiến trong lúc mụ hồi chiêu để nạp lại Ninjutsu. Lỡ bị tê liệt thì **dùng skill Guardian Spirit để gỡ ngay**, hoặc dùng Antiparalytic Needle.
+
+### <span style="color:rgb(200, 240, 60)">Kamaitachi</span>
+
+Kamaitachi là "chồn liềm" trong dân gian Nhật, cưỡi gió lốc và để lại những vết cắt không rõ từ đâu ra. Game có hai con: một ở **Maisaka** (cạnh Shrine Maisaka Junction, chỗ mấy cái cây cạnh một Sudama) thời Warring States, một trong **Lesser Crucible ở Rokuhara** thời Heian. Con nào cũng rơi **Soul Core Kamaitachi**, nguồn **Wind Familiar Talisman** cho rất nhiều build. Con ở Maisaka cho thêm Transformed Art *Pollard Combo*, con ở Rokuhara cho *Swallow Slash Jump*.
+
+**Điểm mạnh:** nhanh, nhảy liên tục, quét rộng, **phép gió xuyên qua thế đỡ**. Combo 3 đòn bằng vuốt và đuôi. Không yếu nguyên tố nào, kháng sét, gió, độc.
+
+**Điểm yếu:** đòn đỏ dưới đất dễ phản. Combo 3 đòn và đòn tóm đều đánh từ **bên phải của nó** (bên trái của bạn).
+
+**Cách hạ gục:** **Ninja**. Luôn né và di chuyển **về bên phải của mình**, đứng sát thì cú quất đuôi trong combo không trúng. Cứ coi như nó luôn đánh đủ 3 đòn. Đòn đỏ dưới đất thì Burst Break hoặc ngắt bằng skill Guardian Spirit, đòn đỏ trên không thì né ngang cho chắc. Phá được Ki là dồn combo tới khi nó gục.
+
+### <span style="color:rgb(200, 240, 60)">Honda Tadakatsu</span>
+
+Một trong "Tứ Thiên Vương" của Tokugawa Ieyasu, tương truyền đánh hơn 50 trận chưa từng bị thương, cầm cây giáo huyền thoại **Tonbokiri** ("giáo chém chuồn chuồn"). Trong game, ông là đồng minh suốt thời Warring States, và nhiệm vụ phụ **Becoming the Champion of the East** (mở sau Abundant Evil) là một trận **đấu tay đôi** ở cổng Otemon thành Hamamatsu. Thắng được giáo **Tombokiri** cùng Smithing Text của nó.
+
+**Điểm mạnh:** giáo dài, tầm với rất rộng, đòn mang **sét**.
+
+**Điểm yếu:** là đấu tay đôi, không có quái phụ hay Yokai Realm quấy rối.
+
+**Cách hạ gục:** giữ khoảng cách vừa phải, né ngang khỏi những đường đâm thẳng của giáo, đánh khi ông vừa vung xong. Mang đồ hoặc bùa kháng sét. Có thể nhận thách đấu ngay hoặc để sau, nên cứ lên thêm vài cấp rồi quay lại.
+
+### <span style="color:rgb(200, 240, 60)">Hattori Hanzo</span>
+
+Hattori Hanzo đời thứ hai, Masanari, nổi danh là "Quỷ Hanzo" và cũng là tay giáo cừ khôi. Trong Nioh 3, ông là người dẫn dắt phe Ninja ở Eternal Rift. Chuỗi nhiệm vụ của ông: **Searching for a Spy** (gặp ông trên mái nhà ở làng Tealeaf, Futamata, đánh **Kyokotsu**) rồi **The Demon's Regimen**: theo con Scampuss **Hayatemaru**, qua hai trận phục kích của đệ tử Hanzo, rồi đấu chính ông. Thắng được **Smithing Text bộ giáp Iga Jonin** và giáo **Hanzo the Demon's Spear**, hai món cực đáng cho phe Ninja.
+
+**Cách hạ gục:** hai trận phục kích trước có cả **cung thủ**, xử con bắn cung trước. Với Hanzo, chơi đánh rồi rút như với mọi boss người: né ra sau lưng sau mỗi đòn của ông, Burst Break đòn đỏ.
+
+### <span style="color:rgb(200, 240, 60)">Nuppeppo</span>
+
+Nuppeppo là yêu quái dạng một khối thịt nhũn nhão, bốc mùi, hay lảng vảng quanh đền chùa ban đêm. Trong game, nó là mục tiêu nhiệm vụ phụ **Headaches** (mở sau Fated Land): gặp Ieyasu ở thành Hamamatsu, điều tra ngôi làng phía nam đường Futamata, rồi đuổi Nuppeppo trong khuôn viên thành (đi từ Shrine Hamamatsu Castle - East Gate về phía tây). Đây là nguồn **Soul Core Nuppeppo**: +100 máu, hồi máu mỗi lần hút Amrita, linh hồn của build Thương "bất tử" bên bài build của Cenix.
+
+**Cách hạ gục:** nó **lăn đi** khi bị đánh, mà lúc đang lăn thì **đòn cận chiến bị bật ra**. Dùng **Ninjutsu** gọt máu từ xa trong lúc đuổi theo. Dồn được nó vào góc thì nó quay lại đánh, lúc đó mới vào cận chiến. Nó rơi **Yokai Gallstone**, đem về Blacksmith rèn thành Ghostly Gall rồi giao cho Ieyasu để xong nhiệm vụ.
+
+### <span style="color:rgb(200, 240, 60)">Onryoki</span>
+
+Gương mặt quen của fan Nioh đời đầu. Onryoki là con quỷ khổng lồ chờ sẵn trước điện thờ cạnh **hồ Sanaru**, trong nhiệm vụ phụ **The Great Shogun of the Heian Era** (mở sau Headaches). Hạ được nó là có Soul Core Onryoki, nó cũng là nguồn rơi **Quaking Tonfa**, cây Tonfa nền của nhánh Ninja Onmyo trong bài build Tonfa.
+
+**Cách hạ gục:** nó to xác nhưng **di chuyển bằng những cú nhảy rất nhanh**, đừng đứng thẳng hướng nó vừa lấy đà. Né về hai bên rồi đánh khi nó tiếp đất. Xong trận, vào điện, nhảy xuống hố, đi qua Spirit Vein tới phòng thờ trống để dâng Candle Dish của Ieyasu.
+
+### <span style="color:rgb(200, 240, 60)">Những boss phụ còn lại</span>
+
+| Boss | Ở đâu | Phần thưởng đáng chú ý |
+|---|---|---|
+| **Ninja Yoki** | Myth *Those Who Live in the Shadows*, Iinoya (đi ngang đường gần Shrine Omomiji Junction để mở) | Soul Core Ninja Yoki. Nhiệm vụ cho thêm **Fuma Chief's Talons** và **Fuma Chief's Greaves** |
+| **Kyokotsu** | Myth *Searching for a Spy*, Futamata | Giáo Hanzo the Demon's Spear (thưởng nhiệm vụ) |
+| **Aggrieved Warrior** (Revenant) | Myth *Ii's Memento*, ngôi chùa trên đồi Hamamatsu | Sincere Buddha's Gauntlets, Samurai's Locks |
+| **Yoki** | Myth *A Drop of Hope*, gần Hamamatsu Post | 2 Omamori (bản Samurai và Ninja) |
+| **Otazu no Kata** | Battle Scroll *Princess Tsubaki*, Hamamatsu | Kamari Hakama, Samurai's Locks |
+| **Mezuki** | Field boss ở Tokaido | Soul Core Mezuki |
+| **Green Shadow's Blade** | Field boss ở Tokaido | Transformed Art *Swift Step Heavy* cho katana |
+| **Blood-Spurting Ogin** | Field boss ở Mikatagahara | Transformed Art *Flying Buck Stomp* |
+| **Naito Masatoyo** | Field boss trên đường Futamata | Transformed Art *Resounding Lunge Extend* |
+| **Anayama Nobutada** | Field boss ở Futamata | Handbook *Punish the Proud* |
+
 ## <span style="color:rgb(255, 176, 0)">Checklist những thứ dễ lỡ nhất</span>
 
--   **Ba boss bí mật**: Demon of Pride (Iinoya, Warring States, mở sau khi hạ Great Tengu, yếu **sét**, nên tới cấp **100** hãy đánh), Demon of Envy (Heian), Demon of Obsession (Bakumatsu). Mỗi con một trophy và một Soul Core xịn.
+-   **Ba boss bí mật** Demon of Pride, Demon of Envy, Demon of Obsession: xem mục **Boss ẩn** ở trên. Mỗi con một trophy và một Soul Core xịn.
     
 -   **Exploration Level 4** ở mỗi vùng sẽ đánh dấu đồ còn sót. Tới mốc là quay lại vét Skill Text, Kodama, tượng Jizo.
     
