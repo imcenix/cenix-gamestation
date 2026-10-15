@@ -68,3 +68,38 @@ export const HERO_CLASSES = [
 ] as const;
 export const HERO_CLASS_MAP: Record<string, { key: string; label: string; icon: string }> =
   Object.fromEntries(HERO_CLASSES.map((c) => [c.key, c]));
+
+/* ── Game của bài hướng dẫn ──────────────────────────────────────────────
+ * Trang /huong-dan lọc theo game. Bài được gán game theo thứ tự:
+ *   1. field `game` trong frontmatter (nếu có) — khớp `key` bên dưới
+ *   2. tiêu đề / slug khớp `match`
+ *   3. còn lại: tự lấy phần đầu tiêu đề trước " - " hoặc ":" làm tên game
+ *      (icon = cover của bài mới nhất) → game mới tự hiện, không cần sửa code.
+ * Thêm game "chính thức" (có icon riêng) = thêm 1 dòng ở đây + ảnh vuông
+ * public/game-icons/<key>.jpg. Thứ tự mảng = thứ tự box trên trang.        */
+export type GuideGame = { key: string; label: string; icon: string | null; match: RegExp[] };
+
+export const GUIDE_GAMES: GuideGame[] = [
+  { key: 'nioh-3',          label: 'Nioh 3',           icon: '/game-icons/nioh-3.jpg',          match: [/\bnioh\b/i] },
+  { key: 'wandering-sword', label: 'Wandering Sword',  icon: '/game-icons/wandering-sword.jpg', match: [/wandering[\s-]sword/i] },
+  { key: 'hero-adventure',  label: "Hero's Adventure", icon: '/game-icons/hero-adventure.jpg',  match: [/hero'?s?[\s-]adventure/i] },
+  { key: 'poe-2',           label: 'Path of Exile 2',  icon: '/game-icons/poe-2.jpg',           match: [/path of exile/i, /^poe[\s-]?2\b/i] },
+];
+
+const slugifyGame = (s: string) =>
+  s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/gi, 'd')
+    .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+/** Trả về { key, label } game của 1 bài guide. */
+export function guideGameOf(d: { title: string; slug: string; game?: string | null }): { key: string; label: string } {
+  if (d.game) {
+    const k = slugifyGame(d.game);
+    const known = GUIDE_GAMES.find((g) => g.key === k || slugifyGame(g.label) === k || g.match.some((r) => r.test(d.game!)));
+    return known ? { key: known.key, label: known.label } : { key: k, label: d.game.trim() };
+  }
+  const hit = GUIDE_GAMES.find((g) => g.match.some((r) => r.test(d.title) || r.test(d.slug)));
+  if (hit) return { key: hit.key, label: hit.label };
+  const prefix = d.title.split(/\s[-–—]\s|:/)[0].trim();
+  if (prefix && prefix !== d.title.trim()) return { key: slugifyGame(prefix), label: prefix };
+  return { key: 'khac', label: 'Khác' };
+}

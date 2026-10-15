@@ -2,43 +2,72 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Thumb from '../../components/Thumb.astro';
-import { GUIDE_LEVELS, GUIDE_FILTERS, GUIDE_LABEL } from '../../lib/labels';
+import { GUIDE_FILTERS, GUIDE_LABEL, GUIDE_GAMES, guideGameOf } from '../../lib/labels';
 import { dm, byOrderThenDate } from '../../lib/format';
 
 const guides = (await getCollection('guides')).sort(byOrderThenDate);
-const countByLevel = (key) => guides.filter((g) => g.data.level === key).length;
 const cover = (slug, file) => (file ? `/guides/${slug}/${file}` : null);
+
+// Gán game cho từng bài + gom thành danh sách box lọc.
+const items = guides.map((g) => ({ g, game: guideGameOf(g.data) }));
+const gameMap = new Map();
+for (const { g, game } of items) {
+  if (!gameMap.has(game.key)) {
+    const known = GUIDE_GAMES.find((x) => x.key === game.key);
+    gameMap.set(game.key, {
+      ...game,
+      icon: known?.icon ?? cover(g.id, g.data.cover), // game chưa khai báo → lấy cover bài mới nhất
+      count: 0,
+      rank: known ? GUIDE_GAMES.indexOf(known) : 999,
+    });
+  }
+  gameMap.get(game.key).count++;
+}
+const games = [...gameMap.values()].sort((a, b) => a.rank - b.rank || b.count - a.count);
+const mosaic = games.filter((x) => x.icon).slice(0, 4);
 ---
 
-<BaseLayout title="Hướng dẫn" activeNav="guide" description="Hướng dẫn game từ tân thủ đến endgame: reroll, build nhân vật, farm tài nguyên.">
+<BaseLayout title="Hướng dẫn" activeNav="guide" description="Hướng dẫn game từ tân thủ đến endgame: Nioh 3, Path of Exile 2, Wandering Sword, Hero's Adventure — build, farm, walkthrough.">
   <div class="page-head">
     <div class="crumb">TRANG CHỦ / <span class="here">HƯỚNG DẪN</span></div>
     <div class="page-head-row">
       <div class="page-title">HƯỚNG DẪN</div>
-      <div class="page-meta">TỪ TÂN THỦ ĐẾN ENDGAME · {guides.length} BÀI</div>
+      <div class="page-meta">{games.length} GAME · {guides.length} BÀI</div>
     </div>
   </div>
 
-  <section class="gut roadmap-wrap">
+  <section class="gut games-wrap">
     <div class="sec-head">
-      <div class="eyebrow">◆ LỘ TRÌNH ĐỀ XUẤT</div>
+      <div class="eyebrow">◆ CHỌN GAME</div>
       <div class="rule"></div>
     </div>
-    <div class="roadmap">
-      {GUIDE_LEVELS.map((lvl, i) => (
-        <a class="rm-cell" href={`#guide-${lvl.key}`} data-jump={lvl.key}>
-          <div class:list={['rm-no', { first: i === 0 }]}>{lvl.no}</div>
-          <div class="rm-title">{lvl.title}</div>
-          <div class="rm-desc">{lvl.desc}</div>
-          <div class="rm-count">{countByLevel(lvl.key)} BÀI →</div>
-        </a>
+    <div class="games" id="game-filter">
+      <button type="button" class="gm active" data-game="all" aria-pressed="true">
+        <span class="gm-icon gm-mosaic">
+          {mosaic.map((x) => <img src={x.icon} alt="" loading="lazy" />)}
+        </span>
+        <span class="gm-text">
+          <span class="gm-name">Tất cả</span>
+          <span class="gm-count">{guides.length} BÀI</span>
+        </span>
+      </button>
+      {games.map((x) => (
+        <button type="button" class="gm" data-game={x.key} data-label={x.label} aria-pressed="false">
+          <span class="gm-icon">
+            {x.icon ? <img src={x.icon} alt={x.label} loading="lazy" /> : <span class="gm-ph">{x.label.slice(0, 2)}</span>}
+          </span>
+          <span class="gm-text">
+            <span class="gm-name">{x.label}</span>
+            <span class="gm-count">{x.count} BÀI</span>
+          </span>
+        </button>
       ))}
     </div>
   </section>
 
-  <section class="gut guide-list">
+  <section class="gut guide-list" id="guide-list">
     <div class="gl-head">
-      <div class="sec-title" style="font-size:22px">GUIDE MỚI NHẤT</div>
+      <div class="sec-title" style="font-size:22px">GUIDE <span id="gl-game">MỚI NHẤT</span></div>
       <div class="gl-filters">
         <button class="chip small active" data-filter="all">TẤT CẢ</button>
         {GUIDE_FILTERS.map((l) => <button class="chip small" data-filter={l.key}>{l.label}</button>)}
@@ -46,8 +75,8 @@ const cover = (slug, file) => (file ? `/guides/${slug}/${file}` : null);
     </div>
 
     <div class="g-grid" id="guide-grid">
-      {guides.map((g) => (
-        <a class="g-card" href={`/huong-dan/${g.data.slug}`} data-level={g.data.level}>
+      {items.map(({ g, game }) => (
+        <a class="g-card" href={`/huong-dan/${g.data.slug}`} data-level={g.data.level} data-game={game.key}>
           <Thumb src={cover(g.id, g.data.cover)} label="thumb guide" class="g-thumb" />
           <div class="g-body">
             <div class="g-meta">
@@ -64,7 +93,7 @@ const cover = (slug, file) => (file ? `/guides/${slug}/${file}` : null);
           </div>
         </a>
       ))}
-      <p class="empty" id="g-empty" hidden>Chưa có guide trong cấp độ này.</p>
+      <p class="empty" id="g-empty" hidden>Chưa có guide nào khớp bộ lọc này.</p>
     </div>
 
     <div class="more"><button class="btn-outline" id="more-guides">XEM THÊM GUIDE ↓</button></div>
@@ -72,20 +101,58 @@ const cover = (slug, file) => (file ? `/guides/${slug}/${file}` : null);
 </BaseLayout>
 
 <style>
-  .roadmap-wrap { padding-top: 36px; }
-  .roadmap { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--bd-card); border-radius: 3px; overflow: hidden; }
-  .rm-cell { padding: 24px; border-right: 1px solid rgba(255, 255, 255, 0.1); display: flex; flex-direction: column; gap: 10px; color: #fff; min-height: 150px; }
-  .rm-cell:last-child { border-right: none; }
-  .rm-cell:first-child { background: linear-gradient(160deg, rgba(200, 240, 60, 0.08), transparent 60%); }
-  .rm-no { font: 900 30px var(--display); color: rgba(255, 255, 255, 0.25); }
-  .rm-no.first { color: var(--lime); }
-  .rm-title { font: 800 16px var(--display); }
-  .rm-desc { font: 400 10.5px/1.55 var(--mono); color: var(--tx-dim); }
-  .rm-count { font: 700 10px var(--mono); color: var(--lime); margin-top: auto; }
-  .rm-cell:hover .rm-title { color: var(--lime); }
+  /* ── Bộ lọc game ─────────────────────────────────────────────────────── */
+  .games-wrap { padding-top: 36px; }
+  .games { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
 
-  .guide-list { padding-top: 44px; padding-bottom: 48px; }
+  .gm {
+    position: relative; display: flex; align-items: center; gap: 16px;
+    padding: 12px 18px 12px 12px; min-height: 88px;
+    background: var(--surface); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 4px;
+    color: #fff; text-align: left; cursor: pointer; font: inherit;
+    transition: border-color .2s ease, background .2s ease, box-shadow .2s ease, transform .2s ease;
+  }
+  .gm-icon {
+    flex: none; width: 64px; height: 64px; border-radius: 3px; overflow: hidden;
+    background: #16161b; outline: 1px solid rgba(255, 255, 255, 0.08); outline-offset: -1px;
+  }
+  .gm-icon img {
+    width: 100%; height: 100%; object-fit: cover; display: block;
+    filter: grayscale(0.55) brightness(0.72); transition: filter .25s ease, transform .35s ease;
+  }
+  .gm-mosaic { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: #0a0a0b; }
+  .gm-ph { display: grid; place-items: center; width: 100%; height: 100%; font: 900 20px var(--display); color: var(--tx-faint); text-transform: uppercase; }
+
+  .gm-text { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+  .gm-name { font: 800 16px/1.2 var(--display); color: rgba(255, 255, 255, 0.82); transition: color .2s ease; }
+  .gm-count { font: 700 10px var(--mono); letter-spacing: .08em; color: var(--tx-meta); transition: color .2s ease; }
+
+  .gm::after {
+    content: ''; position: absolute; top: 10px; right: 10px; width: 6px; height: 6px;
+    background: var(--lime); transform: rotate(45deg) scale(0); transition: transform .2s ease;
+  }
+
+  .gm:hover { border-color: var(--lime-40); background: rgba(200, 240, 60, 0.03); transform: translateY(-1px); }
+  .gm:hover .gm-icon img { filter: none; transform: scale(1.06); }
+  .gm:hover .gm-name { color: var(--lime); }
+  .gm:hover .gm-count { color: var(--tx-dim); }
+
+  .gm.active {
+    border-color: var(--lime);
+    background: linear-gradient(135deg, rgba(200, 240, 60, 0.12), rgba(200, 240, 60, 0.02) 70%);
+    box-shadow: 0 0 0 1px rgba(200, 240, 60, 0.25), 0 8px 28px -12px rgba(200, 240, 60, 0.35);
+  }
+  .gm.active .gm-icon { outline-color: var(--lime-40); }
+  .gm.active .gm-icon img { filter: none; }
+  .gm.active .gm-name { color: var(--lime); }
+  .gm.active .gm-count { color: var(--lime); }
+  .gm.active::after { transform: rotate(45deg) scale(1); }
+  .gm:focus-visible { outline: 2px solid var(--lime); outline-offset: 2px; }
+
+  /* ── Danh sách guide ─────────────────────────────────────────────────── */
+  .guide-list { padding-top: 44px; padding-bottom: 48px; scroll-margin-top: 90px; }
   .gl-head { display: flex; align-items: baseline; gap: 16px; margin-bottom: 16px; flex-wrap: wrap; }
+  #gl-game { color: var(--lime); }
   .gl-filters { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; }
   .chip.small { font-size: 10px; padding: 6px 14px; border-radius: 16px; }
 
@@ -105,41 +172,78 @@ const cover = (slug, file) => (file ? `/guides/${slug}/${file}` : null);
   .more { display: flex; justify-content: center; margin-top: 34px; }
 
   @media (max-width: 900px) {
-    .roadmap { grid-template-columns: repeat(2, 1fr); }
-    .rm-cell:nth-child(2) { border-right: none; }
-    .rm-cell:nth-child(1), .rm-cell:nth-child(2) { border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
     .g-grid { grid-template-columns: repeat(2, 1fr); }
   }
+  @media (max-width: 640px) {
+    /* mobile: box game thành hàng cuộn ngang */
+    .games {
+      grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 172px; gap: 10px;
+      overflow-x: auto; scroll-snap-type: x mandatory; padding: 4px 2px 8px; margin: -4px -2px 0; scrollbar-width: none;
+    }
+    .games::-webkit-scrollbar { display: none; }
+    .gm { scroll-snap-align: start; min-height: 68px; gap: 12px; padding: 10px 14px 10px 10px; }
+    .gm-icon { width: 46px; height: 46px; }
+    .gm-name { font-size: 13.5px; }
+  }
   @media (max-width: 560px) {
-    .roadmap { grid-template-columns: 1fr; }
-    .rm-cell { border-right: none; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
     .g-grid { grid-template-columns: 1fr; }
   }
 </style>
 
 <script>
-  const chips = document.querySelectorAll('.gl-filters .chip');
-  const cards = document.querySelectorAll('#guide-grid .g-card');
+  const boxes = document.querySelectorAll<HTMLButtonElement>('#game-filter .gm');
+  const chips = document.querySelectorAll<HTMLButtonElement>('.gl-filters .chip');
+  const cards = document.querySelectorAll<HTMLElement>('#guide-grid .g-card');
   const empty = document.getElementById('g-empty');
+  const title = document.getElementById('gl-game');
 
-  function apply(f) {
-    chips.forEach((c) => c.classList.toggle('active', c.dataset.filter === f));
+  const state = { game: 'all', level: 'all' };
+
+  function apply() {
+    boxes.forEach((b) => {
+      const on = b.dataset.game === state.game;
+      b.classList.toggle('active', on);
+      b.setAttribute('aria-pressed', String(on));
+    });
+    chips.forEach((c) => c.classList.toggle('active', c.dataset.filter === state.level));
+
     let shown = 0;
     cards.forEach((el) => {
-      const match = f === 'all' || el.dataset.level === f;
+      const match =
+        (state.game === 'all' || el.dataset.game === state.game) &&
+        (state.level === 'all' || el.dataset.level === state.level);
       el.style.display = match ? '' : 'none';
       if (match) shown++;
     });
     if (empty) empty.hidden = shown > 0;
+
+    const active = [...boxes].find((b) => b.dataset.game === state.game);
+    if (title) title.textContent = state.game === 'all' ? 'MỚI NHẤT' : `· ${(active?.dataset.label || '').toUpperCase()}`;
+
+    const url = new URL(location.href);
+    if (state.game === 'all') url.searchParams.delete('game');
+    else url.searchParams.set('game', state.game);
+    history.replaceState(null, '', url);
   }
 
-  chips.forEach((chip) => chip.addEventListener('click', () => apply(chip.dataset.filter)));
+  boxes.forEach((b) =>
+    b.addEventListener('click', () => {
+      state.game = b.dataset.game || 'all';
+      state.level = 'all';
+      apply();
+    })
+  );
+  chips.forEach((c) =>
+    c.addEventListener('click', () => {
+      state.level = c.dataset.filter || 'all';
+      apply();
+    })
+  );
 
-  document.querySelectorAll('[data-jump]').forEach((cell) => {
-    cell.addEventListener('click', (e) => {
-      e.preventDefault();
-      apply(cell.dataset.jump);
-      document.querySelector('.guide-list')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
-  });
+  // Deep-link: /huong-dan?game=nioh-3
+  const q = new URLSearchParams(location.search).get('game');
+  if (q && [...boxes].some((b) => b.dataset.game === q)) {
+    state.game = q;
+    apply();
+  }
 </script>

@@ -65,6 +65,7 @@ const guides = defineCollection({
   schema: z.object({
     title: z.string(), slug: z.string(),
     level: z.enum(['tan-thu', 'build', 'farm', 'endgame', 'code']).default('tan-thu'),
+    game: z.string().nullable().optional(), // tuỳ chọn — bỏ trống thì tự nhận theo tiêu đề
     date: dateSchema,
     excerpt: z.string().nullable().optional(),
     cover: z.string().nullable().optional(),
