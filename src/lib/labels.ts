@@ -84,6 +84,7 @@ export const GUIDE_GAMES: GuideGame[] = [
   { key: 'wandering-sword', label: 'Wandering Sword',  icon: '/game-icons/wandering-sword.jpg', match: [/wandering[\s-]sword/i] },
   { key: 'hero-adventure',  label: "Hero's Adventure", icon: '/game-icons/hero-adventure.jpg',  match: [/hero'?s?[\s-]adventure/i] },
   { key: 'poe-2',           label: 'Path of Exile 2',  icon: '/game-icons/poe-2.jpg',           match: [/path of exile/i, /^poe[\s-]?2\b/i] },
+  { key: 'phantom-blade-zero', label: 'Phantom Blade Zero', icon: '/game-icons/phantom-blade-zero.jpg', match: [/phantom[\s-]blade/i] },
 ];
 
 const slugifyGame = (s: string) =>
