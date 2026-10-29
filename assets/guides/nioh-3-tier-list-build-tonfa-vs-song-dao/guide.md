@@ -157,7 +157,7 @@ Ai không muốn chọn thì không cần chọn. Nioh 3 cho **respec miễn ph�
 
 Cái hay là hai build **dùng chung Guardian Spirit Kurama Tengu** và **chung set Iga Jonin**, nên khi đổi gần như không phải cày lại đồ. Chỉ cần tẩy điểm từ Heart, Intellect, Magic sang Constitution, Strength, Skill, rồi thay vũ khí và bùa.
 
-Muốn đi sâu từng build, anh em xem hai bài của Cenix: [Build Katana + Song đao Ninja](/huong-dan/nioh-3-build-katana-song-dao-dau-game/) có bảng cộng điểm từ cấp 30 tới 250, và [Build Tonfa nguyên tố](/huong-dan/nioh-3-build-tonfa-nguyen-to-mid-game/) có bảng điểm từ cấp 70 tới 250 kèm hai ngả endgame.
+Muốn đi sâu từng build, anh em xem hai bài của Cenix: [Build Song đao Ninjutsu OP](/huong-dan/nioh-3-build-katana-song-dao-dau-game/) có bản Remodel sang Skill, chọn cây gốc, set đồ và bảng cộng điểm từ cấp 30 tới 250, và [Build Tonfa nguyên tố](/huong-dan/nioh-3-build-tonfa-nguyen-to-mid-game/) có bảng điểm từ cấp 70 tới 250 kèm hai ngả endgame.
 
 Giờ tới lượt anh em chọn phe: **đội Tonfa đấm như máy khâu** hay **đội song đao múa lửa trên không**? Ai đã cầm cả hai rồi thì vào kể Cenix nghe cảm giác thật, nhất là màn đối đầu Kunimatsu bằng build của mấy ông.
 

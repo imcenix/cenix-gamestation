@@ -1,315 +1,270 @@
 ---
-title: "Nioh 3 - Build Katana + Song đao Ninja: Từ đầu game tới End-game"
+title: "Nioh 3 - Build Song đao Ninjutsu OP: Remodel Skill, Confusion rồi xoay kiếm sau lưng boss"
 slug: nioh-3-build-katana-song-dao-dau-game
 level: build
-date: 2026-10-14
+date: 2026-10-29
 featured: false
 order:
 tags:
   - NIOH 3
   - BUILD
-  - KATANA
   - DUAL NINJA SWORDS
-  - ĐẦU GAME
+  - NINJUTSU
+  - REMODEL
   - ENDGAME
-excerpt: Katana để học parry và đổi thế, song đao Ninja để quét lửa và gió cho địch Confusion. Trọn bộ bảng cộng điểm từ cấp 30 tới 250, set giáp, dòng hiệu ứng, bùa, Ninjutsu và combo. Hai món chung hai chỉ số, cộng điểm không phí giọt nào.
+excerpt: Remodel song đao sang Skill để vừa ném Ninjutsu nổ tung vừa chém đau. Áp nguyên tố cho boss Confusion, lách ra sau lưng chém thường rồi giữ nhịp đòn mạnh xoay kiếm liên tục, máu boss tuột không phanh. Trọn bộ vũ khí gốc, dòng hiệu ứng, set đồ, hộ linh và bảng cộng điểm từ cấp 30 tới 250.
 cover: cover.jpg
 ---
-Mấy ông nghe tin gì chưa? Muốn sống sót qua thời Warring States của Nioh 3 thì không cần build gì cao siêu, chỉ cần **một cặp vũ khí hiểu nhau**. Cặp Cenix chọn cho anh em hôm nay là **Katana (Sword) bên Samurai** và **Dual Ninja Swords (song đao) bên Ninja**.
+Một khi đã máu thì đừng hỏi bố cháu là ai nữa! Trên YouTube, cụm từ "Nioh 3 OP Ninja dual swords" ra cả chục video, và gần như tất cả cùng chung một công thức: **song đao chém, Ninjutsu nổ, nguyên tố chồng lên nhau, đứng sau lưng boss mà xoay kiếm**. Cenix gom công thức đó thành một build hoàn chỉnh, có đủ từng dòng hiệu ứng để anh em làm theo.
 
-Lý do rất đơn giản:
+Ý tưởng cốt lõi chỉ có ba bước:
 
--   **Chung hai chỉ số**: Katana scale Heart, Strength, Intellect, còn song đao scale Heart, Intellect, Magic. Cộng **Heart và Intellect** là cả hai cùng mạnh lên.
+1.  **Remodel song đao sang Skill**. Skill vốn là chỉ số tăng sức mạnh Ninjutsu, nên khi song đao cũng scale theo Skill thì **một chỉ số nuôi cả hai nguồn sát thương**: ném bom nổ đau mà chém cũng đau.
     
--   **Katana là trường học tốt nhất** để làm quen ba thế đứng, Ki Pulse và Deflect, đúng mấy thứ boss Samurai bắt anh em phải biết.
+2.  **Áp hai nguyên tố lên boss** cho dính **Confusion**: địch nhận thêm sát thương, chậm đi, hồi Ki chậm. Kỹ năng bí truyền còn cộng thêm sát thương Ninjutsu theo số hiệu ứng xấu trên người boss.
     
--   **Song đao là cỗ máy chồng hiệu ứng**: chém liên tục, scale Magic, dính lửa với gió rất nhanh để kích **Confusion**. Game8 xếp build song đao hạng **SS**.
-    
-
-Build này dùng được ngay từ màn Escape From Hitokoto Slope và đi được tới cấp tối đa. Bài có đủ **bảng cộng điểm chuẩn** từ cấp 30 tới 250, **set giáp và dòng hiệu ứng** nên săn, **Onmyo, Ninjutsu** mang theo và **combo** cho cả hai phong cách. Ai muốn đổi gió thì bài build Tonfa của Cenix cũng đã có trọn bộ tương tự.
-
-## <span style="color:rgb(255, 176, 0)">Hiểu chỉ số trước khi cộng</span>
-
-Katana scale **Heart, Strength, Intellect**. Song đao scale **Heart, Intellect, Magic**. Build này xoay quanh ba chỉ số:
-
--   **Heart**: chung cho cả hai vũ khí, lại thêm Ki và tốc độ hồi Ki. Chỉ số số một.
-    
--   **Intellect**: chung cho cả hai vũ khí, kéo dài hiệu ứng (bùa, thiêu đốt) và tăng hồi Ki. Chỉ số số hai, sau mốc cấp 70 sẽ vượt cả Heart.
-    
--   **Magic**: scale song đao và mở ô Soul Core Yin. **25 Magic** là mốc vàng: đủ **5 ô Yin**, đúng con số Game8 khuyên cho song đao. Về end-game, Magic lại thành chỉ số sát thương.
-    
--   **Constitution**: máu, nhắm 20 ở cấp 90–100. **Stamina**: chỉ đủ để song đao giữ Agility hạng A với giáp nhẹ. **Strength** và **Skill**: để gần mức gốc, Strength chỉ nhích lên khi cần kích hoạt hiệu ứng đồ Samurai.
+3.  **Lách ra sau lưng**: Ninja đánh từ phía sau mạnh hơn hẳn. Chém thường mở màn, rồi chuyển sang chuỗi **đòn mạnh xoay người liên tục** của **Abscission Combo** cho tới khi boss cạn Ki.
     
 
-<div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Cách đọc bảng điểm:</strong> bảng tính theo khởi điểm mỗi chỉ số <strong>5 điểm</strong> ở cấp 1, nên tổng điểm luôn bằng <strong>cấp nhân vật + 34</strong>. Nhân vật của anh em khởi điểm lệch vài điểm thì giữ đúng tỉ lệ là được. Respec ở Shrine miễn phí, cứ cộng theo bảng rồi chỉnh dần theo tay mình.</p></div>
+Build hạng **SS** theo Game8, dùng được từ đầu game và mạnh thật sự từ khi Remodel được (khoảng thời Heian), rồi đi tiếp tới cấp tối đa.
 
-## <span style="color:rgb(255, 176, 0)">Bảng điểm đầu game (cấp 30–70)</span>
+## <span style="color:rgb(255, 176, 0)">Remodel và Reforge: hai cửa phải mở</span>
 
-Mục tiêu giai đoạn Warring States: có đủ Ki để học Ki Pulse của katana, và **chạm 25 Magic** sớm nhất có thể để mở đủ ô bùa cho song đao.
+Song đao gốc scale **Heart, Intellect, Magic**. Muốn chuyển sang Skill phải qua thợ rèn (Blacksmith) ở Eternal Rift.
 
-| Chỉ số | Cấp 30 | Cấp 50 | Cấp 70 | Vai trò trong build |
+### <span style="color:rgb(200, 240, 60)">Remodel: đổi chỉ số scale</span>
+
+-   **Mở Soul Match**: làm nhiệm vụ phụ của thợ rèn **A Fierce Flame** (tìm Kagutsuchi's Magatama ở rìa phía tây vùng Warring States). Xong là có Soul Match và Soul Extract.
+    
+-   **Vũ khí phải từ +1 trở lên** mới Remodel được. Nâng +Value bằng **Azure Soul Ore** (lấy từ việc tách đồ +1), hoặc nhặt sẵn vũ khí +1 rơi từ boss.
+    
+-   **Mục tiêu khi Remodel**: để **Skill** thành chỉ số scale chính, giữ **Heart** ở vị trí còn lại để cặp được với vũ khí Samurai (xem phần cuối bài).
+    
+
+<div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Remodel tốn kém:</strong> Game8 nhắc Remodel khá đắt ở đầu game, nên đợi có cây song đao ưng ý (đúng dòng hiệu ứng cố định bên dưới) rồi hãy làm. All Things How ghi nhận chỉ số sau Remodel scale kém hơn một chút so với chỉ số gốc, nhưng đổi lại được cả bộ chỉ số dồn vào một chỗ, rất đáng.</p></div>
+
+### <span style="color:rgb(200, 240, 60)">Reforge: đổi dòng hiệu ứng</span>
+
+Hoàn thành nhiệm vụ phụ **Memories in the Blade** (mở sau màn The Age of Clans Begins, nhận từ thợ rèn, tìm và mang về ba thanh kiếm) để mở **Reforge**. Reforge cho thay các dòng hiệu ứng không bị khoá trên vũ khí và giáp. Dòng **cố định** (fixed) của vũ khí thì giữ nguyên, nên chọn cây gốc có dòng cố định hợp build là quan trọng nhất.
+
+## <span style="color:rgb(255, 176, 0)">Chọn cây gốc nào để đập lên</span>
+
+| Song đao | Dòng cố định | Hợp chỗ nào |
+|---|---|---|
+| **Dual Bloodstained Cleavers** | Sát thương đòn mạnh **+4,2%** | **Lựa chọn số 1**: chuỗi xoay kiếm Abscission Combo bấm đòn mạnh liên tục. Rơi từ **Kajiwara Kagetoki** ở dạng **+1**, Remodel được ngay |
+| **Seki Kaneyoshi Dual Tachi** | Sát thương đánh lén **+4,5%** | Đúng chất "ra sau lưng mà chém" |
+| **Soshu Dual Uchigatana** | Sát thương Ki đòn mạnh **+1,9%** | Phá Ki nhanh hơn khi xoay kiếm |
+| **Seki Dual Uchigatana** | Giảm **2%** Ki cho Martial Arts | Spam Abscission Combo lâu hơn |
+| **Little Crow & Quickdraw** | Hút máu **5%** từ đòn nhẹ | Trụ tốt khi chém thường sau lưng |
+| **Basket Blade & Boar Cutter** | Giảm Ki đòn cận chiến | Rơi từ Takeda Shingen, dùng tạm đầu game |
+
+### <span style="color:rgb(200, 240, 60)">Reforge dòng nào: nguyên tố hay sát thương Ki?</span>
+
+| Ưu tiên | Dòng hiệu ứng | Vì sao |
+|---|---|---|
+| 1 | **Imbue Water** | Mỗi nhát chém đều tích **Saturated** (nhận thêm sát thương lên máu và Ki). Nhiều boss khó nửa sau game yếu nước hoặc vẫn dính nước: Ibaraki Doji, Enenra, Nuribotoke, Demon of Envy, Demon of Obsession, cả Kunimatsu |
+| 2 | **Attack Bonus (Skill)** | Sau Remodel, dòng này cộng thẳng vào chỉ số chính |
+| 3 | **Ki Damage vs. Saturated / Blustered Enemy** | Đánh vào địch đã dính nguyên tố là phá Ki nhanh hơn |
+| 4 | **Martial Arts Damage** hoặc **Martial Arts Ki Damage** | Abscission Combo là một Martial Art, nên dòng này tăng trực tiếp chuỗi xoay kiếm |
+| 5 | Backstab Damage, Strong Attack Damage | Cộng dồn với dòng cố định của cây gốc |
+| 6 | Life Recovery (Amrita Absorption) | Đi cùng Extraction Talisman để hồi máu khi chém |
+
+**Imbue Water hay Wind?** Chọn **Water** làm nguyên tố trên vũ khí vì nước là điểm yếu phổ biến nhất ở nửa sau game. Nguyên tố thứ hai để kích Confusion thì giao cho **Ninjutsu** (gió hoặc lửa). Gặp boss kháng nước như Hiruko, Kajiwara, Takasugi, Okita thì nguyên tố không còn mấy tác dụng, cứ dồn bom và đánh lén (xem bảng cuối bài). Cầm thêm một cây phụ **Imbue Wind** kèm dòng Ki Damage vs. Blustered cho những boss yếu gió như Jakotsu-baba và Baba Nobuharu.
+
+## <span style="color:rgb(255, 176, 0)">Bảng cộng điểm theo từng giai đoạn</span>
+
+<div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Cách đọc bảng:</strong> tính theo khởi điểm mỗi chỉ số <strong>5 điểm</strong> ở cấp 1, nên tổng điểm luôn bằng <strong>cấp nhân vật + 34</strong>. Nhân vật của anh em khởi điểm lệch vài điểm thì giữ đúng tỉ lệ là được. Respec ở Shrine miễn phí.</p></div>
+
+### <span style="color:rgb(200, 240, 60)">Đầu game (cấp 30–70), trước khi Remodel</span>
+
+Lúc này song đao vẫn scale Heart, Intellect, Magic, nên Heart đi đầu, Magic chạm **25** để có đủ 5 ô Yin, còn **Skill** tăng đều để Ninjutsu không bị yếu.
+
+| Chỉ số | Cấp 30 | Cấp 50 | Cấp 70 | Vai trò |
 |---|---|---|---|---|
-| Constitution | 12 | 15 | 16 | Máu, đủ sống qua boss đầu game |
-| Heart | 15 | 20 | 24 | Sát thương cả hai vũ khí, Ki cho Ki Pulse và chuỗi chém |
-| Stamina | 7 | 8 | 9 | Đủ mặc giáp nhẹ, giữ Agility A |
-| Strength | 5 | 5 | 5 | Giữ ở mức gốc |
-| Skill | 5 | 6 | 7 | Nhích nhẹ cho Ninjutsu |
-| Intellect | 10 | 15 | 18 | Hồi Ki, kéo dài bùa và thiêu đốt |
-| Magic | 10 | 15 | 25 | Mở ô Yin, chạm mốc 25 ở cấp 70 |
+| Constitution | 12 | 14 | 15 | Máu |
+| Heart | 15 | 20 | 23 | Sát thương song đao gốc, Ki |
+| Stamina | 7 | 8 | 8 | Giữ giáp nhẹ, Agility A |
+| Strength | 5 | 5 | 5 | Mức gốc |
+| Skill | 10 | 15 | 20 | Sức mạnh Ninjutsu, chuẩn bị cho Remodel |
+| Intellect | 5 | 7 | 8 | Kéo dài hiệu ứng |
+| Magic | 10 | 15 | 25 | Ô Yin cho bùa nguyên tố |
 | **Tổng** | **64** | **84** | **104** | |
 
-**Cộng theo thứ tự:**
+**30 → 50**: Heart +5 → Skill +5 → Magic +5 → Constitution +2 → Intellect +2 → Stamina +1.
 
--   **30 → 50**: Heart +5 → Intellect +5 → Magic +5 → Constitution +3 → Stamina +1 → Skill +1.
-    
--   **50 → 70**: Magic +10 (lên 25) → Heart +4 → Intellect +3 → Constitution +1 → Stamina +1 → Skill +1.
-    
+**50 → 70**: Magic +10 → Skill +5 → Heart +3 → Intellect +1 → Constitution +1.
 
-## <span style="color:rgb(255, 176, 0)">Bảng điểm Mid-game (cấp 70–100)</span>
+### <span style="color:rgb(200, 240, 60)">Mid-game (cấp 70–100), sau khi Remodel sang Skill</span>
 
-Thời Heian sang Antiquity. Magic đã đủ 25 nên **dồn Intellect và Heart**, hai chỉ số cả katana lẫn song đao cùng ăn.
+Có cây song đao +1 (Dual Bloodstained Cleavers từ Kajiwara là chuẩn nhất) thì Remodel, rồi **dồn Skill**. Hai mốc cấp 80 và 90 dưới đây chính là bảng điểm anh Đại Ca gửi Cenix: Ninja song đao làm sát thương chính bằng đòn đánh, nguyên tố và Ninjutsu, Samurai dùng chung chỉ số Heart.
 
-| Chỉ số | Cấp 70 | Cấp 80 | Cấp 90 | Cấp 100 | Vai trò trong build |
+| Chỉ số | Cấp 70 | Cấp 80 | Cấp 90 | Cấp 100 | Vai trò |
 |---|---|---|---|---|---|
-| Constitution | 16 | 18 | 20 | 20 | Máu cho Kajiwara, Hiruko, Kunimatsu |
-| Heart | 24 | 26 | 28 | 30 | Sát thương cả hai vũ khí, Ki |
-| Stamina | 9 | 10 | 10 | 10 | Giữ ở mức này |
-| Strength | 5 | 5 | 5 | 7 | Nhích lên khi cần kích hoạt đồ Samurai |
-| Skill | 7 | 7 | 8 | 8 | Ninjutsu |
-| Intellect | 18 | 23 | 28 | 34 | Chỉ số chính mới, scale cả hai vũ khí |
-| Magic | 25 | 25 | 25 | 25 | Giữ 5 ô Yin |
+| Constitution | 15 | 16 | 18 | 20 | Thêm máu để Ninja đỡ bị hạ quá nhanh |
+| Heart | 23 | 25 | 28 | 30 | Sát thương cho cả hai vũ khí, Ki cho chuỗi đánh và né |
+| Stamina | 8 | 8 | 8 | 8 | Giữ nguyên |
+| Strength | 5 | 5 | 5 | 5 | Mức gốc |
+| Skill | 20 | 25 | 30 | 36 | Chỉ số chính: Ninjutsu, hiệu ứng và song đao sau Remodel |
+| Intellect | 8 | 10 | 10 | 10 | Hồi Ki và thời gian hiệu ứng |
+| Magic | 25 | 25 | 25 | 25 | Giữ 5 ô Yin mang bùa từ Soul Core |
 | **Tổng** | **104** | **114** | **124** | **134** | **Mỗi mốc chênh đúng 10 điểm** |
 
-**Cộng theo thứ tự:**
+**70 → 80**: Skill +5 → Heart +2 → Intellect +2 → Constitution +1.
 
--   **70 → 80**: Intellect +5 → Constitution +2 → Heart +2 → Stamina +1.
-    
--   **80 → 90**: Intellect +5 → Heart +2 → Constitution +2 → Skill +1.
-    
--   **90 → 100**: Intellect +6 → Heart +2 → Strength +2.
-    
+**80 → 90**: Heart +3 → Constitution +2 → Skill +5.
 
-Kết quả ở cấp 100: Intellect 34, Heart 30, Magic 25, Constitution 20.
+**90 → 100**: Skill +6 → Heart +2 → Constitution +2.
 
-## <span style="color:rgb(255, 176, 0)">Bảng điểm End-game (cấp 100–250)</span>
+### <span style="color:rgb(200, 240, 60)">End-game (cấp 100–250)</span>
 
-Cấp tối đa bản gốc là **250**, tổng **284** điểm. Thử nghiệm của cộng đồng cho thấy chỉ số chính bắt đầu **giảm hiệu quả rõ sau khoảng 55 điểm**, nên Intellect chạm 55 ở cấp 150 thì nhích chậm lại, Heart theo sau. Từ cấp 150, điểm dư chuyển hết sang **Magic**, chỉ số scale thứ ba của song đao. Mốc 55 là thử nghiệm của người chơi, chưa phải số chính thức.
+Cấp tối đa bản gốc là **250**. Cộng đồng thử nghiệm thấy chỉ số chính giảm hiệu quả rõ sau khoảng **55 điểm**, nhưng ở build này Skill nuôi cả vũ khí lẫn Ninjutsu nên vẫn đáng dồn tiếp, chỉ chậm lại. Từ cấp 150 bắt đầu kéo **Intellect** cho hiệu ứng dài hơn và **Magic** lên **40** để có thêm ô bùa.
 
 | Chỉ số | Cấp 130 | Cấp 150 | Cấp 200 | Cấp 250 (max) | Vai trò |
 |---|---|---|---|---|---|
-| Constitution | 24 | 26 | 32 | 42 | Máu cho NG+ trở lên |
-| Heart | 38 | 47 | 55 | 62 | Chạm 55 ở cấp 200 |
-| Stamina | 12 | 13 | 15 | 18 | Đủ cho giáp vừa nếu cần |
-| Strength | 8 | 8 | 10 | 15 | Kích hoạt hiệu ứng đồ |
-| Skill | 9 | 10 | 12 | 15 | Ninjutsu |
-| Intellect | 48 | 55 | 60 | 68 | Chạm 55 ở cấp 150 rồi nhích chậm |
-| Magic | 25 | 25 | 50 | 64 | Chỉ số sát thương thứ ba của song đao |
+| Constitution | 24 | 26 | 32 | 42 | Máu cho NG+ |
+| Heart | 38 | 42 | 55 | 62 | Chỉ số scale thứ hai |
+| Stamina | 10 | 11 | 12 | 15 | Đủ giáp vừa nếu cần |
+| Strength | 5 | 5 | 5 | 8 | Kích hoạt hiệu ứng đồ |
+| Skill | 50 | 55 | 65 | 75 | Chỉ số chính |
+| Intellect | 12 | 20 | 25 | 32 | Thời gian nguyên tố, hồi Ki |
+| Magic | 25 | 25 | 40 | 50 | Thêm ô bùa, bùa Hell cuối game |
 | **Tổng** | **164** | **184** | **234** | **284** | |
 
-**Cộng theo thứ tự:**
+**100 → 130**: Skill +14 → Heart +8 → Constitution +4 → Stamina +2 → Intellect +2.
 
--   **100 → 130**: Intellect +14 → Heart +8 → Constitution +4 → Stamina +2 → Strength +1 → Skill +1.
-    
--   **130 → 150**: Heart +9 → Intellect +7 (chạm 55) → Constitution +2 → Stamina +1 → Skill +1.
-    
--   **150 → 200**: Magic +25 → Heart +8 (chạm 55) → Constitution +6 → Intellect +5 → Stamina +2 → Strength +2 → Skill +2.
-    
--   **200 → 250**: Magic +14 → Constitution +10 → Intellect +8 → Heart +7 → Strength +5 → Stamina +3 → Skill +3.
-    
+**130 → 150**: Intellect +8 → Skill +5 (chạm 55) → Heart +4 → Constitution +2 → Stamina +1.
 
-## <span style="color:rgb(255, 176, 0)">Nửa Samurai: Katana dạy làm người</span>
+**150 → 200**: Magic +15 → Heart +13 → Skill +10 → Constitution +6 → Intellect +5 → Stamina +1.
 
-### <span style="color:rgb(200, 240, 60)">Điểm Samurai tiêu vào đâu trước</span>
+**200 → 250**: Skill +10 → Magic +10 → Constitution +10 → Heart +7 → Intellect +7 → Stamina +3 → Strength +3.
 
-1.  **Deflect**: chính màn hướng dẫn trong game cũng khuyên lấy đầu tiên khi nhặt được Samurai's Lock. Đỡ đúng khoảnh khắc đòn tới là **không mất Ki, không mất máu**. Mẹo: **giữ nút đỡ** chứ đừng nhấp, lỡ sớm thì vẫn còn thế đỡ hứng đòn.
-    
-2.  **Low Stance và High Stance**: bắt buộc, vì chiêu ngon của katana nằm ở hai thế này. Samurai's Lock đầu tiên nằm gần Shrine đầu tiên trong màn **The Hamamatsu Incident**.
-    
-3.  **Flux → Flux II**: đổi thế ngay sau Ki Pulse để hồi thêm Ki.
-    
+## <span style="color:rgb(255, 176, 0)">Chiêu song đao: ra sau lưng và xoay kiếm</span>
 
-### <span style="color:rgb(200, 240, 60)">Martial Arts cho Katana</span>
-
-| Chiêu | Thế | Cần gì | Dùng để |
-|---|---|---|---|
-| **Iai Quickdraw → III** | Mọi thế | 3 điểm Samurai cho bản III | Chém một nhát bay đa số quái đầu game, bản III nối ngay sau Ki Pulse |
-| **Night Rain** | Low | Low Stance, Kick | Chuỗi chém nhanh nối sau đòn nhẹ |
-| **Swallow's Wing** | Mid / Low | Low Stance, Kick | Lùi lại chém, tạo khoảng cách |
-| **Swift Step Heavy** | Low | Học từ Martial Arts Guide | Né rồi phản đòn |
-| **Light in Darkness** | Low | 2 điểm, cần Shadow Sword | Chậm nhưng rút Ki rất mạnh, đẩy địch vào Winded |
-| **Heaven Flash Lightning** | High / Low | Học từ Martial Arts Guide | Bật lên rồi bổ xuống có sét |
-| **Severing Spin** | Mọi thế | Crucible Art | Xoay kiếm quét quanh người, bù điểm yếu đánh đám đông |
-
-**Kỹ năng bí truyền:** Roaring Dragon Deflect và Blade-Breaking Deflect (Deflect thành công thì địch vừa ăn thêm sát thương nguyên tố vừa đánh yếu đi), Polished Form (giảm **5%** Ki của Martial Arts), Purify Yokai Realm: Earth (Ki Pulse hoàn hảo ở Low Stance tự buff tăng sát thương), Resilient Arts (+**8%** sát thương đòn mạnh và Martial Arts khi Arts Proficiency bật).
-
-## <span style="color:rgb(255, 176, 0)">Nửa Ninja: song đao thổi lửa</span>
-
-### <span style="color:rgb(200, 240, 60)">Martial Arts cho Dual Ninja Swords</span>
-
-| Chiêu | Cần gì | Dùng để |
+| Chiêu | Cách học | Vai trò trong build |
 |---|---|---|
-| **Water Sword** | Có sẵn | Phá đòn địch, rút Ki nhanh. Vung hơi lâu nên dùng cuối chuỗi |
-| **Abscission** | Có sẵn | Nền của chuỗi chém chính |
-| **Abscission Combo** | 1 điểm, mở khi tới **hồ Hamana** | Spam đánh nhẹ là ra, phá Ki cực khoẻ, chuỗi đánh chính của build |
-| **Moon Shadow** | 1 điểm, cần Abscission | Phản đòn, vòng ra sau con đang thủ |
-| **Spinning Gale** | 1 điểm, cần Drifting Counter | Phản đòn |
-| **Coiled Spring** | 1 điểm, cần Drifting Counter | Phản đòn lao tới |
-| **Cloudsplitter Fire** | 2 điểm, học từ Martial Arts Guide | Chém lửa rồi hất lên trời, mở combo trên không |
-| **Spinning Drill** | 1 điểm, cần Water Sword | Kết combo trên không |
-| **Double-Headed Slice** | 3 điểm, cần Spinning Gale | Đòn mạnh cuối cây kỹ năng |
-| **Divine Flight** | Crucible Art | Lao tới trên không, trúng là còn lơ lửng |
+| **Abscission** | Có sẵn | Xoay người lao tới chém, mở đầu chuỗi xoay kiếm |
+| **Abscission Combo** | Bắn rơi **Chijiko bay** gần tường thành Horie, **hồ Hamana**, rồi vuốt ve nó | **Chiêu chủ lực**: sau Abscission, **bấm đòn mạnh liên tục để xoay chém không giới hạn số nhát** |
+| **Coiled Spring Pierce** | Học từ Martial Arts Guide | Lao tới đâm và **lách qua ra sau lưng địch**. Cách nhanh nhất để vào vị trí đánh lén |
+| **Drifting Counter** | 1 điểm Ninja | Thủ thế, đỡ đòn rồi **chém vòng ra sau lưng** |
+| **Moon Shadow** / **Hazy Moon Blade** | Novice / Veteran | Địch đỡ đòn thì vòng ra sau chém. Hazy Moon Blade kích hoạt Moon Shadow ngay khi bạn đỡ |
+| **Shadow Slice** | Đầy Familiarity song đao Crucible | Lách qua người địch kèm một nhát chém |
+| **Double-Headed Slice** | 3 điểm, cần Spinning Gale | Chém rồi xoay hai lưỡi, đòn kết đẹp mắt |
+| **Water Sword / Water Sword Water** | Có sẵn / 1 điểm | Chém nhiều nhát phá Ki, bản Water phủ nước và rộng hơn |
+| **Spinning Gale** | 1 điểm, cần Drifting Counter | Đỡ đòn rồi đá xoáy, sát thương Ki rất lớn |
+| **Cloud Dancer** | 3 điểm, sau *The Way of the Ninja: Veteran* | Đánh trúng trên không thì tự buff sát thương, trúng tiếp buff càng mạnh |
 
-**Kỹ năng bí truyền:** **Evil-Dispelling Evade** (Ninja xoá Yokai Realm, về sau là Yokai Banisher), **Awakening** (niệm bùa nhanh, mở từ Battle Scroll *The Way of Onmyo: Novice*), **Dread Bringer** (tăng sát thương khi địch dính trạng thái), **Illusory Dragon**, **Panacea Curefast** (+**15%** hồi máu từ Elixir), **Lingering Spirit**, **Tachi Arts** (+**8,4%** sát thương lên địch còn đầy máu).
+**Kỹ năng Ninja chung nên có:** Evade, Footstool Jump (nhảy qua đầu ra sau lưng), Mid-Air Dodge, Cicada Shell (bị đánh trúng thì tự lách ra **sau lưng địch**).
 
-## <span style="color:rgb(255, 176, 0)">Set giáp nên mặc theo từng giai đoạn</span>
+## <span style="color:rgb(255, 176, 0)">Ninjutsu và kỹ năng bí truyền</span>
 
-Song đao mặc **giáp nhẹ** để giữ **Agility hạng A** (né xa, tốn ít Ki), tối thiểu hạng B. Katana thì mặc nặng hơn được nhờ Deflect và đỡ đòn.
+### <span style="color:rgb(200, 240, 60)">Ninjutsu mang theo</span>
 
-| Chặng | Phe Ninja (song đao) | Phe Samurai (katana) |
-|---|---|---|
-| Đầu game | Mảnh **Heir's Shinobi** hoặc **Ascetic** bất kỳ (có sẵn giảm Ki khi né) | Bộ **Crimson General** (Pride of the Crimson Army) |
-| Giữa Warring States | **Iga Jonin**. Hạ Hattori Hanzo ở *The Demon's Regimen* để lấy Smithing Text | **Warrior of the East** |
-| Thời Heian trở đi | **Heizo**. Hạ Kajiwara Kagetoki để lấy Smithing Text | **Tatenashi** |
-| End-game | **Kobo Daishi** (từ khoảng cấp 80) | **Swordmaster** |
-
-### <span style="color:rgb(200, 240, 60)">Bonus của những set quan trọng</span>
-
-**Heizo (Devious Loyalty), set chủ lực của song đao:**
-
-| Số mảnh | Hiệu ứng |
-|---|---|
-| 2 | Sát thương đòn nhẹ **+3,5%** |
-| 3 | **Giảm 10% Ki** đòn cận chiến |
-| 4 | Chạy nhanh hơn khi né |
-| 5 | Hồi Ki nhanh hơn sau khi hạ địch |
-| 6 | Vũ khí scale thêm theo Skill |
-
-Abscission Combo toàn đòn nhẹ, nên mốc 2 và 3 mảnh của Heizo đánh trúng ngay chỗ build cần.
-
-**Iga Jonin (Head of the Iga Ninja):** 2 mảnh giảm **4,2%** Ki khi né, 3 mảnh sát thương Ninjutsu **+10,2%**, 4 mảnh chạy nhanh hơn khi Ninjutsu trúng, 5 mảnh **15%** dùng Ninjutsu không tốn lượt. Game8 khuyên mặc lẫn Iga Jonin với Heizo.
-
-**Kobo Daishi:** 2 mảnh **+100 máu**, 3 mảnh sát thương cận chiến **+3%**, 4 mảnh **giảm 25% Ki khi né**, 7 mảnh tăng sức tấn công theo **Magic**. Hợp đúng lúc build bắt đầu dồn Magic ở end-game.
-
-**Crimson General (katana đầu game):** 3 mảnh giảm **13%** Ki khi đỡ, 4 mảnh Ki Pulse **+21**, 5 mảnh sát thương Ki Martial Arts **+7,2%**, 7 mảnh sát thương cận chiến **+12%** khi đầy máu.
-
-*Số liệu set bonus Cenix tổng hợp từ FandomWire, KeenGamer và PCGamesN. Trong game rê vào món đồ rồi bấm L2 + trái D-pad để xem bản chính xác.*
-
-### <span style="color:rgb(200, 240, 60)">Dòng hiệu ứng ưu tiên</span>
-
-**Song đao:**
-
-| Ưu tiên | Vũ khí | Giáp | Phụ kiện |
+| Giai đoạn | Ô 1 | Ô 2 | Ô 3 |
 |---|---|---|---|
-| 1 | **Imbue Fire / Wind** | **Life Recovery (Amrita Absorption)** | **Life Recovery (Amrita Absorption)** |
-| 2 | **Burn / Bluster Accumulation (Enemy)** | Decrease Damage Taken (Amrita Absorption) | Ki, Ki Recovery Speed |
-| 3 | Attack Bonus (Heart / Intellect / Magic) | Ki, Ki Recovery Speed | Imbue Fire / Wind, Burn / Bluster Accumulation |
-| 4 | Melee Ki Damage, Damage Over Time | Defense Bonus (Heart / Intellect / Magic) | Damage Over Time |
-| 5 | Life Drain (Melee Attack), Life Recovery (Amrita Absorption) | Auto Life Recovery (Evade), Faster Movement (Evade) | Living Artifact Duration, Toughness |
-| 6 | Increase Damage Dealt (Evade) | Yokai Realm Resistance, Final Blow / Grapple Damage | Amrita / Gold Earned (tuỳ thích) |
+| Đầu game | **Uncanny Flame** (cầu lửa tự đuổi) | **Shrapnel Bomb** | Pinwheel Shuriken |
+| Mid-game | **Uncanny Breeze** (cầu gió tự đuổi) | **Enhanced Shrapnel Bomb** (học từ Handbook) | **Fire Shuriken** (Handbook trong đường hầm phía tây cầu chính Hamamatsu) |
+| End-game | **Tempestuous Calamity** (lốc gió quanh người) | Enhanced Shrapnel Bomb | **Glacial Calamity** hoặc **Infernal Calamity** |
 
-Song đao có sẵn hiệu ứng đáng nhặt: **Mino Dual Uchigatana** (giảm Ki đòn nhẹ), **Seki Dual Uchigatana** (giảm Ki Martial Arts), **Basket Blade & Boar Cutter** (giảm Ki đòn cận chiến, rơi từ Takeda Shingen).
+Các Uncanny là **cầu nguyên tố tự đuổi mục tiêu**, ném từ xa vẫn trúng, là cách áp nguyên tố thứ hai an toàn nhất. Glacial và Infernal Calamity cần xong *The Way of the Ninja: Veteran*. Tempestuous Calamity cần học trước Flame Breath và Uncanny Breeze.
 
-**Katana:**
+### <span style="color:rgb(200, 240, 60)">Kỹ năng bí truyền (Secret Skills)</span>
 
-| Ưu tiên | Vũ khí | Giáp | Phụ kiện |
-|---|---|---|---|
-| 1 | **Ki Recovery Speed** | **Guard Ki Consumption**, Guard Ki Recovery Speed | **Ki Recovery Speed** (Fan có sẵn) |
-| 2 | **Ki Pulse Recovery** | Melee Attack Ki Consumption | Life Recovery (Amrita Absorption) (Prayer Beads có sẵn) |
-| 3 | Low Stance Martial Art Ki Consumption | Life Recovery (Amrita Absorption) | Untouched Elixirs |
-| 4 | Attack Bonus (Heart) | Toughness, Defense | Spirit Force Charge |
-| 5 | Quick Attack Damage | Ki Recovery Speed | Life (Omamori có sẵn) |
-
-Katana có sẵn hiệu ứng: **Mantra Sword** (Melee Ki Damage, rơi từ Ibaraki Doji), **Senjuin Tachi** (giảm Ki khi đỡ, rơi từ Hiruko), **Yamatai Sword** (tăng sát thương khi hút Amrita).
-
-## <span style="color:rgb(255, 176, 0)">Onmyo và Ninjutsu mang theo</span>
-
-### <span style="color:rgb(200, 240, 60)">Ninjutsu</span>
-
-| Giai đoạn | Mang theo | Ghi chú |
+| Kỹ năng | Hiệu ứng | Lấy ở đâu |
 |---|---|---|
-| Đầu game | **Uncanny Flame**, **Shrapnel Bomb**, **Pinwheel Shuriken** | Flame và Shrapnel chồng thiêu đốt, Pinwheel bắn quái từ xa |
-| Mid-game | **Uncanny Breeze**, **Shrapnel Bomb**, **Cicada Shell** | Breeze (gió) cần học Uncanny Flame trước. Cần thủ thì Cicada Shell hoặc Lightning Step |
-| End-game | **Tempestuous Calamity**, **Enhanced Shrapnel Bomb**, **Fire Shuriken** | Calamity cần *The Way of the Ninja: Veteran*, Fire Shuriken học từ Handbook |
-| Lúc nào cũng học | Evade, Footstool Jump, Mid-Air Dodge | Bộ né và cơ động |
+| **Ninjutsu Cultivation** | Sát thương Ninjutsu **+8%** | |
+| **Dread Bringer** | Tăng sát thương Onmyo và Ninjutsu **theo số hiệu ứng xấu** trên địch | Rương đánh dấu phía tây nam Funaokayama |
+| **Illusory Dragon** | **+12%** sát thương lên địch đang dính trạng thái khi đánh bằng Ninjutsu nguyên tố **khác hệ** | |
+| **Streamflow** | Nạp thanh Ninjutsu nhanh hơn **85%**, thanh tự giảm dần | Rương trong nhà gần Yasaka Shrine: Nishiro Gate, Rokuhara |
+| **Backstab Life Siphon** | **Hồi máu khi đánh từ sau lưng** | Gần Crucible Wraith ở Maisaka |
+| **Supreme Shift** | Burst Break khi đổi từ Samurai sang Ninja là **dịch ra sau lưng địch** | Rương đánh dấu giữa làng Kamo |
+| **Ki-Sapping Follow-up** | Tăng sát thương lên địch đã cạn Ki | Xác gần Crucible Wraith ở Hachijo |
+| **Hollow Form** | Mist để lại phân thân, địch chạm vào là hồi Ki | Rương trong trại địch ở Hamamatsu Hills |
+| **Evil-Dispelling Evade → Yokai Banisher** | Ninja xoá Yokai Realm | |
 
-Đổi Ninjutsu theo boss: con nào kháng lửa (như Yamagata Yokai, Enenra, Nuribotoke) thì thay Flame bằng Uncanny Bubble (nước).
+Nhớ vào **Titles → Prestige** mục Ninja để cộng **Ninjutsu Ki Damage** và Dodge Ki Consumption.
 
-### <span style="color:rgb(200, 240, 60)">Onmyo: Soul Core và bùa</span>
+## <span style="color:rgb(255, 176, 0)">Set đồ cho Ninja song đao</span>
 
-| Ô | Soul Core | Cho gì | Ghi chú |
+| Giai đoạn | Set | Bonus đáng giá | Lấy ở đâu |
 |---|---|---|---|
-| Yang 1 | **Sunakake-baba** | Ki Pulse Bonus +50, **gây mù khi phép Onmyo trúng**, gọi 4 lần | Địch bị mù chạy lung tung, vòng ra sau đánh lén thả cửa |
-| Yang 2 | **Magatsu Warrior** | Ki Recovery Speed +3,5%, Break +10 | Tăng sát thương Ki |
-| Yin 1 | **Infernal Oni-bi** | **Fire Talisman** ×2 (phủ lửa lên vũ khí) | Đi cùng Enko là thiêu đốt cực mạnh |
-| Yin 2 | **Kamaitachi** | **Wind Familiar Talisman** ×4 | Field boss ở Maisaka, hạ sớm được |
-| Yin 3 | **Gaki Chief** | **Extraction Talisman** ×5 | Hút Amrita mỗi đòn, kích hoạt mọi dòng Amrita Absorption |
-| Yin 4 | **Mermaid** (từ Heian) | **Life Leech Talisman** | Abscission Combo đánh liên tục nên hồi rất nhiều máu. Chưa có thì dùng **Yoki** (Power Talisman) |
-| Yin 5 | **Bloodedge Demon** | **Carnage Talisman** ×5 | Tăng mạnh sát thương nhưng giảm phòng thủ. Chưa hạ được thì dùng **Daidara Bocchi** (Sloth Talisman, ở hồ Hamana) |
+| Đầu game | **Heir's Shinobi** (vài mảnh) | Giảm Ki khi né (cố định) | Rơi khắp Warring States |
+| Warring States | **Iga Jonin** (4–6 mảnh) | 3 mảnh Ninjutsu **+10,2%**, 5 mảnh **15%** dùng Ninjutsu không tốn lượt, 6 mảnh Ninja Tool Arts **+18%** | Hạ Hattori Hanzo ở *The Demon's Regimen* để lấy Smithing Text |
+| Heian | **Fuma Chief** | 3 mảnh Ki Damage vs. Blustered **+10%**, 5 mảnh tích trạng thái từ Shadow Arts **+8%**, 6 mảnh sát thương gió **+12%** | Fuma Chief's Talons và Greaves từ Myth *Those Who Live in the Shadows* (Iinoya) |
+| Heian thay thế | **Heizo** | 3 mảnh **giảm 10% Ki** đòn cận chiến, **6 mảnh: vũ khí scale thêm theo Skill** | Hạ Kajiwara Kagetoki để lấy Smithing Text |
+| End-game | **Flying Kato** (Master of Illusion) | 2 mảnh nạp Ninjutsu **+15%**, 3 mảnh Shadow Arts **+10%**, 5 mảnh nguyên tố **+10%**, 6 mảnh **hút máu khi Ninjutsu trúng** | Mũ Flying Kato rơi từ Mezuki, Ryomen Sukuna, Nuribotoke và vài boss Bakumatsu |
 
-**Thứ tự buff trước trận:** Fire Talisman (lên vũ khí) → Wind Familiar → Extraction → Life Leech, rồi Carnage nếu tự tin. Tới boss kháng lửa thì đổi Fire Talisman sang bùa nước.
+**Phối đồ gợi ý**: mid-game mặc **4 Iga Jonin + 2 Fuma Chief**. End-game mặc **Flying Kato** làm nền cộng phụ kiện **Yasakani Magatama** (giảm 1 mảnh yêu cầu mọi set, lấy từ Battle Scroll *A Sinister End* sau cốt truyện) để chừa chỗ cho mảnh Iga Jonin hoặc đồ thần (Divine).
 
-## <span style="color:rgb(255, 176, 0)">Combo: song đao chém, katana chốt</span>
+**Dòng hiệu ứng trên giáp và phụ kiện:** Ninjutsu Damage, Ninjutsu Gauge Charge, Backstab Damage, Life Recovery (Amrita Absorption), Ki Recovery Speed, Dodge Ki Consumption, Water / Bluster Accumulation (Enemy). Phụ kiện: **Fan** (hồi Ki), **Omamori** (máu).
 
-### <span style="color:rgb(200, 240, 60)">Vòng lặp song đao (đánh chính)</span>
+*Số liệu set bonus Cenix tổng hợp từ FandomWire và OPBoostBuilds. Trong game rê vào món đồ rồi bấm L2 + trái D-pad để xem bản chính xác.*
 
-1.  **Mở trận**: buff xong, ném **Shrapnel Bomb** hoặc **Uncanny Flame** từ xa cho boss dính lửa trước.
-    
-2.  **Chồng nguyên tố thứ hai**: áp sát, **Wind Familiar** tự bắn gió khi địch lại gần. Lửa cộng gió là **Confusion**.
-    
-3.  **Chuỗi phá Ki**: spam đánh nhẹ ra **Abscission Combo** tới khi còn khoảng một phần ba Ki.
-    
-4.  **Thoát**: **Mist** hoặc **Cicada Shell** ra sau lưng boss. Mist sau đòn là cách Ninja vừa né vừa giữ nhịp đánh.
-    
-5.  **Kết**: boss thủ thì **Moon Shadow** vòng ra sau, boss hở thì **Water Sword** phá Ki. Lặp lại từ bước 3.
-    
+## <span style="color:rgb(255, 176, 0)">Hộ linh và Onmyo</span>
 
-### <span style="color:rgb(200, 240, 60)">Combo trên không</span>
+### <span style="color:rgb(200, 240, 60)">Guardian Spirit phe Ninja</span>
 
-**Cloudsplitter Fire** hất lên → giữ đỡ + đánh nhẹ liên tục ra **Divine Flight** (trúng là còn lơ lửng, lặp được) → gần chạm đất kết bằng **Spinning Drill** hoặc đòn mạnh. Rất ngon với quái thường và boss cỡ người, coi chừng địch tay dài kéo xuống.
-
-### <span style="color:rgb(200, 240, 60)">Vòng lặp katana</span>
-
-1.  Ở **Low Stance**: đánh nhẹ → **Swallow's Wing** lùi lại → **Night Rain**.
-    
-2.  **Ki Pulse** ngay sau chuỗi, đổi thế bằng **Flux II** để hồi thêm Ki.
-    
-3.  Sau Ki Pulse nối **Iai Quickdraw III**.
-    
-4.  Đám đông thì kết bất kỳ chuỗi nào bằng **Severing Spin**.
-    
-
-### <span style="color:rgb(200, 240, 60)">Đổi phong cách đúng lúc</span>
-
--   **Gặp Yokai Realm**: chuyển katana, Ki Pulse là sạch. Hoặc giữ song đao nhưng phải có Evil-Dispelling Evade.
-    
--   **Đòn đỏ**: **Style Shift** đúng lúc trúng đòn là vừa Burst Break vừa đổi sang phong cách còn lại. Từ song đao sang katana thì nối ngay **Iai Quickdraw**.
-    
--   **Boss cạn Ki (Winded)**: tóm (grapple) hoặc **Light in Darkness** cho chắc.
-    
--   **Living Artifact**: bật khi boss vừa Confusion vừa cạn Ki. Ki vô hạn, spam Abscission Combo thả cửa.
-    
-
-## <span style="color:rgb(255, 176, 0)">Guardian Spirit và clan</span>
-
-| Giai đoạn | Phe Ninja | Phe Samurai |
+| Giai đoạn | Hộ linh | Vì sao |
 |---|---|---|
-| Đầu game | **Enko** (hạ Jakotsu-baba): sát thương lên địch bị thiêu đốt **+6,3%**, sát thương theo thời gian **+10,6%**, nạp Amrita nhanh hơn cho Living Artifact | **Kusanagi (Samurai)**: sát thương Martial Arts **+6,3%**, Ki Pulse Recovery **+10,8%**. Không chọn bản đỏ thì **Guhin** |
-| Mid tới end-game | **Kurama Tengu** (hạ Great Tengu): Martial Arts Ki Damage **+6,6%**, Elemental Damage **+7,2%**, Enemy Sensor | **Oh** (hạ Minamoto no Yoritomo): Life Recovery (Amrita Absorption) **11**, giảm Ki khi đỡ, hồi Ki nhanh sau Deflect |
+| Đầu game | **Nekomata** | Ninjutsu Ki Damage **+7,3%**, hồi Ki **+6,2%**. Thunderclaw Kick cứu mạng khi cạn Ki |
+| Đầu game thay thế | **Enko** (hạ Jakotsu-baba) | Sát thương theo thời gian **+10,6%**, nạp Amrita nhanh cho Living Artifact |
+| Mid tới end-game | **Kurama Tengu** (hạ Great Tengu) | Sát thương nguyên tố **+7,2%**, **Martial Arts Ki Damage +6,6%** (cộng thẳng vào Abscission Combo), Enemy Sensor |
+| Cuối game | **Shami-choro** (hạ Takasugi Shinsaku) | Chạy nhanh hơn sau Evade hoàn hảo, kéo dài hiệu ứng trạng thái |
 
-Kỹ năng Enko **Hellfire Maul** đá xuống tạo sóng xung kích và lốc lửa, chồng thiêu đốt rất nhanh. Guardian Spirit nâng cấp được sau Battle Scroll *The Way of Onmyo: Adept*, nên Kusanagi vẫn dùng tốt tới cuối game.
+### <span style="color:rgb(200, 240, 60)">Soul Core</span>
 
-<div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Clan nên vào:</strong> xong màn The Battle of Saigagake, gặp <strong>Matsunaga Hisahide</strong> ở quán trà dãy nhà tây nam Eternal Rift để gia nhập clan. Build này hợp <strong>Chosokabe</strong> (tăng sát thương Ki khi đánh liên tục, hồi Ki nhanh sau Evade) hoặc <strong>Sho</strong> (giảm <strong>10%</strong> Ki khi né, tăng sát thương sau Evade). Clan chỉ đổi được mỗi 8 tiếng nên chọn cho chắc.</p></div>
+| Ô | Soul Core | Cho gì |
+|---|---|---|
+| Yang 1 | **Sunakake-baba** | **Gây mù khi phép Onmyo trúng**: boss mù quay lung tung, ra sau lưng dễ như ăn kẹo |
+| Yang 2 | **Magatsu Warrior** | Hồi Ki **+3,5%**, Break **+10** |
+| Yin | **Kamaitachi** | Wind Familiar Talisman: quả cầu gió tự bắn khi địch lại gần |
+| Yin | **Gaki Chief** | Extraction Talisman: hút Amrita mỗi đòn, kích hoạt dòng hồi máu |
+| Yin | **Mermaid** | Life Leech Talisman: chém liên tục là hồi máu liên tục |
+| Yin | **Bloodedge Demon** | Carnage Talisman: tăng mạnh sát thương, giảm phòng thủ |
+| Yin (end-game) | **Demon of Obsession / Pride / Envy** | Bùa Hellgust / Hellstream / Hellfire, bom nguyên tố diện rộng cực mạnh |
 
-## <span style="color:rgb(255, 176, 0)">Đánh boss bằng build này thế nào</span>
+## <span style="color:rgb(255, 176, 0)">Vòng combo: từ Confusion tới xoay kiếm</span>
 
--   **Boss người** (Yamagata Masakage, Takeda Shingen): đứng Mid Stance katana, **giữ đỡ để vẫn hồi Ki**, chờ đòn đỏ để Burst Break, rồi Iai Quickdraw trừng phạt.
+1.  **Buff trước trận**: dán bùa (Extraction, Life Leech, Carnage nếu tự tin), bật Wind Familiar. Vũ khí đã sẵn Imbue Water.
     
--   **Boss yêu quái to xác** (Jakotsu-baba, Great Tengu, Otoroshi): chuyển song đao, vòng ra sau lưng, đổ lửa và gió vào. Great Tengu và Otoroshi đều **yếu lửa**, Enko phát huy hết cỡ.
+2.  **Áp nguyên tố thứ hai từ xa**: ném **Uncanny Breeze** (hoặc Flame) cho tự đuổi theo boss, thêm một quả **Enhanced Shrapnel Bomb**. Boss vừa dính nước từ vũ khí vừa dính gió là **Confusion**.
     
--   **Boss kháng lửa** (Takeda Shingen, Yamagata Yokai, Enenra, Nuribotoke): đổi Fire Talisman và Uncanny Flame sang **nước**, giữ gió.
+3.  **Lách ra sau lưng**: dùng **Coiled Spring Pierce** đâm xuyên ra sau, hoặc **Footstool Jump** nhảy qua đầu. Bị đánh trúng mà có **Cicada Shell** thì cũng tự lách ra sau. Đang ở Samurai mà canh được đòn đỏ thì Style Shift Burst Break, có **Supreme Shift** là dịch thẳng ra sau lưng.
     
--   **Boss không có điểm yếu** (Kajiwara, Hiruko, Kunimatsu): bỏ chồng nguyên tố, dựa vào Extraction cộng Life Leech để trụ, đánh lén từ sau bằng song đao.
+4.  **Chém thường sau lưng**: 2–3 nhát đánh nhẹ, ăn thêm sát thương đánh lén và hồi máu nhờ Backstab Life Siphon.
+    
+5.  **Xoay kiếm**: nối **Abscission** rồi **bấm đòn mạnh liên tục** ra Abscission Combo, xoay chém tới khi gần cạn Ki. Boss vừa Confusion vừa bị đánh lén là thanh máu tụt không phanh.
+    
+6.  **Thoát và nạp lại**: Mist ra xa (Hollow Form hồi Ki khi boss chạm phân thân), ném tiếp một quả Ninjutsu để giữ trạng thái, rồi lặp lại từ bước 3.
+    
+7.  **Boss cạn Ki**: tóm (Grapple) hoặc **Water Sword**. Nếu boss vừa Confusion vừa cạn Ki thì bật **Living Artifact**, Ki vô hạn, xoay kiếm thả cửa.
+    
 
-Hôm nay không chơi hôm nào chơi? Anh em thử cặp Katana – song đao rồi kể Cenix nghe: Iai Quickdraw của mấy ông có chém bay con boss nào trong một nhát chưa, hay vẫn bị Yamagata Masakage quét bay một phát? Bình luận bên dưới nha.
+**Combo phụ trên không**: Cloudsplitter Fire hất lên → Divine Flight → nhịp đánh trên không kích **Cloud Dancer** → kết bằng Spinning Drill. Đẹp mắt và rất hợp với quái thường.
 
-*Nguồn tham khảo: [Game8 - Best Katana Build](https://game8.co/games/Nioh-3/archives/576688), [Game8 - Best Dual Ninja Swords Build](https://game8.co/games/Nioh-3/archives/578236), [Game8 - Best Ninja Builds](https://game8.co/games/Nioh-3/archives/578403), [Game8 - Best Builds Tier List](https://game8.co/games/Nioh-3/archives/576622), [Game8 - Parry Guide](https://game8.co/games/Nioh-3/archives/579692), [Game8 - Stances](https://game8.co/games/Nioh-3/archives/576624), [Game8 - Best Clans](https://game8.co/games/Nioh-3/archives/579768), [PCGamesN - Nioh 3 builds](https://www.pcgamesn.com/nioh-3/builds-best), [KeenGamer - Starter Builds](https://www.keengamer.com/articles/guides/nioh-3-best-starter-builds), [FandomWire - Set Bonuses](https://fandomwire.com/every-nioh-3-set-bonus-explained/), [All Things How - Max Level](https://allthings.how/nioh-3-max-level-cap-explained-and-how-dlc-could-change-it/), [Nerds Chalk - Stat Soft Cap](https://nerdschalk.com/nioh-3-maximize-damage-smart-stat-distribution-55-point-cap/)*
+## <span style="color:rgb(255, 176, 0)">Samurai cầm gì đi với song đao?</span>
+
+Sau khi Remodel, song đao scale **Skill và Heart**. Vũ khí Samurai lý tưởng là món **chung đúng hai chỉ số này**.
+
+| Vũ khí Samurai | Chỉ số scale | Chung với song đao | Đánh giá |
+|---|---|---|---|
+| **Spear (thương)** | Constitution, Heart, Skill | **Heart, Skill** | **Lựa chọn số 1**: build hạng SS, tầm dài bù cho tầm ngắn của song đao, Constitution lại là máu |
+| **Switchglaive** | Skill, Intellect, Magic | **Skill, Magic** | Đứng số 1 trên tier list vũ khí Samurai, đổi hình theo thế đứng. Hợp ai dồn Magic ở end-game |
+| Katana | Heart, Strength, Intellect | Heart | Chỉ chung một chỉ số sau Remodel, nên nhường chỗ |
+
+Cenix chọn **thương**. Vai trò của phe Samurai trong build này rất rõ: đứng **Mid Stance giữ đỡ** để hồi Ki, **Ki Pulse** xoá Yokai Realm, và canh **đòn đỏ** để Style Shift sang Ninja (có Supreme Shift là ra thẳng sau lưng). Chiêu thương nên có: **Spear Bash**, **Spear Flourish** (biến Ki Pulse thành đòn đánh), **Windmill Wind** quét đám đông. Hộ linh phe Samurai: **Guhin** đầu game, **Oh** từ cuối Heian.
+
+<div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Clan nên vào:</strong> <strong>Sho</strong> (tăng sát thương sau Evade, giảm <strong>10%</strong> Ki khi né), rất hợp kiểu né rồi lách ra sau. Thích phá Ki thì <strong>Chosokabe</strong> (tăng sát thương Ki khi đánh liên tục, hồi Ki nhanh sau Evade). Gặp Matsunaga Hisahide ở quán trà Eternal Rift sau màn The Battle of Saigagake. Clan chỉ đổi được mỗi 8 tiếng.</p></div>
+
+## <span style="color:rgb(255, 176, 0)">Đổi nguyên tố theo boss</span>
+
+| Boss | Vũ khí | Ninjutsu |
+|---|---|---|
+| Great Tengu, Otoroshi | Imbue Water | **Uncanny Flame**, Fire Shuriken (cả hai yếu lửa) |
+| Ibaraki Doji, Enenra, Nuribotoke, Demon of Envy, Demon of Obsession | **Imbue Water** | Uncanny Breeze (Enenra yếu cả gió) |
+| Jakotsu-baba, Baba Nobuharu | Cây phụ **Imbue Wind** | Uncanny Bolt (sét) |
+| Tokugawa Kunimatsu | Imbue Water | Uncanny Flame (kháng sét và gió) |
+| Kajiwara, Hiruko, Takasugi, Okita | Không cần nguyên tố | Dồn **Enhanced Shrapnel Bomb**, đánh lén là chính |
+
+Hôm nay không chơi hôm nào chơi? Anh em remodel cây song đao nào lên Skill rồi? Ai đã xoay Abscission Combo sau lưng Kunimatsu tới lúc hắn gục thì vào khoe clip, còn ai đang theo một bản build song đao khác trên YouTube thì kể Cenix nghe để anh em so sánh.
+
+*Nguồn tham khảo: [Game8 - Martial Arts](https://game8.co/games/Nioh-3/archives/578228), [Game8 - Skills](https://game8.co/games/Nioh-3/archives/578182), [Game8 - Dual Ninja Swords](https://game8.co/games/Nioh-3/archives/576206), [Game8 - Best Dual Ninja Swords Build](https://game8.co/games/Nioh-3/archives/578236), [Game8 - Level Up Weapons and Armor](https://game8.co/games/Nioh-3/archives/579599), [Game8 - Reforge](https://game8.co/games/Nioh-3/archives/580356), [Game8 - Best Spear Build](https://game8.co/games/Nioh-3/archives/579399), [Game8 - Best Clans](https://game8.co/games/Nioh-3/archives/579768), [FandomWire - Set Bonuses](https://fandomwire.com/every-nioh-3-set-bonus-explained/), [OPBoostBuilds - Tonfa Gun Critical Ninja](https://opboostbuilds.com/builds/nioh-3-tonfa-gun-critical-ninja), [All Things How - Weapon Combos](https://allthings.how/nioh-3s-best-weapon-combos-for-samurai-and-ninja-styles/), [Nerds Chalk - Ninjutsu Damage](https://nerdschalk.com/increasing-ninjutsu-damage-in-nioh-3-prestige-bonus-skill-scaling-explained/)*
