@@ -13,6 +13,8 @@ tags:
 excerpt: Tám kết thúc, không có lựa chọn A hay B ở phút chót, mà do anh em làm bao nhiêu nhiệm vụ phụ và cầm món gì trong tay. Chạy truyện một mạch là nhận Bad Ending cụt lủn. Cenix tổng hợp những gì đã chắc chắn.
 cover: cover.jpg
 ---
+<div class="editorial-text-box" data-bg="#fff4e0" data-color="#2d3458" style="--box-bg: #fff4e0; --box-color: #2d3458;"><p><strong>Cập nhật 04/11/2026 sau khi game ra mắt:</strong> bài này viết trước ngày phát hành, dựa trên phát biểu "8 kết thúc" của giám đốc Soulframe Liang. Các trang hướng dẫn sau ra mắt mới ghi nhận <strong>2–3 kết thúc</strong> (kết thúc thường và True Ending), chưa ai tìm ra đủ 8. Điều kiện True Ending đầy đủ, Cenix đã gom trong bài <a href="/huong-dan/phantom-blade-zero-true-ending-checklist/">Checklist True Ending</a>.</p></div>
+
 Hội anh em thích "cày cho trọn" ơi, Phantom Blade Zero có tới **8 kết thúc**. Giám đốc **Soulframe Liang** xác nhận con số này với Game Rant, và cách mở chúng hơi khác so với nhiều game nhập vai: không có màn chọn phe ở cuối game, mà phụ thuộc vào những gì anh em làm **trong suốt hành trình**.
 
 Bài review mới lên của GamesRadar+ còn hé lộ thêm vài chi tiết quan trọng. Cenix gom lại, tách rõ cái nào chắc, cái nào còn là dấu hỏi.
