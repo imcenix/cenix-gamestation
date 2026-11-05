@@ -24,7 +24,7 @@ Tin vui là game **không khó parry như mấy ông tưởng**. Combat director
 S-GAME chưa công bố số frame chính thức, nên mấy con số "0,3 giây" trôi nổi trên mạng anh em cứ coi là ước lượng. Cái chắc chắn nhất hiện có là từ phỏng vấn PC Gamer tháng 7/2025:
 
 -   Ở độ khó thường, cửa sổ parry **khá rộng**, người mới làm quen được.
--   Ở **Hellwalker**, cửa sổ parry **bị cắt đi 2 frame**. Qianli Ma thừa nhận chênh lệch này gần như không cảm nhận được, chính vì nền vốn đã dễ.
+-   Ở **Hellwalker** (Nghịch Thiên), cửa sổ parry **bị cắt đi 2 frame**. Qianli Ma thừa nhận chênh lệch này gần như không cảm nhận được, chính vì nền vốn đã dễ.
 -   Cái khác biệt thật ở Hellwalker là **parry hụt mất nhiều sát khí hơn** và địch đánh đau hơn.
 
 James Daly của GamesRadar+ chơi thử bản preview tháng 10/2026 cũng nhận xét tương tự: cửa sổ parry khá dài, Soul chịu được vài đòn mới phải hồi máu, game "khá dễ thở, ít nhất là lúc đầu".
@@ -55,7 +55,7 @@ Có một chi tiết hay từ phỏng vấn PC Gamer: ở Hellwalker, nếu anh 
 Mỗi vũ khí có nhịp parry khác nhau. Một số món cộng đồng nhắc tới:
 
 -   **Iron Longsword** (kiếm dài thép): nhịp trung tính, hợp để tập.
--   **Soft Snake Sword** (nhuyễn kiếm): PC Gamer ghi nhận parry của nó **hung hơn** nhưng làm Soul di chuyển chậm, hợp đánh tay đôi với boss, không hợp đánh đông người.
+-   **Soft Snake Sword** (Linh Xà Nhuyễn Kiếm): PC Gamer ghi nhận parry của nó **hung hơn** nhưng làm Soul di chuyển chậm, hợp đánh tay đôi với boss, không hợp đánh đông người.
 -   Vũ khí nặng: hồi sát khí chậm hơn, nên càng phải parry chuẩn để bù.
 
 Lời khuyên chung: tập parry với một món nhanh và một món chậm, mỗi món một lần, để tay quen cả hai nhịp.

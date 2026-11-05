@@ -17,7 +17,7 @@ Mấy ông nghe tin gì chưa? Bài review Phantom Blade Zero của GamesRadar+ 
 
 Vậy rốt cuộc Phantom Blade Zero giống và khác souls-like ở đâu? Cenix gom lại từ bài review, các bài chơi thử của PC Gamer, GamesRadar+ và phát biểu của S-GAME để anh em tự quyết có hợp gu không.
 
-<div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Kết luận nhanh:</strong> phần <strong>bản đồ</strong> và <strong>điểm nghỉ</strong> có hơi hướng souls-like. Phần <strong>chiến đấu</strong> thì là game hành động kiểu nhân vật (character action): combo nhanh, đổi vũ khí giữa đòn, parry và dịch chuyển. Hình phạt khi chết cũng nhẹ hơn hẳn, trừ chế độ Sixty-Six Days.</p></div>
+<div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Kết luận nhanh:</strong> phần <strong>bản đồ</strong> và <strong>điểm nghỉ</strong> có hơi hướng souls-like. Phần <strong>chiến đấu</strong> thì là game hành động kiểu nhân vật (character action): combo nhanh, đổi vũ khí giữa đòn, parry và dịch chuyển. Hình phạt khi chết cũng nhẹ hơn hẳn, trừ chế độ Sixty-Six Days (66 Ngày).</p></div>
 
 ## <span style="color:rgb(255, 176, 0)">Chỗ giống: mấy ông fan Souls sẽ thấy quen</span>
 
@@ -31,18 +31,18 @@ Bản preview của GamesRadar+ ghi nhận những **điểm nghỉ hình chuôn
 
 ### <span style="color:rgb(200, 240, 60)">Boss đánh đau, phải học bài</span>
 
-Boss là phần nặng ký nhất. James Daly của GamesRadar+ so sánh boss **Flame, Lão Sư Múa Lân Đeo Mặt Nạ** với Divine Beast Dancing Lion trong Shadow of the Erdtree, còn kiểu đốt lửa chặn đường trong đấu trường thì gợi nhớ Laurence của Bloodborne. Ở độ khó thường, boss dùng **combo cố định**, chết vài lần là thuộc bài.
+Boss là phần nặng ký nhất. James Daly của GamesRadar+ so sánh boss **Flame** (Vũ Sư Tôn Chủ: Liệt Diễm) với Divine Beast Dancing Lion trong Shadow of the Erdtree, còn kiểu đốt lửa chặn đường trong đấu trường thì gợi nhớ Laurence của Bloodborne. Ở độ khó thường, boss dùng **combo cố định**, chết vài lần là thuộc bài.
 
 ## <span style="color:rgb(255, 176, 0)">Chỗ khác: tay cầm sẽ "cảm" khác hẳn</span>
 
 | | Souls-like điển hình | Phantom Blade Zero |
 |---|---|---|
-| Thể lực | Một thanh cho đánh, lăn, đỡ; thêm thanh thế đứng (Sekiro) | **Sha-Chi** gánh cả công lẫn thủ |
+| Thể lực | Một thanh cho đánh, lăn, đỡ; thêm thanh thế đứng (Sekiro) | **Sha-Chi** (Sát Khí) gánh cả công lẫn thủ |
 | Nhịp đánh | Chậm, mỗi nhát đều cân nhắc | Combo nhanh, đổi 2 vũ khí ngay giữa đòn |
 | Phòng thủ | Lăn né, đỡ, deflect | Parry đòn xanh, né lao vào đòn đỏ, **Ghostep** ra sau lưng |
 | Quái thường | Hồi sinh mỗi lần nghỉ | **Hầu như không hồi sinh** |
 | Điểm lưu | Có khi rất xa boss | **Dày**, thường đặt sát boss |
-| Độ khó | Thường chỉ một mức | Nhiều mức: Wayfarer, Hellwalker, Sixty-Six Days |
+| Độ khó | Thường chỉ một mức | Nhiều mức: Wayfarer (Nhập Trận), Hellwalker (Nghịch Thiên), Sixty-Six Days |
 | Chết | Rơi tiền/linh hồn, phải chạy về nhặt | Nhẹ hơn nhiều, trừ Sixty-Six Days |
 
 Mấy điểm "không hồi sinh" và "điểm lưu dày" được cả PC Gamer lẫn GamesRadar+ xác nhận từ các lần chơi thử. Qianli Ma, combat director của S-GAME, còn cho biết nếu anh em vật lộn mãi với một trận thì **bình hồi máu có thể được nạp lại** giữa chừng, một kiểu "nới tay" mà FromSoftware hiếm khi cho.

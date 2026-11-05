@@ -13,7 +13,7 @@ tags:
 excerpt: Tám kết thúc, không có lựa chọn A hay B ở phút chót, mà do anh em làm bao nhiêu nhiệm vụ phụ và cầm món gì trong tay. Chạy truyện một mạch là nhận Bad Ending cụt lủn. Cenix tổng hợp những gì đã chắc chắn.
 cover: cover.jpg
 ---
-<div class="editorial-text-box" data-bg="#fff4e0" data-color="#2d3458" style="--box-bg: #fff4e0; --box-color: #2d3458;"><p><strong>Cập nhật 04/11/2026 sau khi game ra mắt:</strong> bài này viết trước ngày phát hành, dựa trên phát biểu "8 kết thúc" của giám đốc Soulframe Liang. Các trang hướng dẫn sau ra mắt mới ghi nhận <strong>2–3 kết thúc</strong> (kết thúc thường và True Ending), chưa ai tìm ra đủ 8. Điều kiện True Ending đầy đủ, Cenix đã gom trong bài <a href="/huong-dan/phantom-blade-zero-true-ending-checklist/">Checklist True Ending</a>.</p></div>
+<div class="editorial-text-box" data-bg="#fff4e0" data-color="#2d3458" style="--box-bg: #fff4e0; --box-color: #2d3458;"><p><strong>Cập nhật 04/11/2026 sau khi game ra mắt:</strong> bài này viết trước ngày phát hành, dựa trên phát biểu "8 kết thúc" của giám đốc Soulframe Liang. Sau khi game ra, dữ liệu game chỉ có <strong>4 kết thúc</strong>: Annihilation (Diệt Vong), Long Ngâm, Final Battle (Trận Chiến Cuối Cùng) và Kết Cục Đắng Cay, chưa ai tìm ra đủ 8. Điều kiện True Ending đầy đủ, Cenix đã gom trong bài <a href="/huong-dan/phantom-blade-zero-true-ending-checklist/">Checklist True Ending</a>.</p></div>
 
 Hội anh em thích "cày cho trọn" ơi, Phantom Blade Zero có tới **8 kết thúc**. Giám đốc **Soulframe Liang** xác nhận con số này với Game Rant, và cách mở chúng hơi khác so với nhiều game nhập vai: không có màn chọn phe ở cuối game, mà phụ thuộc vào những gì anh em làm **trong suốt hành trình**.
 
@@ -44,7 +44,7 @@ Không có màn "chọn A hay B" ở trận cuối. Kết thúc là tổng hợp
 
 Nói cách khác, chạy truyện một mạch gần như chắc chắn chỉ nhận được kết thúc tệ.
 
-### <span style="color:rgb(200, 240, 60)">New Game+ có tồn tại</span>
+### <span style="color:rgb(200, 240, 60)">New Game+ (Luân Hồi Mới) có tồn tại</span>
 
 New Game+ đã được xác nhận. Kết thúc có được tính dồn qua các lần chơi hay không thì chưa rõ.
 
@@ -60,10 +60,10 @@ Ngồi xuống uống miếng nước rồi nghe nè: với game có 8 kết th�
 2.  **Làm nhiệm vụ phụ ngay khi gặp**, đừng để dồn. Chưa rõ có điểm "không thể quay lại" trước trận cuối hay không, nên đừng liều.
 3.  **Đừng vứt vật phẩm lạ.** Món đồ tưởng vô dụng có thể là thứ được kiểm tra ở điểm mốc cốt truyện.
 4.  **Vét khu ẩn sau lối khoá bằng vũ khí.** Boss bí mật cho True Ending rất có thể nằm ở đó.
-5.  **Đọc ghi chép và nhặt Memory Flower.** Chúng là manh mối truyện mà Liang nhắc tới.
+5.  **Đọc ghi chép và nhặt Memory Flower (Hoa Ký Ức).** Chúng là manh mối truyện mà Liang nhắc tới.
 6.  **Ghi chú lại nhiệm vụ đã nhận.** Game nhiều ghi chép, nhớ không xuể đâu.
 
-<div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Độ khó có ảnh hưởng không?</strong> Hiện chưa có nguồn nào nói độ khó khoá kết thúc. Mọi dấu hiệu cho thấy kết thúc gắn với khám phá và nhiệm vụ phụ chứ không gắn với độ khó. Anh em chơi Wayfarer để đi kỹ lần đầu là hoàn toàn hợp lý.</p></div>
+<div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Độ khó có ảnh hưởng không?</strong> Hiện chưa có nguồn nào nói độ khó khoá kết thúc. Mọi dấu hiệu cho thấy kết thúc gắn với khám phá và nhiệm vụ phụ chứ không gắn với độ khó. Anh em chơi Wayfarer (Nhập Trận) để đi kỹ lần đầu là hoàn toàn hợp lý.</p></div>
 
 ## <span style="color:rgb(255, 176, 0)">Những gì chưa ai biết</span>
 
@@ -71,7 +71,7 @@ Ngồi xuống uống miếng nước rồi nghe nè: với game có 8 kết th�
 -   Nhiệm vụ phụ nào dẫn tới kết thúc nào, cần bao nhiêu nhiệm vụ cho mỗi mốc.
 -   Có lấy đủ 8 kết thúc trên một save được không.
 -   Kết thúc có mang sang New Game+ hay không.
--   Chế độ Sixty-Six Days có ảnh hưởng tới kết thúc hay không.
+-   Chế độ Sixty-Six Days (66 Ngày) có ảnh hưởng tới kết thúc hay không.
 
 Cenix sẽ cập nhật bài này khi game ra mắt và cộng đồng bắt đầu lần ra từng nhánh.
 

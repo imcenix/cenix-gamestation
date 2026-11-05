@@ -36,7 +36,7 @@ Giám đốc **Soulframe Liang** từng mô tả Soul là một "người hùng 
 Đây là câu hỏi nhiều người lo nhất. Những gì đã chắc:
 
 -   **66 ngày là tiền đề cốt truyện**, được xác nhận trên trang Steam và tư liệu chính thức.
--   Có một chế độ chơi tên **Sixty-Six Days**. Theo review của GamesRadar+, đó là chế độ hardcore **xoá tiến trình sau 66 lần chết**.
+-   Có một chế độ chơi tên **Sixty-Six Days** (66 Ngày). Theo review của GamesRadar+, đó là chế độ hardcore **xoá tiến trình sau 66 lần chết**.
 
 Những gì **chưa có nguồn xác nhận**: chế độ thường có đồng hồ đếm ngược thật hay không, có hiển thị bộ đếm ngày không, 66 ngày có tương đương 66 giờ chơi không. Các bài chơi thử và review tới giờ không nhắc tới đồng hồ nào gây áp lực trong chế độ thường, nên anh em cứ yên tâm đi khám phá.
 
@@ -59,7 +59,7 @@ Con số 66 còn được S-GAME chơi chữ khi công bố ngày phát hành ba
 
 Chân Tử Đan tham gia dự án từ **năm 2023**, nhưng S-GAME giữ kín tới tận trailer tháng 8/2026 mới công bố.
 
-### <span style="color:rgb(200, 240, 60)">Mu Xiaokui</span>
+### <span style="color:rgb(200, 240, 60)">Mu Xiaokui (Mộc Tiểu Quỳ)</span>
 
 Con gái của người sáng lập The Order. Theo tư liệu cộng đồng, cô là một chiến binh giỏi, vẫn còn dè dặt khi chuẩn bị gánh vác vai trò lãnh đạo. Phần ghi hình khuôn mặt cho các đoạn phim được thực hiện bởi nữ diễn viên **Trương Cận Chi** (Zhang Jinzhi). Vai trò cụ thể của cô trong Zero chưa được tiết lộ.
 
@@ -81,10 +81,10 @@ Theo Gematsu, trên hành trình Soul sẽ đối đầu với **sát thủ**, *
 
 | Boss | Ghi chú |
 |---|---|
-| **Đại Đệ Tử Thất Tinh** | Bảy người, bảy thanh máu, phase hai thành con rối. Xem bài [Thất Tinh Kiếm Trận](/huong-dan/phantom-blade-zero-boss-that-tinh-kiem-tran/) |
-| **Wan Jun "Coppermaul"** | Rơi búa chiến Bashpole |
+| **Đại Sư Huynh Thất Tinh** | Bảy người, bảy thanh máu, phase hai thành con rối. Xem bài [Thất Tinh Kiếm Trận](/huong-dan/phantom-blade-zero-boss-that-tinh-kiem-tran/) |
+| **Wan Jun "Coppermaul"** (Cự Chùy Khách: Vạn Quân) | Rơi búa chiến Bashpole (Trường Bính Kim Qua) |
 | **Red Wraith** | Xuất hiện trong demo S-PARTY 2025 |
-| **Flame, Lão Sư Múa Lân Đeo Mặt Nạ** | Boss lửa trong bản preview tháng 10/2026 |
+| **Flame** (Vũ Sư Tôn Chủ: Liệt Diễm) | Boss lửa trong bản preview tháng 10/2026 |
 
 ## <span style="color:rgb(255, 176, 0)">Có cần chơi các phần trước không?</span>
 

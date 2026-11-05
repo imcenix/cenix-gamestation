@@ -13,11 +13,11 @@ tags:
 excerpt: Một thanh sát khí gánh cả công lẫn thủ, hai màu chớp quyết định sống chết, và cú dịch chuyển Ghostep đẹp như phim Từ Khắc. Hiểu được vòng lặp này là hiểu được nửa cái game.
 cover: cover.jpg
 ---
-Mấy ông xem trailer Phantom Blade Zero chắc đều có chung một thắc mắc: sao Soul cứ "biến" ra sau lưng địch hoài vậy? Câu trả lời nằm trong ba khái niệm mà ai chơi cũng phải thuộc: **Sha-Chi**, **luật xanh – đỏ** và **Ghostep**.
+Mấy ông xem trailer Phantom Blade Zero chắc đều có chung một thắc mắc: sao Soul cứ "biến" ra sau lưng địch hoài vậy? Câu trả lời nằm trong ba khái niệm mà ai chơi cũng phải thuộc: **Sha-Chi** (Sát Khí), **luật xanh – đỏ** và **Ghostep**.
 
 Bài này Cenix tổng hợp từ bài đăng State of Play của PlayStation Blog, các bài chơi thử của PC Gamer, GamesRadar+ và tài liệu cộng đồng, gom lại thành một vòng lặp dễ nhớ để anh em vào game là dùng được liền.
 
-<div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Tóm tắt một dòng:</strong> tích sát khí bằng combo và parry → <strong>parry đòn xanh</strong> để rút cạn sát khí địch → <strong>né xuyên đòn đỏ</strong> để Ghostep ra sau lưng → địch vỡ thế thì xả <strong>Power Surge</strong> → lặp lại.</p></div>
+<div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Tóm tắt một dòng:</strong> tích sát khí bằng combo và parry → <strong>parry đòn xanh</strong> để rút cạn sát khí địch → <strong>né xuyên đòn đỏ</strong> để Ghostep ra sau lưng → địch vỡ thế thì xả <strong>Power Surge (Tuyệt Kỹ)</strong> → lặp lại.</p></div>
 
 ## <span style="color:rgb(255, 176, 0)">Sha-Chi là gì mà quan trọng dữ vậy?</span>
 

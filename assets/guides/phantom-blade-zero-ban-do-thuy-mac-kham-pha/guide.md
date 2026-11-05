@@ -17,7 +17,7 @@ Phantom Blade Zero không phải thế giới mở, nhưng cũng chẳng phải 
 
 Bài này Cenix gom từ State of Play tháng 8, bài phân tích của PC Gamer, preview và review của GamesRadar+.
 
-<div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Vì sao khám phá quan trọng:</strong> (1) <strong>Phần lớn vũ khí có thể bỏ lỡ</strong>. (2) <strong>Memory Flower</strong> gắn với nâng máu và kỹ năng. (3) <strong>Boss ẩn</strong> là điều kiện để tới True Ending. Ba thứ này đều nằm ngoài đường chính.</p></div>
+<div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Vì sao khám phá quan trọng:</strong> (1) <strong>Phần lớn vũ khí có thể bỏ lỡ</strong>. (2) <strong>Memory Flower (Hoa Ký Ức)</strong> gắn với nâng máu và kỹ năng. (3) <strong>Boss ẩn</strong> là điều kiện để tới True Ending. Ba thứ này đều nằm ngoài đường chính.</p></div>
 
 ## <span style="color:rgb(255, 176, 0)">Tám bản đồ nối liền một thế giới</span>
 
@@ -65,7 +65,7 @@ Ngoài đi bộ, Soul còn **chạy tường, đu xích và leo thang**, nên nh
 
 State of Play cho thấy vũ khí được dùng để **đập vỡ chướng ngại**. PC Gamer đọc đây là kiểu khoá tiến trình **metroidvania nhẹ**: có món mới thì quay lại khu cũ mở lối, tìm bí mật.
 
-Ví dụ rõ nhất: hạ boss **Wan Jun "Coppermaul"** sẽ nhận **Bashpole**, cây búa chiến đập vỡ được **sàn gỗ** để lộ ra lối đi bên dưới. Bản preview GamesRadar+ cũng cho thấy một Phantom Edge rìu phá được rào chắn chặn đường.
+Ví dụ rõ nhất: hạ boss **Wan Jun "Coppermaul"** (Cự Chùy Khách: Vạn Quân) sẽ nhận **Bashpole** (Trường Bính Kim Qua), cây búa chiến đập vỡ được **sàn gỗ** để lộ ra lối đi bên dưới. Bản preview GamesRadar+ cũng cho thấy một Phantom Edge (Vũ Khí Phantom) rìu phá được rào chắn chặn đường.
 
 <div class="editorial-text-box" data-bg="#fff4e0" data-color="#2d3458" style="--box-bg: #fff4e0; --box-color: #2d3458;"><p><strong>Thói quen nên có:</strong> mỗi khi gặp tường nứt, sàn gỗ, rào chắn mà chưa phá được, ghi chú lại (chụp màn hình cũng được). Mỗi lần nhận Phantom Edge mới, lật lại danh sách đó. Bản đồ thuỷ mặc không đánh dấu giùm anh em đâu.</p></div>
 
@@ -75,7 +75,7 @@ Ví dụ rõ nhất: hạ boss **Wan Jun "Coppermaul"** sẽ nhận **Bashpole**
 |---|---|
 | **Vũ khí chính** | Đa số có thể bỏ lỡ nếu không đi vòng |
 | **Phantom Edge** | Nhiều món lấy từ boss, có món mở đường |
-| **Nguyên liệu vũ khí** | Nâng cấp vũ khí, có thể thu hồi qua Reforge |
+| **Nguyên liệu vũ khí** | Nâng cấp vũ khí, có thể thu hồi qua Reforge (Hoàn Nguyên) |
 | **Memory Flower** | Gắn với nâng máu và kỹ năng, kể phần quan trọng của câu chuyện |
 | **Ghi chép, tài liệu** | Mảnh ghép cốt truyện về âm mưu khởi đầu mọi chuyện |
 | **Boss ẩn** | Điều kiện tới True Ending, theo review GamesRadar+ |

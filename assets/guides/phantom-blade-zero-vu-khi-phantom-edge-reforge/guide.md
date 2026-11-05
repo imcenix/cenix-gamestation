@@ -1,5 +1,5 @@
 ---
-title: "Phantom Blade Zero - Vũ khí, Phantom Edge và Reforge: hơn 55 món, cầm gì cho hợp tay"
+title: "Phantom Blade Zero - Vũ khí, Phantom Edge (Vũ Khí Phantom) và Reforge (Hoàn Nguyên): hơn 55 món, cầm gì cho hợp tay"
 slug: phantom-blade-zero-vu-khi-phantom-edge-reforge
 level: build
 date: 2026-10-26
@@ -13,7 +13,7 @@ tags:
 excerpt: Hơn 30 vũ khí chính, 25 Phantom Edge, phụ kiện, Power Surge và Reforge hoàn nguyên liệu. Phần lớn vũ khí có thể bỏ lỡ nếu chỉ chạy truyện. Cenix gom hết những gì đã biết để anh em khỏi hụt món nào.
 cover: cover.jpg
 ---
-Mấy ông mê sưu tầm đồ chắc đã sẵn sàng: Phantom Blade Zero có **hơn 30 vũ khí chính** và **25 vũ khí phụ gọi là Phantom Edge**, theo bài đăng State of Play của PlayStation Blog ngày 17/8/2026. Cộng thêm phụ kiện, nâng cấp và hệ thống rèn lại, đây là chỗ build nhân vật thật sự nằm, vì game không có kiểu cộng điểm chỉ số rườm rà như Nioh.
+Mấy ông mê sưu tầm đồ chắc đã sẵn sàng: Phantom Blade Zero có **hơn 30 vũ khí chính** và **25 vũ khí phụ gọi là Phantom Edge** (Vũ Khí Phantom), theo bài đăng State of Play của PlayStation Blog ngày 17/8/2026. Cộng thêm phụ kiện, nâng cấp và hệ thống rèn lại, đây là chỗ build nhân vật thật sự nằm, vì game không có kiểu cộng điểm chỉ số rườm rà như Nioh.
 
 Nhưng có một lời cảnh báo cần nói ngay từ đầu.
 
@@ -28,17 +28,17 @@ Soul mang **hai vũ khí chính** cùng lúc và đổi qua lại **giữa chu�
 -   Một món **tích hiệu ứng chảy máu** khi chém kẻ địch là người.
 -   Một món gây trạng thái **Tipsy** rồi **Drunk** (chếnh choáng rồi say), nghe là biết dân Túy Quyền mê rồi.
 
-Thêm nữa, **đổi vũ khí giữa combo còn hồi Sha-Chi**, nên cặp hai món bổ trợ cho nhau là cách chơi chuẩn chứ không chỉ để cho đẹp.
+Thêm nữa, **đổi vũ khí giữa combo còn hồi Sha-Chi** (Sát Khí), nên cặp hai món bổ trợ cho nhau là cách chơi chuẩn chứ không chỉ để cho đẹp.
 
 ### <span style="color:rgb(200, 240, 60)">Những món đã lộ diện</span>
 
 | Vũ khí | Loại | Điểm đáng chú ý |
 |---|---|---|
-| **Soft Snake Sword** (nhuyễn kiếm) | Chính | Lưỡi uốn như dải lụa; parry hung nhưng di chuyển chậm, hợp tay đôi với boss |
-| **White Serpent & Crimson Viper** (Bạch Mãng & Xích Xà) | Chính, song kiếm | Nối chuỗi và ném kiếm điều khiển được, theo các đoạn trailer |
+| **Soft Snake Sword** (Linh Xà Nhuyễn Kiếm) | Chính | Lưỡi uốn như dải lụa; parry hung nhưng di chuyển chậm, hợp tay đôi với boss |
+| **White Serpent & Crimson Viper** (Bạch Mãng & Xích Luyện) | Chính, song kiếm | Nối chuỗi và ném kiếm điều khiển được, theo các đoạn trailer |
 | **Iron Longsword** (kiếm dài thép) | Chính | Nhịp trung tính, cộng đồng hay khuyên dùng để tập |
 | Song chuỷ thủ / đại đao | Chính | Bản preview GamesRadar+ cho chọn giữa song chuỷ nhanh và đao lớn chậm |
-| **Bashpole** | Phantom Edge, búa chiến | Lấy từ boss Wan Jun "Coppermaul"; phá sàn gỗ mở lối mới |
+| **Bashpole** (Trường Bính Kim Qua) | Phantom Edge, búa chiến | Lấy từ boss Wan Jun "Coppermaul" (Cự Chùy Khách: Vạn Quân); phá sàn gỗ mở lối mới |
 | Cung tên | Phantom Edge | Thấy trong bản chơi thử Gamescom 2024 của PC Gamer |
 | Đầu hổ phun lửa | Phantom Edge | Cũng xuất hiện ở bản Gamescom 2024 |
 
@@ -70,7 +70,7 @@ Phụ kiện gắn kèm vũ khí để định hình lối chơi. Những loại
 
 Gợi ý: trước boss thì xem boss thuộc loại gì, đánh nguyên tố gì, rồi thay phụ kiện cho đúng. Đánh khu dày quái người thì ưu tiên phụ kiện tăng sát thương lên người.
 
-## <span style="color:rgb(255, 176, 0)">Reforge: thử thoải mái, không sợ phí nguyên liệu</span>
+## <span style="color:rgb(255, 176, 0)">Reforge (Hoàn Nguyên): thử thoải mái, không sợ phí nguyên liệu</span>
 
 Đây là hệ thống Cenix thích nhất. Theo PlayStation Blog, vũ khí đã nâng cấp có thể **rèn lại (Reforge)** để **thu hồi nguyên liệu**, rồi đổ sang một vũ khí khác.
 

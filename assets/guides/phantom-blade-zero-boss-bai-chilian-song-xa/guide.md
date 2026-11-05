@@ -1,5 +1,5 @@
 ---
-title: "Phantom Blade Zero - Boss Bai Chilian, Phu Nhân Song Xà: hai phase, rắn lụa và màn hình trắng đen"
+title: "Phantom Blade Zero - Boss Bai Chilian (Bạch Xích Luyện): hai phase, rắn lụa và màn hình trắng đen"
 slug: phantom-blade-zero-boss-bai-chilian-song-xa
 level: endgame
 date: 2026-11-04
@@ -13,23 +13,23 @@ tags:
 excerpt: Boss chốt Crimson Forest, bắt buộc phải qua. Phase một rắn lụa lao tới kèm dịch chuyển, phase hai hoá Xà Tế với đòn bay xoáy khó parry. Tin vui là tới 20% máu có đồng minh nhảy vào giúp. Cenix dắt anh em qua từng bước.
 cover: cover.jpg
 ---
-Trời ơi hot quá nè mấy pa! **Bai Chilian, Lady of the Twin Serpents** (tạm dịch: Phu Nhân Song Xà) là boss chốt vùng **Crimson Forest**, và cũng là bức tường lớn đầu tiên của cốt truyện chính. Không có đường vòng: **chưa hạ bà ta thì chưa đi tiếp được**. Thắng xong, game đưa anh em sang vùng mới ngay lập tức.
+Trời ơi hot quá nè mấy pa! **Bai Chilian, Lady of the Twin Serpents** (Song Xà Phu Nhân: Bạch Xích Luyện) là boss chốt vùng **Crimson Forest** (Rừng Huyết Sắc), và cũng là bức tường lớn đầu tiên của cốt truyện chính. Không có đường vòng: **chưa hạ bà ta thì chưa đi tiếp được**. Thắng xong, game đưa anh em sang vùng mới ngay lập tức.
 
 Cenix tổng hợp từ hướng dẫn của GamesRadar+ (đăng 3/11) cùng các bài vũ khí và tips liên quan.
 
-<div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Trước khi vào:</strong> dọn sạch nhiệm vụ phụ ở Crimson Forest, nhất là <a href="/huong-dan/phantom-blade-zero-nhiem-vu-a-healers-mercy/">A Healer's Mercy</a>, vì hạ Bai Chilian là đóng vùng và chuyển cảnh luôn. GamesRadar+ cũng gợi ý <strong>hạ <a href="/huong-dan/phantom-blade-zero-boss-con-roi-ba-mat/">Con Rối Ba Mặt</a> trước</strong> thì trận này dễ thở hơn.</p></div>
+<div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Trước khi vào:</strong> dọn sạch nhiệm vụ phụ ở Crimson Forest, nhất là <a href="/huong-dan/phantom-blade-zero-nhiem-vu-a-healers-mercy/">A Healer's Mercy (Cứu Người Bị Thương)</a>, vì hạ Bai Chilian là đóng vùng và chuyển cảnh luôn. GamesRadar+ cũng gợi ý <strong>hạ <a href="/huong-dan/phantom-blade-zero-boss-con-roi-ba-mat/">Tam Diện Hỗn Độn</a> trước</strong> thì trận này dễ thở hơn.</p></div>
 
 ## <span style="color:rgb(255, 176, 0)">Mang gì vào trận</span>
 
 | Vũ khí | Lý do |
 |---|---|
-| **Jagged Steel** | Lựa chọn số một: Bai Chilian là người, **ăn chảy máu** |
-| **Wooden Sanguine** | Parry phá thế tốt, hữu ích suốt trận |
-| **Outlaw Warblade** | Đánh rất đau nhưng **tự làm mất máu**, chỉ dùng khi tự tin |
+| **Jagged Steel** (Tàn Cương Đao) | Lựa chọn số một: Bai Chilian là người, **ăn chảy máu** |
+| **Wooden Sanguine** (Mộc Hắc Thương) | Parry phá thế tốt, hữu ích suốt trận |
+| **Outlaw Warblade** (Đãng Khấu Hung Nhận) | Đánh rất đau nhưng **tự làm mất máu**, chỉ dùng khi tự tin |
 
-Phụ kiện thì vẫn bộ quen: **Ancient Armor Fragment** giảm sát thương, thêm món tăng máu hoặc Sha-Chi. Chi tiết từng món ở bài [Vũ khí đầu game](/huong-dan/phantom-blade-zero-vu-khi-dau-game-outlaw-warblade/).
+Phụ kiện thì vẫn bộ quen: **Ancient Armor Fragment** (Mảnh Vỡ Giáp Cổ) giảm sát thương, thêm món tăng máu hoặc Sha-Chi (Sát Khí). Chi tiết từng món ở bài [Vũ khí đầu game](/huong-dan/phantom-blade-zero-vu-khi-dau-game-outlaw-warblade/).
 
-## <span style="color:rgb(255, 176, 0)">Phase 1: Phu Nhân Song Xà</span>
+## <span style="color:rgb(255, 176, 0)">Phase 1: Song Xà Phu Nhân</span>
 
 Bai Chilian **xen kẽ đòn tầm xa và combo cận chiến**, đồng thời gọi ra những **con rắn lụa khổng lồ** lao sầm tới, đôi khi kết hợp với **dịch chuyển**.
 
@@ -46,9 +46,9 @@ Khi **màn hình chuyển trắng đen**, bà ta sắp tung đòn **hút Sha-Chi
 2.  **Rắn lụa**: chạy ra khỏi vùng va chạm thật nhanh, đừng cố đỡ.
 3.  Vỡ thế thì dồn sát thương, chảy máu sẽ cộng thêm phần lớn.
 
-## <span style="color:rgb(255, 176, 0)">Phase 2: Xà Tế</span>
+## <span style="color:rgb(255, 176, 0)">Phase 2: Mãng Xà Hiến Tế</span>
 
-Khi hết máu, Bai Chilian hoá thành **Sacrificial Serpent** (Xà Tế). Tin tốt: game cho một **checkpoint trước phase này**, chết ở đây không phải đánh lại từ đầu.
+Khi hết máu, Bai Chilian hoá thành **Sacrificial Serpent** (Mãng Xà Hiến Tế). Tin tốt: game cho một **checkpoint trước phase này**, chết ở đây không phải đánh lại từ đầu.
 
 ### <span style="color:rgb(200, 240, 60)">Những đòn mới</span>
 
@@ -59,21 +59,21 @@ Thời điểm parry những đòn này rất khó canh. GamesRadar+ khuyên **g
 
 ### <span style="color:rgb(200, 240, 60)">Đồng minh tới cứu: Illusion of the Chord</span>
 
-Khi Xà Tế mất khoảng **20% máu**, một đồng minh tên **Illusion of the Chord** xuất hiện và giúp phá thế dễ hơn hẳn. Mẹo quan trọng:
+Khi Mãng Xà Hiến Tế mất khoảng **20% máu**, một đồng minh tên **Illusion of the Chord** xuất hiện và giúp phá thế dễ hơn hẳn. Mẹo quan trọng:
 
 -   **Đừng phí thời gian đánh mấy con rắn khổng lồ đứng yên.**
 -   Đứng tránh xa, chờ Chord bắn ra **quả cầu lớn phá Sha-Chi**.
--   Quả cầu trúng là **lao vào ngay**: Xà Tế chỉ choáng vài giây rồi hồi lại.
+-   Quả cầu trúng là **lao vào ngay**: Mãng Xà Hiến Tế chỉ choáng vài giây rồi hồi lại.
 
 ## <span style="color:rgb(255, 176, 0)">Phần thưởng</span>
 
 | Phần thưởng | Ghi chú |
 |---|---|
-| **Broken Illusory Pipa** | Vật phẩm cốt truyện, gắn với nhiệm vụ **Whence The Weeping** |
-| **White Serpent & Crimson Viper** | Song kiếm mạnh, nhận khi tỉnh dậy ở **Village of Lu** |
-| **Resonance Talisman** | Phụ kiện tăng **Sha-Chi tối đa** |
+| **Broken Illusory Pipa** (Tỳ Bà Huyễn Thuật Gãy) | Vật phẩm cốt truyện, gắn với nhiệm vụ **Whence The Weeping** (Tiếng Khóc Nơi Đâu) |
+| **White Serpent & Crimson Viper** (Bạch Mãng & Xích Luyện) | Song kiếm mạnh, nhận khi tỉnh dậy ở **Village of Lu** (Thôn Lục Gia) |
+| **Resonance Talisman** (Huyền Âm Hộ Phù) | Phụ kiện tăng **Sha-Chi tối đa** |
 
-Song kiếm **White Serpent & Crimson Viper** là món Cenix đã nhắc từ bài trước ngày ra mắt, giờ thì chính thức nằm trong tay anh em. Wccftech gợi ý ghép nó với **Outlaw Warblade**: song kiếm đánh nhẹ, đánh nặng xen kẽ để tích Essence thật nhanh, rồi đổi sang đại đao xả Power Surge hồi máu.
+Song kiếm **White Serpent & Crimson Viper** là món Cenix đã nhắc từ bài trước ngày ra mắt, giờ thì chính thức nằm trong tay anh em. Wccftech gợi ý ghép nó với **Outlaw Warblade**: song kiếm đánh nhẹ, đánh nặng xen kẽ để tích Essence thật nhanh, rồi đổi sang đại đao xả Power Surge (Tuyệt Kỹ) hồi máu.
 
 Anh em qua Bai Chilian sau bao nhiêu lần thử? Phase nào hành anh em nhiều hơn, rắn lụa hay đòn bay xoáy? Comment cho Cenix nghe chiến tích nha.
 

@@ -23,7 +23,7 @@ Bài này kể lại hành trình đó: S-GAME là ai, người đứng đầu l
 
 **Soulframe** là bút danh của **Lương Kỳ Vĩ** (Qiwei Liang, 梁其伟), nhà sáng lập S-GAME, kiêm giám đốc và nhà sản xuất của Phantom Blade Zero. Ông đã gắn bó với loạt Phantom Blade **hơn một thập kỷ**, và Soul, nhân vật chính của Zero, cũng là nhân vật xuyên suốt từ những ngày đầu.
 
-Bên cạnh ông là **Qianli Ma**, đồng sáng lập kiêm combat director, người đứng sau triết lý "thắng cho đẹp" của chế độ Hellwalker mà PC Gamer từng phỏng vấn.
+Bên cạnh ông là **Qianli Ma**, đồng sáng lập kiêm combat director, người đứng sau triết lý "thắng cho đẹp" của chế độ Hellwalker (Nghịch Thiên) mà PC Gamer từng phỏng vấn.
 
 ## <span style="color:rgb(255, 176, 0)">Từ Rainblood tới Executioners</span>
 

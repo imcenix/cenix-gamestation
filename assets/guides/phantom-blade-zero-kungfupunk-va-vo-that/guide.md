@@ -40,7 +40,7 @@ Soul là hình mẫu **hiệp khách** kinh điển: có nguyên tắc riêng, s
 S-GAME đưa vào game rất nhiều chất liệu dân gian Trung Hoa, gồm:
 
 -   Nghi lễ từ đường miền Nam.
--   **Múa lân Quảng Đông**, mà boss **Flame, Lão Sư Múa Lân Đeo Mặt Nạ** là ví dụ rõ nhất.
+-   **Múa lân Quảng Đông**, mà boss **Flame** (Vũ Sư Tôn Chủ: Liệt Diễm) là ví dụ rõ nhất.
 -   **Rối Chiết Giang**, khớp với nhà kho treo đầy rối gỗ và phase con rối của boss Thất Tinh.
 -   Rước thần Phúc Kiến, **mặt nạ Na** Giang Tây, **biến diện** Tứ Xuyên và **Kinh kịch**.
 
@@ -73,7 +73,7 @@ Liang cho rằng motion capture thuần tuý không làm nổi những chiêu n�
 
 Trong quá trình nghiên cứu, đội ngũ đi khắp nơi tập cùng **cao thủ Thiếu Lâm**, **người luyện võ ở Nga Mi** và **các đoàn múa lân Quảng Đông**. Vũ khí trong game được phát triển từ binh khí truyền thống, và S-GAME còn đặt **thợ rèn làm bản sao thật** để đội ngũ cầm lên, cảm nhận trọng lượng và độ dài ảnh hưởng tới chuyển động ra sao.
 
-### <span style="color:rgb(200, 240, 60)">Vì sao chỉ có một thanh Sha-Chi?</span>
+### <span style="color:rgb(200, 240, 60)">Vì sao chỉ có một thanh Sha-Chi (Sát Khí)?</span>
 
 Theo Liang, võ thuật Trung Hoa coi **công và thủ là một động tác liền mạch**. Đó là lý do game dùng một thanh **Sha-Chi** duy nhất, thay vì tách thể lực và thế đứng như Sekiro. Wes Fenlon của PC Gamer cũng phải "học lại cách kiếm vận hành" mới thấm: trong phim võ hiệp như Ngoạ Hổ Tàng Long hay Tiếu Ngạo Giang Hồ II, đòn đỡ trông y như đòn chém, kiếm dội vào kiếm liên tục chứ không có nhịp đánh – đỡ rạch ròi.
 

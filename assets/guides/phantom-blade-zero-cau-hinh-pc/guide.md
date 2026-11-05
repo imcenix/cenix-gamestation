@@ -55,7 +55,7 @@ Tối thiểu và đề nghị đều 16GB. Nếu anh em hay mở Chrome, Discor
 
 -   **Denuvo:** trang Steam ghi game dùng **Denuvo Anti-tamper**.
 -   **Ray tracing:** có hỗ trợ trên phần cứng đủ mạnh, nhưng S-GAME cho biết hình ảnh game không phụ thuộc vào nó.
--   **Ngôn ngữ:** 15 ngôn ngữ, trong đó **tiếng Anh và tiếng Trung giản thể có lồng tiếng đầy đủ**. Tiếng Việt không nằm trong danh sách lồng tiếng.
+-   **Ngôn ngữ:** 15 ngôn ngữ, trong đó **tiếng Anh và tiếng Trung giản thể có lồng tiếng đầy đủ**. Tiếng Việt có **giao diện và phụ đề**, chỉ không có lồng tiếng.
 -   **Hoàn tiền Steam:** đặt trước thì hoàn được bất cứ lúc nào trước ngày phát hành. Sau phát hành, chính sách chuẩn của Steam là trong **14 ngày** và chơi **dưới 2 tiếng**.
 -   **Nền tảng:** PC có cả **Steam** và **Epic Games Store**. Xbox chưa được công bố.
 

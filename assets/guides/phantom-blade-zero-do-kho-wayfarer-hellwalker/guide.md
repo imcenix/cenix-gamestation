@@ -1,5 +1,5 @@
 ---
-title: "Phantom Blade Zero - Độ khó Wayfarer, Hellwalker và Sixty-Six Days: chọn sao cho khỏi hối hận"
+title: "Phantom Blade Zero - Độ khó Wayfarer (Nhập Trận), Hellwalker (Nghịch Thiên) và Sixty-Six Days (66 Ngày): chọn sao cho khỏi hối hận"
 slug: phantom-blade-zero-do-kho-wayfarer-hellwalker
 level: endgame
 date: 2026-10-26
@@ -13,11 +13,11 @@ tags:
 excerpt: Wayfarer để xem truyện, Hellwalker để múa kiếm với AI biết đọc vị, còn Sixty-Six Days thì chết đủ 66 lần là mất trắng. Một khi đã máu thì đừng hỏi bố cháu là ai nữa, nhưng đọc bài này trước đã.
 cover: cover.jpg
 ---
-Khác với kiểu "khó cho tất cả" của souls-like, Phantom Blade Zero cho anh em chọn độ khó. Ba cái tên chính thức được công bố trong State of Play ngày **17/8/2026** là **Wayfarer**, **Hellwalker** và **Sixty-Six Days**. Nghe thì đơn giản, nhưng mỗi mức thay đổi cả cách boss suy nghĩ chứ không chỉ cộng thêm máu và sát thương.
+Khác với kiểu "khó cho tất cả" của souls-like, Phantom Blade Zero cho anh em chọn độ khó. Ba cái tên chính thức được công bố trong State of Play ngày **17/8/2026** là **Wayfarer** (Nhập Trận), **Hellwalker** (Nghịch Thiên) và **Sixty-Six Days** (66 Ngày). Nghe thì đơn giản, nhưng mỗi mức thay đổi cả cách boss suy nghĩ chứ không chỉ cộng thêm máu và sát thương.
 
 Bài này Cenix tổng hợp từ PlayStation Blog, phỏng vấn combat director **Qianli Ma** trên PC Gamer và bài review mới nhất của GamesRadar+.
 
-<div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Lời khuyên của Cenix:</strong> lần đầu chơi chọn <strong>mức mặc định</strong> (hoặc <strong>Wayfarer</strong> nếu chỉ muốn xem truyện). <strong>Hellwalker</strong> để dành cho lần hai khi đã có đồ xịn qua New Game+. <strong>Sixty-Six Days</strong> chỉ nên đụng khi đã phá đảo ít nhất một lần.</p></div>
+<div class="editorial-text-box" data-bg="#e8f8ef" data-color="#2d3458" style="--box-bg: #e8f8ef; --box-color: #2d3458;"><p><strong>Lời khuyên của Cenix:</strong> lần đầu chơi chọn <strong>mức mặc định</strong> (hoặc <strong>Wayfarer</strong> nếu chỉ muốn xem truyện). <strong>Hellwalker</strong> để dành cho lần hai khi đã có đồ xịn qua New Game+ (Luân Hồi Mới). <strong>Sixty-Six Days</strong> chỉ nên đụng khi đã phá đảo ít nhất một lần.</p></div>
 
 ## <span style="color:rgb(255, 176, 0)">Wayfarer: lữ khách thong dong</span>
 
@@ -31,7 +31,7 @@ Phantom Blade Zero có **8 kết thúc** phụ thuộc vào số nhiệm vụ ph
 
 ## <span style="color:rgb(255, 176, 0)">Mức mặc định: nơi học bài</span>
 
-Ở độ khó thường, theo Qianli Ma, **boss dùng combo cố định**. Chết vài lần là thuộc bài, lần sau parry trúng hết. Đây là mức hợp nhất để học luật xanh – đỏ và làm quen từng loại vũ khí. Tên chính thức bằng tiếng Anh của mức này chưa được công bố rõ ràng tới thời điểm Cenix viết bài.
+Ở độ khó thường, theo Qianli Ma, **boss dùng combo cố định**. Chết vài lần là thuộc bài, lần sau parry trúng hết. Đây là mức hợp nhất để học luật xanh – đỏ và làm quen từng loại vũ khí. Cập nhật sau ra mắt: trong game, mức này tên là **Pathbreaker (Phá Cục)**.
 
 ## <span style="color:rgb(255, 176, 0)">Hellwalker: kẻ đi trong địa ngục</span>
 

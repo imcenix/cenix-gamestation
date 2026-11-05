@@ -31,7 +31,7 @@ Không cần chơi các phần Phantom Blade hay Rainblood trước. Zero là m�
 
 *Nón lá, áo choàng rách, ánh mắt chả buồn nhìn ai. Soul là kiểu sát thủ "nói ít, chém nhiều" điển hình.*
 
-## <span style="color:rgb(255, 176, 0)">Sha-Chi: một thanh cho cả công lẫn thủ</span>
+## <span style="color:rgb(255, 176, 0)">Sha-Chi (Sát Khí): một thanh cho cả công lẫn thủ</span>
 
 Thứ đầu tiên phải hiểu là **Sha-Chi** (sát khí). Đây là thanh tài nguyên dùng chung cho cả tấn công mạnh lẫn đỡ đòn. Khác với souls-like, game không tách thể lực và thế đứng thành hai thanh riêng. S-GAME giải thích rằng võ Trung Hoa vốn coi công và thủ là một động tác liền mạch, nên họ làm một thanh duy nhất.
 
@@ -51,13 +51,13 @@ Chi tiết cách tính và vòng lặp combat, Cenix viết riêng trong bài [S
 
 **Ghostep** là pha "dịch chuyển" ra sau lưng đối thủ, kích hoạt khi anh em parry đòn xanh hoặc né xuyên đòn đỏ đúng lúc. Đây là khoảnh khắc đẹp nhất của game, nhìn y chang phim võ hiệp Hồng Kông thập niên 90.
 
-## <span style="color:rgb(255, 176, 0)">Hai vũ khí chính, một Phantom Edge</span>
+## <span style="color:rgb(255, 176, 0)">Hai vũ khí chính, một Phantom Edge (Vũ Khí Phantom)</span>
 
 Phantom Blade Zero có **hơn 30 vũ khí chính** và **25 vũ khí phụ** tên là **Phantom Edge**, theo bài đăng của PlayStation Blog ngày 17/8/2026.
 
 -   Soul mang **hai vũ khí chính** cùng lúc và đổi qua lại **ngay giữa combo**. Mỗi món có bộ chiêu và **Power Surge** (tuyệt kỹ) riêng.
 -   **Phantom Edge** là vũ khí phụ dùng có giới hạn: rìu, búa, đại bác, cung, thương... Nhiều món lấy được khi hạ boss, và có món còn **phá chướng ngại** để mở đường mới.
--   **Reforge** (rèn lại) cho phép rút lại nguyên liệu đã nâng cấp một món để đổ sang món khác, nên cứ thoải mái thử.
+-   **Reforge** (Hoàn Nguyên) cho phép rút lại nguyên liệu đã nâng cấp một món để đổ sang món khác, nên cứ thoải mái thử.
 -   **Phụ kiện** cho kháng nguyên tố, tăng sát thương lên một số loại địch hoặc cộng máu.
 
 <div class="editorial-text-box" data-bg="#fff4e0" data-color="#2d3458" style="--box-bg: #fff4e0; --box-color: #2d3458;"><p><strong>Cảnh báo:</strong> reviewer GamesRadar+ cho biết <strong>phần lớn vũ khí có thể bỏ lỡ</strong> nếu chỉ chạy cốt truyện. Thấy lối rẽ, thấy cửa lạ là cứ ghé. Toàn bộ chuyện vũ khí Cenix gom trong bài <a href="/huong-dan/phantom-blade-zero-vu-khi-phantom-edge-reforge/">Vũ khí, Phantom Edge và Reforge</a>.</p></div>
@@ -66,9 +66,9 @@ Phantom Blade Zero có **hơn 30 vũ khí chính** và **25 vũ khí phụ** tê
 
 Không như souls-like "khó cho tất cả", Phantom Blade Zero có nhiều mức:
 
--   **Wayfarer**: dành cho người muốn tận hưởng cốt truyện.
--   **Hellwalker**: khó hơn, AI địch thông minh và biết thích nghi.
--   **Sixty-Six Days**: chế độ "không dành cho người yếu tim". Theo review của GamesRadar+, chết **66 lần** là mất sạch tiến trình.
+-   **Wayfarer** (Nhập Trận): dành cho người muốn tận hưởng cốt truyện.
+-   **Hellwalker** (Nghịch Thiên): khó hơn, AI địch thông minh và biết thích nghi.
+-   **Sixty-Six Days** (66 Ngày): chế độ "không dành cho người yếu tim". Theo review của GamesRadar+, chết **66 lần** là mất sạch tiến trình.
 
 Lần đầu chơi, Cenix khuyên đi mức mặc định hoặc Wayfarer cho tới khi phản xạ xanh – đỏ thành bản năng. Phân tích kỹ từng mức có trong bài [Độ khó Wayfarer, Hellwalker và Sixty-Six Days](/huong-dan/phantom-blade-zero-do-kho-wayfarer-hellwalker/).
 
@@ -92,11 +92,11 @@ Game có **8 bản đồ** nối liền với nhau thành một thế giới, d�
     
 7.  **Nói chuyện với NPC, làm nhiệm vụ phụ.** Số nhiệm vụ phụ hoàn thành ảnh hưởng thẳng tới kết thúc.
     
-8.  **Nhặt Memory Flower.** Chúng gắn với nâng máu và kỹ năng, đồng thời kể phần lớn câu chuyện.
+8.  **Nhặt Memory Flower (Hoa Ký Ức).** Chúng gắn với nâng máu và kỹ năng, đồng thời kể phần lớn câu chuyện.
     
 9.  **Đánh hội đồng thì đừng tham.** Địch đi theo đội hình, combo dài vào một đứa là bị đứa khác chém sau lưng.
     
-10.  **Lần đầu chơi chậm thôi.** Có New Game+ để quay lại với độ khó cao hơn khi đã quen tay.
+10.  **Lần đầu chơi chậm thôi.** Có New Game+ (Luân Hồi Mới) để quay lại với độ khó cao hơn khi đã quen tay.
     
 
 Rồi đó, nắm mấy cái này là đủ vốn để bước vào võ lâm mà không bị ngợp. Hôm nay không chơi hôm nào chơi? Anh em đã đặt trước bản nào, PS5 hay PC? Ai định đi thẳng Hellwalker từ đầu cho máu thì điểm danh dưới phần bình luận để Cenix còn biết mà chuẩn bị nhang đèn nha.

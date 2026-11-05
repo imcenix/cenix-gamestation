@@ -68,15 +68,15 @@ Bản đồ và điểm nghỉ có hơi hướng souls-like, nhưng combat là h
 
 ### <span style="color:rgb(200, 240, 60)">Có chỉnh độ khó không?</span>
 
-**Có.** Ba cái tên chính thức: **Wayfarer** (xem truyện), **Hellwalker** (AI thích nghi) và **Sixty-Six Days** (chết 66 lần là mất tiến trình, theo review GamesRadar+). Xem bài [Độ khó Wayfarer, Hellwalker và Sixty-Six Days](/huong-dan/phantom-blade-zero-do-kho-wayfarer-hellwalker/).
+**Có.** Ba cái tên chính thức: **Wayfarer** (Nhập Trận, xem truyện), **Hellwalker** (Nghịch Thiên, AI thích nghi) và **Sixty-Six Days** (66 Ngày, chết 66 lần là mất tiến trình, theo review GamesRadar+). Xem bài [Độ khó Wayfarer, Hellwalker và Sixty-Six Days](/huong-dan/phantom-blade-zero-do-kho-wayfarer-hellwalker/).
 
-### <span style="color:rgb(200, 240, 60)">Có New Game+ không?</span>
+### <span style="color:rgb(200, 240, 60)">Có New Game+ (Luân Hồi Mới) không?</span>
 
 **Có**, đã được xác nhận.
 
 ### <span style="color:rgb(200, 240, 60)">Bao nhiêu vũ khí?</span>
 
-**Hơn 30 vũ khí chính** và **25 Phantom Edge**, kèm phụ kiện và hệ thống Reforge. Chi tiết ở bài [Vũ khí, Phantom Edge và Reforge](/huong-dan/phantom-blade-zero-vu-khi-phantom-edge-reforge/).
+**Hơn 30 vũ khí chính** và **25 Phantom Edge** (Vũ Khí Phantom), kèm phụ kiện và hệ thống Reforge (Hoàn Nguyên). Chi tiết ở bài [Vũ khí, Phantom Edge và Reforge](/huong-dan/phantom-blade-zero-vu-khi-phantom-edge-reforge/).
 
 ### <span style="color:rgb(200, 240, 60)">Mấy kết thúc?</span>
 
@@ -86,7 +86,7 @@ Bản đồ và điểm nghỉ có hơi hướng souls-like, nhưng combat là h
 
 ### <span style="color:rgb(200, 240, 60)">Có tiếng Việt không?</span>
 
-Game hỗ trợ **15 ngôn ngữ**. **Tiếng Anh và tiếng Trung giản thể** có lồng tiếng đầy đủ, 13 ngôn ngữ còn lại có phụ đề và giao diện. Danh sách đầy đủ anh em xem trên trang Steam, Cenix chưa thấy tiếng Việt trong phần lồng tiếng.
+Game hỗ trợ **15 ngôn ngữ**. **Tiếng Anh và tiếng Trung giản thể** có lồng tiếng đầy đủ, 13 ngôn ngữ còn lại có phụ đề và giao diện, trong đó **có tiếng Việt**. Nghĩa là anh em chơi được bản giao diện và phụ đề tiếng Việt, chỉ phần lồng tiếng là tiếng Anh hoặc tiếng Trung. Trong các bài hướng dẫn, Cenix ghi tên tiếng Anh kèm tên trong bản tiếng Việt trong ngoặc để anh em dễ đối chiếu.
 
 ### <span style="color:rgb(200, 240, 60)">Có cần chơi các phần Phantom Blade trước?</span>
 
