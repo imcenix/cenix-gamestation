@@ -2,7 +2,7 @@
 type: platinum
 title: Horizon Zero Dawn
 thumbnail: 7502.jpeg.webp
-order: 12
+order: 14
 gold: 2
 silver: 5
 bronze: 49

@@ -2,7 +2,7 @@
 type: platinum
 title: Game of Thrones
 thumbnail: gameofthronestelltale1.webp
-order: 14
+order: 16
 gold: 2
 silver: 12
 bronze: 34
